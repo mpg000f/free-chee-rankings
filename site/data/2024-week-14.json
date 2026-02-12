@@ -1,0 +1,146 @@
+{
+  "week_id": "2024-week-14",
+  "season": "2024",
+  "week": 14,
+  "type": "regular",
+  "title": "Free Chee Week 14 Power Rankings",
+  "label": "Week 14",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "Stewed C",
+      "owner": "Joey",
+      "lw_rank": 2,
+      "tier": "Co-Favorites",
+      "subsections": []
+    },
+    {
+      "rank": 2,
+      "team_name": "Life With Derrick",
+      "owner": "Justin",
+      "lw_rank": 1,
+      "tier": "Co-Favorites",
+      "subsections": []
+    },
+    {
+      "rank": 3,
+      "team_name": "Deserves to be Shot",
+      "owner": "Mitch",
+      "lw_rank": 6,
+      "tier": "Playoffs",
+      "subsections": []
+    },
+    {
+      "rank": 4,
+      "team_name": "Cap Stoppers",
+      "owner": "TJ",
+      "lw_rank": 5,
+      "tier": "Playoffs",
+      "subsections": []
+    },
+    {
+      "rank": 5,
+      "team_name": "Gorlock the Destroyer Schwartz",
+      "owner": "Papi",
+      "lw_rank": 3,
+      "tier": "Playoffs",
+      "subsections": []
+    },
+    {
+      "rank": 6,
+      "team_name": "Pigs on the 7th Rank",
+      "owner": "Deez",
+      "lw_rank": 4,
+      "tier": "Playoffs",
+      "subsections": []
+    },
+    {
+      "rank": 7,
+      "team_name": "WHERESTUA",
+      "owner": "Matt",
+      "lw_rank": 8,
+      "tier": "Bubble Watch",
+      "subsections": []
+    },
+    {
+      "rank": 8,
+      "team_name": "Hand me the Piss",
+      "owner": "TK",
+      "lw_rank": 7,
+      "tier": "Bubble Watch",
+      "subsections": []
+    },
+    {
+      "rank": 9,
+      "team_name": "Ger",
+      "owner": "Ger",
+      "lw_rank": 11,
+      "tier": "Bubble Watch",
+      "subsections": []
+    },
+    {
+      "rank": 10,
+      "team_name": "Sweeney.",
+      "owner": "Connor",
+      "lw_rank": 10,
+      "tier": "Bubble Watch",
+      "subsections": []
+    },
+    {
+      "rank": 11,
+      "team_name": "Sansa Ludacris",
+      "owner": "Chris",
+      "lw_rank": 9,
+      "tier": "The Pig Farm",
+      "subsections": []
+    },
+    {
+      "rank": 12,
+      "team_name": "Here Without You Tishman",
+      "owner": "Gallo",
+      "lw_rank": 13,
+      "tier": "The Pig Farm",
+      "subsections": []
+    },
+    {
+      "rank": 13,
+      "team_name": "Senior AI Coke Twins",
+      "owner": "Mikey",
+      "lw_rank": 12,
+      "tier": "The Pig Farm",
+      "subsections": []
+    },
+    {
+      "rank": 14,
+      "team_name": "Work Ass",
+      "owner": "Sweeney",
+      "lw_rank": 15,
+      "tier": "The Pig Farm",
+      "subsections": []
+    },
+    {
+      "rank": 15,
+      "team_name": "Gotham Rogues",
+      "owner": "Joe",
+      "lw_rank": 14,
+      "tier": "The Pig Farm",
+      "subsections": []
+    },
+    {
+      "rank": 16,
+      "team_name": "Marvin\u2019s Receiver Room",
+      "owner": "Paul",
+      "lw_rank": 16,
+      "tier": "The Pig Farm",
+      "subsections": []
+    }
+  ],
+  "tiers": [
+    "Co-Favorites",
+    "Playoffs",
+    "Bubble Watch",
+    "The Pig Farm"
+  ],
+  "has_special_sections": true,
+  "image_count": 0
+}

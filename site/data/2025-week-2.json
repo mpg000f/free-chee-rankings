@@ -1,0 +1,193 @@
+{
+  "week_id": "2025-week-2",
+  "season": "2025",
+  "week": 2,
+  "type": "regular",
+  "title": "Free Chee Week 2 Power Rankings 2025",
+  "label": "Week 2",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "Work Ass",
+      "owner": "Sweeney",
+      "lw_rank": null,
+      "tier": "The Favorites",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 2,
+      "team_name": "Stewed C",
+      "owner": "Joey",
+      "lw_rank": null,
+      "tier": "The Favorites",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 3,
+      "team_name": "The Jackson Brownes",
+      "owner": "Boyle",
+      "lw_rank": null,
+      "tier": "The Favorites",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 4,
+      "team_name": "Team Obama Sopranos",
+      "owner": "TK",
+      "lw_rank": null,
+      "tier": "The Favorites",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 5,
+      "team_name": "Ginny Sack",
+      "owner": "Chris",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 6,
+      "team_name": "Cookie Monster Golf Cart",
+      "owner": "TJ",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 7,
+      "team_name": "Gorlock the Destroyer Schwartz",
+      "owner": "Papi",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 8,
+      "team_name": "The Art of the Deal",
+      "owner": "Matt",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 9,
+      "team_name": "Team Daniel",
+      "owner": "Paul",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 10,
+      "team_name": "Life with Derrick",
+      "owner": "Justin",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 11,
+      "team_name": "Pigs on the 7th Rank",
+      "owner": "Deez",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 12,
+      "team_name": "Sweeney Deez and Zaukas",
+      "owner": "Mitch",
+      "lw_rank": null,
+      "tier": "Muddled Middle",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 13,
+      "team_name": "Here Without You Tishman",
+      "owner": "Gallo",
+      "lw_rank": null,
+      "tier": "Retard Hour",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 14,
+      "team_name": "Sweeney.",
+      "owner": "Connor",
+      "lw_rank": null,
+      "tier": "Retard Hour",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 15,
+      "team_name": "Senior AI Coke Twins",
+      "owner": "Oscar",
+      "lw_rank": null,
+      "tier": "Retard Hour",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    },
+    {
+      "rank": 16,
+      "team_name": "Ger- still uses emoji stuff for team name. Nobody gets.",
+      "owner": "Ger",
+      "lw_rank": null,
+      "tier": "Retard Hour",
+      "subsections": [
+        "best_pick",
+        "worst_pick"
+      ]
+    }
+  ],
+  "tiers": [
+    "The Favorites",
+    "Muddled Middle",
+    "Retard Hour"
+  ],
+  "has_special_sections": false,
+  "image_count": 3
+}

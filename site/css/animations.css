@@ -1,0 +1,93 @@
+/* Entrance animations */
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Staggered team card animations */
+.team-card { animation: slideInUp .4s ease both; }
+.team-card:nth-child(1) { animation-delay: .05s; }
+.team-card:nth-child(2) { animation-delay: .1s; }
+.team-card:nth-child(3) { animation-delay: .15s; }
+.team-card:nth-child(4) { animation-delay: .2s; }
+.team-card:nth-child(5) { animation-delay: .25s; }
+.team-card:nth-child(6) { animation-delay: .3s; }
+.team-card:nth-child(7) { animation-delay: .35s; }
+.team-card:nth-child(8) { animation-delay: .4s; }
+.team-card:nth-child(9) { animation-delay: .45s; }
+.team-card:nth-child(10) { animation-delay: .5s; }
+.team-card:nth-child(11) { animation-delay: .55s; }
+.team-card:nth-child(12) { animation-delay: .6s; }
+.team-card:nth-child(13) { animation-delay: .65s; }
+.team-card:nth-child(14) { animation-delay: .7s; }
+.team-card:nth-child(15) { animation-delay: .75s; }
+.team-card:nth-child(16) { animation-delay: .8s; }
+
+/* Tier headers */
+.tier-header { animation: slideInLeft .3s ease both; }
+
+/* Ranking graphic cards */
+.ranking-graphic-card { animation: slideInLeft .3s ease both; }
+.ranking-graphic-card:nth-child(1) { animation-delay: 0s; }
+.ranking-graphic-card:nth-child(2) { animation-delay: .02s; }
+.ranking-graphic-card:nth-child(3) { animation-delay: .04s; }
+.ranking-graphic-card:nth-child(4) { animation-delay: .06s; }
+.ranking-graphic-card:nth-child(5) { animation-delay: .08s; }
+.ranking-graphic-card:nth-child(6) { animation-delay: .1s; }
+.ranking-graphic-card:nth-child(7) { animation-delay: .12s; }
+.ranking-graphic-card:nth-child(8) { animation-delay: .14s; }
+.ranking-graphic-card:nth-child(9) { animation-delay: .16s; }
+.ranking-graphic-card:nth-child(10) { animation-delay: .18s; }
+.ranking-graphic-card:nth-child(11) { animation-delay: .2s; }
+.ranking-graphic-card:nth-child(12) { animation-delay: .22s; }
+.ranking-graphic-card:nth-child(13) { animation-delay: .24s; }
+.ranking-graphic-card:nth-child(14) { animation-delay: .26s; }
+.ranking-graphic-card:nth-child(15) { animation-delay: .28s; }
+.ranking-graphic-card:nth-child(16) { animation-delay: .3s; }
+
+/* Hero animations */
+.hero-content h1 { animation: fadeIn .8s ease both; }
+.hero-subtitle { animation: fadeIn .8s ease .2s both; }
+.hero-stats { animation: fadeIn .8s ease .4s both; }
+.cta-grid { animation: slideInUp .6s ease .6s both; }
+
+/* CTA cards hover effect */
+.cta-card { transition: transform .3s, border-color .3s, box-shadow .3s; }
+
+/* Lookback entries */
+.lookback-entry { animation: slideInUp .4s ease both; }
+
+/* Stats rows */
+.stats-table tbody tr { animation: fadeIn .3s ease both; }
+
+/* Danger zone pulse for #16 */
+.team-card[data-rank="16"] {
+  animation: slideInUp .4s ease both, dangerPulse 3s ease-in-out infinite;
+}
+@keyframes dangerPulse {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: rgba(232,68,58,.3); }
+}
+
+/* Fire shimmer for #1 */
+.icon-fire { display: inline-block; animation: fireShimmer 1.5s ease-in-out infinite; }
+@keyframes fireShimmer {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}

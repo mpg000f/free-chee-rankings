@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Owner Stats - Free Chee Power Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rankings.html">Rankings</a>
+        <a href="stats.html" class="active">Stats</a>
+        <a href="lookback.html">Lookback</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="stats-container">
+    <h1>Owner Stats</h1>
+
+    <!-- Sortable Table -->
+    <div class="table-wrapper">
+      <table class="stats-table">
+        <thead>
+          <tr>
+            <th data-sort="name">Owner <span class="sort-arrow"></span></th>
+            <th data-sort="avg_rank">Avg Rank <span class="sort-arrow">▲</span></th>
+            <th data-sort="best_rank">Best <span class="sort-arrow"></span></th>
+            <th data-sort="worst_rank">Worst <span class="sort-arrow"></span></th>
+            <th data-sort="total_weeks">Weeks <span class="sort-arrow"></span></th>
+            <th data-sort="weeks_at_1">#1s <span class="sort-arrow"></span></th>
+            <th data-sort="weeks_at_16">#16s <span class="sort-arrow"></span></th>
+            <th>Teams</th>
+          </tr>
+        </thead>
+        <tbody id="stats-table-body"></tbody>
+      </table>
+    </div>
+
+    <!-- Ranking History Chart -->
+    <div class="chart-section">
+      <h2>Ranking History</h2>
+      <div id="chart-controls" class="chart-controls">
+        <button class="season-btn active" data-season="all">All</button>
+        <button class="season-btn" data-season="2024">2024</button>
+        <button class="season-btn" data-season="2025">2025</button>
+      </div>
+      <div class="chart-wrapper">
+        <canvas id="ranking-chart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Free Chee Power Rankings &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/stats-charts.js"></script>
+</body>
+</html>

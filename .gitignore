@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+examine_pdfs.py
+
+# Source PDFs live in site/pdfs/ - don't track root copies
+/*.pdf

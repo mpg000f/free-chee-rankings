@@ -1,0 +1,171 @@
+{
+  "week_id": "2024-week-4",
+  "season": "2024",
+  "week": 4,
+  "type": "regular",
+  "title": "Free Chee Week 4 Power Rankings",
+  "label": "Week 4",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "Hand me the Piss",
+      "owner": "TK",
+      "lw_rank": 2,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 2,
+      "team_name": "Stewed C",
+      "owner": "Joey",
+      "lw_rank": 1,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 3,
+      "team_name": "Sansa Ludacris",
+      "owner": "Chris",
+      "lw_rank": 3,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 4,
+      "team_name": "Cap Stoppers",
+      "owner": "TJ",
+      "lw_rank": 8,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 5,
+      "team_name": "Gorlock the Destroyer",
+      "owner": "Papi",
+      "lw_rank": 4,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 6,
+      "team_name": "Alexander\u2019s Unreal Team",
+      "owner": "Deez",
+      "lw_rank": 11,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 7,
+      "team_name": "Tony the Phenom",
+      "owner": "Justin",
+      "lw_rank": 6,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 8,
+      "team_name": "Marvin\u2019s Receiver Room",
+      "owner": "Zaukas",
+      "lw_rank": 7,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 9,
+      "team_name": "Sweeney.",
+      "owner": "Connor",
+      "lw_rank": 9,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 10,
+      "team_name": "Work Ass",
+      "owner": "Sweeney",
+      "lw_rank": 10,
+      "tier": null,
+      "subsections": []
+    },
+    {
+      "rank": 10,
+      "team_name": "Deserves to be Shot",
+      "owner": "Mitch",
+      "lw_rank": 5,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 12,
+      "team_name": "WHERESTUA",
+      "owner": "Matt",
+      "lw_rank": 12,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 13,
+      "team_name": "Champagne Suitcase Heart Face (emoji stuff)",
+      "owner": "Ger",
+      "lw_rank": 14,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 14,
+      "team_name": "AI Coke Twins",
+      "owner": "Mikey",
+      "lw_rank": 16,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 15,
+      "team_name": "Gotham Rogues",
+      "owner": "Boyle",
+      "lw_rank": 13,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    },
+    {
+      "rank": 16,
+      "team_name": "Here Without You Tishman",
+      "owner": "Gallo",
+      "lw_rank": 15,
+      "tier": null,
+      "subsections": [
+        "next_up"
+      ]
+    }
+  ],
+  "tiers": [],
+  "has_special_sections": false,
+  "image_count": 1
+}

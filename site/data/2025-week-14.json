@@ -1,0 +1,178 @@
+{
+  "week_id": "2025-week-14",
+  "season": "2025",
+  "week": 14,
+  "type": "regular",
+  "title": "Free Chee Week 14 Power Rankings",
+  "label": "Week 14",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "Scampi",
+      "owner": "Gallo",
+      "lw_rank": null,
+      "tier": "Contenders",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 2,
+      "team_name": "Ginny Sack",
+      "owner": "Chris",
+      "lw_rank": null,
+      "tier": "Contenders",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 3,
+      "team_name": "Art of the Deal",
+      "owner": "Matt",
+      "lw_rank": null,
+      "tier": "Contenders",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 4,
+      "team_name": "Pigs on the 7th Rank",
+      "owner": "Deez",
+      "lw_rank": null,
+      "tier": "Contenders",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 5,
+      "team_name": "Work Ass",
+      "owner": "Sweeney",
+      "lw_rank": null,
+      "tier": "Playoff Teams (probably)",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 6,
+      "team_name": "Sweeney Deez and Zaukas",
+      "owner": "Mitch",
+      "lw_rank": null,
+      "tier": "Playoff Teams (probably)",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 7,
+      "team_name": "Cookie Monster Golf Cart",
+      "owner": "TJ",
+      "lw_rank": null,
+      "tier": "Playoff Teams (probably)",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 8,
+      "team_name": "The Jackson Brownes",
+      "owner": "Boyle",
+      "lw_rank": null,
+      "tier": "Playoff Teams (probably)",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 9,
+      "team_name": "Stewed C",
+      "owner": "Joey",
+      "lw_rank": null,
+      "tier": "Playoff Teams (probably)",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 10,
+      "team_name": "Team Daniel",
+      "owner": "Paul",
+      "lw_rank": null,
+      "tier": "Sneaking Around",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 11,
+      "team_name": "Team Obama Sopranos",
+      "owner": "TK",
+      "lw_rank": null,
+      "tier": "Sneaking Around",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 12,
+      "team_name": "Ger",
+      "owner": "Ger",
+      "lw_rank": null,
+      "tier": "Sneaking Around",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 13,
+      "team_name": "Sweeney.",
+      "owner": "Connor",
+      "lw_rank": null,
+      "tier": "Cooked",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 14,
+      "team_name": "Life with Derrick",
+      "owner": "Justin",
+      "lw_rank": null,
+      "tier": "Cooked",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 15,
+      "team_name": "Gorlock the Destroyer Schwartz",
+      "owner": "Simon",
+      "lw_rank": null,
+      "tier": "Cooked",
+      "subsections": [
+        "predicted_finish"
+      ]
+    },
+    {
+      "rank": 16,
+      "team_name": "Senior AI Coke Twins",
+      "owner": "Mikey",
+      "lw_rank": null,
+      "tier": "Cooked",
+      "subsections": [
+        "predicted_finish"
+      ]
+    }
+  ],
+  "tiers": [
+    "Contenders",
+    "Playoff Teams (probably)",
+    "Sneaking Around",
+    "Cooked"
+  ],
+  "has_special_sections": false,
+  "image_count": 2
+}

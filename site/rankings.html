@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rankings Browser - Free Chee Power Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rankings.html" class="active">Rankings</a>
+        <a href="stats.html">Stats</a>
+        <a href="lookback.html">Lookback</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="rankings-controls">
+    <div class="rankings-controls-inner">
+      <div id="season-toggle" class="season-toggle"></div>
+      <div id="week-pills" class="week-pills"></div>
+    </div>
+  </div>
+
+  <div class="rankings-layout">
+    <div id="ranking-graphic" class="ranking-graphic">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+    <div id="rankings-article" class="rankings-article">
+      <div class="loading"><div class="spinner"></div>Loading rankings...</div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Free Chee Power Rankings &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/rankings-browser.js"></script>
+</body>
+</html>

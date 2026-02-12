@@ -1,0 +1,3660 @@
+{
+  "seasons": [
+    "2024",
+    "2025"
+  ],
+  "weeks": [
+    {
+      "week_id": "2024-week-4",
+      "season": "2024",
+      "week": 4,
+      "type": "regular",
+      "title": "Free Chee Week 4 Power Rankings",
+      "label": "Week 4",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 2,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 1,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 3,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 8,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Papi",
+          "lw_rank": 4,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Alexander\u2019s Unreal Team",
+          "owner": "Deez",
+          "lw_rank": 11,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Tony the Phenom",
+          "owner": "Justin",
+          "lw_rank": 6,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Zaukas",
+          "lw_rank": 7,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 9,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 10,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 5,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 12,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Champagne Suitcase Heart Face (emoji stuff)",
+          "owner": "Ger",
+          "lw_rank": 14,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 16,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Gotham Rogues",
+          "owner": "Boyle",
+          "lw_rank": 13,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 15,
+          "tier": null,
+          "subsections": [
+            "next_up"
+          ]
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 1
+    },
+    {
+      "week_id": "2024-week-5",
+      "season": "2024",
+      "week": 5,
+      "type": "regular",
+      "title": "Free Chee Week 5 Power Rankings",
+      "label": "Week 5",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 1,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Papi",
+          "lw_rank": 5,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 3,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 2,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 7,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Zaukas",
+          "lw_rank": 8,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 4,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 9,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 10,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Alexander\u2019s Unreal Team",
+          "owner": "Deez",
+          "lw_rank": 6,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 10,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Champagne Suitcase Heart Emoji",
+          "owner": "Gerry Lewis",
+          "lw_rank": 13,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 12,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 14,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gotham Rogues",
+          "owner": "Joe",
+          "lw_rank": 15,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 16,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-6",
+      "season": "2024",
+      "week": 6,
+      "type": "regular",
+      "title": "Free Chee Week 6 Power Rankings",
+      "label": "Week 6",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Alexander\u2019s Unreal Team",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Gotham Rogues- Pig with Hair",
+          "owner": "Joe",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Champagne Suitcase Kiss Face",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Senior AI Coke Twins- Book D",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-7",
+      "season": "2024",
+      "week": 7,
+      "type": "regular",
+      "title": "Free Chee Week 7 Power Rankings",
+      "label": "Week 7",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 3,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 1,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 2,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 5,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Zaukas",
+          "lw_rank": 6,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Papi",
+          "lw_rank": 4,
+          "tier": "Contenders",
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 9,
+          "tier": "Mid",
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 8,
+          "tier": "Mid",
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 7,
+          "tier": "Mid",
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 10,
+          "tier": "Mid",
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 11,
+          "tier": "Mid",
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 16,
+          "tier": "Bad at Football",
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Senior AI Coke Twins- Book D",
+          "owner": "Mikey",
+          "lw_rank": 14,
+          "tier": "Bad at Football",
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 15,
+          "tier": "Bad at Football",
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 13,
+          "tier": "Scrambled Dogwater",
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Gotham Rogues",
+          "owner": "Boyle",
+          "lw_rank": 12,
+          "tier": "Scrambled Dogwater",
+          "subsections": []
+        }
+      ],
+      "tiers": [
+        "Contenders",
+        "Mid",
+        "Bad at Football",
+        "Scrambled Dogwater"
+      ],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-midseason",
+      "season": "2024",
+      "week": 8,
+      "type": "midseason",
+      "title": "Free Chee Midseason Review",
+      "label": "Midseason Review",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 1,
+          "tier": "The Triumvirate",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 2,
+          "tier": "The Triumvirate",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": 6,
+          "tier": "The Triumvirate",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 9,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 5,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 3,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 11,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 7,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 8,
+          "tier": "Playoff Teams",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Zaukas",
+          "lw_rank": 5,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 12,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 10,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 12,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 15,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 13,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Gotham Rogues",
+          "owner": "Joe",
+          "lw_rank": 16,
+          "tier": "Probably Dogwater",
+          "subsections": [
+            "draft_steal",
+            "draft_bust"
+          ]
+        }
+      ],
+      "tiers": [
+        "The Triumvirate",
+        "Playoff Teams",
+        "Probably Dogwater"
+      ],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-9",
+      "season": "2024",
+      "week": 9,
+      "type": "regular",
+      "title": "Free Chee Power Rankings Week 9",
+      "label": "Week 9",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 1,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 7,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 4,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 2,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Papi",
+          "lw_rank": 3,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 5,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 6,
+          "tier": "Playoff Bubble",
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 8,
+          "tier": "Playoff Bubble",
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 9,
+          "tier": "Playoff Bubble",
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Zaukas",
+          "lw_rank": 10,
+          "tier": "Playoff Longshots",
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Gotham Rogues",
+          "owner": "Joe",
+          "lw_rank": 16,
+          "tier": "Playoff Longshots",
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Here Without You Tishman- Gallo in boots",
+          "owner": "Gallo",
+          "lw_rank": 13,
+          "tier": "Playoff Longshots",
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 11,
+          "tier": "Playoff Longshots",
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 14,
+          "tier": "Probably Cooked",
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 12,
+          "tier": "Probably Cooked",
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 15,
+          "tier": "Probably Cooked",
+          "subsections": []
+        }
+      ],
+      "tiers": [
+        "Playoff Bubble",
+        "Playoff Longshots",
+        "Probably Cooked"
+      ],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-11",
+      "season": "2024",
+      "week": 11,
+      "type": "regular",
+      "title": "Free Chee Week 11 Power Rankings",
+      "label": "Week 11",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gotham Rogues",
+          "owner": "Joe",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 1
+    },
+    {
+      "week_id": "2024-week-12",
+      "season": "2024",
+      "week": 12,
+      "type": "regular",
+      "title": "Free Chee Week 12 Power Rankings",
+      "label": "Week 12",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi: Gallo (with hair)",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "The Jackson Brownes",
+          "owner": "North Willow",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 2
+    },
+    {
+      "week_id": "2024-week-13",
+      "season": "2024",
+      "week": 13,
+      "type": "regular",
+      "title": "Free Chee Week 13 Power Rankings",
+      "label": "Week 13",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 1,
+          "tier": "The Favorites",
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 3,
+          "tier": "The Favorites",
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Gorlock the Destroyer",
+          "owner": "Papi",
+          "lw_rank": 2,
+          "tier": "In the Mix",
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 5,
+          "tier": "In the Mix",
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 6,
+          "tier": "In the Mix",
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 4,
+          "tier": "In the Mix",
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 7,
+          "tier": "In the Mix",
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 9,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 8,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 10,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 11,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 12,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 16,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Gotham Rogues",
+          "owner": "Boyle",
+          "lw_rank": 13,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 15,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Paul",
+          "lw_rank": 14,
+          "tier": "The Pig Farm",
+          "subsections": []
+        }
+      ],
+      "tiers": [
+        "The Favorites",
+        "In the Mix",
+        "Bubble Watch",
+        "The Pig Farm"
+      ],
+      "has_special_sections": true,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-14",
+      "season": "2024",
+      "week": 14,
+      "type": "regular",
+      "title": "Free Chee Week 14 Power Rankings",
+      "label": "Week 14",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 2,
+          "tier": "Co-Favorites",
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Life With Derrick",
+          "owner": "Justin",
+          "lw_rank": 1,
+          "tier": "Co-Favorites",
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 6,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 5,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": 3,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 4,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 8,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 7,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 11,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 10,
+          "tier": "Bubble Watch",
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 9,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 13,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 12,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 15,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gotham Rogues",
+          "owner": "Joe",
+          "lw_rank": 14,
+          "tier": "The Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Paul",
+          "lw_rank": 16,
+          "tier": "The Pig Farm",
+          "subsections": []
+        }
+      ],
+      "tiers": [
+        "Co-Favorites",
+        "Playoffs",
+        "Bubble Watch",
+        "The Pig Farm"
+      ],
+      "has_special_sections": true,
+      "image_count": 0
+    },
+    {
+      "week_id": "2024-week-15",
+      "season": "2024",
+      "week": 15,
+      "type": "playoff_preview",
+      "title": "Week 15 Free Chee Power Rankings and Playoff Preview",
+      "label": "Week 15 + Playoff Preview",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": 1,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Deserves to be Shot",
+          "owner": "Mitch",
+          "lw_rank": 3,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": 2,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Cap Stoppers",
+          "owner": "TJ",
+          "lw_rank": 4,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "WHERESTUA",
+          "owner": "Matt",
+          "lw_rank": 7,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": 5,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 6,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": 9,
+          "tier": "Playoffs",
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Sansa Ludacris",
+          "owner": "Chris",
+          "lw_rank": 11,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": 12,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": 10,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": 14,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": 13,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Gotham Rogues",
+          "owner": "Boyle",
+          "lw_rank": 15,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Marvin\u2019s Receiver Room",
+          "owner": "Paul",
+          "lw_rank": 16,
+          "tier": "Pig Farm",
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Hand me the Piss",
+          "owner": "TK",
+          "lw_rank": 8,
+          "tier": "Pig Farm",
+          "subsections": []
+        }
+      ],
+      "tiers": [
+        "Playoffs",
+        "Pig Farm"
+      ],
+      "has_special_sections": true,
+      "image_count": 1
+    },
+    {
+      "week_id": "2025-week-2",
+      "season": "2025",
+      "week": 2,
+      "type": "regular",
+      "title": "Free Chee Week 2 Power Rankings 2025",
+      "label": "Week 2",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": "The Favorites",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": "The Favorites",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": "The Favorites",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": "The Favorites",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": "Muddled Middle",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Here Without You Tishman",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": "Retard Hour",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": "Retard Hour",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Oscar",
+          "lw_rank": null,
+          "tier": "Retard Hour",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Ger- still uses emoji stuff for team name. Nobody gets.",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": "Retard Hour",
+          "subsections": [
+            "best_pick",
+            "worst_pick"
+          ]
+        }
+      ],
+      "tiers": [
+        "The Favorites",
+        "Muddled Middle",
+        "Retard Hour"
+      ],
+      "has_special_sections": false,
+      "image_count": 3
+    },
+    {
+      "week_id": "2025-week-3",
+      "season": "2025",
+      "week": 3,
+      "type": "regular",
+      "title": "Free Chee Week 3 Power Rankings 2025",
+      "label": "Week 3",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2025-week-4",
+      "season": "2025",
+      "week": 4,
+      "type": "regular",
+      "title": "Free Chee Power Rankings Week 4 2025",
+      "label": "Week 4",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 4
+    },
+    {
+      "week_id": "2025-week-5",
+      "season": "2025",
+      "week": 5,
+      "type": "regular",
+      "title": "Free Chee Week 5 Power Rankings 2025",
+      "label": "Week 5",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Team OBAMA SOPRANOS",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2025-week-6",
+      "season": "2025",
+      "week": 6,
+      "type": "regular",
+      "title": "Free Chee Week 6 Power Rankings 2025",
+      "label": "Week 6",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": 7,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": 14,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": 10,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins- Book Despiser",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2025-week-7",
+      "season": "2025",
+      "week": 7,
+      "type": "regular",
+      "title": "Free Chee Week 7 Power Rankings 2025",
+      "label": "Week 7",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 4
+    },
+    {
+      "week_id": "2025-week-8",
+      "season": "2025",
+      "week": 8,
+      "type": "regular",
+      "title": "Free Chee Week 8 Power Rankings 2025",
+      "label": "Week 8",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 3
+    },
+    {
+      "week_id": "2025-week-11",
+      "season": "2025",
+      "week": 11,
+      "type": "regular",
+      "title": "Free Chee Week 11 Power Rankings 2025",
+      "label": "Week 11",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney Deez and",
+          "owner": "Zaukas",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the D",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior Bag Master",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2025-week-12",
+      "season": "2025",
+      "week": 12,
+      "type": "regular",
+      "title": "Free Chee Week 12 Power Rankings",
+      "label": "Week 12",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi: Gallo (with hair)",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "The Jackson Brownes",
+          "owner": "North Willow",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Papi",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 2
+    },
+    {
+      "week_id": "2025-week-13",
+      "season": "2025",
+      "week": 13,
+      "type": "regular",
+      "title": "Free Chee Week 13 Power Rankings",
+      "label": "Week 13",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "The Jackson Brownes",
+          "owner": "North Willow",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "general_strategy"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 3
+    },
+    {
+      "week_id": "2025-week-14",
+      "season": "2025",
+      "week": 14,
+      "type": "regular",
+      "title": "Free Chee Week 14 Power Rankings",
+      "label": "Week 14",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": "Contenders",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": "Contenders",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": "Contenders",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": "Contenders",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": "Playoff Teams (probably)",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": "Playoff Teams (probably)",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": "Playoff Teams (probably)",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": "Playoff Teams (probably)",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": "Playoff Teams (probably)",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": "Sneaking Around",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": "Sneaking Around",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": "Sneaking Around",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": "Cooked",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": "Cooked",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": "Cooked",
+          "subsections": [
+            "predicted_finish"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": "Cooked",
+          "subsections": [
+            "predicted_finish"
+          ]
+        }
+      ],
+      "tiers": [
+        "Contenders",
+        "Playoff Teams (probably)",
+        "Sneaking Around",
+        "Cooked"
+      ],
+      "has_special_sections": false,
+      "image_count": 2
+    },
+    {
+      "week_id": "2025-week-15",
+      "season": "2025",
+      "week": 15,
+      "type": "regular",
+      "title": "End of regular season Power Rankings 2025",
+      "label": "Week 15",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "The Jackson Brownes",
+          "owner": "North Willow",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Team Obama Sopranos",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": [
+            "playoff_scenario",
+            "best_move"
+          ]
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 0
+    },
+    {
+      "week_id": "2025-final",
+      "season": "2025",
+      "week": 99,
+      "type": "final",
+      "title": "Free Chee Final 2025 Power Rankings and Playoff Preview",
+      "label": "Final Rankings",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Scampi",
+          "owner": "Gallo",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 2,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 3,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 4,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 5,
+          "team_name": "Sweeney Deez and Zaukas",
+          "owner": "Mitch",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 6,
+          "team_name": "Art of the Deal",
+          "owner": "Matt",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 7,
+          "team_name": "The Jackson Brownes",
+          "owner": "Boyle",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 8,
+          "team_name": "Team OBAMA SOPRANOS",
+          "owner": "TK",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 9,
+          "team_name": "Cookie Monster Golf Cart",
+          "owner": "TJ",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 10,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 11,
+          "team_name": "Sweeney.",
+          "owner": "Connor",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 12,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 13,
+          "team_name": "Team Daniel",
+          "owner": "Paul",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 14,
+          "team_name": "Gorlock the Destroyer Schwartz",
+          "owner": "Simon",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 15,
+          "team_name": "Life with Derrick",
+          "owner": "Justin",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        },
+        {
+          "rank": 16,
+          "team_name": "Senior AI Coke Twins",
+          "owner": "Mikey",
+          "lw_rank": null,
+          "tier": null,
+          "subsections": []
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": true,
+      "image_count": 0
+    }
+  ]
+}

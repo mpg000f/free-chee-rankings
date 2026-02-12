@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Chee Power Rankings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="rankings.html">Rankings</a>
+        <a href="stats.html">Stats</a>
+        <a href="lookback.html">Lookback</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1><span class="accent">Free Chee</span> Power Rankings</h1>
+      <p class="hero-subtitle">The Committee Has Spoken</p>
+      <div class="hero-stats">
+        <div class="hero-stat"><strong>2</strong> Seasons</div>
+        <div class="hero-stat"><strong>25</strong> Issues</div>
+        <div class="hero-stat"><strong>16</strong> Owners</div>
+        <div class="hero-stat"><strong>0</strong> Mercy</div>
+      </div>
+      <div class="cta-grid">
+        <a href="rankings.html" class="cta-card">
+          <h3>&#128220; Read Rankings</h3>
+          <p>Browse every power ranking from 2024 and 2025</p>
+        </a>
+        <a href="stats.html" class="cta-card">
+          <h3>&#128200; Owner Stats</h3>
+          <p>Rankings history, averages, and charts</p>
+        </a>
+        <a href="lookback.html" class="cta-card">
+          <h3>&#127942; The Lookback</h3>
+          <p>First Term: three seasons of Free Chee history</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="preview-section">
+    <h2>Latest: Final 2025 Rankings</h2>
+    <div id="preview-content" class="loading">
+      <div class="spinner"></div>
+      Loading preview...
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Free Chee Power Rankings &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script>
+    // Load preview of latest rankings (top 3)
+    fetch('data/2025-final.json')
+      .then(r => r.json())
+      .then(data => {
+        const top3 = data.teams.slice(0, 3);
+        const container = document.getElementById('preview-content');
+        container.innerHTML = top3.map((t, i) => {
+          const icons = i === 0 ? '&#128293; ' : '';
+          return `<div class="team-card tier-${i < 2 ? '1' : '2'}" style="max-width:600px;margin:0 auto .75rem">
+            <div class="team-header">
+              <div class="rank ${i === 0 ? 'rank-first' : ''}">${t.rank}</div>
+              <div class="team-info">
+                <div class="team-name">${icons}${t.team_name}</div>
+                <div class="team-owner">${t.owner}</div>
+              </div>
+            </div>
+          </div>`;
+        }).join('') + '<p style="text-align:center;margin-top:1rem"><a href="rankings.html#2025-final">See full rankings &rarr;</a></p>';
+      })
+      .catch(() => {
+        document.getElementById('preview-content').innerHTML = '<p>Could not load preview.</p>';
+      });
+  </script>
+</body>
+</html>
