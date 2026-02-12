@@ -14,7 +14,7 @@ from ranking_parser import parse_rankings
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PDF_DIR = BASE_DIR
-SITE_DIR = os.path.join(BASE_DIR, "site")
+SITE_DIR = os.path.join(BASE_DIR, "docs")
 DATA_DIR = os.path.join(SITE_DIR, "data")
 IMG_DIR = os.path.join(SITE_DIR, "images")
 
