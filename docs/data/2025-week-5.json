@@ -8,129 +8,153 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "The Jackson Brownes",
+      "team_name": "The Jackson Brownes (Boyle)",
       "owner": "Boyle",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 2,
-      "team_name": "Scampi",
+      "team_name": "Scampi (Gallo)",
       "owner": "Gallo",
-      "lw_rank": null,
+      "movement": 5,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 3,
-      "team_name": "Ginny Sack",
+      "team_name": "Ginny Sack (Chris)",
       "owner": "Chris",
-      "lw_rank": null,
+      "movement": -1,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 4,
-      "team_name": "The Art of the Deal",
+      "team_name": "The Art of the Deal (Matt)",
       "owner": "Matt",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 5,
-      "team_name": "Work Ass",
+      "team_name": "Work Ass (Sweeney)",
       "owner": "Sweeney",
-      "lw_rank": null,
+      "movement": -2,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 6,
-      "team_name": "Stewed C",
+      "team_name": "Stewed C (Joey)",
       "owner": "Joey",
-      "lw_rank": null,
+      "movement": -1,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 7,
-      "team_name": "Team Daniel",
+      "team_name": "Team Daniel (Paul)",
       "owner": "Paul",
-      "lw_rank": null,
+      "movement": 6,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 8,
-      "team_name": "Sweeney.",
+      "team_name": "Sweeney. (Connor)",
       "owner": "Connor",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 9,
-      "team_name": "Cookie Monster Golf Cart",
+      "team_name": "Cookie Monster Golf Cart (TJ)",
       "owner": "TJ",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 10,
-      "team_name": "Pigs on the 7th Rank",
+      "team_name": "Pigs on the 7th Rank (Deez)",
       "owner": "Deez",
-      "lw_rank": null,
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 11,
-      "team_name": "Team OBAMA SOPRANOS",
+      "team_name": "Team OBAMA SOPRANOS (TK)",
       "owner": "TK",
-      "lw_rank": null,
+      "movement": -7,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 12,
-      "team_name": "Life with Derrick",
+      "team_name": "Life with Derrick (Justin)",
       "owner": "Justin",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 13,
-      "team_name": "Gorlock the Destroyer Schwartz",
+      "team_name": "Gorlock the Destroyer Schwartz (Papi)",
       "owner": "Papi",
-      "lw_rank": null,
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 14,
-      "team_name": "Sweeney Deez and Zaukas",
+      "team_name": "Sweeney Deez and Zaukas (Mitch)",
       "owner": "Mitch",
-      "lw_rank": null,
+      "movement": -6,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 15,
-      "team_name": "Ger",
+      "team_name": "Ger (Ger)",
       "owner": "Ger",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
-      "subsections": []
+      "subsections": [
+        "a_chirp"
+      ]
     },
     {
       "rank": 16,
-      "team_name": "Senior AI Coke Twins",
+      "team_name": "Senior AI Coke Twins (Mikey)",
       "owner": "Mikey",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
       "subsections": []
     }

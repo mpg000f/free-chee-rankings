@@ -8,129 +8,129 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "Hand me the Piss",
+      "team_name": "Hand me the Piss- TK",
       "owner": "TK",
-      "lw_rank": 1,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 2,
-      "team_name": "Gorlock the Destroyer",
+      "team_name": "Gorlock the Destroyer- Papi",
       "owner": "Papi",
-      "lw_rank": 5,
+      "movement": 3,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 3,
-      "team_name": "Sansa Ludacris",
+      "team_name": "Sansa Ludacris- Chris",
       "owner": "Chris",
-      "lw_rank": 3,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 4,
-      "team_name": "Stewed C",
+      "team_name": "Stewed C- Joey",
       "owner": "Joey",
-      "lw_rank": 2,
+      "movement": -2,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 5,
-      "team_name": "Life with Derrick",
+      "team_name": "Life with Derrick- Justin",
       "owner": "Justin",
-      "lw_rank": 7,
+      "movement": 2,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 6,
-      "team_name": "Marvin\u2019s Receiver Room",
-      "owner": "Zaukas",
-      "lw_rank": 8,
+      "team_name": "Marvin\u2019s Receiver Room- Zaukas",
+      "owner": "Paul",
+      "movement": 2,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 7,
-      "team_name": "Cap Stoppers",
+      "team_name": "Cap Stoppers- TJ-",
       "owner": "TJ",
-      "lw_rank": 4,
+      "movement": -3,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 8,
-      "team_name": "Sweeney.",
+      "team_name": "Sweeney.- Connor",
       "owner": "Connor",
-      "lw_rank": 9,
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 9,
-      "team_name": "Deserves to be Shot",
+      "team_name": "Deserves to be Shot- Mitch",
       "owner": "Mitch",
-      "lw_rank": 10,
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 10,
-      "team_name": "Alexander\u2019s Unreal Team",
+      "team_name": "Alexander\u2019s Unreal Team- Deez",
       "owner": "Deez",
-      "lw_rank": 6,
+      "movement": -4,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 11,
-      "team_name": "Work Ass",
+      "team_name": "Work Ass- Sweeney",
       "owner": "Sweeney",
-      "lw_rank": 10,
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 12,
-      "team_name": "Champagne Suitcase Heart Emoji",
-      "owner": "Gerry Lewis",
-      "lw_rank": 13,
+      "team_name": "Champagne Suitcase Heart Emoji- Gerry Lewis",
+      "owner": "Ger",
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 13,
-      "team_name": "WHERESTUA",
+      "team_name": "WHERESTUA- Matt",
       "owner": "Matt",
-      "lw_rank": 12,
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 14,
-      "team_name": "Senior AI Coke Twins",
+      "team_name": "Senior AI Coke Twins- Mikey",
       "owner": "Mikey",
-      "lw_rank": 14,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 15,
-      "team_name": "Gotham Rogues",
-      "owner": "Joe",
-      "lw_rank": 15,
+      "team_name": "Gotham Rogues- Joe",
+      "owner": "Boyle",
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 16,
-      "team_name": "Here Without You Tishman",
+      "team_name": "Here Without You Tishman- Gallo",
       "owner": "Gallo",
-      "lw_rank": 16,
+      "movement": 0,
       "tier": null,
       "subsections": []
     }

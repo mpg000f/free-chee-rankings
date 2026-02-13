@@ -41,8 +41,8 @@
       else tierClass = 'tier-4';
 
       let movement = '';
-      if (t.lw_rank !== null && t.lw_rank !== undefined) {
-        const diff = t.lw_rank - t.rank;
+      if (t.movement !== null && t.movement !== undefined) {
+        const diff = t.movement;
         if (diff > 0) movement = `<span class="movement up">&#9650;${diff}</span>`;
         else if (diff < 0) movement = `<span class="movement down">&#9660;${Math.abs(diff)}</span>`;
         else movement = `<span class="movement same">&#8212;</span>`;

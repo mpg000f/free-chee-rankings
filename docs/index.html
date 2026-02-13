@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Chee Power Rankings</title>
+  <title>Free Chee Headquarters</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,14 +25,8 @@
 
   <section class="hero">
     <div class="hero-content">
-      <h1><span class="accent">Free Chee</span> Power Rankings</h1>
+      <h1><span class="accent">Free Chee</span> Headquarters</h1>
       <p class="hero-subtitle">The Committee Has Spoken</p>
-      <div class="hero-stats">
-        <div class="hero-stat"><strong>2</strong> Seasons</div>
-        <div class="hero-stat"><strong>25</strong> Issues</div>
-        <div class="hero-stat"><strong>16</strong> Owners</div>
-        <div class="hero-stat"><strong>0</strong> Mercy</div>
-      </div>
       <div class="cta-grid">
         <a href="rankings.html" class="cta-card">
           <h3>&#128220; Read Rankings</h3>
@@ -59,28 +53,32 @@
   </section>
 
   <footer class="footer">
-    <p>Free Chee Power Rankings &copy; 2024-2025 &bull; The Committee</p>
+    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
   </footer>
 
   <script>
-    // Load preview of latest rankings (top 3)
     fetch('data/2025-final.json')
       .then(r => r.json())
       .then(data => {
-        const top3 = data.teams.slice(0, 3);
+        const teams = data.teams;
         const container = document.getElementById('preview-content');
-        container.innerHTML = top3.map((t, i) => {
-          const icons = i === 0 ? '&#128293; ' : '';
-          return `<div class="team-card tier-${i < 2 ? '1' : '2'}" style="max-width:600px;margin:0 auto .75rem">
+        container.innerHTML = teams.map((t) => {
+          const icons = t.rank === 1 ? '&#128293; ' : t.rank === 16 ? '&#128128; ' : '';
+          let tierClass = 'tier-1';
+          if (t.rank > 4) tierClass = 'tier-2';
+          if (t.rank > 8) tierClass = 'tier-3';
+          if (t.rank > 12) tierClass = 'tier-4';
+          const rankClass = t.rank === 1 ? 'rank rank-first' : t.rank === 16 ? 'rank rank-last' : 'rank';
+          return `<div class="team-card ${tierClass}" style="max-width:600px;margin:0 auto .75rem">
             <div class="team-header">
-              <div class="rank ${i === 0 ? 'rank-first' : ''}">${t.rank}</div>
+              <div class="${rankClass}">${t.rank}</div>
               <div class="team-info">
                 <div class="team-name">${icons}${t.team_name}</div>
                 <div class="team-owner">${t.owner}</div>
               </div>
             </div>
           </div>`;
-        }).join('') + '<p style="text-align:center;margin-top:1rem"><a href="rankings.html#2025-final">See full rankings &rarr;</a></p>';
+        }).join('') + '<p style="text-align:center;margin-top:1rem"><a href="rankings.html#2025-final">Read full writeups &rarr;</a></p>';
       })
       .catch(() => {
         document.getElementById('preview-content').innerHTML = '<p>Could not load preview.</p>';

@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>First Term Lookback - Free Chee Power Rankings</title>
+  <title>First Term Lookback - Free Chee Headquarters</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animations.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -23,8 +24,57 @@
     </div>
   </nav>
 
-  <div class="lookback-container">
+  <div class="lookback-container" style="max-width:1200px">
     <h1>Free Chee First Term Lookback</h1>
+
+    <!-- Stats Table -->
+    <div class="lookback-stats-section">
+      <h2>First Term Stats</h2>
+      <div class="table-wrapper">
+        <table class="lookback-stats-table" id="lookback-stats-table">
+          <thead>
+            <tr>
+              <th data-sort="name">Owner <span class="sort-arrow"></span></th>
+              <th data-sort="wins">W <span class="sort-arrow"></span></th>
+              <th data-sort="losses">L <span class="sort-arrow"></span></th>
+              <th data-sort="winpct">Win% <span class="sort-arrow"></span></th>
+              <th data-sort="pf">PF <span class="sort-arrow"></span></th>
+              <th data-sort="pa">PA <span class="sort-arrow"></span></th>
+              <th data-sort="moves">Moves <span class="sort-arrow"></span></th>
+              <th data-sort="champ">Champ <span class="sort-arrow"></span></th>
+              <th data-sort="finalist">Finals <span class="sort-arrow"></span></th>
+              <th data-sort="semi">Semis <span class="sort-arrow"></span></th>
+              <th data-sort="playoffs">Playoffs <span class="sort-arrow"></span></th>
+              <th data-sort="last">Last <span class="sort-arrow"></span></th>
+              <th data-sort="power_score">Power Score <span class="sort-arrow">&#9660;</span></th>
+            </tr>
+          </thead>
+          <tbody id="lookback-stats-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Charts -->
+    <div class="lookback-charts-grid">
+      <div class="lookback-chart-card">
+        <h3>Most Wins</h3>
+        <div class="lookback-chart-wrapper"><canvas id="wins-chart"></canvas></div>
+      </div>
+      <div class="lookback-chart-card">
+        <h3>Most Points For</h3>
+        <div class="lookback-chart-wrapper"><canvas id="pf-chart"></canvas></div>
+      </div>
+      <div class="lookback-chart-card">
+        <h3>Point Differential</h3>
+        <div class="lookback-chart-wrapper"><canvas id="diff-chart"></canvas></div>
+      </div>
+      <div class="lookback-chart-card">
+        <h3>Playoff Appearances</h3>
+        <div class="lookback-chart-wrapper"><canvas id="playoffs-chart"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Article Content -->
     <div id="lookback-content" class="loading">
       <div class="spinner"></div>
       Loading...
@@ -32,20 +82,121 @@
   </div>
 
   <footer class="footer">
-    <p>Free Chee Power Rankings &copy; 2024-2025 &bull; The Committee</p>
+    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
   </footer>
 
   <script src="js/data-loader.js"></script>
   <script>
-    (async function() {
-      try {
-        const html = await DataLoader.getLookbackHTML();
-        document.getElementById('lookback-content').innerHTML = html;
-      } catch (err) {
-        document.getElementById('lookback-content').innerHTML =
-          '<p style="color:var(--red)">Error loading lookback article.</p>';
-      }
-    })();
+  (function() {
+    // Stats data (transcribed from lookback PDF stats table image)
+    const stats = [
+      { name:"Sweeney",wins:31,losses:25,winpct:.554,pf:6278.36,pa:6046.36,moves:93,champ:2,finalist:3,semi:3,playoffs:3,last:0,power_score:0.847 },
+      { name:"Deez",wins:35,losses:21,winpct:.625,pf:6386.20,pa:6214.82,moves:47,champ:1,finalist:1,semi:2,playoffs:3,last:0,power_score:0.817 },
+      { name:"Matt",wins:33,losses:23,winpct:.589,pf:6358.82,pa:6123.52,moves:64,champ:0,finalist:3,semi:3,playoffs:4,last:0,power_score:0.803 },
+      { name:"Mitch",wins:33,losses:23,winpct:.589,pf:6293.74,pa:5983.98,moves:100,champ:1,finalist:1,semi:1,playoffs:3,last:0,power_score:0.724 },
+      { name:"TJ",wins:31,losses:25,winpct:.554,pf:6395.10,pa:6078.34,moves:63,champ:0,finalist:0,semi:1,playoffs:3,last:0,power_score:0.614 },
+      { name:"Joey",wins:27,losses:29,winpct:.482,pf:6559.94,pa:6220.44,moves:103,champ:0,finalist:0,semi:1,playoffs:2,last:0,power_score:0.580 },
+      { name:"Chris",wins:28,losses:28,winpct:.500,pf:6334.62,pa:6256.04,moves:75,champ:0,finalist:0,semi:1,playoffs:2,last:0,power_score:0.509 },
+      { name:"Gallo",wins:34,losses:22,winpct:.607,pf:6158.82,pa:5789.12,moves:75,champ:0,finalist:0,semi:1,playoffs:2,last:1,power_score:0.452 },
+      { name:"Ger",wins:30,losses:26,winpct:.536,pf:6008.18,pa:5957.52,moves:134,champ:0,finalist:0,semi:0,playoffs:3,last:0,power_score:0.417 },
+      { name:"TK",wins:30,losses:26,winpct:.536,pf:5924.90,pa:6185.64,moves:114,champ:0,finalist:0,semi:0,playoffs:2,last:0,power_score:0.371 },
+      { name:"Justin",wins:26,losses:30,winpct:.464,pf:5945.06,pa:6224.18,moves:80,champ:0,finalist:0,semi:0,playoffs:1,last:0,power_score:0.283 },
+      { name:"Papi",wins:29,losses:27,winpct:.518,pf:6283.90,pa:6224.96,moves:72,champ:0,finalist:0,semi:0,playoffs:2,last:2,power_score:0.213 },
+      { name:"Boyle",wins:22,losses:33,winpct:.400,pf:5890.74,pa:6181.32,moves:190,champ:0,finalist:0,semi:1,playoffs:1,last:0,power_score:0.198 },
+      { name:"Connor",wins:22,losses:34,winpct:.393,pf:5911.26,pa:6141.14,moves:74,champ:0,finalist:0,semi:0,playoffs:0,last:0,power_score:0.179 },
+      { name:"Paul",wins:18,losses:37,winpct:.327,pf:5752.72,pa:6336.20,moves:113,champ:0,finalist:0,semi:0,playoffs:0,last:1,power_score:0.017 },
+      { name:"Mikey",wins:18,losses:38,winpct:.321,pf:5727.26,pa:6246.04,moves:44,champ:0,finalist:0,semi:0,playoffs:1,last:1,power_score:-0.127 },
+    ];
+
+    // ===== SORTABLE TABLE =====
+    const tbody = document.getElementById('lookback-stats-body');
+    const headers = document.querySelectorAll('#lookback-stats-table th[data-sort]');
+    let sortKey = 'power_score';
+    let sortAsc = false;
+
+    function renderTable() {
+      const sorted = [...stats].sort((a, b) => {
+        let va = a[sortKey], vb = b[sortKey];
+        if (typeof va === 'string') { va = va.toLowerCase(); vb = vb.toLowerCase(); }
+        return sortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
+      });
+      tbody.innerHTML = sorted.map(o => {
+        const champBadge = o.champ ? ' <span class="champ-badge">&#127942;</span>' : '';
+        return `<tr>
+          <td>${o.name}${champBadge}</td>
+          <td>${o.wins}</td><td>${o.losses}</td><td>${o.winpct.toFixed(3)}</td>
+          <td>${o.pf.toFixed(2)}</td><td>${o.pa.toFixed(2)}</td>
+          <td>${o.moves}</td><td>${o.champ}</td><td>${o.finalist}</td>
+          <td>${o.semi}</td><td>${o.playoffs}</td><td>${o.last}</td>
+          <td style="font-weight:700;color:var(--accent)">${o.power_score.toFixed(3)}</td>
+        </tr>`;
+      }).join('');
+    }
+
+    headers.forEach(th => {
+      th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) sortAsc = !sortAsc;
+        else { sortKey = key; sortAsc = key === 'name'; }
+        headers.forEach(h => {
+          const arrow = h.querySelector('.sort-arrow');
+          if (arrow) arrow.innerHTML = h.dataset.sort === sortKey ? (sortAsc ? '&#9650;' : '&#9660;') : '';
+        });
+        renderTable();
+      });
+    });
+    renderTable();
+
+    // ===== CHARTS =====
+    const chartColors = {
+      gold: '#f5a623', red: '#e8443a', green: '#27ae60', blue: '#3498db',
+      surface: '#1a1d2e', text: '#9b98a0',
+    };
+
+    // Sort by wins descending for charts
+    const byWins = [...stats].sort((a, b) => b.wins - a.wins);
+    const byPF = [...stats].sort((a, b) => b.pf - a.pf);
+    const byDiff = [...stats].sort((a, b) => (b.pf - b.pa) - (a.pf - a.pa));
+    const byPlayoffs = [...stats].sort((a, b) => b.playoffs - a.playoffs || b.power_score - a.power_score);
+
+    function makeBarChart(canvasId, labels, data, color, formatValue) {
+      const colors = data.map(v => v < 0 ? chartColors.red : (typeof color === 'function' ? color(v) : color));
+      new Chart(document.getElementById(canvasId), {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{ data, backgroundColor: colors, borderRadius: 4 }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          indexAxis: 'y',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: { label: ctx => formatValue ? formatValue(ctx.raw) : String(ctx.raw) },
+              backgroundColor: chartColors.surface, borderColor: chartColors.gold, borderWidth: 1,
+            },
+          },
+          scales: {
+            x: { ticks: { color: chartColors.text }, grid: { color: '#1a1d2e44' } },
+            y: { ticks: { color: '#e8e6e3', font: { family: 'Oswald', size: 11 } }, grid: { display: false } },
+          },
+        },
+      });
+    }
+
+    makeBarChart('wins-chart', byWins.map(o => o.name), byWins.map(o => o.wins), chartColors.gold, v => `${v} wins`);
+    makeBarChart('pf-chart', byPF.map(o => o.name), byPF.map(o => o.pf), chartColors.blue, v => v.toFixed(2) + ' pts');
+    makeBarChart('diff-chart', byDiff.map(o => o.name), byDiff.map(o => o.pf - o.pa), v => v >= 0 ? chartColors.green : chartColors.red, v => (v >= 0 ? '+' : '') + v);
+    makeBarChart('playoffs-chart', byPlayoffs.map(o => o.name), byPlayoffs.map(o => o.playoffs), chartColors.gold, v => `${v} appearances`);
+
+    // ===== LOAD ARTICLE CONTENT =====
+    DataLoader.getLookbackHTML().then(html => {
+      document.getElementById('lookback-content').innerHTML = html;
+    }).catch(() => {
+      document.getElementById('lookback-content').innerHTML = '<p style="color:var(--red)">Error loading lookback article.</p>';
+    });
+  })();
   </script>
 </body>
 </html>

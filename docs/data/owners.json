@@ -1,17 +1,987 @@
 {
-  "Justin": {
-    "name": "Justin",
+  "TK": {
+    "name": "TK",
     "team_names": [
-      "Life With Derrick",
-      "Life with Derrick",
-      "Tony the Phenom"
+      "Hand me the Piss- TK",
+      "Team OBAMA SOPRANOS (TK)",
+      "Team OBAMA SOPRANOS: TK",
+      "Team Obama Sopranos",
+      "Team Obama Sopranos (TK)",
+      "Team Obama Sopranos- TK",
+      "Team Obama Sopranos: TK"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
-    "total_weeks": 24,
-    "avg_rank": 8.58,
+    "total_weeks": 23,
+    "avg_rank": 8.13,
+    "best_rank": 1,
+    "worst_rank": 16,
+    "weeks_at_1": 2,
+    "weeks_at_16": 1,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 1
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 1
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 9
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 8
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 16
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 13
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 12
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 14
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 8
+      }
+    ]
+  },
+  "Joey": {
+    "name": "Joey",
+    "team_names": [
+      "Stewed C",
+      "Stewed C (Joey)",
+      "Stewed C- Joey",
+      "Stewed C: Joey"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 5.52,
+    "best_rank": 1,
+    "worst_rank": 11,
+    "weeks_at_1": 3,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 1
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 1
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 10
+      }
+    ]
+  },
+  "Chris": {
+    "name": "Chris",
+    "team_names": [
+      "Ginny Sack",
+      "Ginny Sack (Chris)",
+      "Ginny Sack- Chris",
+      "Ginny Sack: Chris",
+      "Sansa Ludacris- Chris"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 4.65,
+    "best_rank": 2,
+    "worst_rank": 11,
+    "weeks_at_1": 0,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 9
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 11
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 2
+      }
+    ]
+  },
+  "TJ": {
+    "name": "TJ",
+    "team_names": [
+      "Cap Stoppers",
+      "Cap Stoppers- TJ",
+      "Cap Stoppers- TJ-",
+      "Cookie Monster Golf Cart",
+      "Cookie Monster Golf Cart (TJ)",
+      "Cookie Monster Golf Cart- TJ",
+      "Cookie Monster Golf Cart: TJ"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 5.83,
+    "best_rank": 1,
+    "worst_rank": 11,
+    "weeks_at_1": 1,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 9
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 9
+      }
+    ]
+  },
+  "Papi": {
+    "name": "Papi",
+    "team_names": [
+      "Gorlock the D",
+      "Gorlock the Destroyer Schwartz (Papi)",
+      "Gorlock the Destroyer Schwartz- Papi",
+      "Gorlock the Destroyer Schwartz- Simon",
+      "Gorlock the Destroyer Schwartz: Papi",
+      "Gorlock the Destroyer Schwartz: Simon",
+      "Gorlock the Destroyer- Papi",
+      "Gorlock the Destroyer- Simon",
+      "Gorlock the destroyer Schwartz- Simon"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 9.57,
+    "best_rank": 2,
+    "worst_rank": 15,
+    "weeks_at_1": 0,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 3
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 5
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 12
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 12
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 13
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 15
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 14
+      }
+    ]
+  },
+  "Deez": {
+    "name": "Deez",
+    "team_names": [
+      "Alexander\u2019s Unreal Team- Deez",
+      "Pigs on the 7th Rank",
+      "Pigs on the 7th Rank (Deez)",
+      "Pigs on the 7th Rank- Deez",
+      "Pigs on the 7th Rank: Deez"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 6.83,
+    "best_rank": 2,
+    "worst_rank": 11,
+    "weeks_at_1": 0,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 10
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 11
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 11
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 2
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 4
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 6
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 8
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 8
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 4
+      }
+    ]
+  },
+  "Justin": {
+    "name": "Justin",
+    "team_names": [
+      "Life With Derrick- Justin",
+      "Life with Derrick",
+      "Life with Derrick (Justin)",
+      "Life with Derrick- Justin",
+      "Life with Derrick: Justin",
+      "Tony the Phenom- Justin"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 8.39,
     "best_rank": 1,
     "worst_rank": 15,
     "weeks_at_1": 5,
@@ -21,1367 +991,318 @@
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 7,
-        "lw_rank": 6
+        "rank": 7
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 5,
-        "lw_rank": 7
+        "rank": 5
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 1,
-        "lw_rank": 3
+        "rank": 1
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 1,
-        "lw_rank": 1
+        "rank": 1
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 1,
-        "lw_rank": 1
+        "rank": 1
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 1
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 1,
-        "lw_rank": 1
+        "rank": 1
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 2,
-        "lw_rank": 1
+        "rank": 2
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 3,
-        "lw_rank": 2
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 11,
-        "lw_rank": null
+        "rank": 11
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 15
       }
     ]
   },
-  "Joey": {
-    "name": "Joey",
+  "Paul": {
+    "name": "Paul",
     "team_names": [
-      "Stewed C"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 5.75,
-    "best_rank": 1,
-    "worst_rank": 11,
-    "weeks_at_1": 3,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 2,
-        "lw_rank": 1
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 4,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 2,
-        "lw_rank": 1
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 2,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 4,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 2,
-        "lw_rank": 3
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 1,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 1,
-        "lw_rank": 1
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 10,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Simon": {
-    "name": "Simon",
-    "team_names": [
-      "Gorlock the Destroyer",
-      "Gorlock the Destroyer Schwartz",
-      "Gorlock the destroyer Schwartz"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 7,
-    "avg_rank": 11.57,
-    "best_rank": 3,
-    "worst_rank": 15,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 3,
-        "lw_rank": 6
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 14,
-        "lw_rank": null
-      }
-    ]
-  },
-  "TJ": {
-    "name": "TJ",
-    "team_names": [
-      "Cap Stoppers",
-      "Cookie Monster Golf Cart"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 5.71,
-    "best_rank": 1,
-    "worst_rank": 11,
-    "weeks_at_1": 1,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 4,
-        "lw_rank": 8
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 7,
-        "lw_rank": 4
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 9,
-        "lw_rank": 7
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 4,
-        "lw_rank": 9
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 3,
-        "lw_rank": 4
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 5,
-        "lw_rank": 6
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 4,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 4,
-        "lw_rank": 4
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 9,
-        "lw_rank": null
-      }
-    ]
-  },
-  "TK": {
-    "name": "TK",
-    "team_names": [
-      "Hand me the Piss",
-      "Team OBAMA SOPRANOS",
-      "Team Obama Sopranos"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 8.38,
-    "best_rank": 1,
-    "worst_rank": 16,
-    "weeks_at_1": 2,
-    "weeks_at_16": 1,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 1,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 1,
-        "lw_rank": 1
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 4,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 5,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 6,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 14,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 7,
-        "lw_rank": 7
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 8,
-        "lw_rank": 7
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 16,
-        "lw_rank": 8
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 13,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 14,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 8,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Chris": {
-    "name": "Chris",
-    "team_names": [
-      "Ginny Sack",
-      "Sansa Ludacris"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 4.75,
-    "best_rank": 2,
-    "worst_rank": 11,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 3,
-        "lw_rank": 3
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 3,
-        "lw_rank": 3
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 3,
-        "lw_rank": 2
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 6,
-        "lw_rank": 3
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 7,
-        "lw_rank": 6
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 9,
-        "lw_rank": 8
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 11,
-        "lw_rank": 9
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 9,
-        "lw_rank": 11
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 2,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Deez": {
-    "name": "Deez",
-    "team_names": [
-      "Alexander\u2019s Unreal Team",
-      "Pigs on the 7th Rank"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 6.79,
-    "best_rank": 2,
-    "worst_rank": 11,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 6,
-        "lw_rank": 11
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 10,
-        "lw_rank": 6
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 11,
-        "lw_rank": 11
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 7,
-        "lw_rank": 11
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 2,
-        "lw_rank": 7
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 4,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 6,
-        "lw_rank": 4
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 7,
-        "lw_rank": 6
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 10,
-        "lw_rank": 10
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 4,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Mitch": {
-    "name": "Mitch",
-    "team_names": [
-      "Deserves to be Shot",
-      "Sweeney Deez and Zaukas"
+      "Marvin\u2019s Receiver Room",
+      "Marvin\u2019s Receiver Room- Paul",
+      "Marvin\u2019s Receiver Room- Zaukas",
+      "Team Daniel",
+      "Team Daniel (Paul)",
+      "Team Daniel- Paul",
+      "Team Daniel: Paul"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
     "total_weeks": 23,
-    "avg_rank": 7.3,
-    "best_rank": 2,
-    "worst_rank": 14,
+    "avg_rank": 10.7,
+    "best_rank": 5,
+    "worst_rank": 16,
     "weeks_at_1": 0,
-    "weeks_at_16": 0,
+    "weeks_at_16": 2,
     "rankings": [
       {
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 10,
-        "lw_rank": 5
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 9,
-        "lw_rank": 10
+        "rank": 6
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 6
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 7,
-        "lw_rank": 9
+        "rank": 5
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 8,
-        "lw_rank": 7
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 8,
-        "lw_rank": 8
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 6,
-        "lw_rank": 4
+        "rank": 16
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 3,
-        "lw_rank": 6
+        "rank": 16
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 2,
-        "lw_rank": 3
+        "rank": 15
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 6,
-        "lw_rank": null
+        "rank": 15
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 7
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 9,
-        "lw_rank": 14
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 6
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 7,
-        "lw_rank": null
+        "rank": 11
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 6,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 7,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 13
       }
     ]
   },
   "Connor": {
     "name": "Connor",
     "team_names": [
-      "Sweeney."
+      "Sweeney.",
+      "Sweeney. (Connor)",
+      "Sweeney.- Connor",
+      "Sweeney.: Connor"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
-    "total_weeks": 24,
-    "avg_rank": 10.29,
+    "total_weeks": 23,
+    "avg_rank": 10.3,
     "best_rank": 7,
     "worst_rank": 14,
     "weeks_at_1": 0,
@@ -1391,432 +1312,156 @@
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 9,
-        "lw_rank": 9
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 8,
-        "lw_rank": 9
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 8,
-        "lw_rank": 8
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 9,
-        "lw_rank": 8
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 9,
-        "lw_rank": 9
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 10,
-        "lw_rank": 10
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 10,
-        "lw_rank": 10
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 11,
-        "lw_rank": 10
+        "rank": 11
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 11,
-        "lw_rank": null
+        "rank": 11
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 7,
-        "lw_rank": null
+        "rank": 7
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 11,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Zaukas": {
-    "name": "Zaukas",
-    "team_names": [
-      "Marvin\u2019s Receiver Room",
-      "Sweeney Deez and"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 6,
-    "avg_rank": 7.83,
-    "best_rank": 5,
-    "worst_rank": 10,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 8,
-        "lw_rank": 7
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 6,
-        "lw_rank": 8
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 5,
-        "lw_rank": 6
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 10,
-        "lw_rank": 5
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 10,
-        "lw_rank": 10
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 8,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Matt": {
-    "name": "Matt",
-    "team_names": [
-      "Art of the Deal",
-      "The Art of the Deal",
-      "WHERESTUA"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 24,
-    "avg_rank": 6.58,
-    "best_rank": 1,
-    "worst_rank": 15,
-    "weeks_at_1": 2,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 12,
-        "lw_rank": 12
-      },
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 13,
-        "lw_rank": 12
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 14,
-        "lw_rank": 15
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 11,
-        "lw_rank": 12
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 13,
-        "lw_rank": 11
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 8,
-        "lw_rank": 9
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 7,
-        "lw_rank": 8
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 5,
-        "lw_rank": 7
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 4,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 6,
-        "lw_rank": null
+        "rank": 11
       }
     ]
   },
   "Sweeney": {
     "name": "Sweeney",
     "team_names": [
-      "Work Ass"
+      "Work Ass",
+      "Work Ass (Sweeney)",
+      "Work Ass- Sweeney",
+      "Work Ass: Sweeney"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.38,
+    "total_weeks": 23,
+    "avg_rank": 7.52,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 1,
@@ -1826,367 +1471,474 @@
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 10,
-        "lw_rank": 10
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 11,
-        "lw_rank": 10
+        "rank": 11
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 10,
-        "lw_rank": null
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 10,
-        "lw_rank": 10
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 12,
-        "lw_rank": 10
+        "rank": 12
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 15,
-        "lw_rank": 12
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 16,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 4,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 15,
-        "lw_rank": 15
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 14,
-        "lw_rank": 15
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 12,
-        "lw_rank": 14
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 1
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 4,
-        "lw_rank": null
+        "rank": 4
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 4,
-        "lw_rank": null
+        "rank": 4
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 4,
-        "lw_rank": null
+        "rank": 4
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 5,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 3
       }
     ]
   },
-  "Gallo": {
-    "name": "Gallo",
+  "Mitch": {
+    "name": "Mitch",
     "team_names": [
-      "Here Without You Tishman",
-      "Here Without You Tishman- Gallo in boots",
-      "Scampi",
-      "Scampi: Gallo (with hair)"
+      "Deserves to be Shot",
+      "Deserves to be Shot- Mitch",
+      "Sweeney Deez and Zaukas",
+      "Sweeney Deez and Zaukas (Mitch)",
+      "Sweeney Deez and Zaukas- Mitch",
+      "Sweeney Deez and Zaukas: Mitch"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.5,
-    "best_rank": 1,
-    "worst_rank": 16,
-    "weeks_at_1": 7,
-    "weeks_at_16": 3,
+    "total_weeks": 23,
+    "avg_rank": 7.43,
+    "best_rank": 2,
+    "worst_rank": 14,
+    "weeks_at_1": 0,
+    "weeks_at_16": 0,
     "rankings": [
       {
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 16,
-        "lw_rank": 15
+        "rank": 10
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 16,
-        "lw_rank": 16
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 12,
-        "lw_rank": 16
+        "rank": 7
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 13,
-        "lw_rank": 12
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 12,
-        "lw_rank": 13
+        "rank": 8
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 14,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 13,
-        "lw_rank": 16
+        "rank": 6
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 12,
-        "lw_rank": 13
+        "rank": 3
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 10,
-        "lw_rank": 12
+        "rank": 2
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 6
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 7,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 2,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 3,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 2,
-        "lw_rank": null
+        "rank": 7
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 6
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 7
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 1,
-        "lw_rank": null
+        "rank": 5
+      }
+    ]
+  },
+  "Matt": {
+    "name": "Matt",
+    "team_names": [
+      "Art of the Deal",
+      "Art of the Deal (Matt)",
+      "Art of the Deal: Matt",
+      "The Art of the Deal (Matt)",
+      "The Art of the Deal- Matt",
+      "WHERESTUA",
+      "WHERESTUA- Matt"
+    ],
+    "seasons": [
+      "2024",
+      "2025"
+    ],
+    "total_weeks": 23,
+    "avg_rank": 6.78,
+    "best_rank": 1,
+    "worst_rank": 15,
+    "weeks_at_1": 2,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 12
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 13
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 15
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 14
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 11
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 13
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 10
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 8
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 7
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 8
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 6
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 4
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 5
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 6
       }
     ]
   },
   "Ger": {
     "name": "Ger",
     "team_names": [
-      "Champagne Suitcase Heart Face (emoji stuff)",
-      "Champagne Suitcase Kiss Face",
+      "Champagne Suitcase Heart Emoji- Gerry Lewis",
+      "Champagne Suitcase Heart Face (emoji stuff)- Ger",
+      "Champagne Suitcase Kiss Face- Ger",
       "Ger",
+      "Ger (Ger)",
+      "Ger- Ger",
       "Ger- still uses emoji stuff for team name. Nobody gets."
     ],
     "seasons": [
@@ -2194,7 +1946,7 @@
       "2025"
     ],
     "total_weeks": 23,
-    "avg_rank": 12.3,
+    "avg_rank": 12.43,
     "best_rank": 8,
     "worst_rank": 16,
     "weeks_at_1": 0,
@@ -2204,172 +1956,152 @@
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 13,
-        "lw_rank": 14
+        "rank": 13
+      },
+      {
+        "season": "2024",
+        "week": 5,
+        "week_id": "2024-week-5",
+        "rank": 12
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 15,
-        "lw_rank": 13
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 14,
-        "lw_rank": 15
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 14,
-        "lw_rank": 14
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 13,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 13
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 11,
-        "lw_rank": 11
+        "rank": 11
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 9,
-        "lw_rank": 11
+        "rank": 9
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 8,
-        "lw_rank": 9
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 15
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 15
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 11,
-        "lw_rank": null
+        "rank": 11
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 12
       }
     ]
   },
   "Mikey": {
     "name": "Mikey",
     "team_names": [
-      "AI Coke Twins",
-      "Senior AI Coke Twins",
+      "AI Coke Twins- Mikey",
+      "Senior AI Coke Twins (Mikey)",
       "Senior AI Coke Twins- Book D",
       "Senior AI Coke Twins- Book Despiser",
+      "Senior AI Coke Twins- Mikey",
+      "Senior AI Coke Twins- Oscar",
+      "Senior AI Coke Twins: Mikey",
       "Senior Bag Master"
     ],
     "seasons": [
@@ -2377,735 +2109,475 @@
       "2025"
     ],
     "total_weeks": 23,
-    "avg_rank": 14.91,
+    "avg_rank": 14.87,
     "best_rank": 11,
     "worst_rank": 16,
     "weeks_at_1": 0,
-    "weeks_at_16": 14,
+    "weeks_at_16": 13,
     "rankings": [
       {
         "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 14,
-        "lw_rank": 16
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 14,
-        "lw_rank": 14
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 6,
         "week_id": "2024-week-6",
-        "rank": 14,
-        "lw_rank": null
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 13,
-        "lw_rank": 14
+        "rank": 13
       },
       {
         "season": "2024",
         "week": 8,
         "week_id": "2024-midseason",
-        "rank": 15,
-        "lw_rank": 13
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 16,
-        "lw_rank": 15
+        "rank": 16
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 11
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 12,
-        "lw_rank": 12
+        "rank": 12
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 13,
-        "lw_rank": 12
+        "rank": 13
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 13,
-        "lw_rank": 13
+        "rank": 13
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 15
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 8,
         "week_id": "2025-week-8",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 14,
         "week_id": "2025-week-14",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 16,
-        "lw_rank": null
+        "rank": 16
       },
       {
         "season": "2025",
         "week": 99,
         "week_id": "2025-final",
-        "rank": 16,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Joe": {
-    "name": "Joe",
-    "team_names": [
-      "Gotham Rogues",
-      "Gotham Rogues- Pig with Hair"
-    ],
-    "seasons": [
-      "2024"
-    ],
-    "total_weeks": 6,
-    "avg_rank": 14.0,
-    "best_rank": 11,
-    "worst_rank": 16,
-    "weeks_at_1": 0,
-    "weeks_at_16": 1,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 5,
-        "week_id": "2024-week-5",
-        "rank": 15,
-        "lw_rank": 15
-      },
-      {
-        "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 8,
-        "week_id": "2024-midseason",
-        "rank": 16,
-        "lw_rank": 16
-      },
-      {
-        "season": "2024",
-        "week": 9,
-        "week_id": "2024-week-9",
-        "rank": 11,
-        "lw_rank": 16
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 15,
-        "lw_rank": 14
+        "rank": 16
       }
     ]
   },
   "Boyle": {
     "name": "Boyle",
     "team_names": [
-      "Gotham Rogues",
+      "Gotham Rogues- Boyle",
+      "Gotham Rogues- Joe",
+      "Gotham Rogues- Pig with Hair",
       "Jackson Brownes",
-      "The Jackson Brownes"
+      "The Jackson Brownes (Boyle)",
+      "The Jackson Brownes- Boyle",
+      "The Jackson Brownes: Boyle",
+      "The Jackson Brownes: North Willow"
     ],
     "seasons": [
       "2024",
       "2025"
     ],
-    "total_weeks": 14,
-    "avg_rank": 7.36,
+    "total_weeks": 23,
+    "avg_rank": 9.22,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 3,
-    "weeks_at_16": 1,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 4,
-        "week_id": "2024-week-4",
-        "rank": 15,
-        "lw_rank": 13
-      },
-      {
-        "season": "2024",
-        "week": 7,
-        "week_id": "2024-week-7",
-        "rank": 16,
-        "lw_rank": 12
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 14,
-        "lw_rank": 13
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 14,
-        "lw_rank": 15
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 1,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 2,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 5,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 7,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Paul": {
-    "name": "Paul",
-    "team_names": [
-      "Marvin\u2019s Receiver Room",
-      "Team Daniel"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 19,
-    "avg_rank": 11.53,
-    "best_rank": 6,
-    "worst_rank": 16,
-    "weeks_at_1": 0,
     "weeks_at_16": 2,
     "rankings": [
       {
         "season": "2024",
-        "week": 6,
-        "week_id": "2024-week-6",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 11,
-        "week_id": "2024-week-11",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 13,
-        "week_id": "2024-week-13",
-        "rank": 16,
-        "lw_rank": 14
-      },
-      {
-        "season": "2024",
-        "week": 14,
-        "week_id": "2024-week-14",
-        "rank": 16,
-        "lw_rank": 16
-      },
-      {
-        "season": "2024",
-        "week": 15,
-        "week_id": "2024-week-15",
-        "rank": 15,
-        "lw_rank": 16
-      },
-      {
-        "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 9,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 3,
-        "week_id": "2025-week-3",
-        "rank": 15,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 4,
-        "week_id": "2025-week-4",
-        "rank": 13,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 5,
-        "week_id": "2025-week-5",
-        "rank": 7,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 6,
-        "week_id": "2025-week-6",
-        "rank": 8,
-        "lw_rank": 7
-      },
-      {
-        "season": "2025",
-        "week": 7,
-        "week_id": "2025-week-7",
-        "rank": 6,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 8,
-        "week_id": "2025-week-8",
-        "rank": 11,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 11,
-        "week_id": "2025-week-11",
-        "rank": 13,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 13,
-        "week_id": "2025-week-13",
-        "rank": 13,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 14,
-        "week_id": "2025-week-14",
-        "rank": 10,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 15,
-        "week_id": "2025-week-15",
-        "rank": 12,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 99,
-        "week_id": "2025-final",
-        "rank": 13,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Papi": {
-    "name": "Papi",
-    "team_names": [
-      "Gorlock the D",
-      "Gorlock the Destroyer",
-      "Gorlock the Destroyer Schwartz"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 17,
-    "avg_rank": 9.06,
-    "best_rank": 2,
-    "worst_rank": 15,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
         "week": 4,
         "week_id": "2024-week-4",
-        "rank": 5,
-        "lw_rank": 4
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 2,
-        "lw_rank": 5
+        "rank": 15
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 12
       },
       {
         "season": "2024",
         "week": 7,
         "week_id": "2024-week-7",
-        "rank": 6,
-        "lw_rank": 4
+        "rank": 16
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 16
       },
       {
         "season": "2024",
         "week": 9,
         "week_id": "2024-week-9",
-        "rank": 5,
-        "lw_rank": 3
+        "rank": 11
       },
       {
         "season": "2024",
         "week": 11,
         "week_id": "2024-week-11",
-        "rank": 3,
-        "lw_rank": null
-      },
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 13,
         "week_id": "2024-week-13",
-        "rank": 3,
-        "lw_rank": 2
+        "rank": 14
       },
       {
         "season": "2024",
         "week": 14,
         "week_id": "2024-week-14",
-        "rank": 5,
-        "lw_rank": 3
+        "rank": 15
       },
       {
         "season": "2024",
         "week": 15,
         "week_id": "2024-week-15",
-        "rank": 6,
-        "lw_rank": 5
+        "rank": 14
       },
       {
         "season": "2025",
         "week": 2,
         "week_id": "2025-week-2",
-        "rank": 7,
-        "lw_rank": null
+        "rank": 3
       },
       {
         "season": "2025",
         "week": 3,
         "week_id": "2025-week-3",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 1
       },
       {
         "season": "2025",
         "week": 4,
         "week_id": "2025-week-4",
-        "rank": 12,
-        "lw_rank": null
+        "rank": 1
       },
       {
         "season": "2025",
         "week": 5,
         "week_id": "2025-week-5",
-        "rank": 13,
-        "lw_rank": null
+        "rank": 1
       },
       {
         "season": "2025",
         "week": 6,
         "week_id": "2025-week-6",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 2
       },
       {
         "season": "2025",
         "week": 7,
         "week_id": "2025-week-7",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 5
       },
       {
         "season": "2025",
         "week": 11,
         "week_id": "2025-week-11",
-        "rank": 15,
-        "lw_rank": null
+        "rank": 9
       },
       {
         "season": "2025",
         "week": 12,
         "week_id": "2025-week-12",
-        "rank": 15,
-        "lw_rank": null
-      }
-    ]
-  },
-  "North Willow": {
-    "name": "North Willow",
-    "team_names": [
-      "The Jackson Brownes"
-    ],
-    "seasons": [
-      "2024",
-      "2025"
-    ],
-    "total_weeks": 4,
-    "avg_rank": 8.25,
-    "best_rank": 8,
-    "worst_rank": 9,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
-      {
-        "season": "2024",
-        "week": 12,
-        "week_id": "2024-week-12",
-        "rank": 8,
-        "lw_rank": null
-      },
-      {
-        "season": "2025",
-        "week": 12,
-        "week_id": "2025-week-12",
-        "rank": 8,
-        "lw_rank": null
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 13,
         "week_id": "2025-week-13",
-        "rank": 9,
-        "lw_rank": null
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 8
       },
       {
         "season": "2025",
         "week": 15,
         "week_id": "2025-week-15",
-        "rank": 8,
-        "lw_rank": null
-      }
-    ]
-  },
-  "Oscar": {
-    "name": "Oscar",
-    "team_names": [
-      "Senior AI Coke Twins"
-    ],
-    "seasons": [
-      "2025"
-    ],
-    "total_weeks": 1,
-    "avg_rank": 15.0,
-    "best_rank": 15,
-    "worst_rank": 15,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
-    "rankings": [
+        "rank": 8
+      },
       {
         "season": "2025",
-        "week": 2,
-        "week_id": "2025-week-2",
-        "rank": 15,
-        "lw_rank": null
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 7
       }
     ]
   },
-  "Gerry Lewis": {
-    "name": "Gerry Lewis",
+  "Gallo": {
+    "name": "Gallo",
     "team_names": [
-      "Champagne Suitcase Heart Emoji"
+      "Here Without You Tishman",
+      "Here Without You Tishman- Gallo",
+      "Here Without You Tishman- Gallo in boots",
+      "Scampi",
+      "Scampi (Gallo)",
+      "Scampi- Gallo",
+      "Scampi: Gallo",
+      "Scampi: Gallo (with hair)"
     ],
     "seasons": [
-      "2024"
+      "2024",
+      "2025"
     ],
-    "total_weeks": 1,
-    "avg_rank": 12.0,
-    "best_rank": 12,
-    "worst_rank": 12,
-    "weeks_at_1": 0,
-    "weeks_at_16": 0,
+    "total_weeks": 23,
+    "avg_rank": 7.78,
+    "best_rank": 1,
+    "worst_rank": 16,
+    "weeks_at_1": 6,
+    "weeks_at_16": 3,
     "rankings": [
+      {
+        "season": "2024",
+        "week": 4,
+        "week_id": "2024-week-4",
+        "rank": 16
+      },
       {
         "season": "2024",
         "week": 5,
         "week_id": "2024-week-5",
-        "rank": 12,
-        "lw_rank": 13
+        "rank": 16
+      },
+      {
+        "season": "2024",
+        "week": 6,
+        "week_id": "2024-week-6",
+        "rank": 16
+      },
+      {
+        "season": "2024",
+        "week": 7,
+        "week_id": "2024-week-7",
+        "rank": 12
+      },
+      {
+        "season": "2024",
+        "week": 8,
+        "week_id": "2024-midseason",
+        "rank": 13
+      },
+      {
+        "season": "2024",
+        "week": 9,
+        "week_id": "2024-week-9",
+        "rank": 12
+      },
+      {
+        "season": "2024",
+        "week": 11,
+        "week_id": "2024-week-11",
+        "rank": 14
+      },
+      {
+        "season": "2024",
+        "week": 13,
+        "week_id": "2024-week-13",
+        "rank": 13
+      },
+      {
+        "season": "2024",
+        "week": 14,
+        "week_id": "2024-week-14",
+        "rank": 12
+      },
+      {
+        "season": "2024",
+        "week": 15,
+        "week_id": "2024-week-15",
+        "rank": 10
+      },
+      {
+        "season": "2025",
+        "week": 2,
+        "week_id": "2025-week-2",
+        "rank": 13
+      },
+      {
+        "season": "2025",
+        "week": 3,
+        "week_id": "2025-week-3",
+        "rank": 9
+      },
+      {
+        "season": "2025",
+        "week": 4,
+        "week_id": "2025-week-4",
+        "rank": 7
+      },
+      {
+        "season": "2025",
+        "week": 5,
+        "week_id": "2025-week-5",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 6,
+        "week_id": "2025-week-6",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 7,
+        "week_id": "2025-week-7",
+        "rank": 3
+      },
+      {
+        "season": "2025",
+        "week": 8,
+        "week_id": "2025-week-8",
+        "rank": 2
+      },
+      {
+        "season": "2025",
+        "week": 11,
+        "week_id": "2025-week-11",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 12,
+        "week_id": "2025-week-12",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 13,
+        "week_id": "2025-week-13",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 14,
+        "week_id": "2025-week-14",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 15,
+        "week_id": "2025-week-15",
+        "rank": 1
+      },
+      {
+        "season": "2025",
+        "week": 99,
+        "week_id": "2025-final",
+        "rank": 1
       }
     ]
   }

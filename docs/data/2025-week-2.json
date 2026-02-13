@@ -8,9 +8,9 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "Work Ass",
+      "team_name": "Work Ass- Sweeney",
       "owner": "Sweeney",
-      "lw_rank": null,
+      "movement": 11,
       "tier": "The Favorites",
       "subsections": [
         "best_pick",
@@ -19,9 +19,9 @@
     },
     {
       "rank": 2,
-      "team_name": "Stewed C",
+      "team_name": "Stewed C- Joey",
       "owner": "Joey",
-      "lw_rank": null,
+      "movement": -1,
       "tier": "The Favorites",
       "subsections": [
         "best_pick",
@@ -30,9 +30,9 @@
     },
     {
       "rank": 3,
-      "team_name": "The Jackson Brownes",
+      "team_name": "The Jackson Brownes- Boyle",
       "owner": "Boyle",
-      "lw_rank": null,
+      "movement": 11,
       "tier": "The Favorites",
       "subsections": [
         "best_pick",
@@ -41,9 +41,9 @@
     },
     {
       "rank": 4,
-      "team_name": "Team Obama Sopranos",
+      "team_name": "Team Obama Sopranos- TK",
       "owner": "TK",
-      "lw_rank": null,
+      "movement": 12,
       "tier": "The Favorites",
       "subsections": [
         "best_pick",
@@ -52,9 +52,9 @@
     },
     {
       "rank": 5,
-      "team_name": "Ginny Sack",
+      "team_name": "Ginny Sack- Chris",
       "owner": "Chris",
-      "lw_rank": null,
+      "movement": 4,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -63,9 +63,9 @@
     },
     {
       "rank": 6,
-      "team_name": "Cookie Monster Golf Cart",
+      "team_name": "Cookie Monster Golf Cart- TJ",
       "owner": "TJ",
-      "lw_rank": null,
+      "movement": -2,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -74,9 +74,9 @@
     },
     {
       "rank": 7,
-      "team_name": "Gorlock the Destroyer Schwartz",
+      "team_name": "Gorlock the Destroyer Schwartz- Papi",
       "owner": "Papi",
-      "lw_rank": null,
+      "movement": -1,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -85,9 +85,9 @@
     },
     {
       "rank": 8,
-      "team_name": "The Art of the Deal",
+      "team_name": "The Art of the Deal- Matt",
       "owner": "Matt",
-      "lw_rank": null,
+      "movement": -3,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -96,9 +96,9 @@
     },
     {
       "rank": 9,
-      "team_name": "Team Daniel",
+      "team_name": "Team Daniel- Paul",
       "owner": "Paul",
-      "lw_rank": null,
+      "movement": 6,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -107,9 +107,9 @@
     },
     {
       "rank": 10,
-      "team_name": "Life with Derrick",
+      "team_name": "Life with Derrick- Justin",
       "owner": "Justin",
-      "lw_rank": null,
+      "movement": -7,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -118,9 +118,9 @@
     },
     {
       "rank": 11,
-      "team_name": "Pigs on the 7th Rank",
+      "team_name": "Pigs on the 7th Rank- Deez",
       "owner": "Deez",
-      "lw_rank": null,
+      "movement": -4,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -129,9 +129,9 @@
     },
     {
       "rank": 12,
-      "team_name": "Sweeney Deez and Zaukas",
+      "team_name": "Sweeney Deez and Zaukas- Mitch",
       "owner": "Mitch",
-      "lw_rank": null,
+      "movement": -10,
       "tier": "Muddled Middle",
       "subsections": [
         "best_pick",
@@ -140,9 +140,9 @@
     },
     {
       "rank": 13,
-      "team_name": "Here Without You Tishman",
+      "team_name": "Here Without You Tishman- Gallo",
       "owner": "Gallo",
-      "lw_rank": null,
+      "movement": -3,
       "tier": "Retard Hour",
       "subsections": [
         "best_pick",
@@ -151,9 +151,9 @@
     },
     {
       "rank": 14,
-      "team_name": "Sweeney.",
+      "team_name": "Sweeney.- Connor",
       "owner": "Connor",
-      "lw_rank": null,
+      "movement": -3,
       "tier": "Retard Hour",
       "subsections": [
         "best_pick",
@@ -162,9 +162,9 @@
     },
     {
       "rank": 15,
-      "team_name": "Senior AI Coke Twins",
-      "owner": "Oscar",
-      "lw_rank": null,
+      "team_name": "Senior AI Coke Twins- Oscar",
+      "owner": "Mikey",
+      "movement": -2,
       "tier": "Retard Hour",
       "subsections": [
         "best_pick",
@@ -175,7 +175,7 @@
       "rank": 16,
       "team_name": "Ger- still uses emoji stuff for team name. Nobody gets.",
       "owner": "Ger",
-      "lw_rank": null,
+      "movement": -8,
       "tier": "Retard Hour",
       "subsections": [
         "best_pick",

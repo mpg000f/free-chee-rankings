@@ -43,7 +43,7 @@ TEAM_OWNER_MAP = {
     "senior ai coke twins": "Mikey",
     "senior bag master": "Mikey",
     "ai coke twins": "Mikey",
-    "gotham rogues": "Joe",  # 2024
+    "gotham rogues": "Boyle",  # 2024 (Joe = Boyle)
     "champagne suitcase heart emoji": "Ger",
     "champagne suitcase heart face": "Ger",
     "champagne suitcase kiss face": "Ger",
@@ -100,7 +100,14 @@ def extract_team_owner(rest):
     # Clean trailing punctuation
     rest = rest.rstrip("(").strip()
 
-    # Step 2: Try to split team and owner
+    # Step 2: Check full team name against TEAM_OWNER_MAP first
+    # (handles cases where owner names appear in team names, e.g. "Sweeney Deez and Zaukas")
+    team_lower_check = _normalize_team_name(rest.lower().strip())
+    for team_pattern, owner in TEAM_OWNER_MAP.items():
+        if team_lower_check == team_pattern or team_lower_check.startswith(team_pattern):
+            return rest, owner, lw_rank
+
+    # Step 3: Try to split team and owner
 
     # Format: "Team Name: Owner" (2025 late season)
     colon_match = re.match(r'^(.+?):\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\s*$', rest)
@@ -336,7 +343,18 @@ def parse_rankings(text, file_info):
 
 def _finalize_team(team, text_lines):
     """Process writeup text and extract subsections."""
-    full_text = "\n".join(text_lines).strip()
+    # Remove LW rank lines that leaked into writeup text
+    cleaned_lines = []
+    for line in text_lines:
+        stripped = line.strip()
+        if re.match(r'^LW[\s-]*[Rr]ank[\s:-]*\d+', stripped):
+            continue
+        if re.match(r'^LW[\s-]*[Rr]ank[\s:-]*\d+\s*and\s*\d+', stripped):
+            continue
+        if stripped.lower().startswith("lw rank") or stripped.lower().startswith("lw-rank"):
+            continue
+        cleaned_lines.append(line)
+    full_text = "\n".join(cleaned_lines).strip()
     subsections = {}
 
     # Next up
@@ -371,30 +389,51 @@ def _finalize_team(team, text_lines):
         subsections["general_strategy"] = strat.group(1).strip()
         full_text = full_text[:strat.start()].strip()
 
-    # Playoff Scenario
-    playoff = re.search(r'(?:^|\n)Playoff [Ss]cenario:\s*(.+?)(?=\n(?:Best [Mm]ove|Predicted finish)|\n\n|\Z)', full_text, re.DOTALL)
-    if playoff:
-        subsections["playoff_scenario"] = playoff.group(1).strip()
+    # Generic subsection extractor for labeled sections
+    # These patterns match "Label:" at start of line and capture until next labeled section or double newline
+    generic_patterns = [
+        ("playoff_scenario", r'Playoff [Ss]cenario:'),
+        ("best_move", r'Best [Mm]ove[^:]*:'),
+        ("predicted_finish", r'Predicted [Ff]inish:'),
+        ("sleeper", r'Sleeper:'),
+        ("a_chirp", r'A [Cc]hirp:'),
+        ("looking_ahead", r'Looking [Aa]head:'),
+        ("midseason_draft_checkin", r'Midseason [Dd]raft [Cc]heck-?in:'),
+        ("newark_street_stat", r'Newark [Ss]treet [Ss]tat:'),
+        ("nervous_about", r'Nervous [Aa]bout:'),
+        ("best_draft_pick", r'Best [Dd]raft [Pp]ick:'),
+    ]
 
-    # Best Move
-    best_move = re.search(r'(?:^|\n)Best [Mm]ove[^:]*:\s*(.+?)(?=\n(?:Playoff|Predicted)|\n\n|\Z)', full_text, re.DOTALL)
-    if best_move:
-        subsections["best_move"] = best_move.group(1).strip()
+    # Find all matches and their positions
+    all_matches = []
+    for key, pattern in generic_patterns:
+        m = re.search(r'(?:^|\n)(' + pattern + r')\s*(.+?)(?=\n(?:[A-Z][a-z]+ [A-Z]|Playoff|Predicted|Best [Mm]ove|Sleeper|Looking|Midseason|Newark|Nervous|A [Cc]hirp)|\n\n|\Z)', full_text, re.DOTALL)
+        if m:
+            subsections[key] = m.group(2).strip()
+            all_matches.append(m)
 
-    # Predicted finish
-    predicted = re.search(r'(?:^|\n)Predicted finish:\s*(.+?)(?:\n\n|\Z)', full_text, re.DOTALL)
-    if predicted:
-        subsections["predicted_finish"] = predicted.group(1).strip()
+    # Also check for "Team Comp:" / team comparison sections
+    comp_matches = list(re.finditer(r'(?:^|\n)(Team [Cc]omp(?:arison)?[^:]*:)\s*(.+?)(?=\n(?:Team [Cc]omp|[A-Z][a-z]+ [A-Z])|\n\n|\Z)', full_text, re.DOTALL))
+    for m in comp_matches:
+        label = m.group(1).rstrip(":")
+        subsections[f"team_comp_{label}"] = m.group(2).strip()
+        all_matches.append(m)
 
-    # Remove extracted subsections from main writeup
-    if playoff or best_move or predicted:
-        # Find the earliest match and cut the writeup there
-        starts = []
-        for m in [playoff, best_move, predicted]:
-            if m:
-                starts.append(m.start())
-        if starts:
-            full_text = full_text[:min(starts)].strip()
+    # Check for per-team "X best pick:" / "X worst pick:" patterns (grouped sections)
+    # Only match on a single line (no newline in the label prefix or separator)
+    team_pick_matches = list(re.finditer(
+        r'(?:^|\n)([A-Z][\w ]{1,30}[ \t]+(?:best|worst)[ \t]+(?:pick|draft pick)[^:\n]*:)[ \t]*(.+?)(?=\n[A-Z][\w ]{1,30}[ \t]+(?:best|worst)[ \t]+(?:pick|draft pick)|\n\n|\Z)',
+        full_text, re.DOTALL | re.IGNORECASE))
+    for m in team_pick_matches:
+        label = m.group(1).strip().rstrip(":")
+        key = f"pick_{label.lower().replace(' ', '_')}"
+        subsections[key] = m.group(2).strip()
+        all_matches.append(m)
+
+    # Remove extracted subsections from main writeup (cut at earliest match)
+    if all_matches:
+        earliest = min(m.start() for m in all_matches)
+        full_text = full_text[:earliest].strip()
 
     team["writeup"] = full_text
     team["subsections"] = subsections

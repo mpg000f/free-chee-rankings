@@ -8,9 +8,9 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "Life with Derrick",
+      "team_name": "Life with Derrick- Justin",
       "owner": "Justin",
-      "lw_rank": 1,
+      "movement": 0,
       "tier": "The Triumvirate",
       "subsections": [
         "draft_steal",
@@ -19,9 +19,9 @@
     },
     {
       "rank": 2,
-      "team_name": "Stewed C",
+      "team_name": "Stewed C- Joey",
       "owner": "Joey",
-      "lw_rank": 2,
+      "movement": 0,
       "tier": "The Triumvirate",
       "subsections": [
         "draft_steal",
@@ -30,9 +30,9 @@
     },
     {
       "rank": 3,
-      "team_name": "Gorlock the Destroyer Schwartz",
-      "owner": "Simon",
-      "lw_rank": 6,
+      "team_name": "Gorlock the Destroyer Schwartz- Simon",
+      "owner": "Papi",
+      "movement": 3,
       "tier": "The Triumvirate",
       "subsections": [
         "draft_steal",
@@ -41,9 +41,9 @@
     },
     {
       "rank": 4,
-      "team_name": "Cap Stoppers",
+      "team_name": "Cap Stoppers- TJ",
       "owner": "TJ",
-      "lw_rank": 9,
+      "movement": 5,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -52,9 +52,9 @@
     },
     {
       "rank": 5,
-      "team_name": "Hand me the Piss",
+      "team_name": "Hand me the Piss- TK",
       "owner": "TK",
-      "lw_rank": 5,
+      "movement": -1,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -63,9 +63,9 @@
     },
     {
       "rank": 6,
-      "team_name": "Sansa Ludacris",
+      "team_name": "Sansa Ludacris- Chris",
       "owner": "Chris",
-      "lw_rank": 3,
+      "movement": -3,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -74,9 +74,9 @@
     },
     {
       "rank": 7,
-      "team_name": "Pigs on the 7th Rank",
+      "team_name": "Pigs on the 7th Rank- Deez",
       "owner": "Deez",
-      "lw_rank": 11,
+      "movement": 4,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -85,9 +85,9 @@
     },
     {
       "rank": 8,
-      "team_name": "Deserves to be Shot",
+      "team_name": "Deserves to be Shot- Mitch",
       "owner": "Mitch",
-      "lw_rank": 7,
+      "movement": -1,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -96,9 +96,9 @@
     },
     {
       "rank": 9,
-      "team_name": "Sweeney.",
+      "team_name": "Sweeney.- Connor",
       "owner": "Connor",
-      "lw_rank": 8,
+      "movement": -1,
       "tier": "Playoff Teams",
       "subsections": [
         "draft_steal",
@@ -107,9 +107,9 @@
     },
     {
       "rank": 10,
-      "team_name": "Marvin\u2019s Receiver Room",
-      "owner": "Zaukas",
-      "lw_rank": 5,
+      "team_name": "Marvin\u2019s Receiver Room- Zaukas",
+      "owner": "Paul",
+      "movement": -5,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -118,9 +118,9 @@
     },
     {
       "rank": 11,
-      "team_name": "WHERESTUA",
+      "team_name": "WHERESTUA- Matt",
       "owner": "Matt",
-      "lw_rank": 12,
+      "movement": 3,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -129,9 +129,9 @@
     },
     {
       "rank": 12,
-      "team_name": "Work Ass",
+      "team_name": "Work Ass- Sweeney",
       "owner": "Sweeney",
-      "lw_rank": 10,
+      "movement": -2,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -140,9 +140,9 @@
     },
     {
       "rank": 13,
-      "team_name": "Here Without You Tishman",
+      "team_name": "Here Without You Tishman- Gallo",
       "owner": "Gallo",
-      "lw_rank": 12,
+      "movement": -1,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -151,9 +151,9 @@
     },
     {
       "rank": 14,
-      "team_name": "Ger",
+      "team_name": "Ger- Ger",
       "owner": "Ger",
-      "lw_rank": 15,
+      "movement": 1,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -162,9 +162,9 @@
     },
     {
       "rank": 15,
-      "team_name": "Senior AI Coke Twins",
+      "team_name": "Senior AI Coke Twins- Mikey",
       "owner": "Mikey",
-      "lw_rank": 13,
+      "movement": -2,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",
@@ -173,9 +173,9 @@
     },
     {
       "rank": 16,
-      "team_name": "Gotham Rogues",
-      "owner": "Joe",
-      "lw_rank": 16,
+      "team_name": "Gotham Rogues- Joe",
+      "owner": "Boyle",
+      "movement": 0,
       "tier": "Probably Dogwater",
       "subsections": [
         "draft_steal",

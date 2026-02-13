@@ -10,7 +10,7 @@
       "rank": 1,
       "team_name": "Scampi",
       "owner": "Gallo",
-      "lw_rank": null,
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
@@ -18,7 +18,7 @@
       "rank": 2,
       "team_name": "Art of the Deal",
       "owner": "Matt",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
       "subsections": []
     },
@@ -26,7 +26,7 @@
       "rank": 3,
       "team_name": "Cookie Monster Golf Cart",
       "owner": "TJ",
-      "lw_rank": null,
+      "movement": -2,
       "tier": null,
       "subsections": []
     },
@@ -34,7 +34,7 @@
       "rank": 4,
       "team_name": "Work Ass",
       "owner": "Sweeney",
-      "lw_rank": null,
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
@@ -42,7 +42,7 @@
       "rank": 5,
       "team_name": "Ginny Sack",
       "owner": "Chris",
-      "lw_rank": null,
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
@@ -50,7 +50,7 @@
       "rank": 6,
       "team_name": "Stewed C",
       "owner": "Joey",
-      "lw_rank": null,
+      "movement": 3,
       "tier": null,
       "subsections": []
     },
@@ -58,15 +58,15 @@
       "rank": 7,
       "team_name": "Pigs on the 7th Rank",
       "owner": "Deez",
-      "lw_rank": null,
+      "movement": 1,
       "tier": null,
       "subsections": []
     },
     {
       "rank": 8,
-      "team_name": "Sweeney Deez and",
-      "owner": "Zaukas",
-      "lw_rank": null,
+      "team_name": "Sweeney Deez and Zaukas",
+      "owner": "Mitch",
+      "movement": -1,
       "tier": null,
       "subsections": []
     },
@@ -74,7 +74,7 @@
       "rank": 9,
       "team_name": "Jackson Brownes",
       "owner": "Boyle",
-      "lw_rank": null,
+      "movement": -4,
       "tier": null,
       "subsections": []
     },
@@ -82,7 +82,7 @@
       "rank": 10,
       "team_name": "Sweeney.",
       "owner": "Connor",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
       "subsections": []
     },
@@ -90,7 +90,7 @@
       "rank": 11,
       "team_name": "Life with Derrick",
       "owner": "Justin",
-      "lw_rank": null,
+      "movement": 2,
       "tier": null,
       "subsections": []
     },
@@ -98,7 +98,7 @@
       "rank": 12,
       "team_name": "Team Obama Sopranos",
       "owner": "TK",
-      "lw_rank": null,
+      "movement": -2,
       "tier": null,
       "subsections": []
     },
@@ -106,7 +106,7 @@
       "rank": 13,
       "team_name": "Team Daniel",
       "owner": "Paul",
-      "lw_rank": null,
+      "movement": -2,
       "tier": null,
       "subsections": []
     },
@@ -114,7 +114,7 @@
       "rank": 14,
       "team_name": "Ger",
       "owner": "Ger",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
@@ -122,7 +122,7 @@
       "rank": 15,
       "team_name": "Gorlock the D",
       "owner": "Papi",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
@@ -130,7 +130,7 @@
       "rank": 16,
       "team_name": "Senior Bag Master",
       "owner": "Mikey",
-      "lw_rank": null,
+      "movement": 0,
       "tier": null,
       "subsections": []
     }
