@@ -10,7 +10,7 @@
       "rank": 1,
       "team_name": "Hand me the Piss",
       "owner": "TK",
-      "movement": null,
+      "movement": 1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -20,7 +20,7 @@
       "rank": 2,
       "team_name": "Stewed C",
       "owner": "Joey",
-      "movement": null,
+      "movement": -1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -30,7 +30,7 @@
       "rank": 3,
       "team_name": "Sansa Ludacris",
       "owner": "Chris",
-      "movement": null,
+      "movement": 0,
       "tier": null,
       "subsections": [
         "next_up"
@@ -40,7 +40,7 @@
       "rank": 4,
       "team_name": "Cap Stoppers",
       "owner": "TJ",
-      "movement": null,
+      "movement": 4,
       "tier": null,
       "subsections": [
         "next_up"
@@ -50,7 +50,7 @@
       "rank": 5,
       "team_name": "Gorlock the Destroyer",
       "owner": "Papi",
-      "movement": null,
+      "movement": -1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -60,7 +60,7 @@
       "rank": 6,
       "team_name": "Alexander\u2019s Unreal Team",
       "owner": "Deez",
-      "movement": null,
+      "movement": 5,
       "tier": null,
       "subsections": [
         "next_up"
@@ -70,7 +70,7 @@
       "rank": 7,
       "team_name": "Tony the Phenom",
       "owner": "Justin",
-      "movement": null,
+      "movement": -1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -80,7 +80,7 @@
       "rank": 8,
       "team_name": "Marvin\u2019s Receiver Room",
       "owner": "Paul",
-      "movement": null,
+      "movement": -1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -90,7 +90,7 @@
       "rank": 9,
       "team_name": "Sweeney.",
       "owner": "Connor",
-      "movement": null,
+      "movement": 0,
       "tier": null,
       "subsections": [
         "next_up"
@@ -100,7 +100,7 @@
       "rank": 10,
       "team_name": "Work Ass",
       "owner": "Sweeney",
-      "movement": null,
+      "movement": 0,
       "tier": null,
       "subsections": []
     },
@@ -108,7 +108,7 @@
       "rank": 10,
       "team_name": "Deserves to be Shot",
       "owner": "Mitch",
-      "movement": null,
+      "movement": -5,
       "tier": null,
       "subsections": [
         "next_up"
@@ -118,7 +118,7 @@
       "rank": 12,
       "team_name": "WHERESTUA",
       "owner": "Matt",
-      "movement": null,
+      "movement": 0,
       "tier": null,
       "subsections": [
         "next_up"
@@ -128,7 +128,7 @@
       "rank": 13,
       "team_name": "Champagne Suitcase Heart Face (emoji stuff)",
       "owner": "Ger",
-      "movement": null,
+      "movement": 1,
       "tier": null,
       "subsections": [
         "next_up"
@@ -138,7 +138,7 @@
       "rank": 14,
       "team_name": "AI Coke Twins",
       "owner": "Mikey",
-      "movement": null,
+      "movement": 2,
       "tier": null,
       "subsections": [
         "next_up"
@@ -148,7 +148,7 @@
       "rank": 15,
       "team_name": "Gotham Rogues",
       "owner": "Boyle",
-      "movement": null,
+      "movement": -2,
       "tier": null,
       "subsections": [
         "next_up"
@@ -158,7 +158,7 @@
       "rank": 16,
       "team_name": "Here Without You Tishman",
       "owner": "Gallo",
-      "movement": null,
+      "movement": -1,
       "tier": null,
       "subsections": [
         "next_up"

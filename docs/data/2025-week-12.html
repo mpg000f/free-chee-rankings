@@ -54,7 +54,47 @@
     
   </div>
 </div>
-<div class="special-section"><h2>Fantasy Team Power Trios</h2><table class="odds-table">
+<div class="special-section"><h2>Fantasy Team Power Trios</h2><div class="trios-chart-wrapper" style="max-width:800px;margin:1em auto;">
+<canvas id="trios-chart-2025-week-12-2" height="400"></canvas>
+</div>
+<script>
+(function() {
+  const ctx = document.getElementById('trios-chart-2025-week-12-2');
+  if (!ctx) return;
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Scampi", "Sweeney Deez and Zaukas", "Pigs on the 7th Rank", "Cookie Monster Golf Cart", "The Art of the Deal", "Work Ass", "Stewed C", "Ginny Sack", "The Jackson Brownes", "Team Daniel", "Gorlock the destroyer Schwartz", "Sweeney.", "Champagne Suitcase", "Senior AI Coke Twins", "Life with Derrick", "Team OBAMA SOPRANOS"],
+      datasets: [{
+        label: 'Total FPPG (Top 3 Players)',
+        data: [539.1, 536.8, 534.7, 517.9, 516.7, 509.4, 489.4, 484.5, 483.2, 481.3, 425.2, 389.4, 381.4, 371.5, 363.9, 324.7],
+        backgroundColor: 'rgba(245, 166, 35, 0.7)',
+        borderColor: '#f5a623',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        title: { display: false }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          grid: { color: 'rgba(255,255,255,0.1)' },
+          ticks: { color: '#ccc' }
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: '#ccc', font: { size: 11 } }
+        }
+      }
+    }
+  });
+})();
+</script><table class="odds-table">
 <thead><tr><th>Team</th><th>Player 1</th><th>Player 2</th><th>Player 3</th><th>Total</th></tr></thead>
 <tbody><tr><td>Scampi</td><td>Jonathan Taylor</td><td>Sam Darnold</td><td>Davante Adams</td><td><strong>539.1</strong></td></tr>
 <tr><td>Sweeney Deez and Zaukas</td><td>Drake Maye</td><td>Dak Prescott</td><td>Ja&#x27;Marr Chase</td><td><strong>536.8</strong></td></tr>

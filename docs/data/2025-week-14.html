@@ -92,7 +92,47 @@ league in Gorlock and Senior Coke.</div>
 </div>
 <div class="article-image"><img src="images/2025_week_14_p4_1_728714ee.png" alt="Chart" loading="lazy"></div>
 <div class="article-image"><img src="images/2025_week_14_p4_2_4eb086c5.png" alt="Chart" loading="lazy"></div>
-<div class="special-section"><h2>Fantasy Team Power Trios</h2><table class="odds-table">
+<div class="special-section"><h2>Fantasy Team Power Trios</h2><div class="trios-chart-wrapper" style="max-width:800px;margin:1em auto;">
+<canvas id="trios-chart-2025-week-14-4" height="400"></canvas>
+</div>
+<script>
+(function() {
+  const ctx = document.getElementById('trios-chart-2025-week-14-4');
+  if (!ctx) return;
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ["Pigs on the 7th Rank", "Sweeney Deez and Zaukas", "Stewed C", "Work Ass", "Scampi", "The Jackson Brownes", "Ginny Sack", "The Art of the Deal", "Cookie Monster Golf Cart", "Team Daniel", "Gorlock the destroyer Schwartz", "Sweeney.", "Champagne Suitcase", "Senior AI Coke Twins", "Life with Derrick", "Team OBAMA SOPRANOS"],
+      datasets: [{
+        label: 'Total FPPG (Top 3 Players)',
+        data: [638.8, 626.0, 611.9, 607.4, 599.9, 587.9, 577.6, 568.5, 560.2, 547.3, 499.9, 476.4, 469.8, 414.1, 406.2, 375.9],
+        backgroundColor: 'rgba(245, 166, 35, 0.7)',
+        borderColor: '#f5a623',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        title: { display: false }
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          grid: { color: 'rgba(255,255,255,0.1)' },
+          ticks: { color: '#ccc' }
+        },
+        y: {
+          grid: { display: false },
+          ticks: { color: '#ccc', font: { size: 11 } }
+        }
+      }
+    }
+  });
+})();
+</script><table class="odds-table">
 <thead><tr><th>Team</th><th>Player 1</th><th>Player 2</th><th>Player 3</th><th>Total</th></tr></thead>
 <tbody><tr><td>Pigs on the 7th Rank</td><td>Patrick Mahomes (243.9)</td><td>Jahmyr Gibbs (235.0)</td><td>Rico Dowdle (159.9)</td><td><strong>638.8</strong></td></tr>
 <tr><td>Sweeney Deez and Zaukas</td><td>Drake Maye (244.6)</td><td>Dak Prescott (227.2)</td><td>Ja&#x27;Marr Chase (154.2)</td><td><strong>626.0</strong></td></tr>

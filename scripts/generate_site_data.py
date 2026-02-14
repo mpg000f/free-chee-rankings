@@ -26,6 +26,10 @@ os.makedirs(IMG_DIR, exist_ok=True)
 SKIP_IMAGES = {
     "2024_week_15_p7_1",   # Excel rankings history screenshot
     "2025_week_13_p2_1",   # Zach Wilson / JJ McCarthy picture
+    "2025_week_4_p9_1",    # CJ Stroud vs Caleb Williams comparison
+    "2025_week_8_p3_1",    # Nathan Peterman stats screenshot (data already in table)
+    "2025_week_13_p5_1",   # Power trios chart screenshot (replaced with HTML)
+    "2025_week_13_p6_1",   # Power trios table screenshot (replaced with HTML)
 }
 
 # Images to force into a specific owner's section (filename substring → owner name)
@@ -33,7 +37,6 @@ IMAGE_OWNER_OVERRIDE = {
     "2025_week_7_p5_1": "Connor",  # #1 pick FPPG graph
     "2025_week_7_p5_2": "Connor",
     "2025_week_7_p5_3": "Connor",
-    "2025_week_8_p3_1": "Mitch",   # Power trios - near Sweeney Deez section
     "2025_week_12_p3_1": "Mitch",  # Power trios chart
     "2025_week_12_p3_2": "Mitch",  # Power trios table
     "2025_week_14_p4_1": "Mitch",  # Power trios chart
@@ -42,7 +45,11 @@ IMAGE_OWNER_OVERRIDE = {
 
 # Special sections to remove entirely (by section name regex)
 REMOVE_SECTIONS = {
-    "2025-final": [r'(?i)^playoff bracket$', r'(?i)^mud eater bracket$'],
+    "2025-final": [r'(?i)^playoff bracket$', r'(?i)^mud eater bracket$',
+                   r'(?i)^playoff preview$', r'(?i)^second round$',
+                   r'(?i)^final round$', r'(?i)^relegation preview$'],
+    "2024-week-14": [r'(?i)^matchup previews?$'],
+    "2024-week-15": [r'(?i)^matchup previews?$', r'(?i)^rankings history'],
 }
 
 # ===== POWER TRIOS DATA (transcribed from PDF screenshots) =====
@@ -82,6 +89,24 @@ POWER_TRIOS = {
         ("Senior AI Coke Twins", "Aaron Rodgers", "Saquon Barkley", "Tucker Kraft", 371.5),
         ("Life with Derrick", "C.J. Stroud", "Michael Pittman Jr.", "D'Andre Swift", 363.9),
         ("Team OBAMA SOPRANOS", "Lamar Jackson", "Tyler Warren", "Jordan Mason", 324.7),
+    ],
+    "2025-week-13": [
+        ("Sweeney Deez and Zaukas", "Drake Maye (227.6)", "Dak Prescott (199.2)", "Ja'Marr Chase (154.2)", 581.0),
+        ("The Jackson Brownes", "Josh Allen (254.3)", "Bijan Robinson (186.4)", "Michael Penix Jr. (123.3)", 564.0),
+        ("Pigs on the 7th Rank", "Patrick Mahomes (225.8)", "Jahmyr Gibbs (185.1)", "Rico Dowdle (150.5)", 561.4),
+        ("Cookie Monster Golf Cart", "De'Von Achane (208.0)", "Baker Mayfield (183.3)", "Jaxon Dart (163.4)", 554.7),
+        ("Work Ass", "Bo Nix (206.1)", "Jaxon Smith-Njigba (181.9)", "Trevor Lawrence (166.1)", 554.1),
+        ("Scampi", "Jonathan Taylor (258.9)", "Sam Darnold (156.6)", "Davante Adams (138.4)", 553.9),
+        ("Ginny Sack", "Christian McCaffrey (246.9)", "Kyren Williams (154.7)", "Drake London (147.0)", 548.6),
+        ("The Art of the Deal", "Justin Herbert (215.1)", "Josh Jacobs (166.5)", "George Pickens (161.8)", 543.4),
+        ("Stewed C", "Matthew Stafford (203.4)", "Jalen Hurts (201.3)", "Derrick Henry (131.6)", 536.3),
+        ("Team Daniel", "Daniel Jones (199.7)", "Caleb Williams (195.6)", "Jayden Daniels (113.6)", 508.9),
+        ("Gorlock the destroyer Schwartz", "Jordan Love (168.3)", "Amon-Ra St. Brown (155.4)", "Justin Fields (143.7)", 467.4),
+        ("Sweeney.", "Puka Nacua (156.8)", "Trey McBride (149.3)", "Geno Smith (130.5)", 436.6),
+        ("Champagne Suitcase", "Jared Goff (177.8)", "Travis Etienne Jr. (132.4)", "TreVeyon Henderson (112.7)", 422.9),
+        ("Senior AI Coke Twins", "Aaron Rodgers (152.4)", "Saquon Barkley (136.9)", "Kenneth Walker III (104.3)", 393.6),
+        ("Life with Derrick", "Bryce Young (135.8)", "C.J. Stroud (126.0)", "D'Andre Swift (123.9)", 385.7),
+        ("Team OBAMA SOPRANOS", "Lamar Jackson (143.3)", "Tyler Warren (111.3)", "Tre Tucker (102.8)", 357.4),
     ],
     "2025-week-14": [
         ("Pigs on the 7th Rank", "Patrick Mahomes (243.9)", "Jahmyr Gibbs (235.0)", "Rico Dowdle (159.9)", 638.8),
@@ -149,6 +174,61 @@ def _render_power_trios_table(data):
 </table>'''
 
 
+_trios_chart_counter = 0
+
+def _render_power_trios_chart(data, week_id):
+    """Render power trios data as an inline Chart.js horizontal bar chart."""
+    global _trios_chart_counter
+    _trios_chart_counter += 1
+    canvas_id = f"trios-chart-{week_id}-{_trios_chart_counter}"
+
+    # Build JS data arrays
+    labels = json.dumps([team for team, *_ in data])
+    totals = json.dumps([total for *_, total in data])
+
+    return f'''<div class="trios-chart-wrapper" style="max-width:800px;margin:1em auto;">
+<canvas id="{canvas_id}" height="400"></canvas>
+</div>
+<script>
+(function() {{
+  const ctx = document.getElementById('{canvas_id}');
+  if (!ctx) return;
+  new Chart(ctx, {{
+    type: 'bar',
+    data: {{
+      labels: {labels},
+      datasets: [{{
+        label: 'Total FPPG (Top 3 Players)',
+        data: {totals},
+        backgroundColor: 'rgba(245, 166, 35, 0.7)',
+        borderColor: '#f5a623',
+        borderWidth: 1
+      }}]
+    }},
+    options: {{
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {{
+        legend: {{ display: false }},
+        title: {{ display: false }}
+      }},
+      scales: {{
+        x: {{
+          beginAtZero: true,
+          grid: {{ color: 'rgba(255,255,255,0.1)' }},
+          ticks: {{ color: '#ccc' }}
+        }},
+        y: {{
+          grid: {{ display: false }},
+          ticks: {{ color: '#ccc', font: {{ size: 11 }} }}
+        }}
+      }}
+    }}
+  }});
+}})();
+</script>'''
+
+
 def _convert_player_assessment(text):
     """Convert 'Player Assessment/Status' text blocks to HTML tables."""
     # Match "Player Assessment ..." or "Player Status ..." blocks
@@ -198,6 +278,76 @@ def _convert_player_assessment(text):
         return f'</p><table class="odds-table"><thead><tr><th>Player</th><th>Status</th></tr></thead><tbody>{rows}</tbody></table><p>'
 
     return pattern.sub(_parse_roster, text)
+
+
+def _convert_inline_odds_table(text):
+    """Detect and convert inline odds table text (Team odds odds odds ...) to HTML table."""
+    # Pattern: "Team Playoff odds Championship odds Relegation odds TeamName value value value ..."
+    header_match = re.search(
+        r'(Team\s+Playoff odds\s+Championship odds\s+Relegation odds)\s+',
+        text, re.IGNORECASE
+    )
+    if not header_match:
+        return text
+
+    # Extract the table data after the headers
+    before = text[:header_match.start()].strip()
+    table_text = text[header_match.end():].strip()
+
+    # Known team names to split on
+    from ranking_parser import TEAM_OWNER_MAP
+    from owner_mapping import ALL_OWNERS
+    all_team_names = sorted(TEAM_OWNER_MAP.keys(), key=len, reverse=True)
+    all_team_names += [n.lower() for n in ALL_OWNERS]
+
+    # Parse rows: team name followed by 3 values
+    rows = []
+    remaining = table_text
+    while remaining.strip():
+        best_match = None
+        for tname in all_team_names:
+            if remaining.lower().startswith(tname):
+                if best_match is None or len(tname) > len(best_match):
+                    best_match = tname
+        if not best_match:
+            # Try matching any capitalized multi-word team name
+            m = re.match(r'([A-Z][\w\s\'\.]+?)(?=\s+(?:clinched|off the board|[+\-]\d))', remaining)
+            if m:
+                best_match = m.group(1).strip().lower()
+            else:
+                break
+
+        # Extract team name (use original case)
+        team_display = remaining[:len(best_match)].strip()
+        # Try to get proper case from original
+        for tname in sorted(TEAM_OWNER_MAP.keys(), key=len, reverse=True):
+            if remaining.lower().startswith(tname):
+                team_display = remaining[:len(tname)]
+                break
+        remaining = remaining[len(best_match):].strip()
+
+        # Extract 3 values (clinched, +/-NNN, off board, off the board)
+        vals = []
+        for _ in range(3):
+            val_m = re.match(r'(clinched|off the board|off board|[+\-]?\d+)\s*', remaining, re.IGNORECASE)
+            if val_m:
+                vals.append(val_m.group(1))
+                remaining = remaining[val_m.end():]
+            else:
+                break
+        if len(vals) == 3:
+            rows.append((team_display, vals[0], vals[1], vals[2]))
+
+    if not rows:
+        return text
+
+    table_html = '<table class="odds-table"><thead><tr><th>Team</th><th>Playoff Odds</th><th>Championship Odds</th><th>Relegation Odds</th></tr></thead><tbody>'
+    for team, playoff, champ, releg in rows:
+        table_html += f'<tr><td>{html.escape(team)}</td><td>{html.escape(playoff)}</td><td>{html.escape(champ)}</td><td>{html.escape(releg)}</td></tr>'
+    table_html += '</tbody></table>'
+
+    before_html = f'<p>{html.escape(before)}</p>' if before else ''
+    return before_html + table_html
 
 
 def writeup_to_html(text):
@@ -312,21 +462,27 @@ def _clean_team_display_name(name, owner):
     """Strip owner suffix from team name for display (e.g. 'Team- Owner' → 'Team')."""
     if not owner:
         return name
-    # Don't strip if the full name is a known team name
     from ranking_parser import TEAM_OWNER_MAP, _normalize_team_name
+    from owner_mapping import OWNER_CONSOLIDATION, ALL_OWNERS
+    owner_names = set(n.lower() for n in ALL_OWNERS)
+    owner_names.update(OWNER_CONSOLIDATION.keys())
+
+    # First try stripping "(Owner)" or "- Owner" suffixes
+    for oname in sorted(owner_names, key=len, reverse=True):
+        # "Team- Owner" or "Team: Owner" pattern
+        cleaned = re.sub(r'[-:]\s*' + re.escape(oname) + r'[-.\s]*$', '', name, flags=re.IGNORECASE).strip()
+        if cleaned and cleaned != name:
+            return cleaned
+        # "(Owner)" pattern at end
+        cleaned = re.sub(r'\s*\(' + re.escape(oname) + r'\)\s*$', '', name, flags=re.IGNORECASE).strip()
+        if cleaned and cleaned != name:
+            return cleaned
+
+    # If no suffix found, check if the full name is a known team — if so, keep it as-is
     name_lower = _normalize_team_name(name.lower().strip())
     for team_pattern in TEAM_OWNER_MAP:
         if name_lower == team_pattern or name_lower.startswith(team_pattern):
             return name
-    # All known owner name variants to strip
-    from owner_mapping import OWNER_CONSOLIDATION, ALL_OWNERS
-    owner_names = set(n.lower() for n in ALL_OWNERS)
-    owner_names.update(OWNER_CONSOLIDATION.keys())
-    # Try stripping any known owner name at end after separator (requires - or : before the name)
-    for oname in sorted(owner_names, key=len, reverse=True):
-        cleaned = re.sub(r'[-:]\s*' + re.escape(oname) + r'[-.\s]*$', '', name, flags=re.IGNORECASE).strip()
-        if cleaned and cleaned != name:
-            return cleaned
     return name
 
 
@@ -481,9 +637,15 @@ def generate_week_html(parsed, week_id, images):
         if team["owner"] and team["owner"] not in owner_to_idx:
             owner_to_idx[team["owner"]] = idx
 
-    # Intro
+    # Intro (check for inline odds table)
     if parsed.get("intro"):
-        parts.append(f'<div class="intro">{writeup_to_html(parsed["intro"])}</div>')
+        intro_text = parsed["intro"]
+        converted = _convert_inline_odds_table(intro_text)
+        if converted != intro_text:
+            # Was converted to HTML table
+            parts.append(f'<div class="intro">{converted}</div>')
+        else:
+            parts.append(f'<div class="intro">{writeup_to_html(intro_text)}</div>')
 
     # Filter and categorize images
     filtered_images = [img for img in images if not _should_skip_image(img)]
@@ -533,12 +695,18 @@ def generate_week_html(parsed, week_id, images):
         for img in team_images.get(idx, []):
             parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
 
-        # Inject power trios table after the team whose writeup references it
+        # Inject power trios chart + table after the team whose writeup references it
+        # Or after Mitch's section if no trigger text found (fallback)
         if trios_data and team.get("writeup", ""):
             writeup_lower = team["writeup"].lower()
             trio_triggers = ["top trio", "power trio", "see the chart below", "see the table below", "vaunted trio", "deep dive the top trio"]
-            if any(t in writeup_lower for t in trio_triggers):
-                parts.append(f'<div class="special-section"><h2>Fantasy Team Power Trios</h2>{_render_power_trios_table(trios_data)}</div>')
+            inject = any(t in writeup_lower for t in trio_triggers)
+            if not inject and team.get("owner") == "Mitch":
+                inject = True  # Fallback: inject after Mitch/SDZ section
+            if inject:
+                chart_html = _render_power_trios_chart(trios_data, week_id)
+                table_html = _render_power_trios_table(trios_data)
+                parts.append(f'<div class="special-section"><h2>Fantasy Team Power Trios</h2>{chart_html}{table_html}</div>')
                 trios_data = None  # Only inject once
 
     # Special sections (matchup previews, odds, etc.)
@@ -685,9 +853,7 @@ def generate_lookback_html(parsed, images):
 
     parts.append(f'<div class="lookback-intro">{writeup_to_html(parsed["intro"])}</div>')
 
-    # Insert images
-    for img in images:
-        parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
+    # Skip images - interactive charts/tables on the lookback page replace them
 
     for entry in parsed.get("entries", []):
         rank = entry["rank"]
