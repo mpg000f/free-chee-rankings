@@ -1,0 +1,173 @@
+{
+  "week_id": "2025-week-3",
+  "season": "2025",
+  "week": 3,
+  "type": "regular",
+  "title": "Free Chee Week 3 Power Rankings 2025",
+  "label": "Week 3",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "The Jackson Brownes (Boyle)",
+      "owner": "Boyle",
+      "movement": 2,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 2,
+      "team_name": "Ginny Sack (Chris)",
+      "owner": "Chris",
+      "movement": 3,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 3,
+      "team_name": "Work Ass (Sweeney)",
+      "owner": "Sweeney",
+      "movement": -2,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 4,
+      "team_name": "Art of the Deal (Matt)",
+      "owner": "Matt",
+      "movement": 4,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 5,
+      "team_name": "Pigs on the 7th Rank (Deez)",
+      "owner": "Deez",
+      "movement": 6,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 6,
+      "team_name": "Sweeney Deez and Zaukas (Mitch)",
+      "owner": "Mitch",
+      "movement": 6,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 7,
+      "team_name": "Team Obama Sopranos (TK)",
+      "owner": "TK",
+      "movement": -3,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 8,
+      "team_name": "Ger (Ger)",
+      "owner": "Ger",
+      "movement": 8,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 9,
+      "team_name": "Scampi (Gallo)",
+      "owner": "Gallo",
+      "movement": 4,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 10,
+      "team_name": "Stewed C (Joey)",
+      "owner": "Joey",
+      "movement": -8,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 11,
+      "team_name": "Cookie Monster Golf Cart (TJ)",
+      "owner": "TJ",
+      "movement": -5,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 12,
+      "team_name": "Gorlock the Destroyer Schwartz (Papi)",
+      "owner": "Papi",
+      "movement": -5,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 13,
+      "team_name": "Life with Derrick (Justin)",
+      "owner": "Justin",
+      "movement": -3,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 14,
+      "team_name": "Sweeney. (Connor)",
+      "owner": "Connor",
+      "movement": 0,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 15,
+      "team_name": "Team Daniel (Paul)",
+      "owner": "Paul",
+      "movement": -6,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    },
+    {
+      "rank": 16,
+      "team_name": "Senior AI Coke Twins (Mikey)",
+      "owner": "Mikey",
+      "movement": -1,
+      "tier": null,
+      "subsections": [
+        "sleeper"
+      ]
+    }
+  ],
+  "tiers": [],
+  "has_special_sections": false,
+  "image_count": 0
+}

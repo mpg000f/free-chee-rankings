@@ -21,6 +21,88 @@ IMG_DIR = os.path.join(SITE_DIR, "images")
 os.makedirs(DATA_DIR, exist_ok=True)
 os.makedirs(IMG_DIR, exist_ok=True)
 
+# ===== IMAGE OVERRIDES =====
+# Images to skip entirely (by filename substring match)
+SKIP_IMAGES = {
+    "2024_week_15_p7_1",   # Excel rankings history screenshot
+    "2025_week_13_p2_1",   # Zach Wilson / JJ McCarthy picture
+}
+
+# Images to force into a specific owner's section (filename substring → owner name)
+IMAGE_OWNER_OVERRIDE = {
+    "2025_week_7_p5_1": "Connor",  # #1 pick FPPG graph
+    "2025_week_7_p5_2": "Connor",
+    "2025_week_7_p5_3": "Connor",
+    "2025_week_8_p3_1": "Mitch",   # Power trios - near Sweeney Deez section
+    "2025_week_12_p3_1": "Mitch",  # Power trios chart
+    "2025_week_12_p3_2": "Mitch",  # Power trios table
+    "2025_week_14_p4_1": "Mitch",  # Power trios chart
+    "2025_week_14_p4_2": "Mitch",  # Power trios table
+}
+
+# Special sections to remove entirely (by section name regex)
+REMOVE_SECTIONS = {
+    "2025-final": [r'(?i)^playoff bracket$', r'(?i)^mud eater bracket$'],
+}
+
+# ===== POWER TRIOS DATA (transcribed from PDF screenshots) =====
+POWER_TRIOS = {
+    "2025-week-8": [
+        ("Scampi", "Jonathan Taylor (258.9)", "Sam Darnold (148.4)", "Davante Adams (131.8)", 539.1),
+        ("Sweeney Deez and Zaukas", "Drake Maye (212.2)", "Dak Prescott (174.9)", "Ja'Marr Chase (149.7)", 536.8),
+        ("Pigs on the 7th Rank", "Patrick Mahomes (211.5)", "Caleb Williams (185.2)", "Rico Dowdle (138.0)", 534.7),
+        ("Cookie Monster Golf Cart", "De'Von Achane (189.0)", "Baker Mayfield (165.5)", "Jaxon Dart (163.4)", 517.9),
+        ("The Art of the Deal", "Justin Herbert (210.8)", "Josh Jacobs (162.5)", "Javonte Williams (143.4)", 516.7),
+        ("Work Ass", "Bo Nix (193.5)", "Jaxon Smith-Njigba (165.8)", "Trevor Lawrence (150.1)", 509.4),
+        ("Stewed C", "Matthew Stafford (190.2)", "Jalen Hurts (186.8)", "Derrick Henry (112.4)", 489.4),
+        ("Ginny Sack", "Christian McCaffrey (214.3)", "Kyren Williams (138.6)", "Drake London (131.6)", 484.5),
+        ("The Jackson Brownes", "Josh Allen (209.7)", "Bijan Robinson (158.1)", "Michael Penix Jr. (115.4)", 483.2),
+        ("Team Daniel", "Daniel Jones (199.7)", "Jahmyr Gibbs (168.0)", "Jayden Daniels (113.6)", 481.3),
+        ("Gorlock the destroyer Schwartz", "Puka Nacua (146.0)", "Trey McBride (126.8)", "Geno Smith (116.6)", 389.4),
+        ("Sweeney.", "Puka Nacua (146.0)", "Trey McBride (126.8)", "Geno Smith (116.6)", 389.4),
+        ("Champagne Suitcase", "Jared Goff (164.7)", "Travis Etienne Jr. (113.1)", "Spencer Rattler (103.6)", 381.4),
+        ("Senior AI Coke Twins", "Aaron Rodgers (142.9)", "Saquon Barkley (127.4)", "Tucker Kraft (101.2)", 371.5),
+        ("Life with Derrick", "C.J. Stroud (126.0)", "Michael Pittman Jr. (123.0)", "D'Andre Swift (114.9)", 363.9),
+        ("Team OBAMA SOPRANOS", "Lamar Jackson (136.6)", "Tyler Warren (111.3)", "Jordan Mason (76.8)", 324.7),
+    ],
+    "2025-week-12": [
+        ("Scampi", "Jonathan Taylor", "Sam Darnold", "Davante Adams", 539.1),
+        ("Sweeney Deez and Zaukas", "Drake Maye", "Dak Prescott", "Ja'Marr Chase", 536.8),
+        ("Pigs on the 7th Rank", "Patrick Mahomes", "Caleb Williams", "Rico Dowdle", 534.7),
+        ("Cookie Monster Golf Cart", "De'Von Achane", "Baker Mayfield", "Jaxon Dart", 517.9),
+        ("The Art of the Deal", "Justin Herbert", "Josh Jacobs", "Javonte Williams", 516.7),
+        ("Work Ass", "Bo Nix", "Jaxon Smith-Njigba", "Trevor Lawrence", 509.4),
+        ("Stewed C", "Matthew Stafford", "Jalen Hurts", "Derrick Henry", 489.4),
+        ("Ginny Sack", "Christian McCaffrey", "Kyren Williams", "Drake London", 484.5),
+        ("The Jackson Brownes", "Josh Allen", "Bijan Robinson", "Michael Penix Jr.", 483.2),
+        ("Team Daniel", "Daniel Jones", "Jahmyr Gibbs", "Jayden Daniels", 481.3),
+        ("Gorlock the destroyer Schwartz", "Jordan Love", "Amon-Ra St. Brown", "Justin Fields", 425.2),
+        ("Sweeney.", "Puka Nacua", "Trey McBride", "Geno Smith", 389.4),
+        ("Champagne Suitcase", "Jared Goff", "Travis Etienne Jr.", "Spencer Rattler", 381.4),
+        ("Senior AI Coke Twins", "Aaron Rodgers", "Saquon Barkley", "Tucker Kraft", 371.5),
+        ("Life with Derrick", "C.J. Stroud", "Michael Pittman Jr.", "D'Andre Swift", 363.9),
+        ("Team OBAMA SOPRANOS", "Lamar Jackson", "Tyler Warren", "Jordan Mason", 324.7),
+    ],
+    "2025-week-14": [
+        ("Pigs on the 7th Rank", "Patrick Mahomes (243.9)", "Jahmyr Gibbs (235.0)", "Rico Dowdle (159.9)", 638.8),
+        ("Sweeney Deez and Zaukas", "Drake Maye (244.6)", "Dak Prescott (227.2)", "Ja'Marr Chase (154.2)", 626.0),
+        ("Stewed C", "Jalen Hurts (232.2)", "Matthew Stafford (226.3)", "Derrick Henry (153.4)", 611.9),
+        ("Work Ass", "Jaxon Smith-Njigba (215.0)", "Bo Nix (206.1)", "Trevor Lawrence (186.3)", 607.4),
+        ("Scampi", "Jonathan Taylor (266.5)", "Sam Darnold (174.3)", "Davante Adams (159.1)", 599.9),
+        ("The Jackson Brownes", "Josh Allen (264.5)", "Bijan Robinson (200.1)", "Michael Penix Jr. (123.3)", 587.9),
+        ("Ginny Sack", "Christian McCaffrey (270.6)", "Kyren Williams (160.0)", "Drake London (147.0)", 577.6),
+        ("The Art of the Deal", "Justin Herbert (215.1)", "George Pickens (186.9)", "Josh Jacobs (166.5)", 568.5),
+        ("Cookie Monster Golf Cart", "De'Von Achane (208.0)", "Baker Mayfield (188.8)", "Jaxon Dart (163.4)", 560.2),
+        ("Team Daniel", "Caleb Williams (217.2)", "Daniel Jones (216.5)", "Jayden Daniels (113.6)", 547.3),
+        ("Gorlock the destroyer Schwartz", "Amon-Ra St. Brown (180.8)", "Jordan Love (175.4)", "Justin Fields (143.7)", 499.9),
+        ("Sweeney.", "Puka Nacua (170.0)", "Trey McBride (161.7)", "Geno Smith (144.7)", 476.4),
+        ("Champagne Suitcase", "Jared Goff (196.0)", "Travis Etienne Jr. (151.5)", "TreVeyon Henderson (122.3)", 469.8),
+        ("Senior AI Coke Twins", "Aaron Rodgers (152.4)", "Saquon Barkley (145.8)", "Kenneth Walker III (115.9)", 414.1),
+        ("Life with Derrick", "Bryce Young (146.0)", "Michael Pittman Jr. (134.2)", "C.J. Stroud (126.0)", 406.2),
+        ("Team OBAMA SOPRANOS", "Lamar Jackson (150.5)", "Tyler Warren (118.3)", "Tre Tucker (107.1)", 375.9),
+    ],
+}
+
 
 def get_display_label(file_info):
     """Get a nice display label for a week."""
@@ -56,6 +138,68 @@ def get_week_id(file_info):
         return f"{season}-week-{week}"
 
 
+def _render_power_trios_table(data):
+    """Render power trios data as an HTML table."""
+    rows = ""
+    for team, p1, p2, p3, total in data:
+        rows += f"<tr><td>{html.escape(team)}</td><td>{html.escape(p1)}</td><td>{html.escape(p2)}</td><td>{html.escape(p3)}</td><td><strong>{total}</strong></td></tr>\n"
+    return f'''<table class="odds-table">
+<thead><tr><th>Team</th><th>Player 1</th><th>Player 2</th><th>Player 3</th><th>Total</th></tr></thead>
+<tbody>{rows}</tbody>
+</table>'''
+
+
+def _convert_player_assessment(text):
+    """Convert 'Player Assessment/Status' text blocks to HTML tables."""
+    # Match "Player Assessment ..." or "Player Status ..." blocks
+    pattern = re.compile(
+        r'(Player (?:Assessment|Status))\s+(.+?)(?=</p>|$)',
+        re.IGNORECASE
+    )
+
+    def _parse_roster(match):
+        label = match.group(1)
+        rest = match.group(2).strip()
+        # Known player name patterns: first name + last name(s)
+        # Split by detecting Name Status Name Status pattern
+        # Use a heuristic: capitalize words that start player names
+        known_statuses = {
+            "prison", "hurt", "zoo", "zoo animal", "credit", "not bad", "good",
+            "bad", "mid", "clean", "ascending", "retire already", "my hair",
+            "stop the cap", "feed the beast", "zaukas", "boyle", "soon",
+            "hurt but also zaukas", "just stop", "prison but good", "wdhdi",
+            "cooked", "injured", "stinks", "decent",
+        }
+        # Try to pair up: every other token is a name/status
+        # Split on known status words
+        entries = []
+        remaining = rest
+        while remaining.strip():
+            # Try to find next player name + status pair
+            best_match = None
+            for status in sorted(known_statuses, key=len, reverse=True):
+                idx = remaining.lower().find(status.lower())
+                if idx > 0:  # status found after some player name text
+                    name = remaining[:idx].strip()
+                    if name and len(name) > 2:
+                        if best_match is None or idx < best_match[0]:
+                            best_match = (idx, name, status, idx + len(status))
+            if best_match:
+                _, name, status, end = best_match
+                entries.append((name, status.title()))
+                remaining = remaining[end:].strip()
+            else:
+                break
+
+        if not entries:
+            return match.group(0)  # Return original if parsing failed
+
+        rows = "".join(f"<tr><td>{html.escape(n)}</td><td>{html.escape(s)}</td></tr>" for n, s in entries)
+        return f'</p><table class="odds-table"><thead><tr><th>Player</th><th>Status</th></tr></thead><tbody>{rows}</tbody></table><p>'
+
+    return pattern.sub(_parse_roster, text)
+
+
 def writeup_to_html(text):
     """Convert plain text writeup to HTML."""
     if not text:
@@ -79,7 +223,12 @@ def writeup_to_html(text):
         else:
             merged.append(p)
 
-    return "\n".join(f"<p>{p}</p>" for p in merged if p)
+    result = "\n".join(f"<p>{p}</p>" for p in merged if p)
+
+    # Convert "Player Assessment/Status" blocks to tables
+    result = _convert_player_assessment(result)
+
+    return result
 
 
 def subsection_to_html(key, value):
@@ -103,6 +252,7 @@ def subsection_to_html(key, value):
         "newark_street_stat": ("Newark Street Stat", "x-factors"),
         "nervous_about": ("Nervous About", "worst-pick"),
         "best_draft_pick": ("Best Draft Pick", "best-pick"),
+        "reason_for_optimism": ("Reason for Optimism", "draft-steal"),
     }
     # Handle team_comp_ prefixed keys
     if key.startswith("team_comp_"):
@@ -158,10 +308,86 @@ def merge_grouped_teams(parsed):
     parsed["teams"] = merged
 
 
+def _clean_team_display_name(name, owner):
+    """Strip owner suffix from team name for display (e.g. 'Team- Owner' → 'Team')."""
+    if not owner:
+        return name
+    # Don't strip if the full name is a known team name
+    from ranking_parser import TEAM_OWNER_MAP, _normalize_team_name
+    name_lower = _normalize_team_name(name.lower().strip())
+    for team_pattern in TEAM_OWNER_MAP:
+        if name_lower == team_pattern or name_lower.startswith(team_pattern):
+            return name
+    # All known owner name variants to strip
+    from owner_mapping import OWNER_CONSOLIDATION, ALL_OWNERS
+    owner_names = set(n.lower() for n in ALL_OWNERS)
+    owner_names.update(OWNER_CONSOLIDATION.keys())
+    # Try stripping any known owner name at end after separator (requires - or : before the name)
+    for oname in sorted(owner_names, key=len, reverse=True):
+        cleaned = re.sub(r'[-:]\s*' + re.escape(oname) + r'[-.\s]*$', '', name, flags=re.IGNORECASE).strip()
+        if cleaned and cleaned != name:
+            return cleaned
+    return name
+
+
+def _grouped_team_to_html(leader, all_teams, week_id):
+    """Render a group of tied/combined teams as a single card."""
+    grouped_names = leader.get("grouped_with", [])
+    # Find all teams in this group
+    group_teams = [t for t in all_teams if t["team_name"] in grouped_names]
+    group_teams.append(leader)
+    # Sort by rank (put leader's rank first)
+    group_teams.sort(key=lambda t: (t is leader, t["rank"]))
+
+    rank = leader["rank"]
+    tier_class = "tier-1" if rank <= 4 else "tier-2" if rank <= 8 else "tier-3" if rank <= 12 else "tier-4"
+
+    # Build headers for all teams in the group
+    headers_html = ""
+    for t in group_teams:
+        t_name = html.escape(_clean_team_display_name(t["team_name"], t["owner"]))
+        t_owner = html.escape(t["owner"])
+        t_rank = t["rank"]
+        rank_class = "rank"
+        if t_rank == 1:
+            rank_class += " rank-first"
+        elif t_rank == 16:
+            rank_class += " rank-last"
+        movement_html = ""
+        movement = t.get("computed_movement")
+        if movement is not None:
+            if movement > 0:
+                movement_html = f'<span class="movement up" title="Up {movement}">&#9650; {movement}</span>'
+            elif movement < 0:
+                movement_html = f'<span class="movement down" title="Down {abs(movement)}">&#9660; {abs(movement)}</span>'
+            else:
+                movement_html = '<span class="movement same">&#8212;</span>'
+        headers_html += f'''  <div class="team-header" id="{week_id}-rank-{t_rank}">
+    <div class="{rank_class}">{t_rank}</div>
+    <div class="team-info">
+      <div class="team-name">{t_name}</div>
+      <div class="team-owner">{t_owner}</div>
+    </div>
+    {movement_html}
+  </div>\n'''
+
+    writeup = writeup_to_html(leader["writeup"])
+    subsections_html = ""
+    for key, value in leader.get("subsections", {}).items():
+        subsections_html += subsection_to_html(key, value)
+
+    return f'''<div class="team-card {tier_class}" data-rank="{rank}">
+{headers_html}  <div class="team-writeup">
+    {writeup}
+    {subsections_html}
+  </div>
+</div>'''
+
+
 def team_to_html(team, week_id):
     """Convert a team entry to HTML card."""
     rank = team["rank"]
-    name = html.escape(team["team_name"])
+    name = html.escape(_clean_team_display_name(team["team_name"], team["owner"]))
     owner = html.escape(team["owner"])
     writeup = writeup_to_html(team["writeup"])
 
@@ -205,19 +431,11 @@ def team_to_html(team, week_id):
     for key, value in team.get("subsections", {}).items():
         subsections_html += subsection_to_html(key, value)
 
-    # Grouped teams: if this team has no writeup but is grouped, show a compact header
+    # Grouped teams: if this team has no writeup but is grouped, skip rendering
+    # (it will be rendered as part of the group leader's card)
     grouped = team.get("grouped_with", [])
     if grouped and not writeup and not subsections_html:
-        return f'''<div class="team-card {tier_class}" data-rank="{rank}" data-owner="{owner}" id="{week_id}-rank-{rank}">
-  <div class="team-header">
-    <div class="{rank_class}">{rank}</div>
-    <div class="team-info">
-      <div class="team-name">{icons}{name}</div>
-      <div class="team-owner">{owner}</div>
-    </div>
-    {movement_html}
-  </div>
-</div>'''
+        return ""  # Will be included in the grouped card below
 
     return f'''<div class="team-card {tier_class}" data-rank="{rank}" data-owner="{owner}" id="{week_id}-rank-{rank}">
   <div class="team-header">
@@ -235,31 +453,61 @@ def team_to_html(team, week_id):
 </div>'''
 
 
+def _should_skip_image(img):
+    """Check if an image should be skipped based on SKIP_IMAGES patterns."""
+    for pattern in SKIP_IMAGES:
+        if pattern in img["filename"]:
+            return True
+    return False
+
+
+def _get_image_owner_override(img):
+    """Check if an image has an owner override."""
+    for pattern, owner in IMAGE_OWNER_OVERRIDE.items():
+        if pattern in img["filename"]:
+            return owner
+    return None
+
+
 def generate_week_html(parsed, week_id, images):
     """Generate the full HTML content for a week's rankings."""
     teams = parsed.get("teams", [])
     total_teams = len(teams)
     parts = []
 
+    # Build owner→team index mapping
+    owner_to_idx = {}
+    for idx, team in enumerate(teams):
+        if team["owner"] and team["owner"] not in owner_to_idx:
+            owner_to_idx[team["owner"]] = idx
+
     # Intro
     if parsed.get("intro"):
         parts.append(f'<div class="intro">{writeup_to_html(parsed["intro"])}</div>')
 
-    # Separate images: page 1 as headers, rest distributed among teams
-    header_imgs = [img for img in images if img["page"] <= 1]
-    content_imgs = [img for img in images if img["page"] > 1]
+    # Filter and categorize images
+    filtered_images = [img for img in images if not _should_skip_image(img)]
+    header_imgs = [img for img in filtered_images if img["page"] <= 1]
+    content_imgs = [img for img in filtered_images if img["page"] > 1]
 
     for img in header_imgs:
         parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
 
-    # Map content images to team indices based on page position
+    # Map content images to team indices based on page position or owner override
     team_images = defaultdict(list)
     if content_imgs and total_teams > 0:
         max_page = max(img["page"] for img in content_imgs)
         for img in content_imgs:
-            fraction = (img["page"] - 1) / max(max_page, 1)
-            team_idx = min(int(fraction * total_teams), total_teams - 1)
+            override_owner = _get_image_owner_override(img)
+            if override_owner and override_owner in owner_to_idx:
+                team_idx = owner_to_idx[override_owner]
+            else:
+                fraction = (img["page"] - 1) / max(max_page, 1)
+                team_idx = min(int(fraction * total_teams), total_teams - 1)
             team_images[team_idx].append(img)
+
+    # Check if we need to inject power trios table for this week
+    trios_data = POWER_TRIOS.get(week_id)
 
     current_tier = None
     for idx, team in enumerate(teams):
@@ -269,14 +517,41 @@ def generate_week_html(parsed, week_id, images):
             tier_name = html.escape(current_tier)
             parts.append(f'<div class="tier-header"><h2>{tier_name}</h2></div>')
 
-        parts.append(team_to_html(team, week_id))
+        # Check if this is a grouped team that should be merged into one card
+        grouped = team.get("grouped_with", [])
+        if grouped and not team.get("writeup", "").strip() and not team.get("subsections"):
+            continue
 
-        # Insert images near this team based on page proximity
+        if grouped and team.get("writeup", "").strip():
+            parts.append(_grouped_team_to_html(team, teams, week_id))
+        else:
+            card_html = team_to_html(team, week_id)
+            if card_html:
+                parts.append(card_html)
+
+        # Insert images near this team based on page proximity or override
         for img in team_images.get(idx, []):
             parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
 
+        # Inject power trios table after the team whose writeup references it
+        if trios_data and team.get("writeup", ""):
+            writeup_lower = team["writeup"].lower()
+            trio_triggers = ["top trio", "power trio", "see the chart below", "see the table below", "vaunted trio", "deep dive the top trio"]
+            if any(t in writeup_lower for t in trio_triggers):
+                parts.append(f'<div class="special-section"><h2>Fantasy Team Power Trios</h2>{_render_power_trios_table(trios_data)}</div>')
+                trios_data = None  # Only inject once
+
     # Special sections (matchup previews, odds, etc.)
+    remove_patterns = REMOVE_SECTIONS.get(week_id, [])
     for section_name, section_text in parsed.get("special_sections", {}).items():
+        # Check if this section should be removed
+        skip = False
+        for pattern in remove_patterns:
+            if re.match(pattern, section_name):
+                skip = True
+                break
+        if skip:
+            continue
         parts.append(format_special_section(section_name, section_text))
 
     return "\n".join(parts)
@@ -301,36 +576,41 @@ def format_special_section(section_name, section_text):
 
 def format_matchup_section(name, text):
     """Format matchup preview sections with bold matchup headers."""
-    lines = text.split("\n")
-    parts = []
-    current_paragraph = []
+    # Matchup patterns: "Team (N) vs. Team (N)", "#N Team vs #N Team", "(N) Team vs (N) Team"
+    matchup_re = re.compile(
+        r'(?:^|\n|(?<=\. )|(?<=\.\s))'  # Start of line, after sentence, etc.
+        r'('
+        r'[A-Z][\w\s\'\.]+?\s*\(\d+\)\s+vs\.?\s+[A-Z][\w\s\'\.]+?\s*\(\d+\)'  # Team (N) vs. Team (N)
+        r'|'
+        r'[#(]?\d+[.)]\s*.+?\s+vs\.?\s+[#(]?\d+[.)]\s*.+?(?=\s|$)'  # #N Team vs #N Team
+        r')'
+    )
 
-    for line in lines:
-        stripped = line.strip()
-        if not stripped:
-            if current_paragraph:
-                parts.append(f'<p>{html.escape(" ".join(current_paragraph))}</p>')
-                current_paragraph = []
-            continue
+    # First join all lines into a single text block
+    flat = " ".join(line.strip() for line in text.split("\n") if line.strip())
 
-        # Detect matchup lines: "#N Team vs #N Team", "(N) Team vs (N) Team"
-        if re.match(r'^[#(]?\d+[.)]\s*.+\s+vs\.?\s+[#(]?\d+', stripped, re.IGNORECASE):
-            if current_paragraph:
-                parts.append(f'<p>{html.escape(" ".join(current_paragraph))}</p>')
-                current_paragraph = []
-            parts.append(f'<h3 class="matchup-header">{html.escape(stripped)}</h3>')
-        elif re.match(r'^\(.+\)\s+vs\.?\s+\(', stripped):
-            if current_paragraph:
-                parts.append(f'<p>{html.escape(" ".join(current_paragraph))}</p>')
-                current_paragraph = []
-            parts.append(f'<h3 class="matchup-header">{html.escape(stripped)}</h3>')
-        else:
-            current_paragraph.append(stripped)
+    # Split text on matchup headers
+    parts_out = []
+    last_end = 0
+    for m in matchup_re.finditer(flat):
+        # Text before this matchup
+        before = flat[last_end:m.start()].strip()
+        if before:
+            parts_out.append(f'<p>{html.escape(before)}</p>')
+        # The matchup header
+        parts_out.append(f'<h3 class="matchup-header">{html.escape(m.group(1).strip())}</h3>')
+        last_end = m.end()
 
-    if current_paragraph:
-        parts.append(f'<p>{html.escape(" ".join(current_paragraph))}</p>')
+    # Remaining text after last matchup
+    remaining = flat[last_end:].strip()
+    if remaining:
+        parts_out.append(f'<p>{html.escape(remaining)}</p>')
 
-    return f'<div class="special-section matchup-section"><h2>{name}</h2>{"".join(parts)}</div>'
+    # If no matchups found, fall back to simple paragraph rendering
+    if not parts_out:
+        parts_out.append(writeup_to_html(text))
+
+    return f'<div class="special-section matchup-section"><h2>{name}</h2>{"".join(parts_out)}</div>'
 
 
 def format_odds_section(name, text):

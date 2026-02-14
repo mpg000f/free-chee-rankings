@@ -60,6 +60,17 @@ def _normalize_team_name(name):
     return name
 
 
+def _strip_owner_suffix(name):
+    """Strip owner name suffix from a team name (e.g. 'Team- Owner' → 'Team')."""
+    # Try stripping "- Owner", ": Owner", or trailing owner name after separator
+    for owner_name in sorted(KNOWN_OWNERS, key=len, reverse=True):
+        pattern = re.compile(r'^(.+?)[-:\s]+' + re.escape(owner_name) + r'[-\s]*$', re.IGNORECASE)
+        m = pattern.match(name)
+        if m:
+            return m.group(1).strip()
+    return name
+
+
 def parse_rank_line(line):
     """Parse a single rank line into rank number and rest of text.
 
@@ -105,7 +116,9 @@ def extract_team_owner(rest):
     team_lower_check = _normalize_team_name(rest.lower().strip())
     for team_pattern, owner in TEAM_OWNER_MAP.items():
         if team_lower_check == team_pattern or team_lower_check.startswith(team_pattern):
-            return rest, owner, lw_rank
+            # Strip owner suffix (e.g. "Team- Owner" → "Team")
+            clean = _strip_owner_suffix(rest)
+            return clean, owner, lw_rank
 
     # Step 3: Try to split team and owner
 
@@ -154,7 +167,8 @@ def extract_team_owner(rest):
     team_lower = _normalize_team_name(rest.lower().strip())
     for team_pattern, owner in TEAM_OWNER_MAP.items():
         if team_lower == team_pattern or team_lower.startswith(team_pattern):
-            return rest, owner, lw_rank
+            clean = _strip_owner_suffix(rest)
+            return clean, owner, lw_rank
 
     # Last resort: return with no owner
     return rest, "", lw_rank
@@ -402,6 +416,7 @@ def _finalize_team(team, text_lines):
         ("newark_street_stat", r'Newark [Ss]treet [Ss]tat:'),
         ("nervous_about", r'Nervous [Aa]bout:'),
         ("best_draft_pick", r'Best [Dd]raft [Pp]ick:'),
+        ("reason_for_optimism", r'Reason [Ff]or [Oo]ptimism:'),
     ]
 
     # Find all matches and their positions
