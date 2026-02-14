@@ -48,10 +48,26 @@
     <!-- Ranking History Chart -->
     <div class="chart-section">
       <h2>Ranking History</h2>
-      <div id="chart-controls" class="chart-controls">
-        <button class="season-btn active" data-season="all">All</button>
-        <button class="season-btn" data-season="2024">2024</button>
-        <button class="season-btn" data-season="2025">2025</button>
+      <div class="chart-filters">
+        <div id="chart-controls" class="chart-controls">
+          <button class="season-btn active" data-season="all">All</button>
+          <button class="season-btn" data-season="2024">2024</button>
+          <button class="season-btn" data-season="2025">2025</button>
+        </div>
+        <div class="owner-filter">
+          <div class="owner-filter-toggle" id="owner-filter-toggle">
+            <span id="owner-filter-label">All Owners</span>
+            <span class="owner-filter-arrow">&#9662;</span>
+          </div>
+          <div class="owner-filter-dropdown" id="owner-filter-dropdown">
+            <input type="text" class="owner-filter-search" id="owner-filter-search" placeholder="Search owners...">
+            <div class="owner-filter-actions">
+              <button id="owner-select-all">Select All</button>
+              <button id="owner-select-none">Clear All</button>
+            </div>
+            <div class="owner-filter-list" id="owner-filter-list"></div>
+          </div>
+        </div>
       </div>
       <div class="chart-wrapper">
         <canvas id="ranking-chart"></canvas>

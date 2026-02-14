@@ -18,7 +18,9 @@
           "owner": "Joey",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 2,
@@ -26,7 +28,9 @@
           "owner": "TK",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 3,
@@ -34,7 +38,9 @@
           "owner": "Chris",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 4,
@@ -42,7 +48,9 @@
           "owner": "Papi",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 5,
@@ -50,7 +58,9 @@
           "owner": "Mitch",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 6,
@@ -58,7 +68,9 @@
           "owner": "Justin",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 7,
@@ -66,7 +78,9 @@
           "owner": "Paul",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 8,
@@ -74,7 +88,9 @@
           "owner": "TJ",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 9,
@@ -82,7 +98,9 @@
           "owner": "Connor",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 10,
@@ -90,7 +108,9 @@
           "owner": "Sweeney",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 11,
@@ -98,7 +118,9 @@
           "owner": "Deez",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 12,
@@ -106,7 +128,9 @@
           "owner": "Matt",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 13,
@@ -114,7 +138,9 @@
           "owner": "Boyle",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 14,
@@ -122,7 +148,9 @@
           "owner": "Ger",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 15,
@@ -130,7 +158,9 @@
           "owner": "Gallo",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         },
         {
           "rank": 16,
@@ -138,7 +168,9 @@
           "owner": "Mikey",
           "movement": null,
           "tier": "WDTDI",
-          "subsections": []
+          "subsections": [
+            "algorithm_roster_suggestion"
+          ]
         }
       ],
       "tiers": [

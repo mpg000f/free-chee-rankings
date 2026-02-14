@@ -124,20 +124,7 @@
       },
       plugins: {
         legend: {
-          position: 'bottom',
-          labels: {
-            color: '#e8e6e3',
-            usePointStyle: true,
-            padding: 12,
-            font: { size: 11 },
-          },
-          onClick: (e, legendItem, legend) => {
-            // Toggle visibility
-            const idx = legendItem.datasetIndex;
-            const meta = chart.getDatasetMeta(idx);
-            meta.hidden = !meta.hidden;
-            chart.update();
-          },
+          display: false,
         },
         tooltip: {
           backgroundColor: '#1a1d2e',
@@ -153,17 +140,98 @@
     },
   });
 
+  // ===== OWNER FILTER =====
+  const filterToggle = document.getElementById('owner-filter-toggle');
+  const filterDropdown = document.getElementById('owner-filter-dropdown');
+  const filterSearch = document.getElementById('owner-filter-search');
+  const filterList = document.getElementById('owner-filter-list');
+  const filterLabel = document.getElementById('owner-filter-label');
+  const selectAllBtn = document.getElementById('owner-select-all');
+  const selectNoneBtn = document.getElementById('owner-select-none');
+
+  // Build checkbox list
+  mainOwners.forEach(([name], i) => {
+    const item = document.createElement('label');
+    item.className = 'owner-filter-item';
+    item.dataset.name = name.toLowerCase();
+    item.innerHTML = `<input type="checkbox" checked data-index="${i}"><span class="owner-filter-swatch" style="background:${palette[i % palette.length]}"></span>${name}`;
+    filterList.appendChild(item);
+  });
+
+  function updateFilterLabel() {
+    const boxes = filterList.querySelectorAll('input[type="checkbox"]');
+    const checked = [...boxes].filter(b => b.checked).length;
+    if (checked === boxes.length) {
+      filterLabel.textContent = 'All Owners';
+    } else if (checked === 0) {
+      filterLabel.textContent = 'No Owners';
+    } else if (checked <= 3) {
+      const names = [...boxes].filter(b => b.checked).map(b => mainOwners[+b.dataset.index][0]);
+      filterLabel.textContent = names.join(', ');
+    } else {
+      filterLabel.textContent = `${checked} Owners`;
+    }
+  }
+
+  function applyOwnerFilter() {
+    const boxes = filterList.querySelectorAll('input[type="checkbox"]');
+    boxes.forEach(box => {
+      const idx = +box.dataset.index;
+      const meta = chart.getDatasetMeta(idx);
+      meta.hidden = !box.checked;
+    });
+    chart.update();
+    updateFilterLabel();
+  }
+
+  filterList.addEventListener('change', applyOwnerFilter);
+
+  selectAllBtn.addEventListener('click', () => {
+    filterList.querySelectorAll('input[type="checkbox"]').forEach(b => b.checked = true);
+    applyOwnerFilter();
+  });
+  selectNoneBtn.addEventListener('click', () => {
+    filterList.querySelectorAll('input[type="checkbox"]').forEach(b => b.checked = false);
+    applyOwnerFilter();
+  });
+
+  // Toggle dropdown
+  filterToggle.addEventListener('click', () => {
+    filterDropdown.classList.toggle('open');
+    if (filterDropdown.classList.contains('open')) filterSearch.focus();
+  });
+
+  // Close dropdown on outside click
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.owner-filter')) {
+      filterDropdown.classList.remove('open');
+    }
+  });
+
+  // Search filter
+  filterSearch.addEventListener('input', () => {
+    const q = filterSearch.value.toLowerCase();
+    filterList.querySelectorAll('.owner-filter-item').forEach(item => {
+      item.style.display = item.dataset.name.includes(q) ? '' : 'none';
+    });
+  });
+
   // Season filter buttons
+  let currentSeason = 'all';
   document.getElementById('chart-controls').addEventListener('click', e => {
     const btn = e.target.closest('.season-btn');
     if (!btn) return;
-    const season = btn.dataset.season;
+    currentSeason = btn.dataset.season;
 
     // Update active state
     document.querySelectorAll('#chart-controls .season-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
 
-    if (season === 'all') {
+    updateChartSeason();
+  });
+
+  function updateChartSeason() {
+    if (currentSeason === 'all') {
       chart.data.labels = weekLabels;
       datasets.forEach((ds, i) => {
         ds.data = allWeeks.map(weekId => {
@@ -172,7 +240,7 @@
         });
       });
     } else {
-      const filteredWeeks = index.weeks.filter(w => w.season === season);
+      const filteredWeeks = index.weeks.filter(w => w.season === currentSeason);
       const filteredIds = filteredWeeks.map(w => w.week_id);
       const filteredLabels = filteredWeeks.map(w => w.label);
       chart.data.labels = filteredLabels;
@@ -184,5 +252,5 @@
       });
     }
     chart.update();
-  });
+  }
 })();

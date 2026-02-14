@@ -403,6 +403,7 @@ def subsection_to_html(key, value):
         "nervous_about": ("Nervous About", "worst-pick"),
         "best_draft_pick": ("Best Draft Pick", "best-pick"),
         "reason_for_optimism": ("Reason for Optimism", "draft-steal"),
+        "algorithm_roster_suggestion": ("Algorithm's Roster Suggestion", "strategy"),
     }
     # Handle team_comp_ prefixed keys
     if key.startswith("team_comp_"):
@@ -540,7 +541,7 @@ def _grouped_team_to_html(leader, all_teams, week_id):
 </div>'''
 
 
-def team_to_html(team, week_id):
+def team_to_html(team, week_id, inline_images=None):
     """Convert a team entry to HTML card."""
     rank = team["rank"]
     name = html.escape(_clean_team_display_name(team["team_name"], team["owner"]))
@@ -593,6 +594,11 @@ def team_to_html(team, week_id):
     if grouped and not writeup and not subsections_html:
         return ""  # Will be included in the grouped card below
 
+    inline_imgs_html = ""
+    if inline_images:
+        for img in inline_images:
+            inline_imgs_html += f'\n    <div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>'
+
     return f'''<div class="team-card {tier_class}" data-rank="{rank}" data-owner="{owner}" id="{week_id}-rank-{rank}">
   <div class="team-header">
     <div class="{rank_class}">{rank}</div>
@@ -604,7 +610,7 @@ def team_to_html(team, week_id):
   </div>
   <div class="team-writeup">
     {writeup}
-    {subsections_html}
+    {subsections_html}{inline_imgs_html}
   </div>
 </div>'''
 
@@ -684,15 +690,20 @@ def generate_week_html(parsed, week_id, images):
         if grouped and not team.get("writeup", "").strip() and not team.get("subsections"):
             continue
 
+        # Split images for this team: override images go inside the card, others after
+        imgs_for_team = team_images.get(idx, [])
+        override_imgs = [img for img in imgs_for_team if _get_image_owner_override(img)]
+        external_imgs = [img for img in imgs_for_team if not _get_image_owner_override(img)]
+
         if grouped and team.get("writeup", "").strip():
             parts.append(_grouped_team_to_html(team, teams, week_id))
         else:
-            card_html = team_to_html(team, week_id)
+            card_html = team_to_html(team, week_id, inline_images=override_imgs)
             if card_html:
                 parts.append(card_html)
 
-        # Insert images near this team based on page proximity or override
-        for img in team_images.get(idx, []):
+        # Insert non-override images after the card
+        for img in external_imgs:
             parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
 
         # Inject power trios chart + table after the team whose writeup references it

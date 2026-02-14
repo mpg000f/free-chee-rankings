@@ -419,10 +419,16 @@ def _finalize_team(team, text_lines):
         ("reason_for_optimism", r'Reason [Ff]or [Oo]ptimism:'),
     ]
 
+    # Extract "Algorithm's roster suggestion:" which can appear inline (mid-paragraph)
+    algo_m = re.search(r"Algorithm['\u2019]?s? [Rr]oster [Ss]uggestion:\s*(.+?)(?:\n\n|\Z)", full_text, re.DOTALL)
+    if algo_m:
+        subsections["algorithm_roster_suggestion"] = algo_m.group(1).strip()
+        full_text = full_text[:algo_m.start()].rstrip() + full_text[algo_m.end():]
+
     # Find all matches and their positions
     all_matches = []
     for key, pattern in generic_patterns:
-        m = re.search(r'(?:^|\n)(' + pattern + r')\s*(.+?)(?=\n(?:[A-Z][a-z]+ [A-Z]|Playoff|Predicted|Best [Mm]ove|Sleeper|Looking|Midseason|Newark|Nervous|A [Cc]hirp)|\n\n|\Z)', full_text, re.DOTALL)
+        m = re.search(r'(?:^|\n)(' + pattern + r')\s*(.+?)(?=\n(?:[A-Z][a-z]+ [A-Z]|Playoff|Predicted|Best [Mm]ove|Sleeper|Looking|Midseason|Newark|Nervous|A [Cc]hirp|Algorithm)|\n\n|\Z)', full_text, re.DOTALL)
         if m:
             subsections[key] = m.group(2).strip()
             all_matches.append(m)

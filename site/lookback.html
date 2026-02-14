@@ -187,7 +187,7 @@
 
     makeBarChart('wins-chart', byWins.map(o => o.name), byWins.map(o => o.wins), chartColors.gold, v => `${v} wins`);
     makeBarChart('pf-chart', byPF.map(o => o.name), byPF.map(o => o.pf), chartColors.blue, v => v.toFixed(2) + ' pts');
-    makeBarChart('diff-chart', byDiff.map(o => o.name), byDiff.map(o => o.pf - o.pa), v => v >= 0 ? chartColors.green : chartColors.red, v => (v >= 0 ? '+' : '') + v);
+    makeBarChart('diff-chart', byDiff.map(o => o.name), byDiff.map(o => Math.round(o.pf - o.pa)), v => v >= 0 ? chartColors.green : chartColors.red, v => (v >= 0 ? '+' : '') + v);
     makeBarChart('playoffs-chart', byPlayoffs.map(o => o.name), byPlayoffs.map(o => o.playoffs), chartColors.gold, v => `${v} appearances`);
 
     // ===== LOAD ARTICLE CONTENT =====

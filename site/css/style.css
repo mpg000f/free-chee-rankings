@@ -563,11 +563,121 @@ h3 { font-size: 1.2rem; }
   margin-bottom: 1rem;
   color: var(--accent);
 }
+.chart-filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
 .chart-controls {
   display: flex;
   gap: .5rem;
   flex-wrap: wrap;
-  margin-bottom: 1rem;
+}
+
+/* Owner filter dropdown */
+.owner-filter {
+  position: relative;
+}
+.owner-filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .45rem .75rem;
+  background: var(--surface-light);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: var(--radius);
+  color: var(--text);
+  cursor: pointer;
+  font-size: .85rem;
+  white-space: nowrap;
+  user-select: none;
+}
+.owner-filter-toggle:hover {
+  border-color: var(--accent);
+}
+.owner-filter-arrow {
+  font-size: .7rem;
+  color: var(--text-dim);
+}
+.owner-filter-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 100;
+  width: 220px;
+  max-height: 360px;
+  background: var(--surface);
+  border: 1px solid rgba(255,255,255,.15);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  flex-direction: column;
+}
+.owner-filter-dropdown.open {
+  display: flex;
+}
+.owner-filter-search {
+  width: 100%;
+  padding: .5rem .75rem;
+  background: var(--surface-light);
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  color: var(--text);
+  font-size: .85rem;
+  outline: none;
+}
+.owner-filter-search::placeholder { color: var(--text-dim); }
+.owner-filter-actions {
+  display: flex;
+  gap: .25rem;
+  padding: .35rem .5rem;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+.owner-filter-actions button {
+  flex: 1;
+  padding: .25rem;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 4px;
+  color: var(--text-dim);
+  font-size: .75rem;
+  cursor: pointer;
+}
+.owner-filter-actions button:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+.owner-filter-list {
+  overflow-y: auto;
+  max-height: 260px;
+  padding: .25rem 0;
+}
+.owner-filter-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .35rem .75rem;
+  cursor: pointer;
+  font-size: .85rem;
+  color: var(--text);
+}
+.owner-filter-item:hover {
+  background: var(--surface-light);
+}
+.owner-filter-item input[type="checkbox"] {
+  accent-color: var(--accent);
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+.owner-filter-swatch {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 .chart-wrapper {
   position: relative;
