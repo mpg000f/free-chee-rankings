@@ -30,6 +30,12 @@ SKIP_IMAGES = {
     "2025_week_8_p3_1",    # Nathan Peterman stats screenshot (data already in table)
     "2025_week_13_p5_1",   # Power trios chart screenshot (replaced with HTML)
     "2025_week_13_p6_1",   # Power trios table screenshot (replaced with HTML)
+    "2025_week_14_p4_1",   # Power trios chart screenshot (replaced with HTML)
+    "2025_week_14_p4_2",   # Power trios table screenshot (replaced with HTML)
+    "2025_week_8_p6_1",    # Power trios chart screenshot (replaced with HTML)
+    "2025_week_8_p7_1",    # Power trios table screenshot (replaced with HTML)
+    "2025_week_12_p3_1",   # Power trios chart screenshot (replaced with HTML)
+    "2025_week_12_p3_2",   # Power trios table screenshot (replaced with HTML)
 }
 
 # Images to force into a specific owner's section (filename substring → owner name)
@@ -37,10 +43,6 @@ IMAGE_OWNER_OVERRIDE = {
     "2025_week_7_p5_1": "Connor",  # #1 pick FPPG graph
     "2025_week_7_p5_2": "Connor",
     "2025_week_7_p5_3": "Connor",
-    "2025_week_12_p3_1": "Mitch",  # Power trios chart
-    "2025_week_12_p3_2": "Mitch",  # Power trios table
-    "2025_week_14_p4_1": "Mitch",  # Power trios chart
-    "2025_week_14_p4_2": "Mitch",  # Power trios table
 }
 
 # Special sections to remove entirely (by section name regex)
