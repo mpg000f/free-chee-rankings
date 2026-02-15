@@ -419,7 +419,7 @@ def build_draft_value():
                 "player_key": pk,
             })
 
-        # Regression-based value: fit log curve of cost -> points per position,
+        # Regression-based value: fit log curve on starters only at each position,
         # then value = actual - expected (raw points above/below curve)
         pos_players = defaultdict(list)
         for e in entries:
@@ -428,8 +428,11 @@ def build_draft_value():
 
         pos_models = {}
         for pos, players in pos_players.items():
-            costs = np.array([p["cost"] for p in players])
-            pts = np.array([p["pts"] for p in players])
+            # Only fit curve on starter-tier players (top N by points)
+            threshold = STARTER_THRESHOLDS.get(pos, 16)
+            starters = sorted(players, key=lambda p: p["pts"], reverse=True)[:threshold]
+            costs = np.array([p["cost"] for p in starters])
+            pts = np.array([p["pts"] for p in starters])
             # Fit: pts = a * ln(cost) + b  (captures diminishing returns)
             log_costs = np.log(costs)
             coeffs = np.polyfit(log_costs, pts, 1)  # [slope, intercept]
