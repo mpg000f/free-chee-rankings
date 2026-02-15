@@ -14,8 +14,9 @@ os.makedirs(SITE_DATA, exist_ok=True)
 SEASONS = ["2022", "2023", "2024", "2025"]
 
 # Superflex 16-team league starter thresholds
-STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "DEF": 16}
-SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "DEF"}
+STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
+SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
+DRAFT_VALUE_POSITIONS = {"QB", "RB", "WR", "TE", "DEF"}
 
 # Team name -> owner mapping per season (from manual spreadsheet)
 TEAM_OWNER_MAP = {
@@ -423,7 +424,7 @@ def build_draft_value():
         # then value = actual - expected (raw points above/below curve)
         pos_players = defaultdict(list)
         for e in entries:
-            if e["pos"] in SKILL_POSITIONS and e["pts"] > 0 and e["cost"] > 0:
+            if e["pos"] in DRAFT_VALUE_POSITIONS and e["pts"] > 0 and e["cost"] > 0:
                 pos_players[e["pos"]].append(e)
 
         pos_models = {}
