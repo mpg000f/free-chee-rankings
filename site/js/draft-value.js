@@ -87,15 +87,12 @@
 
   function render() {
     const players = getFilteredPlayers();
-
-    // Best = sorted by value desc, Worst = sorted by value asc (all players)
-    const sorted = [...players].sort((a, b) => b.value - a.value);
-    renderTable('best', sorted, 'best');
-    renderTable('worst', [...sorted].reverse(), 'worst');
+    renderTable('best', players, 'best');
+    renderTable('worst', players, 'worst');
     renderChart(players);
   }
 
-  function renderTable(prefix, players, tableId) {
+  function renderTable(prefix, allPlayers, tableId) {
     const thead = document.getElementById(`${prefix}-thead`);
     const tbody = document.getElementById(`${prefix}-tbody`);
     const state = sortState[tableId];
@@ -110,14 +107,14 @@
         const key = th.dataset.col;
         if (state.key === key) state.asc = !state.asc;
         else { state.key = key; state.asc = key === 'player' || key === 'owner'; }
-        renderTable(prefix, players, tableId);
+        renderTable(prefix, allPlayers, tableId);
       });
     });
 
     const col = COLUMNS.find(c => c.key === state.key);
-    const sorted = [...players].sort((a, b) => {
-      let va = state.key === 'rank' ? players.indexOf(a) : a[state.key];
-      let vb = state.key === 'rank' ? players.indexOf(b) : b[state.key];
+    const sorted = [...allPlayers].sort((a, b) => {
+      let va = a[state.key];
+      let vb = b[state.key];
       if (col && col.sort === 'str') {
         va = String(va).toLowerCase();
         vb = String(vb).toLowerCase();
@@ -125,7 +122,9 @@
       return state.asc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
     });
 
-    tbody.innerHTML = sorted.map((p, i) => {
+    const top = sorted.slice(0, 25);
+
+    tbody.innerHTML = top.map((p, i) => {
       const valueClass = p.value > 0 ? 'value-pos' : p.value < 0 ? 'value-neg' : '';
       return `<tr>
         <td>${i + 1}</td>
