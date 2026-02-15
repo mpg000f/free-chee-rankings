@@ -123,7 +123,7 @@
         return sortAsc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
       });
       tbody.innerHTML = sorted.map(o => {
-        const champBadge = o.champ ? ' <span class="champ-badge">&#127942;</span>' : '';
+        const champBadge = ' <span class="champ-badge">&#127942;</span>'.repeat(o.champ);
         return `<tr>
           <td>${o.name}${champBadge}</td>
           <td>${o.wins}</td><td>${o.losses}</td><td>${o.winpct.toFixed(3)}</td>

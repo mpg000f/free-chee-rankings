@@ -1,5 +1,5 @@
 /**
- * Draft Value page: season tabs, best/worst tables, scatter plot.
+ * Draft Value page: season tabs, owner filter, best/worst tables, scatter plot.
  */
 (function () {
   const SEASONS = ['2022', '2023', '2024', '2025'];
@@ -7,7 +7,7 @@
     { key: 'rank', label: 'Rank', sort: 'num' },
     { key: 'player', label: 'Player', sort: 'str' },
     { key: 'pos', label: 'Pos', sort: 'str' },
-    { key: 'team', label: 'Team', sort: 'str' },
+    { key: 'owner', label: 'Owner', sort: 'str' },
     { key: 'cost', label: 'Cost', sort: 'num', fmt: v => `$${v}` },
     { key: 'pts', label: 'Total Pts', sort: 'num', fmt: v => v.toFixed(1) },
     { key: 'ppd', label: 'Pts/$', sort: 'num', fmt: v => v.toFixed(1) },
@@ -21,9 +21,9 @@
 
   let data = null;
   let currentSeason = '2025';
+  let currentOwner = '';
   let chart = null;
 
-  // Sort state per table
   const sortState = { best: { key: 'value', asc: false }, worst: { key: 'value', asc: true } };
 
   DataLoader.loadJSON('data/draft_value.json').then(d => {
@@ -35,7 +35,6 @@
       '<p style="color:var(--red)">Error loading draft value data.</p>';
   });
 
-  // ===== SEASON TABS =====
   function buildSeasonTabs() {
     const container = document.getElementById('season-toggle');
     SEASONS.forEach(s => {
@@ -50,22 +49,49 @@
 
   function selectSeason(season) {
     currentSeason = season;
+    currentOwner = '';
     document.querySelectorAll('#season-toggle .season-btn').forEach(btn => {
       btn.classList.toggle('active', btn.textContent === season);
     });
+    buildOwnerFilter();
     render();
   }
 
-  // ===== RENDER =====
-  function render() {
+  function buildOwnerFilter() {
+    const container = document.getElementById('owner-filter');
+    if (!container) return;
     const seasonData = data[currentSeason];
     if (!seasonData) return;
 
-    const players = seasonData.players;
+    const owners = seasonData.owners || [];
+    container.innerHTML = `<select id="owner-select" class="team-select">
+      <option value="">All Owners</option>
+      ${owners.map(o => `<option value="${o}">${o}</option>`).join('')}
+    </select>`;
+
+    document.getElementById('owner-select').addEventListener('change', (e) => {
+      currentOwner = e.target.value;
+      render();
+    });
+  }
+
+  function getFilteredPlayers() {
+    const seasonData = data[currentSeason];
+    if (!seasonData) return [];
+    let players = seasonData.players;
+    if (currentOwner) {
+      players = players.filter(p => p.owner === currentOwner);
+    }
+    return players;
+  }
+
+  function render() {
+    const players = getFilteredPlayers();
 
     // Best = top 25 by value, Worst = bottom 25 by value
-    renderTable('best', players.slice(0, 25), 'best');
-    renderTable('worst', players.slice(-25).reverse(), 'worst');
+    const sorted = [...players].sort((a, b) => b.value - a.value);
+    renderTable('best', sorted.slice(0, 25), 'best');
+    renderTable('worst', sorted.slice(-25).reverse(), 'worst');
     renderChart(players);
   }
 
@@ -74,23 +100,20 @@
     const tbody = document.getElementById(`${prefix}-tbody`);
     const state = sortState[tableId];
 
-    // Build header
     thead.innerHTML = COLUMNS.map(col => {
       const arrow = state.key === col.key ? (state.asc ? '&#9650;' : '&#9660;') : '';
       return `<th data-col="${col.key}">${col.label} <span class="sort-arrow">${arrow}</span></th>`;
     }).join('');
 
-    // Attach sort handlers
     thead.querySelectorAll('th').forEach(th => {
       th.addEventListener('click', () => {
         const key = th.dataset.col;
         if (state.key === key) state.asc = !state.asc;
-        else { state.key = key; state.asc = key === 'player' || key === 'team'; }
+        else { state.key = key; state.asc = key === 'player' || key === 'owner'; }
         renderTable(prefix, players, tableId);
       });
     });
 
-    // Sort
     const col = COLUMNS.find(c => c.key === state.key);
     const sorted = [...players].sort((a, b) => {
       let va = state.key === 'rank' ? players.indexOf(a) : a[state.key];
@@ -102,14 +125,13 @@
       return state.asc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
     });
 
-    // Build rows
     tbody.innerHTML = sorted.map((p, i) => {
       const valueClass = p.value > 0 ? 'value-pos' : p.value < 0 ? 'value-neg' : '';
       return `<tr>
         <td>${i + 1}</td>
         <td class="player-name">${p.player}</td>
         <td><span class="pos-badge pos-${p.pos}">${p.pos}</span></td>
-        <td>${p.team}</td>
+        <td>${p.owner}</td>
         <td>$${p.cost}</td>
         <td>${p.pts.toFixed(1)}</td>
         <td>${p.ppd.toFixed(1)}</td>
@@ -118,12 +140,10 @@
     }).join('');
   }
 
-  // ===== SCATTER CHART =====
   function renderChart(players) {
     const canvas = document.getElementById('draft-scatter');
     if (chart) chart.destroy();
 
-    // Group by position for separate datasets
     const datasets = [];
     const positions = [...new Set(players.map(p => p.pos))].filter(p => POS_COLORS[p]);
 
@@ -131,7 +151,7 @@
       const posPlayers = players.filter(p => p.pos === pos);
       datasets.push({
         label: pos,
-        data: posPlayers.map(p => ({ x: p.cost, y: p.pts, player: p.player, team: p.team })),
+        data: posPlayers.map(p => ({ x: p.cost, y: p.pts, player: p.player, owner: p.owner })),
         backgroundColor: POS_COLORS[pos] + 'cc',
         borderColor: POS_COLORS[pos],
         borderWidth: 1,
@@ -157,7 +177,7 @@
             callbacks: {
               label: ctx => {
                 const p = ctx.raw;
-                return `${p.player} (${ctx.dataset.label}) — $${p.x}, ${p.y.toFixed(1)} pts`;
+                return `${p.player} (${p.owner}) — $${p.x}, ${p.y.toFixed(1)} pts`;
               },
             },
           },

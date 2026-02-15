@@ -2,6 +2,7 @@
   "2022": {
     "teams": {
       "414.l.921976.t.5": {
+        "owner": "Sweeney",
         "team_name": "Double Underhooks",
         "week1": [
           {
@@ -198,9 +199,24 @@
             "pts": 13.0,
             "pos_rank": "K37"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1788.76,
+          "pa": 1494.06,
+          "pf_rank": 4,
+          "pa_rank": 2,
+          "standing": 2,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 106.36,
+          "last_game_opp_pts": 72.34,
+          "last_game_opp": "Joey"
+        }
       },
       "414.l.921976.t.13": {
+        "owner": "Ger",
         "team_name": "GLOV\u00ca SIDE BRODEUR",
         "week1": [
           {
@@ -397,9 +413,24 @@
             "pts": 2.2,
             "pos_rank": "RB114"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1916.7,
+          "pa": 1690.94,
+          "pf_rank": 1,
+          "pa_rank": 12,
+          "standing": 3,
+          "playoff_finish": "Champion",
+          "last_game_pts": 127.6,
+          "last_game_opp_pts": 109.8,
+          "last_game_opp": "Mikey"
+        }
       },
       "414.l.921976.t.6": {
+        "owner": "Joey",
         "team_name": "Pots & Pans",
         "week1": [
           {
@@ -596,9 +627,24 @@
             "pts": 0.0,
             "pos_rank": "QB69"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1903.72,
+          "pa": 1736.02,
+          "pf_rank": 2,
+          "pa_rank": 14,
+          "standing": 4,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 72.34,
+          "last_game_opp_pts": 106.36,
+          "last_game_opp": "Sweeney"
+        }
       },
       "414.l.921976.t.16": {
+        "owner": "Mikey",
         "team_name": "Free Paid",
         "week1": [
           {
@@ -795,9 +841,24 @@
             "pts": 0.7,
             "pos_rank": "RB122"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1868.62,
+          "pa": 1549.84,
+          "pf_rank": 3,
+          "pa_rank": 5,
+          "standing": 1,
+          "playoff_finish": "Runner-Up",
+          "last_game_pts": 109.8,
+          "last_game_opp_pts": 127.6,
+          "last_game_opp": "Ger"
+        }
       },
       "414.l.921976.t.8": {
+        "owner": "Gallo",
         "team_name": "Vox Populi",
         "week1": [
           {
@@ -994,9 +1055,24 @@
             "pts": 0.0,
             "pos_rank": "QB70"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1637.1,
+          "pa": 1796.64,
+          "pf_rank": 7,
+          "pa_rank": 16,
+          "standing": 6,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 105.16,
+          "last_game_opp_pts": 81.2,
+          "last_game_opp": "Matt"
+        }
       },
       "414.l.921976.t.7": {
+        "owner": "Chris",
         "team_name": "The Much Obliged",
         "week1": [
           {
@@ -1193,9 +1269,24 @@
             "pts": 10.4,
             "pos_rank": "RB90"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1738.84,
+          "pa": 1733.54,
+          "pf_rank": 5,
+          "pa_rank": 13,
+          "standing": 8,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 116.94,
+          "last_game_opp_pts": 92.5,
+          "last_game_opp": "TJ"
+        }
       },
       "414.l.921976.t.1": {
+        "owner": "TJ",
         "team_name": "From You",
         "week1": [
           {
@@ -1392,9 +1483,24 @@
             "pts": 0.0,
             "pos_rank": "WR146"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1710.88,
+          "pa": 1736.68,
+          "pf_rank": 6,
+          "pa_rank": 15,
+          "standing": 5,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 92.5,
+          "last_game_opp_pts": 116.94,
+          "last_game_opp": "Chris"
+        }
       },
       "414.l.921976.t.9": {
+        "owner": "Matt",
         "team_name": "HAHAHAHAHAHAHA",
         "week1": [
           {
@@ -1591,9 +1697,24 @@
             "pts": 3.82,
             "pos_rank": ""
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1593.68,
+          "pa": 1593.26,
+          "pf_rank": 8,
+          "pa_rank": 9,
+          "standing": 7,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 81.2,
+          "last_game_opp_pts": 105.16,
+          "last_game_opp": "Gallo"
+        }
       },
       "414.l.921976.t.2": {
+        "owner": "Mitch",
         "team_name": "Tank Unloders",
         "week1": [
           {
@@ -1790,9 +1911,24 @@
             "pts": 7.6,
             "pos_rank": "WR119"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1498.78,
+          "pa": 1512.76,
+          "pf_rank": 11,
+          "pa_rank": 3,
+          "standing": 9,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 84.02,
+          "last_game_opp_pts": 76.7,
+          "last_game_opp": "Chris"
+        }
       },
       "414.l.921976.t.11": {
+        "owner": "Papi",
         "team_name": "Uhhh THRIIIIISISSSHHHH",
         "week1": [
           {
@@ -1989,9 +2125,24 @@
             "pts": 0.0,
             "pos_rank": "WR149"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1461.42,
+          "pa": 1552.82,
+          "pf_rank": 12,
+          "pa_rank": 6,
+          "standing": 10,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 123.4,
+          "last_game_opp_pts": 99.26,
+          "last_game_opp": "Ger"
+        }
       },
       "414.l.921976.t.3": {
+        "owner": "Boyle",
         "team_name": "The Jose Trevinos",
         "week1": [
           {
@@ -2188,9 +2339,24 @@
             "pts": 0.0,
             "pos_rank": "WR151"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1455.32,
+          "pa": 1558.58,
+          "pf_rank": 13,
+          "pa_rank": 7,
+          "standing": 11,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 88.02,
+          "last_game_opp_pts": 81.4,
+          "last_game_opp": "Connor"
+        }
       },
       "414.l.921976.t.14": {
+        "owner": "Justin",
         "team_name": "Tony the phenom",
         "week1": [
           {
@@ -2387,9 +2553,24 @@
             "pts": 0.0,
             "pos_rank": "QB76"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1422.86,
+          "pa": 1543.06,
+          "pf_rank": 15,
+          "pa_rank": 4,
+          "standing": 12,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 98.0,
+          "last_game_opp_pts": 85.88,
+          "last_game_opp": "Deez"
+        }
       },
       "414.l.921976.t.12": {
+        "owner": "Deez",
         "team_name": "Senior Sack Dumpers",
         "week1": [
           {
@@ -2586,9 +2767,24 @@
             "pts": 0.0,
             "pos_rank": "RB138"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1401.26,
+          "pa": 1457.26,
+          "pf_rank": 16,
+          "pa_rank": 1,
+          "standing": 13,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 85.88,
+          "last_game_opp_pts": 98.0,
+          "last_game_opp": "Justin"
+        }
       },
       "414.l.921976.t.4": {
+        "owner": "Connor",
         "team_name": "Joe would rig a charity event",
         "week1": [
           {
@@ -2785,9 +2981,24 @@
             "pts": 9.5,
             "pos_rank": "TE38"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1532.28,
+          "pa": 1584.58,
+          "pf_rank": 9,
+          "pa_rank": 8,
+          "standing": 14,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 81.4,
+          "last_game_opp_pts": 88.02,
+          "last_game_opp": "Boyle"
+        }
       },
       "414.l.921976.t.15": {
+        "owner": "TK",
         "team_name": "Alexander's Unreal Team",
         "week1": [
           {
@@ -2984,9 +3195,24 @@
             "pts": 4.9,
             "pos_rank": "TE44"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1516.94,
+          "pa": 1675.14,
+          "pf_rank": 10,
+          "pa_rank": 11,
+          "standing": 15,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 86.58,
+          "last_game_opp_pts": 98.64,
+          "last_game_opp": "Matt"
+        }
       },
       "414.l.921976.t.10": {
+        "owner": "Paul",
         "team_name": "The Ed Orgeron Alumni Assoc.",
         "week1": [
           {
@@ -3183,7 +3409,21 @@
             "pts": 2.2,
             "pos_rank": "RB115"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1433.58,
+          "pa": 1665.56,
+          "pf_rank": 14,
+          "pa_rank": 10,
+          "standing": 16,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 100.4,
+          "last_game_opp_pts": 143.24,
+          "last_game_opp": "Mikey"
+        }
       }
     },
     "max_week": 16
@@ -3191,6 +3431,7 @@
   "2023": {
     "teams": {
       "423.l.168824.t.15": {
+        "owner": "TK",
         "team_name": "Alexander's Unreal Team",
         "week1": [
           {
@@ -3387,9 +3628,24 @@
             "pts": 17.0,
             "pos_rank": "K35"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1838.94,
+          "pa": 1680.92,
+          "pf_rank": 5,
+          "pa_rank": 10,
+          "standing": 1,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 137.82,
+          "last_game_opp_pts": 120.76,
+          "last_game_opp": "Papi"
+        }
       },
       "423.l.168824.t.14": {
+        "owner": "Sweeney",
         "team_name": "Work Ass",
         "week1": [
           {
@@ -3586,9 +3842,24 @@
             "pts": 0.0,
             "pos_rank": "QB80"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1930.2,
+          "pa": 1735.5,
+          "pf_rank": 3,
+          "pa_rank": 11,
+          "standing": 3,
+          "playoff_finish": "Champion",
+          "last_game_pts": 159.34,
+          "last_game_opp_pts": 114.18,
+          "last_game_opp": "Deez"
+        }
       },
       "423.l.168824.t.9": {
+        "owner": "Deez",
         "team_name": "Sr. Sack Dumping Scum Bags",
         "week1": [
           {
@@ -3785,9 +4056,24 @@
             "pts": 12.0,
             "pos_rank": "WR98"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 2009.66,
+          "pa": 1785.5,
+          "pf_rank": 2,
+          "pa_rank": 14,
+          "standing": 2,
+          "playoff_finish": "Runner-Up",
+          "last_game_pts": 114.18,
+          "last_game_opp_pts": 159.34,
+          "last_game_opp": "Sweeney"
+        }
       },
       "423.l.168824.t.2": {
+        "owner": "Papi",
         "team_name": "Gorlock the destroyer Schwartz",
         "week1": [
           {
@@ -3984,9 +4270,24 @@
             "pts": -0.1,
             "pos_rank": "QB104"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 2034.38,
+          "pa": 1874.18,
+          "pf_rank": 1,
+          "pa_rank": 16,
+          "standing": 5,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 120.76,
+          "last_game_opp_pts": 137.82,
+          "last_game_opp": "TK"
+        }
       },
       "423.l.168824.t.10": {
+        "owner": "Matt",
         "team_name": "\ud83c\udf7e\ud83d\udcbc\ud83e\udd70",
         "week1": [
           {
@@ -4183,9 +4484,24 @@
             "pts": 7.6,
             "pos_rank": "WR106"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1869.12,
+          "pa": 1751.34,
+          "pf_rank": 4,
+          "pa_rank": 13,
+          "standing": 6,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 130.38,
+          "last_game_opp_pts": 97.7,
+          "last_game_opp": "Ger"
+        }
       },
       "423.l.168824.t.5": {
+        "owner": "Mitch",
         "team_name": "Willow Street Walruses",
         "week1": [
           {
@@ -4382,9 +4698,24 @@
             "pts": 33.6,
             "pos_rank": "TE24"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1710.88,
+          "pa": 1677.74,
+          "pf_rank": 7,
+          "pa_rank": 9,
+          "standing": 8,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 106.38,
+          "last_game_opp_pts": 92.98,
+          "last_game_opp": "TJ"
+        }
       },
       "423.l.168824.t.8": {
+        "owner": "Ger",
         "team_name": "WHERESTUA",
         "week1": [
           {
@@ -4581,9 +4912,24 @@
             "pts": 13.32,
             "pos_rank": "QB58"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1694.98,
+          "pa": 1792.36,
+          "pf_rank": 8,
+          "pa_rank": 15,
+          "standing": 7,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 97.7,
+          "last_game_opp_pts": 130.38,
+          "last_game_opp": "Matt"
+        }
       },
       "423.l.168824.t.1": {
+        "owner": "TJ",
         "team_name": "Cap Stoppers",
         "week1": [
           {
@@ -4780,9 +5126,24 @@
             "pts": -0.2,
             "pos_rank": "QB105"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1714.48,
+          "pa": 1747.12,
+          "pf_rank": 6,
+          "pa_rank": 12,
+          "standing": 4,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 92.98,
+          "last_game_opp_pts": 106.38,
+          "last_game_opp": "Mitch"
+        }
       },
       "423.l.168824.t.4": {
+        "owner": "Gallo",
         "team_name": "Morior Invictus",
         "week1": [
           {
@@ -4979,9 +5340,24 @@
             "pts": 1.4,
             "pos_rank": "WR120"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1552.74,
+          "pa": 1539.56,
+          "pf_rank": 9,
+          "pa_rank": 6,
+          "standing": 9,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 91.58,
+          "last_game_opp_pts": 98.1,
+          "last_game_opp": "Justin"
+        }
       },
       "423.l.168824.t.12": {
+        "owner": "Chris",
         "team_name": "Sansa Ludacris",
         "week1": [
           {
@@ -5178,9 +5554,24 @@
             "pts": 11.0,
             "pos_rank": "DEF47"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1499.54,
+          "pa": 1566.62,
+          "pf_rank": 10,
+          "pa_rank": 7,
+          "standing": 10,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 115.16,
+          "last_game_opp_pts": 122.28,
+          "last_game_opp": "Boyle"
+        }
       },
       "423.l.168824.t.11": {
+        "owner": "Connor",
         "team_name": "Sweeney.",
         "week1": [
           {
@@ -5377,9 +5768,24 @@
             "pts": 0.0,
             "pos_rank": "QB85"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1413.78,
+          "pa": 1411.4,
+          "pf_rank": 13,
+          "pa_rank": 1,
+          "standing": 11,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 190.22,
+          "last_game_opp_pts": 106.14,
+          "last_game_opp": "Papi"
+        }
       },
       "423.l.168824.t.16": {
+        "owner": "Paul",
         "team_name": "Formerly Known as Mousecop",
         "week1": [
           {
@@ -5576,9 +5982,24 @@
             "pts": 6.0,
             "pos_rank": "K45"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1397.2,
+          "pa": 1536.2,
+          "pf_rank": 14,
+          "pa_rank": 4,
+          "standing": 12,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 122.98,
+          "last_game_opp_pts": 104.66,
+          "last_game_opp": "Mikey"
+        }
       },
       "423.l.168824.t.7": {
+        "owner": "Joey",
         "team_name": "Garlic Aioli",
         "week1": [
           {
@@ -5775,9 +6196,24 @@
             "pts": 0.0,
             "pos_rank": "QB93"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1451.02,
+          "pa": 1509.08,
+          "pf_rank": 11,
+          "pa_rank": 3,
+          "standing": 13,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 121.72,
+          "last_game_opp_pts": 61.44,
+          "last_game_opp": "TJ"
+        }
       },
       "423.l.168824.t.6": {
+        "owner": "Mikey",
         "team_name": "Free Paid again..",
         "week1": [
           {
@@ -5974,9 +6410,24 @@
             "pts": -1.7,
             "pos_rank": "RB119"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1325.64,
+          "pa": 1580.56,
+          "pf_rank": 15,
+          "pa_rank": 8,
+          "standing": 14,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 104.66,
+          "last_game_opp_pts": 122.98,
+          "last_game_opp": "Paul"
+        }
       },
       "423.l.168824.t.13": {
+        "owner": "Justin",
         "team_name": "Tony the phenom",
         "week1": [
           {
@@ -6173,9 +6624,24 @@
             "pts": 0.0,
             "pos_rank": "QB101"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1277.02,
+          "pa": 1439.68,
+          "pf_rank": 16,
+          "pa_rank": 2,
+          "standing": 15,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 98.1,
+          "last_game_opp_pts": 91.58,
+          "last_game_opp": "Gallo"
+        }
       },
       "423.l.168824.t.3": {
+        "owner": "Boyle",
         "team_name": "The Lean Mean Fightin MaSheets",
         "week1": [
           {
@@ -6372,7 +6838,21 @@
             "pts": 0.0,
             "pos_rank": "QB103"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1446.66,
+          "pa": 1538.48,
+          "pf_rank": 12,
+          "pa_rank": 5,
+          "standing": 16,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 122.28,
+          "last_game_opp_pts": 115.16,
+          "last_game_opp": "Chris"
+        }
       }
     },
     "max_week": 16
@@ -6380,6 +6860,7 @@
   "2024": {
     "teams": {
       "449.l.808129.t.5": {
+        "owner": "Mitch",
         "team_name": "Deserves to be Shot",
         "week1": [
           {
@@ -6576,9 +7057,24 @@
             "pts": 1.2,
             "pos_rank": "TE60"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1977.16,
+          "pa": 1796.42,
+          "pf_rank": 4,
+          "pa_rank": 14,
+          "standing": 5,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 135.4,
+          "last_game_opp_pts": 121.36,
+          "last_game_opp": "TJ"
+        }
       },
       "449.l.808129.t.8": {
+        "owner": "Ger",
         "team_name": "WHERESTUA",
         "week1": [
           {
@@ -6775,9 +7271,24 @@
             "pts": 2.0,
             "pos_rank": "K53"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1847.12,
+          "pa": 1749.46,
+          "pf_rank": 7,
+          "pa_rank": 11,
+          "standing": 7,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 121.58,
+          "last_game_opp_pts": 106.36,
+          "last_game_opp": "TK"
+        }
       },
       "449.l.808129.t.1": {
+        "owner": "TJ",
         "team_name": "Cap Stoppers",
         "week1": [
           {
@@ -6974,9 +7485,24 @@
             "pts": 0.0,
             "pos_rank": "QB63"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1936.14,
+          "pa": 1793.22,
+          "pf_rank": 5,
+          "pa_rank": 13,
+          "standing": 6,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 121.36,
+          "last_game_opp_pts": 135.4,
+          "last_game_opp": "Mitch"
+        }
       },
       "449.l.808129.t.15": {
+        "owner": "TK",
         "team_name": "Pigs on the 7th Rank",
         "week1": [
           {
@@ -7173,9 +7699,24 @@
             "pts": 0.0,
             "pos_rank": "WR142"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 11,
+          "losses": 3,
+          "ties": 0,
+          "pf": 1867.36,
+          "pa": 1714.02,
+          "pf_rank": 6,
+          "pa_rank": 10,
+          "standing": 1,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 106.36,
+          "last_game_opp_pts": 121.58,
+          "last_game_opp": "Ger"
+        }
       },
       "449.l.808129.t.2": {
+        "owner": "Papi",
         "team_name": "Gorlock the destroyer Schwartz",
         "week1": [
           {
@@ -7372,9 +7913,24 @@
             "pts": 11.0,
             "pos_rank": "DEF47"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1996.82,
+          "pa": 1773.84,
+          "pf_rank": 3,
+          "pa_rank": 12,
+          "standing": 3,
+          "playoff_finish": "Champion",
+          "last_game_pts": 167.34,
+          "last_game_opp_pts": 159.16,
+          "last_game_opp": "Joey"
+        }
       },
       "449.l.808129.t.10": {
+        "owner": "Matt",
         "team_name": "\ud83c\udf7e\ud83d\udcbc\ud83e\udd70",
         "week1": [
           {
@@ -7571,9 +8127,24 @@
             "pts": 0.0,
             "pos_rank": "QB65"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 8,
+          "losses": 6,
+          "ties": 0,
+          "pf": 1671.4,
+          "pa": 1712.44,
+          "pf_rank": 8,
+          "pa_rank": 9,
+          "standing": 8,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 107.52,
+          "last_game_opp_pts": 104.92,
+          "last_game_opp": "Justin"
+        }
       },
       "449.l.808129.t.7": {
+        "owner": "Joey",
         "team_name": "Stewed C",
         "week1": [
           {
@@ -7770,9 +8341,24 @@
             "pts": 13.0,
             "pos_rank": "K39"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 2096.26,
+          "pa": 1880.12,
+          "pf_rank": 1,
+          "pa_rank": 16,
+          "standing": 4,
+          "playoff_finish": "Runner-Up",
+          "last_game_pts": 159.16,
+          "last_game_opp_pts": 167.34,
+          "last_game_opp": "Papi"
+        }
       },
       "449.l.808129.t.13": {
+        "owner": "Justin",
         "team_name": "Life with Derrick",
         "week1": [
           {
@@ -7969,9 +8555,24 @@
             "pts": 11.7,
             "pos_rank": "WR102"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 2036.28,
+          "pa": 1796.76,
+          "pf_rank": 2,
+          "pa_rank": 15,
+          "standing": 2,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 104.92,
+          "last_game_opp_pts": 107.52,
+          "last_game_opp": "Matt"
+        }
       },
       "449.l.808129.t.4": {
+        "owner": "Gallo",
         "team_name": "Hand Me the Piss",
         "week1": [
           {
@@ -8168,9 +8769,24 @@
             "pts": 0.0,
             "pos_rank": "QB68"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1592.84,
+          "pa": 1642.78,
+          "pf_rank": 10,
+          "pa_rank": 6,
+          "standing": 9,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 104.02,
+          "last_game_opp_pts": 125.26,
+          "last_game_opp": "TJ"
+        }
       },
       "449.l.808129.t.11": {
+        "owner": "Connor",
         "team_name": "Sweeney.",
         "week1": [
           {
@@ -8367,9 +8983,24 @@
             "pts": 2.32,
             "pos_rank": "QB59"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 1455.26,
+          "pa": 1555.02,
+          "pf_rank": 12,
+          "pa_rank": 1,
+          "standing": 10,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 139.5,
+          "last_game_opp_pts": 135.9,
+          "last_game_opp": "Deez"
+        }
       },
       "449.l.808129.t.12": {
+        "owner": "Chris",
         "team_name": "Sansa Ludacris",
         "week1": [
           {
@@ -8566,9 +9197,24 @@
             "pts": 0.8,
             "pos_rank": "RB109"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1618.52,
+          "pa": 1651.52,
+          "pf_rank": 9,
+          "pa_rank": 7,
+          "standing": 11,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 96.72,
+          "last_game_opp_pts": 104.9,
+          "last_game_opp": "Matt"
+        }
       },
       "449.l.808129.t.6": {
+        "owner": "Mikey",
         "team_name": "Here Without You Tishman",
         "week1": [
           {
@@ -8765,9 +9411,24 @@
             "pts": 10.5,
             "pos_rank": "QB53"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1357.98,
+          "pa": 1567.3,
+          "pf_rank": 16,
+          "pa_rank": 2,
+          "standing": 12,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 79.72,
+          "last_game_opp_pts": 67.6,
+          "last_game_opp": "Paul"
+        }
       },
       "449.l.808129.t.9": {
+        "owner": "Deez",
         "team_name": "Senior AI Coke Twins",
         "week1": [
           {
@@ -8964,9 +9625,24 @@
             "pts": 0.0,
             "pos_rank": "QB70"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1447.1,
+          "pa": 1613.5,
+          "pf_rank": 13,
+          "pa_rank": 4,
+          "standing": 13,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 135.9,
+          "last_game_opp_pts": 139.5,
+          "last_game_opp": "Connor"
+        }
       },
       "449.l.808129.t.14": {
+        "owner": "Sweeney",
         "team_name": "Work Ass",
         "week1": [
           {
@@ -9163,9 +9839,24 @@
             "pts": 1.66,
             "pos_rank": "QB60"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1384.48,
+          "pa": 1591.18,
+          "pf_rank": 14,
+          "pa_rank": 3,
+          "standing": 14,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 101.92,
+          "last_game_opp_pts": 169.2,
+          "last_game_opp": "Mitch"
+        }
       },
       "449.l.808129.t.3": {
+        "owner": "Boyle",
         "team_name": "Gotham Rogues",
         "week1": [
           {
@@ -9362,9 +10053,24 @@
             "pts": 2.7,
             "pos_rank": "TE53"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 3,
+          "losses": 10,
+          "ties": 1,
+          "pf": 1368.52,
+          "pa": 1623.36,
+          "pf_rank": 15,
+          "pa_rank": 5,
+          "standing": 15,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 99.86,
+          "last_game_opp_pts": 124.56,
+          "last_game_opp": "TK"
+        }
       },
       "449.l.808129.t.16": {
+        "owner": "Paul",
         "team_name": "Marvin\u2019s Receiver Room",
         "week1": [
           {
@@ -9561,7 +10267,21 @@
             "pts": 1.24,
             "pos_rank": "QB61"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 2,
+          "losses": 11,
+          "ties": 1,
+          "pf": 1466.46,
+          "pa": 1658.76,
+          "pf_rank": 11,
+          "pa_rank": 8,
+          "standing": 16,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 67.6,
+          "last_game_opp_pts": 79.72,
+          "last_game_opp": "Mikey"
+        }
       }
     },
     "max_week": 16
@@ -9569,6 +10289,7 @@
   "2025": {
     "teams": {
       "461.l.721870.t.14": {
+        "owner": "Sweeney",
         "team_name": "Work Ass",
         "week1": [
           {
@@ -9765,9 +10486,24 @@
             "pts": 13.0,
             "pos_rank": "DEF49"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 7,
+          "losses": 7,
+          "ties": 0,
+          "pf": 2057.38,
+          "pa": 1912.34,
+          "pf_rank": 2,
+          "pa_rank": 16,
+          "standing": 8,
+          "playoff_finish": "Champion",
+          "last_game_pts": 161.74,
+          "last_game_opp_pts": 129.4,
+          "last_game_opp": "Chris"
+        }
       },
       "461.l.721870.t.8": {
+        "owner": "Ger",
         "team_name": "The Art of the Deal",
         "week1": [
           {
@@ -9964,9 +10700,24 @@
             "pts": 0.0,
             "pos_rank": "QB64"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1829.16,
+          "pa": 1786.32,
+          "pf_rank": 6,
+          "pa_rank": 14,
+          "standing": 5,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 110.72,
+          "last_game_opp_pts": 96.0,
+          "last_game_opp": "Boyle"
+        }
       },
       "461.l.721870.t.3": {
+        "owner": "Boyle",
         "team_name": "The Jackson Brownes",
         "week1": [
           {
@@ -10163,9 +10914,24 @@
             "pts": 0.0,
             "pos_rank": "QB65"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1837.36,
+          "pa": 1655.94,
+          "pf_rank": 5,
+          "pa_rank": 9,
+          "standing": 4,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 96.0,
+          "last_game_opp_pts": 110.72,
+          "last_game_opp": "Ger"
+        }
       },
       "461.l.721870.t.12": {
+        "owner": "Chris",
         "team_name": "Ginny Sack",
         "week1": [
           {
@@ -10362,9 +11128,24 @@
             "pts": 2.26,
             "pos_rank": "QB58"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1963.52,
+          "pa": 1773.1,
+          "pf_rank": 3,
+          "pa_rank": 13,
+          "standing": 2,
+          "playoff_finish": "Runner-Up",
+          "last_game_pts": 129.4,
+          "last_game_opp_pts": 161.74,
+          "last_game_opp": "Sweeney"
+        }
       },
       "461.l.721870.t.5": {
+        "owner": "Mitch",
         "team_name": "Sweeney Deez and Zaukas",
         "week1": [
           {
@@ -10561,9 +11342,24 @@
             "pts": 11.2,
             "pos_rank": "RB83"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 10,
+          "losses": 4,
+          "ties": 0,
+          "pf": 1844.24,
+          "pa": 1688.5,
+          "pf_rank": 4,
+          "pa_rank": 12,
+          "standing": 3,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 112.16,
+          "last_game_opp_pts": 87.72,
+          "last_game_opp": "TK"
+        }
       },
       "461.l.721870.t.6": {
+        "owner": "Mikey",
         "team_name": "Scampi",
         "week1": [
           {
@@ -10760,9 +11556,24 @@
             "pts": 14.0,
             "pos_rank": "K33"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 13,
+          "losses": 1,
+          "ties": 0,
+          "pf": 2104.46,
+          "pa": 1591.9,
+          "pf_rank": 1,
+          "pa_rank": 6,
+          "standing": 1,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 129.5,
+          "last_game_opp_pts": 67.9,
+          "last_game_opp": "Gallo"
+        }
       },
       "461.l.721870.t.15": {
+        "owner": "TK",
         "team_name": "Pigs on the 7th Rank",
         "week1": [
           {
@@ -10959,9 +11770,24 @@
             "pts": 3.3,
             "pos_rank": "WR129"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1807.48,
+          "pa": 1792.54,
+          "pf_rank": 7,
+          "pa_rank": 15,
+          "standing": 6,
+          "playoff_finish": "Consolation",
+          "last_game_pts": 87.72,
+          "last_game_opp_pts": 112.16,
+          "last_game_opp": "Mitch"
+        }
       },
       "461.l.721870.t.4": {
+        "owner": "Gallo",
         "team_name": "Team OBAMA SOPRANOS",
         "week1": [
           {
@@ -11158,9 +11984,24 @@
             "pts": 2.0,
             "pos_rank": "DEF75"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 9,
+          "losses": 5,
+          "ties": 0,
+          "pf": 1511.62,
+          "pa": 1662.08,
+          "pf_rank": 10,
+          "pa_rank": 10,
+          "standing": 7,
+          "playoff_finish": "Semifinal Loss",
+          "last_game_pts": 67.9,
+          "last_game_opp_pts": 129.5,
+          "last_game_opp": "Mikey"
+        }
       },
       "461.l.721870.t.10": {
+        "owner": "Matt",
         "team_name": "\ud83c\udf7e\ud83d\udcbc\ud83e\udd70",
         "week1": [
           {
@@ -11351,9 +12192,24 @@
             "pts": 26.0,
             "pos_rank": "K28"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1492.42,
+          "pa": 1559.26,
+          "pf_rank": 12,
+          "pa_rank": 3,
+          "standing": 9,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 114.16,
+          "last_game_opp_pts": 117.34,
+          "last_game_opp": "Mitch"
+        }
       },
       "461.l.721870.t.16": {
+        "owner": "Paul",
         "team_name": "Team Daniel",
         "week1": [
           {
@@ -11550,9 +12406,24 @@
             "pts": 0.0,
             "pos_rank": "TE59"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 6,
+          "losses": 8,
+          "ties": 0,
+          "pf": 1455.48,
+          "pa": 1475.68,
+          "pf_rank": 13,
+          "pa_rank": 1,
+          "standing": 10,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 87.22,
+          "last_game_opp_pts": 155.52,
+          "last_game_opp": "Chris"
+        }
       },
       "461.l.721870.t.1": {
+        "owner": "TJ",
         "team_name": "Cookie Monster Golf Cart",
         "week1": [
           {
@@ -11749,9 +12620,24 @@
             "pts": 2.88,
             "pos_rank": "QB56"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1664.64,
+          "pa": 1556.26,
+          "pf_rank": 8,
+          "pa_rank": 2,
+          "standing": 11,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 94.88,
+          "last_game_opp_pts": 126.24,
+          "last_game_opp": "Boyle"
+        }
       },
       "461.l.721870.t.7": {
+        "owner": "Joey",
         "team_name": "Stewed C",
         "week1": [
           {
@@ -11948,9 +12834,24 @@
             "pts": 7.4,
             "pos_rank": "WR117"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1577.14,
+          "pa": 1635.12,
+          "pf_rank": 9,
+          "pa_rank": 7,
+          "standing": 12,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 104.64,
+          "last_game_opp_pts": 106.24,
+          "last_game_opp": "Mikey"
+        }
       },
       "461.l.721870.t.11": {
+        "owner": "Connor",
         "team_name": "Sweeney.",
         "week1": [
           {
@@ -12147,9 +13048,24 @@
             "pts": 1.2,
             "pos_rank": "WR139"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1509.94,
+          "pa": 1590.14,
+          "pf_rank": 11,
+          "pa_rank": 5,
+          "standing": 13,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 120.32,
+          "last_game_opp_pts": 88.54,
+          "last_game_opp": "Ger"
+        }
       },
       "461.l.721870.t.13": {
+        "owner": "Justin",
         "team_name": "Life with Derrick",
         "week1": [
           {
@@ -12346,9 +13262,24 @@
             "pts": 1.4,
             "pos_rank": "QB61"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 5,
+          "losses": 9,
+          "ties": 0,
+          "pf": 1402.12,
+          "pa": 1672.56,
+          "pf_rank": 14,
+          "pa_rank": 11,
+          "standing": 14,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 73.22,
+          "last_game_opp_pts": 121.02,
+          "last_game_opp": "Gallo"
+        }
       },
       "461.l.721870.t.2": {
+        "owner": "Papi",
         "team_name": "Gorlock the destroyer Schwartz",
         "week1": [
           {
@@ -12545,9 +13476,24 @@
             "pts": 19.0,
             "pos_rank": "DEF38"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 4,
+          "losses": 10,
+          "ties": 0,
+          "pf": 1351.16,
+          "pa": 1559.3,
+          "pf_rank": 15,
+          "pa_rank": 4,
+          "standing": 15,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 95.0,
+          "last_game_opp_pts": 157.44,
+          "last_game_opp": "Sweeney"
+        }
       },
       "461.l.721870.t.9": {
+        "owner": "Deez",
         "team_name": "Senior AI Coke Twins",
         "week1": [
           {
@@ -12744,7 +13690,21 @@
             "pts": 9.3,
             "pos_rank": "WR110"
           }
-        ]
+        ],
+        "summary": {
+          "wins": 0,
+          "losses": 14,
+          "ties": 0,
+          "pf": 1148.18,
+          "pa": 1645.26,
+          "pf_rank": 16,
+          "pa_rank": 8,
+          "standing": 16,
+          "playoff_finish": "No Playoffs",
+          "last_game_pts": 59.0,
+          "last_game_opp_pts": 103.54,
+          "last_game_opp": "TK"
+        }
       }
     },
     "max_week": 16

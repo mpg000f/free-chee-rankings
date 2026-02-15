@@ -1,5 +1,5 @@
 /**
- * Rosters page: season tabs, team dropdown, side-by-side week 1 vs final rosters.
+ * Rosters page: season tabs, team dropdown, season summary + side-by-side rosters.
  */
 (function () {
   const SEASONS = ['2022', '2023', '2024', '2025'];
@@ -9,7 +9,6 @@
   let currentSeason = '2025';
   let currentTeamKey = '';
 
-  // ===== INIT =====
   DataLoader.loadJSON('data/rosters_data.json').then(d => {
     data = d;
     buildSeasonTabs();
@@ -19,7 +18,6 @@
       '<p style="color:var(--red)">Error loading roster data.</p>';
   });
 
-  // ===== SEASON TABS =====
   function buildSeasonTabs() {
     const container = document.getElementById('season-toggle');
     SEASONS.forEach(s => {
@@ -40,7 +38,6 @@
     populateTeams();
   }
 
-  // ===== TEAM DROPDOWN =====
   function populateTeams() {
     const select = document.getElementById('team-select');
     select.innerHTML = '<option value="">Select a team...</option>';
@@ -49,30 +46,31 @@
     if (!seasonData) return;
 
     const teams = Object.entries(seasonData.teams)
-      .map(([key, t]) => ({ key, name: t.team_name }))
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .map(([key, t]) => ({ key, owner: t.owner }))
+      .sort((a, b) => a.owner.localeCompare(b.owner));
 
     teams.forEach(t => {
       const opt = document.createElement('option');
       opt.value = t.key;
-      opt.textContent = t.name;
+      opt.textContent = t.owner;
       select.appendChild(opt);
     });
 
-    select.addEventListener('change', () => {
-      currentTeamKey = select.value;
+    // Remove old listener by replacing element
+    const newSelect = select.cloneNode(true);
+    select.parentNode.replaceChild(newSelect, select);
+    newSelect.addEventListener('change', () => {
+      currentTeamKey = newSelect.value;
       renderRosters();
     });
 
-    // Auto-select first team
     if (teams.length) {
-      select.value = teams[0].key;
+      newSelect.value = teams[0].key;
       currentTeamKey = teams[0].key;
       renderRosters();
     }
   }
 
-  // ===== RENDER =====
   function renderRosters() {
     const container = document.getElementById('roster-content');
     const seasonData = data[currentSeason];
@@ -88,15 +86,66 @@
     }
 
     const maxWeek = seasonData.max_week;
+    const summaryHTML = buildSummaryCard(team);
 
     container.innerHTML = `
-      <div class="roster-panel">
-        <h2>Opening Day Roster <span class="week-label">Week 1</span></h2>
-        ${buildRosterTable(team.week1)}
+      ${summaryHTML}
+      <div class="roster-panels">
+        <div class="roster-panel">
+          <h2>Opening Day Roster <span class="week-label">Week 1</span></h2>
+          ${buildRosterTable(team.week1)}
+        </div>
+        <div class="roster-panel">
+          <h2>Final Roster <span class="week-label">Week ${maxWeek}</span></h2>
+          ${buildRosterTable(team.final)}
+        </div>
       </div>
-      <div class="roster-panel">
-        <h2>Final Roster <span class="week-label">Week ${maxWeek}</span></h2>
-        ${buildRosterTable(team.final)}
+    `;
+  }
+
+  function buildSummaryCard(team) {
+    const s = team.summary;
+    if (!s || !s.wins && !s.losses) return '';
+
+    const record = `${s.wins}-${s.losses}${s.ties ? `-${s.ties}` : ''}`;
+    const finishClass = s.playoff_finish === 'Champion' ? 'finish-champ' :
+                        s.playoff_finish === 'Runner-Up' ? 'finish-runner' :
+                        s.playoff_finish.includes('Semi') ? 'finish-semi' : '';
+
+    const lastGame = s.last_game_pts
+      ? `${s.last_game_pts.toFixed(1)} - ${s.last_game_opp_pts.toFixed(1)} vs ${s.last_game_opp}`
+      : '-';
+    const lastResult = s.last_game_pts > s.last_game_opp_pts ? 'W' : s.last_game_pts < s.last_game_opp_pts ? 'L' : 'T';
+    const resultClass = lastResult === 'W' ? 'result-win' : lastResult === 'L' ? 'result-loss' : '';
+
+    return `
+      <div class="season-summary">
+        <div class="summary-team-name">${team.team_name}</div>
+        <div class="summary-grid">
+          <div class="summary-stat">
+            <div class="summary-label">Record</div>
+            <div class="summary-value">${record}</div>
+            <div class="summary-sub">#${s.standing} in standings</div>
+          </div>
+          <div class="summary-stat">
+            <div class="summary-label">Points For</div>
+            <div class="summary-value">${s.pf.toFixed(1)}</div>
+            <div class="summary-sub">#${s.pf_rank} in league</div>
+          </div>
+          <div class="summary-stat">
+            <div class="summary-label">Points Against</div>
+            <div class="summary-value">${s.pa.toFixed(1)}</div>
+            <div class="summary-sub">#${s.pa_rank} in league</div>
+          </div>
+          <div class="summary-stat">
+            <div class="summary-label">Playoff Finish</div>
+            <div class="summary-value ${finishClass}">${s.playoff_finish}</div>
+          </div>
+          <div class="summary-stat">
+            <div class="summary-label">Final Game</div>
+            <div class="summary-value summary-small"><span class="${resultClass}">${lastResult}</span> ${lastGame}</div>
+          </div>
+        </div>
       </div>
     `;
   }
@@ -106,7 +155,6 @@
       return '<p class="placeholder-text">No roster data available.</p>';
     }
 
-    // Group by position, sorted by POS_ORDER then by points
     const grouped = {};
     POS_ORDER.forEach(pos => { grouped[pos] = []; });
     grouped['Other'] = [];
@@ -116,7 +164,6 @@
       grouped[bucket].push(p);
     });
 
-    // Sort each group by points descending
     Object.values(grouped).forEach(arr => arr.sort((a, b) => b.pts - a.pts));
 
     let rows = '';
