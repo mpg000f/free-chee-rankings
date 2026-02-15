@@ -119,9 +119,7 @@
       return sortState.asc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
     });
 
-    const top = sorted.slice(0, 25);
-
-    tbody.innerHTML = top.map((p, i) => {
+    tbody.innerHTML = sorted.map((p, i) => {
       const valueClass = p.value > 0 ? 'value-pos' : p.value < 0 ? 'value-neg' : '';
       return `<tr>
         <td>${i + 1}</td>
