@@ -109,7 +109,7 @@
 
     const record = `${s.wins}-${s.losses}${s.ties ? `-${s.ties}` : ''}`;
     const finishClass = s.playoff_finish === 'Champion' ? 'finish-champ' :
-                        s.playoff_finish === 'Runner-Up' ? 'finish-runner' :
+                        s.playoff_finish === 'Championship Loss' ? 'finish-runner' :
                         s.playoff_finish.includes('Semi') ? 'finish-semi' : '';
 
     const lastGame = s.last_game_pts

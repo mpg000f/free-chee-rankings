@@ -234,7 +234,7 @@ def resolve_player_names(oauth, player_keys, batch_size=25):
     return names
 
 
-def pull_weekly_scores(oauth, league, num_weeks=16):
+def pull_weekly_scores(oauth, league, num_weeks=17):
     """Pull weekly matchup scores."""
     print(f"  Pulling weekly scores (up to {num_weeks} weeks)...")
     all_matchups = []
@@ -292,7 +292,7 @@ def pull_weekly_scores(oauth, league, num_weeks=16):
     return all_matchups
 
 
-def pull_rosters(oauth, league, team_keys, num_weeks=16):
+def pull_rosters(oauth, league, team_keys, num_weeks=17):
     """Pull weekly rosters with player stats for all teams."""
     print(f"  Pulling weekly rosters...")
     all_rosters = []

@@ -16,24 +16,80 @@ SEASONS = ["2022", "2023", "2024", "2025"]
 STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
 SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
 
-# Yahoo manager nickname -> canonical owner name
-MANAGER_TO_OWNER = {
-    "TJ": "TJ",
-    "Mitchell Gray": "Mitch",
-    "Joseph": "Boyle",
-    "Connor": "Connor",
-    "Ryan": "Sweeney",
-    "Joey": "Joey",
-    "Chris": "Chris",
-    "Darren": "Gallo",
-    "Matt": "Matt",
-    "Paul": "Paul",
-    "Simon": "Papi",
-    "Mike": "Deez",
-    "Matthew": "Ger",
-    "Justin": "Justin",
-    "Alexander": "TK",
-    "Michael": "Mikey",
+# Team name -> owner mapping per season (from manual spreadsheet)
+TEAM_OWNER_MAP = {
+    "2022": {
+        "Double Underhooks": "Sweeney",
+        "GLOV\u00ca SIDE BRODEUR": "Matt",
+        "Free Paid": "Gallo",
+        "The Much Obliged": "Chris",
+        "Alexander's Unreal Team": "Deez",
+        "Tank Unloders": "Mitch",
+        "The Jose Trevinos": "Boyle",
+        "Vox Populi": "TK",
+        "From You": "TJ",
+        "Pots & Pans": "Joey",
+        "Joe would rig a charity event": "Connor",
+        "HAHAHAHAHAHAHA": "Ger",
+        "The Ed Orgeron Alumni Assoc.": "Paul",
+        "Uhhh THRIIIIISISSSHHHH": "Papi",
+        "Tony the phenom": "Justin",
+        "Senior Sack Dumpers": "Mikey",
+    },
+    "2023": {
+        "Work Ass": "Sweeney",
+        "WHERESTUA": "Matt",
+        "Free Paid again..": "Gallo",
+        "Sansa Ludacris": "Chris",
+        "Alexander's Unreal Team": "Deez",
+        "Willow Street Walruses": "Mitch",
+        "The Lean Mean Fightin MaSheets": "Boyle",
+        "Morior Invictus": "TK",
+        "Cap Stoppers": "TJ",
+        "Garlic Aioli": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Formerly Known as Mousecop": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Tony the phenom": "Justin",
+        "Sr. Sack Dumping Scum Bags": "Mikey",
+    },
+    "2024": {
+        "Work Ass": "Sweeney",
+        "WHERESTUA": "Matt",
+        "Here Without You Tishman": "Gallo",
+        "Sansa Ludacris": "Chris",
+        "Pigs on the 7th Rank": "Deez",
+        "Deserves to be Shot": "Mitch",
+        "Gotham Rogues": "Boyle",
+        "Hand Me the Piss": "TK",
+        "Cap Stoppers": "TJ",
+        "Stewed C": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Marvin\u2019s Receiver Room": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Life with Derrick": "Justin",
+        "Senior AI Coke Twins": "Mikey",
+    },
+    "2025": {
+        "Work Ass": "Sweeney",
+        "The Art of the Deal": "Matt",
+        "Scampi": "Gallo",
+        "Ginny Sack": "Chris",
+        "Pigs on the 7th Rank": "Deez",
+        "Sweeney Deez and Zaukas": "Mitch",
+        "The Jackson Brownes": "Boyle",
+        "Team OBAMA SOPRANOS": "TK",
+        "Cookie Monster Golf Cart": "TJ",
+        "Stewed C": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Team Daniel": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Life with Derrick": "Justin",
+        "Senior AI Coke Twins": "Mikey",
+    },
 }
 
 # Regular season weeks (before playoffs)
@@ -49,12 +105,21 @@ def load_json(path):
 
 
 def build_owner_map(season):
-    """Build team_key -> owner name mapping from managers.json."""
-    managers = load_json(os.path.join(YAHOO_DIR, season, "managers.json"))
-    if isinstance(managers, dict):
-        return {tk: MANAGER_TO_OWNER.get(info["manager"], info["manager"])
-                for tk, info in managers.items()}
-    return {}
+    """Build team_key -> owner name mapping from team names."""
+    team_names = build_team_names(season)
+    name_to_owner = TEAM_OWNER_MAP.get(season, {})
+    owner_map = {}
+    for tk, tn in team_names.items():
+        # Try exact match, then strip whitespace
+        owner = name_to_owner.get(tn) or name_to_owner.get(tn.strip())
+        if not owner:
+            # Try matching without leading/trailing special chars
+            for map_name, map_owner in name_to_owner.items():
+                if map_name.strip() in tn or tn.strip() in map_name:
+                    owner = map_owner
+                    break
+        owner_map[tk] = owner or tn
+    return owner_map
 
 
 def build_team_names(season):
@@ -123,78 +188,63 @@ def build_season_summaries(season, owner_map):
 
     # PF and PA ranks
     pf_sorted = sorted(team_stats.keys(), key=lambda tk: team_stats[tk]["pf"], reverse=True)
-    pa_sorted = sorted(team_stats.keys(), key=lambda tk: team_stats[tk]["pa"])  # lowest PA = rank 1
+    pa_sorted = sorted(team_stats.keys(), key=lambda tk: team_stats[tk]["pa"], reverse=True)  # most PA = rank 1
     pf_rank = {tk: i + 1 for i, tk in enumerate(pf_sorted)}
     pa_rank = {tk: i + 1 for i, tk in enumerate(pa_sorted)}
 
-    # Determine playoff finish from weeks 15-16
-    playoff_matchups = defaultdict(list)  # week -> list of matchups
+    # Determine playoff finish from weeks 15-17
+    # Week 15 = Quarterfinals (4 matchups, 8 teams)
+    # Week 16 = Semifinals (2 championship bracket + 2 consolation)
+    # Week 17 = Championship (1 champ game + consolation games)
+    playoff_matchups = defaultdict(list)
     for m in matchups:
         if m["week"] > REGULAR_SEASON_WEEKS:
             playoff_matchups[m["week"]].append(m)
 
-    # Teams in playoffs = teams that appear in week 15+ matchups
-    playoff_teams = set()
-    for week_ms in playoff_matchups.values():
-        for m in week_ms:
-            playoff_teams.add(m["team_1_key"])
-            playoff_teams.add(m["team_2_key"])
+    # QF teams = teams in week 15
+    qf_teams = set()
+    for m in playoff_matchups.get(15, []):
+        qf_teams.add(m["team_1_key"])
+        qf_teams.add(m["team_2_key"])
 
-    # Week 15 = semifinals, Week 16 = finals (for top bracket)
-    # Also consolation games happen in these weeks
-    max_week = max(m["week"] for m in matchups)
     team_playoff_finish = {}
 
-    if max_week >= 16 and 15 in playoff_matchups and 16 in playoff_matchups:
-        # Find who made the finals (week 16): the winners of the top-bracket semi matchups
-        # Top bracket semis = the matchups in week 15 whose winners appear in week 16
-        week16_teams = set()
-        for m in playoff_matchups[16]:
-            week16_teams.add(m["team_1_key"])
-            week16_teams.add(m["team_2_key"])
+    # Track winners advancing through each round
+    def get_winner(m):
+        if m["team_1_points"] > m["team_2_points"]:
+            return m["team_1_key"], m["team_2_key"]
+        return m["team_2_key"], m["team_1_key"]
 
-        # Championship game = week 16 matchup between teams that were also in week 15
-        # Find it by checking which week 16 matchup has teams from the top standings
-        champ_matchup = None
-        for m in playoff_matchups[16]:
-            t1_rank = standings_rank.get(m["team_1_key"], 99)
-            t2_rank = standings_rank.get(m["team_2_key"], 99)
-            if champ_matchup is None or (t1_rank + t2_rank < sum(standings_rank.get(cm[k], 99) for k, cm in [(k, champ_matchup) for k in ["team_1_key", "team_2_key"]])):
-                champ_matchup = m
+    # Week 15: QF — losers get "Quarterfinal Loss"
+    qf_winners = set()
+    for m in playoff_matchups.get(15, []):
+        winner, loser = get_winner(m)
+        qf_winners.add(winner)
+        team_playoff_finish[loser] = "Quarterfinal Loss"
 
-        # Simpler: championship = week 16 matchup with highest combined PF from the season
-        best_pf = -1
-        for m in playoff_matchups[16]:
-            combined = team_stats[m["team_1_key"]]["pf"] + team_stats[m["team_2_key"]]["pf"]
-            if combined > best_pf:
-                best_pf = combined
-                champ_matchup = m
+    # Week 16: SF — find the championship-bracket semis (matchups between QF winners)
+    sf_winners = set()
+    for m in playoff_matchups.get(16, []):
+        t1k, t2k = m["team_1_key"], m["team_2_key"]
+        winner, loser = get_winner(m)
+        if t1k in qf_winners and t2k in qf_winners:
+            # Championship bracket semifinal
+            sf_winners.add(winner)
+            team_playoff_finish[loser] = "Semifinal Loss"
 
-        if champ_matchup:
-            t1k, t2k = champ_matchup["team_1_key"], champ_matchup["team_2_key"]
-            if champ_matchup["team_1_points"] > champ_matchup["team_2_points"]:
-                team_playoff_finish[t1k] = "Champion"
-                team_playoff_finish[t2k] = "Runner-Up"
-            else:
-                team_playoff_finish[t2k] = "Champion"
-                team_playoff_finish[t1k] = "Runner-Up"
-
-        # Semi losers (in week 15, lost, and were in top bracket)
-        for m in playoff_matchups[15]:
-            t1k, t2k = m["team_1_key"], m["team_2_key"]
-            # If winner went to championship
-            if m["team_1_points"] > m["team_2_points"]:
-                winner, loser = t1k, t2k
-            else:
-                winner, loser = t2k, t1k
-            if winner in team_playoff_finish:  # winner made finals = this was a real semi
-                team_playoff_finish[loser] = "Semifinal Loss"
+    # Week 17: Championship — find the matchup between SF winners
+    for m in playoff_matchups.get(17, []):
+        t1k, t2k = m["team_1_key"], m["team_2_key"]
+        if t1k in sf_winners and t2k in sf_winners:
+            winner, loser = get_winner(m)
+            team_playoff_finish[winner] = "Champion"
+            team_playoff_finish[loser] = "Championship Loss"
 
     # Fill in remaining
     for tk in team_stats:
         if tk not in team_playoff_finish:
-            if tk in playoff_teams:
-                team_playoff_finish[tk] = "Consolation"
+            if tk in qf_teams:
+                team_playoff_finish[tk] = "Quarterfinal Loss"  # shouldn't happen
             else:
                 team_playoff_finish[tk] = "No Playoffs"
 

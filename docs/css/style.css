@@ -935,13 +935,22 @@ h3 { font-size: 1.2rem; }
   font-style: italic;
 }
 .summary-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
-  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .summary-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .summary-stat {
-  flex: 1;
-  min-width: 100px;
+  min-width: 0;
 }
 .summary-label {
   font-size: .7rem;
