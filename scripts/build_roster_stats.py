@@ -14,8 +14,8 @@ os.makedirs(SITE_DATA, exist_ok=True)
 SEASONS = ["2022", "2023", "2024", "2025"]
 
 # Superflex 16-team league starter thresholds
-STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
-SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
+STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "DEF": 16}
+SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "DEF"}
 
 # Team name -> owner mapping per season (from manual spreadsheet)
 TEAM_OWNER_MAP = {
@@ -412,7 +412,7 @@ def build_draft_value():
             })
 
         # Regression-based value: fit log curve of cost -> points per position,
-        # then value = actual - expected (residual), normalized
+        # then value = actual - expected (raw points above/below curve)
         pos_players = defaultdict(list)
         for e in entries:
             if e["pos"] in SKILL_POSITIONS and e["pts"] > 0 and e["cost"] > 0:
@@ -426,22 +426,20 @@ def build_draft_value():
             log_costs = np.log(costs)
             coeffs = np.polyfit(log_costs, pts, 1)  # [slope, intercept]
             pos_models[pos] = {"a": float(coeffs[0]), "b": float(coeffs[1])}
-            predicted = coeffs[0] * log_costs + coeffs[1]
-            rmse = float(np.sqrt(np.mean((pts - predicted) ** 2)))
-            pos_models[pos]["rmse"] = rmse
+
+        # Filter out kickers and players without a model
+        entries = [e for e in entries if e["pos"] in pos_models]
 
         for e in entries:
             pos = e["pos"]
-            if pos in pos_models and e["cost"] > 0:
-                model = pos_models[pos]
+            model = pos_models[pos]
+            if e["cost"] > 0:
                 expected_pts = model["a"] * np.log(e["cost"]) + model["b"]
                 expected_pts = max(expected_pts, 0)
                 residual = e["pts"] - expected_pts
-                # Normalize by RMSE so value is in "standard deviations above/below expected"
-                value_score = (residual / model["rmse"]) * 100 if model["rmse"] > 0 else 0
                 e["expected"] = round(float(expected_pts), 1)
                 e["voe"] = round(float(residual), 1)
-                e["value"] = round(float(value_score), 1)
+                e["value"] = round(float(residual), 1)
             else:
                 e["expected"] = 0
                 e["voe"] = 0
@@ -457,7 +455,7 @@ def build_draft_value():
         result[season] = {
             "players": entries,
             "owners": owners,
-            "models": {pos: {"a": round(m["a"], 2), "b": round(m["b"], 2), "rmse": round(m["rmse"], 1)}
+            "models": {pos: {"a": round(m["a"], 2), "b": round(m["b"], 2)}
                        for pos, m in pos_models.items()},
         }
         print(f"  {season}: {len(entries)} drafted players")

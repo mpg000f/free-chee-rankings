@@ -63,7 +63,7 @@
             "name": "Greg Joseph",
             "pos": "K",
             "pts": 43.0,
-            "pos_rank": "K17"
+            "pos_rank": ""
           },
           {
             "name": "Kadarius Toney",
@@ -179,7 +179,7 @@
             "name": "Younghoe Koo",
             "pos": "K",
             "pts": 21.0,
-            "pos_rank": "K33"
+            "pos_rank": ""
           },
           {
             "name": "Randall Cobb",
@@ -313,7 +313,7 @@
             "name": "Rodrigo Blankenship",
             "pos": "K",
             "pts": 9.0,
-            "pos_rank": "K45"
+            "pos_rank": ""
           }
         ],
         "final": [
@@ -405,7 +405,7 @@
             "name": "Matt Gay",
             "pos": "K",
             "pts": 4.0,
-            "pos_rank": "K50"
+            "pos_rank": ""
           },
           {
             "name": "Marlon Mack",
@@ -473,7 +473,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 152.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Eagles",
@@ -565,7 +565,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 152.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Eagles",
@@ -723,7 +723,7 @@
             "name": "Robbie Gould",
             "pos": "K",
             "pts": 16.0,
-            "pos_rank": "K36"
+            "pos_rank": ""
           },
           {
             "name": "Broncos",
@@ -797,7 +797,7 @@
             "name": "Brett Maher",
             "pos": "K",
             "pts": 87.0,
-            "pos_rank": "K7"
+            "pos_rank": ""
           },
           {
             "name": "Patriots",
@@ -925,7 +925,7 @@
             "name": "Matt Gay",
             "pos": "K",
             "pts": 41.0,
-            "pos_rank": "K18"
+            "pos_rank": ""
           },
           {
             "name": "Dolphins",
@@ -1041,7 +1041,7 @@
             "name": "Graham Gano",
             "pos": "K",
             "pts": 63.0,
-            "pos_rank": "K13"
+            "pos_rank": ""
           },
           {
             "name": "Raheem Blackshear",
@@ -1145,7 +1145,7 @@
             "name": "Matt Prater",
             "pos": "K",
             "pts": 24.0,
-            "pos_rank": "K31"
+            "pos_rank": ""
           },
           {
             "name": "DJ Chark",
@@ -1261,7 +1261,7 @@
             "name": "Michael Badgley",
             "pos": "K",
             "pts": 37.0,
-            "pos_rank": "K21"
+            "pos_rank": ""
           },
           {
             "name": "Rex Burkhead",
@@ -1341,7 +1341,7 @@
             "name": "Brandon McManus",
             "pos": "K",
             "pts": 128.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Carson Wentz",
@@ -1439,7 +1439,7 @@
             "name": "Brandon McManus",
             "pos": "K",
             "pts": 128.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Carson Wentz",
@@ -1573,7 +1573,7 @@
             "name": "Dustin Hopkins",
             "pos": "K",
             "pts": 27.0,
-            "pos_rank": "K28"
+            "pos_rank": ""
           },
           {
             "name": "Kenneth Gainwell",
@@ -1665,7 +1665,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 41.0,
-            "pos_rank": "K19"
+            "pos_rank": ""
           },
           {
             "name": "DJ Chark",
@@ -1793,7 +1793,7 @@
             "name": "Wil Lutz",
             "pos": "K",
             "pts": 23.0,
-            "pos_rank": "K32"
+            "pos_rank": ""
           },
           {
             "name": "Colts",
@@ -1861,7 +1861,7 @@
             "name": "Greg Joseph",
             "pos": "K",
             "pts": 72.0,
-            "pos_rank": "K10"
+            "pos_rank": ""
           },
           {
             "name": "James Cook III",
@@ -1959,7 +1959,7 @@
             "name": "Daniel Carlson",
             "pos": "K",
             "pts": 141.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "Jonathan Taylor",
@@ -2111,7 +2111,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 6.0,
-            "pos_rank": "K49"
+            "pos_rank": ""
           },
           {
             "name": "Deon Jackson",
@@ -2215,7 +2215,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 26.0,
-            "pos_rank": "K29"
+            "pos_rank": ""
           },
           {
             "name": "Isiah Pacheco",
@@ -2307,7 +2307,7 @@
             "name": "Mason Crosby",
             "pos": "K",
             "pts": 13.0,
-            "pos_rank": "K39"
+            "pos_rank": ""
           },
           {
             "name": "Matt Breida",
@@ -2429,7 +2429,7 @@
             "name": "Tyler Bass",
             "pos": "K",
             "pts": 50.0,
-            "pos_rank": "K15"
+            "pos_rank": ""
           },
           {
             "name": "Packers",
@@ -2527,7 +2527,7 @@
             "name": "Robbie Gould",
             "pos": "K",
             "pts": 69.0,
-            "pos_rank": "K11"
+            "pos_rank": ""
           },
           {
             "name": "Nyheim Miller-Hines",
@@ -2631,7 +2631,7 @@
             "name": "Graham Gano",
             "pos": "K",
             "pts": 78.0,
-            "pos_rank": "K9"
+            "pos_rank": ""
           },
           {
             "name": "Jarvis Landry",
@@ -2729,7 +2729,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 59.0,
-            "pos_rank": "K14"
+            "pos_rank": ""
           },
           {
             "name": "Jordan Akins",
@@ -2839,7 +2839,7 @@
             "name": "Ryan Succop",
             "pos": "K",
             "pts": 127.0,
-            "pos_rank": "K5"
+            "pos_rank": ""
           },
           {
             "name": "J.K. Dobbins",
@@ -2931,7 +2931,7 @@
             "name": "Ryan Succop",
             "pos": "K",
             "pts": 127.0,
-            "pos_rank": "K5"
+            "pos_rank": ""
           },
           {
             "name": "J.K. Dobbins",
@@ -3041,7 +3041,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 122.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "Trevor Lawrence",
@@ -3139,7 +3139,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 122.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "Courtland Sutton",
@@ -3279,7 +3279,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 25.0,
-            "pos_rank": "K30"
+            "pos_rank": ""
           },
           {
             "name": "Malik Willis",
@@ -3383,7 +3383,7 @@
             "name": "Jason Myers",
             "pos": "K",
             "pts": 30.0,
-            "pos_rank": "K25"
+            "pos_rank": ""
           },
           {
             "name": "Kendrick Bourne",
@@ -3510,7 +3510,7 @@
             "name": "Daniel Carlson",
             "pos": "K",
             "pts": 44.0,
-            "pos_rank": "K19"
+            "pos_rank": ""
           },
           {
             "name": "Dalvin Cook",
@@ -3620,7 +3620,7 @@
             "name": "Jason Myers",
             "pos": "K",
             "pts": 30.0,
-            "pos_rank": "K28"
+            "pos_rank": ""
           },
           {
             "name": "Chris Rodriguez Jr.",
@@ -3682,7 +3682,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 146.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "Mac Jones",
@@ -3780,7 +3780,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 146.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "David Njoku",
@@ -3938,7 +3938,7 @@
             "name": "Graham Gano",
             "pos": "K",
             "pts": 50.0,
-            "pos_rank": "K17"
+            "pos_rank": ""
           },
           {
             "name": "Darnell Mooney",
@@ -4036,7 +4036,7 @@
             "name": "Graham Gano",
             "pos": "K",
             "pts": 50.0,
-            "pos_rank": "K17"
+            "pos_rank": ""
           },
           {
             "name": "Mitchell Trubisky",
@@ -4048,7 +4048,7 @@
             "name": "Joey Slye",
             "pos": "K",
             "pts": 35.0,
-            "pos_rank": "K24"
+            "pos_rank": ""
           },
           {
             "name": "Trey Palmer",
@@ -4134,7 +4134,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 156.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Taysom Hill",
@@ -4232,7 +4232,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 156.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Jake Browning",
@@ -4250,7 +4250,7 @@
             "name": "Chris Boswell",
             "pos": "K",
             "pts": 35.0,
-            "pos_rank": "K25"
+            "pos_rank": ""
           },
           {
             "name": "Gerald Everett",
@@ -4342,7 +4342,7 @@
             "name": "Younghoe Koo",
             "pos": "K",
             "pts": 133.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Jerry Jeudy",
@@ -4440,7 +4440,7 @@
             "name": "Younghoe Koo",
             "pos": "K",
             "pts": 133.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Jerry Jeudy",
@@ -4556,7 +4556,7 @@
             "name": "Brandon McManus",
             "pos": "K",
             "pts": 37.0,
-            "pos_rank": "K22"
+            "pos_rank": ""
           },
           {
             "name": "Buccaneers",
@@ -4630,7 +4630,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 99.0,
-            "pos_rank": "K8"
+            "pos_rank": ""
           },
           {
             "name": "Texans",
@@ -4794,7 +4794,7 @@
             "name": "Dustin Hopkins",
             "pos": "K",
             "pts": 38.0,
-            "pos_rank": "K21"
+            "pos_rank": ""
           },
           {
             "name": "Mike Gesicki",
@@ -4892,7 +4892,7 @@
             "name": "Wil Lutz",
             "pos": "K",
             "pts": 37.0,
-            "pos_rank": "K23"
+            "pos_rank": ""
           },
           {
             "name": "Cade Otton",
@@ -5014,7 +5014,7 @@
             "name": "Riley Patterson",
             "pos": "K",
             "pts": 3.0,
-            "pos_rank": "K46"
+            "pos_rank": ""
           },
           {
             "name": "Cordarrelle Patterson",
@@ -5088,7 +5088,7 @@
             "name": "Brandon Aubrey",
             "pos": "K",
             "pts": 106.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "Josh Reynolds",
@@ -5204,7 +5204,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 32.0,
-            "pos_rank": "K26"
+            "pos_rank": ""
           },
           {
             "name": "Dalton Kincaid",
@@ -5285,7 +5285,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 127.0,
-            "pos_rank": "K5"
+            "pos_rank": ""
           },
           {
             "name": "Christian Kirk",
@@ -5438,7 +5438,7 @@
             "name": "Jason Myers",
             "pos": "K",
             "pts": 39.0,
-            "pos_rank": "K20"
+            "pos_rank": ""
           },
           {
             "name": "Jalin Hyatt",
@@ -5561,7 +5561,7 @@
             "name": "Jason Sanders",
             "pos": "K",
             "pts": 61.0,
-            "pos_rank": "K12"
+            "pos_rank": ""
           },
           {
             "name": "Robert Woods",
@@ -5648,7 +5648,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 144.0,
-            "pos_rank": "K3"
+            "pos_rank": ""
           },
           {
             "name": "Chuba Hubbard",
@@ -5783,7 +5783,7 @@
             "name": "Tyler Bass",
             "pos": "K",
             "pts": 100.0,
-            "pos_rank": "K7"
+            "pos_rank": ""
           },
           {
             "name": "K.J. Osborn",
@@ -5894,7 +5894,7 @@
             "name": "Nick Folk",
             "pos": "K",
             "pts": 65.0,
-            "pos_rank": "K10"
+            "pos_rank": ""
           },
           {
             "name": "Joshua Kelley",
@@ -6041,7 +6041,7 @@
             "name": "Greg Zuerlein",
             "pos": "K",
             "pts": 11.0,
-            "pos_rank": "K41"
+            "pos_rank": ""
           },
           {
             "name": "J.K. Dobbins",
@@ -6139,7 +6139,7 @@
             "name": "Jason Myers",
             "pos": "K",
             "pts": 61.0,
-            "pos_rank": "K14"
+            "pos_rank": ""
           },
           {
             "name": "Andrei Iosivas",
@@ -6231,7 +6231,7 @@
             "name": "Jason Sanders",
             "pos": "K",
             "pts": 116.0,
-            "pos_rank": "K5"
+            "pos_rank": ""
           },
           {
             "name": "Quentin Johnston",
@@ -6365,7 +6365,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 86.0,
-            "pos_rank": "K10"
+            "pos_rank": ""
           },
           {
             "name": "Deshaun Watson",
@@ -6487,7 +6487,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 14.0,
-            "pos_rank": "K39"
+            "pos_rank": ""
           },
           {
             "name": "Raiders",
@@ -6591,7 +6591,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 32.0,
-            "pos_rank": "K25"
+            "pos_rank": ""
           },
           {
             "name": "Tyrod Taylor",
@@ -6671,7 +6671,7 @@
             "name": "Matt Gay",
             "pos": "K",
             "pts": 89.0,
-            "pos_rank": "K9"
+            "pos_rank": ""
           },
           {
             "name": "Christian Watson",
@@ -6763,7 +6763,7 @@
             "name": "Brandon Aubrey",
             "pos": "K",
             "pts": 178.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Najee Harris",
@@ -6861,7 +6861,7 @@
             "name": "Brandon Aubrey",
             "pos": "K",
             "pts": 178.0,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Najee Harris",
@@ -6977,7 +6977,7 @@
             "name": "Ka'imi Fairbairn",
             "pos": "K",
             "pts": 167.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "Kenneth Walker III",
@@ -7075,7 +7075,7 @@
             "name": "Ka'imi Fairbairn",
             "pos": "K",
             "pts": 167.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "Kenneth Walker III",
@@ -7123,7 +7123,7 @@
             "name": "Jake Moody",
             "pos": "K",
             "pts": 26.0,
-            "pos_rank": "K31"
+            "pos_rank": ""
           },
           {
             "name": "Mike Gesicki",
@@ -7209,7 +7209,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 51.0,
-            "pos_rank": "K19"
+            "pos_rank": ""
           },
           {
             "name": "Isiah Pacheco",
@@ -7337,7 +7337,7 @@
             "name": "Younghoe Koo",
             "pos": "K",
             "pts": 16.0,
-            "pos_rank": "K37"
+            "pos_rank": ""
           },
           {
             "name": "Jeremy McNichols",
@@ -7423,7 +7423,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 133.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Gardner Minshew",
@@ -7521,7 +7521,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 133.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Eagles",
@@ -7557,7 +7557,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 18.0,
-            "pos_rank": "K34"
+            "pos_rank": ""
           },
           {
             "name": "Tommy DeVito",
@@ -7661,7 +7661,7 @@
             "name": "Jason Sanders",
             "pos": "K",
             "pts": 14.0,
-            "pos_rank": "K40"
+            "pos_rank": ""
           },
           {
             "name": "Kyle Juszczyk",
@@ -7759,7 +7759,7 @@
             "name": "Brandon McManus",
             "pos": "K",
             "pts": 60.0,
-            "pos_rank": "K15"
+            "pos_rank": ""
           },
           {
             "name": "Alec Pierce",
@@ -7845,7 +7845,7 @@
             "name": "Jake Moody",
             "pos": "K",
             "pts": 58.0,
-            "pos_rank": "K17"
+            "pos_rank": ""
           },
           {
             "name": "Brandon Aiyuk",
@@ -7974,7 +7974,7 @@
             "name": "Justin Tucker",
             "pos": "K",
             "pts": 112.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "Chris Olave",
@@ -8091,7 +8091,7 @@
             "name": "Younghoe Koo",
             "pos": "K",
             "pts": 104.0,
-            "pos_rank": "K7"
+            "pos_rank": ""
           },
           {
             "name": "Dalton Kincaid",
@@ -8226,7 +8226,7 @@
             "name": "Greg Zuerlein",
             "pos": "K",
             "pts": 28.0,
-            "pos_rank": "K30"
+            "pos_rank": ""
           },
           {
             "name": "Samaje Perine",
@@ -8343,7 +8343,7 @@
             "name": "Graham Gano",
             "pos": "K",
             "pts": 32.0,
-            "pos_rank": "K26"
+            "pos_rank": ""
           },
           {
             "name": "MarShawn Lloyd",
@@ -8436,7 +8436,7 @@
             "name": "Tyler Bass",
             "pos": "K",
             "pts": 59.0,
-            "pos_rank": "K16"
+            "pos_rank": ""
           },
           {
             "name": "Jake Ferguson",
@@ -8559,7 +8559,7 @@
             "name": "Cairo Santos",
             "pos": "K",
             "pts": 24.0,
-            "pos_rank": "K32"
+            "pos_rank": ""
           },
           {
             "name": "Zamir White",
@@ -8712,7 +8712,7 @@
             "name": "Matt Gay",
             "pos": "K",
             "pts": 0.0,
-            "pos_rank": "K56"
+            "pos_rank": ""
           }
         ],
         "final": [],
@@ -8768,7 +8768,7 @@
             "name": "Brandon Aubrey",
             "pos": "K",
             "pts": 179.6,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Emeka Egbuka",
@@ -8866,7 +8866,7 @@
             "name": "Brandon Aubrey",
             "pos": "K",
             "pts": 179.6,
-            "pos_rank": "K1"
+            "pos_rank": ""
           },
           {
             "name": "Emeka Egbuka",
@@ -9024,7 +9024,7 @@
             "name": "Jake Bates",
             "pos": "K",
             "pts": 57.0,
-            "pos_rank": "K15"
+            "pos_rank": ""
           },
           {
             "name": "Jonnu Smith",
@@ -9128,7 +9128,7 @@
             "name": "Eddy Pineiro",
             "pos": "K",
             "pts": 32.0,
-            "pos_rank": "K25"
+            "pos_rank": ""
           },
           {
             "name": "Malik Willis",
@@ -9220,7 +9220,7 @@
             "name": "Will Reichard",
             "pos": "K",
             "pts": 41.0,
-            "pos_rank": "K22"
+            "pos_rank": ""
           },
           {
             "name": "Isaac TeSlaa",
@@ -9306,7 +9306,7 @@
             "name": "Jason Myers",
             "pos": "K",
             "pts": 121.0,
-            "pos_rank": "K4"
+            "pos_rank": ""
           },
           {
             "name": "Bucky Irving",
@@ -9458,7 +9458,7 @@
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 55.0,
-            "pos_rank": "K16"
+            "pos_rank": ""
           },
           {
             "name": "Ray Davis",
@@ -9550,7 +9550,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 51.0,
-            "pos_rank": "K18"
+            "pos_rank": ""
           },
           {
             "name": "AJ Barner",
@@ -9630,7 +9630,7 @@
             "name": "Cam Little",
             "pos": "K",
             "pts": 116.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "J.K. Dobbins",
@@ -9734,7 +9734,7 @@
             "name": "Cam Little",
             "pos": "K",
             "pts": 116.0,
-            "pos_rank": "K6"
+            "pos_rank": ""
           },
           {
             "name": "Christian Watson",
@@ -9868,7 +9868,7 @@
             "name": "Cameron Dicker",
             "pos": "K",
             "pts": 111.0,
-            "pos_rank": "K8"
+            "pos_rank": ""
           },
           {
             "name": "Mark Andrews",
@@ -10002,7 +10002,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 20.0,
-            "pos_rank": "K31"
+            "pos_rank": ""
           }
         ],
         "summary": {
@@ -10058,7 +10058,7 @@
             "name": "Chad Ryland",
             "pos": "K",
             "pts": 115.0,
-            "pos_rank": "K7"
+            "pos_rank": ""
           },
           {
             "name": "Jordan Addison",
@@ -10156,7 +10156,7 @@
             "name": "Chad Ryland",
             "pos": "K",
             "pts": 115.0,
-            "pos_rank": "K7"
+            "pos_rank": ""
           },
           {
             "name": "Jordan Addison",
@@ -10308,7 +10308,7 @@
             "name": "Chris Boswell",
             "pos": "K",
             "pts": 34.0,
-            "pos_rank": "K24"
+            "pos_rank": ""
           },
           {
             "name": "49ers",
@@ -10412,7 +10412,7 @@
             "name": "Jake Bates",
             "pos": "K",
             "pts": 37.0,
-            "pos_rank": "K23"
+            "pos_rank": ""
           },
           {
             "name": "Jaylen Wright",
@@ -10498,7 +10498,7 @@
             "name": "Matt Gay",
             "pos": "K",
             "pts": 59.0,
-            "pos_rank": "K14"
+            "pos_rank": ""
           },
           {
             "name": "Keon Coleman",
@@ -10591,7 +10591,7 @@
             "name": "Chase McLaughlin",
             "pos": "K",
             "pts": 133.0,
-            "pos_rank": "K3"
+            "pos_rank": ""
           },
           {
             "name": "Jayden Daniels",
@@ -10756,7 +10756,7 @@
             "name": "Wil Lutz",
             "pos": "K",
             "pts": 11.0,
-            "pos_rank": "K35"
+            "pos_rank": ""
           },
           {
             "name": "DeMario Douglas",
@@ -10855,7 +10855,7 @@
             "name": "Jake Elliott",
             "pos": "K",
             "pts": 97.0,
-            "pos_rank": "K9"
+            "pos_rank": ""
           },
           {
             "name": "Packers",
@@ -10984,7 +10984,7 @@
             "name": "Evan McPherson",
             "pos": "K",
             "pts": 69.0,
-            "pos_rank": "K12"
+            "pos_rank": ""
           },
           {
             "name": "Luther Burden III",
@@ -11065,7 +11065,7 @@
             "name": "Ka'imi Fairbairn",
             "pos": "K",
             "pts": 158.0,
-            "pos_rank": "K2"
+            "pos_rank": ""
           },
           {
             "name": "Michael Pittman Jr.",
@@ -11194,7 +11194,7 @@
             "name": "Tyler Loop",
             "pos": "K",
             "pts": 120.0,
-            "pos_rank": "K5"
+            "pos_rank": ""
           },
           {
             "name": "Aaron Jones Sr.",
@@ -11365,7 +11365,7 @@
             "name": "Tyler Bass",
             "pos": "K",
             "pts": 0.0,
-            "pos_rank": "K46"
+            "pos_rank": ""
           }
         ],
         "final": [],

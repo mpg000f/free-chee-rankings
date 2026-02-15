@@ -11,12 +11,12 @@
     { key: 'cost', label: 'Cost', sort: 'num', fmt: v => `$${v}` },
     { key: 'pts', label: 'Total Pts', sort: 'num', fmt: v => v.toFixed(1) },
     { key: 'ppd', label: 'Pts/$', sort: 'num', fmt: v => v.toFixed(1) },
-    { key: 'value', label: 'Value Score', sort: 'num', fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1) },
+    { key: 'value', label: 'Value (Pts vs Expected)', sort: 'num', fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1) },
   ];
 
   const POS_COLORS = {
     QB: '#e8443a', RB: '#3498db', WR: '#27ae60', TE: '#f5a623',
-    K: '#9b59b6', DEF: '#7f8c8d',
+    DEF: '#7f8c8d',
   };
 
   let data = null;
@@ -88,10 +88,10 @@
   function render() {
     const players = getFilteredPlayers();
 
-    // Best = top 25 by value, Worst = bottom 25 by value
+    // Best = sorted by value desc, Worst = sorted by value asc (all players)
     const sorted = [...players].sort((a, b) => b.value - a.value);
-    renderTable('best', sorted.slice(0, 25), 'best');
-    renderTable('worst', sorted.slice(-25).reverse(), 'worst');
+    renderTable('best', sorted, 'best');
+    renderTable('worst', [...sorted].reverse(), 'worst');
     renderChart(players);
   }
 
