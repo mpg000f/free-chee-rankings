@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rosters - Free Chee Headquarters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rankings.html">Rankings</a>
+        <a href="stats.html">Stats</a>
+        <a href="lookback.html">Lookback</a>
+        <a href="rosters.html" class="active">Rosters</a>
+        <a href="draft-value.html">Draft Value</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-container">
+    <h1>Team Rosters</h1>
+
+    <div class="page-controls">
+      <div id="season-toggle" class="season-toggle"></div>
+      <div class="team-select-wrapper">
+        <select id="team-select" class="team-select">
+          <option value="">Select a team...</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="roster-content" class="roster-panels">
+      <p class="placeholder-text">Select a season and team to view rosters.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script src="js/data-loader.js"></script>
+  <script src="js/rosters.js"></script>
+</body>
+</html>

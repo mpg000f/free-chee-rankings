@@ -816,6 +816,125 @@ h3 { font-size: 1.2rem; }
   height: 300px;
 }
 
+/* ===== SHARED PAGE LAYOUT ===== */
+.page-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+.page-container h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.page-controls {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.placeholder-text {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 3rem 1rem;
+}
+
+/* Team Select Dropdown */
+.team-select {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  color: var(--text);
+  padding: .45rem .75rem;
+  border-radius: var(--radius);
+  font-size: .9rem;
+  font-family: var(--font-body);
+  cursor: pointer;
+  min-width: 200px;
+}
+.team-select:hover, .team-select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* ===== ROSTERS PAGE ===== */
+.roster-panels {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+.roster-panel {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+.roster-panel h2 {
+  color: var(--accent);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.week-label {
+  font-size: .85rem;
+  color: var(--text-dim);
+  font-weight: 400;
+}
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .85rem;
+}
+.roster-table th {
+  background: var(--surface-light);
+  padding: .5rem .6rem;
+  text-align: left;
+  font-family: var(--font-heading);
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--accent);
+}
+.roster-table td {
+  padding: .4rem .6rem;
+  border-top: 1px solid var(--surface-light);
+}
+.roster-table tr:hover td { background: rgba(245,166,35,.04); }
+.roster-table .player-name { font-weight: 500; }
+.roster-table .pts { font-family: var(--font-heading); }
+.roster-table .pts.dim { color: var(--text-dim); }
+.roster-table .pos-rank { color: var(--text-dim); font-size: .8rem; }
+
+/* Position Badges */
+.pos-badge {
+  display: inline-block;
+  padding: .1rem .4rem;
+  border-radius: 3px;
+  font-size: .7rem;
+  font-weight: 700;
+  font-family: var(--font-heading);
+  letter-spacing: .5px;
+}
+.pos-QB { background: #e8443a33; color: #e8443a; }
+.pos-RB { background: #3498db33; color: #3498db; }
+.pos-WR { background: #27ae6033; color: #27ae60; }
+.pos-TE { background: #f5a62333; color: #f5a623; }
+.pos-K { background: #9b59b633; color: #9b59b6; }
+.pos-DEF { background: #7f8c8d33; color: #7f8c8d; }
+
+/* ===== DRAFT VALUE PAGE ===== */
+.value-table-section {
+  margin-bottom: 2rem;
+}
+.value-table-section h2 {
+  color: var(--accent);
+  margin-bottom: .75rem;
+}
+.table-subtitle {
+  font-size: .85rem;
+  color: var(--text-dim);
+  font-weight: 400;
+}
+.value-pos { color: var(--green); font-weight: 600; }
+.value-neg { color: var(--red); font-weight: 600; }
+
 /* ===== FOOTER ===== */
 .footer {
   text-align: center;
@@ -894,6 +1013,7 @@ h3 { font-size: 1.2rem; }
   .nav-links a { font-size: .75rem; padding: .35rem .5rem; }
 
   .chart-wrapper { height: 300px; }
+  .roster-panels { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 480px) {

@@ -2,6 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 examine_pdfs.py
+scripts/yahoo_creds.json
+scripts/yahoo_token.json
+yahoo_data/
 
 # Source PDFs live in site/pdfs/ - don't track root copies
 /*.pdf

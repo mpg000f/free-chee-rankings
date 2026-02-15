@@ -28,5 +28,7 @@ const DataLoader = (() => {
     getWeekHTML: (weekId) => load(`data/${weekId}.html`),
     getLookback: () => load('data/lookback.json'),
     getLookbackHTML: () => load('data/lookback_content.html'),
+    getRosters: () => load('data/rosters_data.json'),
+    getDraftValue: () => load('data/draft_value.json'),
   };
 })();
