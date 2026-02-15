@@ -923,54 +923,58 @@ h3 { font-size: 1.2rem; }
 .season-summary {
   background: var(--surface);
   border-radius: var(--radius-lg);
-  padding: 1.25rem;
+  padding: 1rem 1.5rem;
   margin-bottom: 1.5rem;
   border-left: 4px solid var(--accent);
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 .summary-team-name {
   font-family: var(--font-heading);
   font-size: .9rem;
   color: var(--text-dim);
-  margin-bottom: .75rem;
   font-style: italic;
+  white-space: nowrap;
+  min-width: max-content;
 }
 .summary-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  display: flex;
   gap: 1.5rem;
-}
-@media (max-width: 768px) {
-  .summary-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (max-width: 480px) {
-  .summary-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  flex: 1;
 }
 .summary-stat {
   min-width: 0;
+  white-space: nowrap;
 }
 .summary-label {
-  font-size: .7rem;
+  font-size: .65rem;
   text-transform: uppercase;
   letter-spacing: .5px;
   color: var(--text-dim);
   font-family: var(--font-heading);
-  margin-bottom: .15rem;
+  margin-bottom: .1rem;
 }
 .summary-value {
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 .summary-value.summary-small {
-  font-size: .95rem;
+  font-size: .9rem;
 }
 .summary-sub {
-  font-size: .75rem;
+  font-size: .7rem;
   color: var(--text-dim);
+}
+@media (max-width: 768px) {
+  .season-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .summary-grid {
+    flex-wrap: wrap;
+  }
 }
 .finish-champ { color: var(--accent); }
 .finish-runner { color: #a8a8a8; }
