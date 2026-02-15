@@ -85,7 +85,7 @@
       return;
     }
 
-    const maxWeek = seasonData.max_week;
+    const finalWeek = team.final_week || seasonData.max_week;
     const summaryHTML = buildSummaryCard(team);
 
     container.innerHTML = `
@@ -96,7 +96,7 @@
           ${buildRosterTable(team.week1)}
         </div>
         <div class="roster-panel">
-          <h2>Final Roster <span class="week-label">Week ${maxWeek}</span></h2>
+          <h2>Final Roster <span class="week-label">Week ${finalWeek}</span></h2>
           ${buildRosterTable(team.final)}
         </div>
       </div>

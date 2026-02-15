@@ -313,10 +313,17 @@ def build_rosters_data():
         # For position ranks
         pos_totals = defaultdict(list)
 
+        # Find the latest week with roster data per team
+        team_max_week = {}
+        for r in rosters:
+            tk = r["team_key"]
+            team_max_week[tk] = max(team_max_week.get(tk, 0), r["week"])
+
         for tk, players in team_player_weeks.items():
             owner = owner_map.get(tk, team_names.get(tk, tk))
             week1_players = []
             final_players = []
+            final_week = team_max_week.get(tk, max_week)
 
             for pk, weeks in players.items():
                 info = player_info[pk]
@@ -331,7 +338,7 @@ def build_rosters_data():
 
                 if 1 in week_nums:
                     week1_players.append(entry)
-                if max_week in week_nums:
+                if final_week in week_nums:
                     final_players.append(entry)
 
                 if info["pos"] in SKILL_POSITIONS:
@@ -345,6 +352,7 @@ def build_rosters_data():
                 "team_name": team_names.get(tk, tk),
                 "week1": week1_players,
                 "final": final_players,
+                "final_week": final_week,
                 "summary": summaries.get(tk, {}),
             }
 
