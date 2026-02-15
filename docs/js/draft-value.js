@@ -21,6 +21,7 @@
   let data = null;
   let currentSeason = '2025';
   let currentOwner = '';
+  let currentPos = '';
   let chart = null;
 
   const sortState = { key: 'value', asc: false };
@@ -49,10 +50,12 @@
   function selectSeason(season) {
     currentSeason = season;
     currentOwner = '';
+    currentPos = '';
     document.querySelectorAll('#season-toggle .season-btn').forEach(btn => {
       btn.classList.toggle('active', btn.textContent === season);
     });
     buildOwnerFilter();
+    buildPosFilter();
     render();
   }
 
@@ -74,12 +77,31 @@
     });
   }
 
+  function buildPosFilter() {
+    const container = document.getElementById('pos-filter');
+    if (!container) return;
+
+    const positions = ['QB', 'RB', 'WR', 'TE', 'DEF'];
+    container.innerHTML = `<select id="pos-select" class="team-select">
+      <option value="">All Positions</option>
+      ${positions.map(p => `<option value="${p}">${p}</option>`).join('')}
+    </select>`;
+
+    document.getElementById('pos-select').addEventListener('change', (e) => {
+      currentPos = e.target.value;
+      render();
+    });
+  }
+
   function getFilteredPlayers() {
     const seasonData = data[currentSeason];
     if (!seasonData) return [];
     let players = seasonData.players;
     if (currentOwner) {
       players = players.filter(p => p.owner === currentOwner);
+    }
+    if (currentPos) {
+      players = players.filter(p => p.pos === currentPos);
     }
     return players;
   }
