@@ -1,5 +1,5 @@
 /**
- * Draft Value page: season tabs, owner filter, best/worst tables, scatter plot.
+ * Draft Value page: season tabs, owner filter, draft board table, scatter plot.
  */
 (function () {
   const SEASONS = ['2022', '2023', '2024', '2025'];
@@ -10,7 +10,6 @@
     { key: 'owner', label: 'Owner', sort: 'str' },
     { key: 'cost', label: 'Cost', sort: 'num', fmt: v => `$${v}` },
     { key: 'pts', label: 'Total Pts', sort: 'num', fmt: v => v.toFixed(1) },
-    { key: 'ppd', label: 'Pts/$', sort: 'num', fmt: v => v.toFixed(1) },
     { key: 'value', label: 'Value (Pts vs Expected)', sort: 'num', fmt: v => (v >= 0 ? '+' : '') + v.toFixed(1) },
   ];
 
@@ -24,7 +23,7 @@
   let currentOwner = '';
   let chart = null;
 
-  const sortState = { best: { key: 'value', asc: false }, worst: { key: 'value', asc: true } };
+  const sortState = { key: 'value', asc: false };
 
   DataLoader.loadJSON('data/draft_value.json').then(d => {
     data = d;
@@ -87,39 +86,37 @@
 
   function render() {
     const players = getFilteredPlayers();
-    renderTable('best', players, 'best');
-    renderTable('worst', players, 'worst');
+    renderTable(players);
     renderChart(players);
   }
 
-  function renderTable(prefix, allPlayers, tableId) {
-    const thead = document.getElementById(`${prefix}-thead`);
-    const tbody = document.getElementById(`${prefix}-tbody`);
-    const state = sortState[tableId];
+  function renderTable(allPlayers) {
+    const thead = document.getElementById('draft-thead');
+    const tbody = document.getElementById('draft-tbody');
 
     thead.innerHTML = COLUMNS.map(col => {
-      const arrow = state.key === col.key ? (state.asc ? '&#9650;' : '&#9660;') : '';
+      const arrow = sortState.key === col.key ? (sortState.asc ? '&#9650;' : '&#9660;') : '';
       return `<th data-col="${col.key}">${col.label} <span class="sort-arrow">${arrow}</span></th>`;
     }).join('');
 
     thead.querySelectorAll('th').forEach(th => {
       th.addEventListener('click', () => {
         const key = th.dataset.col;
-        if (state.key === key) state.asc = !state.asc;
-        else { state.key = key; state.asc = key === 'player' || key === 'owner'; }
-        renderTable(prefix, allPlayers, tableId);
+        if (sortState.key === key) sortState.asc = !sortState.asc;
+        else { sortState.key = key; sortState.asc = key === 'player' || key === 'owner'; }
+        renderTable(allPlayers);
       });
     });
 
-    const col = COLUMNS.find(c => c.key === state.key);
+    const col = COLUMNS.find(c => c.key === sortState.key);
     const sorted = [...allPlayers].sort((a, b) => {
-      let va = a[state.key];
-      let vb = b[state.key];
+      let va = a[sortState.key];
+      let vb = b[sortState.key];
       if (col && col.sort === 'str') {
         va = String(va).toLowerCase();
         vb = String(vb).toLowerCase();
       }
-      return state.asc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
+      return sortState.asc ? (va < vb ? -1 : va > vb ? 1 : 0) : (va > vb ? -1 : va < vb ? 1 : 0);
     });
 
     const top = sorted.slice(0, 25);
@@ -133,7 +130,6 @@
         <td>${p.owner}</td>
         <td>$${p.cost}</td>
         <td>${p.pts.toFixed(1)}</td>
-        <td>${p.ppd.toFixed(1)}</td>
         <td class="${valueClass}">${(p.value >= 0 ? '+' : '') + p.value.toFixed(1)}</td>
       </tr>`;
     }).join('');
