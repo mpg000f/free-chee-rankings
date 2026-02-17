@@ -175,6 +175,32 @@
       });
     });
 
+    // Add expected curve when a single position is selected
+    if (currentPos && positions.length === 1) {
+      const models = data[currentSeason] && data[currentSeason].models;
+      const model = models && models[currentPos];
+      if (model) {
+        const maxCost = Math.max(...players.map(p => p.cost), 10);
+        const curvePoints = [];
+        for (let c = 1; c <= maxCost + 5; c++) {
+          const expected = model.a * Math.log(c) + model.b;
+          curvePoints.push({ x: c, y: Math.max(expected, 0) });
+        }
+        datasets.push({
+          label: 'Expected',
+          data: curvePoints,
+          type: 'line',
+          borderColor: '#ffffff88',
+          borderWidth: 2,
+          borderDash: [6, 4],
+          pointRadius: 0,
+          pointHoverRadius: 0,
+          fill: false,
+          tension: 0.4,
+        });
+      }
+    }
+
     chart = new Chart(canvas, {
       type: 'scatter',
       data: { datasets },
@@ -189,6 +215,7 @@
             backgroundColor: '#1a1d2e',
             borderColor: '#f5a623',
             borderWidth: 1,
+            filter: ctx => ctx.dataset.type !== 'line',
             callbacks: {
               label: ctx => {
                 const p = ctx.raw;
