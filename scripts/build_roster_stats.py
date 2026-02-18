@@ -380,6 +380,10 @@ def build_draft_value():
     """Build draft_value.json: per season, drafted players with value scores."""
     result = {}
 
+    # First pass: pool all seasons to train a single model per position
+    pooled_pos_players = defaultdict(list)
+    season_data_cache = {}
+
     for season in SEASONS:
         draft = load_json(os.path.join(YAHOO_DIR, season, "draft.json"))
         rosters = load_json(os.path.join(YAHOO_DIR, season, "rosters.json"))
@@ -387,8 +391,6 @@ def build_draft_value():
         if not draft or not rosters:
             print(f"  {season}: missing draft or roster data, skipping")
             continue
-
-        owner_map = build_owner_map(season)
 
         pos_field = "display_position"
         if rosters and pos_field not in rosters[0]:
@@ -402,13 +404,74 @@ def build_draft_value():
             if r.get(pos_field):
                 player_pos[pk] = r[pos_field]
 
-        entries = []
+        season_data_cache[season] = {
+            "draft": draft,
+            "player_season_pts": player_season_pts,
+            "player_pos": player_pos,
+        }
+
         for d in draft:
             pk = d["player_key"]
             cost = d.get("cost", 0) or 0
-            total_pts = player_season_pts.get(pk, 0)
+            pts = player_season_pts.get(pk, 0)
             pos = player_pos.get(pk, "")
+            if pos in DRAFT_VALUE_POSITIONS and cost > 0 and pts > 0:
+                pooled_pos_players[pos].append({"cost": cost, "pts": pts})
+
+    # Train pooled model: power regression (cost^0.7) on starters across all years
+    pos_models = {}
+    for pos, players in pooled_pos_players.items():
+        threshold = STARTER_THRESHOLDS.get(pos, 16) * len(season_data_cache)
+        starters = sorted(players, key=lambda p: p["pts"], reverse=True)[:threshold]
+        cheap = [p for p in players if p["cost"] <= 2]
+
+        costs = np.array([p["cost"] for p in starters], dtype=float)
+        pts = np.array([p["pts"] for p in starters])
+        coeffs = np.polyfit(np.power(costs, 0.7), pts, 1)
+
+        if cheap:
+            cheap_avg = sum(p["pts"] for p in cheap) / len(cheap)
+            cheap_pow_cost = np.mean(np.power([float(p["cost"]) for p in cheap], 0.7))
+        else:
+            cheap_avg, cheap_pow_cost = 0, 1
+        slope = float(coeffs[0])
+        intercept = cheap_avg - slope * cheap_pow_cost
+
+        pos_models[pos] = {"a": slope, "b": intercept}
+
+    models_rounded = {pos: {"a": round(m["a"], 2), "b": round(m["b"], 2)}
+                      for pos, m in pos_models.items()}
+
+    # Second pass: apply pooled model to each season
+    for season in SEASONS:
+        if season not in season_data_cache:
+            continue
+
+        cached = season_data_cache[season]
+        owner_map = build_owner_map(season)
+
+        entries = []
+        for d in cached["draft"]:
+            pk = d["player_key"]
+            cost = d.get("cost", 0) or 0
+            total_pts = cached["player_season_pts"].get(pk, 0)
+            pos = cached["player_pos"].get(pk, "")
             tk = d.get("team_key", "")
+
+            if pos not in pos_models:
+                continue
+
+            model = pos_models[pos]
+            if cost > 0:
+                expected_pts = model["a"] * np.power(float(cost), 0.7) + model["b"]
+                expected_pts = max(float(expected_pts), 0)
+                # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized
+                if cost <= 3:
+                    expected_pts = min(expected_pts, 30)
+                value = round(total_pts - expected_pts, 1)
+            else:
+                expected_pts = 0
+                value = 0
 
             entries.append({
                 "player": d.get("player_name", "Unknown"),
@@ -416,72 +479,17 @@ def build_draft_value():
                 "owner": owner_map.get(tk, d.get("team_name", "")),
                 "cost": cost,
                 "pts": round(total_pts, 2),
-                "ppd": round(total_pts / cost, 2) if cost > 0 else 0,
-                "player_key": pk,
+                "expected": round(expected_pts, 1),
+                "value": value,
             })
 
-        # Regression-based value: fit log curve on starters only at each position,
-        # then value = actual - expected (raw points above/below curve)
-        pos_players = defaultdict(list)
-        for e in entries:
-            if e["pos"] in DRAFT_VALUE_POSITIONS and e["pts"] > 0 and e["cost"] > 0:
-                pos_players[e["pos"]].append(e)
-
-        pos_models = {}
-        for pos, players in pos_players.items():
-            # Power regression (cost^0.7) on starters
-            threshold = STARTER_THRESHOLDS.get(pos, 16)
-            starters = sorted(players, key=lambda p: p["pts"], reverse=True)[:threshold]
-            costs = np.array([p["cost"] for p in starters])
-            pts = np.array([p["pts"] for p in starters])
-            pow_costs = np.power(costs.astype(float), 0.7)
-            coeffs = np.polyfit(pow_costs, pts, 1)
-
-            # Re-anchor so $1 expected = average of actual $1-2 players
-            cheap = [p for p in players if p["cost"] <= 2]
-            if cheap:
-                cheap_avg = sum(p["pts"] for p in cheap) / len(cheap)
-                cheap_pow_cost = np.mean(np.power([float(p["cost"]) for p in cheap], 0.7))
-            else:
-                cheap_avg, cheap_pow_cost = 0, 1
-            slope = float(coeffs[0])
-            intercept = cheap_avg - slope * cheap_pow_cost
-
-            pos_models[pos] = {"a": slope, "b": intercept}
-
-        # Filter out kickers and players without a model
-        entries = [e for e in entries if e["pos"] in pos_models]
-
-        for e in entries:
-            pos = e["pos"]
-            model = pos_models[pos]
-            if e["cost"] > 0:
-                expected_pts = model["a"] * np.power(float(e["cost"]), 0.7) + model["b"]
-                expected_pts = max(float(expected_pts), 0)
-                # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized
-                if e["cost"] <= 3:
-                    expected_pts = min(expected_pts, 30)
-                residual = e["pts"] - expected_pts
-                e["expected"] = round(float(expected_pts), 1)
-                e["voe"] = round(float(residual), 1)
-                e["value"] = round(float(residual), 1)
-            else:
-                e["expected"] = 0
-                e["voe"] = 0
-                e["value"] = 0
-
-            del e["player_key"]
-
         entries.sort(key=lambda e: e["value"], reverse=True)
-
-        # Collect unique owners for filter
         owners = sorted(set(e["owner"] for e in entries))
 
         result[season] = {
             "players": entries,
             "owners": owners,
-            "models": {pos: {"a": round(m["a"], 2), "b": round(m["b"], 2)}
-                       for pos, m in pos_models.items()},
+            "models": models_rounded,
         }
         print(f"  {season}: {len(entries)} drafted players")
 
