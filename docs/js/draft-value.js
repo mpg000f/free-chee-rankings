@@ -183,7 +183,7 @@
         const maxCost = Math.max(...players.map(p => p.cost), 10);
         const curvePoints = [];
         for (let c = 1; c <= maxCost + 5; c++) {
-          const expected = model.a * Math.log(c) + model.b;
+          const expected = model.a * Math.sqrt(c) + model.b;
           curvePoints.push({ x: c, y: Math.max(expected, 0) });
         }
         datasets.push({

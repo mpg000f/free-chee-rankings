@@ -429,25 +429,23 @@ def build_draft_value():
 
         pos_models = {}
         for pos, players in pos_players.items():
-            # Log regression on starters — captures diminishing returns
-            # while setting realistic expectations at both ends
+            # Sqrt regression on starters — balanced diminishing returns
             threshold = STARTER_THRESHOLDS.get(pos, 16)
             starters = sorted(players, key=lambda p: p["pts"], reverse=True)[:threshold]
             costs = np.array([p["cost"] for p in starters])
             pts = np.array([p["pts"] for p in starters])
-            log_costs = np.log(costs)
-            coeffs = np.polyfit(log_costs, pts, 1)
+            sqrt_costs = np.sqrt(costs)
+            coeffs = np.polyfit(sqrt_costs, pts, 1)
 
             # Re-anchor so $1 expected = average of actual $1-2 players
             cheap = [p for p in players if p["cost"] <= 2]
             if cheap:
                 cheap_avg = sum(p["pts"] for p in cheap) / len(cheap)
-                cheap_log_cost = np.mean(np.log([p["cost"] for p in cheap]))
+                cheap_sqrt_cost = np.mean(np.sqrt([p["cost"] for p in cheap]))
             else:
-                cheap_avg, cheap_log_cost = 0, 0
-            # Adjust intercept: keep slope, shift so curve passes through cheap anchor
+                cheap_avg, cheap_sqrt_cost = 0, 1
             slope = float(coeffs[0])
-            intercept = cheap_avg - slope * cheap_log_cost
+            intercept = cheap_avg - slope * cheap_sqrt_cost
 
             pos_models[pos] = {"a": slope, "b": intercept}
 
@@ -458,7 +456,7 @@ def build_draft_value():
             pos = e["pos"]
             model = pos_models[pos]
             if e["cost"] > 0:
-                expected_pts = model["a"] * np.log(e["cost"]) + model["b"]
+                expected_pts = model["a"] * np.sqrt(e["cost"]) + model["b"]
                 expected_pts = max(float(expected_pts), 0)
                 residual = e["pts"] - expected_pts
                 e["expected"] = round(float(expected_pts), 1)
