@@ -429,15 +429,7 @@ def build_draft_value():
         pts = np.array([p["pts"] for p in starters])
         coeffs = np.polyfit(np.power(costs, 0.7), pts, 1)
 
-        if cheap:
-            cheap_avg = sum(p["pts"] for p in cheap) / len(cheap)
-            cheap_pow_cost = np.mean(np.power([float(p["cost"]) for p in cheap], 0.7))
-        else:
-            cheap_avg, cheap_pow_cost = 0, 1
-        slope = float(coeffs[0])
-        intercept = cheap_avg - slope * cheap_pow_cost
-
-        pos_models[pos] = {"a": slope, "b": intercept}
+        pos_models[pos] = {"a": float(coeffs[0]), "b": float(coeffs[1])}
 
     models_rounded = {pos: {"a": round(m["a"], 2), "b": round(m["b"], 2)}
                       for pos, m in pos_models.items()}
@@ -467,7 +459,7 @@ def build_draft_value():
                 expected_pts = max(float(expected_pts), 0)
                 # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized
                 if cost <= 3:
-                    expected_pts = min(expected_pts, 30)
+                    expected_pts = min(expected_pts, 80)
                 value = round(total_pts - expected_pts, 1)
             else:
                 expected_pts = 0
