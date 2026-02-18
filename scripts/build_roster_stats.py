@@ -429,23 +429,23 @@ def build_draft_value():
 
         pos_models = {}
         for pos, players in pos_players.items():
-            # Sqrt regression on starters — balanced diminishing returns
+            # Power regression (cost^0.7) on starters
             threshold = STARTER_THRESHOLDS.get(pos, 16)
             starters = sorted(players, key=lambda p: p["pts"], reverse=True)[:threshold]
             costs = np.array([p["cost"] for p in starters])
             pts = np.array([p["pts"] for p in starters])
-            sqrt_costs = np.sqrt(costs)
-            coeffs = np.polyfit(sqrt_costs, pts, 1)
+            pow_costs = np.power(costs.astype(float), 0.7)
+            coeffs = np.polyfit(pow_costs, pts, 1)
 
             # Re-anchor so $1 expected = average of actual $1-2 players
             cheap = [p for p in players if p["cost"] <= 2]
             if cheap:
                 cheap_avg = sum(p["pts"] for p in cheap) / len(cheap)
-                cheap_sqrt_cost = np.mean(np.sqrt([p["cost"] for p in cheap]))
+                cheap_pow_cost = np.mean(np.power([float(p["cost"]) for p in cheap], 0.7))
             else:
-                cheap_avg, cheap_sqrt_cost = 0, 1
+                cheap_avg, cheap_pow_cost = 0, 1
             slope = float(coeffs[0])
-            intercept = cheap_avg - slope * cheap_sqrt_cost
+            intercept = cheap_avg - slope * cheap_pow_cost
 
             pos_models[pos] = {"a": slope, "b": intercept}
 
@@ -456,8 +456,11 @@ def build_draft_value():
             pos = e["pos"]
             model = pos_models[pos]
             if e["cost"] > 0:
-                expected_pts = model["a"] * np.sqrt(e["cost"]) + model["b"]
+                expected_pts = model["a"] * np.power(float(e["cost"]), 0.7) + model["b"]
                 expected_pts = max(float(expected_pts), 0)
+                # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized
+                if e["cost"] <= 3:
+                    expected_pts = min(expected_pts, 30)
                 residual = e["pts"] - expected_pts
                 e["expected"] = round(float(expected_pts), 1)
                 e["voe"] = round(float(residual), 1)
