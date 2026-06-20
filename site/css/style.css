@@ -975,6 +975,14 @@ h3 { font-size: 1.2rem; }
   .summary-grid {
     flex-wrap: wrap;
   }
+  .navbar-inner {
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .finish-champ { color: var(--accent); }
 .finish-runner { color: #a8a8a8; }
