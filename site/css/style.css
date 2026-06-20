@@ -1065,7 +1065,7 @@ h3 { font-size: 1.2rem; }
     padding: 0 1.25rem 1.25rem;
   }
   .team-header::after {
-    content: '\\25BC';
+    content: '\25BC';
     font-size: .6rem;
     color: var(--text-dim);
     transition: transform .3s;
