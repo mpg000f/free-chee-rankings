@@ -937,7 +937,10 @@ def generate_lookback_html(parsed, images):
         rank = entry["rank"]
         owner = html.escape(entry["owner"])
         score = entry["power_score"]
-        writeup = writeup_to_html(entry["writeup"])
+        # The presidential comparison is rendered separately below, so strip the
+        # inline "Comparison: ..." tail from the writeup to avoid duplicating it.
+        writeup_text = re.split(r'\bComparison\s*[:\-–]', entry["writeup"])[0].rstrip()
+        writeup = writeup_to_html(writeup_text)
         comparison = html.escape(entry.get("comparison", ""))
 
         parts.append(f'''<div class="lookback-entry" data-rank="{rank}">
