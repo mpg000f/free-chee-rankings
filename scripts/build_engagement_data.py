@@ -22,6 +22,19 @@ def load(*parts):
         return json.load(f)
 
 
+def authoritative_last_places():
+    """Last-place counts are hand-transcribed in lookback.html's `stats` array
+    (Yahoo doesn't record last place reliably). Parse them as the source of truth."""
+    import re
+    html = open(os.path.join(ROOT, "docs", "lookback.html"), encoding="utf-8").read()
+    out = {}
+    for name, last in re.findall(r'name:"([^"]+)".*?\blast:(\d+)', html):
+        out[name] = int(last)
+    if len(out) < 16:
+        raise SystemExit(f"Expected 16 owners in lookback stats, parsed {len(out)}")
+    return out
+
+
 def build():
     rosters = load("docs", "data", "rosters_data.json")
 
@@ -89,15 +102,14 @@ def build():
 
     win_streak, lose_streak = streaks()
 
-    # finishes from rosters_data
+    # championships from rosters_data; last-place from authoritative lookback table
     champ = collections.Counter()
-    lasts = collections.Counter()
     for s in SEASONS:
         for t in rosters[s]["teams"].values():
             if t["summary"].get("playoff_finish") == "Champion":
                 champ[t["owner"]] += 1
-            if t["summary"].get("standing") == 16:
-                lasts[t["owner"]] += 1
+    last_places = authoritative_last_places()
+    lasts = collections.Counter(last_places)
 
     def fmt_blow(g):
         w, l = (g["o1"], g["o2"]) if g["p1"] > g["p2"] else (g["o2"], g["o1"])
@@ -117,7 +129,7 @@ def build():
         "longest_win_streak": win_streak,
         "longest_losing_streak": lose_streak,
         "most_championships": [{"owner": o, "count": c} for o, c in champ.most_common(3)],
-        "most_last_place": [{"owner": o, "count": c} for o, c in lasts.most_common(3)],
+        "most_last_place": [{"owner": o, "count": c} for o, c in lasts.most_common() if c > 0],
     }
 
     # ---- careers: per-owner summary ----
@@ -153,7 +165,8 @@ def build():
         gp = w + l + tie
 
         # finishes
-        champs = finals = semis = lastp = 0
+        champs = finals = semis = 0
+        lastp = last_places.get(o, 0)  # authoritative (from lookback table)
         best_standing = 99
         for s in SEASONS:
             for t in rosters[s]["teams"].values():
@@ -167,8 +180,6 @@ def build():
                     finals += 1
                 elif fin == "Semifinal Loss":
                     semis += 1
-                if st == 16:
-                    lastp += 1
                 if st and st < best_standing:
                     best_standing = st
 
