@@ -8,7 +8,7 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "The Art of the Deal",
+      "team_name": "Art of the Deal",
       "owner": "Matt",
       "movement": 3,
       "tier": null,
@@ -160,7 +160,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Senior AI Coke Twins- Book Despiser",
+      "team_name": "Senior AI Coke Twins",
       "owner": "Mikey",
       "movement": 0,
       "tier": null,

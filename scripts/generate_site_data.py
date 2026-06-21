@@ -489,6 +489,12 @@ def _clean_team_display_name(name, owner):
     return name
 
 
+def _display_team_name(team_name, owner, season):
+    """Canonical team name for the season/owner if known, else best-effort cleanup."""
+    from owner_mapping import canonical_team
+    return canonical_team(season, owner) or _clean_team_display_name(team_name, owner)
+
+
 def _grouped_team_to_html(leader, all_teams, week_id):
     """Render a group of tied/combined teams as a single card."""
     grouped_names = leader.get("grouped_with", [])
@@ -504,7 +510,7 @@ def _grouped_team_to_html(leader, all_teams, week_id):
     # Build headers for all teams in the group
     headers_html = ""
     for t in group_teams:
-        t_name = html.escape(_clean_team_display_name(t["team_name"], t["owner"]))
+        t_name = html.escape(_display_team_name(t["team_name"], t["owner"], (week_id or "")[:4]))
         t_owner = html.escape(t["owner"])
         t_rank = t["rank"]
         rank_class = "rank"
@@ -524,8 +530,8 @@ def _grouped_team_to_html(leader, all_teams, week_id):
         headers_html += f'''  <div class="team-header" id="{week_id}-rank-{t_rank}">
     <div class="{rank_class}">{t_rank}</div>
     <div class="team-info">
-      <div class="team-name">{t_name}</div>
       <div class="team-owner">{t_owner}</div>
+      <div class="team-name">{t_name}</div>
     </div>
     {movement_html}
   </div>\n'''
@@ -546,7 +552,7 @@ def _grouped_team_to_html(leader, all_teams, week_id):
 def team_to_html(team, week_id, inline_images=None):
     """Convert a team entry to HTML card."""
     rank = team["rank"]
-    name = html.escape(_clean_team_display_name(team["team_name"], team["owner"]))
+    name = html.escape(_display_team_name(team["team_name"], team["owner"], (week_id or "")[:4]))
     owner = html.escape(team["owner"])
     writeup = writeup_to_html(team["writeup"])
 
@@ -605,8 +611,8 @@ def team_to_html(team, week_id, inline_images=None):
   <div class="team-header">
     <div class="{rank_class}">{rank}</div>
     <div class="team-info">
-      <div class="team-name">{icons}{name}</div>
-      <div class="team-owner">{owner}</div>
+      <div class="team-owner">{icons}{owner}</div>
+      <div class="team-name">{name}</div>
     </div>
     {movement_html}
   </div>
@@ -982,7 +988,7 @@ def main():
             movement = team.get("computed_movement")
             teams_json.append({
                 "rank": team["rank"],
-                "team_name": team["team_name"],
+                "team_name": _display_team_name(team["team_name"], team["owner"], file_info["season"]),
                 "owner": team["owner"],
                 "movement": movement,
                 "tier": team.get("tier"),
@@ -998,7 +1004,7 @@ def main():
                     "week_id": week_id,
                     "rank": team["rank"],
                 })
-                all_owners_data[owner]["team_names"].add(team["team_name"])
+                all_owners_data[owner]["team_names"].add(_display_team_name(team["team_name"], owner, file_info["season"]))
                 all_owners_data[owner]["seasons"].add(file_info["season"])
 
         week_json = {

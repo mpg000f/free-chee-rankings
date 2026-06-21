@@ -370,12 +370,12 @@ h3 { font-size: 1.2rem; }
 .rank-last { color: var(--red) !important; }
 
 .team-info { flex: 1; }
-.team-name {
+.team-owner {
   font-family: var(--font-heading);
   font-size: 1.15rem;
   font-weight: 600;
 }
-.team-owner {
+.team-name {
   color: var(--text-dim);
   font-size: .85rem;
 }

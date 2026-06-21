@@ -8,7 +8,7 @@
   "teams": [
     {
       "rank": 1,
-      "team_name": "The Jackson Brownes (Boyle)",
+      "team_name": "The Jackson Brownes",
       "owner": "Boyle",
       "movement": 0,
       "tier": null,
@@ -18,7 +18,7 @@
     },
     {
       "rank": 2,
-      "team_name": "Ginny Sack (Chris)",
+      "team_name": "Ginny Sack",
       "owner": "Chris",
       "movement": 0,
       "tier": null,
@@ -28,7 +28,7 @@
     },
     {
       "rank": 3,
-      "team_name": "Work Ass (Sweeney)",
+      "team_name": "Work Ass",
       "owner": "Sweeney",
       "movement": 0,
       "tier": null,
@@ -38,7 +38,7 @@
     },
     {
       "rank": 4,
-      "team_name": "Team Obama Sopranos (TK)",
+      "team_name": "Team Obama Sopranos",
       "owner": "TK",
       "movement": 3,
       "tier": null,
@@ -48,7 +48,7 @@
     },
     {
       "rank": 5,
-      "team_name": "Stewed C (Joey)",
+      "team_name": "Stewed C",
       "owner": "Joey",
       "movement": 5,
       "tier": null,
@@ -58,7 +58,7 @@
     },
     {
       "rank": 6,
-      "team_name": "Art of the Deal (Matt)",
+      "team_name": "Art of the Deal",
       "owner": "Matt",
       "movement": -2,
       "tier": null,
@@ -68,7 +68,7 @@
     },
     {
       "rank": 7,
-      "team_name": "Scampi (Gallo)",
+      "team_name": "Scampi",
       "owner": "Gallo",
       "movement": 2,
       "tier": null,
@@ -78,7 +78,7 @@
     },
     {
       "rank": 8,
-      "team_name": "Sweeney Deez and Zaukas (Mitch)",
+      "team_name": "Sweeney Deez and Zaukas",
       "owner": "Mitch",
       "movement": -2,
       "tier": null,
@@ -88,7 +88,7 @@
     },
     {
       "rank": 9,
-      "team_name": "Pigs on the 7th Rank (Deez)",
+      "team_name": "Pigs on the 7th Rank",
       "owner": "Deez",
       "movement": -4,
       "tier": null,
@@ -96,7 +96,7 @@
     },
     {
       "rank": 10,
-      "team_name": "Sweeney. (Connor)",
+      "team_name": "Sweeney.",
       "owner": "Connor",
       "movement": 4,
       "tier": null,
@@ -106,7 +106,7 @@
     },
     {
       "rank": 11,
-      "team_name": "Cookie Monster Golf Cart (TJ)",
+      "team_name": "Cookie Monster Golf Cart",
       "owner": "TJ",
       "movement": 0,
       "tier": null,
@@ -116,7 +116,7 @@
     },
     {
       "rank": 12,
-      "team_name": "Gorlock the Destroyer Schwartz (Papi)",
+      "team_name": "Gorlock the Destroyer Schwartz",
       "owner": "Papi",
       "movement": 0,
       "tier": null,
@@ -126,7 +126,7 @@
     },
     {
       "rank": 13,
-      "team_name": "Team Daniel (Paul)",
+      "team_name": "Team Daniel",
       "owner": "Paul",
       "movement": 2,
       "tier": null,
@@ -134,7 +134,7 @@
     },
     {
       "rank": 14,
-      "team_name": "Life with Derrick (Justin)",
+      "team_name": "Life with Derrick",
       "owner": "Justin",
       "movement": -1,
       "tier": null,
@@ -154,7 +154,7 @@
     },
     {
       "rank": 16,
-      "team_name": "Senior AI Coke Twins (Mikey)",
+      "team_name": "Senior AI Coke Twins",
       "owner": "Mikey",
       "movement": 0,
       "tier": null,

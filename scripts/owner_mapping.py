@@ -49,3 +49,51 @@ def resolve_owner(team_name_raw, explicit_owner=None):
         return team_name_raw.strip()
 
     return explicit_owner or team_name_raw
+
+
+# Canonical team name per (season, owner). Keeps team names uniform across all
+# weeks of a season and strips PDF-parsing artifacts (stray "- Tishman" suffixes,
+# "(Owner)" tags, case/spacing variants). Update when an owner renames a team.
+CANONICAL_TEAMS = {
+    "2024": {
+        "Joey": "Stewed C",
+        "TK": "Hand me the Piss",
+        "Chris": "Sansa Ludacris",
+        "Papi": "Gorlock the Destroyer",
+        "Mitch": "Deserves to be Shot",
+        "Justin": "Life with Derrick",
+        "Paul": "Marvin’s Receiver Room",
+        "TJ": "Cap Stoppers",
+        "Connor": "Sweeney.",
+        "Sweeney": "Work Ass",
+        "Deez": "Pigs on the 7th Rank",
+        "Matt": "WHERESTUA",
+        "Boyle": "Gotham Rogues",
+        "Ger": "Ger",
+        "Gallo": "Here Without You Tishman",
+        "Mikey": "Senior AI Coke Twins",
+    },
+    "2025": {
+        "Joey": "Stewed C",
+        "Chris": "Ginny Sack",
+        "Connor": "Sweeney.",
+        "Deez": "Pigs on the 7th Rank",
+        "Gallo": "Scampi",
+        "Ger": "Ger",
+        "Justin": "Life with Derrick",
+        "Matt": "Art of the Deal",
+        "Mikey": "Senior AI Coke Twins",
+        "Mitch": "Sweeney Deez and Zaukas",
+        "Papi": "Gorlock the Destroyer Schwartz",
+        "Paul": "Team Daniel",
+        "Sweeney": "Work Ass",
+        "TJ": "Cookie Monster Golf Cart",
+        "TK": "Team Obama Sopranos",
+        "Boyle": "The Jackson Brownes",
+    },
+}
+
+
+def canonical_team(season, owner):
+    """Canonical team name for a season/owner, or None if unmapped."""
+    return CANONICAL_TEAMS.get(str(season), {}).get(owner)

@@ -50,7 +50,7 @@
 
       return `<div class="ranking-graphic-card ${tierClass}" data-rank="${t.rank}" data-target="${weekData.week_id}-rank-${t.rank}">
         <span class="rank-num">${t.rank}</span>
-        <span class="team-label">${t.team_name}<br><span class="owner-label">${t.owner}</span></span>
+        <span class="team-label">${t.owner}<br><span class="owner-label">${t.team_name}</span></span>
         ${movement}
       </div>`;
     }).join('');
