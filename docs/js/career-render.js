@@ -31,7 +31,6 @@
       <div class="career-hero">
         <div class="career-name">${c.owner}</div>
         ${trophyRow}
-        ${c.comparison ? `<div class="career-comp"><span class="comparison-label">Presidential Comparison:</span> ${c.comparison.replace(/\s+/g, ' ').trim()}</div>` : ''}
       </div>
 
       <div class="season-summary">
