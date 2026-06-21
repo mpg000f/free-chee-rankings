@@ -36,7 +36,7 @@
 
       <div class="season-summary">
         <div class="summary-grid">
-          ${stat('All-Time Record', rec, `${(c.win_pct * 100).toFixed(1)}% &bull; ${c.seasons_played} seasons`)}
+          ${stat('All-Time Record', rec, `${(c.win_pct * 100).toFixed(1)}% &bull; ${c.seasons_played} seasons &bull; incl. playoffs`)}
           ${stat('Points / Game', c.ppg, `${c.pf.toFixed(0)} for, ${c.pa.toFixed(0)} against`)}
           ${stat('Best Standing', c.best_finish ? `#${c.best_finish}` : '—', c.last_places ? `${c.last_places}&times; last place` : 'reg. season')}
           ${stat('Playoff Resume', `${c.finals}F / ${c.semis}S`, 'finals / semis reached')}
