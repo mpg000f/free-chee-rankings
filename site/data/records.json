@@ -1,0 +1,108 @@
+{
+ "highest_score": {
+  "owner": "Connor",
+  "pts": 190.22,
+  "opp": "Papi",
+  "opp_pts": 106.14,
+  "season": "2023",
+  "week": 14
+ },
+ "lowest_score": {
+  "owner": "TK",
+  "pts": 4.58,
+  "opp": "Sweeney",
+  "opp_pts": 131.66,
+  "season": "2022",
+  "week": 14
+ },
+ "most_points_in_loss": {
+  "owner": "Joey",
+  "pts": 159.16,
+  "opp": "Papi",
+  "opp_pts": 167.34,
+  "season": "2024",
+  "week": 16
+ },
+ "fewest_points_in_win": {
+  "owner": "Chris",
+  "pts": 62.46,
+  "opp": "Paul",
+  "opp_pts": 61.76,
+  "season": "2023",
+  "week": 9
+ },
+ "biggest_blowout": {
+  "winner": "Sweeney",
+  "loser": "TK",
+  "win_pts": 131.66,
+  "lose_pts": 4.58,
+  "margin": 127.08,
+  "season": "2022",
+  "week": 14
+ },
+ "closest_game": {
+  "winner": "Sweeney",
+  "loser": "TK",
+  "win_pts": 125.56,
+  "lose_pts": 125.54,
+  "margin": 0.02,
+  "season": "2022",
+  "week": 15
+ },
+ "highest_scoring_game": {
+  "total": 326.5,
+  "winner": "Papi",
+  "loser": "Joey",
+  "win_pts": 167.34,
+  "lose_pts": 159.16,
+  "margin": 8.18,
+  "season": "2024",
+  "week": 16
+ },
+ "lowest_scoring_game": {
+  "total": 124.22,
+  "winner": "Chris",
+  "loser": "Paul",
+  "win_pts": 62.46,
+  "lose_pts": 61.76,
+  "margin": 0.7,
+  "season": "2023",
+  "week": 9
+ },
+ "longest_win_streak": {
+  "owner": "Gallo",
+  "len": 13
+ },
+ "longest_losing_streak": {
+  "owner": "Mikey",
+  "len": 17
+ },
+ "most_championships": [
+  {
+   "owner": "Sweeney",
+   "count": 2
+  },
+  {
+   "owner": "Deez",
+   "count": 1
+  },
+  {
+   "owner": "Mitch",
+   "count": 1
+  }
+ ],
+ "most_last_place": [
+  {
+   "owner": "Paul",
+   "count": 2
+  },
+  {
+   "owner": "Boyle",
+   "count": 1
+  },
+  {
+   "owner": "Mikey",
+   "count": 1
+  }
+ ]
+}
