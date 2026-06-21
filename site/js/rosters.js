@@ -8,6 +8,7 @@
   let data = null;
   let currentSeason = '2025';
   let currentTeamKey = '';
+  let currentOwner = '';
 
   DataLoader.loadJSON('data/rosters_data.json').then(d => {
     data = d;
@@ -61,12 +62,18 @@
     select.parentNode.replaceChild(newSelect, select);
     newSelect.addEventListener('change', () => {
       currentTeamKey = newSelect.value;
+      const opt = newSelect.options[newSelect.selectedIndex];
+      currentOwner = opt ? opt.textContent : '';
       renderRosters();
     });
 
     if (teams.length) {
-      newSelect.value = teams[0].key;
-      currentTeamKey = teams[0].key;
+      // Keep the same owner selected when the season changes; fall back to the
+      // first team if that owner didn't have a roster that year.
+      const pick = teams.find(t => t.owner === currentOwner) || teams[0];
+      newSelect.value = pick.key;
+      currentTeamKey = pick.key;
+      currentOwner = pick.owner;
       renderRosters();
     }
   }
