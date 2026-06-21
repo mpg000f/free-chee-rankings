@@ -119,12 +119,6 @@
                         s.playoff_finish === 'Championship Loss' ? 'finish-runner' :
                         s.playoff_finish.includes('Semi') ? 'finish-semi' : '';
 
-    const lastGame = s.last_game_pts
-      ? `${s.last_game_pts.toFixed(1)} - ${s.last_game_opp_pts.toFixed(1)} vs ${s.last_game_opp}`
-      : '-';
-    const lastResult = s.last_game_pts > s.last_game_opp_pts ? 'W' : s.last_game_pts < s.last_game_opp_pts ? 'L' : 'T';
-    const resultClass = lastResult === 'W' ? 'result-win' : lastResult === 'L' ? 'result-loss' : '';
-
     return `
       <div class="season-summary">
         <div class="summary-team-name">${team.team_name}</div>
@@ -147,10 +141,6 @@
           <div class="summary-stat">
             <div class="summary-label">Playoff Finish</div>
             <div class="summary-value ${finishClass}">${s.playoff_finish}</div>
-          </div>
-          <div class="summary-stat">
-            <div class="summary-label">Final Game</div>
-            <div class="summary-value summary-small"><span class="${resultClass}">${lastResult}</span> ${lastGame}</div>
           </div>
         </div>
       </div>
