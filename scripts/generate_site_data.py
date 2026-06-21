@@ -925,6 +925,13 @@ def format_odds_section(name, text):
     return f'<div class="special-section"><h2>{name}</h2>{writeup_to_html(text)}</div>'
 
 
+# Images embedded in specific lookback writeups (extracted from the PDF by page).
+# The lookback parser doesn't tie images to entries, so map them by owner here.
+LOOKBACK_ENTRY_IMAGES = {
+    "Connor": "lookback_p7_1_e9e9e7a8.jpeg",  # "It feels sort of like this picture."
+}
+
+
 def generate_lookback_html(parsed, images):
     """Generate HTML for the lookback article."""
     parts = []
@@ -943,13 +950,17 @@ def generate_lookback_html(parsed, images):
         writeup = writeup_to_html(writeup_text)
         comparison = html.escape(entry.get("comparison", ""))
 
+        img_file = LOOKBACK_ENTRY_IMAGES.get(entry["owner"])
+        image_html = (f'\n  <div class="article-image"><img src="images/{img_file}" '
+                      f'alt="{owner}" loading="lazy"></div>') if img_file else ''
+
         parts.append(f'''<div class="lookback-entry" data-rank="{rank}">
   <div class="lookback-header">
     <span class="lookback-rank">{rank}</span>
     <span class="lookback-owner">{owner}</span>
     <span class="lookback-score">Power Score: {score}</span>
   </div>
-  <div class="lookback-writeup">{writeup}</div>
+  <div class="lookback-writeup">{writeup}</div>{image_html}
   {f'<div class="lookback-comparison"><span class="comparison-label">Presidential Comparison:</span> {comparison}</div>' if comparison else ''}
 </div>''')
 
