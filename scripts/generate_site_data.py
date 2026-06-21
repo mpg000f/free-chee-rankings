@@ -352,12 +352,71 @@ def _convert_inline_odds_table(text):
     return before_html + table_html
 
 
-def writeup_to_html(text):
-    """Convert plain text writeup to HTML."""
+def _render_bullets(items):
+    """Render (level, text) items as a nested <ul>: level 0 top, level 1 sub."""
+    parts = ["<ul>"]
+    i, n = 0, len(items)
+    while i < n:
+        level, txt = items[i]
+        if level == 0:
+            subs, j = [], i + 1
+            while j < n and items[j][0] == 1:
+                subs.append(items[j][1])
+                j += 1
+            if subs:
+                sub_html = "".join(f"<li>{s}</li>" for s in subs)
+                parts.append(f"<li>{txt}<ul>{sub_html}</ul></li>")
+            else:
+                parts.append(f"<li>{txt}</li>")
+            i = j
+        else:
+            parts.append(f"<li>{txt}</li>")
+            i += 1
+    parts.append("</ul>")
+    return "".join(parts)
+
+
+def _blocks_to_html(text):
+    """Line-aware renderer: flowing paragraphs plus nested bullet lists
+    (lines beginning with a bullet char are top-level, "o " lines are sub-items)."""
+    out, para, items = [], [], []
+
+    def flush_para():
+        if para:
+            p = " ".join(para).strip()
+            para.clear()
+            if p:
+                out.append(f"<p>{p}</p>")
+
+    def flush_list():
+        if items:
+            out.append(_render_bullets(items))
+            items.clear()
+
+    for raw in text.split("\n"):
+        s = raw.strip()
+        if not s:
+            flush_para(); flush_list(); continue
+        if s[0] in "•▪●":          # • ▪ ●
+            flush_para(); items.append((0, s[1:].strip()))
+        elif re.match(r'^o\s+\S', s):              # "o " sub-bullet
+            flush_para(); items.append((1, s[1:].strip()))
+        else:
+            flush_list(); para.append(s)
+    flush_para(); flush_list()
+    return "\n".join(out)
+
+
+def writeup_to_html(text, bullets=False):
+    """Convert plain text writeup to HTML. With bullets=True, "•"/"o" line
+    markers become a nested list instead of being flattened into a paragraph."""
     if not text:
         return ""
     # Escape HTML entities
     text = html.escape(text)
+
+    if bullets:
+        return _convert_player_assessment(_blocks_to_html(text))
 
     # Fix PDF page-break artifacts: merge paragraphs where the second part
     # starts with a lowercase letter (indicating mid-sentence split)
@@ -870,7 +929,7 @@ def generate_lookback_html(parsed, images):
     """Generate HTML for the lookback article."""
     parts = []
 
-    parts.append(f'<div class="lookback-intro">{writeup_to_html(parsed["intro"])}</div>')
+    parts.append(f'<div class="lookback-intro">{writeup_to_html(parsed["intro"], bullets=True)}</div>')
 
     # Skip images - interactive charts/tables on the lookback page replace them
 

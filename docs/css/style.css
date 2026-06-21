@@ -700,6 +700,17 @@ h3 { font-size: 1.2rem; }
   color: var(--text-dim);
   font-style: italic;
 }
+.lookback-intro p { margin-bottom: .75rem; }
+.lookback-intro ul {
+  list-style: disc;
+  margin: .5rem 0 .75rem;
+  padding-left: 1.5rem;
+}
+.lookback-intro ul ul {
+  list-style: circle;
+  margin: .25rem 0;
+}
+.lookback-intro li { margin-bottom: .3rem; }
 .lookback-entry {
   background: var(--surface);
   border-radius: var(--radius-lg);
