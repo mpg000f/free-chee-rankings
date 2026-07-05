@@ -1,5 +1,5 @@
 /**
- * Power Ratings: render the forward-looking rating from power_ratings.json.
+ * Fantasy IQ: render the forward-looking rating from power_ratings.json.
  */
 (function () {
   const content = document.getElementById('power-content');
@@ -51,9 +51,10 @@
       <div class="pr-list">${rows}</div>
       <div class="pr-method">
         <h2>How it works</h2>
-        <p>A forward-looking rating of how good each team is <em>right now</em>, built only
-        from repeatable skills — not trophies. Each factor is scored against the league and
-        weighted:</p>
+        <p>Fantasy IQ scores each team like an IQ: <strong>100 is the league average</strong>,
+        and every ~15 points is a big step. It's forward-looking — how good a team is
+        <em>right now</em>, built only from repeatable skills, not trophies. Each factor is
+        scored against the league and weighted:</p>
         <ul>
           <li><strong>Scoring — ${Math.round(w.scoring * 100)}%.</strong> Points per game. The most predictive stat in fantasy.</li>
           <li><strong>Draft — ${Math.round(w.draft * 100)}%.</strong> Value squeezed out of the draft. Good drafters keep drafting well.</li>

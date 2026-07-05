@@ -120,7 +120,7 @@ def page_html(c):
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
-        <a href="power.html">Power Ratings</a>
+        <a href="fantasy-iq.html">Fantasy IQ</a>
         <a href="stats.html">Stats</a>
         <a href="rosters.html">Rosters</a>
         <a href="draft-value.html">Draft Value</a>
