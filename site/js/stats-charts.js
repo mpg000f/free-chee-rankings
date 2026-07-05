@@ -7,7 +7,7 @@
 
   // ===== SORTABLE TABLE =====
   const tableBody = document.getElementById('stats-table-body');
-  const tableHeaders = document.querySelectorAll('.stats-table th[data-sort]');
+  const tableHeaders = document.querySelectorAll('#ranking-stats-table th[data-sort]');
   let sortKey = 'avg_rank';
   let sortAsc = true;
 

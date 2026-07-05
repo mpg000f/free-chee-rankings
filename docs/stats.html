@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=699d2b0c68">
+  <link rel="stylesheet" href="css/style.css?v=5cc977596d">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 </head>
@@ -49,9 +49,29 @@
   <div class="stats-container">
     <h1>Owner Stats</h1>
 
-    <!-- Sortable Table -->
+    <!-- All-Time Records -->
+    <h2 class="stats-section-title">All-Time Records</h2>
+    <p class="stats-section-note">Regular season + playoffs, 2022&ndash;present. Updates as the season goes.</p>
     <div class="table-wrapper">
-      <table class="stats-table">
+      <table class="stats-table" id="records-table">
+        <thead>
+          <tr>
+            <th data-sort="name">Owner <span class="sort-arrow"></span></th>
+            <th data-sort="wins">W&ndash;L <span class="sort-arrow"></span></th>
+            <th data-sort="win_pct">Win% <span class="sort-arrow">▼</span></th>
+            <th data-sort="pf">PF <span class="sort-arrow"></span></th>
+            <th data-sort="pa">PA <span class="sort-arrow"></span></th>
+            <th data-sort="ppg">PPG <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="records-table-body"></tbody>
+      </table>
+    </div>
+
+    <!-- Power Ranking Stats -->
+    <h2 class="stats-section-title">Power Ranking Stats</h2>
+    <div class="table-wrapper">
+      <table class="stats-table" id="ranking-stats-table">
         <thead>
           <tr>
             <th data-sort="name">Owner <span class="sort-arrow"></span></th>
@@ -102,6 +122,7 @@
   </footer>
 
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
-  <script src="js/stats-charts.js?v=734decd692"></script>
+  <script src="js/stats-records.js?v=16e8a15ede"></script>
+  <script src="js/stats-charts.js?v=b2d71a0e79"></script>
 </body>
 </html>

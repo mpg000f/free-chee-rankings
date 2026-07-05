@@ -1228,3 +1228,7 @@ h3 { font-size: 1.2rem; }
 .h2h-rec.h2h-win { color: var(--green); }
 .h2h-rec.h2h-loss { color: var(--red); }
 .h2h-rec.h2h-even { color: var(--text-dim); }
+
+/* ===== STATS SECTION TITLES ===== */
+.stats-section-title { color: var(--accent); margin: 1.5rem 0 .5rem; }
+.stats-section-note { color: var(--text-dim); font-size: .85rem; margin-bottom: .9rem; }
