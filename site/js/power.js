@@ -5,9 +5,11 @@
 (function () {
   const content = document.getElementById('power-content');
 
-  DataLoader.loadJSON('data/power_ratings.json').then(d => {
+  // ?v is bumped when the JSON schema changes so a freshly-deployed power.js
+  // never reads a stale cached data file (they'd desync and crash).
+  DataLoader.loadJSON('data/power_ratings.json?v=iq2').then(d => {
     content.innerHTML = render(d);
-    drawChart(d);
+    try { drawChart(d); } catch (e) { /* chart is an enhancement; never block the page */ }
   }).catch(() => {
     content.innerHTML = '<p style="color:var(--red)">Error loading Fantasy IQ.</p>';
   });
