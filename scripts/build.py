@@ -43,6 +43,7 @@ def main():
     sync("data")
     sync("images")
     run("build_engagement_data.py")
+    run("build_power_ratings.py")
     run("build_owner_share_pages.py")
     run("stamp_cache_bust.py")
     print("\nBuild complete. Review with `git status`, then commit and push.")

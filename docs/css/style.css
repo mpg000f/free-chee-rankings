@@ -1200,3 +1200,68 @@ h3 { font-size: 1.2rem; }
 .muted { color: var(--text-dim); font-weight: 400; }
 .career-share { text-align: center; margin-top: 1.5rem; }
 .career-share a { font-weight: 600; }
+
+/* ===== POWER RATINGS ===== */
+.pr-header { margin-bottom: 1.25rem; }
+.pr-label {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.pr-note { color: var(--text-dim); font-size: .9rem; margin-top: .25rem; }
+.pr-list { display: flex; flex-direction: column; gap: .6rem; }
+.pr-row {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: .8rem 1rem;
+}
+.pr-rank {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: var(--accent);
+  min-width: 2rem;
+  text-align: center;
+}
+.pr-main { flex: 1; min-width: 0; }
+.pr-top { display: flex; align-items: baseline; gap: .6rem; margin-bottom: .5rem; }
+.pr-owner { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; }
+.pr-rating {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.pr-move { font-size: .8rem; font-weight: 700; }
+.pr-move-up { color: var(--green); }
+.pr-move-down { color: var(--red); }
+.pr-move-flat { color: var(--text-dim); }
+.pr-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem 1rem; }
+.pr-metric { display: flex; align-items: center; gap: .4rem; font-size: .72rem; }
+.pr-metric-label { color: var(--text-dim); min-width: 4.5rem; }
+.pr-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--surface-light);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.pr-bar-fill { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.pr-metric-pct { color: var(--text-dim); min-width: 1.5rem; text-align: right; }
+.pr-method { margin-top: 2rem; color: var(--text-dim); }
+.pr-method h2 { color: var(--accent); margin-bottom: .5rem; }
+.pr-method ul { margin: .5rem 0 .5rem 1.25rem; }
+.pr-method li { margin-bottom: .3rem; }
+.pr-method strong { color: var(--text); }
+@media (max-width: 600px) {
+  .pr-metrics { grid-template-columns: 1fr; }
+  .pr-metric-label { min-width: 5.5rem; }
+}

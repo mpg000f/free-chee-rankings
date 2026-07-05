@@ -1,0 +1,172 @@
+{
+ "label": "Preseason (2026)",
+ "updated_through": null,
+ "weights": {
+  "scoring": 0.55,
+  "draft": 0.3,
+  "consistency": 0.15
+ },
+ "note": "Forward-looking: rewards scoring and drafting, ignores wins, championships and schedule luck.",
+ "ratings": [
+  {
+   "owner": "Joey",
+   "rank": 1,
+   "rating": 109.9,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 100,
+   "draft_pct": 100,
+   "consistency_pct": 73
+  },
+  {
+   "owner": "Deez",
+   "rank": 2,
+   "rating": 107.1,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 80,
+   "draft_pct": 27,
+   "consistency_pct": 100
+  },
+  {
+   "owner": "TJ",
+   "rank": 3,
+   "rating": 105.8,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 93,
+   "draft_pct": 87,
+   "consistency_pct": 27
+  },
+  {
+   "owner": "Chris",
+   "rank": 4,
+   "rating": 104.9,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 87,
+   "draft_pct": 67,
+   "consistency_pct": 47
+  },
+  {
+   "owner": "Sweeney",
+   "rank": 5,
+   "rating": 104.8,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 60,
+   "draft_pct": 53,
+   "consistency_pct": 93
+  },
+  {
+   "owner": "Mitch",
+   "rank": 6,
+   "rating": 104.1,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 67,
+   "draft_pct": 33,
+   "consistency_pct": 80
+  },
+  {
+   "owner": "Gallo",
+   "rank": 7,
+   "rating": 103.3,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 53,
+   "draft_pct": 93,
+   "consistency_pct": 20
+  },
+  {
+   "owner": "Papi",
+   "rank": 8,
+   "rating": 100.6,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 47,
+   "draft_pct": 40,
+   "consistency_pct": 53
+  },
+  {
+   "owner": "Matt",
+   "rank": 9,
+   "rating": 100.0,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 73,
+   "draft_pct": 20,
+   "consistency_pct": 7
+  },
+  {
+   "owner": "Justin",
+   "rank": 10,
+   "rating": 98.8,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 33,
+   "draft_pct": 73,
+   "consistency_pct": 40
+  },
+  {
+   "owner": "Connor",
+   "rank": 11,
+   "rating": 96.4,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 20,
+   "draft_pct": 80,
+   "consistency_pct": 13
+  },
+  {
+   "owner": "Paul",
+   "rank": 12,
+   "rating": 95.7,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 7,
+   "draft_pct": 60,
+   "consistency_pct": 60
+  },
+  {
+   "owner": "Boyle",
+   "rank": 13,
+   "rating": 94.9,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 27,
+   "draft_pct": 13,
+   "consistency_pct": 67
+  },
+  {
+   "owner": "TK",
+   "rank": 14,
+   "rating": 93.6,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 13,
+   "draft_pct": 7,
+   "consistency_pct": 87
+  },
+  {
+   "owner": "Ger",
+   "rank": 15,
+   "rating": 92.5,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 40,
+   "draft_pct": 0,
+   "consistency_pct": 33
+  },
+  {
+   "owner": "Mikey",
+   "rank": 16,
+   "rating": 87.7,
+   "prev_rank": null,
+   "movement": 0,
+   "scoring_pct": 0,
+   "draft_pct": 47,
+   "consistency_pct": 0
+  }
+ ]
+}
