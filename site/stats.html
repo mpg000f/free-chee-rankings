@@ -24,7 +24,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=5cc977596d">
+  <link rel="stylesheet" href="css/style.css?v=c37e49c2a7">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 </head>
@@ -49,8 +49,14 @@
   <div class="stats-container">
     <h1>Owner Stats</h1>
 
+    <nav class="stats-jump">
+      <a href="#records">All-Time Records</a>
+      <a href="#ranking-stats">Ranking Stats</a>
+      <a href="#history">Ranking History</a>
+    </nav>
+
     <!-- All-Time Records -->
-    <h2 class="stats-section-title">All-Time Records</h2>
+    <h2 class="stats-section-title" id="records">All-Time Records</h2>
     <p class="stats-section-note">Regular season + playoffs, 2022&ndash;present. Updates as the season goes.</p>
     <div class="table-wrapper">
       <table class="stats-table" id="records-table">
@@ -69,7 +75,7 @@
     </div>
 
     <!-- Power Ranking Stats -->
-    <h2 class="stats-section-title">Power Ranking Stats</h2>
+    <h2 class="stats-section-title" id="ranking-stats">Power Ranking Stats</h2>
     <div class="table-wrapper">
       <table class="stats-table" id="ranking-stats-table">
         <thead>
@@ -88,7 +94,7 @@
     </div>
 
     <!-- Ranking History Chart -->
-    <div class="chart-section">
+    <div class="chart-section" id="history">
       <h2>Ranking History</h2>
       <div class="chart-filters">
         <div id="chart-controls" class="chart-controls">

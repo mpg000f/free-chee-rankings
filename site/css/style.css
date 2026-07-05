@@ -1232,3 +1232,30 @@ h3 { font-size: 1.2rem; }
 /* ===== STATS SECTION TITLES ===== */
 .stats-section-title { color: var(--accent); margin: 1.5rem 0 .5rem; }
 .stats-section-note { color: var(--text-dim); font-size: .85rem; margin-bottom: .9rem; }
+
+/* ===== STATS JUMP NAV ===== */
+.stats-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-bottom: 1.5rem;
+}
+.stats-jump a {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  color: var(--text-dim);
+  font-family: var(--font-heading);
+  font-size: .85rem;
+  font-weight: 500;
+  padding: .4rem .9rem;
+  border-radius: 20px;
+  transition: all .2s;
+}
+.stats-jump a:hover {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+/* offset anchor targets so the sticky navbar doesn't cover section tops */
+#records, #ranking-stats, #history { scroll-margin-top: 70px; }
