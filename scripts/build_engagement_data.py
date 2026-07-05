@@ -147,7 +147,7 @@ def build():
     for o in owners:
         w = l = tie = 0
         pf = pa = 0.0
-        h2h = collections.defaultdict(lambda: [0, 0])  # opp -> [wins, losses]
+        h2h = collections.defaultdict(lambda: [0, 0, 0])  # opp -> [wins, losses, ties]
         seasons_played = set()
         for g in games:
             if o not in (g["o1"], g["o2"]):
@@ -161,7 +161,7 @@ def build():
             elif mine < opp_pts:
                 l += 1; h2h[opp][1] += 1
             else:
-                tie += 1
+                tie += 1; h2h[opp][2] += 1
         gp = w + l + tie
 
         # finishes
@@ -186,8 +186,13 @@ def build():
         # biggest rival = most-played opponent
         rival = None
         if h2h:
-            ro = max(h2h, key=lambda k: h2h[k][0] + h2h[k][1])
+            ro = max(h2h, key=lambda k: sum(h2h[k]))
             rival = {"owner": ro, "wins": h2h[ro][0], "losses": h2h[ro][1]}
+
+        # full head-to-head vs every opponent, best matchups first
+        h2h_list = [{"opp": op, "w": rec[0], "l": rec[1], "t": rec[2]}
+                    for op, rec in h2h.items()]
+        h2h_list.sort(key=lambda x: (-(x["w"] - x["l"]), -(x["w"] + x["l"]), x["opp"]))
 
         # best / worst draft pick across seasons
         picks = [p for s in SEASONS for p in draft[s]["players"] if p["owner"] == o]
@@ -208,6 +213,7 @@ def build():
             "avg_power_rank": hist.get("avg_rank"),
             "best_rank": hist.get("best_rank"),
             "rival": rival,
+            "h2h": h2h_list,
             "best_pick": ({"player": best_pick["player"], "cost": best_pick["cost"],
                            "pts": best_pick["pts"], "value": round(best_pick["value"], 1)}
                           if best_pick else None),

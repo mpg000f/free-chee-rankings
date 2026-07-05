@@ -7,7 +7,7 @@
   const sel = document.getElementById('owner-select');
   const content = document.getElementById('career-content');
 
-  DataLoader.loadJSON('data/careers.json').then(d => {
+  DataLoader.loadJSON('data/careers.json?v=h2h1').then(d => {
     careers = d.careers;
     owners = d.owners;
     sel.innerHTML = owners.map(o => `<option value="${o}">${o}</option>`).join('');

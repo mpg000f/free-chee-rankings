@@ -1288,3 +1288,30 @@ h3 { font-size: 1.2rem; }
   color: var(--text);
 }
 .pr-tag { color: var(--text-dim); font-size: .78rem; margin-top: .7rem; }
+
+/* ===== CAREER H2H GRID ===== */
+.h2h-grid-title { color: var(--accent); margin: 1.75rem 0 .9rem; }
+.h2h-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: .5rem;
+}
+.h2h-cell {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  border-radius: var(--radius);
+  padding: .45rem .7rem;
+}
+.h2h-opp { font-weight: 600; font-size: .85rem; }
+.h2h-rec {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: .9rem;
+}
+.h2h-rec.h2h-win { color: var(--green); }
+.h2h-rec.h2h-loss { color: var(--red); }
+.h2h-rec.h2h-even { color: var(--text-dim); }

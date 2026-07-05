@@ -6,7 +6,7 @@
   const owner = window.CAREER_OWNER;
   const content = document.getElementById('career-content');
 
-  DataLoader.loadJSON('data/careers.json').then(d => {
+  DataLoader.loadJSON('data/careers.json?v=h2h1').then(d => {
     const c = d.careers[owner];
     content.innerHTML = buildCareerProfile(c) +
       '<p class="career-share"><a href="careers.html">&larr; All owner careers</a></p>';

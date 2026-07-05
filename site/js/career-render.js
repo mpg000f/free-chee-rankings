@@ -55,6 +55,19 @@
           <div class="record-value">${wp.player}</div>
           <div class="record-detail">$${wp.cost} &rarr; ${wp.pts.toFixed(0)} pts (${wp.value} value)</div></div>` : ''}
       </div>
+
+      ${(c.h2h && c.h2h.length) ? `
+      <h2 class="h2h-grid-title">Head-to-Head &mdash; All-Time</h2>
+      <div class="h2h-grid">
+        ${c.h2h.map(h => {
+          const cls = h.w > h.l ? 'h2h-win' : h.l > h.w ? 'h2h-loss' : 'h2h-even';
+          const rec = `${h.w}-${h.l}${h.t ? '-' + h.t : ''}`;
+          return `<div class="h2h-cell">
+            <span class="h2h-opp">${h.opp}</span>
+            <span class="h2h-rec ${cls}">${rec}</span>
+          </div>`;
+        }).join('')}
+      </div>` : ''}
     `;
   };
 
