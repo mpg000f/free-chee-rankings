@@ -89,7 +89,8 @@
       <div class="pr-chart-card">
         <h2>The Board</h2>
         <div class="pr-chart-wrap"><canvas id="iq-chart"></canvas></div>
-        <p class="pr-chart-note">Dashed line = league average (100).</p>
+        <p class="pr-chart-note">Fantasy IQ runs on the same scale as real IQ — dashed lines
+        mark intellectual disability (70), average (100), and genius (140).</p>
       </div>
 
       <h2 class="pr-breakdown-title">Breakdown</h2>
@@ -105,49 +106,61 @@
     const css = getComputedStyle(document.documentElement);
     const gold = css.getPropertyValue('--accent').trim() || '#f5a623';
     const dim = css.getPropertyValue('--text-dim').trim() || '#9b98a0';
+    const red = css.getPropertyValue('--red').trim() || '#e8443a';
+    const green = css.getPropertyValue('--green').trim() || '#27ae60';
     const surface = css.getPropertyValue('--surface-light').trim() || '#242840';
 
-    // best at top: Chart.js draws category[0] at bottom, so reverse
-    const rows = [...d.ratings].reverse();
+    // vertical bars, highest IQ on the left -> data is already sorted descending
+    const rows = d.ratings;
     const labels = rows.map(r => r.owner);
     const vals = rows.map(r => r.rating);
     const colors = rows.map(r => r.rating >= 100 ? gold : dim);
-    const min = Math.floor(Math.min(...vals) - 3);
-    const max = Math.ceil(Math.max(...vals) + 3);
 
-    canvas.parentElement.style.height = (d.ratings.length * 26 + 40) + 'px';
+    // real-life IQ reference lines (Fantasy IQ uses the same mean-100 / SD-15 scale)
+    const REF = [
+      { y: 70, label: 'Intellectual disability (70)', color: red },
+      { y: 100, label: 'Average (100)', color: dim },
+      { y: 140, label: 'Genius (140)', color: green },
+    ];
+
+    canvas.parentElement.style.height = '440px';
     new Chart(canvas, {
       type: 'bar',
       data: { labels, datasets: [{ data: vals, backgroundColor: colors, borderRadius: 3 }] },
       options: {
-        indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { callbacks: { label: c => `Fantasy IQ ${c.parsed.x.toFixed(1)}` } },
+          tooltip: { callbacks: { label: c => `Fantasy IQ ${c.parsed.y.toFixed(1)}` } },
         },
         scales: {
-          x: {
-            min, max,
-            grid: { color: surface },
-            ticks: { color: dim },
-          },
-          y: { grid: { display: false }, ticks: { color: '#e8e6e3', font: { size: 12 } } },
+          x: { grid: { display: false }, ticks: { color: '#e8e6e3', font: { size: 11 }, maxRotation: 60, minRotation: 45 } },
+          y: { min: 55, max: 150, grid: { color: surface }, ticks: { color: dim } },
         },
       },
       plugins: [{
-        id: 'avgline',
+        id: 'reflines',
         afterDraw(chart) {
-          const x = chart.scales.x.getPixelForValue(100);
-          const { top, bottom } = chart.chartArea;
+          const { left, right } = chart.chartArea;
           const ctx = chart.ctx;
-          ctx.save();
-          ctx.setLineDash([5, 4]);
-          ctx.strokeStyle = dim;
-          ctx.lineWidth = 1;
-          ctx.beginPath(); ctx.moveTo(x, top); ctx.lineTo(x, bottom); ctx.stroke();
-          ctx.restore();
+          REF.forEach(ref => {
+            const y = chart.scales.y.getPixelForValue(ref.y);
+            ctx.save();
+            ctx.setLineDash([5, 4]);
+            ctx.strokeStyle = ref.color;
+            ctx.globalAlpha = 0.85;
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(left, y); ctx.lineTo(right, y); ctx.stroke();
+            ctx.setLineDash([]);
+            ctx.globalAlpha = 1;
+            ctx.fillStyle = ref.color;
+            ctx.font = '11px Inter, sans-serif';
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(ref.label, left + 5, y - 2);
+            ctx.restore();
+          });
         },
       }],
     });
