@@ -4,6 +4,8 @@ Each owner gets:
   - images/og-career-<slug>.png : a 1200x630 share card (name, record, rings, ppg)
   - career-<slug>.html          : a static page with owner-specific OG meta tags
 Outputs to both docs/ and site/. Run after build_engagement_data.py.
+NOTE: pages are written with unstamped css/js refs — run scripts/stamp_cache_bust.py
+afterward to re-apply cache-busting query strings.
 """
 import json, os, re
 from PIL import Image, ImageDraw, ImageFont
