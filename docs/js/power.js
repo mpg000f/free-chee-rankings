@@ -81,8 +81,9 @@
           <li><strong>Consistency — 15%.</strong> Week-to-week reliability. High floor beats boom-or-bust.</li>
         </ul>
         <p>Wins, championships, playoff finishes and points-against are ignored on purpose —
-        they're mostly schedule luck. Recent seasons count more, and once the season starts the
-        rating blends in live results (heavier as more games are played).</p>
+        they rely on some luck, and this rating weighs entire bodies of work instead. Recent
+        seasons count more, and once the season starts the rating blends in live results
+        (heavier as more games are played).</p>
       </div>
 
       <div class="pr-chart-card">
