@@ -84,13 +84,13 @@ def parse_filename(filename):
         "sort_key": 0,
     }
 
-    # Determine season
-    if "2025" in name:
-        result["season"] = "2025"
-    elif "2022-2025" in name or "lookback" in name_lower:
+    # Determine season: lookback is special; otherwise use the 4-digit year in
+    # the filename. Early 2024 PDFs have no year in the name, so default to 2024.
+    if "2022-2025" in name or "lookback" in name_lower:
         result["season"] = "special"
     else:
-        result["season"] = "2024"
+        m = re.search(r"20\d{2}", name)
+        result["season"] = m.group(0) if m else "2024"
 
     # Determine week and type
     if "lookback" in name_lower:
