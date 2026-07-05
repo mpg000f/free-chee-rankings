@@ -172,10 +172,17 @@ def build():
     ratings = []
     for i, o in enumerate(order):
         rk = i + 1
+        def to_iq(z):
+            return round(SCALE_MEAN + SCALE_SD * z, 1)
         ratings.append({
             "owner": o, "rank": rk, "rating": rating[o],
             "prev_rank": prev_rank.get(o),
             "movement": (prev_rank.get(o) - rk) if prev_rank.get(o) else 0,
+            # each component on the same IQ scale (100 = league average);
+            # the overall rating is their 55/30/15 weighted average.
+            "scoring_iq": to_iq(comp_final["scoring"][o]),
+            "draft_iq": to_iq(comp_final["draft"][o]),
+            "consistency_iq": to_iq(comp_final["consistency"][o]),
             "scoring_pct": comp_pct["scoring"][o],
             "draft_pct": comp_pct["draft"][o],
             "consistency_pct": comp_pct["consistency"][o],

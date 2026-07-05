@@ -1201,8 +1201,8 @@ h3 { font-size: 1.2rem; }
 .career-share { text-align: center; margin-top: 1.5rem; }
 .career-share a { font-weight: 600; }
 
-/* ===== POWER RATINGS ===== */
-.pr-header { margin-bottom: 1.25rem; }
+/* ===== FANTASY IQ ===== */
+.pr-header { margin-bottom: 1rem; }
 .pr-label {
   display: inline-block;
   font-family: var(--font-heading);
@@ -1211,57 +1211,80 @@ h3 { font-size: 1.2rem; }
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.pr-note { color: var(--text-dim); font-size: .9rem; margin-top: .25rem; }
-.pr-list { display: flex; flex-direction: column; gap: .6rem; }
-.pr-row {
-  display: flex;
-  align-items: center;
-  gap: .9rem;
-  background: var(--surface);
-  border: 1px solid var(--surface-light);
-  border-left: 3px solid var(--accent);
-  border-radius: var(--radius);
-  padding: .8rem 1rem;
-}
-.pr-rank {
-  font-family: var(--font-heading);
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--accent);
-  min-width: 2rem;
-  text-align: center;
-}
-.pr-main { flex: 1; min-width: 0; }
-.pr-top { display: flex; align-items: baseline; gap: .6rem; margin-bottom: .5rem; }
-.pr-owner { font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700; }
-.pr-rating {
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--accent);
-}
 .pr-move { font-size: .8rem; font-weight: 700; }
 .pr-move-up { color: var(--green); }
 .pr-move-down { color: var(--red); }
 .pr-move-flat { color: var(--text-dim); }
-.pr-metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem 1rem; }
-.pr-metric { display: flex; align-items: center; gap: .4rem; font-size: .72rem; }
-.pr-metric-label { color: var(--text-dim); min-width: 4.5rem; }
-.pr-bar {
-  flex: 1;
-  height: 6px;
-  background: var(--surface-light);
-  border-radius: 3px;
-  overflow: hidden;
-}
-.pr-bar-fill { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
-.pr-metric-pct { color: var(--text-dim); min-width: 1.5rem; text-align: right; }
-.pr-method { margin-top: 2rem; color: var(--text-dim); }
+
+/* How it works */
+.pr-method { color: var(--text-dim); margin-bottom: 2rem; }
 .pr-method h2 { color: var(--accent); margin-bottom: .5rem; }
 .pr-method ul { margin: .5rem 0 .5rem 1.25rem; }
 .pr-method li { margin-bottom: .3rem; }
 .pr-method strong { color: var(--text); }
-@media (max-width: 600px) {
-  .pr-metrics { grid-template-columns: 1fr; }
-  .pr-metric-label { min-width: 5.5rem; }
+
+/* Chart */
+.pr-chart-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  margin-bottom: 2rem;
 }
+.pr-chart-card h2 { color: var(--accent); margin-bottom: 1rem; }
+.pr-chart-wrap { position: relative; width: 100%; }
+.pr-chart-note { color: var(--text-dim); font-size: .78rem; margin-top: .6rem; }
+
+/* Per-owner breakdown */
+.pr-breakdown-title { color: var(--accent); margin-bottom: 1rem; }
+.pr-owner-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1rem;
+}
+.pr-owner-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius);
+  padding: .9rem 1.1rem;
+}
+.pr-owner-head { display: flex; align-items: baseline; gap: .6rem; margin-bottom: .7rem; }
+.pr-rank {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--accent);
+  min-width: 1.8rem;
+}
+.pr-owner { font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; flex: 1; }
+.pr-rating {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--accent);
+}
+.pr-components { display: flex; flex-direction: column; gap: .45rem; }
+.pr-comp { display: flex; align-items: center; gap: .6rem; font-size: .78rem; }
+.pr-comp-label { color: var(--text-dim); min-width: 6.5rem; }
+.pr-comp-wt { color: var(--text-dim); opacity: .6; font-size: .68rem; }
+.pr-comp-track {
+  position: relative;
+  flex: 1;
+  height: 8px;
+  background: var(--surface-light);
+  border-radius: 4px;
+}
+.pr-comp-mid {
+  position: absolute; left: 50%; top: -2px; bottom: -2px;
+  width: 1px; background: var(--text-dim); opacity: .5;
+}
+.pr-comp-fill { position: absolute; top: 0; height: 100%; border-radius: 4px; }
+.pr-comp-iq {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  min-width: 2rem;
+  text-align: right;
+  color: var(--text);
+}
+.pr-tag { color: var(--text-dim); font-size: .78rem; margin-top: .7rem; }
