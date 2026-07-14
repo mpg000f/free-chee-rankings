@@ -212,7 +212,7 @@
             labels: { color: '#e8e6e3', font: { family: 'Inter' } },
           },
           tooltip: {
-            backgroundColor: '#17201b',
+            backgroundColor: '#191b1e',
             borderColor: '#2ec76b',
             borderWidth: 1,
             filter: ctx => ctx.dataset.type !== 'line',
@@ -228,12 +228,12 @@
           x: {
             title: { display: true, text: 'Draft Cost ($)', color: '#9b98a0' },
             ticks: { color: '#9b98a0' },
-            grid: { color: '#17201b44' },
+            grid: { color: '#191b1e44' },
           },
           y: {
             title: { display: true, text: 'Total Points', color: '#9b98a0' },
             ticks: { color: '#9b98a0' },
-            grid: { color: '#17201b44' },
+            grid: { color: '#191b1e44' },
           },
         },
       },

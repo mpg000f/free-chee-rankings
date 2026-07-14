@@ -2,9 +2,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #101311;
-  --surface: #17201b;
-  --surface-light: #22302a;
+  --bg: #0e0f11;
+  --surface: #191b1e;
+  --surface-light: #262a2e;
   --accent: #2ec76b;
   --accent-dim: #24a057;
   --red: #e8443a;
@@ -91,7 +91,7 @@ h3 { font-size: 1.2rem; }
   justify-content: center;
   text-align: center;
   padding: 2rem 1rem;
-  background: radial-gradient(ellipse at center, #17201b 0%, #101311 70%);
+  background: radial-gradient(ellipse at center, #191b1e 0%, #0e0f11 70%);
   position: relative;
   overflow: hidden;
 }

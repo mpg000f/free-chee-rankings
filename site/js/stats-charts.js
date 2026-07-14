@@ -110,7 +110,7 @@
             color: '#9b98a0',
             font: { family: 'Oswald' },
           },
-          grid: { color: '#17201b' },
+          grid: { color: '#191b1e' },
           title: { display: true, text: 'Ranking', color: '#9b98a0', font: { family: 'Oswald' } },
         },
         x: {
@@ -119,7 +119,7 @@
             maxRotation: 45,
             font: { size: 10 },
           },
-          grid: { color: '#17201b' },
+          grid: { color: '#191b1e' },
         },
       },
       plugins: {
@@ -127,7 +127,7 @@
           display: false,
         },
         tooltip: {
-          backgroundColor: '#17201b',
+          backgroundColor: '#191b1e',
           borderColor: '#2ec76b',
           borderWidth: 1,
           titleFont: { family: 'Oswald' },
