@@ -15,7 +15,7 @@ BASE_URL = "https://mpg000f.github.io/free-chee-rankings/"
 
 BG = (15, 17, 24)
 SURFACE = (26, 29, 46)
-GOLD = (245, 166, 35)
+GOLD = (46, 199, 107)
 TEXT = (232, 230, 227)
 DIM = (155, 152, 160)
 
@@ -94,7 +94,7 @@ def page_html(c):
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <meta name="theme-color" content="#0f1118">
+  <meta name="theme-color" content="#101311">
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Free Chee Headquarters">
   <meta property="og:title" content="{title}">

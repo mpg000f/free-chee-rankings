@@ -2,16 +2,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg: #0f1118;
-  --surface: #1a1d2e;
-  --surface-light: #242840;
-  --accent: #f5a623;
-  --accent-dim: #c4841a;
+  --bg: #101311;
+  --surface: #17201b;
+  --surface-light: #22302a;
+  --accent: #2ec76b;
+  --accent-dim: #24a057;
   --red: #e8443a;
   --green: #27ae60;
   --text: #e8e6e3;
   --text-dim: #9b98a0;
-  --tier1: linear-gradient(135deg, #f5a623, #d4942a);
+  --tier1: linear-gradient(135deg, #2ec76b, #24a057);
   --tier2: linear-gradient(135deg, #a8a8a8, #7a7a7a);
   --tier3: linear-gradient(135deg, #cd7f32, #a0622a);
   --tier4: linear-gradient(135deg, #e8443a, #b3342c);
@@ -91,7 +91,7 @@ h3 { font-size: 1.2rem; }
   justify-content: center;
   text-align: center;
   padding: 2rem 1rem;
-  background: radial-gradient(ellipse at center, #1a1d2e 0%, #0f1118 70%);
+  background: radial-gradient(ellipse at center, #17201b 0%, #101311 70%);
   position: relative;
   overflow: hidden;
 }
@@ -100,7 +100,7 @@ h3 { font-size: 1.2rem; }
   position: absolute;
   top: -50%; left: -50%;
   width: 200%; height: 200%;
-  background: radial-gradient(circle at 30% 30%, rgba(245,166,35,.06) 0%, transparent 50%),
+  background: radial-gradient(circle at 30% 30%, rgba(46,199,107,.06) 0%, transparent 50%),
               radial-gradient(circle at 70% 70%, rgba(232,68,58,.04) 0%, transparent 50%);
   animation: heroGlow 8s ease-in-out infinite alternate;
 }
@@ -160,7 +160,7 @@ h3 { font-size: 1.2rem; }
 .cta-card:hover {
   transform: translateY(-4px);
   border-color: var(--accent);
-  box-shadow: 0 8px 24px rgba(245,166,35,.15);
+  box-shadow: 0 8px 24px rgba(46,199,107,.15);
   text-decoration: none;
 }
 .cta-card h3 {
@@ -304,8 +304,8 @@ h3 { font-size: 1.2rem; }
 }
 
 /* Tier colors on graphic cards */
-.ranking-graphic-card.tier-1 { border-left-color: #f5a623; }
-.ranking-graphic-card.tier-1 .rank-num { color: #f5a623; }
+.ranking-graphic-card.tier-1 { border-left-color: #2ec76b; }
+.ranking-graphic-card.tier-1 .rank-num { color: #2ec76b; }
 .ranking-graphic-card.tier-2 { border-left-color: #a8a8a8; }
 .ranking-graphic-card.tier-2 .rank-num { color: #a8a8a8; }
 .ranking-graphic-card.tier-3 { border-left-color: #cd7f32; }
@@ -346,7 +346,7 @@ h3 { font-size: 1.2rem; }
   transition: border-color .3s;
 }
 .team-card:hover { border-color: var(--surface-light); }
-.team-card.tier-1 { border-left: 4px solid #f5a623; }
+.team-card.tier-1 { border-left: 4px solid #2ec76b; }
 .team-card.tier-2 { border-left: 4px solid #a8a8a8; }
 .team-card.tier-3 { border-left: 4px solid #cd7f32; }
 .team-card.tier-4 { border-left: 4px solid var(--red); }
@@ -474,7 +474,7 @@ h3 { font-size: 1.2rem; }
   border-bottom: 1px solid var(--surface-light);
   text-align: center;
 }
-.odds-table tr:hover td { background: rgba(245,166,35,.04); }
+.odds-table tr:hover td { background: rgba(46,199,107,.04); }
 .odds-table td:first-child { font-weight: 600; }
 .odds-table td:last-child { color: var(--accent); font-family: var(--font-heading); }
 .odds-table .odds-header {
@@ -549,7 +549,7 @@ h3 { font-size: 1.2rem; }
   padding: .55rem .75rem;
   border-top: 1px solid var(--surface-light);
 }
-.stats-table tr:hover td { background: rgba(245,166,35,.04); }
+.stats-table tr:hover td { background: rgba(46,199,107,.04); }
 .stats-table .owner-cell { font-weight: 600; }
 
 /* Chart Section */
@@ -791,7 +791,7 @@ h3 { font-size: 1.2rem; }
   padding: .45rem .6rem;
   border-top: 1px solid var(--surface-light);
 }
-.lookback-stats-table tr:hover td { background: rgba(245,166,35,.04); }
+.lookback-stats-table tr:hover td { background: rgba(46,199,107,.04); }
 .lookback-stats-table td:first-child { font-weight: 600; }
 .lookback-stats-table .champ-badge {
   display: inline-block;
@@ -907,7 +907,7 @@ h3 { font-size: 1.2rem; }
   padding: .4rem .6rem;
   border-top: 1px solid var(--surface-light);
 }
-.roster-table tr:hover td { background: rgba(245,166,35,.04); }
+.roster-table tr:hover td { background: rgba(46,199,107,.04); }
 .roster-table .player-name { font-weight: 500; }
 .roster-table .pts { font-family: var(--font-heading); }
 .roster-table .pts.dim { color: var(--text-dim); }
@@ -926,7 +926,7 @@ h3 { font-size: 1.2rem; }
 .pos-QB { background: #e8443a33; color: #e8443a; }
 .pos-RB { background: #3498db33; color: #3498db; }
 .pos-WR { background: #27ae6033; color: #27ae60; }
-.pos-TE { background: #f5a62333; color: #f5a623; }
+.pos-TE { background: #e67e2233; color: #e67e22; }
 .pos-K { background: #9b59b633; color: #9b59b6; }
 .pos-DEF { background: #7f8c8d33; color: #7f8c8d; }
 
@@ -1145,7 +1145,7 @@ h3 { font-size: 1.2rem; }
   margin-bottom: 1rem;
 }
 .h2h-side { text-align: center; padding: .5rem; border-radius: var(--radius); }
-.h2h-winning { background: rgba(245,166,35,.08); }
+.h2h-winning { background: rgba(46,199,107,.08); }
 .h2h-owner { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 700; }
 .h2h-wins { font-family: var(--font-heading); font-size: 3rem; font-weight: 900; line-height: 1; color: var(--accent); }
 .h2h-winning .h2h-wins { color: var(--accent); }

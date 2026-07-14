@@ -202,8 +202,8 @@ def _render_power_trios_chart(data, week_id):
       datasets: [{{
         label: 'Total FPPG (Top 3 Players)',
         data: {totals},
-        backgroundColor: 'rgba(245, 166, 35, 0.7)',
-        borderColor: '#f5a623',
+        backgroundColor: 'rgba(46, 199, 107, 0.7)',
+        borderColor: '#2ec76b',
         borderWidth: 1
       }}]
     }},

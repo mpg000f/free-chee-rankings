@@ -64,7 +64,7 @@
 
   // Colors for owners (deterministic)
   const palette = [
-    '#f5a623', '#e8443a', '#27ae60', '#3498db', '#9b59b6',
+    '#2ec76b', '#e8443a', '#27ae60', '#3498db', '#9b59b6',
     '#e67e22', '#1abc9c', '#e74c3c', '#2ecc71', '#f39c12',
     '#8e44ad', '#16a085', '#d35400', '#2980b9', '#c0392b',
     '#7f8c8d', '#2c3e50', '#f1c40f', '#95a5a6', '#34495e',
@@ -110,7 +110,7 @@
             color: '#9b98a0',
             font: { family: 'Oswald' },
           },
-          grid: { color: '#1a1d2e' },
+          grid: { color: '#17201b' },
           title: { display: true, text: 'Ranking', color: '#9b98a0', font: { family: 'Oswald' } },
         },
         x: {
@@ -119,7 +119,7 @@
             maxRotation: 45,
             font: { size: 10 },
           },
-          grid: { color: '#1a1d2e' },
+          grid: { color: '#17201b' },
         },
       },
       plugins: {
@@ -127,8 +127,8 @@
           display: false,
         },
         tooltip: {
-          backgroundColor: '#1a1d2e',
-          borderColor: '#f5a623',
+          backgroundColor: '#17201b',
+          borderColor: '#2ec76b',
           borderWidth: 1,
           titleFont: { family: 'Oswald' },
           bodyFont: { family: 'Inter' },

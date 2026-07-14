@@ -14,7 +14,7 @@
   ];
 
   const POS_COLORS = {
-    QB: '#e8443a', RB: '#3498db', WR: '#27ae60', TE: '#f5a623',
+    QB: '#e8443a', RB: '#3498db', WR: '#27ae60', TE: '#e67e22',
     DEF: '#7f8c8d',
   };
 
@@ -212,8 +212,8 @@
             labels: { color: '#e8e6e3', font: { family: 'Inter' } },
           },
           tooltip: {
-            backgroundColor: '#1a1d2e',
-            borderColor: '#f5a623',
+            backgroundColor: '#17201b',
+            borderColor: '#2ec76b',
             borderWidth: 1,
             filter: ctx => ctx.dataset.type !== 'line',
             callbacks: {
@@ -228,12 +228,12 @@
           x: {
             title: { display: true, text: 'Draft Cost ($)', color: '#9b98a0' },
             ticks: { color: '#9b98a0' },
-            grid: { color: '#1a1d2e44' },
+            grid: { color: '#17201b44' },
           },
           y: {
             title: { display: true, text: 'Total Points', color: '#9b98a0' },
             ticks: { color: '#9b98a0' },
-            grid: { color: '#1a1d2e44' },
+            grid: { color: '#17201b44' },
           },
         },
       },
