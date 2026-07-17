@@ -9,6 +9,10 @@
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#0e0f11">
+  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/lookback.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Free Chee">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Free Chee Headquarters">
   <meta property="og:title" content="4-Year Lookback — Free Chee">
@@ -26,7 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=b4277dcc87">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="js/chart-loader.js?v=4f534cc3fa"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -207,10 +211,12 @@
       });
     }
 
-    makeBarChart('wins-chart', byWins.map(o => o.name), byWins.map(o => o.wins), chartColors.gold, v => `${v} wins`);
-    makeBarChart('pf-chart', byPF.map(o => o.name), byPF.map(o => o.pf), chartColors.blue, v => v.toFixed(2) + ' pts');
-    makeBarChart('diff-chart', byDiff.map(o => o.name), byDiff.map(o => Math.round(o.pf - o.pa)), v => v >= 0 ? chartColors.green : chartColors.red, v => (v >= 0 ? '+' : '') + v);
-    makeBarChart('playoffs-chart', byPlayoffs.map(o => o.name), byPlayoffs.map(o => o.playoffs), chartColors.gold, v => `${v} appearances`);
+    window.loadChart().then(() => {
+      makeBarChart('wins-chart', byWins.map(o => o.name), byWins.map(o => o.wins), chartColors.gold, v => `${v} wins`);
+      makeBarChart('pf-chart', byPF.map(o => o.name), byPF.map(o => o.pf), chartColors.blue, v => v.toFixed(2) + ' pts');
+      makeBarChart('diff-chart', byDiff.map(o => o.name), byDiff.map(o => Math.round(o.pf - o.pa)), v => v >= 0 ? chartColors.green : chartColors.red, v => (v >= 0 ? '+' : '') + v);
+      makeBarChart('playoffs-chart', byPlayoffs.map(o => o.name), byPlayoffs.map(o => o.playoffs), chartColors.gold, v => `${v} appearances`);
+    });
 
     // ===== LOAD ARTICLE CONTENT =====
     DataLoader.getLookbackHTML().then(html => {

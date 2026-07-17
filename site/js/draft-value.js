@@ -156,6 +156,7 @@
   }
 
   function renderChart(players) {
+    if (!window.Chart) { window.loadChart().then(() => renderChart(players)); return; }
     const canvas = document.getElementById('draft-scatter');
     if (chart) chart.destroy();
 

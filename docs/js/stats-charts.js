@@ -55,6 +55,7 @@
   renderTable();
 
   // ===== RANKING HISTORY CHART =====
+  await window.loadChart();
   const ctx = document.getElementById('ranking-chart').getContext('2d');
 
   // Build chart data

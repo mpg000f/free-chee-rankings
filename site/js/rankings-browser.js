@@ -81,6 +81,11 @@
 
       articlePanel.innerHTML = weekHTML + downloadBtn;
 
+      // If this week embeds a chart, make sure Chart.js is loaded first
+      if (window.loadChart && articlePanel.querySelector('canvas')) {
+        await window.loadChart();
+      }
+
       // Execute any inline <script> tags (e.g. Chart.js charts)
       articlePanel.querySelectorAll('script').forEach(oldScript => {
         const newScript = document.createElement('script');

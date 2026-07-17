@@ -1,0 +1,14 @@
+{
+  "name": "Free Chee Headquarters",
+  "short_name": "Free Chee",
+  "description": "Weekly fantasy football power rankings, owner stats, and league history for the Free Chee dynasty league.",
+  "start_url": "index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e0f11",
+  "theme_color": "#0e0f11",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "favicon.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
