@@ -799,6 +799,16 @@ h3 { font-size: 1.2rem; }
   height: 400px;
 }
 
+@media (max-width: 768px) {
+  /* The 220px panel anchors its right edge to the toggle, which is only ~113px
+     wide and sits at the left edge once the controls row wraps — that pushed the
+     panel off screen to the left. Anchor it to the whole controls row instead so
+     it spans the full width and is always reachable. */
+  .chart-filters { position: relative; }
+  .owner-filter { position: static; }
+  .owner-filter-dropdown { left: 0; right: 0; width: auto; }
+}
+
 /* ===== LOOKBACK PAGE ===== */
 .lookback-container {
   max-width: 800px;
