@@ -3,28 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallo — Free Chee Career</title>
-  <meta name="description" content="Gallo — 36-26 all-time • 110.4 PPG. Free Chee career profile.">
+  <title>Schedule - Free Chee Headquarters</title>
+  <meta name="description" content="Full season schedules for every Free Chee owner: opponents, scores, and week-by-week results including the playoffs.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#0e0f11">
-  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/career-gallo.html">
+  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/schedule.html">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Free Chee">
-  <meta property="og:type" content="profile">
+  <meta property="og:type" content="website">
   <meta property="og:site_name" content="Free Chee Headquarters">
-  <meta property="og:title" content="Gallo — Free Chee Career">
-  <meta property="og:description" content="Gallo — 36-26 all-time • 110.4 PPG. Free Chee career profile.">
-  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/career-gallo.html">
-  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-career-gallo.png">
+  <meta property="og:title" content="Schedule — Free Chee">
+  <meta property="og:description" content="Full season schedules for every Free Chee owner: opponents, scores, and week-by-week results including the playoffs.">
+  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/schedule.html">
+  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Gallo — Free Chee Career">
-  <meta name="twitter:description" content="Gallo — 36-26 all-time • 110.4 PPG. Free Chee career profile.">
-  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-career-gallo.png">
+  <meta name="twitter:title" content="Schedule — Free Chee">
+  <meta name="twitter:description" content="Full season schedules for every Free Chee owner: opponents, scores, and week-by-week results including the playoffs.">
+  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -39,28 +39,40 @@
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
         <a href="stats.html">Stats</a>
-        <a href="schedule.html">Schedule</a>
+        <a href="schedule.html" class="active">Schedule</a>
         <a href="rosters.html">Rosters</a>
         <a href="draft-value.html">Draft Value</a>
         <a href="head2head.html">Head-to-Head</a>
         <a href="records.html">League Records</a>
-        <a href="careers.html" class="active">Player Profiles</a>
+        <a href="careers.html">Player Profiles</a>
         <a href="lookback.html">4-Year Lookback</a>
       </div>
     </div>
   </nav>
 
   <div class="page-container">
-    <div id="career-content"><p class="placeholder-text">Loading Gallo...</p></div>
+    <h1>Schedule</h1>
+    <p class="page-intro">Every game an owner played in a season, with the week-by-week result. Playoff weeks are grouped at the bottom.</p>
+
+    <div class="page-controls">
+      <div id="season-toggle" class="season-toggle"></div>
+      <div class="team-select-wrapper">
+        <select id="owner-select" class="team-select" aria-label="Select an owner">
+          <option value="">Select an owner...</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="schedule-content">
+      <p class="placeholder-text">Loading schedule...</p>
+    </div>
   </div>
 
   <footer class="footer">
     <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
   </footer>
 
-  <script>window.CAREER_OWNER = "Gallo";</script>
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
-  <script src="js/career-render.js?v=6a595aaf56"></script>
-  <script src="js/career-page.js?v=d0b24b2462"></script>
+  <script src="js/schedule.js?v=1988cb1496"></script>
 </body>
 </html>

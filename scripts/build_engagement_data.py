@@ -35,6 +35,79 @@ def authoritative_last_places():
     return out
 
 
+def assign_playoff_rounds(games, rosters, season):
+    """Label each playoff game with its bracket round, in place.
+
+    The league runs a fixed 8-team, three-week bracket: quarterfinals, then
+    semifinals alongside a consolation semi for the four losers, then placement
+    games. Every round follows from each team's win/loss path, because week N
+    only ever pairs teams with identical results so far.
+
+    The derived championship-bracket exit is then checked against the
+    authoritative `playoff_finish` in rosters_data. If a season ever deviates
+    from this structure (different bracket size, a playoff tie, a new format)
+    the labels are dropped rather than guessed, and the caller is warned.
+    """
+    po = [g for g in games if g["season"] == season and g["playoff"]]
+    if not po:
+        return True
+
+    weeks = sorted({g["week"] for g in po})
+    path = collections.defaultdict(dict)
+    for g in po:
+        if g["p1"] == g["p2"]:
+            print(f"    ! {season}: tied playoff game in week {g['week']}; skipping round labels")
+            return False
+        win, lose = (g["o1"], g["o2"]) if g["p1"] > g["p2"] else (g["o2"], g["o1"])
+        path[win][g["week"]] = "W"
+        path[lose][g["week"]] = "L"
+
+    if len(weeks) != 3 or len(path) != 8 or any(len(p) != 3 for p in path.values()):
+        print(f"    ! {season}: expected an 8-team/3-week bracket, got "
+              f"{len(path)} teams over {len(weeks)} weeks; skipping round labels")
+        return False
+
+    w1, w2, w3 = weeks
+    # a team's route through the first two rounds decides which placement game it plays
+    FINALS = {"WW": "Championship", "WL": "3rd Place Game",
+              "LW": "5th Place Game", "LL": "7th Place Game"}
+
+    for g in po:
+        a, b = path[g["o1"]], path[g["o2"]]
+        if g["week"] == w1:
+            g["round"] = "Quarterfinal"
+        elif g["week"] == w2:
+            if a[w1] != b[w1]:
+                print(f"    ! {season}: week {w2} pairs mismatched records; skipping round labels")
+                return False
+            g["round"] = "Semifinal" if a[w1] == "W" else "Consolation Semifinal"
+        else:
+            route = a[w1] + a[w2]
+            if route != b[w1] + b[w2]:
+                print(f"    ! {season}: week {w3} pairs mismatched routes; skipping round labels")
+                return False
+            g["round"] = FINALS[route]
+
+    # cross-check against the authoritative finishes before trusting any of it
+    authoritative = {t["owner"]: t["summary"].get("playoff_finish")
+                     for t in rosters[season]["teams"].values()}
+    for owner, p in path.items():
+        route = p[w1] + p[w2]
+        if route == "WW":
+            derived = "Champion" if p[w3] == "W" else "Championship Loss"
+        elif route == "WL":
+            derived = "Semifinal Loss"
+        else:
+            derived = "Quarterfinal Loss"
+        if authoritative.get(owner) != derived:
+            print(f"    ! {season}: {owner} derived '{derived}' but rosters_data says "
+                  f"'{authoritative.get(owner)}'; skipping round labels")
+            for g in po:
+                g.pop("round", None)
+            return False
+    return True
+
+
 def build():
     rosters = load("docs", "data", "rosters_data.json")
 
@@ -58,6 +131,9 @@ def build():
                 "o1": owner_of[s][k1], "t1": team_of[s][k1], "p1": round(m["team_1_points"], 2),
                 "o2": owner_of[s][k2], "t2": team_of[s][k2], "p2": round(m["team_2_points"], 2),
             })
+    labelled = [s for s in SEASONS if assign_playoff_rounds(games, rosters, s)]
+    print(f"  playoff rounds labelled for {len(labelled)}/{len(SEASONS)} seasons")
+
     games.sort(key=lambda g: (g["season"], g["week"]))
     owners = sorted({g["o1"] for g in games} | {g["o2"] for g in games})
 

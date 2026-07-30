@@ -1259,7 +1259,8 @@
    "p1": 86.0,
    "o2": "Matt",
    "t2": "GLOVÊ SIDE BRODEUR",
-   "p2": 124.44
+   "p2": 124.44,
+   "round": "Quarterfinal"
   },
   {
    "season": "2022",
@@ -1270,7 +1271,8 @@
    "p1": 125.56,
    "o2": "TK",
    "t2": "Vox Populi",
-   "p2": 125.54
+   "p2": 125.54,
+   "round": "Quarterfinal"
   },
   {
    "season": "2022",
@@ -1281,7 +1283,8 @@
    "p1": 98.48,
    "o2": "Ger",
    "t2": "HAHAHAHAHAHAHA",
-   "p2": 88.16
+   "p2": 88.16,
+   "round": "Quarterfinal"
   },
   {
    "season": "2022",
@@ -1292,7 +1295,8 @@
    "p1": 120.3,
    "o2": "Gallo",
    "t2": "Free Paid",
-   "p2": 143.7
+   "p2": 143.7,
+   "round": "Quarterfinal"
   },
   {
    "season": "2022",
@@ -1303,7 +1307,8 @@
    "p1": 92.5,
    "o2": "Chris",
    "t2": "The Much Obliged",
-   "p2": 116.94
+   "p2": 116.94,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2022",
@@ -1314,7 +1319,8 @@
    "p1": 106.36,
    "o2": "Joey",
    "t2": "Pots & Pans",
-   "p2": 72.34
+   "p2": 72.34,
+   "round": "Semifinal"
   },
   {
    "season": "2022",
@@ -1325,7 +1331,8 @@
    "p1": 105.16,
    "o2": "Ger",
    "t2": "HAHAHAHAHAHAHA",
-   "p2": 81.2
+   "p2": 81.2,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2022",
@@ -1336,7 +1343,8 @@
    "p1": 127.6,
    "o2": "Gallo",
    "t2": "Free Paid",
-   "p2": 109.8
+   "p2": 109.8,
+   "round": "Semifinal"
   },
   {
    "season": "2022",
@@ -1347,7 +1355,8 @@
    "p1": 103.56,
    "o2": "Ger",
    "t2": "HAHAHAHAHAHAHA",
-   "p2": 59.06
+   "p2": 59.06,
+   "round": "7th Place Game"
   },
   {
    "season": "2022",
@@ -1358,7 +1367,8 @@
    "p1": 121.4,
    "o2": "Matt",
    "t2": "GLOVÊ SIDE BRODEUR",
-   "p2": 105.56
+   "p2": 105.56,
+   "round": "Championship"
   },
   {
    "season": "2022",
@@ -1369,7 +1379,8 @@
    "p1": 146.2,
    "o2": "Gallo",
    "t2": "Free Paid",
-   "p2": 112.16
+   "p2": 112.16,
+   "round": "3rd Place Game"
   },
   {
    "season": "2022",
@@ -1380,7 +1391,8 @@
    "p1": 64.94,
    "o2": "TK",
    "t2": "Vox Populi",
-   "p2": 79.14
+   "p2": 79.14,
+   "round": "5th Place Game"
   },
   {
    "season": "2023",
@@ -2623,7 +2635,8 @@
    "p1": 83.72,
    "o2": "Papi",
    "t2": "Gorlock the destroyer Schwartz",
-   "p2": 143.88
+   "p2": 143.88,
+   "round": "Quarterfinal"
   },
   {
    "season": "2023",
@@ -2634,7 +2647,8 @@
    "p1": 91.38,
    "o2": "Deez",
    "t2": "Alexander's Unreal Team",
-   "p2": 120.56
+   "p2": 120.56,
+   "round": "Quarterfinal"
   },
   {
    "season": "2023",
@@ -2645,7 +2659,8 @@
    "p1": 96.14,
    "o2": "Mikey",
    "t2": "Sr. Sack Dumping Scum Bags",
-   "p2": 164.76
+   "p2": 164.76,
+   "round": "Quarterfinal"
   },
   {
    "season": "2023",
@@ -2656,7 +2671,8 @@
    "p1": 130.38,
    "o2": "Sweeney",
    "t2": "Work Ass",
-   "p2": 144.78
+   "p2": 144.78,
+   "round": "Quarterfinal"
   },
   {
    "season": "2023",
@@ -2667,7 +2683,8 @@
    "p1": 92.98,
    "o2": "Mitch",
    "t2": "Willow Street Walruses",
-   "p2": 106.38
+   "p2": 106.38,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2023",
@@ -2678,7 +2695,8 @@
    "p1": 120.76,
    "o2": "Deez",
    "t2": "Alexander's Unreal Team",
-   "p2": 137.82
+   "p2": 137.82,
+   "round": "Semifinal"
   },
   {
    "season": "2023",
@@ -2689,7 +2707,8 @@
    "p1": 97.7,
    "o2": "Ger",
    "t2": "🍾💼🥰",
-   "p2": 130.38
+   "p2": 130.38,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2023",
@@ -2700,7 +2719,8 @@
    "p1": 114.18,
    "o2": "Sweeney",
    "t2": "Work Ass",
-   "p2": 159.34
+   "p2": 159.34,
+   "round": "Semifinal"
   },
   {
    "season": "2023",
@@ -2711,7 +2731,8 @@
    "p1": 77.94,
    "o2": "Matt",
    "t2": "WHERESTUA",
-   "p2": 94.78
+   "p2": 94.78,
+   "round": "7th Place Game"
   },
   {
    "season": "2023",
@@ -2722,7 +2743,8 @@
    "p1": 138.14,
    "o2": "Mikey",
    "t2": "Sr. Sack Dumping Scum Bags",
-   "p2": 147.16
+   "p2": 147.16,
+   "round": "3rd Place Game"
   },
   {
    "season": "2023",
@@ -2733,7 +2755,8 @@
    "p1": 88.08,
    "o2": "Ger",
    "t2": "🍾💼🥰",
-   "p2": 135.64
+   "p2": 135.64,
+   "round": "5th Place Game"
   },
   {
    "season": "2023",
@@ -2744,7 +2767,8 @@
    "p1": 106.74,
    "o2": "Deez",
    "t2": "Alexander's Unreal Team",
-   "p2": 134.16
+   "p2": 134.16,
+   "round": "Championship"
   },
   {
    "season": "2024",
@@ -3987,7 +4011,8 @@
    "p1": 154.48,
    "o2": "Papi",
    "t2": "Gorlock the Destroyer",
-   "p2": 127.9
+   "p2": 127.9,
+   "round": "Quarterfinal"
   },
   {
    "season": "2024",
@@ -3998,7 +4023,8 @@
    "p1": 178.04,
    "o2": "Joey",
    "t2": "Stewed C",
-   "p2": 138.22
+   "p2": 138.22,
+   "round": "Quarterfinal"
   },
   {
    "season": "2024",
@@ -4009,7 +4035,8 @@
    "p1": 120.36,
    "o2": "Justin",
    "t2": "Life with Derrick",
-   "p2": 88.3
+   "p2": 88.3,
+   "round": "Quarterfinal"
   },
   {
    "season": "2024",
@@ -4020,7 +4047,8 @@
    "p1": 80.8,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 107.74
+   "p2": 107.74,
+   "round": "Quarterfinal"
   },
   {
    "season": "2024",
@@ -4031,7 +4059,8 @@
    "p1": 121.36,
    "o2": "Mitch",
    "t2": "Deserves to be Shot",
-   "p2": 135.4
+   "p2": 135.4,
+   "round": "Semifinal"
   },
   {
    "season": "2024",
@@ -4042,7 +4071,8 @@
    "p1": 167.34,
    "o2": "Joey",
    "t2": "Stewed C",
-   "p2": 159.16
+   "p2": 159.16,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2024",
@@ -4053,7 +4083,8 @@
    "p1": 121.58,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 106.36
+   "p2": 106.36,
+   "round": "Semifinal"
   },
   {
    "season": "2024",
@@ -4064,7 +4095,8 @@
    "p1": 107.52,
    "o2": "Justin",
    "t2": "Life with Derrick",
-   "p2": 104.92
+   "p2": 104.92,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2024",
@@ -4075,7 +4107,8 @@
    "p1": 104.14,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 59.04
+   "p2": 59.04,
+   "round": "3rd Place Game"
   },
   {
    "season": "2024",
@@ -4086,7 +4119,8 @@
    "p1": 109.68,
    "o2": "Ger",
    "t2": "Ger",
-   "p2": 81.5
+   "p2": 81.5,
+   "round": "5th Place Game"
   },
   {
    "season": "2024",
@@ -4097,7 +4131,8 @@
    "p1": 137.5,
    "o2": "Matt",
    "t2": "WHERESTUA",
-   "p2": 121.12
+   "p2": 121.12,
+   "round": "Championship"
   },
   {
    "season": "2024",
@@ -4108,7 +4143,8 @@
    "p1": 159.36,
    "o2": "Justin",
    "t2": "Life with Derrick",
-   "p2": 116.06
+   "p2": 116.06,
+   "round": "7th Place Game"
   },
   {
    "season": "2025",
@@ -5351,7 +5387,8 @@
    "p1": 121.12,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 84.32
+   "p2": 84.32,
+   "round": "Quarterfinal"
   },
   {
    "season": "2025",
@@ -5362,7 +5399,8 @@
    "p1": 70.8,
    "o2": "Chris",
    "t2": "Ginny Sack",
-   "p2": 119.16
+   "p2": 119.16,
+   "round": "Quarterfinal"
   },
   {
    "season": "2025",
@@ -5373,7 +5411,8 @@
    "p1": 113.96,
    "o2": "Matt",
    "t2": "Art of the Deal",
-   "p2": 130.6
+   "p2": 130.6,
+   "round": "Quarterfinal"
   },
   {
    "season": "2025",
@@ -5384,7 +5423,8 @@
    "p1": 114.88,
    "o2": "Sweeney",
    "t2": "Work Ass",
-   "p2": 184.68
+   "p2": 184.68,
+   "round": "Quarterfinal"
   },
   {
    "season": "2025",
@@ -5395,7 +5435,8 @@
    "p1": 96.0,
    "o2": "Matt",
    "t2": "Art of the Deal",
-   "p2": 110.72
+   "p2": 110.72,
+   "round": "Semifinal"
   },
   {
    "season": "2025",
@@ -5406,7 +5447,8 @@
    "p1": 67.9,
    "o2": "Gallo",
    "t2": "Scampi",
-   "p2": 129.5
+   "p2": 129.5,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2025",
@@ -5417,7 +5459,8 @@
    "p1": 112.16,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 87.72
+   "p2": 87.72,
+   "round": "Consolation Semifinal"
   },
   {
    "season": "2025",
@@ -5428,7 +5471,8 @@
    "p1": 129.4,
    "o2": "Sweeney",
    "t2": "Work Ass",
-   "p2": 161.74
+   "p2": 161.74,
+   "round": "Semifinal"
   },
   {
    "season": "2025",
@@ -5439,7 +5483,8 @@
    "p1": 127.06,
    "o2": "Chris",
    "t2": "Ginny Sack",
-   "p2": 99.26
+   "p2": 99.26,
+   "round": "3rd Place Game"
   },
   {
    "season": "2025",
@@ -5450,7 +5495,8 @@
    "p1": 60.8,
    "o2": "Deez",
    "t2": "Pigs on the 7th Rank",
-   "p2": 66.38
+   "p2": 66.38,
+   "round": "7th Place Game"
   },
   {
    "season": "2025",
@@ -5461,7 +5507,8 @@
    "p1": 157.82,
    "o2": "Gallo",
    "t2": "Scampi",
-   "p2": 75.38
+   "p2": 75.38,
+   "round": "5th Place Game"
   },
   {
    "season": "2025",
@@ -5472,7 +5519,8 @@
    "p1": 112.36,
    "o2": "Sweeney",
    "t2": "Work Ass",
-   "p2": 145.9
+   "p2": 145.9,
+   "round": "Championship"
   }
  ]
 }

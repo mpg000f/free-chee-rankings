@@ -21,6 +21,8 @@
   --max-width: 1200px;
   --font-heading: 'Oswald', sans-serif;
   --font-body: 'Inter', sans-serif;
+  /* navbar height, shared with anything that sticks below it */
+  --nav-h: 61px;
 }
 
 html { scroll-behavior: smooth; }
@@ -50,6 +52,7 @@ h3 { font-size: 1.2rem; }
   border-bottom: 2px solid var(--accent);
   padding: .75rem 1rem;
   position: sticky; top: 0; z-index: 100;
+  min-height: var(--nav-h);
 }
 .navbar-inner {
   max-width: var(--max-width);
@@ -67,7 +70,21 @@ h3 { font-size: 1.2rem; }
   color: var(--accent);
   white-space: nowrap;
 }
-.nav-links { display: flex; gap: .25rem; flex-wrap: wrap; justify-content: flex-end; }
+/* Never wrap: a wrapped nav changes the navbar height and breaks --nav-h for
+   everything sticking below it. Links scroll sideways instead when they don't
+   fit. flex-start (not flex-end) because an overflowing flex-end container
+   makes its first items unreachable. */
+.nav-links {
+  display: flex;
+  gap: .25rem;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.nav-links::-webkit-scrollbar { display: none; }
+.nav-links a { flex-shrink: 0; }
 .nav-links a {
   padding: .4rem .75rem;
   border-radius: var(--radius);
@@ -187,7 +204,7 @@ h3 { font-size: 1.2rem; }
   background: var(--surface);
   border-bottom: 1px solid var(--surface-light);
   padding: .75rem 1rem;
-  position: sticky; top: 52px; z-index: 90;
+  position: sticky; top: var(--nav-h); z-index: 90;
 }
 .rankings-controls-inner {
   max-width: var(--max-width);
@@ -551,6 +568,103 @@ h3 { font-size: 1.2rem; }
 }
 .stats-table tr:hover td { background: rgba(46,199,107,.04); }
 .stats-table .owner-cell { font-weight: 600; }
+
+/* Season chips in the owner cell — "2024" collapses to "24" on phones */
+.season-badge {
+  font-size: .7rem;
+  background: var(--surface-light);
+  color: var(--text-dim);
+  padding: .1rem .3rem;
+  border-radius: 3px;
+  margin-left: .25rem;
+  font-weight: 500;
+}
+
+/* ===== WIDE TABLES ON MOBILE ===== */
+/* .table-scroll wraps a .table-wrapper. On phones the first column pins to the
+   left so the owner stays visible while the stats scroll, the right edge fades
+   while there's more to reach, and a Sort control replaces tapping a header
+   that may be offscreen. */
+.table-scroll { margin-bottom: 2rem; }
+.table-scroll .table-wrapper { margin-bottom: 0; }
+.table-toolbar { display: none; }
+.table-sort { display: flex; align-items: center; gap: .4rem; }
+.table-sort-label {
+  font-family: var(--font-heading);
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--text-dim);
+}
+.table-sort-select {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: .8rem;
+  padding: .3rem .4rem;
+  border-radius: var(--radius);
+  min-height: 34px;
+}
+.table-sort-select:focus { border-color: var(--accent); outline: none; }
+.table-sort-dir {
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  color: var(--accent);
+  border-radius: var(--radius);
+  min-width: 34px;
+  min-height: 34px;
+  font-size: .65rem;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.table-sort-dir:hover { border-color: var(--accent); }
+.table-swipe-hint {
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--text-dim);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity .2s;
+}
+.table-scroll.can-scroll-right .table-swipe-hint { opacity: 1; }
+
+@media (max-width: 768px) {
+  .table-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-bottom: .5rem;
+  }
+  /* fade only while there is still something to the right */
+  .table-scroll.can-scroll-right .table-wrapper {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+    mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+  }
+  .table-pinned .stats-table th:first-child,
+  .table-pinned .stats-table td:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    background: var(--surface);
+    /* soft layer shadow reads as "this column floats above" and hides the
+       half-glyph bleed of whatever column is sliding underneath */
+    box-shadow: 1px 0 0 var(--surface-light), 5px 0 7px -3px rgba(0,0,0,.65);
+  }
+  .table-pinned .stats-table th:first-child {
+    background: var(--surface-light);
+    z-index: 3;
+  }
+  /* the pinned cell must stay opaque, so it sits out the translucent row hover */
+  .table-pinned .stats-table tr:hover td:first-child { background: var(--surface); }
+  .table-pinned .stats-table th,
+  .table-pinned .stats-table td { padding: .5rem .55rem; }
+  .table-pinned .season-badge { margin-left: .2rem; padding: .1rem .22rem; }
+  .table-pinned .season-badge .season-cent { display: none; }
+}
 
 /* Chart Section */
 .chart-section {
@@ -986,14 +1100,9 @@ h3 { font-size: 1.2rem; }
   .summary-grid {
     flex-wrap: wrap;
   }
-  .navbar-inner {
-    flex-direction: column;
-    gap: .5rem;
-  }
-  .nav-links {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  /* Phones keep the same single scrolling row, just shorter (smaller type below). */
+  :root { --nav-h: 56px; }
+  .navbar-inner { gap: .5rem; }
 }
 .finish-champ { color: var(--accent); }
 .finish-runner { color: #a8a8a8; }
@@ -1228,6 +1337,124 @@ h3 { font-size: 1.2rem; }
 .h2h-rec.h2h-win { color: var(--green); }
 .h2h-rec.h2h-loss { color: var(--red); }
 .h2h-rec.h2h-even { color: var(--text-dim); }
+
+/* ===== SCHEDULE PAGE ===== */
+/* a schedule is a narrow list; capping it stops 4 columns sprawling over 1200px */
+#schedule-content { max-width: 860px; margin: 0 auto; }
+.sched-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.sched-owner {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+.sched-team { color: var(--text-dim); font-size: .9rem; font-style: italic; }
+
+/* result strip, in week order; playoff games get an accent ring */
+.sched-form { display: flex; flex-wrap: wrap; gap: 3px; }
+.sched-pip {
+  width: 20px; height: 20px;
+  border-radius: 3px;
+  font-family: var(--font-heading);
+  font-size: .7rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg);
+}
+.pip-w { background: var(--green); }
+.pip-l { background: var(--red); }
+.pip-t { background: var(--text-dim); }
+.pip-playoff { box-shadow: 0 0 0 2px var(--accent); }
+
+.sched-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  background: var(--surface);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.sched-stat { min-width: 0; white-space: nowrap; }
+
+.sched-table td { vertical-align: middle; }
+.sched-week {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-dim);
+  text-align: center;
+  width: 2.5rem;
+}
+.sched-opp-top { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.sched-opp-name { font-weight: 600; }
+
+/* bracket round chip — outlined by default, filled for the title game */
+.sched-round {
+  font-family: var(--font-heading);
+  font-size: .62rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  padding: .08rem .38rem;
+  border-radius: 3px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  white-space: nowrap;
+}
+.sched-round.round-championship {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+  font-weight: 700;
+}
+.sched-round.round-minor { border-color: var(--surface-light); color: var(--text-dim); }
+.sched-opp-team {
+  display: block;
+  font-size: .75rem;
+  color: var(--text-dim);
+  font-style: italic;
+}
+.sched-score { font-family: var(--font-heading); white-space: nowrap; }
+.sched-dash { color: var(--text-dim); }
+.sched-verdict { white-space: nowrap; width: 6.5rem; }
+.sched-result { font-family: var(--font-heading); font-weight: 700; }
+.sched-margin { font-size: .78rem; color: var(--text-dim); margin-left: .35rem; }
+
+.sched-divider td {
+  background: var(--surface-light);
+  font-family: var(--font-heading);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent);
+  padding: .45rem .75rem;
+}
+.sched-table tr.sched-divider:hover td { background: var(--surface-light); }
+
+@media (max-width: 768px) {
+  /* four narrow columns fit a phone, so let the cells wrap instead of scrolling */
+  .sched-table { white-space: normal; font-size: .8rem; }
+  .sched-table th, .sched-table td { padding: .5rem .4rem; }
+  .sched-owner { font-size: 1.4rem; }
+  .sched-header { gap: .6rem; }
+  .sched-summary { gap: .9rem 1.25rem; padding: .9rem 1rem; }
+  .sched-opp-team { display: none; }
+  /* stack the margin under the W/L and centre the pair in its own narrow column */
+  .sched-verdict { width: 3.6rem; text-align: center; }
+  .sched-margin { display: block; margin-left: 0; }
+  .sched-table th:last-child { text-align: center; }
+}
 
 /* ===== STATS SECTION TITLES ===== */
 .stats-section-title { color: var(--accent); margin: 1.5rem 0 .5rem; }

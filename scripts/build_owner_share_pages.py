@@ -95,6 +95,10 @@ def page_html(c):
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#0e0f11">
+  <link rel="canonical" href="{url}">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Free Chee">
   <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Free Chee Headquarters">
   <meta property="og:title" content="{title}">
@@ -121,6 +125,7 @@ def page_html(c):
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
         <a href="stats.html">Stats</a>
+        <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
         <a href="draft-value.html">Draft Value</a>
         <a href="head2head.html">Head-to-Head</a>

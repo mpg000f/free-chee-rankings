@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=b4277dcc87">
+  <link rel="stylesheet" href="css/style.css?v=0d17454be9">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
   <script src="js/chart-loader.js?v=4f534cc3fa"></script>
 </head>
@@ -40,6 +40,7 @@
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
         <a href="stats.html" class="active">Stats</a>
+        <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
         <a href="draft-value.html">Draft Value</a>
         <a href="head2head.html">Head-to-Head</a>
@@ -80,21 +81,27 @@
 
     <!-- Power Ranking Stats -->
     <h2 class="stats-section-title" id="ranking-stats">Power Ranking Stats</h2>
-    <div class="table-wrapper">
-      <table class="stats-table" id="ranking-stats-table">
-        <thead>
-          <tr>
-            <th data-sort="name">Owner <span class="sort-arrow"></span></th>
-            <th data-sort="avg_rank">Avg Rank <span class="sort-arrow">▲</span></th>
-            <th data-sort="best_rank">Best <span class="sort-arrow"></span></th>
-            <th data-sort="worst_rank">Worst <span class="sort-arrow"></span></th>
-            <th data-sort="total_weeks">Weeks <span class="sort-arrow"></span></th>
-            <th data-sort="weeks_at_1">#1s <span class="sort-arrow"></span></th>
-            <th data-sort="weeks_at_16">#16s <span class="sort-arrow"></span></th>
-          </tr>
-        </thead>
-        <tbody id="stats-table-body"></tbody>
-      </table>
+    <div class="table-scroll table-pinned" id="ranking-stats-scroll">
+      <div class="table-toolbar">
+        <div class="table-sort"></div>
+        <span class="table-swipe-hint">Swipe &rarr;</span>
+      </div>
+      <div class="table-wrapper">
+        <table class="stats-table" id="ranking-stats-table">
+          <thead>
+            <tr>
+              <th data-sort="name" data-sort-label="Owner">Owner <span class="sort-arrow"></span></th>
+              <th data-sort="avg_rank" data-sort-label="Avg rank">Avg Rank <span class="sort-arrow">▲</span></th>
+              <th data-sort="best_rank" data-sort-label="Best rank">Best <span class="sort-arrow"></span></th>
+              <th data-sort="worst_rank" data-sort-label="Worst rank">Worst <span class="sort-arrow"></span></th>
+              <th data-sort="total_weeks" data-sort-label="Weeks ranked">Weeks <span class="sort-arrow"></span></th>
+              <th data-sort="weeks_at_1" data-sort-label="Weeks at #1">#1s <span class="sort-arrow"></span></th>
+              <th data-sort="weeks_at_16" data-sort-label="Weeks at #16">#16s <span class="sort-arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="stats-table-body"></tbody>
+        </table>
+      </div>
     </div>
 
     <!-- Ranking History Chart -->
@@ -132,7 +139,8 @@
   </footer>
 
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
+  <script src="js/table-mobile.js?v=579027f600"></script>
   <script src="js/stats-records.js?v=16e8a15ede"></script>
-  <script src="js/stats-charts.js?v=f87c4d8739"></script>
+  <script src="js/stats-charts.js?v=d937fcf3ed"></script>
 </body>
 </html>

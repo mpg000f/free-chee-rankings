@@ -21,7 +21,10 @@
     });
 
     tableBody.innerHTML = entries.map(o => {
-      const seasonBadges = o.seasons.map(s => `<span style="font-size:.7rem;background:var(--surface-light);padding:.1rem .3rem;border-radius:3px;margin-left:.25rem">${s}</span>`).join('');
+      // split the century off so mobile can render "24" instead of "2024"
+      const seasonBadges = o.seasons.map(s =>
+        `<span class="season-badge"><span class="season-cent">${String(s).slice(0, 2)}</span>${String(s).slice(2)}</span>`
+      ).join('');
       return `<tr>
         <td class="owner-cell">${o.name}${seasonBadges}</td>
         <td>${o.avg_rank}</td>
@@ -53,6 +56,9 @@
   });
 
   renderTable();
+
+  // mobile sort dropdown + scroll-edge affordance (headers are wired above)
+  TableMobile.init('ranking-stats-scroll');
 
   // ===== RANKING HISTORY CHART =====
   await window.loadChart();
