@@ -1496,3 +1496,189 @@ h3 { font-size: 1.2rem; }
 }
 /* offset anchor targets so the sticky navbar doesn't cover section tops */
 #records, #ranking-stats, #history { scroll-margin-top: 70px; }
+
+
+/* ===== WAIVERS & TRADES PAGE ===== */
+#pickups, #trades, #method { scroll-margin-top: 70px; }
+
+/* Top three pickups, called out above the full table */
+.pickup-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.pickup-card {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--surface-light);
+  padding: .8rem 1rem;
+  box-shadow: var(--shadow);
+}
+.pickup-card.tier-1 { border-left-color: #2ec76b; }
+.pickup-card.tier-2 { border-left-color: #a8a8a8; }
+.pickup-card.tier-3 { border-left-color: #cd7f32; }
+.pickup-rank {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-dim);
+  min-width: 1.2em;
+  text-align: center;
+}
+.pickup-card.tier-1 .pickup-rank { color: #2ec76b; }
+.pickup-card.tier-2 .pickup-rank { color: #a8a8a8; }
+.pickup-card.tier-3 .pickup-rank { color: #cd7f32; }
+.pickup-body { flex: 1; min-width: 0; }
+.pickup-name {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  flex-wrap: wrap;
+}
+.pickup-meta { color: var(--text-dim); font-size: .8rem; margin-top: .15rem; }
+.pickup-pts {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-align: right;
+  line-height: 1.1;
+}
+.pickup-pts span {
+  display: block;
+  font-size: .65rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+.pickup-toggle { margin: -1rem 0 2rem; }
+
+/* Tags in the pickup table */
+.claim-tag {
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #3498db;
+  background: #3498db22;
+  padding: .05rem .3rem;
+  border-radius: 3px;
+}
+.held-tag { color: var(--accent); font-size: .6rem; vertical-align: middle; }
+
+/* Trade cards */
+.trade-list { display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem; }
+.trade-card {
+  background: var(--surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.trade-head {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  padding: .6rem 1rem;
+  background: var(--surface-light);
+  font-family: var(--font-heading);
+  font-size: .85rem;
+  letter-spacing: .5px;
+}
+.trade-date { font-weight: 600; text-transform: uppercase; }
+.trade-week { color: var(--text-dim); }
+.trade-tag {
+  margin-left: auto;
+  background: var(--accent);
+  color: var(--bg);
+  font-size: .7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .1rem .45rem;
+  border-radius: 3px;
+}
+.trade-sides {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.trade-side {
+  padding: .8rem 1rem;
+  border-left: 1px solid var(--surface-light);
+}
+.trade-side:first-child { border-left: none; }
+.trade-side.is-filtered { background: rgba(46,199,107,.05); }
+.trade-side-head {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: .5rem;
+}
+.trade-owner { font-weight: 700; }
+.trade-net { margin-left: auto; font-family: var(--font-heading); font-size: .95rem; }
+.trade-players { list-style: none; display: flex; flex-direction: column; gap: .3rem; }
+.trade-player {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .85rem;
+}
+.trade-player .io {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  width: 1em;
+  text-align: center;
+}
+.trade-player.in .io { color: var(--green); }
+.trade-player.out .io { color: var(--red); }
+.trade-player.out { color: var(--text-dim); }
+.trade-player-name { flex: 1; min-width: 0; }
+.trade-to { color: var(--text-dim); font-size: .78rem; }
+.trade-pts { font-family: var(--font-heading); font-size: .85rem; }
+.trade-empty { color: var(--text-dim); font-size: .85rem; }
+.trade-side-foot {
+  margin-top: .55rem;
+  padding-top: .45rem;
+  border-top: 1px solid var(--surface-light);
+  color: var(--text-dim);
+  font-size: .75rem;
+}
+
+/* Letter grades */
+.grade {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  padding: .3rem .5rem;
+  border-radius: var(--radius);
+  min-width: 1.9em;
+  text-align: center;
+}
+.grade-A { background: #2ec76b33; color: #2ec76b; }
+.grade-B { background: #27ae6033; color: #27ae60; }
+.grade-C { background: #7f8c8d33; color: #9b98a0; }
+.grade-D { background: #e67e2233; color: #e67e22; }
+.grade-F { background: #e8443a33; color: #e8443a; }
+
+/* Method note */
+.method-note {
+  background: var(--surface);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: .9rem 1.1rem;
+  margin-bottom: 2rem;
+  font-size: .88rem;
+  color: var(--text-dim);
+}
+.method-note p + p { margin-top: .6rem; }
+.method-note strong { color: var(--text); }
+.method-caveat { border-top: 1px solid var(--surface-light); padding-top: .6rem; }
+
+@media (max-width: 720px) {
+  .pickup-highlights { grid-template-columns: 1fr; gap: .6rem; }
+  .trade-side { border-left: none; border-top: 1px solid var(--surface-light); }
+  .trade-side:first-child { border-top: none; }
+}

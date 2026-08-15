@@ -4,8 +4,9 @@ Pipeline:
   1. generate_site_data.py   parse all root PDFs -> site/data + site/images
   2. sync site/{data,images} -> docs/{data,images}   (docs/ is what Pages serves)
   3. build_engagement_data.py  rebuild Head-to-Head / Records / Player Profiles data
-  4. build_owner_share_pages.py  rebuild per-owner share pages + preview cards
-  5. stamp_cache_bust.py       re-stamp ?v=<hash> on css/js so browsers refetch
+  4. build_transactions_data.py  rebuild waiver pickups + trade grades from yahoo_data
+  5. build_owner_share_pages.py  rebuild per-owner share pages + preview cards
+  6. stamp_cache_bust.py       re-stamp ?v=<hash> on css/js so browsers refetch
 
 Usage:  python3 scripts/build.py
 Then:   git add -A && git commit && git push
@@ -43,6 +44,7 @@ def main():
     sync("data")
     sync("images")
     run("build_engagement_data.py")
+    run("build_transactions_data.py")
     run("build_owner_share_pages.py")
     run("stamp_cache_bust.py")
     print("\nBuild complete. Review with `git status`, then commit and push.")

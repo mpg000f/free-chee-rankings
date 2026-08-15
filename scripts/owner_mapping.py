@@ -97,3 +97,87 @@ CANONICAL_TEAMS = {
 def canonical_team(season, owner):
     """Canonical team name for a season/owner, or None if unmapped."""
     return CANONICAL_TEAMS.get(str(season), {}).get(owner)
+
+
+# Yahoo team name -> owner, per season (from the manual spreadsheet). Keyed by the
+# team_name recorded in yahoo_data/<season>/managers.json. Distinct from
+# ranking_parser.TEAM_OWNER_MAP, which matches loose team-name patterns in the PDFs.
+YAHOO_TEAM_OWNERS = {
+    "2022": {
+        "Double Underhooks": "Sweeney",
+        "GLOV\u00ca SIDE BRODEUR": "Matt",
+        "Free Paid": "Gallo",
+        "The Much Obliged": "Chris",
+        "Alexander's Unreal Team": "Deez",
+        "Tank Unloders": "Mitch",
+        "The Jose Trevinos": "Boyle",
+        "Vox Populi": "TK",
+        "From You": "TJ",
+        "Pots & Pans": "Joey",
+        "Joe would rig a charity event": "Connor",
+        "HAHAHAHAHAHAHA": "Ger",
+        "The Ed Orgeron Alumni Assoc.": "Paul",
+        "Uhhh THRIIIIISISSSHHHH": "Papi",
+        "Tony the phenom": "Justin",
+        "Senior Sack Dumpers": "Mikey",
+    },
+    "2023": {
+        "Work Ass": "Sweeney",
+        "WHERESTUA": "Matt",
+        "Free Paid again..": "Gallo",
+        "Sansa Ludacris": "Chris",
+        "Alexander's Unreal Team": "Deez",
+        "Willow Street Walruses": "Mitch",
+        "The Lean Mean Fightin MaSheets": "Boyle",
+        "Morior Invictus": "TK",
+        "Cap Stoppers": "TJ",
+        "Garlic Aioli": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Formerly Known as Mousecop": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Tony the phenom": "Justin",
+        "Sr. Sack Dumping Scum Bags": "Mikey",
+    },
+    "2024": {
+        "Work Ass": "Sweeney",
+        "WHERESTUA": "Matt",
+        "Here Without You Tishman": "Gallo",
+        "Sansa Ludacris": "Chris",
+        "Pigs on the 7th Rank": "Deez",
+        "Deserves to be Shot": "Mitch",
+        "Gotham Rogues": "Boyle",
+        "Hand Me the Piss": "TK",
+        "Cap Stoppers": "TJ",
+        "Stewed C": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Marvin\u2019s Receiver Room": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Life with Derrick": "Justin",
+        "Senior AI Coke Twins": "Mikey",
+    },
+    "2025": {
+        "Work Ass": "Sweeney",
+        "The Art of the Deal": "Matt",
+        "Scampi": "Gallo",
+        "Ginny Sack": "Chris",
+        "Pigs on the 7th Rank": "Deez",
+        "Sweeney Deez and Zaukas": "Mitch",
+        "The Jackson Brownes": "Boyle",
+        "Team OBAMA SOPRANOS": "TK",
+        "Cookie Monster Golf Cart": "TJ",
+        "Stewed C": "Joey",
+        "Sweeney.": "Connor",
+        "🍾💼🥰": "Ger",
+        "Team Daniel": "Paul",
+        "Gorlock the destroyer Schwartz": "Papi",
+        "Life with Derrick": "Justin",
+        "Senior AI Coke Twins": "Mikey",
+    },
+}
+
+
+def owner_from_yahoo_team(season, team_name):
+    """Owner for a Yahoo team name in a season, or None if unmapped."""
+    return YAHOO_TEAM_OWNERS.get(str(season), {}).get(team_name)

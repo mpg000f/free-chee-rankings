@@ -28,6 +28,9 @@
     const mount = host.querySelector('.table-sort');
     const headers = [...table.querySelectorAll('th[data-sort]')];
     if (!mount || !headers.length) return;
+    // Pages that re-render their header row re-init on every draw; start clean
+    // so the control is replaced rather than stacked up.
+    mount.replaceChildren();
 
     const label = document.createElement('span');
     label.className = 'table-sort-label';
