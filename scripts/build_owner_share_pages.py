@@ -128,11 +128,12 @@ def page_html(c):
         <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
         <a href="draft-value.html">Draft Value</a>
+        <a href="draft-history.html">Draft History</a>
         <a href="transactions.html">Waivers</a>
         <a href="head2head.html">Head-to-Head</a>
-        <a href="records.html">League Records</a>
+        <a href="records.html">Records</a>
         <a href="careers.html" class="active">Player Profiles</a>
-        <a href="lookback.html">4-Year Lookback</a>
+        <a href="lookback.html">Lookback</a>
       </div>
     </div>
   </nav>

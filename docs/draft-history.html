@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Draft History - Free Chee Headquarters</title>
+  <meta name="description" content="Search any player and see what he cost and what he returned in every Free Chee draft he was picked in.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0e0f11">
+  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/draft-history.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Free Chee">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Free Chee Headquarters">
+  <meta property="og:title" content="Draft History — Free Chee">
+  <meta property="og:description" content="Search any player and see what he cost and what he returned in every Free Chee draft he was picked in.">
+  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/draft-history.html">
+  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Draft History — Free Chee">
+  <meta name="twitter:description" content="Search any player and see what he cost and what he returned in every Free Chee draft he was picked in.">
+  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=102f223620">
+  <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rankings.html">Rankings</a>
+        <a href="stats.html">Stats</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rosters.html">Rosters</a>
+        <a href="draft-value.html">Draft Value</a>
+        <a href="draft-history.html" class="active">Draft History</a>
+        <a href="transactions.html">Waivers</a>
+        <a href="head2head.html">Head-to-Head</a>
+        <a href="records.html">Records</a>
+        <a href="careers.html">Player Profiles</a>
+        <a href="lookback.html">Lookback</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-container">
+    <h1>Draft History</h1>
+    <p class="page-intro">Every player ever drafted in this league, and what each pick was
+      worth. Search a name, then open a row to see the year-by-year breakdown.</p>
+
+    <div class="page-controls">
+      <div class="search-box">
+        <input type="search" id="player-search" class="search-input"
+               placeholder="Search a player&hellip;" autocomplete="off" spellcheck="false">
+        <button type="button" id="search-clear" class="search-clear" aria-label="Clear search">&times;</button>
+      </div>
+      <div id="pos-filter"></div>
+      <span id="result-count" class="result-count"></span>
+    </div>
+
+    <div class="table-scroll table-pinned" id="history-scroll">
+      <div class="table-toolbar">
+        <div class="table-sort"></div>
+        <span class="table-swipe-hint">Swipe &rarr;</span>
+      </div>
+      <div class="table-wrapper">
+        <table class="stats-table" id="history-table">
+          <thead><tr id="history-thead"></tr></thead>
+          <tbody id="history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="method-note">
+      <p><strong>Value</strong> is points scored minus what a pick at that price was expected to
+        return, using a per-position curve fit across all four drafts. A positive number means the
+        pick beat its cost; negative means it didn't. <strong>Total Value</strong> adds up every
+        year a player was drafted, so a repeat bust digs a deeper hole than a one-off miss.</p>
+      <p class="method-caveat">Points are the player's full-season total, whoever ended up
+        rostering him &mdash; a player dropped in Week 3 still shows the whole year. Kickers are
+        exempt from the cheap-pick allowance the other positions get, since essentially the whole
+        position goes for $1&ndash;3 and the curve already reflects that. This covers 998 of the
+        1,024 picks ever made; the 26 absent are all $1&ndash;3 fliers cut before they appeared on
+        a single weekly roster, so there's no scoring to grade them on.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script src="js/data-loader.js?v=e0415b6ac0"></script>
+  <script src="js/table-mobile.js?v=bbeb490ca4"></script>
+  <script src="js/draft-history.js?v=d7ab69a984"></script>
+</body>
+</html>

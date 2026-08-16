@@ -15,7 +15,7 @@
 
   const POS_COLORS = {
     QB: '#e8443a', RB: '#3498db', WR: '#27ae60', TE: '#e67e22',
-    DEF: '#7f8c8d',
+    K: '#9b59b6', DEF: '#7f8c8d',
   };
 
   let data = null;
@@ -81,7 +81,7 @@
     const container = document.getElementById('pos-filter');
     if (!container) return;
 
-    const positions = ['QB', 'RB', 'WR', 'TE', 'DEF'];
+    const positions = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
     container.innerHTML = `<select id="pos-select" class="team-select">
       <option value="">All Positions</option>
       ${positions.map(p => `<option value="${p}">${p}</option>`).join('')}

@@ -16,7 +16,7 @@ SEASONS = ["2022", "2023", "2024", "2025"]
 # Superflex 16-team league starter thresholds
 STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
 SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
-DRAFT_VALUE_POSITIONS = {"QB", "RB", "WR", "TE", "DEF"}
+DRAFT_VALUE_POSITIONS = {"QB", "RB", "WR", "TE", "DEF", "K"}
 
 # Team name -> owner mapping per season lives in owner_mapping.py
 from owner_mapping import YAHOO_TEAM_OWNERS as TEAM_OWNER_MAP
@@ -384,8 +384,11 @@ def build_draft_value():
             if cost > 0:
                 expected_pts = model["a"] * np.power(float(cost), 0.7) + model["b"]
                 expected_pts = max(float(expected_pts), 0)
-                # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized
-                if cost <= 3:
+                # Cap expected pts for dart throws ($1-3) so misses aren't over-penalized.
+                # Kickers are exempt: the whole position goes for $1-3, so the model is
+                # already fit on that range and capping would credit every kicker ~23
+                # free points, floating them to the top of the board.
+                if cost <= 3 and pos != "K":
                     expected_pts = min(expected_pts, 80)
                 value = round(total_pts - expected_pts, 1)
             else:
