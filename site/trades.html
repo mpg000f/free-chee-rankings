@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Grades - Free Chee Headquarters</title>
+  <meta name="description" content="Every trade in Free Chee history, graded on value over replacement for the rest of that season.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0e0f11">
+  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/trades.html">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Free Chee">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Free Chee Headquarters">
+  <meta property="og:title" content="Trade Grades — Free Chee">
+  <meta property="og:description" content="Every trade in Free Chee history, graded on value over replacement for the rest of that season.">
+  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/trades.html">
+  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Trade Grades — Free Chee">
+  <meta name="twitter:description" content="Every trade in Free Chee history, graded on value over replacement for the rest of that season.">
+  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=f88ac3b8b9">
+  <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="nav-brand">Free Chee</a>
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="rankings.html">Rankings</a>
+        <a href="stats.html">Stats</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rosters.html">Rosters</a>
+        <div class="nav-group">
+          <button class="nav-group-btn active" type="button"
+                  aria-expanded="false" aria-controls="nav-group-menu">
+            Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-group-menu" id="nav-group-menu">
+            <a href="draft-value.html">Draft Value</a>
+            <a href="draft-history.html">Draft History</a>
+            <a href="transactions.html">Waivers</a>
+            <a href="trades.html" class="active">Trade Grades</a>
+          </div>
+        </div>
+        <a href="head2head.html">Head-to-Head</a>
+        <a href="records.html">Records</a>
+        <a href="careers.html">Player Profiles</a>
+        <a href="lookback.html">Lookback</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-container">
+    <h1>Trade Grades</h1>
+    <p class="page-intro">Every completed trade, graded on how it panned out over the rest of
+      that season &mdash; not on raw points, but on how much each player beat a replacement at
+      his own position.</p>
+
+    <div class="page-controls">
+      <div id="season-toggle" class="season-toggle"></div>
+      <div id="owner-filter"></div>
+    </div>
+
+    <h2 class="stats-section-title" id="ledger">Who Wins Trades</h2>
+    <p class="stats-section-note">Every side of every deal, added up. A trade counts as won if
+      the side came out ahead on value.</p>
+    <div class="table-scroll" id="ledger-scroll">
+      <div class="table-wrapper"><div id="trade-ledger"></div></div>
+    </div>
+
+    <h2 class="stats-section-title" id="trades">Every Trade</h2>
+    <div id="trade-list" class="trade-list"></div>
+
+    <h2 class="stats-section-title" id="method">How This Is Scored</h2>
+    <div class="method-note">
+      <p>Raw points can't compare players across positions, and in a superflex league that gets
+        trades badly wrong. A quarterback and a wide receiver who both score 200 are not the
+        same asset: the league has to fill 32 quarterback slots out of roughly 32 startable NFL
+        starters, while the 40th-best receiver is still a useful one. Trading a good receiver
+        for a middling quarterback can look even on points and be a clear loss.</p>
+      <p>So every player is measured against <strong>what a freely available player at his own
+        position would have produced over the same weeks</strong>. That bar is set each season
+        by ranking everyone at the position on scoring rate and reading off the man sitting one
+        spot past the league's starting slots &mdash; the best you could realistically have
+        streamed instead.</p>
+      <div id="replacement-line" class="repl-line"></div>
+      <p>A side's grade is what it received above that bar minus what it gave away, per week
+        left in the season, so a Week 12 swap isn't judged on the same scale as a Week 2 one.
+        The bands are symmetric: in a two-team deal one side's A is the other's F, and an even
+        trade lands both on C.</p>
+      <p class="method-caveat">Two things worth knowing. Surplus floors at zero, because a
+        player who came back below replacement could simply be dropped for one who didn't &mdash;
+        the worst an acquisition can be worth is nothing, never less. And both halves are
+        measured over the same window, whoever ended up rostering the player, so re-trading or
+        cutting someone afterward doesn't rewrite the original deal.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
+  </footer>
+
+  <script src="js/data-loader.js?v=e0415b6ac0"></script>
+  <script src="js/table-mobile.js?v=bbeb490ca4"></script>
+  <script src="js/txn-controls.js?v=8f2376b2ad"></script>
+  <script src="js/trades.js?v=d721d93e7b"></script>
+  <script src="js/nav-menu.js?v=1dd7a2cf8b"></script>
+</body>
+</html>

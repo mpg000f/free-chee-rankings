@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Waivers &amp; Trades - Free Chee Headquarters</title>
-  <meta name="description" content="Best waiver wire pickups and graded trades for the Free Chee league — who won the wire and who lost the deal.">
+  <title>Waiver Wire - Free Chee Headquarters</title>
+  <meta name="description" content="The best waiver wire pickups in Free Chee history, ranked by what they went on to score.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -15,20 +15,20 @@
   <meta name="apple-mobile-web-app-title" content="Free Chee">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Free Chee Headquarters">
-  <meta property="og:title" content="Waivers &amp; Trades — Free Chee">
-  <meta property="og:description" content="Best waiver wire pickups and graded trades for the Free Chee league — who won the wire and who lost the deal.">
+  <meta property="og:title" content="Waiver Wire — Free Chee">
+  <meta property="og:description" content="The best waiver wire pickups in Free Chee history, ranked by what they went on to score.">
   <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/transactions.html">
   <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Waivers &amp; Trades — Free Chee">
-  <meta name="twitter:description" content="Best waiver wire pickups and graded trades for the Free Chee league — who won the wire and who lost the deal.">
+  <meta name="twitter:title" content="Waiver Wire — Free Chee">
+  <meta name="twitter:description" content="The best waiver wire pickups in Free Chee history, ranked by what they went on to score.">
   <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=c7ca8e7ad2">
+  <link rel="stylesheet" href="css/style.css?v=f88ac3b8b9">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
 </head>
 <body>
@@ -47,9 +47,18 @@
         <a href="stats.html">Stats</a>
         <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
-        <a href="draft-value.html">Draft Value</a>
-        <a href="draft-history.html">Draft History</a>
-        <a href="transactions.html" class="active">Waivers</a>
+        <div class="nav-group">
+          <button class="nav-group-btn active" type="button"
+                  aria-expanded="false" aria-controls="nav-group-menu">
+            Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-group-menu" id="nav-group-menu">
+            <a href="draft-value.html">Draft Value</a>
+            <a href="draft-history.html">Draft History</a>
+            <a href="transactions.html" class="active">Waivers</a>
+            <a href="trades.html">Trade Grades</a>
+          </div>
+        </div>
         <a href="head2head.html">Head-to-Head</a>
         <a href="records.html">Records</a>
         <a href="careers.html">Player Profiles</a>
@@ -59,23 +68,15 @@
   </nav>
 
   <div class="page-container">
-    <h1>Waivers &amp; Trades</h1>
-
-    <nav class="stats-jump">
-      <a href="#pickups">Best Pickups</a>
-      <a href="#trades">Trade Grades</a>
-      <a href="#method">How This Is Scored</a>
-    </nav>
+    <h1>Waiver Wire</h1>
+    <p class="page-intro">Everything added off the wire after Week 1, ranked by what it went on
+      to score for the manager who grabbed it. Trades are graded separately on the
+      <a href="trades.html">Trade Grades</a> page.</p>
 
     <div class="page-controls">
       <div id="season-toggle" class="season-toggle"></div>
       <div id="owner-filter"></div>
     </div>
-
-    <!-- Best waiver pickups -->
-    <h2 class="stats-section-title" id="pickups">Best Waiver Pickups</h2>
-    <p class="stats-section-note">Everything added off the wire after Week 1, ranked by what it
-      went on to score for the manager who grabbed it.</p>
 
     <div id="pickup-highlights" class="pickup-highlights"></div>
 
@@ -93,25 +94,17 @@
     </div>
     <div id="pickup-toggle" class="pickup-toggle"></div>
 
-    <!-- Trade grades -->
-    <h2 class="stats-section-title" id="trades">Trade Grades</h2>
-    <p class="stats-section-note">Every completed trade, graded on what each side got back
-      against what it gave up over the rest of that season.</p>
-    <div id="trade-list" class="trade-list"></div>
-
-    <!-- Method -->
-    <h2 class="stats-section-title" id="method">How This Is Scored</h2>
     <div class="method-note">
-      <p>A player's value here is the fantasy points he produced <strong>while on that
-        manager's roster</strong>, from the week he arrived onward. Drop him and the counter
-        stops, which is the honest read &mdash; the move stopped paying at that point.</p>
-      <p>Trade grades compare what a side received against what it sent away, per week left in
-        the season, so a Week 12 swap isn't judged on the same scale as a Week 2 one. The bands
-        are symmetric: in a two-team deal, one side's A is the other's F, and an even trade
-        lands both sides on C.</p>
-      <p class="method-caveat">One caveat worth stating: Yahoo's weekly roster data records no
-        lineup slot, so points scored on the bench count the same as points that won a matchup.
-        A stashed breakout still shows up as a great pickup even in the weeks he never started.</p>
+      <p><strong>Points</strong> are what the player produced while on that manager's roster,
+        from the week he arrived onward. Drop him and the counter stops, which is the honest
+        read &mdash; the move stopped paying at that point.</p>
+      <p><strong>Over Repl.</strong> is the same points measured against what a freely available
+        player at his position would have given over those weeks. It's the fairer cross-position
+        comparison: a tight end scoring 90 has done far more for you than a quarterback scoring
+        the same, because the wire is always full of quarterbacks who'd match it.</p>
+      <p class="method-caveat">Yahoo's weekly roster data records no lineup slot, so points
+        scored on the bench count the same as points that won a matchup. A stashed breakout
+        still shows up as a great pickup even in the weeks he never started.</p>
     </div>
   </div>
 
@@ -121,7 +114,8 @@
 
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
   <script src="js/table-mobile.js?v=bbeb490ca4"></script>
-  <script src="js/transactions.js?v=29a1254b8d"></script>
-  <script src="js/nav-menu.js?v=363be077f0"></script>
+  <script src="js/txn-controls.js?v=8f2376b2ad"></script>
+  <script src="js/waivers.js?v=e03197ce9b"></script>
+  <script src="js/nav-menu.js?v=1dd7a2cf8b"></script>
 </body>
 </html>

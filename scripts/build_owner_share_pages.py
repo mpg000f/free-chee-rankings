@@ -133,9 +133,18 @@ def page_html(c):
         <a href="stats.html">Stats</a>
         <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
-        <a href="draft-value.html">Draft Value</a>
-        <a href="draft-history.html">Draft History</a>
-        <a href="transactions.html">Waivers</a>
+        <div class="nav-group">
+          <button class="nav-group-btn" type="button"
+                  aria-expanded="false" aria-controls="nav-group-menu">
+            Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-group-menu" id="nav-group-menu">
+            <a href="draft-value.html">Draft Value</a>
+            <a href="draft-history.html">Draft History</a>
+            <a href="transactions.html">Waivers</a>
+            <a href="trades.html">Trade Grades</a>
+          </div>
+        </div>
         <a href="head2head.html">Head-to-Head</a>
         <a href="records.html">Records</a>
         <a href="careers.html" class="active">Player Profiles</a>

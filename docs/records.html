@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=c7ca8e7ad2">
+  <link rel="stylesheet" href="css/style.css?v=f88ac3b8b9">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
 </head>
 <body>
@@ -47,9 +47,18 @@
         <a href="stats.html">Stats</a>
         <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
-        <a href="draft-value.html">Draft Value</a>
-        <a href="draft-history.html">Draft History</a>
-        <a href="transactions.html">Waivers</a>
+        <div class="nav-group">
+          <button class="nav-group-btn" type="button"
+                  aria-expanded="false" aria-controls="nav-group-menu">
+            Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-group-menu" id="nav-group-menu">
+            <a href="draft-value.html">Draft Value</a>
+            <a href="draft-history.html">Draft History</a>
+            <a href="transactions.html">Waivers</a>
+            <a href="trades.html">Trade Grades</a>
+          </div>
+        </div>
         <a href="head2head.html">Head-to-Head</a>
         <a href="records.html" class="active">Records</a>
         <a href="careers.html">Player Profiles</a>
@@ -72,6 +81,6 @@
 
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
   <script src="js/records.js?v=d4c21cc0bc"></script>
-  <script src="js/nav-menu.js?v=363be077f0"></script>
+  <script src="js/nav-menu.js?v=1dd7a2cf8b"></script>
 </body>
 </html>

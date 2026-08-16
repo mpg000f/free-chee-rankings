@@ -23,6 +23,14 @@ How each half is recovered:
     and Robert Woods; grading them apart would count those players twice, so
     same-day rows sharing a player are merged into a single N-team trade.
 
+Trades are graded on value over replacement, not raw points. Raw points can't
+compare across positions, and in a superflex league that gets trades badly wrong:
+a QB and a WR who both score 200 are not the same asset, because the league has
+to fill 32 QB slots out of roughly 32 startable NFL quarterbacks while WR40 is
+still a useful starter. Every player is therefore measured against what a freely
+available player at his own position would have produced over the same weeks, so
+a throw-in who merely matches the waiver wire adds nothing to his side's ledger.
+
 Two limitations worth knowing, both surfaced as notes on the page:
   - Points are what a player produced *while rostered*, starter or bench. Yahoo's
     weekly roster payload has no lineup slot, and the team score can't be
@@ -50,10 +58,22 @@ KICKOFF = {
     "2025": datetime(2025, 9, 4, tzinfo=timezone.utc),
 }
 
-# Net points per remaining week -> letter grade. Normalizing by weeks left keeps
-# a week-12 swap from looking tame beside an identical week-2 one. The bands are
-# symmetric so that in a two-team deal one side's grade mirrors the other's.
-GRADE_BANDS = [(7.0, "A"), (2.5, "B"), (-2.5, "C"), (-7.0, "D")]
+# League-wide starting slots per position (16 teams, superflex). The player one
+# past this rank is the best a manager could expect to find on the wire, which is
+# what every traded player is measured against.
+STARTER_SLOTS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
+
+# Weeks rostered before a player's scoring rate is trusted to set the baseline.
+# Too low and a one-week cameo sets replacement level; too high and the ranking
+# runs out of players before reaching the slot count. Six holds steady across all
+# four seasons and keeps the positions in a consistent order.
+REPLACEMENT_MIN_WEEKS = 6
+
+# Net value over replacement per remaining week -> letter grade. Normalizing by
+# weeks left keeps a week-12 swap from looking tame beside an identical week-2
+# one. The bands are symmetric so that in a two-team deal one side's grade
+# mirrors the other's.
+GRADE_BANDS = [(5.0, "A"), (2.0, "B"), (-2.0, "C"), (-5.0, "D")]
 
 
 def load(season, name):
@@ -69,6 +89,33 @@ def grade_for(net_per_week):
         if net_per_week >= threshold:
             return letter
     return "F"
+
+
+def replacement_rates(rosters):
+    """Points per week a freely available player would have given, by position.
+
+    Ranks every rostered player at a position by his scoring rate and reads off
+    the one sitting just past the league's starting slots — the marginal startable
+    player, and so the bar a traded player has to clear to be worth anything. The
+    gaps between positions are the scarcity the raw point totals miss.
+    """
+    totals = defaultdict(lambda: defaultdict(lambda: [0.0, 0]))
+    for row in rosters:
+        for pos in (row.get("display_position") or "").split(","):
+            if pos in STARTER_SLOTS:
+                entry = totals[pos][row["player_key"]]
+                entry[0] += row.get("points") or 0.0
+                entry[1] += 1
+
+    rates = {}
+    for pos, players in totals.items():
+        ranked = sorted((pts / weeks for pts, weeks in players.values()
+                         if weeks >= REPLACEMENT_MIN_WEEKS), reverse=True)
+        if not ranked:
+            continue
+        slots = STARTER_SLOTS[pos]
+        rates[pos] = round(ranked[slots] if len(ranked) > slots else ranked[-1], 2)
+    return rates
 
 
 def build_season_index(season):
@@ -111,7 +158,22 @@ def build_season_index(season):
         "key_of": key_of,
         "drafted_by": drafted_by,
         "owner_of": owner_of,
+        "baseline": replacement_rates(rosters),
     }
+
+
+def slot_position(idx, pkey):
+    """The position a player is graded at, and the replacement rate there.
+
+    Multi-eligible players (Taysom Hill's "QB,TE") are slotted where they help
+    most, which is the position with the *lowest* bar to clear — the same call a
+    manager makes when filling a lineup.
+    """
+    eligible = [p for p in (idx["meta"][pkey][1] or "").split(",") if p in idx["baseline"]]
+    if not eligible:
+        return (idx["meta"][pkey][1] or "").split(",")[0], 0.0
+    pos = min(eligible, key=lambda p: idx["baseline"][p])
+    return pos, idx["baseline"][pos]
 
 
 def points_while_rostered(idx, pkey, team_key, from_week):
@@ -127,6 +189,21 @@ def points_while_rostered(idx, pkey, team_key, from_week):
         total += idx["points"].get((week, pkey), 0.0)
         weeks += 1
     return round(total, 2), weeks
+
+
+def points_in_window(idx, pkey, from_week):
+    """What a player produced from a week onward, whoever was rostering him.
+
+    Trades are graded on this rather than on the acquirer's holding period. Both
+    halves of a deal have to be measured over the same weeks or the comparison is
+    meaningless: in the 2022 Kupp deal one side re-traded him after four games
+    while the other carried two busts for seventeen, which made a raw
+    while-rostered read call the wrong winner. Weeks where nobody in the league
+    rostered him count as zero — 92% of post-trade weeks have a roster row, and
+    the ones that don't are players who were injured out of the season.
+    """
+    return round(sum(idx["points"].get((week, pkey), 0.0)
+                     for week in range(from_week, FINAL_WEEK + 1)), 2)
 
 
 def move_weeks(idx, pkey):
@@ -231,28 +308,42 @@ def resolve_deal(idx, deal):
             return None
         received, sent = [], []
         for leg in legs:
-            pts, held = points_while_rostered(idx, leg["pkey"], leg["to"], week)
+            pts = points_in_window(idx, leg["pkey"], week)
+            _, held = points_while_rostered(idx, leg["pkey"], leg["to"], week)
+            pos, repl = slot_position(idx, leg["pkey"])
+            par = round(repl * weeks_remaining, 2)
             entry = {
                 "player": leg["name"],
-                "pos": idx["meta"][leg["pkey"]][1],
+                "pos": pos,
                 "pts": pts,
                 "weeks_rostered": held,
+                # What a waiver body at this position would have given over the
+                # same weeks. Surplus floors at zero: a player who came back
+                # below that bar could simply be dropped for one who cleared it,
+                # so the worst an acquisition can be worth is nothing, never less.
+                "repl": par,
+                "vor": max(0.0, round(pts - par, 2)),
             }
             if leg["to"] == team:
                 received.append(entry)
             elif leg["from"] == team:
                 sent.append({**entry, "to_owner": idx["owner_of"].get(leg["to"], "")})
-        received.sort(key=lambda r: -r["pts"])
-        sent.sort(key=lambda r: -r["pts"])
+        received.sort(key=lambda r: -r["vor"])
+        sent.sort(key=lambda r: -r["vor"])
         got = round(sum(r["pts"] for r in received), 2)
         gave = round(sum(r["pts"] for r in sent), 2)
+        vor_in = round(sum(r["vor"] for r in received), 2)
+        vor_out = round(sum(r["vor"] for r in sent), 2)
         sides.append({
             "owner": owner,
             "received": received,
             "sent": sent,
             "pts": got,
             "gave": gave,
-            "net": round(got - gave, 2),
+            "net_pts": round(got - gave, 2),
+            "vor_in": vor_in,
+            "vor_out": vor_out,
+            "net": round(vor_in - vor_out, 2),
         })
 
     for side in sides:
@@ -298,13 +389,15 @@ def find_pickups(idx, trade_players):
             if not owner:
                 continue
             pts, held = points_while_rostered(idx, pkey, tkey, week)
-            name, pos = idx["meta"][pkey]
+            name = idx["meta"][pkey][0]
+            pos, repl = slot_position(idx, pkey)
             pickups.append({
                 "player": name,
                 "pos": pos,
                 "owner": owner,
                 "week": week,
                 "pts": pts,
+                "vor": round(pts - repl * held, 2),
                 "weeks_rostered": held,
                 "ppg": round(pts / held, 2) if held else 0.0,
                 "claimed": pkey in prev,       # taken off another roster's scrap heap
@@ -344,6 +437,7 @@ def build_season(season):
         "trades": trades,
         "owners": sorted({p["owner"] for p in pickups}),
         "skipped_trades": skipped,
+        "replacement": idx["baseline"],
     }
 
 
