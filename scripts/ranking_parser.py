@@ -1,15 +1,11 @@
 """Parse ranking data from extracted PDF text."""
 
 import re
-from owner_mapping import resolve_owner
+from owner_mapping import resolve_owner, ALL_OWNERS, OWNER_CONSOLIDATION
 
-# Known owner names for matching
-KNOWN_OWNERS = {
-    "tk", "joey", "justin", "sweeney", "deez", "mitch", "chris",
-    "tj", "papi", "matt", "paul", "connor", "gallo", "ger",
-    "mikey", "boyle", "joe", "ron", "zaukas", "oscar", "simon",
-    "gerry lewis", "north willow",
-}
+# Known owner names for matching — canonical names plus the aliases people show
+# up under. Derived so a new owner only has to be added in owner_mapping.
+KNOWN_OWNERS = {name.lower() for name in ALL_OWNERS} | set(OWNER_CONSOLIDATION)
 
 # Team name -> owner lookup (for weeks where owner is not listed)
 TEAM_OWNER_MAP = {
@@ -50,6 +46,18 @@ TEAM_OWNER_MAP = {
     "ger": "Ger",
     "the jackson brownes": "Boyle",
     "jackson brownes": "Boyle",
+    # 2026 renames (Pigs on the 7th Rank, Work Ass, Scampi, Ginny Sack, Team
+    # Daniel, Stewed C, The Art of the Deal and The Jackson Brownes carried over)
+    "boone": "TJ",
+    "nick wright barely legal": "TK",
+    "nick wright": "TK",
+    "charles dickens": "Mitch",
+    "healthy as a fucking rhino": "Connor",
+    "phenom": "Justin",
+    "pelosis powder": "Mikey",
+    "pelosi's powder": "Mikey",
+    "tuanigamanuolepola donny": "Kevin",
+    "tuanigamanuolepola": "Kevin",
 }
 
 

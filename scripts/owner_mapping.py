@@ -7,6 +7,10 @@ Owner consolidation rules (same person, different names used):
 - Papi = Simon
 - Ger = Gerry Lewis
 - Mikey = Oscar
+
+Kevin joined for 2026 and took Papi's spot; Papi played 2022-2025 and stays in
+every mapping below so his history keeps resolving. The league is still 16 teams
+a year — see SEASON_OWNERS for who actually plays in a given season.
 """
 
 # Map variant names to canonical owner name
@@ -20,15 +24,31 @@ OWNER_CONSOLIDATION = {
     "oscar": "Mikey",
 }
 
-# All canonical owner names (the 16 actual people)
+# Every person who has ever held a team, active or not. Not a season roster —
+# it's 17 names for a 16-team league because Kevin replaced Papi in 2026.
 ALL_OWNERS = [
     "Sweeney", "Joey", "Justin", "TK", "Deez", "Mitch", "Chris",
     "TJ", "Papi", "Matt", "Paul", "Connor", "Gallo", "Ger",
-    "Mikey", "Boyle",
+    "Mikey", "Boyle", "Kevin",
 ]
 
 # Normalize owner names (handle case variations)
 OWNER_NORMALIZE = {name.lower(): name for name in ALL_OWNERS}
+
+# Who actually played each season. Only listed where it differs from "everyone
+# in ALL_OWNERS": 2022-2025 were the original 16, 2026 swaps Papi out for Kevin.
+SEASON_OWNERS = {
+    "2026": [
+        "Sweeney", "Joey", "Justin", "TK", "Deez", "Mitch", "Chris",
+        "TJ", "Kevin", "Matt", "Paul", "Connor", "Gallo", "Ger",
+        "Mikey", "Boyle",
+    ],
+}
+
+
+def active_owners(season):
+    """The 16 owners who played a season, defaulting to the original lineup."""
+    return SEASON_OWNERS.get(str(season), [o for o in ALL_OWNERS if o != "Kevin"])
 
 
 def resolve_owner(team_name_raw, explicit_owner=None):
@@ -89,6 +109,24 @@ CANONICAL_TEAMS = {
         "Sweeney": "Work Ass",
         "TJ": "Cookie Monster Golf Cart",
         "TK": "Team Obama Sopranos",
+        "Boyle": "The Jackson Brownes",
+    },
+    "2026": {
+        "Joey": "Stewed C",
+        "Chris": "Ginny Sack",
+        "Connor": "Healthy as a Fucking Rhino",
+        "Deez": "Pigs on the 7th Rank",
+        "Gallo": "Scampi",
+        "Ger": "Ger",
+        "Justin": "Phenom",
+        "Kevin": "Tuanigamanuolepola Donny",
+        "Matt": "The Art of the Deal",
+        "Mikey": "Pelosis Powder",
+        "Mitch": "Charles Dickens",
+        "Paul": "Team Daniel",
+        "Sweeney": "Work Ass",
+        "TJ": "Boone",
+        "TK": "Nick Wright Barely Legal",
         "Boyle": "The Jackson Brownes",
     },
 }
@@ -174,6 +212,27 @@ YAHOO_TEAM_OWNERS = {
         "Gorlock the destroyer Schwartz": "Papi",
         "Life with Derrick": "Justin",
         "Senior AI Coke Twins": "Mikey",
+    },
+    # Taken from the league page before the draft, so these are the names as
+    # typed, not as Yahoo returns them — confirm against managers.json after the
+    # first successful 2026 pull.
+    "2026": {
+        "Work Ass": "Sweeney",
+        "The Art of the Deal": "Matt",
+        "Scampi": "Gallo",
+        "Ginny Sack": "Chris",
+        "Pigs on the 7th Rank": "Deez",
+        "Charles Dickens": "Mitch",
+        "The Jackson Brownes": "Boyle",
+        "Nick Wright Barely Legal": "TK",
+        "Boone": "TJ",
+        "Stewed C": "Joey",
+        "Healthy as a Fucking Rhino": "Connor",
+        "🍾💼🥰": "Ger",
+        "Team Daniel": "Paul",
+        "Tuanigamanuolepola Donny": "Kevin",
+        "Phenom": "Justin",
+        "Pelosis Powder": "Mikey",
     },
 }
 
