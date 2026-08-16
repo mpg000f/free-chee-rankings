@@ -121,7 +121,13 @@ def page_html(c):
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="nav-brand">Free Chee</a>
-      <div class="nav-links">
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
         <a href="stats.html">Stats</a>
@@ -150,6 +156,7 @@ def page_html(c):
   <script src="js/data-loader.js"></script>
   <script src="js/career-render.js"></script>
   <script src="js/career-page.js"></script>
+  <script src="js/nav-menu.js"></script>
 </body>
 </html>
 """

@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/free-chee-rankings/css/style.css?v=102f223620">
+  <link rel="stylesheet" href="/free-chee-rankings/css/style.css?v=c7ca8e7ad2">
   <link rel="stylesheet" href="/free-chee-rankings/css/animations.css?v=fb4513824d">
   <style>
     .notfound {
@@ -60,7 +60,13 @@
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="/free-chee-rankings/index.html" class="nav-brand">Free Chee</a>
-      <div class="nav-links">
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
         <a href="/free-chee-rankings/index.html">Home</a>
         <a href="/free-chee-rankings/rankings.html">Rankings</a>
         <a href="/free-chee-rankings/stats.html">Stats</a>
@@ -83,5 +89,6 @@
     <p>The page you're looking for doesn't exist — maybe a bad link or an old bookmark. The Committee suggests heading back to headquarters.</p>
     <a class="btn" href="/free-chee-rankings/index.html">&larr; Back to Headquarters</a>
   </section>
+  <script src="/free-chee-rankings/js/nav-menu.js?v=363be077f0"></script>
 </body>
 </html>

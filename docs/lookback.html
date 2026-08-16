@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=102f223620">
+  <link rel="stylesheet" href="css/style.css?v=c7ca8e7ad2">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
   <script src="js/chart-loader.js?v=4f534cc3fa"></script>
 </head>
@@ -36,7 +36,13 @@
   <nav class="navbar">
     <div class="navbar-inner">
       <a href="index.html" class="nav-brand">Free Chee</a>
-      <div class="nav-links">
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <div class="nav-links" id="nav-links">
         <a href="index.html">Home</a>
         <a href="rankings.html">Rankings</a>
         <a href="stats.html">Stats</a>
@@ -229,5 +235,6 @@
     });
   })();
   </script>
+  <script src="js/nav-menu.js?v=363be077f0"></script>
 </body>
 </html>

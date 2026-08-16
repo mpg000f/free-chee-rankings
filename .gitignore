@@ -3,7 +3,10 @@ __pycache__/
 .DS_Store
 examine_pdfs.py
 scripts/yahoo_creds.json
-scripts/yahoo_token.json
+# glob, not the exact name — auth runs leave backups like yahoo_token.json.bak-preauth,
+# and these hold live access/refresh tokens for a public repo
+scripts/yahoo_creds.json*
+scripts/yahoo_token.json*
 yahoo_data/
 
 # Source PDFs live in site/pdfs/ - don't track root copies
