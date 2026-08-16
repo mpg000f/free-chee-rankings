@@ -101,13 +101,15 @@ h3 { font-size: 1.2rem; }
 
 /* ===== HERO ===== */
 .hero {
-  min-height: 100vh;
+  /* Was 100vh, which cost a whole screen and left only the four cards above the
+     fold — the hub below has to be reachable without hunting for it. */
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem 2.5rem;
   background: radial-gradient(ellipse at center, #191b1e 0%, #0e0f11 70%);
   position: relative;
   overflow: hidden;
@@ -156,12 +158,14 @@ h3 { font-size: 1.2rem; }
   display: block;
 }
 
-/* ===== CTA CARDS ===== */
+/* ===== CTA CARDS =====
+   Four cards, one per page you'd open during a season. Sized to land 2x2 so
+   there's no orphan on the last row; everything else lives in the hub below. */
 .cta-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.25rem;
-  max-width: 800px;
+  max-width: 760px;
   width: 100%;
   padding: 0 1rem;
 }
@@ -1077,6 +1081,10 @@ h3 { font-size: 1.2rem; }
   display: flex;
   gap: 1.5rem;
   flex: 1;
+  /* The stats are nowrap and fixed-width, so between 768px and about 860px they
+     used to run past the viewport and give the page a horizontal scrollbar.
+     Wrapping is a no-op at widths where they already fit. */
+  flex-wrap: wrap;
 }
 .summary-stat {
   min-width: 0;
@@ -1757,10 +1765,11 @@ h3 { font-size: 1.2rem; }
 
 
 /* ===== MOBILE NAV MENU ===== */
-/* The 12-link bar needs 1240px to lay out. Below that it used to scroll
-   horizontally with the scrollbar hidden, leaving only four links reachable on
-   a phone and the rest of the site invisible. Under that width the links
-   collapse behind a toggle instead. */
+/* The bar needs 737px of measured content width to lay out; the toggle takes
+   over below 900px, leaving a fifth of that as slack against a font fallback
+   loading wider than Inter. It used to scroll horizontally with the scrollbar
+   hidden, which left only four links reachable on a phone and the rest of the
+   site invisible. Keep this in step with BAR_FITS_ABOVE in nav-menu.js. */
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -1787,7 +1796,7 @@ h3 { font-size: 1.2rem; }
 .nav-toggle.open .nav-toggle-bar:nth-child(2) { opacity: 0; }
 .nav-toggle.open .nav-toggle-bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-@media (max-width: 1239px) {
+@media (max-width: 899px) {
   .nav-toggle { display: flex; }
 
   /* Absolutely positioned so opening the panel never changes the navbar's own
@@ -1854,7 +1863,12 @@ h3 { font-size: 1.2rem; }
 }
 .nav-group.open .nav-caret { transform: translateY(-2px) rotate(180deg); }
 
-@media (min-width: 1240px) {
+@media (min-width: 900px) {
+  /* The sideways-scroll fallback on .nav-links clips anything leaving the strip,
+     which swallowed the dropdowns whole. Above this width the bar always fits,
+     so the fallback has nothing to do and can get out of the menus' way. */
+  .nav-links { overflow: visible; }
+
   /* Sits flush under the navbar's bottom edge; ::after bridges the gap so the
      pointer can travel from button to menu without the hover dropping out. */
   .nav-group::after {
@@ -1892,8 +1906,14 @@ h3 { font-size: 1.2rem; }
     transform: none;
   }
   .nav-group-menu a { white-space: nowrap; }
+
+  /* The rightmost group's menu is wider than its button, so anchoring it left
+     hung it past the page edge and gave the whole document a horizontal
+     scrollbar — at every width except 1440, where the centred layout happened
+     to absorb it. Anchor that one to its right edge instead. */
+  .nav-group:last-child .nav-group-menu { left: auto; right: 0; }
 }
-@media (min-width: 1240px) and (hover: hover) {
+@media (min-width: 900px) and (hover: hover) {
   .nav-group:hover > .nav-group-menu {
     opacity: 1;
     visibility: visible;
@@ -1901,7 +1921,7 @@ h3 { font-size: 1.2rem; }
   }
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 899px) {
   .nav-group { width: 100%; }
   .nav-group-btn {
     width: 100%;
@@ -1946,4 +1966,65 @@ h3 { font-size: 1.2rem; }
   gap: .3rem;
   margin-right: .5rem;
   font-family: var(--font-heading);
+}
+
+/* ===== HOME HUB =====
+   The eight pages that aren't part of a weekly routine, grouped exactly the way
+   the nav groups them so the two reinforce each other. Tiles rather than cards:
+   nine equal-weight cards read as a wall and buried the newest pages entirely. */
+.hub {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  gap: 2rem;
+}
+.hub-title {
+  color: var(--accent);
+  font-size: 1.05rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: .8rem;
+  padding-bottom: .4rem;
+  border-bottom: 1px solid var(--surface-light);
+}
+.hub-tiles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .6rem;
+}
+.hub-tile {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  padding: .8rem .9rem;
+  background: var(--surface);
+  border: 1px solid var(--surface-light);
+  border-radius: var(--radius);
+  transition: all .2s;
+}
+.hub-tile:hover {
+  border-color: var(--accent);
+  background: var(--surface-light);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+.hub-tile-name { font-weight: 600; font-size: .95rem; color: var(--text); }
+.hub-tile:hover .hub-tile-name { color: var(--accent); }
+.hub-tile-desc { color: var(--text-dim); font-size: .76rem; line-height: 1.35; }
+
+@media (max-width: 480px) {
+  .hub { padding-top: 1.75rem; gap: 1.5rem; }
+  .hub-tile { padding: .65rem .7rem; }
+  .hub-tile-name { font-size: .88rem; }
+  .hub-tile-desc { font-size: .72rem; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding: 2rem 1rem 1.5rem; }
+  .hero-subtitle { margin-bottom: 1.25rem; }
+  .cta-grid { gap: .75rem; }
+  .cta-card { padding: 1rem; }
+  .cta-card h3 { font-size: 1.15rem; margin-bottom: .25rem; }
 }

@@ -1,15 +1,17 @@
 /**
  * Mobile nav menu.
  *
- * The nav bar holds 12 links and needs 1240px to lay them all out; below that
- * the strip scrolls horizontally and quietly hides most of the site (only four
- * links are reachable on a phone). Under that width the links collapse behind a
- * toggle instead, so every page is one tap away and nothing is off-screen.
+ * Seven top-level items need 737px of measured width; below 900px they collapse
+ * behind a toggle, the slack being cover against a font fallback laying out
+ * wider than Inter. Before the toggle existed the strip scrolled sideways with
+ * its scrollbar hidden, which left only four of twelve links reachable on a
+ * phone and the rest of the site effectively invisible.
  *
- * Markup: a .nav-toggle button and the .nav-links list, wired by id.
+ * Markup: a .nav-toggle button, the .nav-links list, and any number of
+ * .nav-group items inside it, all wired by id.
  */
 (function () {
-  const BAR_FITS_ABOVE = 1240;
+  const BAR_FITS_ABOVE = 900;
 
   const toggle = document.getElementById('nav-toggle');
   const links = document.getElementById('nav-links');

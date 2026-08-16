@@ -30,6 +30,22 @@ def slug(owner):
     return re.sub(r"[^a-z0-9]+", "-", owner.lower())
 
 
+def nav_html():
+    """Lift the nav straight out of careers.html rather than hardcoding it.
+
+    Career pages are Player Profiles pages, so careers.html already carries the
+    exact markup they need, active state included. This used to be a copy in
+    this file, which meant every nav change silently reverted on the next build
+    across all sixteen pages until someone noticed.
+    """
+    src = os.path.join(ROOT, "site", "careers.html")
+    with open(src, encoding="utf-8") as f:
+        match = re.search(r'  <nav class="navbar">.*?\n  </nav>\n', f.read(), re.DOTALL)
+    if not match:
+        raise SystemExit("could not find the navbar in site/careers.html")
+    return match.group(0)
+
+
 def font(path, size):
     return ImageFont.truetype(path, size)
 
@@ -118,41 +134,7 @@ def page_html(c):
   <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
-  <nav class="navbar">
-    <div class="navbar-inner">
-      <a href="index.html" class="nav-brand">Free Chee</a>
-      <button class="nav-toggle" id="nav-toggle" type="button"
-              aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-        <span class="nav-toggle-bar"></span>
-      </button>
-      <div class="nav-links" id="nav-links">
-        <a href="index.html">Home</a>
-        <a href="rankings.html">Rankings</a>
-        <a href="stats.html">Stats</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="rosters.html">Rosters</a>
-        <div class="nav-group">
-          <button class="nav-group-btn" type="button"
-                  aria-expanded="false" aria-controls="nav-group-menu">
-            Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
-          </button>
-          <div class="nav-group-menu" id="nav-group-menu">
-            <a href="draft-value.html">Draft Value</a>
-            <a href="draft-history.html">Draft History</a>
-            <a href="transactions.html">Waivers</a>
-            <a href="trades.html">Trade Grades</a>
-          </div>
-        </div>
-        <a href="head2head.html">Head-to-Head</a>
-        <a href="records.html">Records</a>
-        <a href="careers.html" class="active">Player Profiles</a>
-        <a href="lookback.html">Lookback</a>
-      </div>
-    </div>
-  </nav>
-
+{nav_html()}
   <div class="page-container">
     <div id="career-content"><p class="placeholder-text">Loading {o}...</p></div>
   </div>

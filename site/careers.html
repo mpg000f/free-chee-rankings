@@ -28,7 +28,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=f88ac3b8b9">
+  <link rel="stylesheet" href="css/style.css?v=69cc4b4433">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
 </head>
 <body>
@@ -49,20 +49,28 @@
         <a href="rosters.html">Rosters</a>
         <div class="nav-group">
           <button class="nav-group-btn" type="button"
-                  aria-expanded="false" aria-controls="nav-group-menu">
+                  aria-expanded="false" aria-controls="nav-group-draft">
             Draft &amp; Moves<span class="nav-caret" aria-hidden="true"></span>
           </button>
-          <div class="nav-group-menu" id="nav-group-menu">
+          <div class="nav-group-menu" id="nav-group-draft">
             <a href="draft-value.html">Draft Value</a>
             <a href="draft-history.html">Draft History</a>
             <a href="transactions.html">Waivers</a>
             <a href="trades.html">Trade Grades</a>
           </div>
         </div>
-        <a href="head2head.html">Head-to-Head</a>
-        <a href="records.html">Records</a>
-        <a href="careers.html" class="active">Player Profiles</a>
-        <a href="lookback.html">Lookback</a>
+        <div class="nav-group">
+          <button class="nav-group-btn active" type="button"
+                  aria-expanded="false" aria-controls="nav-group-alltime">
+            All-Time<span class="nav-caret" aria-hidden="true"></span>
+          </button>
+          <div class="nav-group-menu" id="nav-group-alltime">
+            <a href="head2head.html">Head-to-Head</a>
+            <a href="records.html">Records</a>
+            <a href="careers.html" class="active">Player Profiles</a>
+            <a href="lookback.html">Lookback</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -86,6 +94,6 @@
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
   <script src="js/career-render.js?v=6a595aaf56"></script>
   <script src="js/careers.js?v=43e9c1105c"></script>
-  <script src="js/nav-menu.js?v=1dd7a2cf8b"></script>
+  <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>
