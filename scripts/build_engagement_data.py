@@ -12,6 +12,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEASONS = ["2022", "2023", "2024", "2025"]
 REG_SEASON_LAST_WEEK = 14  # weeks 15-17 are playoffs
 
+# The losers' half of the bracket: quarterfinal losers playing out 5th through
+# 8th. These are postseason weeks but not playoff games, and marking them "PO"
+# alongside a semifinal overstated them. The 3rd-place game is deliberately not
+# here — it is the championship bracket's own consolation and both teams got
+# there by winning a playoff game, which is the same line schedule.js draws
+# when it dims a round.
+CONSOLATION_ROUNDS = {"Consolation Semifinal", "5th Place Game", "7th Place Game"}
+
 import sys
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from owner_mapping import canonical_team
@@ -133,6 +141,15 @@ def build():
             })
     labelled = [s for s in SEASONS if assign_playoff_rounds(games, rosters, s)]
     print(f"  playoff rounds labelled for {len(labelled)}/{len(SEASONS)} seasons")
+
+    # Depends on the round labels, so it has to follow them. A season whose
+    # labels were dropped has no round to read, and every one of its postseason
+    # games stays flagged as a playoff — overstating a placement game is a
+    # smaller error than quietly demoting a semifinal.
+    for g in games:
+        g["consolation"] = g.get("round") in CONSOLATION_ROUNDS
+    cons = sum(g["consolation"] for g in games)
+    print(f"  {cons} consolation-bracket games flagged (not counted as playoffs)")
 
     games.sort(key=lambda g: (g["season"], g["week"]))
     owners = sorted({g["o1"] for g in games} | {g["o2"] for g in games})

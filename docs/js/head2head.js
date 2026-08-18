@@ -38,7 +38,12 @@
       .map(g => {
         const aPts = g.o1 === a ? g.p1 : g.p2;
         const bPts = g.o1 === a ? g.p2 : g.p1;
-        return { season: g.season, week: g.week, playoff: g.playoff, aPts, bPts };
+        // A consolation game happens in a playoff week but isn't one — see
+        // CONSOLATION_ROUNDS in build_engagement_data.py.
+        return {
+          season: g.season, week: g.week, round: g.round || '',
+          playoff: !!g.playoff && !g.consolation, aPts, bPts,
+        };
       })
       .sort((x, y) => (y.season + String(y.week).padStart(2, '0')).localeCompare(x.season + String(x.week).padStart(2, '0')));
 
@@ -107,7 +112,8 @@
               const res = tie ? 'T' : (aWon ? a : b);
               return `<tr>
                 <td>${m.season}</td>
-                <td>${m.playoff ? `<span class="po-badge">PO</span> ` : ''}${m.week}</td>
+                <td${m.round ? ` title="${m.round}"` : ''}>${
+                  m.playoff ? `<span class="po-badge">PO</span> ` : ''}${m.week}</td>
                 <td class="${aWon ? 'result-win' : ''}">${m.aPts.toFixed(1)}</td>
                 <td class="${!aWon && !tie ? 'result-win' : ''}">${m.bPts.toFixed(1)}</td>
                 <td>${res}</td>
@@ -120,7 +126,9 @@
   }
 
   function avg(total, n) { return n ? (total / n).toFixed(1) : '0.0'; }
-  function seasonWeek(m) { return `${m.season} Wk ${m.week}${m.playoff ? ' (PO)' : ''}`; }
+  // Naming the round beats a bare "(PO)": it's more informative, and it stops a
+  // 7th-place game from reading as a playoff win.
+  function seasonWeek(m) { return `${m.season} Wk ${m.week}${m.round ? ` (${m.round})` : ''}`; }
   function factCard(label, value, detail) {
     return `<div class="record-card">
       <div class="record-title">${label}</div>
