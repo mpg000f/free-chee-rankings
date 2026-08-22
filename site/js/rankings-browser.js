@@ -9,7 +9,8 @@
   const graphicPanel = document.getElementById('ranking-graphic');
   const articlePanel = document.getElementById('rankings-article');
 
-  let currentSeason = '2025';
+  // Default to the newest season present in the index, not a hardcoded year.
+  let currentSeason = index.seasons[index.seasons.length - 1] || '2025';
   let currentWeekId = null;
 
   // Build season buttons

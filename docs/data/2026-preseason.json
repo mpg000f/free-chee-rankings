@@ -1,0 +1,191 @@
+{
+  "week_id": "2026-preseason",
+  "season": "2026",
+  "week": 0,
+  "type": "preseason",
+  "title": "Free Chee Preseason 2026 Power Rankings",
+  "label": "Preseason Rankings",
+  "teams": [
+    {
+      "rank": 1,
+      "team_name": "Boone",
+      "owner": "TJ",
+      "movement": 8,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 2,
+      "team_name": "Pigs on the 7th Rank",
+      "owner": "Deez",
+      "movement": 2,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 3,
+      "team_name": "Charles Dickens",
+      "owner": "Mitch",
+      "movement": 2,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 4,
+      "team_name": "Nick Wright Barely Legal",
+      "owner": "TK",
+      "movement": 4,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 5,
+      "team_name": "The Art of the Deal",
+      "owner": "Matt",
+      "movement": 1,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 6,
+      "team_name": "Ger",
+      "owner": "Ger",
+      "movement": 6,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 7,
+      "team_name": "Ginny Sack",
+      "owner": "Chris",
+      "movement": -5,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 8,
+      "team_name": "Shough and F#ck",
+      "owner": "Boyle",
+      "movement": -1,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 9,
+      "team_name": "Phenom",
+      "owner": "Justin",
+      "movement": 6,
+      "tier": null,
+      "subsections": [
+        "editors_note",
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 10,
+      "team_name": "Free Paid",
+      "owner": "Gallo",
+      "movement": -9,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 11,
+      "team_name": "Hello Darkness My Old Friend",
+      "owner": "Paul",
+      "movement": 2,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 12,
+      "team_name": "Healthy as a Fucking Rhino",
+      "owner": "Connor",
+      "movement": -1,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 13,
+      "team_name": "Stewed C",
+      "owner": "Joey",
+      "movement": -3,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 14,
+      "team_name": "Pelosi's Powder",
+      "owner": "Mikey",
+      "movement": 2,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 15,
+      "team_name": "Tuanigamanuolepola Donny",
+      "owner": "Kevin",
+      "movement": null,
+      "tier": null,
+      "subsections": [
+        "editors_note",
+        "best_value",
+        "biggest_reach"
+      ]
+    },
+    {
+      "rank": 16,
+      "team_name": "Work Ass",
+      "owner": "Sweeney",
+      "movement": -13,
+      "tier": null,
+      "subsections": [
+        "best_value",
+        "biggest_reach"
+      ]
+    }
+  ],
+  "tiers": [],
+  "has_special_sections": false,
+  "image_count": 18
+}

@@ -6,12 +6,13 @@
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 5.33,
+    "total_weeks": 25,
+    "avg_rank": 5.64,
     "best_rank": 1,
-    "worst_rank": 11,
+    "worst_rank": 13,
     "weeks_at_1": 4,
     "weeks_at_16": 0,
     "rankings": [
@@ -158,6 +159,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 10
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 13
       }
     ]
   },
@@ -165,14 +172,16 @@
     "name": "TK",
     "team_names": [
       "Hand me the Piss",
+      "Nick Wright Barely Legal",
       "Team Obama Sopranos"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.88,
+    "total_weeks": 25,
+    "avg_rank": 7.72,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 2,
@@ -321,6 +330,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 8
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 4
       }
     ]
   },
@@ -332,10 +347,11 @@
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 4.58,
+    "total_weeks": 25,
+    "avg_rank": 4.68,
     "best_rank": 2,
     "worst_rank": 11,
     "weeks_at_1": 0,
@@ -484,6 +500,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 2
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 7
       }
     ]
   },
@@ -653,15 +675,17 @@
   "Mitch": {
     "name": "Mitch",
     "team_names": [
+      "Charles Dickens",
       "Deserves to be Shot",
       "Sweeney Deez and Zaukas"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.33,
+    "total_weeks": 25,
+    "avg_rank": 7.16,
     "best_rank": 2,
     "worst_rank": 14,
     "weeks_at_1": 0,
@@ -810,20 +834,28 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 5
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 3
       }
     ]
   },
   "Justin": {
     "name": "Justin",
     "team_names": [
-      "Life with Derrick"
+      "Life with Derrick",
+      "Phenom"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 8.29,
+    "total_weeks": 25,
+    "avg_rank": 8.32,
     "best_rank": 1,
     "worst_rank": 15,
     "weeks_at_1": 5,
@@ -972,21 +1004,29 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 15
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 9
       }
     ]
   },
   "Paul": {
     "name": "Paul",
     "team_names": [
+      "Hello Darkness My Old Friend",
       "Marvin\u2019s Receiver Room",
       "Team Daniel"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 10.54,
+    "total_weeks": 25,
+    "avg_rank": 10.56,
     "best_rank": 5,
     "worst_rank": 16,
     "weeks_at_1": 0,
@@ -1135,24 +1175,32 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 13
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 11
       }
     ]
   },
   "TJ": {
     "name": "TJ",
     "team_names": [
+      "Boone",
       "Cap Stoppers",
       "Cookie Monster Golf Cart"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 5.92,
+    "total_weeks": 25,
+    "avg_rank": 5.72,
     "best_rank": 1,
     "worst_rank": 11,
-    "weeks_at_1": 1,
+    "weeks_at_1": 2,
     "weeks_at_16": 0,
     "rankings": [
       {
@@ -1298,20 +1346,28 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 9
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 1
       }
     ]
   },
   "Connor": {
     "name": "Connor",
     "team_names": [
+      "Healthy as a Fucking Rhino",
       "Sweeney."
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 10.25,
+    "total_weeks": 25,
+    "avg_rank": 10.32,
     "best_rank": 7,
     "worst_rank": 14,
     "weeks_at_1": 0,
@@ -1460,6 +1516,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 11
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 12
       }
     ]
   },
@@ -1470,14 +1532,15 @@
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.62,
+    "total_weeks": 25,
+    "avg_rank": 7.96,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 1,
-    "weeks_at_16": 1,
+    "weeks_at_16": 2,
     "rankings": [
       {
         "season": "2024",
@@ -1622,6 +1685,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 3
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 16
       }
     ]
   },
@@ -1632,10 +1701,11 @@
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.0,
+    "total_weeks": 25,
+    "avg_rank": 6.8,
     "best_rank": 2,
     "worst_rank": 11,
     "weeks_at_1": 0,
@@ -1784,6 +1854,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 4
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 2
       }
     ]
   },
@@ -1791,14 +1867,16 @@
     "name": "Matt",
     "team_names": [
       "Art of the Deal",
+      "The Art of the Deal",
       "WHERESTUA"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 7.0,
+    "total_weeks": 25,
+    "avg_rank": 6.92,
     "best_rank": 1,
     "worst_rank": 15,
     "weeks_at_1": 2,
@@ -1947,6 +2025,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 6
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 5
       }
     ]
   },
@@ -1954,14 +2038,16 @@
     "name": "Boyle",
     "team_names": [
       "Gotham Rogues",
+      "Shough and F#ck",
       "The Jackson Brownes"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 9.38,
+    "total_weeks": 25,
+    "avg_rank": 9.32,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 3,
@@ -2110,6 +2196,12 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 7
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 8
       }
     ]
   },
@@ -2120,11 +2212,12 @@
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 12.5,
-    "best_rank": 8,
+    "total_weeks": 25,
+    "avg_rank": 12.24,
+    "best_rank": 6,
     "worst_rank": 16,
     "weeks_at_1": 0,
     "weeks_at_16": 1,
@@ -2272,21 +2365,29 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 12
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 6
       }
     ]
   },
   "Gallo": {
     "name": "Gallo",
     "team_names": [
+      "Free Paid",
       "Here Without You Tishman",
       "Scampi"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 8.08,
+    "total_weeks": 25,
+    "avg_rank": 8.16,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 6,
@@ -2435,20 +2536,28 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 1
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 10
       }
     ]
   },
   "Mikey": {
     "name": "Mikey",
     "team_names": [
+      "Pelosi's Powder",
       "Senior AI Coke Twins"
     ],
     "seasons": [
       "2024",
-      "2025"
+      "2025",
+      "2026"
     ],
-    "total_weeks": 24,
-    "avg_rank": 14.92,
+    "total_weeks": 25,
+    "avg_rank": 14.88,
     "best_rank": 11,
     "worst_rank": 16,
     "weeks_at_1": 0,
@@ -2597,6 +2706,35 @@
         "week": 99,
         "week_id": "2025-final",
         "rank": 16
+      },
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 14
+      }
+    ]
+  },
+  "Kevin": {
+    "name": "Kevin",
+    "team_names": [
+      "Tuanigamanuolepola Donny"
+    ],
+    "seasons": [
+      "2026"
+    ],
+    "total_weeks": 1,
+    "avg_rank": 15.0,
+    "best_rank": 15,
+    "worst_rank": 15,
+    "weeks_at_1": 0,
+    "weeks_at_16": 0,
+    "rankings": [
+      {
+        "season": "2026",
+        "week": 0,
+        "week_id": "2026-preseason",
+        "rank": 15
       }
     ]
   }

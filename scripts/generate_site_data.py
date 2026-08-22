@@ -8,7 +8,8 @@ import html
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
-from pdf_parser import extract_full_text, extract_images, parse_filename
+from pdf_parser import (extract_full_text, extract_images, extract_links,
+                        extract_section_anchors, parse_filename)
 from ranking_parser import parse_rankings
 
 # Paths
@@ -143,6 +144,8 @@ def get_display_label(file_info):
         return f"Midseason Review"
     elif doc_type == "final":
         return f"Final Rankings"
+    elif doc_type == "preseason":
+        return "Preseason Rankings"
     elif doc_type == "playoff_preview":
         return f"Week {week} + Playoff Preview"
     else:
@@ -161,6 +164,8 @@ def get_week_id(file_info):
         return f"{season}-midseason"
     elif doc_type == "final":
         return f"{season}-final"
+    elif doc_type == "preseason":
+        return f"{season}-preseason"
     else:
         return f"{season}-week-{week}"
 
@@ -450,6 +455,9 @@ def subsection_to_html(key, value):
         "draft_bust": ("Draft Bust", "draft-bust"),
         "best_pick": ("Best Pick", "best-pick"),
         "worst_pick": ("Worst Pick", "worst-pick"),
+        "best_value": ("Best Value", "best-pick"),
+        "biggest_reach": ("Biggest Reach", "worst-pick"),
+        "editors_note": ("Editor’s Note", "next-up"),
         "general_strategy": ("General Strategy", "strategy"),
         "x_factors": ("X-Factors", "x-factors"),
         "pick": ("The Pick", "pick"),
@@ -698,7 +706,77 @@ def _get_image_owner_override(img):
     return None
 
 
-def generate_week_html(parsed, week_id, images):
+def apply_links(html_str, links):
+    """Re-attach hyperlinks that the PDF text layer dropped.
+
+    PDF link annotations live outside the text, so extracted prose arrives with
+    no anchors. Each link carries the occurrence index of its anchor text in the
+    document, and we rewrite only that occurrence, skipping anything already
+    inside a tag or an existing anchor.
+    """
+    if not links:
+        return html_str
+
+    for link in links:
+        text = link["text"]
+        want = link["occurrence"]
+        pat = re.compile(r"\b" + re.escape(text) + r"\b")
+
+        # Split into tags and text so we never match inside markup.
+        parts = re.split(r"(<[^>]+>)", html_str)
+        seen = 0
+        in_anchor = False
+        for i, part in enumerate(parts):
+            if part.startswith("<"):
+                low = part.lower()
+                if low.startswith("<a "):
+                    in_anchor = True
+                elif low.startswith("</a"):
+                    in_anchor = False
+                continue
+            if in_anchor:
+                seen += len(pat.findall(part))
+                continue
+
+            matches = list(pat.finditer(part))
+            if seen + len(matches) <= want:
+                seen += len(matches)
+                continue
+
+            m = matches[want - seen]
+            href = html.escape(link["uri"], quote=True)
+            parts[i] = (part[:m.start()]
+                        + f'<a href="{href}" target="_blank" rel="noopener">'
+                        + m.group(0) + "</a>"
+                        + part[m.end():])
+            html_str = "".join(parts)
+            break
+        else:
+            print(f"    warning: link anchor not found in HTML: {text!r}")
+
+    return html_str
+
+
+def _team_anchors(teams, anchors):
+    """(page, y) per team in rank order, or None if unusable.
+
+    Requires every team located and headings appearing in rank order; otherwise
+    the caller falls back to spreading images evenly across pages.
+    """
+    if not anchors:
+        return None
+    out = []
+    for t in teams:
+        pos = anchors.get(t.get("owner"))
+        if pos is None:
+            return None
+        out.append(pos)
+    if any(out[i] > out[i + 1] for i in range(len(out) - 1)):
+        return None
+    return out
+
+
+def generate_week_html(parsed, week_id, images, anchors=None):
     """Generate the full HTML content for a week's rankings."""
     teams = parsed.get("teams", [])
     total_teams = len(teams)
@@ -732,10 +810,22 @@ def generate_week_html(parsed, week_id, images):
     team_images = defaultdict(list)
     if content_imgs and total_teams > 0:
         max_page = max(img["page"] for img in content_imgs)
+        # Preferred: anchor each image to the last team heading at or above it.
+        # Spreading images evenly across pages drifts whenever a team has more
+        # (or fewer) than one image.
+        team_anchors = _team_anchors(teams, anchors)
         for img in content_imgs:
             override_owner = _get_image_owner_override(img)
             if override_owner and override_owner in owner_to_idx:
                 team_idx = owner_to_idx[override_owner]
+            elif team_anchors:
+                here = (img["page"], img.get("y", 0.0))
+                team_idx = 0
+                for i, pos in enumerate(team_anchors):
+                    if pos <= here:
+                        team_idx = i
+                    else:
+                        break
             else:
                 fraction = (img["page"] - 1) / max(max_page, 1)
                 team_idx = min(int(fraction * total_teams), total_teams - 1)
@@ -980,7 +1070,8 @@ def main():
     }
 
     # ===== FIRST PASS: Parse all PDFs =====
-    parsed_weeks = []  # (file_info, parsed, images, week_id)
+    parsed_weeks = []  # (file_info, parsed, images, week_id, anchors)
+    links_by_week = {}  # week_id -> hyperlinks recovered from the PDF
     lookback_data = None
     lookback_images = None
 
@@ -998,8 +1089,15 @@ def main():
         img_prefix = week_id.replace("-", "_") + "_"
         images = extract_images(pdf_path, IMG_DIR, prefix=img_prefix)
         print(f"  Extracted {len(images)} images")
+        links_by_week[week_id] = extract_links(pdf_path)
+        if links_by_week[week_id]:
+            print(f"  Found {len(links_by_week[week_id])} hyperlinks")
 
         parsed = parse_rankings(text, file_info)
+
+        # Section positions, used to place charts under the right team.
+        owners = [t.get("owner") for t in parsed.get("teams", []) if t.get("owner")]
+        anchors = extract_section_anchors(pdf_path, owners) if owners else {}
 
         if file_info["type"] == "lookback":
             lookback_data = parsed
@@ -1009,7 +1107,7 @@ def main():
 
         team_count = len(parsed.get("teams", []))
         print(f"  {team_count} teams, {len(parsed.get('tiers', []))} tiers")
-        parsed_weeks.append((file_info, parsed, images, week_id))
+        parsed_weeks.append((file_info, parsed, images, week_id, anchors))
 
     # ===== Sort weeks chronologically =====
     season_order = {"2024": 0, "2025": 1, "special": 2}
@@ -1022,7 +1120,7 @@ def main():
 
     # ===== Compute movement from previous week =====
     prev_owner_ranks = {}
-    for file_info, parsed, images, week_id in parsed_weeks:
+    for file_info, parsed, images, week_id, anchors in parsed_weeks:
         for team in parsed.get("teams", []):
             owner = team["owner"]
             if owner and owner in prev_owner_ranks:
@@ -1045,12 +1143,13 @@ def main():
         "seasons": set(),
     })
 
-    for file_info, parsed, images, week_id in parsed_weeks:
+    for file_info, parsed, images, week_id, anchors in parsed_weeks:
         # Merge grouped teams (adjacent teams sharing a writeup)
         merge_grouped_teams(parsed)
 
         # Generate HTML content
-        week_html = generate_week_html(parsed, week_id, images)
+        week_html = generate_week_html(parsed, week_id, images, anchors=anchors)
+        week_html = apply_links(week_html, links_by_week.get(week_id, []))
 
         with open(os.path.join(DATA_DIR, f"{week_id}.html"), "w") as f:
             f.write(week_html)
@@ -1112,8 +1211,10 @@ def main():
             json.dump(lookback_json, f, indent=2, default=list)
 
     # ===== Save rankings index =====
+    # Seasons are derived from the PDFs present, so a new season needs no code change.
+    seasons = sorted({w["season"] for w in all_weeks if w["season"] != "special"})
     rankings_index = {
-        "seasons": ["2024", "2025"],
+        "seasons": seasons,
         "weeks": all_weeks,
     }
     with open(os.path.join(DATA_DIR, "rankings.json"), "w") as f:

@@ -58,6 +58,11 @@ TEAM_OWNER_MAP = {
     "pelosi's powder": "Mikey",
     "tuanigamanuolepola donny": "Kevin",
     "tuanigamanuolepola": "Kevin",
+    "shough and f#ck": "Boyle",
+    "shough and fuck": "Boyle",
+    "free paid": "Gallo",
+    "hello darkness my old friend": "Paul",
+    "hello darkness": "Paul",
 }
 
 
@@ -395,6 +400,14 @@ def _finalize_team(team, text_lines):
     if steal or bust:
         full_text = re.sub(r'\nDraft (?:Steal|Bust):.*$', '', full_text, flags=re.DOTALL).strip()
 
+    # Editor's Note. These are appended after the pick callouts, so they must be
+    # lifted out before those are stripped or they would be discarded with them.
+    editor = re.search(r"(?:^|\n)Editor.s Note:\s*(.+?)(?=\n\n|\Z)", full_text, re.DOTALL)
+    if editor:
+        subsections["editors_note"] = " ".join(editor.group(1).split())
+        full_text = re.sub(r"(?:^|\n)Editor.s Note:.*?(?=\n\n|\Z)", "", full_text,
+                           flags=re.DOTALL).strip()
+
     # Best Pick / Worst Pick
     best = re.search(r'(?:^|\n)Best [Pp]ick:\s*(.+?)(?=\n(?:Worst|Best) [Pp]ick:|\n\n|\Z)', full_text, re.DOTALL)
     worst = re.search(r'(?:^|\n)Worst [Pp]ick:\s*(.+?)(?:\n\n|\Z)', full_text, re.DOTALL)
@@ -404,6 +417,19 @@ def _finalize_team(team, text_lines):
         subsections["worst_pick"] = worst.group(1).strip()
     if best or worst:
         full_text = re.sub(r'\n(?:Best|Worst) [Pp]ick:.*$', '', full_text, flags=re.DOTALL).strip()
+
+    # Best Value / Biggest Reach (the 2026 wording for the same two callouts)
+    value = re.search(r'(?:^|\n)Best [Vv]alue:\s*(.+?)(?=\n(?:Biggest [Rr]each|Best [Vv]alue):|\n\n|\Z)',
+                      full_text, re.DOTALL)
+    reach = re.search(r'(?:^|\n)Biggest [Rr]each:\s*(.+?)(?=\n(?:Biggest [Rr]each|Best [Vv]alue):|\n\n|\Z)',
+                      full_text, re.DOTALL)
+    if value:
+        subsections["best_value"] = value.group(1).strip()
+    if reach:
+        subsections["biggest_reach"] = reach.group(1).strip()
+    if value or reach:
+        full_text = re.sub(r'\n(?:Best [Vv]alue|Biggest [Rr]each):.*$', '', full_text,
+                           flags=re.DOTALL).strip()
 
     # General Strategy
     strat = re.search(r'(?:^|\n)General Strategy:\s*(.+?)(?:\n\n|\Z)', full_text, re.DOTALL)
