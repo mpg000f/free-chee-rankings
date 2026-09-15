@@ -1,6 +1,7 @@
 """Master script: parse all PDFs and generate JSON data + HTML content for the site."""
 
 import os
+import shutil
 import sys
 import json
 import re
@@ -25,6 +26,7 @@ os.makedirs(IMG_DIR, exist_ok=True)
 # ===== IMAGE OVERRIDES =====
 # Images to skip entirely (by filename substring match)
 SKIP_IMAGES = {
+    "2026_week_2_p1_1",    # static scatter, replaced by the interactive embed
     "2024_week_15_p7_1",   # Excel rankings history screenshot
     "2025_week_13_p2_1",   # Zach Wilson / JJ McCarthy picture
     "2025_week_4_p9_1",    # CJ Stroud vs Caleb Williams comparison
@@ -53,6 +55,12 @@ REMOVE_SECTIONS = {
                    r'(?i)^final round$', r'(?i)^relegation preview$'],
     "2024-week-14": [r'(?i)^matchup previews?$'],
     "2024-week-15": [r'(?i)^matchup previews?$', r'(?i)^rankings history'],
+}
+
+# Interactive chart embedded in a week, replacing the static image of the same
+# figure. Key is week_id; value is a file in scripts/embeds/ copied into data/.
+WEEK_EMBEDS = {
+    "2026-week-2": "2026-week-2-scatter.html",
 }
 
 # ===== POWER TRIOS DATA (transcribed from PDF screenshots) =====
@@ -417,6 +425,10 @@ def writeup_to_html(text, bullets=False):
     markers become a nested list instead of being flattened into a paragraph."""
     if not text:
         return ""
+    # Word writes an empty paragraph as a line holding a single space, which
+    # would otherwise read as a line wrap rather than a paragraph break.
+    text = re.sub(r"\n[ \t]+(?=\n)", "\n", text)
+
     # Escape HTML entities
     text = html.escape(text)
 
@@ -769,7 +781,7 @@ def _team_anchors(teams, anchors):
         return None
     out = []
     for t in teams:
-        pos = anchors.get(t.get("owner"))
+        pos = anchors.get(t.get("team_name"))
         if pos is None:
             return None
         out.append(pos)
@@ -802,8 +814,28 @@ def generate_week_html(parsed, week_id, images, anchors=None):
 
     # Filter and categorize images
     filtered_images = [img for img in images if not _should_skip_image(img)]
-    header_imgs = [img for img in filtered_images if img["page"] <= 1]
-    content_imgs = [img for img in filtered_images if img["page"] > 1]
+
+    # Anything sitting above the first team heading belongs to the intro, whatever
+    # page it lands on; a long intro can push a chart onto page 2.
+    team_anchors = _team_anchors(teams, anchors)
+    if team_anchors:
+        first = team_anchors[0]
+        header_imgs = [i for i in filtered_images
+                       if (i["page"], i.get("y", 0.0)) < first]
+        content_imgs = [i for i in filtered_images
+                        if (i["page"], i.get("y", 0.0)) >= first]
+    else:
+        header_imgs = [img for img in filtered_images if img["page"] <= 1]
+        content_imgs = [img for img in filtered_images if img["page"] > 1]
+
+    embed = WEEK_EMBEDS.get(week_id)
+    if embed:
+        parts.append(
+            f'<div class="chart-embed">'
+            f'<iframe src="data/{embed}" title="Interactive chart" '
+            f'loading="lazy" scrolling="no" style="width:100%;border:0;height:700px;">'
+            f'</iframe></div>'
+        )
 
     for img in header_imgs:
         parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
@@ -815,7 +847,6 @@ def generate_week_html(parsed, week_id, images, anchors=None):
         # Preferred: anchor each image to the last team heading at or above it.
         # Spreading images evenly across pages drifts whenever a team has more
         # (or fewer) than one image.
-        team_anchors = _team_anchors(teams, anchors)
         for img in content_imgs:
             override_owner = _get_image_owner_override(img)
             if override_owner and override_owner in owner_to_idx:
@@ -1098,8 +1129,9 @@ def main():
         parsed = parse_rankings(text, file_info)
 
         # Section positions, used to place charts under the right team.
-        owners = [t.get("owner") for t in parsed.get("teams", []) if t.get("owner")]
-        anchors = extract_section_anchors(pdf_path, owners) if owners else {}
+        sections = [(t.get("team_name"), t.get("owner"))
+                    for t in parsed.get("teams", []) if t.get("team_name")]
+        anchors = extract_section_anchors(pdf_path, sections) if sections else {}
 
         if file_info["type"] == "lookback":
             lookback_data = parsed
@@ -1211,6 +1243,16 @@ def main():
         }
         with open(os.path.join(DATA_DIR, "lookback.json"), "w") as f:
             json.dump(lookback_json, f, indent=2, default=list)
+
+    # ===== Copy interactive embeds into data/ =====
+    embed_src = os.path.join(os.path.dirname(os.path.abspath(__file__)), "embeds")
+    for week_id, fname in WEEK_EMBEDS.items():
+        src = os.path.join(embed_src, fname)
+        if os.path.exists(src):
+            shutil.copy2(src, os.path.join(DATA_DIR, fname))
+            print(f"  embed: {fname}")
+        else:
+            print(f"  warning: missing embed {src}")
 
     # ===== Save rankings index =====
     # Seasons are derived from the PDFs present, so a new season needs no code change.

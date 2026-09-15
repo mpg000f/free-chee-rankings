@@ -236,6 +236,9 @@ def parse_rankings(text, file_info):
                 current_text.append("")
             elif in_special:
                 special_text.append("")
+            elif in_intro:
+                # keep intro paragraph breaks; the renderer splits on blank lines
+                intro_lines.append("")
             continue
 
         # Check for tier header

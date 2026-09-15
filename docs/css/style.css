@@ -2028,3 +2028,12 @@ h3 { font-size: 1.2rem; }
   .cta-card { padding: 1rem; }
   .cta-card h3 { font-size: 1.15rem; margin-bottom: .25rem; }
 }
+
+.chart-embed {
+  margin: 1.5rem 0;
+  border: 1px solid var(--surface-light);
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--surface);
+}
+.chart-embed iframe { display: block; width: 100%; border: 0; }

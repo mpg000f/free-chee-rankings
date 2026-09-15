@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Preseason Rank vs Week 1 Finish</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #191b1e; }
+  .viz-root {
+    color-scheme: dark;
+    --surface-1: #191b1e;
+    --text-primary: #e8e6e3;
+    --text-secondary: #9b98a0;
+    --muted: #9b98a0;
+    --grid: #262a2e;
+    --axis: #3a3f44;
+    --series-1: #2ec76b;
+    --border: rgba(232,230,227,0.14);
+    --chip: rgba(232,230,227,0.06);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--surface-1);
+    color: var(--text-primary);
+    padding: 18px 18px 8px;
+    max-width: none;
+    margin: 0;
+    position: relative;
+  }
+  h1 { font-size: 17px; font-weight: 600; margin: 0 0 10px; letter-spacing: -0.01em; }
+  .controls { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .controls button {
+    font: inherit; font-size: 12.5px; padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--border); background: transparent; color: var(--text-secondary); cursor: pointer;
+  }
+  .controls button:hover { background: var(--chip); }
+  .controls button[aria-pressed="true"] { background: var(--series-1); border-color: var(--series-1); color: #fff; font-weight: 500; }
+  .sub { font-size: 13px; color: var(--text-secondary); margin: 0 0 16px; line-height: 1.45; min-height: 38px; }
+  svg { display: block; width: 100%; height: auto; overflow: visible; }
+  .grid-line { stroke: var(--grid); stroke-width: 1; }
+  .axis-line { stroke: var(--axis); stroke-width: 1; }
+  .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+  .axis-title { fill: var(--text-secondary); font-size: 12px; font-weight: 500; }
+  .dot { fill: var(--series-1); stroke: var(--surface-1); stroke-width: 2; }
+  .dot.faded { fill: var(--muted); opacity: .35; }
+  .hit { fill: transparent; cursor: pointer; }
+  .ref { stroke: var(--muted); stroke-width: 2; stroke-dasharray: 5 4; fill: none; }
+  .ref-label { fill: var(--muted); font-size: 11px; }
+  .pt-label { fill: var(--text-secondary); font-size: 11px; font-weight: 500; }
+  .tip {
+    position: absolute; pointer-events: none; opacity: 0; transform: translate(-50%, -100%);
+    background: var(--surface-1); color: var(--text-primary);
+    border: 1px solid var(--border); border-radius: 8px; padding: 7px 10px;
+    font-size: 12px; line-height: 1.4; box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+    white-space: nowrap; transition: opacity .1s ease;
+  }
+  .tip span { color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+  details { margin-top: 22px; border-top: 1px solid var(--border); padding-top: 14px; }
+  summary { font-size: 13px; color: var(--text-secondary); cursor: pointer; }
+  .tbl-wrap { overflow-x: auto; margin-top: 12px; }
+  table { border-collapse: collapse; font-size: 12.5px; width: 100%; }
+  th, td { padding: 6px 10px; text-align: right; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--text-secondary); font-weight: 600; }
+  td { font-variant-numeric: tabular-nums; }
+  tr.dropped td { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <h1>Preseason rank vs. Week 1 scoring rank</h1>
+
+  <div class="controls" role="group" aria-label="Which teams to include">
+    <button id="btn-all" aria-pressed="true">All 16 teams</button>
+    <button id="btn-trim" aria-pressed="false">Without the two outliers</button>
+  </div>
+
+  <p class="sub" id="sub"></p>
+
+  <svg id="chart" viewBox="0 0 860 470" role="img" aria-label="Scatterplot of preseason rank against rank by final Week 1 points">
+    <g id="gridlines"></g><g id="axes"></g><g id="marks"></g>
+  </svg>
+
+  <div class="tip" id="tip"></div>
+
+  <details>
+    <summary>View the data as a table</summary>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Team</th><th>Week 1 points</th><th>Preseason rank</th><th>Scoring rank</th><th>Slots moved</th></tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </details>
+</div>
+
+<script>
+const RAW = [
+  ["Boone", 1, 161.36], ["Pigs on the 7th Rank", 2, 136.26], ["Charles Dickens", 3, 114.18],
+  ["Nick Wright Barely Legal", 4, 143.16], ["The Art of the Deal", 5, 73.30], ["Ger", 6, 122.66],
+  ["Ginny Sack", 7, 120.84], ["Shough and F#ck", 8, 128.66], ["Phenom", 9, 103.82],
+  ["Free Paid", 10, 78.84], ["Hello Darkness My Old Friend", 11, 157.90], ["Healthy as a Fucking Rhino", 12, 109.14],
+  ["Stewed C", 13, 105.02], ["Pelosi's Powder", 14, 105.90], ["Tuanigamanuolepola Donny", 15, 83.60],
+  ["Work Ass", 16, 60.40]
+];
+const DROPPED = new Set(["The Art of the Deal", "Hello Darkness My Old Friend"]);
+
+// rank a set of rows within itself: preseason order and final-points order
+function buildSet(rows) {
+  const preOrder = [...rows].sort((a, b) => a[1] - b[1]);
+  const ptsOrder = [...rows].sort((a, b) => b[2] - a[2]);
+  const pre = new Map(preOrder.map((d, i) => [d[0], i + 1]));
+  const prj = new Map(ptsOrder.map((d, i) => [d[0], i + 1]));
+  return rows.map(([name, , pts]) => ({
+    name, pts, x: pre.get(name), y: prj.get(name), moved: pre.get(name) - prj.get(name)
+  }));
+}
+const SETS = {
+  all:  { pts: buildSet(RAW), n: 16, rho: 0.59, ci: "0.14 to 0.84",
+          sub: "All 16 teams, both axes as ranks, using final Week 1 points. The dashed diagonal is perfect agreement; vertical distance from it is slots moved. Spearman ρ = 0.59 (95% CI 0.14 to 0.84).",
+          labels: { "The Art of the Deal": [0, -16, "middle"], "Hello Darkness My Old Friend": [0, 22, "middle"],
+                    "Charles Dickens": [0, 22, "middle"], "Pelosi's Powder": [0, -16, "middle"] } },
+  trim: { pts: buildSet(RAW.filter(r => !DROPPED.has(r[0]))), n: 14, rho: 0.85, ci: "0.57 to 0.95",
+          sub: "The Art of the Deal and Hello Darkness dropped, the other 14 re-ranked 1–14. Spearman ρ = 0.85 (95% CI 0.57 to 0.95) — but those two were the furthest from the line, so removing them has to raise it.",
+          labels: { "Charles Dickens": [0, 22, "middle"], "Shough and F#ck": [0, -16, "middle"],
+                    "Pelosi's Powder": [0, -16, "middle"], "Free Paid": [0, 22, "middle"] } }
+};
+
+const W = 860, H = 470, M = { t: 18, r: 24, b: 52, l: 70 };
+const pw = W - M.l - M.r, ph = H - M.t - M.b;
+const ns = "http://www.w3.org/2000/svg";
+const el = (n, a) => { const e = document.createElementNS(ns, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+const fmt = n => (n >= 0 ? "+" : "") + n;
+
+const gGrid = document.getElementById("gridlines"), gAxes = document.getElementById("axes"), gMarks = document.getElementById("marks");
+const tip = document.getElementById("tip"), root = document.querySelector(".viz-root");
+let mode = "all";
+
+function render() {
+  const S = SETS[mode], n = S.n, lo = 0.5, hi = n + 0.5;
+  const sx = v => M.l + (hi - v) / (hi - lo) * pw;     // worst rank at left, rank 1 at right
+  const sy = v => M.t + (v - lo) / (hi - lo) * ph;     // rank 1 at top
+
+  [gGrid, gAxes, gMarks].forEach(g => { while (g.firstChild) g.removeChild(g.firstChild); });
+  document.getElementById("sub").textContent = S.sub;
+  document.getElementById("btn-all").setAttribute("aria-pressed", mode === "all");
+  document.getElementById("btn-trim").setAttribute("aria-pressed", mode === "trim");
+
+  const yTicks = n === 16 ? [1, 4, 8, 12, 16] : [1, 4, 7, 10, 14];
+  yTicks.forEach(v => {
+    gGrid.appendChild(el("line", { class: "grid-line", x1: M.l, x2: M.l + pw, y1: sy(v), y2: sy(v) }));
+    const t = el("text", { class: "tick", x: M.l - 10, y: sy(v) + 4, "text-anchor": "end" });
+    t.textContent = v; gAxes.appendChild(t);
+  });
+
+  const baseY = sy(hi);
+  gAxes.appendChild(el("line", { class: "axis-line", x1: M.l, x2: M.l + pw, y1: baseY, y2: baseY }));
+  for (let r = 1; r <= n; r++) {
+    const t = el("text", { class: "tick", x: sx(r), y: baseY + 18, "text-anchor": "middle" });
+    t.textContent = r; gAxes.appendChild(t);
+  }
+  const xt = el("text", { class: "axis-title", x: M.l + pw / 2, y: H - 8, "text-anchor": "middle" });
+  xt.textContent = `Preseason rank  (${n} = worst, 1 = best)`; gAxes.appendChild(xt);
+  const yt = el("text", { class: "axis-title", x: -(M.t + ph / 2), y: 14, transform: "rotate(-90)", "text-anchor": "middle" });
+  yt.textContent = "Rank by Week 1 points  (1 = highest)"; gAxes.appendChild(yt);
+
+  gMarks.appendChild(el("line", { class: "ref", x1: sx(1), y1: sy(1), x2: sx(n), y2: sy(n) }));
+  const mid = (n + 1) / 2 + 1;
+  const rl = el("text", { class: "ref-label", x: sx(mid), y: sy(mid) + 30, "text-anchor": "middle" });
+  rl.textContent = "perfect agreement"; gMarks.appendChild(rl);
+
+  S.pts.forEach(d => {
+    const cx = sx(d.x), cy = sy(d.y);
+    const hit = el("circle", { class: "hit", cx, cy, r: 18 });
+    const dot = el("circle", { class: "dot", cx, cy, r: 6.5 });
+    hit.addEventListener("mousemove", ev => {
+      const rb = root.getBoundingClientRect();
+      tip.innerHTML = `<b>${d.name}</b><br><span>Preseason ${d.x} &middot; scoring ${d.y} &middot; ${d.moved === 0 ? "no move" : fmt(d.moved) + " slots"} &middot; ${d.pts.toFixed(2)} pts</span>`;
+      tip.style.left = (ev.clientX - rb.left) + "px";
+      tip.style.top = (ev.clientY - rb.top - 12) + "px";
+      tip.style.opacity = 1;
+    });
+    hit.addEventListener("mouseleave", () => { tip.style.opacity = 0; });
+    gMarks.appendChild(hit); gMarks.appendChild(dot);
+
+    const L = S.labels[d.name];
+    if (L) {
+      const lab = el("text", { class: "pt-label", x: cx + L[0], y: cy + L[1], "text-anchor": L[2] });
+      lab.textContent = d.name; gMarks.appendChild(lab);
+    }
+  });
+
+  const rows = new Map(S.pts.map(d => [d.name, d]));
+  document.getElementById("tbody").innerHTML = RAW.map(([name, , pts]) => {
+    const d = rows.get(name);
+    if (!d) return `<tr class="dropped"><td>${name}</td><td>${pts.toFixed(2)}</td><td colspan="3">excluded</td></tr>`;
+    return `<tr><td>${name}</td><td>${pts.toFixed(2)}</td><td>${d.x}</td><td>${d.y}</td><td>${d.moved === 0 ? "—" : fmt(d.moved)}</td></tr>`;
+  }).join("");
+}
+
+document.getElementById("btn-all").addEventListener("click", () => { mode = "all"; render(); });
+document.getElementById("btn-trim").addEventListener("click", () => { mode = "trim"; render(); });
+render();
+
+// tell the host page how tall we are, so the iframe can size to content
+function reportHeight() {
+  const h = Math.ceil(document.documentElement.getBoundingClientRect().height) + 4;
+  parent.postMessage({ type: "embed-height", height: h }, "*");
+}
+window.addEventListener("load", reportHeight);
+window.addEventListener("resize", reportHeight);
+document.addEventListener("click", () => setTimeout(reportHeight, 60));
+document.addEventListener("toggle", () => setTimeout(reportHeight, 60), true);
+</script>
+</body>
+</html>

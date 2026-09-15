@@ -116,7 +116,16 @@
     const btn = e.target.closest('.season-btn');
     if (!btn) return;
     currentSeason = btn.dataset.season;
-    renderSeasons();
+  
+  // Interactive chart embeds report their height so the iframe can fit content.
+  window.addEventListener('message', e => {
+    if (!e.data || e.data.type !== 'embed-height') return;
+    document.querySelectorAll('.chart-embed iframe').forEach(f => {
+      if (f.contentWindow === e.source) f.style.height = e.data.height + 'px';
+    });
+  });
+
+  renderSeasons();
     // Load first week of new season
     const weeks = index.weeks.filter(w => w.season === currentSeason);
     if (weeks.length) loadWeek(weeks[0].week_id);

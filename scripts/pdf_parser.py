@@ -140,16 +140,30 @@ def extract_links(pdf_path):
     return links
 
 
-def extract_section_anchors(pdf_path, owners):
-    """Locate each owner's section heading as (page, y).
+def _heading_key(text):
+    """Normalize a heading for comparison: drop rank number, owner suffix, punctuation."""
+    t = re.sub(r"^\s*\d+[.)]\s*", "", text.strip())
+    t = re.sub(r"\s*\([^)]*\)\s*$", "", t)
+    return re.sub(r"[^a-z0-9]", "", t.lower())
 
-    Headings read "Team Name (Owner)" or, for a one-word team, just the owner,
-    optionally numbered. Returns {owner: (page, y)} for those found.
+
+def extract_section_anchors(pdf_path, sections):
+    """Locate each team's section heading as (page, y).
+
+    `sections` is a list of (team_name, owner). A heading is matched either by
+    its team name or by a trailing "(Owner)" -- documents use either, and some
+    write an owner name that is not the canonical one, so team name is tried
+    first. Returns {team_name: (page, y)} for those found.
     """
     doc = fitz.open(pdf_path)
-    lowered = {o.lower(): o for o in owners}
-    out = {}
+    by_name = {}
+    by_owner = {}
+    for name, owner in sections:
+        by_name.setdefault(_heading_key(name), name)
+        if owner:
+            by_owner.setdefault(owner.lower(), name)
 
+    out = {}
     for page_no, page in enumerate(doc, start=1):
         for block in page.get_text("blocks"):
             y0, text = block[1], block[4]
@@ -157,11 +171,13 @@ def extract_section_anchors(pdf_path, owners):
                 line = line.strip()
                 if not line or len(line) > 70:
                     continue
-                m = re.match(r"^.*?\(([A-Za-z]+)\)$", line)
-                candidate = m.group(1) if m else re.sub(r"^\d+[.)]\s*", "", line)
-                owner = lowered.get(candidate.lower())
-                if owner and owner not in out:
-                    out[owner] = (page_no, y0)
+                hit = by_name.get(_heading_key(line))
+                if hit is None:
+                    m = re.match(r"^.*?\(([A-Za-z]+)\)$", line)
+                    if m:
+                        hit = by_owner.get(m.group(1).lower())
+                if hit is not None and hit not in out:
+                    out[hit] = (page_no, y0)
 
     doc.close()
     return out
