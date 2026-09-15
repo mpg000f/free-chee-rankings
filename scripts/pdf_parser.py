@@ -140,6 +140,19 @@ def extract_links(pdf_path):
     return links
 
 
+def extract_blocks(pdf_path):
+    """Text blocks with their positions: [{page, y, text}] in reading order."""
+    doc = fitz.open(pdf_path)
+    out = []
+    for page_no, page in enumerate(doc, start=1):
+        for b in page.get_text("blocks"):
+            text = " ".join(b[4].split())
+            if text:
+                out.append({"page": page_no, "y": b[1], "text": text})
+    doc.close()
+    return out
+
+
 def _heading_key(text):
     """Normalize a heading for comparison: drop rank number, owner suffix, punctuation."""
     t = re.sub(r"^\s*\d+[.)]\s*", "", text.strip())

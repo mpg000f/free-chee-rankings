@@ -9,8 +9,8 @@ import html
 from collections import defaultdict
 
 sys.path.insert(0, os.path.dirname(__file__))
-from pdf_parser import (extract_full_text, extract_images, extract_links,
-                        extract_section_anchors, parse_filename)
+from pdf_parser import (extract_blocks, extract_full_text, extract_images,
+                        extract_links, extract_section_anchors, parse_filename)
 from ranking_parser import parse_rankings
 
 # Paths
@@ -771,6 +771,18 @@ def apply_links(html_str, links):
     return html_str
 
 
+def _locate(paragraph, blocks):
+    """(page, y) of the block containing this paragraph's opening words."""
+    key = re.sub(r"[^a-z0-9 ]", "", " ".join(paragraph.split())[:44].lower()).strip()
+    if not key or not blocks:
+        return None
+    for b in blocks:
+        hay = re.sub(r"[^a-z0-9 ]", "", b["text"].lower())
+        if key and key in hay:
+            return (b["page"], b["y"])
+    return None
+
+
 def _team_anchors(teams, anchors):
     """(page, y) per team in rank order, or None if unusable.
 
@@ -790,7 +802,7 @@ def _team_anchors(teams, anchors):
     return out
 
 
-def generate_week_html(parsed, week_id, images, anchors=None):
+def generate_week_html(parsed, week_id, images, anchors=None, blocks=None):
     """Generate the full HTML content for a week's rankings."""
     teams = parsed.get("teams", [])
     total_teams = len(teams)
@@ -801,16 +813,6 @@ def generate_week_html(parsed, week_id, images, anchors=None):
     for idx, team in enumerate(teams):
         if team["owner"] and team["owner"] not in owner_to_idx:
             owner_to_idx[team["owner"]] = idx
-
-    # Intro (check for inline odds table)
-    if parsed.get("intro"):
-        intro_text = parsed["intro"]
-        converted = _convert_inline_odds_table(intro_text)
-        if converted != intro_text:
-            # Was converted to HTML table
-            parts.append(f'<div class="intro">{converted}</div>')
-        else:
-            parts.append(f'<div class="intro">{writeup_to_html(intro_text)}</div>')
 
     # Filter and categorize images
     filtered_images = [img for img in images if not _should_skip_image(img)]
@@ -828,17 +830,60 @@ def generate_week_html(parsed, week_id, images, anchors=None):
         header_imgs = [img for img in filtered_images if img["page"] <= 1]
         content_imgs = [img for img in filtered_images if img["page"] > 1]
 
-    embed = WEEK_EMBEDS.get(week_id)
-    if embed:
-        parts.append(
-            f'<div class="chart-embed">'
-            f'<iframe src="data/{embed}" title="Interactive chart" '
-            f'loading="lazy" scrolling="no" style="width:100%;border:0;height:700px;">'
-            f'</iframe></div>'
-        )
+    def _img_html(img):
+        return (f'<div class="article-image"><img src="images/{img["filename"]}" '
+                f'alt="Chart" loading="lazy"></div>')
 
-    for img in header_imgs:
-        parts.append(f'<div class="article-image"><img src="images/{img["filename"]}" alt="Chart" loading="lazy"></div>')
+    embed = WEEK_EMBEDS.get(week_id)
+    embed_html = (
+        f'<div class="chart-embed">'
+        f'<iframe src="data/{embed}" title="Interactive chart" '
+        f'loading="lazy" scrolling="no" style="width:100%;border:0;height:700px;">'
+        f'</iframe></div>'
+    ) if embed else None
+    # the embed stands in for a skipped static figure, so it inherits its position
+    embed_pos = next(((i["page"], i.get("y", 0.0)) for i in images
+                      if _should_skip_image(i)), None)
+
+    # ===== Intro: interleave prose and figures in document order =====
+    intro_text = parsed.get("intro") or ""
+    converted = _convert_inline_odds_table(intro_text) if intro_text else ""
+    paragraphs = [p for p in re.split(r"\n\s*\n", intro_text) if p.strip()]
+    positions = [_locate(p, blocks) for p in paragraphs] if blocks else []
+
+    # Only interleave when every paragraph was located and the order holds.
+    can_interleave = (
+        intro_text and converted == intro_text and len(paragraphs) > 1
+        and positions and all(p is not None for p in positions)
+        and all(positions[i] <= positions[i + 1] for i in range(len(positions) - 1))
+    )
+
+    if can_interleave:
+        items = [(pos, "text", para) for pos, para in zip(positions, paragraphs)]
+        items += [((i["page"], i.get("y", 0.0)), "img", i) for i in header_imgs]
+        if embed_html:
+            items.append((embed_pos or positions[0], "embed", embed_html))
+        items.sort(key=lambda it: it[0])
+
+        buf = []
+        for _, kind, payload in items:
+            if kind == "text":
+                buf.append(payload)
+                continue
+            if buf:
+                parts.append(f'<div class="intro">{writeup_to_html((chr(10)*2).join(buf))}</div>')
+                buf = []
+            parts.append(payload if kind == "embed" else _img_html(payload))
+        if buf:
+            parts.append(f'<div class="intro">{writeup_to_html((chr(10)*2).join(buf))}</div>')
+    else:
+        if intro_text:
+            body = converted if converted != intro_text else writeup_to_html(intro_text)
+            parts.append(f'<div class="intro">{body}</div>')
+        if embed_html:
+            parts.append(embed_html)
+        for img in header_imgs:
+            parts.append(_img_html(img))
 
     # Map content images to team indices based on page position or owner override
     team_images = defaultdict(list)
@@ -1103,7 +1148,7 @@ def main():
     }
 
     # ===== FIRST PASS: Parse all PDFs =====
-    parsed_weeks = []  # (file_info, parsed, images, week_id, anchors)
+    parsed_weeks = []  # (file_info, parsed, images, week_id, anchors, blocks)
     links_by_week = {}  # week_id -> hyperlinks recovered from the PDF
     lookback_data = None
     lookback_images = None
@@ -1142,6 +1187,7 @@ def main():
                 sections += [(name, alias) for alias, canon in OWNER_CONSOLIDATION.items()
                              if canon == owner]
         anchors = extract_section_anchors(pdf_path, sections) if sections else {}
+        blocks = extract_blocks(pdf_path)
 
         if file_info["type"] == "lookback":
             lookback_data = parsed
@@ -1151,7 +1197,7 @@ def main():
 
         team_count = len(parsed.get("teams", []))
         print(f"  {team_count} teams, {len(parsed.get('tiers', []))} tiers")
-        parsed_weeks.append((file_info, parsed, images, week_id, anchors))
+        parsed_weeks.append((file_info, parsed, images, week_id, anchors, blocks))
 
     # ===== Sort weeks chronologically =====
     season_order = {"2024": 0, "2025": 1, "special": 2}
@@ -1164,7 +1210,7 @@ def main():
 
     # ===== Compute movement from previous week =====
     prev_owner_ranks = {}
-    for file_info, parsed, images, week_id, anchors in parsed_weeks:
+    for file_info, parsed, images, week_id, anchors, blocks in parsed_weeks:
         for team in parsed.get("teams", []):
             owner = team["owner"]
             if owner and owner in prev_owner_ranks:
@@ -1187,12 +1233,13 @@ def main():
         "seasons": set(),
     })
 
-    for file_info, parsed, images, week_id, anchors in parsed_weeks:
+    for file_info, parsed, images, week_id, anchors, blocks in parsed_weeks:
         # Merge grouped teams (adjacent teams sharing a writeup)
         merge_grouped_teams(parsed)
 
         # Generate HTML content
-        week_html = generate_week_html(parsed, week_id, images, anchors=anchors)
+        week_html = generate_week_html(parsed, week_id, images, anchors=anchors,
+                                       blocks=blocks)
         week_html = apply_links(week_html, links_by_week.get(week_id, []))
 
         with open(os.path.join(DATA_DIR, f"{week_id}.html"), "w") as f:
