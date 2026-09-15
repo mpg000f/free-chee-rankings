@@ -1129,8 +1129,18 @@ def main():
         parsed = parse_rankings(text, file_info)
 
         # Section positions, used to place charts under the right team.
-        sections = [(t.get("team_name"), t.get("owner"))
-                    for t in parsed.get("teams", []) if t.get("team_name")]
+        # Include known aliases so a heading written as "(Zaukas)" still anchors
+        # to Paul even if the team name changes.
+        from owner_mapping import OWNER_CONSOLIDATION
+        sections = []
+        for t in parsed.get("teams", []):
+            name, owner = t.get("team_name"), t.get("owner")
+            if not name:
+                continue
+            sections.append((name, owner))
+            if owner:
+                sections += [(name, alias) for alias, canon in OWNER_CONSOLIDATION.items()
+                             if canon == owner]
         anchors = extract_section_anchors(pdf_path, sections) if sections else {}
 
         if file_info["type"] == "lookback":
