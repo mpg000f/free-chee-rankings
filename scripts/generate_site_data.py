@@ -458,6 +458,8 @@ def subsection_to_html(key, value):
         "best_value": ("Best Value", "best-pick"),
         "biggest_reach": ("Biggest Reach", "worst-pick"),
         "editors_note": ("Editor’s Note", "next-up"),
+        "fact": ("Fact", "draft-steal"),
+        "fiction": ("Fiction", "draft-bust"),
         "general_strategy": ("General Strategy", "strategy"),
         "x_factors": ("X-Factors", "x-factors"),
         "pick": ("The Pick", "pick"),

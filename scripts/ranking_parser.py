@@ -216,8 +216,9 @@ def parse_rankings(text, file_info):
     in_special = None
     special_text = []
 
+    # "Tier Two: The Favorites" or a bare "Tier Two" with no label
     tier_pattern = re.compile(
-        r'^(?:Tier\s+(?:One|Two|Three|Four|\d+))\s*:\s*(.+)$', re.IGNORECASE
+        r'^(Tier\s+(?:One|Two|Three|Four|Five|\d+))\s*(?::\s*(.+))?$', re.IGNORECASE
     )
 
     bracket_pattern = re.compile(
@@ -250,7 +251,7 @@ def parse_rankings(text, file_info):
                 in_special = None
                 special_text = []
             in_intro = False
-            tier_name = tier_match.group(1).strip()
+            tier_name = (tier_match.group(2) or tier_match.group(1)).strip()
             current_tier = {"name": tier_name, "full": line}
             result["tiers"].append(current_tier)
             continue
@@ -406,6 +407,19 @@ def _finalize_team(team, text_lines):
     if editor:
         subsections["editors_note"] = " ".join(editor.group(1).split())
         full_text = re.sub(r"(?:^|\n)Editor.s Note:.*?(?=\n\n|\Z)", "", full_text,
+                           flags=re.DOTALL).strip()
+
+    # Fact / Fiction (the 2026 in-season format)
+    fact = re.search(r"(?:^|\n)Fact:\s*(.+?)(?=\n(?:Fact|Fiction):|\n\n|\Z)",
+                     full_text, re.DOTALL)
+    fiction = re.search(r"(?:^|\n)Fiction:\s*(.+?)(?=\n(?:Fact|Fiction):|\n\n|\Z)",
+                        full_text, re.DOTALL)
+    if fact:
+        subsections["fact"] = " ".join(fact.group(1).split())
+    if fiction:
+        subsections["fiction"] = " ".join(fiction.group(1).split())
+    if fact or fiction:
+        full_text = re.sub(r"(?:^|\n)(?:Fact|Fiction):.*$", "", full_text,
                            flags=re.DOTALL).strip()
 
     # Best Pick / Worst Pick

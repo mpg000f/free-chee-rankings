@@ -9,8 +9,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 5.64,
+    "total_weeks": 26,
+    "avg_rank": 5.88,
     "best_rank": 1,
     "worst_rank": 13,
     "weeks_at_1": 4,
@@ -165,6 +165,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 13
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 12
       }
     ]
   },
@@ -180,8 +186,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 7.72,
+    "total_weeks": 26,
+    "avg_rank": 7.65,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 2,
@@ -336,6 +342,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 4
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 6
       }
     ]
   },
@@ -350,8 +362,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 4.68,
+    "total_weeks": 26,
+    "avg_rank": 4.81,
     "best_rank": 2,
     "worst_rank": 11,
     "weeks_at_1": 0,
@@ -506,6 +518,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 7
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 8
       }
     ]
   },
@@ -684,8 +702,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 7.16,
+    "total_weeks": 26,
+    "avg_rank": 7.15,
     "best_rank": 2,
     "worst_rank": 14,
     "weeks_at_1": 0,
@@ -840,6 +858,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 3
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 7
       }
     ]
   },
@@ -854,8 +878,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 8.32,
+    "total_weeks": 26,
+    "avg_rank": 8.38,
     "best_rank": 1,
     "worst_rank": 15,
     "weeks_at_1": 5,
@@ -1010,6 +1034,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 9
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 10
       }
     ]
   },
@@ -1025,9 +1055,9 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 10.56,
-    "best_rank": 5,
+    "total_weeks": 26,
+    "avg_rank": 10.31,
+    "best_rank": 4,
     "worst_rank": 16,
     "weeks_at_1": 0,
     "weeks_at_16": 2,
@@ -1181,6 +1211,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 11
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 4
       }
     ]
   },
@@ -1196,11 +1232,11 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 5.72,
+    "total_weeks": 26,
+    "avg_rank": 5.54,
     "best_rank": 1,
     "worst_rank": 11,
-    "weeks_at_1": 2,
+    "weeks_at_1": 3,
     "weeks_at_16": 0,
     "rankings": [
       {
@@ -1352,6 +1388,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 1
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 1
       }
     ]
   },
@@ -1366,8 +1408,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 10.32,
+    "total_weeks": 26,
+    "avg_rank": 10.27,
     "best_rank": 7,
     "worst_rank": 14,
     "weeks_at_1": 0,
@@ -1522,6 +1564,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 12
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 9
       }
     ]
   },
@@ -1535,12 +1583,12 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 7.96,
+    "total_weeks": 26,
+    "avg_rank": 8.27,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 1,
-    "weeks_at_16": 2,
+    "weeks_at_16": 3,
     "rankings": [
       {
         "season": "2024",
@@ -1691,6 +1739,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 16
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 16
       }
     ]
   },
@@ -1704,8 +1758,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 6.8,
+    "total_weeks": 26,
+    "avg_rank": 6.62,
     "best_rank": 2,
     "worst_rank": 11,
     "weeks_at_1": 0,
@@ -1860,6 +1914,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 2
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 2
       }
     ]
   },
@@ -1875,8 +1935,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 6.92,
+    "total_weeks": 26,
+    "avg_rank": 7.15,
     "best_rank": 1,
     "worst_rank": 15,
     "weeks_at_1": 2,
@@ -2031,6 +2091,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 5
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 13
       }
     ]
   },
@@ -2046,8 +2112,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 9.32,
+    "total_weeks": 26,
+    "avg_rank": 9.15,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 3,
@@ -2202,6 +2268,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 8
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 5
       }
     ]
   },
@@ -2215,9 +2287,9 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 12.24,
-    "best_rank": 6,
+    "total_weeks": 26,
+    "avg_rank": 11.88,
+    "best_rank": 3,
     "worst_rank": 16,
     "weeks_at_1": 0,
     "weeks_at_16": 1,
@@ -2371,6 +2443,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 6
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 3
       }
     ]
   },
@@ -2386,8 +2464,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 8.16,
+    "total_weeks": 26,
+    "avg_rank": 8.38,
     "best_rank": 1,
     "worst_rank": 16,
     "weeks_at_1": 6,
@@ -2542,6 +2620,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 10
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 14
       }
     ]
   },
@@ -2556,8 +2640,8 @@
       "2025",
       "2026"
     ],
-    "total_weeks": 25,
-    "avg_rank": 14.88,
+    "total_weeks": 26,
+    "avg_rank": 14.73,
     "best_rank": 11,
     "worst_rank": 16,
     "weeks_at_1": 0,
@@ -2712,6 +2796,12 @@
         "week": 0,
         "week_id": "2026-preseason",
         "rank": 14
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
+        "rank": 11
       }
     ]
   },
@@ -2723,7 +2813,7 @@
     "seasons": [
       "2026"
     ],
-    "total_weeks": 1,
+    "total_weeks": 2,
     "avg_rank": 15.0,
     "best_rank": 15,
     "worst_rank": 15,
@@ -2734,6 +2824,12 @@
         "season": "2026",
         "week": 0,
         "week_id": "2026-preseason",
+        "rank": 15
+      },
+      {
+        "season": "2026",
+        "week": 2,
+        "week_id": "2026-week-2",
         "rank": 15
       }
     ]

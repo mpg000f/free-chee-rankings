@@ -4179,6 +4179,198 @@
       "tiers": [],
       "has_special_sections": false,
       "image_count": 18
+    },
+    {
+      "week_id": "2026-week-2",
+      "season": "2026",
+      "week": 2,
+      "type": "regular",
+      "title": "Free Chee Week 2 Rankings 2026",
+      "label": "Week 2",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Boone",
+          "owner": "TJ",
+          "movement": 0,
+          "tier": null,
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "movement": 0,
+          "tier": null,
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "movement": 3,
+          "tier": null,
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Hello Darkness My Old Friend",
+          "owner": "Paul",
+          "movement": 7,
+          "tier": null,
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Shough and F#ck",
+          "owner": "Boyle",
+          "movement": 3,
+          "tier": "Tier Two",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Nick Wright Barely Legal",
+          "owner": "TK",
+          "movement": -2,
+          "tier": "Tier Two",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Charles Dickens",
+          "owner": "Mitch",
+          "movement": -4,
+          "tier": "Tier Two",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "movement": -1,
+          "tier": "Tier Two",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Healthy as a Fucking Rhino",
+          "owner": "Connor",
+          "movement": 3,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Phenom",
+          "owner": "Justin",
+          "movement": -1,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Pelosi's Powder",
+          "owner": "Mikey",
+          "movement": 3,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "movement": 1,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "movement": -8,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Free Paid",
+          "owner": "Gallo",
+          "movement": -4,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Tuanigamanuolepola Donny",
+          "owner": "Kevin",
+          "movement": 0,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "movement": 0,
+          "tier": "Tier Three",
+          "subsections": [
+            "fact",
+            "fiction"
+          ]
+        }
+      ],
+      "tiers": [
+        "Tier Two",
+        "Tier Three"
+      ],
+      "has_special_sections": false,
+      "image_count": 1
     }
   ]
 }
