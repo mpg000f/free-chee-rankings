@@ -3986,86 +3986,6 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33393",
-    "player_name": "Ja'Marr Chase",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41804",
-    "player_name": "Emeka Egbuka",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.34036",
-    "player_name": "Greg Dulcich",
-    "display_position": "TE",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41097",
-    "player_name": "Devaughn Vele",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41840",
-    "player_name": "Tre' Harris",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.40915",
-    "player_name": "Adonai Mitchell",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42623",
-    "player_name": "Fernando Mendoza",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41865",
-    "player_name": "Isaac TeSlaa",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.42712",
     "player_name": "Kaelon Black",
     "display_position": "RB",
@@ -4074,6 +3994,86 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33393",
+    "player_name": "Ja'Marr Chase",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41804",
+    "player_name": "Emeka Egbuka",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.34036",
+    "player_name": "Greg Dulcich",
+    "display_position": "TE",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41097",
+    "player_name": "Devaughn Vele",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41840",
+    "player_name": "Tre' Harris",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.40915",
+    "player_name": "Adonai Mitchell",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.42623",
+    "player_name": "Fernando Mendoza",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.8795",
+    "player_name": "Joe Flacco",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41865",
+    "player_name": "Isaac TeSlaa",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.30227",
     "player_name": "Samaje Perine",
     "display_position": "RB",
@@ -6034,86 +6034,6 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33393",
-    "player_name": "Ja'Marr Chase",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41804",
-    "player_name": "Emeka Egbuka",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.34036",
-    "player_name": "Greg Dulcich",
-    "display_position": "TE",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41097",
-    "player_name": "Devaughn Vele",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41840",
-    "player_name": "Tre' Harris",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.40915",
-    "player_name": "Adonai Mitchell",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42623",
-    "player_name": "Fernando Mendoza",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41865",
-    "player_name": "Isaac TeSlaa",
-    "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.42712",
     "player_name": "Kaelon Black",
     "display_position": "RB",
@@ -6122,6 +6042,86 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33393",
+    "player_name": "Ja'Marr Chase",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41804",
+    "player_name": "Emeka Egbuka",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.34036",
+    "player_name": "Greg Dulcich",
+    "display_position": "TE",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41097",
+    "player_name": "Devaughn Vele",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41840",
+    "player_name": "Tre' Harris",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.40915",
+    "player_name": "Adonai Mitchell",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.42623",
+    "player_name": "Fernando Mendoza",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.8795",
+    "player_name": "Joe Flacco",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41865",
+    "player_name": "Isaac TeSlaa",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.30227",
     "player_name": "Samaje Perine",
     "display_position": "RB",
@@ -8082,8 +8082,8 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -8130,6 +8130,14 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 4,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -8157,14 +8165,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 4,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -10130,8 +10130,8 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -10178,6 +10178,14 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -10205,14 +10213,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -12178,8 +12178,8 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -12226,6 +12226,14 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -12253,14 +12261,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -14226,8 +14226,8 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -14274,6 +14274,14 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -14301,14 +14309,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -16274,8 +16274,8 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -16322,6 +16322,14 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -16349,14 +16357,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -18322,8 +18322,8 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -18370,6 +18370,14 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -18397,14 +18405,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -20370,8 +20370,8 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -20418,6 +20418,14 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 10,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -20445,14 +20453,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 10,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -22418,8 +22418,8 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -22466,6 +22466,14 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -22493,14 +22501,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -24466,8 +24466,8 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -24514,6 +24514,14 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -24541,14 +24549,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -26514,8 +26514,8 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -26562,6 +26562,14 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 13,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -26589,14 +26597,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 13,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -28562,8 +28562,8 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -28610,6 +28610,14 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 14,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -28637,14 +28645,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 14,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -30610,8 +30610,8 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -30658,6 +30658,14 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 15,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -30685,14 +30693,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 15,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -32658,8 +32658,8 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -32706,6 +32706,14 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 16,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -32733,14 +32741,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 16,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -34706,8 +34706,8 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.33412",
-    "player_name": "Najee Harris",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
     "display_position": "RB",
     "points": 0.0
   },
@@ -34754,6 +34754,14 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.33412",
+    "player_name": "Najee Harris",
+    "display_position": "RB",
+    "points": 0.0
+  },
+  {
+    "week": 17,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40915",
     "player_name": "Adonai Mitchell",
     "display_position": "WR",
@@ -34781,14 +34789,6 @@
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
-    "points": 0.0
-  },
-  {
-    "week": 17,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
-    "display_position": "RB",
     "points": 0.0
   },
   {
