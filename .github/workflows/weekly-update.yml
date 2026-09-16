@@ -1,0 +1,47 @@
+name: Weekly data update
+
+on:
+  schedule:
+    # Tuesdays 11:00 UTC — 7am ET / 6am CT, after Monday Night Football has settled
+    - cron: "0 11 * * 2"
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests requests-oauthlib PyMuPDF Pillow numpy
+
+      - name: Pull Yahoo data and rebuild
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python scripts/weekly_update.py
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # credential files are gitignored, but be explicit about never staging them
+          git add -A ':!scripts/yahoo_creds.json*' ':!scripts/yahoo_token.json*'
+          if git diff --cached --quiet; then
+            echo "No changes this week."
+          else
+            git commit -m "Weekly data update ($(date -u +%Y-%m-%d))"
+            git push
+          fi
