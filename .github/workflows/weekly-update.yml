@@ -37,8 +37,9 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          # credential files are gitignored, but be explicit about never staging them
-          git add -A ':!scripts/yahoo_creds.json*' ':!scripts/yahoo_token.json*'
+          # credential files are covered by .gitignore; naming them here, even as
+          # exclusions, makes git add error out on ignored paths
+          git add -A
           if git diff --cached --quiet; then
             echo "No changes this week."
           else
