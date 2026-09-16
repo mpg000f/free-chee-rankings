@@ -2,11 +2,11 @@
  * Rosters page: season tabs, team dropdown, season summary + side-by-side rosters.
  */
 (function () {
-  const SEASONS = ['2022', '2023', '2024', '2025'];
+  const SEASONS = ['2022', '2023', '2024', '2025', '2026'];
   const POS_ORDER = ['QB', 'RB', 'WR', 'TE', 'K', 'DEF'];
 
   let data = null;
-  let currentSeason = '2025';
+  let currentSeason = SEASONS[SEASONS.length - 1];
   let currentTeamKey = '';
   let currentOwner = '';
 
@@ -103,7 +103,7 @@
           ${buildRosterTable(team.week1)}
         </div>
         <div class="roster-panel">
-          <h2>Final Roster <span class="week-label">Week ${finalWeek}</span></h2>
+          <h2>${seasonData.in_progress ? 'Current Roster' : 'Final Roster'} <span class="week-label">Week ${finalWeek}</span></h2>
           ${buildRosterTable(team.final)}
         </div>
       </div>

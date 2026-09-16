@@ -11,7 +11,7 @@ YAHOO_DIR = os.path.join(BASE_DIR, "yahoo_data")
 SITE_DATA = os.path.join(BASE_DIR, "site", "data")
 os.makedirs(SITE_DATA, exist_ok=True)
 
-SEASONS = ["2022", "2023", "2024", "2025"]
+SEASONS = ["2022", "2023", "2024", "2025", "2026"]
 
 # Superflex 16-team league starter thresholds
 STARTER_THRESHOLDS = {"QB": 32, "RB": 40, "WR": 40, "TE": 16, "K": 16, "DEF": 16}
@@ -84,6 +84,12 @@ def build_season_summaries(season, owner_map):
         t1k, t2k = m["team_1_key"], m["team_2_key"]
         t1p, t2p = m["team_1_points"], m["team_2_points"]
         week = m["week"]
+
+        # An in-progress season returns its whole schedule, so weeks that have
+        # not been played come back 0-0. Counting those as ties gave a team in
+        # week 2 a record of "1-0-13".
+        if t1p == 0 and t2p == 0:
+            continue
 
         # Regular season record (weeks 1-14)
         if week <= REGULAR_SEASON_WEEKS:
@@ -169,11 +175,17 @@ def build_season_summaries(season, owner_map):
             team_playoff_finish[winner] = "Champion"
             team_playoff_finish[loser] = "Championship Loss"
 
+    # A season still being played has no finish to report; saying "No Playoffs"
+    # in week 2 reads as elimination.
+    season_over = bool(playoff_matchups.get(17) or playoff_matchups.get(16))
+
     # Fill in remaining
     for tk in team_stats:
         if tk not in team_playoff_finish:
             if tk in qf_teams:
                 team_playoff_finish[tk] = "Quarterfinal Loss"  # shouldn't happen
+            elif not season_over:
+                team_playoff_finish[tk] = "In Progress"
             else:
                 team_playoff_finish[tk] = "No Playoffs"
 
@@ -241,11 +253,23 @@ def build_rosters_data():
         # For position ranks
         pos_totals = defaultdict(list)
 
+        # Yahoo returns every scheduled week for an in-progress season, so the
+        # last week with roster data is 17 even in September. Cap at the last
+        # week actually played, read from the matchups.
+        last_played = 0
+        for m in load_json(os.path.join(YAHOO_DIR, season, "matchups.json")) or []:
+            if m["team_1_points"] or m["team_2_points"]:
+                last_played = max(last_played, m["week"])
+        season_data["in_progress"] = bool(last_played and last_played < max_week)
+        season_data["last_played_week"] = last_played or max_week
+
         # Find the latest week with roster data per team
         team_max_week = {}
         for r in rosters:
             tk = r["team_key"]
             team_max_week[tk] = max(team_max_week.get(tk, 0), r["week"])
+        if last_played:
+            team_max_week = {k: min(v, last_played) for k, v in team_max_week.items()}
 
         for tk, players in team_player_weeks.items():
             owner = owner_map.get(tk, team_names.get(tk, tk))

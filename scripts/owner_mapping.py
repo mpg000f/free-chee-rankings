@@ -233,6 +233,11 @@ YAHOO_TEAM_OWNERS = {
         "Tuanigamanuolepola Donny": "Kevin",
         "Phenom": "Justin",
         "Pelosis Powder": "Mikey",
+        # renamed after the draft; the pre-rename names are kept so an older
+        # snapshot of the same season still resolves
+        "Free Paid": "Gallo",
+        "Hello Darkness My Old Friend": "Paul",
+        "Shough and F#ck": "Boyle",
     },
 }
 

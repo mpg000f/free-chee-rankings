@@ -46,7 +46,7 @@ from datetime import datetime, timezone
 from owner_mapping import YAHOO_TEAM_OWNERS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEASONS = ["2022", "2023", "2024", "2025"]
+SEASONS = ["2022", "2023", "2024", "2025", "2026"]
 FINAL_WEEK = 17
 
 # Week 1 kickoff per season, used only to date-estimate a trade week when the
@@ -56,6 +56,7 @@ KICKOFF = {
     "2023": datetime(2023, 9, 7, tzinfo=timezone.utc),
     "2024": datetime(2024, 9, 5, tzinfo=timezone.utc),
     "2025": datetime(2025, 9, 4, tzinfo=timezone.utc),
+    "2026": datetime(2026, 9, 10, tzinfo=timezone.utc),
 }
 
 # League-wide starting slots per position (16 teams, superflex). The player one

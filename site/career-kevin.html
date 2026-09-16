@@ -3,34 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rankings Browser - Free Chee Power Rankings</title>
-  <meta name="description" content="Browse every week's Free Chee power rankings with full writeups, tiers, and team movement.">
+  <title>Kevin — Free Chee Career</title>
+  <meta name="description" content="Kevin — 0-1 all-time • 83.6 PPG. Free Chee career profile.">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#0e0f11">
-  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/rankings.html">
+  <link rel="canonical" href="https://mpg000f.github.io/free-chee-rankings/career-kevin.html">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Free Chee">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Free Chee Headquarters">
-  <meta property="og:title" content="Power Rankings — Free Chee">
-  <meta property="og:description" content="Browse every week's Free Chee power rankings with full writeups, tiers, and team movement.">
-  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/rankings.html">
-  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <meta property="og:title" content="Kevin — Free Chee Career">
+  <meta property="og:description" content="Kevin — 0-1 all-time • 83.6 PPG. Free Chee career profile.">
+  <meta property="og:url" content="https://mpg000f.github.io/free-chee-rankings/career-kevin.html">
+  <meta property="og:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-career-kevin.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Power Rankings — Free Chee">
-  <meta name="twitter:description" content="Browse every week's Free Chee power rankings with full writeups, tiers, and team movement.">
-  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-image.png">
+  <meta name="twitter:title" content="Kevin — Free Chee Career">
+  <meta name="twitter:description" content="Kevin — 0-1 all-time • 83.6 PPG. Free Chee career profile.">
+  <meta name="twitter:image" content="https://mpg000f.github.io/free-chee-rankings/images/og-career-kevin.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=41d540d347">
   <link rel="stylesheet" href="css/animations.css?v=fb4513824d">
-  <script src="js/chart-loader.js?v=4f534cc3fa"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -44,7 +43,7 @@
       </button>
       <div class="nav-links" id="nav-links">
         <a href="index.html">Home</a>
-        <a href="rankings.html" class="active">Rankings</a>
+        <a href="rankings.html">Rankings</a>
         <a href="stats.html">Stats</a>
         <a href="schedule.html">Schedule</a>
         <a href="rosters.html">Rosters</a>
@@ -61,14 +60,14 @@
           </div>
         </div>
         <div class="nav-group">
-          <button class="nav-group-btn" type="button"
+          <button class="nav-group-btn active" type="button"
                   aria-expanded="false" aria-controls="nav-group-alltime">
             All-Time<span class="nav-caret" aria-hidden="true"></span>
           </button>
           <div class="nav-group-menu" id="nav-group-alltime">
             <a href="head2head.html">Head-to-Head</a>
             <a href="records.html">Records</a>
-            <a href="careers.html">Player Profiles</a>
+            <a href="careers.html" class="active">Player Profiles</a>
             <a href="lookback.html">Lookback</a>
           </div>
         </div>
@@ -76,28 +75,18 @@
     </div>
   </nav>
 
-  <div class="rankings-controls">
-    <div class="rankings-controls-inner">
-      <div id="season-toggle" class="season-toggle"></div>
-      <div id="week-pills" class="week-pills"></div>
-    </div>
-  </div>
-
-  <div class="rankings-layout">
-    <div id="ranking-graphic" class="ranking-graphic">
-      <div class="loading"><div class="spinner"></div></div>
-    </div>
-    <div id="rankings-article" class="rankings-article">
-      <div class="loading"><div class="spinner"></div>Loading rankings...</div>
-    </div>
+  <div class="page-container">
+    <div id="career-content"><p class="placeholder-text">Loading Kevin...</p></div>
   </div>
 
   <footer class="footer">
-    <p>Free Chee Power Rankings &copy; 2024-2026 &bull; The Committee</p>
+    <p>Free Chee Headquarters &copy; 2024-2026 &bull; The Committee</p>
   </footer>
 
+  <script>window.CAREER_OWNER = "Kevin";</script>
   <script src="js/data-loader.js?v=e0415b6ac0"></script>
-  <script src="js/rankings-browser.js?v=d4136b8559"></script>
+  <script src="js/career-render.js?v=6a595aaf56"></script>
+  <script src="js/career-page.js?v=d0b24b2462"></script>
   <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>

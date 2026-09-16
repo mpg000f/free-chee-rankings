@@ -144,7 +144,13 @@ def pull_standings(oauth, league):
                 if isinstance(item, dict):
                     team_data.update(item)
 
-            team_standings = team[1].get("team_standings", team[1])
+            # team_standings sits at a variable index (2 in current responses),
+            # not always team[1]; scan for it rather than assuming a position.
+            team_standings = {}
+            for item in team:
+                if isinstance(item, dict) and "team_standings" in item:
+                    team_standings = item["team_standings"]
+                    break
             standings.append({
                 "team_key": team_data.get("team_key", ""),
                 "team_name": team_data.get("name", ""),
@@ -280,6 +286,9 @@ def pull_weekly_scores(oauth, league, num_weeks=17):
                         "team_2": matchup_teams[1]["team_name"],
                         "team_2_key": matchup_teams[1]["team_key"],
                         "team_2_points": matchup_teams[1]["points"],
+                        # playoff/consolation flags live on the matchup itself
+                        "is_playoffs": int(matchup.get("is_playoffs", 0) or 0),
+                        "is_consolation": int(matchup.get("is_consolation", 0) or 0),
                     })
 
             print(f"    Week {week}: {match_count} matchups")

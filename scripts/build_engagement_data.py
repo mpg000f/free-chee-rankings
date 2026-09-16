@@ -9,7 +9,7 @@ Outputs to both docs/data and site/data.
 import json, os, collections
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SEASONS = ["2022", "2023", "2024", "2025"]
+SEASONS = ["2022", "2023", "2024", "2025", "2026"]
 REG_SEASON_LAST_WEEK = 14  # weeks 15-17 are playoffs
 
 # The losers' half of the bracket: quarterfinal losers playing out 5th through
@@ -133,6 +133,10 @@ def build():
     for s in SEASONS:
         for m in load("yahoo_data", s, "matchups.json"):
             k1, k2 = m["team_1_key"], m["team_2_key"]
+            # Unplayed weeks of an in-progress season come back 0-0; they are
+            # scheduled fixtures, not results.
+            if m["team_1_points"] == 0 and m["team_2_points"] == 0:
+                continue
             games.append({
                 "season": s, "week": m["week"],
                 "playoff": m["week"] > REG_SEASON_LAST_WEEK,

@@ -2,7 +2,7 @@
  * Draft Value page: season tabs, owner filter, draft board table, scatter plot.
  */
 (function () {
-  const SEASONS = ['2022', '2023', '2024', '2025'];
+  const SEASONS = ['2022', '2023', '2024', '2025', '2026'];
   const COLUMNS = [
     { key: 'rank', label: 'Rank', sort: 'num' },
     { key: 'player', label: 'Player', sort: 'str' },
@@ -19,7 +19,7 @@
   };
 
   let data = null;
-  let currentSeason = '2025';
+  let currentSeason = SEASONS[SEASONS.length - 1];
   let currentOwner = '';
   let currentPos = '';
   let chart = null;

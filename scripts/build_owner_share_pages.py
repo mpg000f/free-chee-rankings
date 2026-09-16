@@ -140,7 +140,7 @@ def page_html(c):
   </div>
 
   <footer class="footer">
-    <p>Free Chee Headquarters &copy; 2024-2025 &bull; The Committee</p>
+    <p>Free Chee Headquarters &copy; 2024-2026 &bull; The Committee</p>
   </footer>
 
   <script>window.CAREER_OWNER = {json.dumps(o)};</script>

@@ -3,7 +3,7 @@
  * he was drafted. Summary row per player, expandable to the year-by-year detail.
  */
 (function () {
-  const SEASONS = ['2022', '2023', '2024', '2025'];
+  const SEASONS = ['2022', '2023', '2024', '2025', '2026'];
   const COLUMNS = [
     { key: 'player', label: 'Player', sort: 'str' },
     { key: 'pos', label: 'Pos', sort: 'str' },
