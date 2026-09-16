@@ -7,6 +7,7 @@ Outputs to both docs/ and site/. Run after build_engagement_data.py.
 NOTE: pages are written with unstamped css/js refs — run scripts/stamp_cache_bust.py
 afterward to re-apply cache-busting query strings.
 """
+import hashlib
 import json, os, re
 from PIL import Image, ImageDraw, ImageFont
 
@@ -155,16 +156,39 @@ def page_html(c):
 
 def main():
     careers = json.load(open(os.path.join(ROOT, "docs", "data", "careers.json"), encoding="utf-8"))["careers"]
+
+    # Card rendering is not byte-stable across machines (fonts differ), so a
+    # weekly rebuild would rewrite every PNG whether or not the numbers moved.
+    # Redraw a card only when that owner's stats actually changed.
+    manifest_path = os.path.join(ROOT, "scripts", "card_hashes.json")
+    try:
+        manifest = json.load(open(manifest_path, encoding="utf-8"))
+    except (OSError, ValueError):
+        manifest = {}
+
+    redrawn = []
     for root in ("docs", "site"):
         img_dir = os.path.join(ROOT, root, "images")
         for owner, c in careers.items():
             s = slug(owner)
-            make_card(c, os.path.join(img_dir, f"og-career-{s}.png"))
+            card = os.path.join(img_dir, f"og-career-{s}.png")
+            digest = hashlib.sha256(
+                json.dumps(c, sort_keys=True, default=str).encode()
+            ).hexdigest()
+            if manifest.get(s) != digest or not os.path.exists(card):
+                make_card(c, card)
+                if s not in redrawn:
+                    redrawn.append(s)
             with open(os.path.join(ROOT, root, f"career-{s}.html"), "w", encoding="utf-8") as f:
                 f.write(page_html(c))
-    print(f"generated {len(careers)} owner pages + cards in docs/ and site/")
-    for owner in careers:
-        print("  career-%s.html  +  images/og-career-%s.png" % (slug(owner), slug(owner)))
+            manifest[s] = digest
+
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, sort_keys=True)
+
+    print(f"generated {len(careers)} owner pages in docs/ and site/")
+    print(f"  cards redrawn: {len(redrawn)}"
+          + (" (" + ", ".join(redrawn) + ")" if redrawn else " - all unchanged"))
 
 
 if __name__ == "__main__":
