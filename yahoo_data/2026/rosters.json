@@ -2282,9 +2282,9 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -2346,8 +2346,8 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -2410,14 +2410,6 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -2426,8 +2418,16 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -2538,8 +2538,8 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -3186,17 +3186,17 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 2,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -3274,14 +3274,6 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -3309,6 +3301,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -3946,9 +3946,9 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -4058,14 +4058,6 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 2,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -4082,6 +4074,14 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 2,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -4090,8 +4090,8 @@
   {
     "week": 2,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -4330,9 +4330,9 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -4394,8 +4394,8 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -4458,14 +4458,6 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -4474,8 +4466,16 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -4586,8 +4586,8 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -5234,17 +5234,17 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 3,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -5322,14 +5322,6 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -5357,6 +5349,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -5994,9 +5994,9 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -6106,14 +6106,6 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -6130,6 +6122,14 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -6138,8 +6138,8 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -6378,9 +6378,9 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -6442,8 +6442,8 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -6506,14 +6506,6 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 4,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -6522,8 +6514,16 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 4,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -6634,8 +6634,8 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -7282,17 +7282,17 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 4,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -7370,14 +7370,6 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 4,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -7405,6 +7397,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 4,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -8042,9 +8042,9 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -8154,14 +8154,6 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 4,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -8178,6 +8170,14 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 4,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -8186,8 +8186,8 @@
   {
     "week": 4,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -8426,9 +8426,9 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -8490,8 +8490,8 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -8554,14 +8554,6 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -8570,8 +8562,16 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -8682,8 +8682,8 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -9330,17 +9330,17 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 5,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -9418,14 +9418,6 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -9453,6 +9445,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -10090,9 +10090,9 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -10202,14 +10202,6 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -10226,6 +10218,14 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -10234,8 +10234,8 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -10474,9 +10474,9 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -10538,8 +10538,8 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -10602,14 +10602,6 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -10618,8 +10610,16 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -10730,8 +10730,8 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -11378,17 +11378,17 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 6,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -11466,14 +11466,6 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -11501,6 +11493,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -12138,9 +12138,9 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -12250,14 +12250,6 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -12274,6 +12266,14 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -12282,8 +12282,8 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -12522,9 +12522,9 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -12586,8 +12586,8 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -12650,14 +12650,6 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -12666,8 +12658,16 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -12778,8 +12778,8 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -13426,17 +13426,17 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 7,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -13514,14 +13514,6 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -13549,6 +13541,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -14186,9 +14186,9 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -14298,14 +14298,6 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -14322,6 +14314,14 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -14330,8 +14330,8 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -14570,9 +14570,9 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -14634,8 +14634,8 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -14698,14 +14698,6 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -14714,8 +14706,16 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -14826,8 +14826,8 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -15474,17 +15474,17 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 8,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -15562,14 +15562,6 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -15597,6 +15589,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -16234,9 +16234,9 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -16346,14 +16346,6 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -16370,6 +16362,14 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -16378,8 +16378,8 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -16618,9 +16618,9 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -16682,8 +16682,8 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -16746,14 +16746,6 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -16762,8 +16754,16 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -16874,8 +16874,8 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -17522,17 +17522,17 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 9,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -17610,14 +17610,6 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -17645,6 +17637,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -18282,9 +18282,9 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -18394,14 +18394,6 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -18418,6 +18410,14 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -18426,8 +18426,8 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -18666,9 +18666,9 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -18730,8 +18730,8 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -18794,14 +18794,6 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 10,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -18810,8 +18802,16 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 10,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -18922,8 +18922,8 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -19570,17 +19570,17 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 10,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -19658,14 +19658,6 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 10,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -19693,6 +19685,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 10,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -20330,9 +20330,9 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -20442,14 +20442,6 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 10,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -20466,6 +20458,14 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 10,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -20474,8 +20474,8 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -20714,9 +20714,9 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -20778,8 +20778,8 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -20842,14 +20842,6 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -20858,8 +20850,16 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -20970,8 +20970,8 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -21618,17 +21618,17 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 11,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -21706,14 +21706,6 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -21741,6 +21733,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -22378,9 +22378,9 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -22490,14 +22490,6 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -22514,6 +22506,14 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -22522,8 +22522,8 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -22762,9 +22762,9 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -22826,8 +22826,8 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -22890,14 +22890,6 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -22906,8 +22898,16 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -23018,8 +23018,8 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -23666,17 +23666,17 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 12,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -23754,14 +23754,6 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -23789,6 +23781,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -24426,9 +24426,9 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -24538,14 +24538,6 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -24562,6 +24554,14 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -24570,8 +24570,8 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -24810,9 +24810,9 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -24874,8 +24874,8 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -24938,14 +24938,6 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 13,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -24954,8 +24946,16 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 13,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -25066,8 +25066,8 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -25714,17 +25714,17 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 13,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -25802,14 +25802,6 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 13,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -25837,6 +25829,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 13,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -26474,9 +26474,9 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -26586,14 +26586,6 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 13,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -26610,6 +26602,14 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 13,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -26618,8 +26618,8 @@
   {
     "week": 13,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -26858,9 +26858,9 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -26922,8 +26922,8 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -26986,14 +26986,6 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 14,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -27002,8 +26994,16 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 14,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -27114,8 +27114,8 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -27762,17 +27762,17 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 14,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -27850,14 +27850,6 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 14,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -27885,6 +27877,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 14,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -28522,9 +28522,9 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -28634,14 +28634,6 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 14,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -28658,6 +28650,14 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 14,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -28666,8 +28666,8 @@
   {
     "week": 14,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -28906,9 +28906,9 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -28970,8 +28970,8 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -29034,14 +29034,6 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 15,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -29050,8 +29042,16 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 15,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -29162,8 +29162,8 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -29810,17 +29810,17 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 15,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -29898,14 +29898,6 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 15,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -29933,6 +29925,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 15,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -30570,9 +30570,9 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -30682,14 +30682,6 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 15,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -30706,6 +30698,14 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 15,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -30714,8 +30714,8 @@
   {
     "week": 15,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -30954,9 +30954,9 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -31018,8 +31018,8 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -31082,14 +31082,6 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 16,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -31098,8 +31090,16 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 16,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -31210,8 +31210,8 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -31858,17 +31858,17 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 16,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -31946,14 +31946,6 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 16,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -31981,6 +31973,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 16,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -32618,9 +32618,9 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -32730,14 +32730,6 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 16,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -32754,6 +32746,14 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 16,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -32762,8 +32762,8 @@
   {
     "week": 16,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -33002,9 +33002,9 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.42012",
-    "player_name": "Brashard Smith",
-    "display_position": "RB",
+    "player_key": "470.p.42638",
+    "player_name": "Kenyon Sadiq",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -33066,8 +33066,8 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34099",
-    "player_name": "Chig Okonkwo",
+    "player_key": "470.p.33443",
+    "player_name": "Pat Freiermuth",
     "display_position": "TE",
     "points": 0.0
   },
@@ -33130,14 +33130,6 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.40040",
-    "player_name": "Anthony Richardson Sr.",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 17,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.31482",
     "player_name": "Eddy Pineiro",
     "display_position": "K",
@@ -33146,8 +33138,16 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100010",
-    "player_name": "Titans",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0
+  },
+  {
+    "week": 17,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100012",
+    "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0
   },
@@ -33258,8 +33258,8 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40954",
-    "player_name": "Jalen McMillan",
+    "player_key": "470.p.29631",
+    "player_name": "Kalif Raymond",
     "display_position": "WR",
     "points": 0.0
   },
@@ -33906,17 +33906,17 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41093",
-    "player_name": "Will Reichard",
-    "display_position": "K",
+    "player_key": "470.p.40222",
+    "player_name": "DeMario Douglas",
+    "display_position": "WR",
     "points": 0.0
   },
   {
     "week": 17,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.100030",
-    "player_name": "Jaguars",
-    "display_position": "DEF",
+    "player_key": "470.p.41093",
+    "player_name": "Will Reichard",
+    "display_position": "K",
     "points": 0.0
   },
   {
@@ -33994,14 +33994,6 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.41048",
-    "player_name": "Tyrone Tracy Jr.",
-    "display_position": "RB",
-    "points": 0.0
-  },
-  {
-    "week": 17,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.40095",
     "player_name": "Tank Bigsby",
     "display_position": "RB",
@@ -34029,6 +34021,14 @@
     "player_key": "470.p.42702",
     "player_name": "Ja'Kobi Lane",
     "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 17,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.31906",
+    "player_name": "Devin Singletary",
+    "display_position": "RB",
     "points": 0.0
   },
   {
@@ -34666,9 +34666,9 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32685",
-    "player_name": "Jerry Jeudy",
-    "display_position": "WR",
+    "player_key": "470.p.28592",
+    "player_name": "Darren Waller",
+    "display_position": "TE",
     "points": 0.0
   },
   {
@@ -34778,14 +34778,6 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.8795",
-    "player_name": "Joe Flacco",
-    "display_position": "QB",
-    "points": 0.0
-  },
-  {
-    "week": 17,
-    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.41865",
     "player_name": "Isaac TeSlaa",
     "display_position": "WR",
@@ -34802,6 +34794,14 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.29236",
+    "player_name": "Carson Wentz",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 17,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.40819",
     "player_name": "Brandon Aubrey",
     "display_position": "K",
@@ -34810,8 +34810,8 @@
   {
     "week": 17,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100025",
+    "player_name": "49ers",
     "display_position": "DEF",
     "points": 0.0
   }

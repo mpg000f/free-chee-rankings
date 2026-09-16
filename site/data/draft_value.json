@@ -9995,6 +9995,15 @@
         "value": -80.0
       },
       {
+        "player": "Kenyon Sadiq",
+        "pos": "TE",
+        "owner": "Mikey",
+        "cost": 1,
+        "pts": 0.0,
+        "expected": 80,
+        "value": -80.0
+      },
+      {
         "player": "Justin Fields",
         "pos": "QB",
         "owner": "TK",
@@ -10052,6 +10061,15 @@
         "player": "Isaac TeSlaa",
         "pos": "WR",
         "owner": "Sweeney",
+        "cost": 1,
+        "pts": 0.0,
+        "expected": 80,
+        "value": -80.0
+      },
+      {
+        "player": "Carson Wentz",
+        "pos": "QB",
+        "owner": "Justin",
         "cost": 1,
         "pts": 0.0,
         "expected": 80,
