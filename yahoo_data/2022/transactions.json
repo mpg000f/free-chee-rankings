@@ -1,0 +1,8544 @@
+[
+  {
+    "transaction_id": "494",
+    "type": "add/drop",
+    "timestamp": "1672367800",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Daniel Carlson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "493",
+    "type": "add/drop",
+    "timestamp": "1672367780",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "492",
+    "type": "add/drop",
+    "timestamp": "1672361763",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Hassan Haskins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tony Pollard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "491",
+    "type": "add/drop",
+    "timestamp": "1672332996",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "490",
+    "type": "add/drop",
+    "timestamp": "1672245514",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Teddy Bridgewater",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Taylor Heinicke",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "489",
+    "type": "add/drop",
+    "timestamp": "1672231065",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah Hodgins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mecole Hardman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "488",
+    "type": "add/drop",
+    "timestamp": "1672231049",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chase McLaughlin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "486",
+    "type": "add/drop",
+    "timestamp": "1672216125",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Matt Gay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nick Folk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "485",
+    "type": "add/drop",
+    "timestamp": "1672216124",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Broncos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "484",
+    "type": "add/drop",
+    "timestamp": "1671898655",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chase McLaughlin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "483",
+    "type": "add/drop",
+    "timestamp": "1671728383",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "K.J. Osborn",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Devin Duvernay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "482",
+    "type": "add/drop",
+    "timestamp": "1671642120",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nick Foles",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Pierre Strong Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "481",
+    "type": "add/drop",
+    "timestamp": "1671620421",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mecole Hardman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "480",
+    "type": "add/drop",
+    "timestamp": "1671620344",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "479",
+    "type": "add/drop",
+    "timestamp": "1671620203",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jaguars",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "478",
+    "type": "add/drop",
+    "timestamp": "1671619839",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "476",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Rams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Panthers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "475",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Richie James",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Terrace Marshall Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "474",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Marquise Goodwin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ben Skowronek",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "473",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Travis Homer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "472",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Romeo Doubs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Benny Snell Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "471",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenyan Drake",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "470",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Marlon Mack",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dameon Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "469",
+    "type": "add/drop",
+    "timestamp": "1671611412",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trace McSorley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kyler Murray",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "468",
+    "type": "add/drop",
+    "timestamp": "1671303000",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "467",
+    "type": "add/drop",
+    "timestamp": "1671297772",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Devin Duvernay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jarvis Landry",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "466",
+    "type": "add/drop",
+    "timestamp": "1671295438",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Saints",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "465",
+    "type": "add/drop",
+    "timestamp": "1671295030",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kevin Harris",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DeeJay Dallas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "464",
+    "type": "add/drop",
+    "timestamp": "1671290167",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kendrick Bourne",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mike Boone",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "463",
+    "type": "add/drop",
+    "timestamp": "1671222211",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "462",
+    "type": "add/drop",
+    "timestamp": "1671155057",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "461",
+    "type": "add/drop",
+    "timestamp": "1671151654",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Panthers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "460",
+    "type": "add/drop",
+    "timestamp": "1671150830",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marquez Callaway",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "459",
+    "type": "add/drop",
+    "timestamp": "1671042082",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nathan Peterman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mitchell Wilcox",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "458",
+    "type": "add/drop",
+    "timestamp": "1671027245",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Robert Tonyan",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Richie James",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "457",
+    "type": "add/drop",
+    "timestamp": "1671026697",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "456",
+    "type": "add/drop",
+    "timestamp": "1671021314",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Pierre Strong Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Devin Duvernay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "455",
+    "type": "add",
+    "timestamp": "1671017794",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Rex Burkhead",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "452",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chris Moore",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Melvin Gordon III",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "451",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cooper Kupp",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "450",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chig Okonkwo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marcus Mariota",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "449",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jeff Driskel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kyren Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "448",
+    "type": "add",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chargers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "447",
+    "type": "add",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Elijah Moore",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "446",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Colt McCoy",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bryce Perkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "445",
+    "type": "add/drop",
+    "timestamp": "1671010889",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jakobi Meyers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sam Ehlinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "444",
+    "type": "drop",
+    "timestamp": "1670990326",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "443",
+    "type": "drop",
+    "timestamp": "1670970908",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "442",
+    "type": "add/drop",
+    "timestamp": "1670785328",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nelson Agholor",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jakobi Meyers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "441",
+    "type": "add/drop",
+    "timestamp": "1670703187",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cardinals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Falcons",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "440",
+    "type": "add/drop",
+    "timestamp": "1670665383",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Allgeier",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "439",
+    "type": "add/drop",
+    "timestamp": "1670665383",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Eno Benjamin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "438",
+    "type": "add/drop",
+    "timestamp": "1670536406",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Austin Hooper",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Will Dissly",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "437",
+    "type": "add/drop",
+    "timestamp": "1670535321",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cade Otton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Logan Thomas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "436",
+    "type": "add/drop",
+    "timestamp": "1670535259",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Matt Breida",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dontrell Hilliard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "435",
+    "type": "add/drop",
+    "timestamp": "1670444279",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tony Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "434",
+    "type": "add/drop",
+    "timestamp": "1670432372",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mitchell Wilcox",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kyle Allen",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "433",
+    "type": "add/drop",
+    "timestamp": "1670423486",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Feleipe Franks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "432",
+    "type": "add/drop",
+    "timestamp": "1670415586",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darrell Henderson Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "431",
+    "type": "add/drop",
+    "timestamp": "1670415534",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dontrell Hilliard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Justin Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "430",
+    "type": "add/drop",
+    "timestamp": "1670415454",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matthew Stafford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "429",
+    "type": "add/drop",
+    "timestamp": "1670413601",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mike Boone",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jimmy Garoppolo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "428",
+    "type": "add/drop",
+    "timestamp": "1670412861",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jason Myers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "427",
+    "type": "add/drop",
+    "timestamp": "1670410869",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Michael Badgley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "423",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ty Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "422",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "DJ Chark",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "421",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "420",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "419",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "DeeJay Dallas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robert Tonyan",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "418",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Allgeier",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "417",
+    "type": "add/drop",
+    "timestamp": "1670401007",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brock Purdy",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kyle Juszczyk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "416",
+    "type": "add/drop",
+    "timestamp": "1670260154",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Baker Mayfield",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Clyde Edwards-Helaire",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "415",
+    "type": "add/drop",
+    "timestamp": "1670175783",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "414",
+    "type": "add/drop",
+    "timestamp": "1670169611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Will Dissly",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rex Burkhead",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "413",
+    "type": "add/drop",
+    "timestamp": "1670165822",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Logan Thomas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "JaMycal Hasty",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "412",
+    "type": "add/drop",
+    "timestamp": "1670164976",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Bryant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "411",
+    "type": "add/drop",
+    "timestamp": "1670101757",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jameson Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trevor Siemian",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "410",
+    "type": "add/drop",
+    "timestamp": "1669999027",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Justin Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "409",
+    "type": "add/drop",
+    "timestamp": "1669941164",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mecole Hardman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "408",
+    "type": "add/drop",
+    "timestamp": "1669826717",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cairo Santos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "407",
+    "type": "add/drop",
+    "timestamp": "1669826053",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Feleipe Franks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "406",
+    "type": "add/drop",
+    "timestamp": "1669821048",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Colts",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "405",
+    "type": "add/drop",
+    "timestamp": "1669819260",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "404",
+    "type": "add",
+    "timestamp": "1669818707",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Richie James",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "403",
+    "type": "drop",
+    "timestamp": "1669818636",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Allen Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "402",
+    "type": "add/drop",
+    "timestamp": "1669818080",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Daniel Bellinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trey McBride",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "401",
+    "type": "add/drop",
+    "timestamp": "1669816935",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Keaontay Ingram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "400",
+    "type": "add/drop",
+    "timestamp": "1669816895",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Benny Snell Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Elijah Mitchell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "399",
+    "type": "add/drop",
+    "timestamp": "1669816725",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "JaMycal Hasty",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "398",
+    "type": "add/drop",
+    "timestamp": "1669816638",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ameer Abdullah",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jameson Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "395",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cameron Dicker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jason Sanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "394",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ty Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "393",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "392",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Seahawks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Baker Mayfield",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "391",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bam Knight",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dontrell Hilliard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "390",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jordan Mason",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Teddy Bridgewater",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "389",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jordan Love",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "P.J. Walker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "388",
+    "type": "add/drop",
+    "timestamp": "1669798860",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darnell Mooney",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "387",
+    "type": "add/drop",
+    "timestamp": "1669591789",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nathan Peterman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "386",
+    "type": "add/drop",
+    "timestamp": "1669569092",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nathan Peterman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mark Ingram II",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "385",
+    "type": "add/drop",
+    "timestamp": "1669566108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marlon Mack",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "384",
+    "type": "add",
+    "timestamp": "1669565907",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Marlon Mack",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "383",
+    "type": "add/drop",
+    "timestamp": "1669558611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Justin Watson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "382",
+    "type": "add/drop",
+    "timestamp": "1669450207",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "381",
+    "type": "add/drop",
+    "timestamp": "1669388761",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mark Ingram II",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matt Breida",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "380",
+    "type": "add/drop",
+    "timestamp": "1669311000",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mack Hollins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "379",
+    "type": "add/drop",
+    "timestamp": "1669300951",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "378",
+    "type": "add/drop",
+    "timestamp": "1669246597",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Huntley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Colt McCoy",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "377",
+    "type": "add/drop",
+    "timestamp": "1669238754",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bryce Perkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jack Stoll",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "376",
+    "type": "add/drop",
+    "timestamp": "1669217169",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kyle Allen",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "375",
+    "type": "add/drop",
+    "timestamp": "1669216269",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mike White",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "374",
+    "type": "add/drop",
+    "timestamp": "1669213546",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Randall Cobb",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "373",
+    "type": "add/drop",
+    "timestamp": "1669210760",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ryan Succop",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cameron Dicker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "372",
+    "type": "add/drop",
+    "timestamp": "1669210643",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Saints",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "371",
+    "type": "add",
+    "timestamp": "1669210513",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Colts",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "370",
+    "type": "add/drop",
+    "timestamp": "1669204916",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "367",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jason Sanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matt Gay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "366",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "365",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jameson Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "364",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "363",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Samaje Perine",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chase Edmonds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "362",
+    "type": "add/drop",
+    "timestamp": "1669191108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trevor Siemian",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jauan Jennings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "361",
+    "type": "drop",
+    "timestamp": "1669121542",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kyle Pitts Sr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "360",
+    "type": "add/drop",
+    "timestamp": "1669075308",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trestan Ebner",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "359",
+    "type": "add/drop",
+    "timestamp": "1669038151",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Keaontay Ingram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "J.D. McKissic",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "358",
+    "type": "drop",
+    "timestamp": "1668985540",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Case Keenum",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "357",
+    "type": "add/drop",
+    "timestamp": "1668960121",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jauan Jennings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trace McSorley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "356",
+    "type": "add/drop",
+    "timestamp": "1668959139",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Justin Watson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cade Otton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "355",
+    "type": "add/drop",
+    "timestamp": "1668959109",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cameron Dicker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dustin Hopkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "354",
+    "type": "add/drop",
+    "timestamp": "1668956795",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Bryant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "353",
+    "type": "add/drop",
+    "timestamp": "1668956741",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Bryant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matt Ammendola",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "352",
+    "type": "add/drop",
+    "timestamp": "1668931793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trey McBride",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Daniel Bellinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "351",
+    "type": "add/drop",
+    "timestamp": "1668845426",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Eno Benjamin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mark Ingram II",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "350",
+    "type": "add/drop",
+    "timestamp": "1668729630",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jordan Akins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Greg Dortch",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "349",
+    "type": "add/drop",
+    "timestamp": "1668729522",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Rex Burkhead",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jameson Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "348",
+    "type": "add/drop",
+    "timestamp": "1668729463",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Javonte Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "347",
+    "type": "add/drop",
+    "timestamp": "1668729371",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cameron Brate",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "346",
+    "type": "add/drop",
+    "timestamp": "1668729223",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trace McSorley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trey McBride",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "345",
+    "type": "add/drop",
+    "timestamp": "1668656198",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "344",
+    "type": "add/drop",
+    "timestamp": "1668656004",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Treylon Burks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Elijah Moore",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "343",
+    "type": "add/drop",
+    "timestamp": "1668643085",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trestan Ebner",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Caleb Huntley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "342",
+    "type": "add/drop",
+    "timestamp": "1668635541",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Robbie Gould",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jason Myers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "341",
+    "type": "add",
+    "timestamp": "1668634100",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cairo Santos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "340",
+    "type": "drop",
+    "timestamp": "1668634072",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Randy Bullock",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "339",
+    "type": "add/drop",
+    "timestamp": "1668632244",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trey McBride",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kendall Hinton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "338",
+    "type": "add/drop",
+    "timestamp": "1668630381",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "337",
+    "type": "add/drop",
+    "timestamp": "1668629438",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jack Stoll",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jordan Love",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "336",
+    "type": "add/drop",
+    "timestamp": "1668625964",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kendall Hinton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "KJ Hamler",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "335",
+    "type": "add/drop",
+    "timestamp": "1668614137",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah Likely",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "334",
+    "type": "add/drop",
+    "timestamp": "1668613405",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "KJ Hamler",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "333",
+    "type": "add/drop",
+    "timestamp": "1668613183",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "332",
+    "type": "add/drop",
+    "timestamp": "1668609765",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "331",
+    "type": "add/drop",
+    "timestamp": "1668602078",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Daniel Bellinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Romeo Doubs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "330",
+    "type": "add/drop",
+    "timestamp": "1668601978",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dustin Hopkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ryan Succop",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "329",
+    "type": "add/drop",
+    "timestamp": "1668601895",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Demarcus Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Samaje Perine",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "326",
+    "type": "add/drop",
+    "timestamp": "1668586353",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mack Hollins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "325",
+    "type": "add/drop",
+    "timestamp": "1668586353",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cardinals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "324",
+    "type": "add",
+    "timestamp": "1668586353",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "323",
+    "type": "add/drop",
+    "timestamp": "1668586353",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Eno Benjamin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "322",
+    "type": "add/drop",
+    "timestamp": "1668586353",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Christian Watson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "321",
+    "type": "drop",
+    "timestamp": "1668545540",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bryce Perkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "320",
+    "type": "drop",
+    "timestamp": "1668536781",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zach Ertz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "319",
+    "type": "add/drop",
+    "timestamp": "1668358342",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Parris Campbell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marvin Jones Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "318",
+    "type": "add/drop",
+    "timestamp": "1668357336",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "317",
+    "type": "add/drop",
+    "timestamp": "1668317642",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ty Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "316",
+    "type": "add/drop",
+    "timestamp": "1668240622",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Colts",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "315",
+    "type": "add/drop",
+    "timestamp": "1668240622",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Elijah Mitchell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kalif Raymond",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "314",
+    "type": "add/drop",
+    "timestamp": "1668203565",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Matt Gay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "313",
+    "type": "add/drop",
+    "timestamp": "1668171870",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nico Collins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Denzel Mims",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "312",
+    "type": "add/drop",
+    "timestamp": "1668104646",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Foster Moreau",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "311",
+    "type": "add/drop",
+    "timestamp": "1668031775",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Colt McCoy",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "310",
+    "type": "add/drop",
+    "timestamp": "1668026969",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bryce Perkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Russell Gage Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "309",
+    "type": "add/drop",
+    "timestamp": "1668025483",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bailey Zappe",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "308",
+    "type": "add/drop",
+    "timestamp": "1668010167",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jahan Dotson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Johnny Mundt",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "307",
+    "type": "add/drop",
+    "timestamp": "1668006493",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jordan Love",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rashod Bateman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "306",
+    "type": "add/drop",
+    "timestamp": "1668005537",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Graham Gano",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Greg Zuerlein",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "305",
+    "type": "add/drop",
+    "timestamp": "1668005204",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brett Maher",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jason Sanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "304",
+    "type": "add/drop",
+    "timestamp": "1667995184",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Saints",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "303",
+    "type": "add/drop",
+    "timestamp": "1667993523",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "301",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Darius Slayton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Parris Campbell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "300",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cardinals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jaguars",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "299",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Case Keenum",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah Likely",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "298",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Terrace Marshall Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "297",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Justice Hill",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "296",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "295",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Hollywood Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "294",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Travis Homer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Phillip Lindsay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "293",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "292",
+    "type": "add",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Matt Breida",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "291",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "290",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wan'Dale Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Elijah Mitchell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "289",
+    "type": "add/drop",
+    "timestamp": "1667981539",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jaylen Warren",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "288",
+    "type": "drop",
+    "timestamp": "1667964447",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "287",
+    "type": "add/drop",
+    "timestamp": "1667832907",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nick Foles",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "286",
+    "type": "add/drop",
+    "timestamp": "1667754890",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Phillip Lindsay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Michael Thomas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "285",
+    "type": "add/drop",
+    "timestamp": "1667753873",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Denzel Mims",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sam Howell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "284",
+    "type": "add/drop",
+    "timestamp": "1667752565",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Dortch",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Olamide Zaccheaus",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "283",
+    "type": "add",
+    "timestamp": "1667752346",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Matt Ammendola",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "282",
+    "type": "drop",
+    "timestamp": "1667752208",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Graham Gano",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "281",
+    "type": "add/drop",
+    "timestamp": "1667751339",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kalif Raymond",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "280",
+    "type": "add/drop",
+    "timestamp": "1667746885",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah Likely",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brock Wright",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "279",
+    "type": "add/drop",
+    "timestamp": "1667669551",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jaylen Warren",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "278",
+    "type": "add/drop",
+    "timestamp": "1667669520",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "DeAndre Carter",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Noah Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "277",
+    "type": "add/drop",
+    "timestamp": "1667510217",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "276",
+    "type": "add/drop",
+    "timestamp": "1667422433",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jerick McKinnon",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah Likely",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "275",
+    "type": "add/drop",
+    "timestamp": "1667420740",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "274",
+    "type": "add/drop",
+    "timestamp": "1667420448",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Joseph",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brett Maher",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "273",
+    "type": "add/drop",
+    "timestamp": "1667399817",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "272",
+    "type": "add/drop",
+    "timestamp": "1667394087",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brock Wright",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "D'Ernest Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "271",
+    "type": "add/drop",
+    "timestamp": "1667390194",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Will Dissly",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "270",
+    "type": "add/drop",
+    "timestamp": "1667390107",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Wan'Dale Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "269",
+    "type": "add/drop",
+    "timestamp": "1667384765",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Joshua Palmer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darius Slayton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "267",
+    "type": "add/drop",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cade York",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "266",
+    "type": "add/drop",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sammy Watkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "265",
+    "type": "add/drop",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah Likely",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Bryant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "264",
+    "type": "add/drop",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Johnny Mundt",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Irv Smith Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "263",
+    "type": "add/drop",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "262",
+    "type": "add",
+    "timestamp": "1667373172",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "261",
+    "type": "drop",
+    "timestamp": "1667312226",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "260",
+    "type": "add/drop",
+    "timestamp": "1667148781",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Olamide Zaccheaus",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Logan Thomas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "259",
+    "type": "add/drop",
+    "timestamp": "1667148689",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Marquez Callaway",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyrod Taylor",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "258",
+    "type": "add/drop",
+    "timestamp": "1667144519",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chargers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "257",
+    "type": "add/drop",
+    "timestamp": "1667144316",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joshua Palmer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "256",
+    "type": "add/drop",
+    "timestamp": "1667134566",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Falcons",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "255",
+    "type": "add/drop",
+    "timestamp": "1667117384",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Greg Dortch",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "254",
+    "type": "add",
+    "timestamp": "1666965730",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ty Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "253",
+    "type": "add/drop",
+    "timestamp": "1666886881",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Breece Hall",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "252",
+    "type": "add/drop",
+    "timestamp": "1666884879",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "251",
+    "type": "add/drop",
+    "timestamp": "1666874812",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ben Skowronek",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nico Collins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "250",
+    "type": "add/drop",
+    "timestamp": "1666826515",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "James Cook III",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "249",
+    "type": "add/drop",
+    "timestamp": "1666825906",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sammy Watkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Daniel Bellinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "248",
+    "type": "add/drop",
+    "timestamp": "1666825811",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "D'Ernest Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rex Burkhead",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "247",
+    "type": "add/drop",
+    "timestamp": "1666811036",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nick Foles",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "KJ Hamler",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "246",
+    "type": "add/drop",
+    "timestamp": "1666791970",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Colts",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "245",
+    "type": "add/drop",
+    "timestamp": "1666791905",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Bryant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tevin Coleman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "244",
+    "type": "add/drop",
+    "timestamp": "1666784852",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jaguars",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cardinals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "243",
+    "type": "add/drop",
+    "timestamp": "1666782900",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bailey Zappe",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marquise Goodwin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "242",
+    "type": "add/drop",
+    "timestamp": "1666782870",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Marquise Goodwin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "241",
+    "type": "add/drop",
+    "timestamp": "1666782612",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "240",
+    "type": "add/drop",
+    "timestamp": "1666780695",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Darius Slayton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DJ Chark",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "238",
+    "type": "add/drop",
+    "timestamp": "1666768368",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Parris Campbell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Olamide Zaccheaus",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "237",
+    "type": "add/drop",
+    "timestamp": "1666768368",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "236",
+    "type": "add/drop",
+    "timestamp": "1666768368",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Dulcich",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "235",
+    "type": "add/drop",
+    "timestamp": "1666768368",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "234",
+    "type": "add/drop",
+    "timestamp": "1666768368",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sam Ehlinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Blaine Gabbert",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "233",
+    "type": "trade",
+    "timestamp": "1666710544",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Travis Etienne Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jakobi Meyers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trevor Lawrence",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "232",
+    "type": "drop",
+    "timestamp": "1666710544",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyquan Thornton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "231",
+    "type": "add/drop",
+    "timestamp": "1666586531",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bailey Zappe",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "230",
+    "type": "add/drop",
+    "timestamp": "1666540983",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Justice Hill",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DeSean Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "229",
+    "type": "add/drop",
+    "timestamp": "1666527913",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Isiah Pacheco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joshua Kelley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "228",
+    "type": "add/drop",
+    "timestamp": "1666422673",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "227",
+    "type": "add/drop",
+    "timestamp": "1666362481",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Noah Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jahan Dotson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "226",
+    "type": "trade",
+    "timestamp": "1666361787",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Taylor Heinicke",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brandon Aiyuk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Michael Pittman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brian Robinson Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "225",
+    "type": "add/drop",
+    "timestamp": "1666336198",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "DeSean Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Quez Watkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "224",
+    "type": "add/drop",
+    "timestamp": "1666323222",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Raheem Blackshear",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cooper Rush",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "223",
+    "type": "add/drop",
+    "timestamp": "1666322416",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chuba Hubbard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jerick McKinnon",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "222",
+    "type": "add/drop",
+    "timestamp": "1666311243",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cade Otton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bears",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "221",
+    "type": "add/drop",
+    "timestamp": "1666217512",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DeeJay Dallas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "220",
+    "type": "add/drop",
+    "timestamp": "1666216632",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah McKenzie",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "219",
+    "type": "add/drop",
+    "timestamp": "1666198831",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kyle Juszczyk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "James Cook III",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "218",
+    "type": "add/drop",
+    "timestamp": "1666195895",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "217",
+    "type": "add/drop",
+    "timestamp": "1666195868",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jason Myers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "216",
+    "type": "add/drop",
+    "timestamp": "1666191783",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Zuerlein",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matt Gay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "215",
+    "type": "add",
+    "timestamp": "1666191571",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Randy Bullock",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "214",
+    "type": "drop",
+    "timestamp": "1666191557",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Joseph",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "213",
+    "type": "add/drop",
+    "timestamp": "1666184108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Olamide Zaccheaus",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mike Boone",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "212",
+    "type": "add/drop",
+    "timestamp": "1666182559",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Keaontay Ingram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "211",
+    "type": "add/drop",
+    "timestamp": "1666182401",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Julio Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "210",
+    "type": "add/drop",
+    "timestamp": "1666182103",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cardinals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Seahawks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "209",
+    "type": "add/drop",
+    "timestamp": "1666181061",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jaguars",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "208",
+    "type": "add/drop",
+    "timestamp": "1666181045",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dustin Hopkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "207",
+    "type": "add/drop",
+    "timestamp": "1666180780",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brett Rypien",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isiah Pacheco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "206",
+    "type": "add/drop",
+    "timestamp": "1666180641",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wan'Dale Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Skylar Thompson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "205",
+    "type": "add/drop",
+    "timestamp": "1666180621",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "203",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "D'Onta Foreman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "202",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kyren Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Randall Cobb",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "201",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyquan Thornton",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Hollywood Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "200",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sam Howell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "199",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Daniel Bellinger",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "198",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nico Collins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rashaad Penny",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "197",
+    "type": "add/drop",
+    "timestamp": "1666163569",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Latavius Murray",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Phillip Lindsay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "196",
+    "type": "add/drop",
+    "timestamp": "1666045805",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mack Hollins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "K.J. Osborn",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "195",
+    "type": "add/drop",
+    "timestamp": "1665931906",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "194",
+    "type": "add/drop",
+    "timestamp": "1665929696",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Phillip Lindsay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "193",
+    "type": "add/drop",
+    "timestamp": "1665929188",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chargers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dolphins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "192",
+    "type": "add/drop",
+    "timestamp": "1665878312",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mecole Hardman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nelson Agholor",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "191",
+    "type": "add/drop",
+    "timestamp": "1665855733",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Keaontay Ingram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Wan'Dale Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "190",
+    "type": "add",
+    "timestamp": "1665852766",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kenyan Drake",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "188",
+    "type": "add/drop",
+    "timestamp": "1665817838",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Donovan Peoples-Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Austin Hooper",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "187",
+    "type": "add/drop",
+    "timestamp": "1665682521",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Panthers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "186",
+    "type": "add/drop",
+    "timestamp": "1665671014",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dustin Hopkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Michael Badgley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "185",
+    "type": "add/drop",
+    "timestamp": "1665587125",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "K.J. Osborn",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chuba Hubbard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "184",
+    "type": "add/drop",
+    "timestamp": "1665578957",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Taylor Heinicke",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Donovan Peoples-Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "183",
+    "type": "add/drop",
+    "timestamp": "1665577257",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tevin Coleman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "182",
+    "type": "drop",
+    "timestamp": "1665575696",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "181",
+    "type": "add/drop",
+    "timestamp": "1665575650",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nico Collins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "180",
+    "type": "add/drop",
+    "timestamp": "1665575633",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bears",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jordan Mason",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "179",
+    "type": "add/drop",
+    "timestamp": "1665575591",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Zamir White",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "178",
+    "type": "add/drop",
+    "timestamp": "1665572809",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Skylar Thompson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "177",
+    "type": "add/drop",
+    "timestamp": "1665572737",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Riley Patterson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "176",
+    "type": "add/drop",
+    "timestamp": "1665571175",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chargers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "175",
+    "type": "add/drop",
+    "timestamp": "1665558843",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "DeeJay Dallas",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mecole Hardman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "170",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "169",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Joshua Kelley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "168",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Randall Cobb",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mack Hollins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "167",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Julio Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "166",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Treylon Burks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "165",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Eno Benjamin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Latavius Murray",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "164",
+    "type": "add/drop",
+    "timestamp": "1665558793",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "P.J. Walker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sterling Shepard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "163",
+    "type": "add/drop",
+    "timestamp": "1665331927",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cade York",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Dustin Hopkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "162",
+    "type": "add/drop",
+    "timestamp": "1665327688",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Michael Badgley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jake Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "161",
+    "type": "add/drop",
+    "timestamp": "1665250780",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "159",
+    "type": "add/drop",
+    "timestamp": "1665213044",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Boston Scott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "158",
+    "type": "add/drop",
+    "timestamp": "1665156775",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Juwan Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "157",
+    "type": "add/drop",
+    "timestamp": "1665141935",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brett Maher",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "156",
+    "type": "trade",
+    "timestamp": "1665088963",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Packers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Taysom Hill",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "155",
+    "type": "trade",
+    "timestamp": "1665088956",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cooper Kupp",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Latavius Murray",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DeVante Parker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Brian Robinson Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Najee Harris",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darrell Henderson Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "DK Metcalf",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "154",
+    "type": "add/drop",
+    "timestamp": "1665074102",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Noah Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "153",
+    "type": "add/drop",
+    "timestamp": "1665024201",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Donovan Peoples-Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ameer Abdullah",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "152",
+    "type": "add/drop",
+    "timestamp": "1664990934",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Deon Jackson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "151",
+    "type": "add/drop",
+    "timestamp": "1664986022",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sam Darnold",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "150",
+    "type": "add/drop",
+    "timestamp": "1664973873",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Eno Benjamin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "149",
+    "type": "add/drop",
+    "timestamp": "1664973821",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Panthers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Texans",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "148",
+    "type": "add/drop",
+    "timestamp": "1664973701",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jason Sanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robbie Gould",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "147",
+    "type": "add/drop",
+    "timestamp": "1664972674",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "146",
+    "type": "add/drop",
+    "timestamp": "1664972617",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bailey Zappe",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "P.J. Walker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "145",
+    "type": "add/drop",
+    "timestamp": "1664968434",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Seahawks",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Bears",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "144",
+    "type": "add/drop",
+    "timestamp": "1664966371",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Matt Prater",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "143",
+    "type": "add",
+    "timestamp": "1664955801",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Riley Patterson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "142",
+    "type": "add/drop",
+    "timestamp": "1664955643",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Richie James",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "141",
+    "type": "add",
+    "timestamp": "1664955481",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Latavius Murray",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "135",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "P.J. Walker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joe Flacco",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "134",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Odell Beckham Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "133",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mike Boone",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robbie Chosen",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "132",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Will Dissly",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Albert Okwuegbunam Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "131",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jaguars",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "130",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Caleb Huntley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "129",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Teddy Bridgewater",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "D'Onta Foreman",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "128",
+    "type": "add/drop",
+    "timestamp": "1664953949",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Allgeier",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "127",
+    "type": "drop",
+    "timestamp": "1664896778",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brian Hoyer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "126",
+    "type": "drop",
+    "timestamp": "1664896768",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Javonte Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "125",
+    "type": "add/drop",
+    "timestamp": "1664715648",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Evan Engram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Cole Kmet",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "124",
+    "type": "add/drop",
+    "timestamp": "1664655415",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "123",
+    "type": "add/drop",
+    "timestamp": "1664564672",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenyan Drake",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "122",
+    "type": "add/drop",
+    "timestamp": "1664395596",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Broncos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "121",
+    "type": "add/drop",
+    "timestamp": "1664395577",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Raiders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Saints",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "120",
+    "type": "add/drop",
+    "timestamp": "1664374722",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ravens",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "119",
+    "type": "add/drop",
+    "timestamp": "1664374618",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Richie James",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darrel Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "118",
+    "type": "add/drop",
+    "timestamp": "1664374565",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jason Myers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "117",
+    "type": "add/drop",
+    "timestamp": "1664374535",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brian Hoyer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chase Daniel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "116",
+    "type": "add/drop",
+    "timestamp": "1664353752",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mack Hollins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "114",
+    "type": "add/drop",
+    "timestamp": "1664349163",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Josh Reynolds",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Travis Homer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "113",
+    "type": "add/drop",
+    "timestamp": "1664349163",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Greg Dortch",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "112",
+    "type": "add/drop",
+    "timestamp": "1664131373",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sterling Shepard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Isaiah Spiller",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "111",
+    "type": "add/drop",
+    "timestamp": "1664118864",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "110",
+    "type": "add/drop",
+    "timestamp": "1664100278",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chase Daniel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sammy Watkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "109",
+    "type": "add/drop",
+    "timestamp": "1663956974",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jason Myers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Harrison Butker",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "108",
+    "type": "add/drop",
+    "timestamp": "1663937091",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Giants",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "107",
+    "type": "add/drop",
+    "timestamp": "1663780623",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nelson Agholor",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Randall Cobb",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "106",
+    "type": "add/drop",
+    "timestamp": "1663762383",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Colts",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "105",
+    "type": "add/drop",
+    "timestamp": "1663761911",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Noah Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Parris Campbell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "104",
+    "type": "add/drop",
+    "timestamp": "1663760058",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Texans",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Broncos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "103",
+    "type": "add/drop",
+    "timestamp": "1663760008",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Robbie Gould",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "102",
+    "type": "add/drop",
+    "timestamp": "1663757142",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bears",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "49ers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "99",
+    "type": "add/drop",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Chuba Hubbard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenneth Gainwell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "98",
+    "type": "add/drop",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Travis Homer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Donovan Peoples-Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "97",
+    "type": "add",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "96",
+    "type": "add/drop",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Garrett Wilson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Skyy Moore",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "95",
+    "type": "add/drop",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Darrel Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "94",
+    "type": "add/drop",
+    "timestamp": "1663744410",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mike Gesicki",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "O.J. Howard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "93",
+    "type": "drop",
+    "timestamp": "1663688314",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Trey Lance",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "92",
+    "type": "add/drop",
+    "timestamp": "1663515993",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "K.J. Osborn",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "91",
+    "type": "add/drop",
+    "timestamp": "1663436269",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Parris Campbell",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mike Davis",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "90",
+    "type": "add/drop",
+    "timestamp": "1663398646",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Noah Fant",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "89",
+    "type": "add/drop",
+    "timestamp": "1663246214",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jets",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "88",
+    "type": "add/drop",
+    "timestamp": "1663208769",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jordan Mason",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Travis Homer",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "87",
+    "type": "add/drop",
+    "timestamp": "1663175008",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Nick Folk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Rodrigo Blankenship",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "86",
+    "type": "add/drop",
+    "timestamp": "1663174878",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "O.J. Howard",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mike Gesicki",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "85",
+    "type": "add/drop",
+    "timestamp": "1663158362",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Mason Crosby",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robbie Gould",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "84",
+    "type": "add/drop",
+    "timestamp": "1663158291",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jaylen Warren",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Myles Gaskin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "83",
+    "type": "add/drop",
+    "timestamp": "1663156104",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Younghoe Koo",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Damien Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "82",
+    "type": "add/drop",
+    "timestamp": "1663152037",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "78",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyler Conklin",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mo Alie-Cox",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "77",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zack Moss",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "D'Ernest Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "76",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Donovan Peoples-Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nelson Agholor",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "75",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Taysom Hill",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Evan Engram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "74",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Curtis Samuel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Allgeier",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "73",
+    "type": "add/drop",
+    "timestamp": "1663139611",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cooper Rush",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kendrick Bourne",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "72",
+    "type": "add/drop",
+    "timestamp": "1662915108",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Evan Engram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Jalen Tolbert",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "71",
+    "type": "add/drop",
+    "timestamp": "1662686235",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Commanders",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Chiefs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "70",
+    "type": "add/drop",
+    "timestamp": "1662685214",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Steelers",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "69",
+    "type": "add/drop",
+    "timestamp": "1662593314",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wil Lutz",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Garrett Wilson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "68",
+    "type": "add/drop",
+    "timestamp": "1662586549",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Damien Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "A.J. Green",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "67",
+    "type": "add/drop",
+    "timestamp": "1662584792",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zamir White",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Pierre Strong Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "66",
+    "type": "add/drop",
+    "timestamp": "1662584761",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Romeo Doubs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trestan Ebner",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "65",
+    "type": "add/drop",
+    "timestamp": "1662502396",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Broncos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Patriots",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "64",
+    "type": "add/drop",
+    "timestamp": "1662469297",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darrel Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "63",
+    "type": "add/drop",
+    "timestamp": "1662303396",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "John Wolford",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "62",
+    "type": "add/drop",
+    "timestamp": "1661989219",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Pierre Strong Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Trey Sermon",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "61",
+    "type": "add/drop",
+    "timestamp": "1661970748",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "60",
+    "type": "add/drop",
+    "timestamp": "1661906205",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Zay Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Zamir White",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "59",
+    "type": "add/drop",
+    "timestamp": "1661905684",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Gardner Minshew",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Romeo Doubs",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "58",
+    "type": "add/drop",
+    "timestamp": "1661893192",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Wan'Dale Robinson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Laviska Shenault Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "57",
+    "type": "add/drop",
+    "timestamp": "1661893063",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Gus Edwards",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marlon Mack",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "56",
+    "type": "add/drop",
+    "timestamp": "1661893039",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Rex Burkhead",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Kenny Golladay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "55",
+    "type": "add/drop",
+    "timestamp": "1661892887",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Alec Pierce",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Braxton Berrios",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "54",
+    "type": "add/drop",
+    "timestamp": "1661728696",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Braxton Berrios",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "53",
+    "type": "add/drop",
+    "timestamp": "1661728694",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Jeff Wilson Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nick Folk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "52",
+    "type": "add/drop",
+    "timestamp": "1661728675",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Russell Gage Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Joshua Kelley",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "51",
+    "type": "add",
+    "timestamp": "1661719646",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Browns",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "50",
+    "type": "add/drop",
+    "timestamp": "1661584160",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "D'Ernest Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Gus Edwards",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "49",
+    "type": "add/drop",
+    "timestamp": "1661563143",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Quez Watkins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ronald Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "48",
+    "type": "add/drop",
+    "timestamp": "1661441688",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Austin Hooper",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Taysom Hill",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "47",
+    "type": "add/drop",
+    "timestamp": "1661411357",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Vikings",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "46",
+    "type": "add/drop",
+    "timestamp": "1661364804",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Van Jefferson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Evan Engram",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "45",
+    "type": "add/drop",
+    "timestamp": "1661361016",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Blaine Gabbert",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Sony Michel",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "44",
+    "type": "add/drop",
+    "timestamp": "1661356202",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Malik Willis",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Desmond Ridder",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "43",
+    "type": "add",
+    "timestamp": "1661353932",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "A.J. Green",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "42",
+    "type": "add",
+    "timestamp": "1661353924",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Devin Duvernay",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "40",
+    "type": "add/drop",
+    "timestamp": "1661324958",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "KJ Hamler",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Odell Beckham Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "39",
+    "type": "add",
+    "timestamp": "1661324958",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Laviska Shenault Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "38",
+    "type": "add",
+    "timestamp": "1661324958",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Brandon McManus",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "37",
+    "type": "add/drop",
+    "timestamp": "1661324958",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ronald Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "D'Ernest Johnson",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "36",
+    "type": "add/drop",
+    "timestamp": "1661324958",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Randall Cobb",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Russell Gage Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "35",
+    "type": "trade",
+    "timestamp": "1661290579",
+    "status": "vetoed",
+    "players": [
+      {
+        "player_name": "J.K. Dobbins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "JuJu Smith-Schuster",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Marcus Mariota",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Tyler Bass",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "34",
+    "type": "trade",
+    "timestamp": "1661285251",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Dalvin Cook",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nyheim Miller-Hines",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robert Woods",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Ezekiel Elliott",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Devin Singletary",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Christian Kirk",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "33",
+    "type": "trade",
+    "timestamp": "1661283997",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Derek Carr",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Amon-Ra St. Brown",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Nyheim Miller-Hines",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Robert Woods",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Javonte Williams",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Michael Pittman Jr.",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "32",
+    "type": "drop",
+    "timestamp": "1661283997",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Broncos",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "31",
+    "type": "drop",
+    "timestamp": "1661283996",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Tyrion Davis-Price",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "25",
+    "type": "trade",
+    "timestamp": "1661184725",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Cooper Kupp",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "J.K. Dobbins",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Darren Waller",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "24",
+    "type": "drop",
+    "timestamp": "1661184725",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Austin Hooper",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "23",
+    "type": "trade",
+    "timestamp": "1661184720",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Elijah Moore",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Clyde Edwards-Helaire",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      },
+      {
+        "player_name": "Mike Evans",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "22",
+    "type": "drop",
+    "timestamp": "1661184720",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Bengals",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "19",
+    "type": "drop",
+    "timestamp": "1661134484",
+    "status": "successful",
+    "players": [
+      {
+        "player_name": "Ronald Jones",
+        "type": "",
+        "source_team_key": "",
+        "destination_team_key": ""
+      }
+    ]
+  }
+]

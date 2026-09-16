@@ -7,7 +7,9 @@ scripts/yahoo_creds.json
 # and these hold live access/refresh tokens for a public repo
 scripts/yahoo_creds.json*
 scripts/yahoo_token.json*
-yahoo_data/
+# yahoo_data/ is tracked: it is the source every data-driven page is built
+# from, and CI needs the historical seasons to rebuild. Only the current
+# season changes week to week.
 
 # Source PDFs live in site/pdfs/ - don't track root copies
 /*.pdf

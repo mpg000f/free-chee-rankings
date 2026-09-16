@@ -1,0 +1,257 @@
+pick,round,player_name,team_name,cost,player_key,team_key
+1,1,Josh Allen,Senior Sack Dumpers,63,414.p.30977,414.l.921976.t.12
+2,1,Christian McCaffrey,Tony the phenom,60,414.p.30121,414.l.921976.t.14
+3,1,CeeDee Lamb,Joe would rig a charity event,44,414.p.32687,414.l.921976.t.4
+4,1,Austin Ekeler,Senior Sack Dumpers,63,414.p.30423,414.l.921976.t.12
+5,1,Jonathan Taylor,Uhhh THRIIIIISISSSHHHH,70,414.p.32711,414.l.921976.t.11
+6,1,Justin Tucker,Pots & Pans,9,414.p.26534,414.l.921976.t.6
+7,1,Joe Mixon,Joe would rig a charity event,56,414.p.30161,414.l.921976.t.4
+8,1,Graham Gano,Senior Sack Dumpers,3,414.p.9526,414.l.921976.t.12
+9,1,Justin Jefferson,The Ed Orgeron Alumni Assoc.,65,414.p.32692,414.l.921976.t.10
+10,1,Ja'Marr Chase,The Ed Orgeron Alumni Assoc.,66,414.p.33393,414.l.921976.t.10
+11,1,Davante Adams,Free Paid,56,414.p.27581,414.l.921976.t.16
+12,1,Ezekiel Elliott,Tony the phenom,39,414.p.29238,414.l.921976.t.14
+13,1,Cooper Kupp,Joe would rig a charity event,63,414.p.30182,414.l.921976.t.4
+14,1,Nick Chubb,From You,47,414.p.31005,414.l.921976.t.1
+15,1,Alvin Kamara,Double Underhooks,50,414.p.30180,414.l.921976.t.5
+16,1,Derrick Henry,From You,64,414.p.29279,414.l.921976.t.1
+17,2,Aaron Jones Sr.,HAHAHAHAHAHAHA,52,414.p.30295,414.l.921976.t.9
+18,2,Tyreek Hill,HAHAHAHAHAHAHA,125,414.p.29399,414.l.921976.t.9
+19,2,Najee Harris,Tank Unloders,57,414.p.33412,414.l.921976.t.2
+20,2,Mark Andrews,Vox Populi,26,414.p.31056,414.l.921976.t.8
+21,2,Saquon Barkley,The Much Obliged,47,414.p.30972,414.l.921976.t.7
+22,2,Cam Akers,Vox Populi,32,414.p.32722,414.l.921976.t.8
+23,2,D'Andre Swift,Pots & Pans,44,414.p.32705,414.l.921976.t.6
+24,2,Stefon Diggs,Tank Unloders,42,414.p.28534,414.l.921976.t.2
+25,2,Josh Jacobs,Pots & Pans,27,414.p.31856,414.l.921976.t.6
+26,2,Dalvin Cook,Vox Populi,56,414.p.30154,414.l.921976.t.8
+27,2,Kyler Murray,Pots & Pans,48,414.p.31833,414.l.921976.t.6
+28,2,Lamar Jackson,The Much Obliged,47,414.p.31002,414.l.921976.t.7
+29,2,Mike Evans,The Ed Orgeron Alumni Assoc.,37,414.p.27535,414.l.921976.t.10
+30,2,Javonte Williams,Vox Populi,42,414.p.33423,414.l.921976.t.8
+31,2,Michael Pittman Jr.,Vox Populi,30,414.p.32704,414.l.921976.t.8
+32,2,Travis Kelce,Free Paid,47,414.p.26686,414.l.921976.t.16
+33,3,Courtland Sutton,Alexander's Unreal Team,28,414.p.31010,414.l.921976.t.15
+34,3,Leonard Fournette,GLOVÊ SIDE BRODEUR,44,414.p.30117,414.l.921976.t.13
+35,3,A.J. Brown,Alexander's Unreal Team,31,414.p.31883,414.l.921976.t.15
+36,3,Tom Brady,Alexander's Unreal Team,41,414.p.5228,414.l.921976.t.15
+37,3,Travis Etienne Jr.,Uhhh THRIIIIISISSSHHHH,27,414.p.33413,414.l.921976.t.11
+38,3,Deebo Samuel,Senior Sack Dumpers,45,414.p.31868,414.l.921976.t.12
+39,3,Keenan Allen,Tony the phenom,33,414.p.26699,414.l.921976.t.14
+40,3,Tee Higgins,The Much Obliged,28,414.p.32703,414.l.921976.t.7
+41,3,Antonio Gibson,Alexander's Unreal Team,26,414.p.32736,414.l.921976.t.15
+42,3,J.K. Dobbins,The Jose Trevinos,25,414.p.32725,414.l.921976.t.3
+43,3,Kyle Pitts Sr.,The Jose Trevinos,25,414.p.33392,414.l.921976.t.3
+44,3,Kirk Cousins,Tank Unloders,31,414.p.25812,414.l.921976.t.2
+45,3,DJ Moore,The Jose Trevinos,21,414.p.30994,414.l.921976.t.3
+46,3,James Conner,The Jose Trevinos,34,414.p.30218,414.l.921976.t.3
+47,3,Terry McLaurin,Uhhh THRIIIIISISSSHHHH,20,414.p.31908,414.l.921976.t.11
+48,3,Breece Hall,GLOVÊ SIDE BRODEUR,23,414.p.33991,414.l.921976.t.13
+49,4,Dalton Schultz,Uhhh THRIIIIISISSSHHHH,13,414.p.31107,414.l.921976.t.11
+50,4,Elijah Mitchell,Alexander's Unreal Team,21,414.p.33582,414.l.921976.t.15
+51,4,JuJu Smith-Schuster,Joe would rig a charity event,17,414.p.30175,414.l.921976.t.4
+52,4,Kareem Hunt,Free Paid,16,414.p.30199,414.l.921976.t.16
+53,4,Mike Williams,Double Underhooks,18,414.p.30120,414.l.921976.t.5
+54,4,Bills,From You,2,414.p.100002,414.l.921976.t.1
+55,4,Diontae Johnson,Free Paid,16,414.p.31898,414.l.921976.t.16
+56,4,David Montgomery,The Much Obliged,21,414.p.31905,414.l.921976.t.7
+57,4,Tony Pollard,Double Underhooks,11,414.p.31960,414.l.921976.t.5
+58,4,Justin Herbert,Double Underhooks,41,414.p.32676,414.l.921976.t.5
+59,4,Jerry Jeudy,Pots & Pans,17,414.p.32685,414.l.921976.t.6
+60,4,A.J. Dillon,Double Underhooks,18,414.p.32732,414.l.921976.t.5
+61,4,Allen Robinson,From You,14,414.p.27589,414.l.921976.t.1
+62,4,Jaylen Waddle,GLOVÊ SIDE BRODEUR,23,414.p.33394,414.l.921976.t.13
+63,4,Adam Thielen,Tony the phenom,13,414.p.27277,414.l.921976.t.14
+64,4,Damien Harris,Tony the phenom,10,414.p.31919,414.l.921976.t.14
+65,5,Darren Waller,The Jose Trevinos,18,414.p.28592,414.l.921976.t.3
+66,5,Patrick Mahomes,Double Underhooks,43,414.p.30123,414.l.921976.t.5
+67,5,Hollywood Brown,Uhhh THRIIIIISISSSHHHH,10,414.p.31857,414.l.921976.t.11
+68,5,George Kittle,The Ed Orgeron Alumni Assoc.,19,414.p.30259,414.l.921976.t.10
+69,5,Joe Burrow,GLOVÊ SIDE BRODEUR,27,414.p.32671,414.l.921976.t.13
+70,5,Brandin Cooks,The Much Obliged,12,414.p.27548,414.l.921976.t.7
+71,5,Russell Wilson,Uhhh THRIIIIISISSSHHHH,26,414.p.25785,414.l.921976.t.11
+72,5,Dallas Goedert,Senior Sack Dumpers,15,414.p.31019,414.l.921976.t.12
+73,5,Jalen Hurts,Free Paid,36,414.p.32723,414.l.921976.t.16
+74,5,Kenneth Walker III,Joe would rig a charity event,6,414.p.33996,414.l.921976.t.4
+75,5,Allen Lazard,From You,10,414.p.31268,414.l.921976.t.1
+76,5,Amon-Ra St. Brown,The Jose Trevinos,11,414.p.33500,414.l.921976.t.3
+77,5,DK Metcalf,Tank Unloders,14,414.p.31896,414.l.921976.t.2
+78,5,Amari Cooper,Tony the phenom,9,414.p.28392,414.l.921976.t.14
+79,5,T.J. Hockenson,Tony the phenom,16,414.p.31840,414.l.921976.t.14
+80,5,Clyde Edwards-Helaire,Pots & Pans,16,414.p.32702,414.l.921976.t.6
+81,6,Gabe Davis,Alexander's Unreal Team,12,414.p.32798,414.l.921976.t.15
+82,6,Miles Sanders,Pots & Pans,15,414.p.31885,414.l.921976.t.6
+83,6,Tyler Lockett,HAHAHAHAHAHAHA,5,414.p.28457,414.l.921976.t.9
+84,6,Devin Singletary,Tony the phenom,9,414.p.31906,414.l.921976.t.14
+85,6,Rashod Bateman,From You,5,414.p.33415,414.l.921976.t.1
+86,6,Derek Carr,The Jose Trevinos,23,414.p.27564,414.l.921976.t.3
+87,6,Trey Lance,From You,26,414.p.33391,414.l.921976.t.1
+88,6,Daniel Jones,Alexander's Unreal Team,6,414.p.31838,414.l.921976.t.15
+89,6,Dak Prescott,Tank Unloders,26,414.p.29369,414.l.921976.t.2
+90,6,Chase Edmonds,Free Paid,10,414.p.31104,414.l.921976.t.16
+91,6,Mike Gesicki,GLOVÊ SIDE BRODEUR,8,414.p.31012,414.l.921976.t.13
+92,6,Rashaad Penny,Uhhh THRIIIIISISSSHHHH,11,414.p.30997,414.l.921976.t.11
+93,6,Elijah Moore,Pots & Pans,7,414.p.33422,414.l.921976.t.6
+94,6,Michael Thomas,Uhhh THRIIIIISISSSHHHH,8,414.p.29281,414.l.921976.t.11
+95,6,Aaron Rodgers,The Much Obliged,23,414.p.7200,414.l.921976.t.7
+96,6,Rhamondre Stevenson,Alexander's Unreal Team,8,414.p.33508,414.l.921976.t.15
+97,7,Matthew Stafford,The Jose Trevinos,17,414.p.9265,414.l.921976.t.3
+98,7,Brandon Aiyuk,Double Underhooks,7,414.p.32695,414.l.921976.t.5
+99,7,Melvin Gordon III,Tank Unloders,5,414.p.28403,414.l.921976.t.2
+100,7,Mac Jones,From You,8,414.p.33403,414.l.921976.t.1
+101,7,Darnell Mooney,GLOVÊ SIDE BRODEUR,5,414.p.32843,414.l.921976.t.13
+102,7,Dameon Pierce,GLOVÊ SIDE BRODEUR,7,414.p.34063,414.l.921976.t.13
+103,7,Trevor Lawrence,Alexander's Unreal Team,12,414.p.33389,414.l.921976.t.15
+104,7,Ryan Tannehill,Free Paid,10,414.p.25718,414.l.921976.t.16
+105,7,Chris Godwin Jr.,From You,4,414.p.30197,414.l.921976.t.1
+106,7,Justin Fields,Pots & Pans,9,414.p.33399,414.l.921976.t.6
+107,7,Zach Ertz,Tank Unloders,4,414.p.26658,414.l.921976.t.2
+108,7,Dawson Knox,Alexander's Unreal Team,5,414.p.31928,414.l.921976.t.15
+109,7,Hunter Renfrow,GLOVÊ SIDE BRODEUR,5,414.p.31981,414.l.921976.t.13
+110,7,Pat Freiermuth,The Much Obliged,4,414.p.33443,414.l.921976.t.7
+111,7,Tua Tagovailoa,GLOVÊ SIDE BRODEUR,10,414.p.32675,414.l.921976.t.13
+112,7,Buccaneers,Alexander's Unreal Team,2,414.p.100027,414.l.921976.t.15
+113,8,49ers,Uhhh THRIIIIISISSSHHHH,1,414.p.100025,414.l.921976.t.11
+114,8,Cordarrelle Patterson,GLOVÊ SIDE BRODEUR,5,414.p.26652,414.l.921976.t.13
+115,8,DeVonta Smith,GLOVÊ SIDE BRODEUR,6,414.p.33398,414.l.921976.t.13
+116,8,Davis Mills,The Much Obliged,4,414.p.33455,414.l.921976.t.7
+117,8,Darrell Henderson Jr.,Tank Unloders,4,414.p.31902,414.l.921976.t.2
+118,8,Jameis Winston,The Jose Trevinos,7,414.p.28389,414.l.921976.t.3
+119,8,George Pickens,GLOVÊ SIDE BRODEUR,5,414.p.34007,414.l.921976.t.13
+120,8,Matt Ryan,Uhhh THRIIIIISISSSHHHH,7,414.p.8780,414.l.921976.t.11
+121,8,Christian Kirk,Tony the phenom,3,414.p.31017,414.l.921976.t.14
+122,8,Jared Goff,Joe would rig a charity event,4,414.p.29235,414.l.921976.t.4
+123,8,Hayden Hurst,Pots & Pans,2,414.p.30995,414.l.921976.t.6
+124,8,James Cook III,Vox Populi,4,414.p.34019,414.l.921976.t.8
+125,8,Robert Woods,The Jose Trevinos,3,414.p.26664,414.l.921976.t.3
+126,8,DeAndre Hopkins,GLOVÊ SIDE BRODEUR,2,414.p.26650,414.l.921976.t.13
+127,8,Packers,Tony the phenom,1,414.p.100009,414.l.921976.t.14
+128,8,Evan McPherson,Alexander's Unreal Team,1,414.p.33537,414.l.921976.t.15
+129,9,James Robinson,Alexander's Unreal Team,4,414.p.33138,414.l.921976.t.15
+130,9,Dontrell Hilliard,HAHAHAHAHAHAHA,1,414.p.31457,414.l.921976.t.9
+131,9,Mecole Hardman Jr.,From You,3,414.p.31888,414.l.921976.t.1
+132,9,Baker Mayfield,HAHAHAHAHAHAHA,4,414.p.30971,414.l.921976.t.9
+133,9,Nyheim Miller-Hines,The Jose Trevinos,3,414.p.31074,414.l.921976.t.3
+134,9,Rams,GLOVÊ SIDE BRODEUR,2,414.p.100014,414.l.921976.t.13
+135,9,Rodrigo Blankenship,GLOVÊ SIDE BRODEUR,1,414.p.33211,414.l.921976.t.13
+136,9,Russell Gage Jr.,Tony the phenom,2,414.p.31164,414.l.921976.t.14
+137,9,Kenneth Gainwell,HAHAHAHAHAHAHA,2,414.p.33538,414.l.921976.t.9
+138,9,Zach Wilson,HAHAHAHAHAHAHA,2,414.p.33390,414.l.921976.t.9
+139,9,Julio Jones,Uhhh THRIIIIISISSSHHHH,2,414.p.24793,414.l.921976.t.11
+140,9,Albert Okwuegbunam Jr.,From You,2,414.p.32788,414.l.921976.t.1
+141,9,Kadarius Toney,Double Underhooks,3,414.p.33408,414.l.921976.t.5
+142,9,Drake London,Tank Unloders,2,414.p.33963,414.l.921976.t.2
+143,9,Carson Wentz,From You,3,414.p.29236,414.l.921976.t.1
+144,9,Michael Carter,The Ed Orgeron Alumni Assoc.,2,414.p.33495,414.l.921976.t.10
+145,10,Alexander Mattison,Double Underhooks,2,414.p.31934,414.l.921976.t.5
+146,10,Brian Robinson Jr.,Tank Unloders,9,414.p.34054,414.l.921976.t.2
+147,10,Ronald Jones,From You,1,414.p.31008,414.l.921976.t.1
+148,10,Jacoby Brissett,The Ed Orgeron Alumni Assoc.,1,414.p.29325,414.l.921976.t.10
+149,10,Jamaal Williams,From You,2,414.p.30247,414.l.921976.t.1
+150,10,Chase Claypool,From You,5,414.p.32719,414.l.921976.t.1
+151,10,Deshaun Watson,GLOVÊ SIDE BRODEUR,14,414.p.30125,414.l.921976.t.13
+152,10,Sammy Watkins,The Jose Trevinos,2,414.p.27532,414.l.921976.t.3
+153,10,Chris Olave,From You,4,414.p.33966,414.l.921976.t.1
+154,10,Marcus Mariota,Joe would rig a charity event,1,414.p.28390,414.l.921976.t.4
+155,10,DeVante Parker,The Jose Trevinos,2,414.p.28402,414.l.921976.t.3
+156,10,Cole Kmet,Double Underhooks,1,414.p.32713,414.l.921976.t.5
+157,10,Tyler Boyd,Vox Populi,1,414.p.29288,414.l.921976.t.8
+158,10,Tyler Higbee,The Much Obliged,1,414.p.29344,414.l.921976.t.7
+159,10,Mitchell Trubisky,Tony the phenom,1,414.p.30115,414.l.921976.t.14
+160,10,Khalil Herbert,The Much Obliged,2,414.p.33605,414.l.921976.t.7
+161,11,Daniel Carlson,Uhhh THRIIIIISISSSHHHH,1,414.p.31137,414.l.921976.t.11
+162,11,Marlon Mack,HAHAHAHAHAHAHA,1,414.p.30256,414.l.921976.t.9
+163,11,Rachaad White,The Ed Orgeron Alumni Assoc.,1,414.p.34047,414.l.921976.t.10
+164,11,J.D. McKissic,Free Paid,1,414.p.29650,414.l.921976.t.16
+165,11,Isiah Pacheco,The Jose Trevinos,4,414.p.34207,414.l.921976.t.3
+166,11,Raheem Mostert,Senior Sack Dumpers,1,414.p.28654,414.l.921976.t.12
+167,11,Colts,Tank Unloders,1,414.p.100011,414.l.921976.t.2
+168,11,Kenny Pickett,Joe would rig a charity event,1,414.p.33975,414.l.921976.t.4
+169,11,DJ Chark,The Much Obliged,2,414.p.31031,414.l.921976.t.7
+170,11,Tyler Allgeier,Double Underhooks,1,414.p.34107,414.l.921976.t.5
+171,11,Broncos,Vox Populi,1,414.p.100007,414.l.921976.t.8
+172,11,Chargers,The Much Obliged,1,414.p.100024,414.l.921976.t.7
+173,11,Tyler Bass,Tony the phenom,1,414.p.32858,414.l.921976.t.14
+174,11,David Njoku,Alexander's Unreal Team,1,414.p.30142,414.l.921976.t.15
+175,11,Zamir White,Uhhh THRIIIIISISSSHHHH,1,414.p.34078,414.l.921976.t.11
+176,11,Joe Flacco,HAHAHAHAHAHAHA,1,414.p.8795,414.l.921976.t.9
+177,12,Jimmy Garoppolo,The Ed Orgeron Alumni Assoc.,1,414.p.27590,414.l.921976.t.10
+178,12,Marquez Valdes-Scantling,Free Paid,1,414.p.31144,414.l.921976.t.16
+179,12,Ravens,The Jose Trevinos,2,414.p.100033,414.l.921976.t.3
+180,12,Jarvis Landry,Senior Sack Dumpers,1,414.p.27591,414.l.921976.t.12
+181,12,Garrett Wilson,Tank Unloders,1,414.p.33965,414.l.921976.t.2
+182,12,Trey Sermon,Joe would rig a charity event,1,414.p.33476,414.l.921976.t.4
+183,12,Marvin Jones Jr.,Pots & Pans,1,414.p.25876,414.l.921976.t.6
+184,12,Saints,Double Underhooks,1,414.p.100018,414.l.921976.t.5
+185,12,Matt Gay,Vox Populi,1,414.p.31977,414.l.921976.t.8
+186,12,Treylon Burks,The Much Obliged,1,414.p.33973,414.l.921976.t.7
+187,12,Hunter Henry,Tony the phenom,1,414.p.29269,414.l.921976.t.14
+188,12,Jakobi Meyers,Alexander's Unreal Team,1,414.p.32231,414.l.921976.t.15
+189,12,Irv Smith Jr.,Uhhh THRIIIIISISSSHHHH,1,414.p.31882,414.l.921976.t.11
+190,12,Kenny Golladay,HAHAHAHAHAHAHA,1,414.p.30209,414.l.921976.t.9
+191,12,Skyy Moore,The Ed Orgeron Alumni Assoc.,1,414.p.34009,414.l.921976.t.10
+192,12,Patriots,Free Paid,1,414.p.100017,414.l.921976.t.16
+193,13,Harrison Butker,The Jose Trevinos,3,414.p.30346,414.l.921976.t.3
+194,13,Titans,Senior Sack Dumpers,1,414.p.100010,414.l.921976.t.12
+195,13,Geno Smith,Tank Unloders,1,414.p.26662,414.l.921976.t.2
+196,13,Samaje Perine,Joe would rig a charity event,1,414.p.30227,414.l.921976.t.4
+197,13,Eagles,Pots & Pans,1,414.p.100021,414.l.921976.t.6
+198,13,Greg Joseph,Double Underhooks,1,414.p.31538,414.l.921976.t.5
+199,13,Drew Lock,Vox Populi,1,414.p.31874,414.l.921976.t.8
+200,13,Jerick McKinnon,The Much Obliged,1,414.p.27624,414.l.921976.t.7
+201,13,Isaiah Spiller,Tony the phenom,1,414.p.34079,414.l.921976.t.14
+202,13,Sony Michel,Alexander's Unreal Team,1,414.p.31001,414.l.921976.t.15
+203,13,Nico Collins,Uhhh THRIIIIISISSSHHHH,1,414.p.33477,414.l.921976.t.11
+204,13,Robbie Chosen,HAHAHAHAHAHAHA,1,414.p.29785,414.l.921976.t.9
+205,13,Robert Tonyan,The Ed Orgeron Alumni Assoc.,1,414.p.30777,414.l.921976.t.10
+206,13,Robbie Gould,Free Paid,1,414.p.7520,414.l.921976.t.16
+207,13,Mark Ingram II,Senior Sack Dumpers,1,414.p.24815,414.l.921976.t.12
+208,13,Jalen Tolbert,Tank Unloders,1,414.p.34044,414.l.921976.t.2
+209,14,Austin Hooper,Joe would rig a charity event,1,414.p.29315,414.l.921976.t.4
+210,14,Taysom Hill,Pots & Pans,1,414.p.30614,414.l.921976.t.6
+211,14,Evan Engram,Double Underhooks,1,414.p.30136,414.l.921976.t.5
+212,14,Gerald Everett,Vox Populi,1,414.p.30157,414.l.921976.t.8
+213,14,Kenyan Drake,The Much Obliged,1,414.p.29307,414.l.921976.t.7
+214,14,Chiefs,Tony the phenom,1,414.p.100012,414.l.921976.t.14
+215,14,D'Onta Foreman,Uhhh THRIIIIISISSSHHHH,1,414.p.30202,414.l.921976.t.11
+216,14,Gus Edwards,HAHAHAHAHAHAHA,1,414.p.31424,414.l.921976.t.9
+217,14,Darrel Williams,The Ed Orgeron Alumni Assoc.,1,414.p.31500,414.l.921976.t.10
+218,14,Romeo Doubs,Free Paid,1,414.p.34088,414.l.921976.t.16
+219,14,Michael Gallup,Senior Sack Dumpers,1,414.p.31051,414.l.921976.t.12
+220,14,Isaiah McKenzie,Tank Unloders,1,414.p.30285,414.l.921976.t.2
+221,14,Joshua Palmer,Joe would rig a charity event,1,414.p.33465,414.l.921976.t.4
+222,14,Boston Scott,Pots & Pans,1,414.p.31171,414.l.921976.t.6
+223,14,Ameer Abdullah,Double Underhooks,1,414.p.28442,414.l.921976.t.5
+224,14,Rondale Moore,Vox Populi,1,414.p.33437,414.l.921976.t.8
+225,15,Matt Prater,The Much Obliged,1,414.p.8565,414.l.921976.t.7
+226,15,Mo Alie-Cox,HAHAHAHAHAHAHA,1,414.p.30112,414.l.921976.t.9
+227,15,Mike Davis,The Ed Orgeron Alumni Assoc.,1,414.p.28514,414.l.921976.t.10
+228,15,Noah Fant,Free Paid,1,414.p.31852,414.l.921976.t.16
+229,15,Corey Davis,Senior Sack Dumpers,1,414.p.30118,414.l.921976.t.12
+230,15,Nick Folk,Tank Unloders,1,414.p.8432,414.l.921976.t.2
+231,15,Travis Homer,Joe would rig a charity event,1,414.p.32036,414.l.921976.t.4
+232,15,Odell Beckham Jr.,Pots & Pans,1,414.p.27540,414.l.921976.t.6
+233,15,Joshua Kelley,Double Underhooks,1,414.p.32782,414.l.921976.t.5
+234,15,K.J. Osborn,Vox Populi,1,414.p.32846,414.l.921976.t.8
+235,15,Nelson Agholor,HAHAHAHAHAHAHA,1,414.p.28408,414.l.921976.t.9
+236,15,Bengals,The Ed Orgeron Alumni Assoc.,1,414.p.100004,414.l.921976.t.10
+237,15,Eno Benjamin,Free Paid,1,414.p.32892,414.l.921976.t.16
+238,15,Andy Dalton,Senior Sack Dumpers,1,414.p.24822,414.l.921976.t.12
+239,15,Trestan Ebner,Joe would rig a charity event,1,414.p.34159,414.l.921976.t.4
+240,15,D'Ernest Johnson,Pots & Pans,1,414.p.32608,414.l.921976.t.6
+241,16,Kendrick Bourne,Vox Populi,1,414.p.30551,414.l.921976.t.8
+242,16,Vikings,HAHAHAHAHAHAHA,1,414.p.100016,414.l.921976.t.9
+243,16,Steelers,The Ed Orgeron Alumni Assoc.,1,414.p.100023,414.l.921976.t.10
+244,16,Jahan Dotson,Free Paid,1,414.p.33971,414.l.921976.t.16
+245,16,Cameron Brate,Senior Sack Dumpers,1,414.p.28267,414.l.921976.t.12
+246,16,Cowboys,Joe would rig a charity event,1,414.p.100006,414.l.921976.t.4
+247,16,Tyrion Davis-Price,Vox Populi,1,414.p.34049,414.l.921976.t.8
+248,16,Dustin Hopkins,HAHAHAHAHAHAHA,1,414.p.26800,414.l.921976.t.9
+249,16,Jake Elliott,The Ed Orgeron Alumni Assoc.,1,414.p.30266,414.l.921976.t.10
+250,16,Myles Gaskin,Free Paid,1,414.p.32066,414.l.921976.t.16
+251,16,Tyrod Taylor,Senior Sack Dumpers,1,414.p.24967,414.l.921976.t.12
+252,16,Ryan Succop,Joe would rig a charity event,1,414.p.9520,414.l.921976.t.4
+253,16,Dolphins,Vox Populi,1,414.p.100015,414.l.921976.t.8
+254,16,Desmond Ridder,The Ed Orgeron Alumni Assoc.,1,414.p.34030,414.l.921976.t.10
+255,16,Logan Thomas,Senior Sack Dumpers,1,414.p.27648,414.l.921976.t.12
+256,16,Jameson Williams,Senior Sack Dumpers,1,414.p.33967,414.l.921976.t.12

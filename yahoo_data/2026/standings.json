@@ -1,0 +1,178 @@
+[
+  {
+    "team_key": "470.l.165433.t.1",
+    "team_name": "Boone",
+    "team_id": "1",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 161.36,
+    "points_against": 60.4,
+    "rank": 1
+  },
+  {
+    "team_key": "470.l.165433.t.15",
+    "team_name": "Hello Darkness My Old Friend",
+    "team_id": "15",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 157.9,
+    "points_against": 136.26,
+    "rank": 2
+  },
+  {
+    "team_key": "470.l.165433.t.3",
+    "team_name": "Nick Wright Barely Legal",
+    "team_id": "3",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 143.16,
+    "points_against": 114.18,
+    "rank": 3
+  },
+  {
+    "team_key": "470.l.165433.t.2",
+    "team_name": "Shough and F#ck",
+    "team_id": "2",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 128.66,
+    "points_against": 73.3,
+    "rank": 4
+  },
+  {
+    "team_key": "470.l.165433.t.9",
+    "team_name": "\ud83c\udf7e\ud83d\udcbc\ud83e\udd70",
+    "team_id": "9",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 122.66,
+    "points_against": 105.02,
+    "rank": 5
+  },
+  {
+    "team_key": "470.l.165433.t.11",
+    "team_name": "Ginny Sack",
+    "team_id": "11",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 120.84,
+    "points_against": 103.82,
+    "rank": 6
+  },
+  {
+    "team_key": "470.l.165433.t.10",
+    "team_name": "Healthy as a Fucking Rhino",
+    "team_id": "10",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 109.14,
+    "points_against": 78.84,
+    "rank": 7
+  },
+  {
+    "team_key": "470.l.165433.t.8",
+    "team_name": "Pelosis Powder",
+    "team_id": "8",
+    "wins": 1,
+    "losses": 0,
+    "ties": 0,
+    "points_for": 105.9,
+    "points_against": 83.6,
+    "rank": 8
+  },
+  {
+    "team_key": "470.l.165433.t.14",
+    "team_name": "Pigs on the 7th Rank",
+    "team_id": "14",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 136.26,
+    "points_against": 157.9,
+    "rank": 9
+  },
+  {
+    "team_key": "470.l.165433.t.4",
+    "team_name": "Charles Dickens",
+    "team_id": "4",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 114.18,
+    "points_against": 143.16,
+    "rank": 10
+  },
+  {
+    "team_key": "470.l.165433.t.6",
+    "team_name": "Stewed C",
+    "team_id": "6",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 105.02,
+    "points_against": 122.66,
+    "rank": 11
+  },
+  {
+    "team_key": "470.l.165433.t.12",
+    "team_name": "Phenom",
+    "team_id": "12",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 103.82,
+    "points_against": 120.84,
+    "rank": 12
+  },
+  {
+    "team_key": "470.l.165433.t.16",
+    "team_name": "Tuanigamanuolepola Donny",
+    "team_id": "16",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 83.6,
+    "points_against": 105.9,
+    "rank": 13
+  },
+  {
+    "team_key": "470.l.165433.t.5",
+    "team_name": "Free Paid",
+    "team_id": "5",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 78.84,
+    "points_against": 109.14,
+    "rank": 14
+  },
+  {
+    "team_key": "470.l.165433.t.7",
+    "team_name": "The Art of the Deal",
+    "team_id": "7",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 73.3,
+    "points_against": 128.66,
+    "rank": 15
+  },
+  {
+    "team_key": "470.l.165433.t.13",
+    "team_name": "Work Ass",
+    "team_id": "13",
+    "wins": 0,
+    "losses": 1,
+    "ties": 0,
+    "points_for": 60.4,
+    "points_against": 161.36,
+    "rank": 16
+  }
+]
