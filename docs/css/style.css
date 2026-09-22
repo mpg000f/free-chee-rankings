@@ -2039,3 +2039,13 @@ h3 { font-size: 1.2rem; }
 .chart-embed iframe { display: block; width: 100%; border: 0; }
 
 .article-image a { display: inline-block; cursor: zoom-in; }
+
+.tweet-embed { margin: 1.25rem 0; display: flex; justify-content: center; }
+.tweet-embed .twitter-tweet { margin: 0 auto !important; }
+/* Before X's widget replaces it (or if it never loads): a readable quote card */
+.tweet-embed blockquote.twitter-tweet {
+  width: 100%; max-width: 550px; padding: 14px 18px; text-align: left;
+  background: var(--surface-light); border-left: 3px solid var(--accent);
+  border-radius: 8px; font-size: .95rem; color: var(--text-dim); line-height: 1.5;
+}
+.tweet-embed blockquote.twitter-tweet p { color: var(--text); margin-bottom: 6px; }

@@ -94,6 +94,9 @@
         oldScript.parentNode.replaceChild(newScript, oldScript);
       });
 
+      // Tweets: load X's widget script once, then render any embeds in this week
+      if (articlePanel.querySelector('blockquote.twitter-tweet')) loadTweets(articlePanel);
+
       // Mobile: setup accordion behavior
       setupAccordion();
     } catch (err) {
@@ -102,11 +105,24 @@
   }
 
   // Mobile accordion for team cards
+  function loadTweets(root) {
+    const render = () => window.twttr && window.twttr.widgets && window.twttr.widgets.load(root);
+    if (window.twttr && window.twttr.widgets) return render();
+    if (!document.getElementById('x-widgets')) {
+      const s = document.createElement('script');
+      s.id = 'x-widgets'; s.async = true; s.src = 'https://platform.twitter.com/widgets.js';
+      s.onload = render;
+      document.head.appendChild(s);
+    }
+  }
+
   function setupAccordion() {
     if (window.innerWidth > 768) return;
     document.querySelectorAll('.team-card .team-header').forEach(header => {
       header.addEventListener('click', () => {
         header.parentElement.classList.toggle('expanded');
+        // a tweet inside a collapsed card can't size itself; render it once opened
+        if (header.parentElement.classList.contains('expanded')) loadTweets(header.parentElement);
       });
     });
   }

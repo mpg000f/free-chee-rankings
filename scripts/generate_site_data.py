@@ -836,6 +836,33 @@ def _team_anchors(teams, anchors):
     return out
 
 
+_TWEET_CACHE = {}
+
+
+def _tweet_blockquote(url):
+    """X's own embed markup for a post (text, author, date), fetched at build time.
+
+    That markup is what readers see if X's widget script never loads, so it is
+    worth having over a bare link. Falls back to a plain link when offline.
+    """
+    if url in _TWEET_CACHE:
+        return _TWEET_CACHE[url]
+    quote = (f'<blockquote class="twitter-tweet" data-theme="dark" data-dnt="true" '
+             f'data-align="center"><a href="{url}">View post on X</a></blockquote>')
+    try:
+        import urllib.parse, urllib.request
+        api = ("https://publish.twitter.com/oembed?omit_script=true&dnt=true&theme=dark&align=center&url="
+               + urllib.parse.quote(url, safe=""))
+        with urllib.request.urlopen(api, timeout=10) as r:
+            html_ = json.load(r).get("html", "")
+        if "twitter-tweet" in html_:
+            quote = re.sub(r"<script.*?</script>", "", html_, flags=re.S).strip()
+    except Exception as e:
+        print(f"    tweet embed fallback for {url}: {e}")
+    _TWEET_CACHE[url] = quote
+    return quote
+
+
 def generate_week_html(parsed, week_id, images, anchors=None, blocks=None):
     """Generate the full HTML content for a week's rankings."""
     teams = parsed.get("teams", [])
@@ -1283,6 +1310,18 @@ def main():
         week_html = generate_week_html(parsed, week_id, images, anchors=anchors,
                                        blocks=blocks)
         week_html = apply_links(week_html, links_by_week.get(week_id, []))
+        # A tweet pasted as a bare URL (link text == the URL) becomes X's embed.
+        # The plain link inside the blockquote is what shows if the widget fails.
+        def _tweet(m):
+            user, sid = m.group(1), m.group(2)
+            url = f"https://twitter.com/{user}/status/{sid}"
+            quote = _tweet_blockquote(url)
+            return f'</p><div class="tweet-embed">{quote}</div><p>' 
+        week_html = re.sub(
+            r'<a href="https://(?:x|twitter)\.com/([A-Za-z0-9_]+)/status/(\d+)[^"]*"[^>]*>'
+            r'https?://(?:x|twitter)\.com/[^<]*</a>',
+            _tweet, week_html)
+        week_html = re.sub(r"<p>\s*</p>", "", week_html)
         # Charts shrink to ~340px on a phone, where their labels are unreadable;
         # tapping one opens it full size.
         week_html = re.sub(
