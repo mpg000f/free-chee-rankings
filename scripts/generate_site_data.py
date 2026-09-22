@@ -1359,6 +1359,13 @@ def main():
                 all_owners_data[owner]["team_names"].add(_display_team_name(team["team_name"], owner, file_info["season"]))
                 all_owners_data[owner]["seasons"].add(file_info["season"])
 
+        # A team renamed mid-season stops matching TEAM_OWNER_MAP and silently
+        # loses its owner, which drops it from every stat keyed on owners.
+        unowned = [t["team_name"] for t in teams_json if not t.get("owner")]
+        if unowned:
+            print(f"  WARNING: no owner matched for {unowned} in {week_id} "
+                  f"-- add the name to ranking_parser.TEAM_OWNER_MAP")
+
         week_json = {
             "week_id": week_id,
             "season": file_info["season"],
