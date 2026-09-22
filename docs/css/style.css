@@ -2037,3 +2037,5 @@ h3 { font-size: 1.2rem; }
   background: var(--surface);
 }
 .chart-embed iframe { display: block; width: 100%; border: 0; }
+
+.article-image a { display: inline-block; cursor: zoom-in; }

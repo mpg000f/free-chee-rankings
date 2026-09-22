@@ -412,6 +412,16 @@ def _finalize_team(team, text_lines):
         full_text = re.sub(r"(?:^|\n)Editor.s Note:.*?(?=\n\n|\Z)", "", full_text,
                            flags=re.DOTALL).strip()
 
+    # Stock Up / Stock Down
+    up = re.search(r"(?:^|\n)Stock Up:\s*(.+?)(?=\nStock (?:Up|Down):|\n\n|\Z)", full_text, re.DOTALL)
+    down = re.search(r"(?:^|\n)Stock Down:\s*(.+?)(?=\nStock (?:Up|Down):|\n\n|\Z)", full_text, re.DOTALL)
+    if up:
+        subsections["stock_up"] = " ".join(up.group(1).split())
+    if down:
+        subsections["stock_down"] = " ".join(down.group(1).split())
+    if up or down:
+        full_text = re.sub(r"(?:^|\n)Stock (?:Up|Down):.*$", "", full_text, flags=re.DOTALL).strip()
+
     # Fact / Fiction (the 2026 in-season format)
     fact = re.search(r"(?:^|\n)Fact:\s*(.+?)(?=\n(?:Fact|Fiction):|\n\n|\Z)",
                      full_text, re.DOTALL)

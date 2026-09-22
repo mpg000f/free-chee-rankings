@@ -4371,6 +4371,195 @@
       ],
       "has_special_sections": false,
       "image_count": 2
+    },
+    {
+      "week_id": "2026-week-3",
+      "season": "2026",
+      "week": 3,
+      "type": "regular",
+      "title": "Week 3 2026 Free Chee Rankings",
+      "label": "Week 3",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Boone",
+          "owner": "TJ",
+          "movement": 0,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Hello Darkness My Old Friend",
+          "owner": "Paul",
+          "movement": 2,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "movement": -1,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Nick Wright Barely Legal",
+          "owner": "TK",
+          "movement": 2,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Healthy as a Fucking Rhino",
+          "owner": "Connor",
+          "movement": 4,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Shough and F#ck",
+          "owner": "Boyle",
+          "movement": -1,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Phenom",
+          "owner": "Justin",
+          "movement": 3,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Ger",
+          "owner": "Ger",
+          "movement": -5,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "Pelosi's Powder",
+          "owner": "Mikey",
+          "movement": 2,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "Free Paid",
+          "owner": "Gallo",
+          "movement": 4,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Charles Dickens",
+          "owner": "Mitch",
+          "movement": -4,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "movement": 1,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "movement": -5,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "movement": 2,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "movement": -3,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Tuanigamanuolepola Donny",
+          "owner": "Kevin",
+          "movement": -1,
+          "tier": null,
+          "subsections": [
+            "stock_up",
+            "stock_down"
+          ]
+        }
+      ],
+      "tiers": [],
+      "has_special_sections": false,
+      "image_count": 2
     }
   ]
 }

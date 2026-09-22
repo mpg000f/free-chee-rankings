@@ -472,6 +472,8 @@ def subsection_to_html(key, value):
         "editors_note": ("Editor’s Note", "next-up"),
         "fact": ("Fact", "draft-steal"),
         "fiction": ("Fiction", "draft-bust"),
+        "stock_up": ("Stock Up", "draft-steal"),
+        "stock_down": ("Stock Down", "draft-bust"),
         "general_strategy": ("General Strategy", "strategy"),
         "x_factors": ("X-Factors", "x-factors"),
         "pick": ("The Pick", "pick"),
@@ -630,12 +632,23 @@ def _grouped_team_to_html(leader, all_teams, week_id):
 </div>'''
 
 
-def team_to_html(team, week_id, inline_images=None):
+def team_to_html(team, week_id, inline_images=None, split_images=None):
     """Convert a team entry to HTML card."""
     rank = team["rank"]
     name = html.escape(_display_team_name(team["team_name"], team["owner"], (week_id or "")[:4]))
     owner = html.escape(team["owner"])
     writeup = writeup_to_html(team["writeup"])
+    if split_images:
+        # Place each figure where the document put it: right after the paragraph
+        # that precedes it, instead of below the whole card.
+        text, pieces, cut = team["writeup"], [], 0
+        for idx, img in sorted(split_images, key=lambda x: x[0]):
+            pieces.append(writeup_to_html(text[cut:idx]))
+            pieces.append(f'<div class="article-image"><img src="images/{img["filename"]}" '
+                          f'alt="Chart" loading="lazy"></div>')
+            cut = idx
+        pieces.append(writeup_to_html(text[cut:]))
+        writeup = "\n".join(x for x in pieces if x)
 
     # Movement indicator (computed from previous week)
     movement_html = ""
@@ -781,6 +794,27 @@ def _locate(paragraph, blocks):
         if key and key in hay:
             return (b["page"], b["y"])
     return None
+
+
+def _preceding_text(img, blocks):
+    """Text of the PDF block sitting immediately above this image."""
+    if not blocks:
+        return None
+    pos = (img["page"], img.get("y", 0.0))
+    prev = [b for b in blocks if (b["page"], b["y"]) < pos]
+    return max(prev, key=lambda b: (b["page"], b["y"]))["text"] if prev else None
+
+
+def _split_point(writeup, tail_text):
+    """Character offset in `writeup` just after the paragraph ending in tail_text."""
+    words = re.findall(r"\S+", tail_text or "")[-6:]
+    if len(words) < 3 or not writeup:
+        return None
+    pat = r"\s+".join(re.escape(w) for w in words)
+    match = None
+    for match in re.finditer(pat, writeup):
+        pass
+    return match.end() if match else None
 
 
 def _team_anchors(teams, anchors):
@@ -930,10 +964,18 @@ def generate_week_html(parsed, week_id, images, anchors=None, blocks=None):
         override_imgs = [img for img in imgs_for_team if _get_image_owner_override(img)]
         external_imgs = [img for img in imgs_for_team if not _get_image_owner_override(img)]
 
+        split_imgs, trailing = [], []
+        for img in external_imgs:
+            idx = _split_point(team.get("writeup", ""), _preceding_text(img, blocks))
+            (split_imgs.append((idx, img)) if idx else trailing.append(img))
+        external_imgs = trailing
+
         if grouped and team.get("writeup", "").strip():
             parts.append(_grouped_team_to_html(team, teams, week_id))
+            external_imgs = [img for _, img in split_imgs] + external_imgs
         else:
-            card_html = team_to_html(team, week_id, inline_images=override_imgs)
+            card_html = team_to_html(team, week_id, inline_images=override_imgs,
+                                     split_images=split_imgs)
             if card_html:
                 parts.append(card_html)
 
@@ -1241,6 +1283,14 @@ def main():
         week_html = generate_week_html(parsed, week_id, images, anchors=anchors,
                                        blocks=blocks)
         week_html = apply_links(week_html, links_by_week.get(week_id, []))
+        # Charts shrink to ~340px on a phone, where their labels are unreadable;
+        # tapping one opens it full size.
+        week_html = re.sub(
+            r'<div class="article-image"><img src="(images/[^"]+)"',
+            r'<div class="article-image"><a href="\1" target="_blank" rel="noopener" '
+            r'title="Open full size"><img src="\1"',
+            week_html)
+        week_html = re.sub(r'(<a href="images/[^"]+"[^>]*><img [^>]*>)(</div>)', r'\1</a>\2', week_html)
 
         with open(os.path.join(DATA_DIR, f"{week_id}.html"), "w") as f:
             f.write(week_html)
