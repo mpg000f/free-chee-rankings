@@ -4305,20 +4305,20 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.34008",
-    "player_name": "Alec Pierce",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 9.7
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.42025",
     "player_name": "Kyle Monangai",
     "display_position": "RB",
     "points": 0.0,
     "season_points": 26.2
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.34008",
+    "player_name": "Alec Pierce",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 9.7
   },
   {
     "week": 3,
@@ -4368,20 +4368,20 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100027",
-    "player_name": "Buccaneers",
-    "display_position": "DEF",
-    "points": 0.0,
-    "season_points": 12.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.3",
     "player_key": "470.p.100012",
     "player_name": "Chiefs",
     "display_position": "DEF",
     "points": 0.0,
     "season_points": 15.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.3",
+    "player_key": "470.p.100027",
+    "player_name": "Buccaneers",
+    "display_position": "DEF",
+    "points": 0.0,
+    "season_points": 12.0
   },
   {
     "week": 3,
@@ -4998,11 +4998,11 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.40883",
-    "player_name": "Brian Thomas Jr.",
+    "player_key": "470.p.42661",
+    "player_name": "Denzel Boston",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 11.0
+    "season_points": 30.9
   },
   {
     "week": 3,
@@ -5034,6 +5034,15 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.14",
+    "player_key": "470.p.40883",
+    "player_name": "Brian Thomas Jr.",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 11.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.14",
     "player_key": "470.p.40878",
     "player_name": "Brock Bowers",
     "display_position": "TE",
@@ -5057,15 +5066,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.42661",
-    "player_name": "Denzel Boston",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 30.9
   },
   {
     "week": 3,
@@ -6312,6 +6312,24 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.41793",
+    "player_name": "Tetairoa McMillan",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 20.6
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.28389",
+    "player_name": "Jameis Winston",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 3.54
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.16",
     "player_key": "470.p.40084",
     "player_name": "Rashee Rice",
     "display_position": "WR",
@@ -6326,15 +6344,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 8.16
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.41793",
-    "player_name": "Tetairoa McMillan",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 20.6
   },
   {
     "week": 3,
@@ -6371,15 +6380,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 0.0
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.28389",
-    "player_name": "Jameis Winston",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 3.54
   },
   {
     "week": 3,
