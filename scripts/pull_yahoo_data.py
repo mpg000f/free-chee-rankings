@@ -289,6 +289,9 @@ def pull_weekly_scores(oauth, league, num_weeks=17):
                         # playoff/consolation flags live on the matchup itself
                         "is_playoffs": int(matchup.get("is_playoffs", 0) or 0),
                         "is_consolation": int(matchup.get("is_consolation", 0) or 0),
+                        # preevent / midevent / postevent -- tells an unplayed
+                        # fixture from a finished game without guessing from 0-0
+                        "status": matchup.get("status", ""),
                     })
 
             print(f"    Week {week}: {match_count} matchups")
@@ -301,10 +304,48 @@ def pull_weekly_scores(oauth, league, num_weeks=17):
     return all_matchups
 
 
+def current_week(oauth, league):
+    """The league's current week, or None once the season is over."""
+    data = api_get_json(oauth, f"league/{league['league_key']}")
+    try:
+        meta = data["fantasy_content"]["league"][0]
+        if meta.get("is_finished"):
+            return None
+        return int(meta["current_week"])
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+def pull_season_points(oauth, team_key, week):
+    """Season-to-date points for everyone on a team's roster in the given week."""
+    data = api_get_json(oauth, f"team/{team_key}/roster;week={week}/players/stats;type=season")
+    out = {}
+    try:
+        roster = data["fantasy_content"]["team"][1]["roster"]["0"]["players"]
+        for i in range(roster["count"]):
+            player = roster[str(i)]["player"]
+            key = next(x["player_key"] for x in player[0] if isinstance(x, dict) and "player_key" in x)
+            for part in player[1:]:
+                if isinstance(part, dict) and "player_points" in part:
+                    out[key] = float(part["player_points"]["total"])
+    except (KeyError, TypeError, ValueError, StopIteration):
+        pass
+    return out
+
+
 def pull_rosters(oauth, league, team_keys, num_weeks=17):
-    """Pull weekly rosters with player stats for all teams."""
+    """Pull weekly rosters with player stats for all teams.
+
+    Mid-season, Yahoo answers every future week with today's roster, so the pull
+    stops at the current week; that week's rows are the live rosters, tagged
+    with season-to-date points since their weekly points are still zero.
+    """
     print(f"  Pulling weekly rosters...")
     all_rosters = []
+    live_week = current_week(oauth, league)
+    if live_week:
+        num_weeks = min(num_weeks, live_week)
+        print(f"    Season in progress: weeks 1-{num_weeks} (week {live_week} is current)")
 
     for week in range(1, num_weeks + 1):
         week_rosters = []
@@ -353,6 +394,13 @@ def pull_rosters(oauth, league, team_keys, num_weeks=17):
 
         if not week_rosters:
             break
+        if week == live_week:
+            season_pts = {}
+            for team_key in team_keys:
+                season_pts.update(pull_season_points(oauth, team_key, week))
+                time.sleep(1)
+            for r in week_rosters:
+                r["season_points"] = season_pts.get(r["player_key"])
         all_rosters.extend(week_rosters)
         pts_total = sum(r["points"] for r in week_rosters)
         print(f"    Week {week}: {len(week_rosters)} players, {pts_total:.1f} total pts")

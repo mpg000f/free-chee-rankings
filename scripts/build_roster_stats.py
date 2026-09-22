@@ -70,6 +70,13 @@ def build_team_names(season):
     return names
 
 
+def is_played(m):
+    """A finished game. Older pulls have no status, so fall back to the score."""
+    if m.get("status"):
+        return m["status"] == "postevent"
+    return bool(m["team_1_points"] or m["team_2_points"])
+
+
 def build_season_summaries(season, owner_map):
     """Build per-team season summary from matchups data."""
     matchups = load_json(os.path.join(YAHOO_DIR, season, "matchups.json"))
@@ -88,7 +95,7 @@ def build_season_summaries(season, owner_map):
         # An in-progress season returns its whole schedule, so weeks that have
         # not been played come back 0-0. Counting those as ties gave a team in
         # week 2 a record of "1-0-13".
-        if t1p == 0 and t2p == 0:
+        if not is_played(m):
             continue
 
         # Regular season record (weeks 1-14)
@@ -133,7 +140,7 @@ def build_season_summaries(season, owner_map):
     # Week 17 = Championship (1 champ game + consolation games)
     playoff_matchups = defaultdict(list)
     for m in matchups:
-        if m["week"] > REGULAR_SEASON_WEEKS:
+        if m["week"] > REGULAR_SEASON_WEEKS and is_played(m):
             playoff_matchups[m["week"]].append(m)
 
     # QF teams = teams in week 15
@@ -241,6 +248,7 @@ def build_rosters_data():
             team_player_weeks[tk][pk].append({
                 "week": r["week"],
                 "points": r.get("points", 0),
+                "season_points": r.get("season_points"),
             })
             player_info[pk] = {
                 "name": r.get("player_name", ""),
@@ -253,14 +261,16 @@ def build_rosters_data():
         # For position ranks
         pos_totals = defaultdict(list)
 
-        # Yahoo returns every scheduled week for an in-progress season, so the
-        # last week with roster data is 17 even in September. Cap at the last
-        # week actually played, read from the matchups.
+        # Mid-season the pull runs through the current week, whose rows are the
+        # live rosters (waiver pickups and trades included). Older pulls ran to
+        # week 17 with every future week mirroring the live roster, so cap at
+        # the week after the last one played either way.
         last_played = 0
         for m in load_json(os.path.join(YAHOO_DIR, season, "matchups.json")) or []:
-            if m["team_1_points"] or m["team_2_points"]:
+            if is_played(m):
                 last_played = max(last_played, m["week"])
-        season_data["in_progress"] = bool(last_played and last_played < max_week)
+        in_progress = bool(last_played and last_played < max_week)
+        season_data["in_progress"] = in_progress
         season_data["last_played_week"] = last_played or max_week
 
         # Find the latest week with roster data per team
@@ -269,7 +279,8 @@ def build_rosters_data():
             tk = r["team_key"]
             team_max_week[tk] = max(team_max_week.get(tk, 0), r["week"])
         if last_played:
-            team_max_week = {k: min(v, last_played) for k, v in team_max_week.items()}
+            cap = last_played + 1 if in_progress else last_played
+            team_max_week = {k: min(v, cap) for k, v in team_max_week.items()}
 
         for tk, players in team_player_weeks.items():
             owner = owner_map.get(tk, team_names.get(tk, tk))
@@ -291,6 +302,12 @@ def build_rosters_data():
                 if 1 in week_nums:
                     week1_players.append(entry)
                 if final_week in week_nums:
+                    live = next((w["season_points"] for w in weeks
+                                 if w["week"] == final_week and w.get("season_points") is not None), None)
+                    if in_progress and live is not None:
+                        # Season-to-date across all teams, so a player who just
+                        # arrived by trade or waivers doesn't read 0.0
+                        entry = dict(entry, pts=round(live, 2), live=True)
                     final_players.append(entry)
 
                 if info["pos"] in SKILL_POSITIONS:
@@ -315,10 +332,21 @@ def build_rosters_data():
             for rank, (name, pts, tk) in enumerate(sorted_entries, 1):
                 pos_ranks[(name, tk)] = f"{pos}{rank}"
 
+        # Live rosters rank on season-to-date points among everyone rostered now
+        live_ranks = {}
+        live_by_pos = defaultdict(list)
+        for team_data in season_data["teams"].values():
+            for p in team_data["final"]:
+                if p.pop("live", False) and p["pos"] in SKILL_POSITIONS:
+                    live_by_pos[p["pos"]].append(p)
+        for pos, entries in live_by_pos.items():
+            for rank, p in enumerate(sorted(entries, key=lambda p: p["pts"], reverse=True), 1):
+                live_ranks[id(p)] = f"{pos}{rank}"
+
         for tk, team_data in season_data["teams"].items():
             for roster_list in [team_data["week1"], team_data["final"]]:
                 for p in roster_list:
-                    p["pos_rank"] = pos_ranks.get((p["name"], tk), "")
+                    p["pos_rank"] = live_ranks.get(id(p)) or pos_ranks.get((p["name"], tk), "")
 
         result[season] = season_data
         team_count = len(season_data["teams"])

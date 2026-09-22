@@ -6114,6 +6114,968 @@
    "t2": "Hello Darkness My Old Friend",
    "p2": 157.9,
    "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "p1": 117.64,
+   "o2": "Joey",
+   "t2": "Stewed C",
+   "p2": 68.16,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "p1": 119.36,
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 139.76,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "p1": 153.52,
+   "o2": "Sweeney",
+   "t2": "Work Ass",
+   "p2": 113.38,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "p1": 104.12,
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder",
+   "p2": 115.68,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "p1": 113.64,
+   "o2": "Ger",
+   "t2": "Ger",
+   "p2": 86.5,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "p1": 103.48,
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 71.84,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "p1": 153.4,
+   "o2": "Justin",
+   "t2": "Phenom",
+   "p2": 127.88,
+   "consolation": false
+  },
+  {
+   "season": "2026",
+   "week": 2,
+   "playoff": false,
+   "o1": "Chris",
+   "t1": "Ginny Sack",
+   "p1": 79.48,
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank",
+   "p2": 87.94,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Gallo",
+   "t2": "Free Paid"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Joey",
+   "t2": "Stewed C"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 3,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Gallo",
+   "t2": "Free Paid"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Matt",
+   "t2": "The Art of the Deal"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Chris",
+   "t1": "Ginny Sack",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 4,
+   "playoff": false,
+   "o1": "Sweeney",
+   "t1": "Work Ass",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 5,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Boyle",
+   "t2": "Shough and F#ck"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Joey",
+   "t2": "Stewed C"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 6,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "TK",
+   "t2": "Nick Wright Barely Legal"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Gallo",
+   "t2": "Free Paid"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 7,
+   "playoff": false,
+   "o1": "Justin",
+   "t1": "Phenom",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Matt",
+   "t2": "The Art of the Deal"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 8,
+   "playoff": false,
+   "o1": "Deez",
+   "t1": "Pigs on the 7th Rank",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Joey",
+   "t2": "Stewed C"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 9,
+   "playoff": false,
+   "o1": "Justin",
+   "t1": "Phenom",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Mitch",
+   "t2": "Charles Dickens"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Matt",
+   "t2": "The Art of the Deal"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Sweeney",
+   "t1": "Work Ass",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 10,
+   "playoff": false,
+   "o1": "Paul",
+   "t1": "Hello Darkness My Old Friend",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Matt",
+   "t2": "The Art of the Deal"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 11,
+   "playoff": false,
+   "o1": "Chris",
+   "t1": "Ginny Sack",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "TK",
+   "t2": "Nick Wright Barely Legal"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Joey",
+   "t2": "Stewed C"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Mikey",
+   "t1": "Pelosi's Powder",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 12,
+   "playoff": false,
+   "o1": "Sweeney",
+   "t1": "Work Ass",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Gallo",
+   "t2": "Free Paid"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Matt",
+   "t2": "The Art of the Deal"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Connor",
+   "t2": "Healthy as a Fucking Rhino"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Ger",
+   "t1": "Ger",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Chris",
+   "t1": "Ginny Sack",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
+  },
+  {
+   "season": "2026",
+   "week": 13,
+   "playoff": false,
+   "o1": "Justin",
+   "t1": "Phenom",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "TJ",
+   "t1": "Boone",
+   "o2": "Kevin",
+   "t2": "Tuanigamanuolepola Donny"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Boyle",
+   "t1": "Shough and F#ck",
+   "o2": "Justin",
+   "t2": "Phenom"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "TK",
+   "t1": "Nick Wright Barely Legal",
+   "o2": "Mikey",
+   "t2": "Pelosi's Powder"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Mitch",
+   "t1": "Charles Dickens",
+   "o2": "Ger",
+   "t2": "Ger"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Gallo",
+   "t1": "Free Paid",
+   "o2": "Paul",
+   "t2": "Hello Darkness My Old Friend"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Joey",
+   "t1": "Stewed C",
+   "o2": "Chris",
+   "t2": "Ginny Sack"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Matt",
+   "t1": "The Art of the Deal",
+   "o2": "Deez",
+   "t2": "Pigs on the 7th Rank"
+  },
+  {
+   "season": "2026",
+   "week": 14,
+   "playoff": false,
+   "o1": "Connor",
+   "t1": "Healthy as a Fucking Rhino",
+   "o2": "Sweeney",
+   "t2": "Work Ass"
   }
  ]
 }

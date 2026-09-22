@@ -1437,6 +1437,11 @@ h3 { font-size: 1.2rem; }
   font-weight: 700;
 }
 .sched-round.round-minor { border-color: var(--surface-light); color: var(--text-dim); }
+.sched-upcoming td { color: var(--text-dim); }
+.sched-upcoming .sched-opp-name { color: var(--text); font-weight: 500; }
+.sched-next td { background: var(--surface-light); }
+.sched-next .sched-opp-name { font-weight: 600; }
+.sched-opp-rec { font-family: var(--font-body); font-size: .82rem; color: var(--text-dim); }
 .sched-opp-team {
   display: block;
   font-size: .75rem;

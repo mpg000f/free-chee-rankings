@@ -4,6 +4,9 @@ on:
   schedule:
     # Tuesdays 11:00 UTC — 7am ET / 6am CT, after Monday Night Football has settled
     - cron: "0 11 * * 2"
+    # Backup slot: GitHub drops scheduled runs under load (it skipped 2026-09-22).
+    # The job is idempotent -- a second run with nothing new commits nothing.
+    - cron: "30 14 * * 2"
   workflow_dispatch:        # lets you run it by hand from the Actions tab
 
 permissions:

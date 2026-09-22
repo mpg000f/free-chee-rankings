@@ -1,7 +1,8 @@
 /**
  * Schedule page: one owner's full slate for one season, week by week.
  *
- * Reads data/matchups_all.json (every game 2022-present, both sides + scores).
+ * Reads data/matchups_all.json (every game 2022-present, both sides + scores,
+ * plus the unplayed fixtures of the current season under `upcoming`).
  * Playoff games are flagged but not labeled by round -- the source data has a
  * single boolean, and each playoff week runs a championship game alongside
  * consolation games with nothing to tell them apart.
@@ -11,14 +12,15 @@
   const ownerSelect = document.getElementById('owner-select');
   const seasonToggle = document.getElementById('season-toggle');
 
-  let games, owners, seasons;
+  let games, upcoming, owners, seasons;
   let season, owner;
 
   try {
     const data = await DataLoader.loadJSON('data/matchups_all.json');
     games = data.games;
+    upcoming = (data.upcoming || []).map(g => Object.assign({ upcoming: true }, g));
     owners = data.owners.slice().sort();
-    seasons = [...new Set(games.map(g => g.season))].sort();
+    seasons = [...new Set(games.concat(upcoming).map(g => g.season))].sort();
   } catch (e) {
     content.innerHTML = '<p class="placeholder-text" style="color:var(--red)">Could not load schedule data.</p>';
     return;
@@ -46,10 +48,18 @@
   // ===== DATA SHAPING =====
   /** One owner's games for one season, normalised to "me vs them" and sorted by week. */
   function slate() {
-    return games
+    return games.concat(upcoming)
       .filter(g => g.season === season && (g.o1 === owner || g.o2 === owner))
       .map(g => {
         const home = g.o1 === owner;
+        if (g.upcoming) {
+          return {
+            week: g.week, playoff: !!g.playoff, round: '', upcoming: true,
+            myTeam: home ? g.t1 : g.t2,
+            opp: home ? g.o2 : g.o1,
+            oppTeam: home ? g.t2 : g.t1,
+          };
+        }
         const mine = home ? g.p1 : g.p2;
         const theirs = home ? g.p2 : g.p1;
         return {
@@ -69,7 +79,7 @@
 
   function tally(rows) {
     const t = { w: 0, l: 0, t: 0, pf: 0, pa: 0 };
-    rows.forEach(r => {
+    rows.filter(r => !r.upcoming).forEach(r => {
       if (r.result === 'W') t.w++; else if (r.result === 'L') t.l++; else t.t++;
       t.pf += r.mine;
       t.pa += r.theirs;
@@ -117,8 +127,33 @@
     return `<span class="sched-round${cls}">${r.round}</span>`;
   }
 
+  /** Owner's current record, shown beside future opponents. */
+  function recordOf(o) {
+    return rec(tally(games.filter(g => g.season === season && !g.playoff && (g.o1 === o || g.o2 === o))
+      .map(g => {
+        const mine = g.o1 === o ? g.p1 : g.p2, theirs = g.o1 === o ? g.p2 : g.p1;
+        return { result: mine > theirs ? 'W' : mine < theirs ? 'L' : 'T', mine, theirs };
+      })));
+  }
+
+  function upcomingRowHTML(r, isNext) {
+    return `<tr class="sched-upcoming${isNext ? ' sched-next' : ''}">
+      <td class="sched-week">${r.week}</td>
+      <td class="sched-opp">
+        <div class="sched-opp-top">
+          <span class="sched-opp-name">${r.opp}</span>
+          ${isNext ? '<span class="sched-round round-next">Up next</span>' : ''}
+        </div>
+        <span class="sched-opp-team">${r.oppTeam}</span>
+      </td>
+      <td class="sched-score"><span class="sched-opp-rec" title="${r.opp}'s record">Opp ${recordOf(r.opp)}</span></td>
+      <td class="sched-verdict"><span class="muted">&mdash;</span></td>
+    </tr>`;
+  }
+
   function rowsHTML(rows) {
-    return rows.map(r => `<tr>
+    const next = rows.find(r => r.upcoming);
+    return rows.map(r => r.upcoming ? upcomingRowHTML(r, r === next) : `<tr>
       <td class="sched-week">${r.week}</td>
       <td class="sched-opp">
         <div class="sched-opp-top">
@@ -156,7 +191,7 @@
   }
 
   function formStrip(rows) {
-    return `<div class="sched-form" aria-label="Results in order">` + rows.map(r =>
+    return `<div class="sched-form" aria-label="Results in order">` + rows.filter(r => !r.upcoming).map(r =>
       `<span class="sched-pip pip-${r.result.toLowerCase()}${r.playoff ? ' pip-playoff' : ''}" title="${r.round || 'Week ' + r.week} vs ${r.opp}: ${r.result}">${r.result}</span>`
     ).join('') + `</div>`;
   }
@@ -173,9 +208,13 @@
     const tReg = tally(reg), tPo = tally(po), tAll = tally(all);
 
     const madePlayoffs = po.length > 0;
+    const inProgress = all.some(r => r.upcoming);
     const summary = [
       `<div class="sched-stat"><div class="summary-label">Regular season</div><div class="summary-value">${rec(tReg)}</div></div>`,
-      madePlayoffs
+      inProgress && !madePlayoffs
+        ? `<div class="sched-stat"><div class="summary-label">Playoffs</div><div class="summary-value summary-small muted">TBD</div>
+           <div class="summary-sub">${reg.filter(r => r.upcoming).length} games left</div></div>`
+        : madePlayoffs
         ? `<div class="sched-stat"><div class="summary-label">Playoffs</div><div class="summary-value">${rec(tPo)}</div>
            ${finish(po) ? `<div class="summary-sub">${finish(po)}</div>` : ''}</div>`
         : `<div class="sched-stat"><div class="summary-label">Playoffs</div><div class="summary-value summary-small muted">Missed</div></div>`,

@@ -16852,15 +16852,8 @@
    "pickups": [],
    "trades": [],
    "owners": [],
-   "skipped_trades": 0,
-   "replacement": {
-    "QB": 0.03,
-    "RB": 0.24,
-    "WR": 0.36,
-    "TE": 0.14,
-    "K": -0.06,
-    "DEF": -0.06
-   }
+   "skipped_trades": 1,
+   "replacement": {}
   }
  }
 }

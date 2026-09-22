@@ -130,12 +130,21 @@ def build():
 
     # ---- matchups_all: every game with canonical owners ----
     games = []
+    upcoming = []   # scheduled fixtures, kept apart so no record ever counts them
     for s in SEASONS:
         for m in load("yahoo_data", s, "matchups.json"):
             k1, k2 = m["team_1_key"], m["team_2_key"]
-            # Unplayed weeks of an in-progress season come back 0-0; they are
-            # scheduled fixtures, not results.
-            if m["team_1_points"] == 0 and m["team_2_points"] == 0:
+            # Unplayed weeks of an in-progress season come back 0-0. Older pulls
+            # carry no status, so fall back to the score there.
+            played = (m["status"] == "postevent" if m.get("status")
+                      else bool(m["team_1_points"] or m["team_2_points"]))
+            if not played:
+                upcoming.append({
+                    "season": s, "week": m["week"],
+                    "playoff": m["week"] > REG_SEASON_LAST_WEEK,
+                    "o1": owner_of[s][k1], "t1": team_of[s][k1],
+                    "o2": owner_of[s][k2], "t2": team_of[s][k2],
+                })
                 continue
             games.append({
                 "season": s, "week": m["week"],
@@ -322,7 +331,7 @@ def build():
         }
 
     out = {
-        "matchups_all.json": {"owners": owners, "games": games},
+        "matchups_all.json": {"owners": owners, "games": games, "upcoming": upcoming},
         "records.json": records,
         "careers.json": {"owners": owners, "careers": careers},
     }

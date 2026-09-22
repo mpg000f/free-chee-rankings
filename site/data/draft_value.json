@@ -16,8 +16,8 @@
         "owner": "Sweeney",
         "cost": 43,
         "pts": 413.92,
-        "expected": 216.7,
-        "value": 197.2
+        "expected": 217.0,
+        "value": 197.0
       },
       {
         "player": "Jalen Hurts",
@@ -25,8 +25,8 @@
         "owner": "Gallo",
         "cost": 36,
         "pts": 374.58,
-        "expected": 206.1,
-        "value": 168.5
+        "expected": 206.7,
+        "value": 167.8
       },
       {
         "player": "Joe Burrow",
@@ -34,8 +34,8 @@
         "owner": "Matt",
         "cost": 27,
         "pts": 351.1,
-        "expected": 191.5,
-        "value": 159.6
+        "expected": 192.7,
+        "value": 158.4
       },
       {
         "player": "Justin Fields",
@@ -43,17 +43,8 @@
         "owner": "Joey",
         "cost": 9,
         "pts": 306.98,
-        "expected": 156.5,
-        "value": 150.5
-      },
-      {
-        "player": "Daniel Jones",
-        "pos": "QB",
-        "owner": "Deez",
-        "cost": 6,
-        "pts": 294.0,
-        "expected": 149.0,
-        "value": 145.0
+        "expected": 158.9,
+        "value": 148.1
       },
       {
         "player": "Josh Allen",
@@ -61,7 +52,16 @@
         "owner": "Mikey",
         "cost": 63,
         "pts": 386.76,
-        "expected": 244.4,
+        "expected": 243.7,
+        "value": 143.0
+      },
+      {
+        "player": "Daniel Jones",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 6,
+        "pts": 294.0,
+        "expected": 151.6,
         "value": 142.4
       },
       {
@@ -70,8 +70,8 @@
         "owner": "Connor",
         "cost": 4,
         "pts": 281.36,
-        "expected": 143.4,
-        "value": 137.9
+        "expected": 146.2,
+        "value": 135.2
       },
       {
         "player": "Trevor Lawrence",
@@ -79,8 +79,8 @@
         "owner": "Deez",
         "cost": 12,
         "pts": 293.44,
-        "expected": 163.3,
-        "value": 130.2
+        "expected": 165.4,
+        "value": 128.1
       },
       {
         "player": "Marcus Mariota",
@@ -133,8 +133,8 @@
         "owner": "Mitch",
         "cost": 31,
         "pts": 292.58,
-        "expected": 198.2,
-        "value": 94.4
+        "expected": 199.1,
+        "value": 93.5
       },
       {
         "player": "Andy Dalton",
@@ -173,21 +173,21 @@
         "value": 81.0
       },
       {
-        "player": "Tua Tagovailoa",
-        "pos": "QB",
-        "owner": "Matt",
-        "cost": 10,
-        "pts": 238.92,
-        "expected": 158.8,
-        "value": 80.1
-      },
-      {
         "player": "Tony Pollard",
         "pos": "RB",
         "owner": "Sweeney",
         "cost": 11,
         "pts": 227.4,
         "expected": 149.6,
+        "value": 77.8
+      },
+      {
+        "player": "Tua Tagovailoa",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 10,
+        "pts": 238.92,
+        "expected": 161.1,
         "value": 77.8
       },
       {
@@ -268,8 +268,8 @@
         "owner": "Deez",
         "cost": 41,
         "pts": 273.3,
-        "expected": 213.7,
-        "value": 59.6
+        "expected": 214.1,
+        "value": 59.2
       },
       {
         "player": "Austin Ekeler",
@@ -304,8 +304,8 @@
         "owner": "Sweeney",
         "cost": 41,
         "pts": 271.44,
-        "expected": 213.7,
-        "value": 57.7
+        "expected": 214.1,
+        "value": 57.3
       },
       {
         "player": "Jakobi Meyers",
@@ -322,8 +322,8 @@
         "owner": "Papi",
         "cost": 1,
         "pts": 141.0,
-        "expected": 85.7,
-        "value": 55.3
+        "expected": 86.1,
+        "value": 54.9
       },
       {
         "player": "Aaron Rodgers",
@@ -331,8 +331,8 @@
         "owner": "Chris",
         "cost": 23,
         "pts": 239.0,
-        "expected": 184.6,
-        "value": 54.4
+        "expected": 186.0,
+        "value": 53.0
       },
       {
         "player": "DeVonta Smith",
@@ -389,22 +389,13 @@
         "value": 50.0
       },
       {
-        "player": "Derek Carr",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 23,
-        "pts": 233.08,
-        "expected": 184.6,
-        "value": 48.5
-      },
-      {
         "player": "Nick Folk",
         "pos": "K",
         "owner": "Mitch",
         "cost": 1,
         "pts": 134.0,
-        "expected": 85.7,
-        "value": 48.3
+        "expected": 86.1,
+        "value": 47.9
       },
       {
         "player": "Drake London",
@@ -423,6 +414,15 @@
         "pts": 127.6,
         "expected": 80,
         "value": 47.6
+      },
+      {
+        "player": "Derek Carr",
+        "pos": "QB",
+        "owner": "Boyle",
+        "cost": 23,
+        "pts": 233.08,
+        "expected": 186.0,
+        "value": 47.1
       },
       {
         "player": "Joshua Palmer",
@@ -457,8 +457,8 @@
         "owner": "Justin",
         "cost": 1,
         "pts": 129.0,
-        "expected": 85.7,
-        "value": 43.3
+        "expected": 86.1,
+        "value": 42.9
       },
       {
         "player": "Stefon Diggs",
@@ -493,8 +493,8 @@
         "owner": "Connor",
         "cost": 1,
         "pts": 127.0,
-        "expected": 85.7,
-        "value": 41.3
+        "expected": 86.1,
+        "value": 40.9
       },
       {
         "player": "Tyler Allgeier",
@@ -556,8 +556,17 @@
         "owner": "Deez",
         "cost": 1,
         "pts": 122.0,
-        "expected": 85.7,
-        "value": 36.3
+        "expected": 86.1,
+        "value": 35.9
+      },
+      {
+        "player": "Graham Gano",
+        "pos": "K",
+        "owner": "Mikey",
+        "cost": 3,
+        "pts": 141.0,
+        "expected": 106.3,
+        "value": 34.7
       },
       {
         "player": "Brandon Aiyuk",
@@ -567,15 +576,6 @@
         "pts": 180.9,
         "expected": 147.2,
         "value": 33.7
-      },
-      {
-        "player": "Graham Gano",
-        "pos": "K",
-        "owner": "Mikey",
-        "cost": 3,
-        "pts": 141.0,
-        "expected": 108.4,
-        "value": 32.6
       },
       {
         "player": "T.J. Hockenson",
@@ -628,17 +628,8 @@
         "owner": "Sweeney",
         "cost": 1,
         "pts": 115.0,
-        "expected": 85.7,
-        "value": 29.3
-      },
-      {
-        "player": "Davis Mills",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 4,
-        "pts": 172.0,
-        "expected": 143.4,
-        "value": 28.6
+        "expected": 86.1,
+        "value": 28.9
       },
       {
         "player": "Khalil Herbert",
@@ -648,6 +639,15 @@
         "pts": 107.9,
         "expected": 80,
         "value": 27.9
+      },
+      {
+        "player": "Davis Mills",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 4,
+        "pts": 172.0,
+        "expected": 146.2,
+        "value": 25.8
       },
       {
         "player": "Zach Wilson",
@@ -686,15 +686,6 @@
         "value": 24.0
       },
       {
-        "player": "Russell Wilson",
-        "pos": "QB",
-        "owner": "Papi",
-        "cost": 26,
-        "pts": 212.14,
-        "expected": 189.8,
-        "value": 22.3
-      },
-      {
         "player": "Gerald Everett",
         "pos": "TE",
         "owner": "TK",
@@ -722,6 +713,15 @@
         "value": 21.1
       },
       {
+        "player": "Russell Wilson",
+        "pos": "QB",
+        "owner": "Papi",
+        "cost": 26,
+        "pts": 212.14,
+        "expected": 191.0,
+        "value": 21.1
+      },
+      {
         "player": "David Njoku",
         "pos": "TE",
         "owner": "Deez",
@@ -736,8 +736,8 @@
         "owner": "Chris",
         "cost": 47,
         "pts": 243.08,
-        "expected": 222.5,
-        "value": 20.6
+        "expected": 222.6,
+        "value": 20.5
       },
       {
         "player": "Derrick Henry",
@@ -758,15 +758,6 @@
         "value": 17.2
       },
       {
-        "player": "Matt Ryan",
-        "pos": "QB",
-        "owner": "Papi",
-        "cost": 7,
-        "pts": 168.28,
-        "expected": 151.6,
-        "value": 16.6
-      },
-      {
         "player": "DK Metcalf",
         "pos": "WR",
         "owner": "Mitch",
@@ -776,13 +767,13 @@
         "value": 15.9
       },
       {
-        "player": "Dak Prescott",
+        "player": "Matt Ryan",
         "pos": "QB",
-        "owner": "Mitch",
-        "cost": 26,
-        "pts": 203.88,
-        "expected": 189.8,
-        "value": 14.0
+        "owner": "Papi",
+        "cost": 7,
+        "pts": 168.28,
+        "expected": 154.1,
+        "value": 14.1
       },
       {
         "player": "Dameon Pierce",
@@ -801,6 +792,15 @@
         "pts": 157.2,
         "expected": 144.0,
         "value": 13.2
+      },
+      {
+        "player": "Dak Prescott",
+        "pos": "QB",
+        "owner": "Mitch",
+        "cost": 26,
+        "pts": 203.88,
+        "expected": 191.0,
+        "value": 12.8
       },
       {
         "player": "Samaje Perine",
@@ -853,17 +853,8 @@
         "owner": "Gallo",
         "cost": 10,
         "pts": 167.24,
-        "expected": 158.8,
-        "value": 8.4
-      },
-      {
-        "player": "Mac Jones",
-        "pos": "QB",
-        "owner": "TJ",
-        "cost": 8,
-        "pts": 161.86,
-        "expected": 154.1,
-        "value": 7.7
+        "expected": 161.1,
+        "value": 6.1
       },
       {
         "player": "Terry McLaurin",
@@ -873,6 +864,15 @@
         "pts": 175.6,
         "expected": 170.2,
         "value": 5.4
+      },
+      {
+        "player": "Mac Jones",
+        "pos": "QB",
+        "owner": "TJ",
+        "cost": 8,
+        "pts": 161.86,
+        "expected": 156.5,
+        "value": 5.3
       },
       {
         "player": "Pat Freiermuth",
@@ -920,6 +920,15 @@
         "value": 2.0
       },
       {
+        "player": "Justin Tucker",
+        "pos": "K",
+        "owner": "Joey",
+        "cost": 9,
+        "pts": 152.0,
+        "expected": 150.1,
+        "value": 1.9
+      },
+      {
         "player": "Mecole Hardman Jr.",
         "pos": "WR",
         "owner": "TJ",
@@ -965,21 +974,21 @@
         "value": -0.6
       },
       {
-        "player": "Robbie Gould",
-        "pos": "K",
-        "owner": "Gallo",
-        "cost": 1,
-        "pts": 85.0,
-        "expected": 85.7,
-        "value": -0.7
-      },
-      {
         "player": "Mitchell Trubisky",
         "pos": "QB",
         "owner": "Justin",
         "cost": 1,
         "pts": 78.88,
         "expected": 80,
+        "value": -1.1
+      },
+      {
+        "player": "Robbie Gould",
+        "pos": "K",
+        "owner": "Gallo",
+        "cost": 1,
+        "pts": 85.0,
+        "expected": 86.1,
         "value": -1.1
       },
       {
@@ -1073,15 +1082,6 @@
         "value": -5.0
       },
       {
-        "player": "Justin Tucker",
-        "pos": "K",
-        "owner": "Joey",
-        "cost": 9,
-        "pts": 152.0,
-        "expected": 157.4,
-        "value": -5.4
-      },
-      {
         "player": "DJ Moore",
         "pos": "WR",
         "owner": "Boyle",
@@ -1145,6 +1145,15 @@
         "value": -11.5
       },
       {
+        "player": "Harrison Butker",
+        "pos": "K",
+        "owner": "Boyle",
+        "cost": 3,
+        "pts": 94.0,
+        "expected": 106.3,
+        "value": -12.3
+      },
+      {
         "player": "Rondale Moore",
         "pos": "WR",
         "owner": "TK",
@@ -1161,15 +1170,6 @@
         "pts": 67.0,
         "expected": 80,
         "value": -13.0
-      },
-      {
-        "player": "Harrison Butker",
-        "pos": "K",
-        "owner": "Boyle",
-        "cost": 3,
-        "pts": 94.0,
-        "expected": 108.4,
-        "value": -14.4
       },
       {
         "player": "Gabe Davis",
@@ -1289,15 +1289,6 @@
         "value": -20.5
       },
       {
-        "player": "Baker Mayfield",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 4,
-        "pts": 122.94,
-        "expected": 143.4,
-        "value": -20.5
-      },
-      {
         "player": "DJ Chark",
         "pos": "WR",
         "owner": "Chris",
@@ -1370,6 +1361,15 @@
         "value": -23.2
       },
       {
+        "player": "Baker Mayfield",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 4,
+        "pts": 122.94,
+        "expected": 146.2,
+        "value": -23.3
+      },
+      {
         "player": "Noah Fant",
         "pos": "TE",
         "owner": "Gallo",
@@ -1420,8 +1420,8 @@
         "owner": "TK",
         "cost": 1,
         "pts": 60.0,
-        "expected": 85.7,
-        "value": -25.7
+        "expected": 86.1,
+        "value": -26.1
       },
       {
         "player": "Mike Williams",
@@ -1505,21 +1505,21 @@
         "value": -34.3
       },
       {
-        "player": "Jake Elliott",
-        "pos": "K",
-        "owner": "Paul",
-        "cost": 1,
-        "pts": 51.0,
-        "expected": 85.7,
-        "value": -34.7
-      },
-      {
         "player": "Ezekiel Elliott",
         "pos": "RB",
         "owner": "Justin",
         "cost": 39,
         "pts": 176.3,
         "expected": 211.4,
+        "value": -35.1
+      },
+      {
+        "player": "Jake Elliott",
+        "pos": "K",
+        "owner": "Paul",
+        "cost": 1,
+        "pts": 51.0,
+        "expected": 86.1,
         "value": -35.1
       },
       {
@@ -1609,8 +1609,8 @@
         "owner": "Ger",
         "cost": 1,
         "pts": 40.0,
-        "expected": 85.7,
-        "value": -45.7
+        "expected": 86.1,
+        "value": -46.1
       },
       {
         "player": "Mark Ingram II",
@@ -1703,15 +1703,6 @@
         "value": -57.0
       },
       {
-        "player": "Matthew Stafford",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 17,
-        "pts": 116.38,
-        "expected": 173.5,
-        "value": -57.1
-      },
-      {
         "player": "Desmond Ridder",
         "pos": "QB",
         "owner": "Paul",
@@ -1754,6 +1745,15 @@
         "cost": 12,
         "pts": 98.0,
         "expected": 156.9,
+        "value": -58.9
+      },
+      {
+        "player": "Matthew Stafford",
+        "pos": "QB",
+        "owner": "Boyle",
+        "cost": 17,
+        "pts": 116.38,
+        "expected": 175.2,
         "value": -58.9
       },
       {
@@ -1811,15 +1811,6 @@
         "value": -61.2
       },
       {
-        "player": "Matt Prater",
-        "pos": "K",
-        "owner": "Chris",
-        "cost": 1,
-        "pts": 24.0,
-        "expected": 85.7,
-        "value": -61.7
-      },
-      {
         "player": "Nelson Agholor",
         "pos": "WR",
         "owner": "Ger",
@@ -1827,6 +1818,15 @@
         "pts": 18.0,
         "expected": 80,
         "value": -62.0
+      },
+      {
+        "player": "Matt Prater",
+        "pos": "K",
+        "owner": "Chris",
+        "cost": 1,
+        "pts": 24.0,
+        "expected": 86.1,
+        "value": -62.1
       },
       {
         "player": "Darrell Henderson Jr.",
@@ -1987,8 +1987,8 @@
         "owner": "Matt",
         "cost": 1,
         "pts": 9.0,
-        "expected": 85.7,
-        "value": -76.7
+        "expected": 86.1,
+        "value": -77.1
       },
       {
         "player": "Cam Akers",
@@ -2126,15 +2126,6 @@
         "value": -92.0
       },
       {
-        "player": "Deshaun Watson",
-        "pos": "QB",
-        "owner": "Matt",
-        "cost": 14,
-        "pts": 70.98,
-        "expected": 167.5,
-        "value": -96.5
-      },
-      {
         "player": "Rashod Bateman",
         "pos": "WR",
         "owner": "TJ",
@@ -2151,6 +2142,15 @@
         "pts": 45.2,
         "expected": 142.7,
         "value": -97.5
+      },
+      {
+        "player": "Deshaun Watson",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 14,
+        "pts": 70.98,
+        "expected": 169.5,
+        "value": -98.5
       },
       {
         "player": "Rashaad Penny",
@@ -2176,8 +2176,8 @@
         "owner": "Boyle",
         "cost": 7,
         "pts": 48.92,
-        "expected": 151.6,
-        "value": -102.7
+        "expected": 154.1,
+        "value": -105.2
       },
       {
         "player": "J.K. Dobbins",
@@ -2230,8 +2230,8 @@
         "owner": "TJ",
         "cost": 26,
         "pts": 13.46,
-        "expected": 189.8,
-        "value": -176.4
+        "expected": 191.0,
+        "value": -177.6
       },
       {
         "player": "Javonte Williams",
@@ -2263,8 +2263,8 @@
     ],
     "models": {
       "QB": {
-        "a": 6.5,
-        "b": 126.26
+        "a": 6.28,
+        "b": 129.65
       },
       "RB": {
         "a": 8.09,
@@ -2275,16 +2275,16 @@
         "b": 125.93
       },
       "K": {
-        "a": 19.61,
-        "b": 66.13
+        "a": 17.5,
+        "b": 68.57
       },
       "TE": {
         "a": 5.95,
         "b": 96.29
       },
       "DEF": {
-        "a": 24.94,
-        "b": 55.57
+        "a": 26.5,
+        "b": 54.87
       }
     }
   },
@@ -2314,8 +2314,8 @@
         "owner": "Mikey",
         "cost": 65,
         "pts": 385.58,
-        "expected": 247.0,
-        "value": 138.6
+        "expected": 246.2,
+        "value": 139.3
       },
       {
         "player": "Brock Purdy",
@@ -2323,8 +2323,8 @@
         "owner": "Matt",
         "cost": 16,
         "pts": 306.6,
-        "expected": 171.5,
-        "value": 135.1
+        "expected": 173.3,
+        "value": 133.3
       },
       {
         "player": "Jalen Hurts",
@@ -2332,17 +2332,8 @@
         "owner": "Papi",
         "cost": 61,
         "pts": 370.22,
-        "expected": 241.8,
-        "value": 128.5
-      },
-      {
-        "player": "Jordan Love",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 26,
-        "pts": 311.52,
-        "expected": 189.8,
-        "value": 121.7
+        "expected": 241.2,
+        "value": 129.1
       },
       {
         "player": "CeeDee Lamb",
@@ -2354,13 +2345,22 @@
         "value": 120.6
       },
       {
+        "player": "Jordan Love",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 26,
+        "pts": 311.52,
+        "expected": 191.0,
+        "value": 120.5
+      },
+      {
         "player": "Baker Mayfield",
         "pos": "QB",
         "owner": "Papi",
         "cost": 10,
         "pts": 277.88,
-        "expected": 158.8,
-        "value": 119.0
+        "expected": 161.1,
+        "value": 116.8
       },
       {
         "player": "Dak Prescott",
@@ -2368,8 +2368,8 @@
         "owner": "TK",
         "cost": 41,
         "pts": 325.68,
-        "expected": 213.7,
-        "value": 112.0
+        "expected": 214.1,
+        "value": 111.6
       },
       {
         "player": "Nico Collins",
@@ -2413,8 +2413,8 @@
         "owner": "Mitch",
         "cost": 59,
         "pts": 338.22,
-        "expected": 239.1,
-        "value": 99.1
+        "expected": 238.6,
+        "value": 99.6
       },
       {
         "player": "Gus Edwards",
@@ -2453,22 +2453,22 @@
         "value": 89.0
       },
       {
-        "player": "C.J. Stroud",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 16,
-        "pts": 259.96,
-        "expected": 171.5,
-        "value": 88.4
-      },
-      {
         "player": "Sam Howell",
         "pos": "QB",
         "owner": "Sweeney",
         "cost": 21,
         "pts": 269.12,
-        "expected": 181.0,
-        "value": 88.1
+        "expected": 182.5,
+        "value": 86.6
+      },
+      {
+        "player": "C.J. Stroud",
+        "pos": "QB",
+        "owner": "Boyle",
+        "cost": 16,
+        "pts": 259.96,
+        "expected": 173.3,
+        "value": 86.6
       },
       {
         "player": "De'Von Achane",
@@ -2548,8 +2548,8 @@
         "owner": "TJ",
         "cost": 38,
         "pts": 280.3,
-        "expected": 209.2,
-        "value": 71.1
+        "expected": 209.7,
+        "value": 70.6
       },
       {
         "player": "David Njoku",
@@ -2566,8 +2566,8 @@
         "owner": "Joey",
         "cost": 1,
         "pts": 152.0,
-        "expected": 85.7,
-        "value": 66.3
+        "expected": 86.1,
+        "value": 65.9
       },
       {
         "player": "Romeo Doubs",
@@ -2584,8 +2584,8 @@
         "owner": "Ger",
         "cost": 33,
         "pts": 264.9,
-        "expected": 201.4,
-        "value": 63.5
+        "expected": 202.2,
+        "value": 62.7
       },
       {
         "player": "Amon-Ra St. Brown",
@@ -2602,8 +2602,8 @@
         "owner": "Matt",
         "cost": 41,
         "pts": 274.74,
-        "expected": 213.7,
-        "value": 61.0
+        "expected": 214.1,
+        "value": 60.6
       },
       {
         "player": "Harrison Butker",
@@ -2611,8 +2611,8 @@
         "owner": "Sweeney",
         "cost": 1,
         "pts": 146.0,
-        "expected": 85.7,
-        "value": 60.3
+        "expected": 86.1,
+        "value": 59.9
       },
       {
         "player": "Cole Kmet",
@@ -2642,15 +2642,6 @@
         "value": 57.8
       },
       {
-        "player": "Matthew Stafford",
-        "pos": "QB",
-        "owner": "Deez",
-        "cost": 30,
-        "pts": 254.1,
-        "expected": 196.5,
-        "value": 57.6
-      },
-      {
         "player": "Dolphins",
         "pos": "DEF",
         "owner": "Matt",
@@ -2667,6 +2658,15 @@
         "pts": 137.0,
         "expected": 80,
         "value": 57.0
+      },
+      {
+        "player": "Matthew Stafford",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 30,
+        "pts": 254.1,
+        "expected": 197.5,
+        "value": 56.6
       },
       {
         "player": "Bills",
@@ -2732,15 +2732,6 @@
         "value": 50.8
       },
       {
-        "player": "Gardner Minshew",
-        "pos": "QB",
-        "owner": "Gallo",
-        "cost": 5,
-        "pts": 196.66,
-        "expected": 146.3,
-        "value": 50.3
-      },
-      {
         "player": "Travis Etienne Jr.",
         "pos": "RB",
         "owner": "Ger",
@@ -2759,31 +2750,31 @@
         "value": 48.2
       },
       {
+        "player": "Gardner Minshew",
+        "pos": "QB",
+        "owner": "Gallo",
+        "cost": 5,
+        "pts": 196.66,
+        "expected": 149.0,
+        "value": 47.7
+      },
+      {
         "player": "Evan McPherson",
         "pos": "K",
         "owner": "Chris",
         "cost": 1,
         "pts": 132.0,
-        "expected": 85.7,
-        "value": 46.3
+        "expected": 86.1,
+        "value": 45.9
       },
       {
-        "player": "Cameron Dicker",
-        "pos": "K",
+        "player": "Patrick Mahomes",
+        "pos": "QB",
         "owner": "TK",
-        "cost": 1,
-        "pts": 131.0,
-        "expected": 85.7,
-        "value": 45.3
-      },
-      {
-        "player": "Jason Myers",
-        "pos": "K",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 131.0,
-        "expected": 85.7,
-        "value": 45.3
+        "cost": 67,
+        "pts": 294.22,
+        "expected": 248.7,
+        "value": 45.5
       },
       {
         "player": "Isiah Pacheco",
@@ -2804,13 +2795,22 @@
         "value": 45.0
       },
       {
-        "player": "Patrick Mahomes",
-        "pos": "QB",
+        "player": "Cameron Dicker",
+        "pos": "K",
         "owner": "TK",
-        "cost": 67,
-        "pts": 294.22,
-        "expected": 249.6,
-        "value": 44.6
+        "cost": 1,
+        "pts": 131.0,
+        "expected": 86.1,
+        "value": 44.9
+      },
+      {
+        "player": "Jason Myers",
+        "pos": "K",
+        "owner": "Connor",
+        "cost": 1,
+        "pts": 131.0,
+        "expected": 86.1,
+        "value": 44.9
       },
       {
         "player": "Tyler Bass",
@@ -2818,8 +2818,8 @@
         "owner": "Gallo",
         "cost": 1,
         "pts": 130.0,
-        "expected": 85.7,
-        "value": 44.3
+        "expected": 86.1,
+        "value": 43.9
       },
       {
         "player": "Tyler Allgeier",
@@ -2849,6 +2849,15 @@
         "value": 42.2
       },
       {
+        "player": "Justin Tucker",
+        "pos": "K",
+        "owner": "Papi",
+        "cost": 4,
+        "pts": 156.0,
+        "expected": 114.8,
+        "value": 41.2
+      },
+      {
         "player": "Breece Hall",
         "pos": "RB",
         "owner": "Paul",
@@ -2874,15 +2883,6 @@
         "pts": 118.6,
         "expected": 80,
         "value": 38.6
-      },
-      {
-        "player": "Justin Tucker",
-        "pos": "K",
-        "owner": "Papi",
-        "cost": 4,
-        "pts": 156.0,
-        "expected": 117.9,
-        "value": 38.1
       },
       {
         "player": "Michael Pittman Jr.",
@@ -2912,6 +2912,15 @@
         "value": 36.5
       },
       {
+        "player": "Younghoe Koo",
+        "pos": "K",
+        "owner": "Ger",
+        "cost": 2,
+        "pts": 133.0,
+        "expected": 97.0,
+        "value": 36.0
+      },
+      {
         "player": "T.J. Hockenson",
         "pos": "TE",
         "owner": "Papi",
@@ -2935,17 +2944,8 @@
         "owner": "Paul",
         "cost": 1,
         "pts": 121.0,
-        "expected": 85.7,
-        "value": 35.3
-      },
-      {
-        "player": "Younghoe Koo",
-        "pos": "K",
-        "owner": "Ger",
-        "cost": 2,
-        "pts": 133.0,
-        "expected": 98.0,
-        "value": 35.0
+        "expected": 86.1,
+        "value": 34.9
       },
       {
         "player": "Deebo Samuel",
@@ -3056,15 +3056,6 @@
         "value": 25.2
       },
       {
-        "player": "Geno Smith",
-        "pos": "QB",
-        "owner": "Paul",
-        "cost": 27,
-        "pts": 215.4,
-        "expected": 191.5,
-        "value": 23.9
-      },
-      {
         "player": "Jahmyr Gibbs",
         "pos": "RB",
         "owner": "Chris",
@@ -3074,13 +3065,13 @@
         "value": 23.8
       },
       {
-        "player": "D'Andre Swift",
-        "pos": "RB",
-        "owner": "TJ",
-        "cost": 14,
-        "pts": 179.8,
-        "expected": 157.6,
-        "value": 22.2
+        "player": "Geno Smith",
+        "pos": "QB",
+        "owner": "Paul",
+        "cost": 27,
+        "pts": 215.4,
+        "expected": 192.7,
+        "value": 22.7
       },
       {
         "player": "Trevor Lawrence",
@@ -3088,8 +3079,17 @@
         "owner": "Connor",
         "cost": 57,
         "pts": 258.34,
-        "expected": 236.4,
-        "value": 21.9
+        "expected": 236.0,
+        "value": 22.3
+      },
+      {
+        "player": "D'Andre Swift",
+        "pos": "RB",
+        "owner": "TJ",
+        "cost": 14,
+        "pts": 179.8,
+        "expected": 157.6,
+        "value": 22.2
       },
       {
         "player": "Rashee Rice",
@@ -3187,8 +3187,8 @@
         "owner": "Gallo",
         "cost": 38,
         "pts": 221.96,
-        "expected": 209.2,
-        "value": 12.8
+        "expected": 209.7,
+        "value": 12.2
       },
       {
         "player": "Jake Moody",
@@ -3196,8 +3196,8 @@
         "owner": "Boyle",
         "cost": 1,
         "pts": 98.0,
-        "expected": 85.7,
-        "value": 12.3
+        "expected": 86.1,
+        "value": 11.9
       },
       {
         "player": "Stefon Diggs",
@@ -3340,8 +3340,8 @@
         "owner": "Joey",
         "cost": 52,
         "pts": 230.56,
-        "expected": 229.6,
-        "value": 1.0
+        "expected": 229.4,
+        "value": 1.2
       },
       {
         "player": "Ja'Marr Chase",
@@ -3394,8 +3394,8 @@
         "owner": "Deez",
         "cost": 19,
         "pts": 172.0,
-        "expected": 177.3,
-        "value": -5.3
+        "expected": 178.9,
+        "value": -6.9
       },
       {
         "player": "Bengals",
@@ -3425,6 +3425,15 @@
         "value": -9.2
       },
       {
+        "player": "Justin Herbert",
+        "pos": "QB",
+        "owner": "Sweeney",
+        "cost": 68,
+        "pts": 240.66,
+        "expected": 250.0,
+        "value": -9.3
+      },
+      {
         "player": "Taylor Heinicke",
         "pos": "QB",
         "owner": "TJ",
@@ -3432,15 +3441,6 @@
         "pts": 70.0,
         "expected": 80,
         "value": -10.0
-      },
-      {
-        "player": "Justin Herbert",
-        "pos": "QB",
-        "owner": "Sweeney",
-        "cost": 68,
-        "pts": 240.66,
-        "expected": 250.9,
-        "value": -10.2
       },
       {
         "player": "Gabe Davis",
@@ -3466,8 +3466,8 @@
         "owner": "Mitch",
         "cost": 1,
         "pts": 73.0,
-        "expected": 85.7,
-        "value": -12.7
+        "expected": 86.1,
+        "value": -13.1
       },
       {
         "player": "Packers",
@@ -3529,8 +3529,8 @@
         "owner": "Justin",
         "cost": 1,
         "pts": 67.0,
-        "expected": 85.7,
-        "value": -18.7
+        "expected": 86.1,
+        "value": -19.1
       },
       {
         "player": "Bryce Young",
@@ -3538,8 +3538,8 @@
         "owner": "Boyle",
         "cost": 22,
         "pts": 162.22,
-        "expected": 182.8,
-        "value": -20.6
+        "expected": 184.3,
+        "value": -22.0
       },
       {
         "player": "Dallas Goedert",
@@ -3605,15 +3605,6 @@
         "value": -26.6
       },
       {
-        "player": "Riley Patterson",
-        "pos": "K",
-        "owner": "TJ",
-        "cost": 1,
-        "pts": 59.0,
-        "expected": 85.7,
-        "value": -26.7
-      },
-      {
         "player": "Rondale Moore",
         "pos": "WR",
         "owner": "Justin",
@@ -3632,13 +3623,22 @@
         "value": -27.0
       },
       {
+        "player": "Riley Patterson",
+        "pos": "K",
+        "owner": "TJ",
+        "cost": 1,
+        "pts": 59.0,
+        "expected": 86.1,
+        "value": -27.1
+      },
+      {
         "player": "Daniel Carlson",
         "pos": "K",
         "owner": "Deez",
         "cost": 1,
         "pts": 58.0,
-        "expected": 85.7,
-        "value": -27.7
+        "expected": 86.1,
+        "value": -28.1
       },
       {
         "player": "Patriots",
@@ -3745,17 +3745,8 @@
         "owner": "Mikey",
         "cost": 1,
         "pts": 50.0,
-        "expected": 85.7,
-        "value": -35.7
-      },
-      {
-        "player": "Mac Jones",
-        "pos": "QB",
-        "owner": "Sweeney",
-        "cost": 8,
-        "pts": 118.4,
-        "expected": 154.1,
-        "value": -35.7
+        "expected": 86.1,
+        "value": -36.1
       },
       {
         "player": "Garrett Wilson",
@@ -3792,6 +3783,15 @@
         "pts": 42.5,
         "expected": 80,
         "value": -37.5
+      },
+      {
+        "player": "Mac Jones",
+        "pos": "QB",
+        "owner": "Sweeney",
+        "cost": 8,
+        "pts": 118.4,
+        "expected": 156.5,
+        "value": -38.1
       },
       {
         "player": "Chig Okonkwo",
@@ -3952,8 +3952,8 @@
         "owner": "Matt",
         "cost": 1,
         "pts": 35.0,
-        "expected": 85.7,
-        "value": -50.7
+        "expected": 86.1,
+        "value": -51.1
       },
       {
         "player": "Dawson Knox",
@@ -4006,8 +4006,8 @@
         "owner": "Mitch",
         "cost": 39,
         "pts": 154.74,
-        "expected": 210.7,
-        "value": -56.0
+        "expected": 211.2,
+        "value": -56.4
       },
       {
         "player": "Andy Dalton",
@@ -4109,15 +4109,6 @@
         "value": -64.2
       },
       {
-        "player": "Kyler Murray",
-        "pos": "QB",
-        "owner": "Deez",
-        "cost": 31,
-        "pts": 133.58,
-        "expected": 198.2,
-        "value": -64.6
-      },
-      {
         "player": "Tank Bigsby",
         "pos": "RB",
         "owner": "Boyle",
@@ -4134,6 +4125,15 @@
         "pts": 14.9,
         "expected": 80,
         "value": -65.1
+      },
+      {
+        "player": "Kyler Murray",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 31,
+        "pts": 133.58,
+        "expected": 199.1,
+        "value": -65.5
       },
       {
         "player": "Treylon Burks",
@@ -4357,8 +4357,8 @@
         "owner": "Boyle",
         "cost": 55,
         "pts": 153.16,
-        "expected": 233.7,
-        "value": -80.5
+        "expected": 233.4,
+        "value": -80.2
       },
       {
         "player": "Justin Jefferson",
@@ -4375,17 +4375,8 @@
         "owner": "Gallo",
         "cost": 36,
         "pts": 114.2,
-        "expected": 206.1,
-        "value": -91.9
-      },
-      {
-        "player": "Ryan Tannehill",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 10,
-        "pts": 66.9,
-        "expected": 158.8,
-        "value": -91.9
+        "expected": 206.7,
+        "value": -92.5
       },
       {
         "player": "Dameon Pierce",
@@ -4395,6 +4386,15 @@
         "pts": 76.2,
         "expected": 169.8,
         "value": -93.6
+      },
+      {
+        "player": "Ryan Tannehill",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 10,
+        "pts": 66.9,
+        "expected": 161.1,
+        "value": -94.2
       },
       {
         "player": "Miles Sanders",
@@ -4411,8 +4411,8 @@
         "owner": "Joey",
         "cost": 16,
         "pts": 73.1,
-        "expected": 171.5,
-        "value": -98.4
+        "expected": 173.3,
+        "value": -100.2
       },
       {
         "player": "Skyy Moore",
@@ -4447,8 +4447,8 @@
         "owner": "Matt",
         "cost": 39,
         "pts": 90.8,
-        "expected": 210.7,
-        "value": -119.9
+        "expected": 211.2,
+        "value": -120.4
       },
       {
         "player": "Dalvin Cook",
@@ -4465,8 +4465,8 @@
         "owner": "Chris",
         "cost": 33,
         "pts": 73.68,
-        "expected": 201.4,
-        "value": -127.7
+        "expected": 202.2,
+        "value": -128.5
       },
       {
         "player": "Cam Akers",
@@ -4510,8 +4510,8 @@
         "owner": "Connor",
         "cost": 6,
         "pts": 6.92,
-        "expected": 149.0,
-        "value": -142.1
+        "expected": 151.6,
+        "value": -144.7
       },
       {
         "player": "J.K. Dobbins",
@@ -4528,8 +4528,8 @@
         "owner": "Chris",
         "cost": 47,
         "pts": 62.96,
-        "expected": 222.5,
-        "value": -159.5
+        "expected": 222.6,
+        "value": -159.6
       },
       {
         "player": "Nick Chubb",
@@ -4546,8 +4546,8 @@
         "owner": "Justin",
         "cost": 46,
         "pts": 0.0,
-        "expected": 221.1,
-        "value": -221.1
+        "expected": 221.2,
+        "value": -221.2
       }
     ],
     "owners": [
@@ -4570,8 +4570,8 @@
     ],
     "models": {
       "QB": {
-        "a": 6.5,
-        "b": 126.26
+        "a": 6.28,
+        "b": 129.65
       },
       "RB": {
         "a": 8.09,
@@ -4582,16 +4582,16 @@
         "b": 125.93
       },
       "K": {
-        "a": 19.61,
-        "b": 66.13
+        "a": 17.5,
+        "b": 68.57
       },
       "TE": {
         "a": 5.95,
         "b": 96.29
       },
       "DEF": {
-        "a": 24.94,
-        "b": 55.57
+        "a": 26.5,
+        "b": 54.87
       }
     }
   },
@@ -4603,8 +4603,8 @@
         "owner": "Paul",
         "cost": 61,
         "pts": 411.4,
-        "expected": 241.8,
-        "value": 169.6
+        "expected": 241.2,
+        "value": 170.2
       },
       {
         "player": "Baker Mayfield",
@@ -4612,8 +4612,8 @@
         "owner": "TJ",
         "cost": 30,
         "pts": 359.16,
-        "expected": 196.5,
-        "value": 162.6
+        "expected": 197.5,
+        "value": 161.7
       },
       {
         "player": "Brian Thomas Jr.",
@@ -4630,17 +4630,8 @@
         "owner": "Joey",
         "cost": 45,
         "pts": 360.6,
-        "expected": 219.6,
-        "value": 141.0
-      },
-      {
-        "player": "Bo Nix",
-        "pos": "QB",
-        "owner": "Justin",
-        "cost": 8,
-        "pts": 295.16,
-        "expected": 154.1,
-        "value": 141.0
+        "expected": 219.8,
+        "value": 140.8
       },
       {
         "player": "Chuba Hubbard",
@@ -4657,8 +4648,17 @@
         "owner": "Mitch",
         "cost": 65,
         "pts": 385.04,
-        "expected": 247.0,
-        "value": 138.0
+        "expected": 246.2,
+        "value": 138.8
+      },
+      {
+        "player": "Bo Nix",
+        "pos": "QB",
+        "owner": "Justin",
+        "cost": 8,
+        "pts": 295.16,
+        "expected": 156.5,
+        "value": 138.6
       },
       {
         "player": "Joe Burrow",
@@ -4666,17 +4666,8 @@
         "owner": "Papi",
         "cost": 57,
         "pts": 367.84,
-        "expected": 236.4,
-        "value": 131.4
-      },
-      {
-        "player": "Sam Darnold",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 24,
-        "pts": 312.32,
-        "expected": 186.4,
-        "value": 125.9
+        "expected": 236.0,
+        "value": 131.8
       },
       {
         "player": "Bucky Irving",
@@ -4686,6 +4677,15 @@
         "pts": 205.5,
         "expected": 80,
         "value": 125.5
+      },
+      {
+        "player": "Sam Darnold",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 24,
+        "pts": 312.32,
+        "expected": 187.7,
+        "value": 124.6
       },
       {
         "player": "Saquon Barkley",
@@ -4729,8 +4729,8 @@
         "owner": "Mitch",
         "cost": 45,
         "pts": 324.72,
-        "expected": 219.6,
-        "value": 105.1
+        "expected": 219.8,
+        "value": 104.9
       },
       {
         "player": "Courtland Sutton",
@@ -4783,8 +4783,8 @@
         "owner": "Deez",
         "cost": 1,
         "pts": 178.0,
-        "expected": 85.7,
-        "value": 92.3
+        "expected": 86.1,
+        "value": 91.9
       },
       {
         "player": "Chase Brown",
@@ -4823,15 +4823,6 @@
         "value": 82.9
       },
       {
-        "player": "Ka'imi Fairbairn",
-        "pos": "K",
-        "owner": "Papi",
-        "cost": 1,
-        "pts": 167.0,
-        "expected": 85.7,
-        "value": 81.3
-      },
-      {
         "player": "Darnell Mooney",
         "pos": "WR",
         "owner": "TK",
@@ -4839,6 +4830,15 @@
         "pts": 161.2,
         "expected": 80,
         "value": 81.2
+      },
+      {
+        "player": "Ka'imi Fairbairn",
+        "pos": "K",
+        "owner": "Papi",
+        "cost": 1,
+        "pts": 167.0,
+        "expected": 86.1,
+        "value": 80.9
       },
       {
         "player": "James Conner",
@@ -4850,6 +4850,15 @@
         "value": 77.9
       },
       {
+        "player": "Jalen Hurts",
+        "pos": "QB",
+        "owner": "Sweeney",
+        "cost": 62,
+        "pts": 320.12,
+        "expected": 242.4,
+        "value": 77.7
+      },
+      {
         "player": "Xavier Worthy",
         "pos": "WR",
         "owner": "Paul",
@@ -4857,15 +4866,6 @@
         "pts": 157.7,
         "expected": 80,
         "value": 77.7
-      },
-      {
-        "player": "Jalen Hurts",
-        "pos": "QB",
-        "owner": "Sweeney",
-        "cost": 62,
-        "pts": 320.12,
-        "expected": 243.1,
-        "value": 77.0
       },
       {
         "player": "Zach Charbonnet",
@@ -4927,8 +4927,8 @@
         "owner": "Mikey",
         "cost": 40,
         "pts": 278.86,
-        "expected": 212.2,
-        "value": 66.6
+        "expected": 212.6,
+        "value": 66.2
       },
       {
         "player": "Geno Smith",
@@ -4936,17 +4936,8 @@
         "owner": "Papi",
         "cost": 25,
         "pts": 254.68,
-        "expected": 188.1,
-        "value": 66.6
-      },
-      {
-        "player": "Cameron Dicker",
-        "pos": "K",
-        "owner": "TJ",
-        "cost": 1,
-        "pts": 149.0,
-        "expected": 85.7,
-        "value": 63.3
+        "expected": 189.4,
+        "value": 65.3
       },
       {
         "player": "James Cook III",
@@ -4958,6 +4949,15 @@
         "value": 63.0
       },
       {
+        "player": "Cameron Dicker",
+        "pos": "K",
+        "owner": "TJ",
+        "cost": 1,
+        "pts": 149.0,
+        "expected": 86.1,
+        "value": 62.9
+      },
+      {
         "player": "Jaxon Smith-Njigba",
         "pos": "WR",
         "owner": "Matt",
@@ -4967,15 +4967,6 @@
         "value": 59.4
       },
       {
-        "player": "Kyler Murray",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 46,
-        "pts": 280.36,
-        "expected": 221.1,
-        "value": 59.3
-      },
-      {
         "player": "Terry McLaurin",
         "pos": "WR",
         "owner": "Deez",
@@ -4983,6 +4974,15 @@
         "pts": 210.6,
         "expected": 151.3,
         "value": 59.3
+      },
+      {
+        "player": "Kyler Murray",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 46,
+        "pts": 280.36,
+        "expected": 221.2,
+        "value": 59.2
       },
       {
         "player": "Steelers",
@@ -5030,6 +5030,15 @@
         "value": 53.9
       },
       {
+        "player": "Patrick Mahomes",
+        "pos": "QB",
+        "owner": "TK",
+        "cost": 60,
+        "pts": 293.52,
+        "expected": 239.9,
+        "value": 53.6
+      },
+      {
         "player": "De'Von Achane",
         "pos": "RB",
         "owner": "TJ",
@@ -5037,15 +5046,6 @@
         "pts": 242.8,
         "expected": 189.6,
         "value": 53.2
-      },
-      {
-        "player": "Patrick Mahomes",
-        "pos": "QB",
-        "owner": "TK",
-        "cost": 60,
-        "pts": 293.52,
-        "expected": 240.4,
-        "value": 53.1
       },
       {
         "player": "Aaron Jones Sr.",
@@ -5075,15 +5075,6 @@
         "value": 48.0
       },
       {
-        "player": "Jake Elliott",
-        "pos": "K",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 133.0,
-        "expected": 85.7,
-        "value": 47.3
-      },
-      {
         "player": "Vikings",
         "pos": "DEF",
         "owner": "TK",
@@ -5091,6 +5082,15 @@
         "pts": 127.0,
         "expected": 80,
         "value": 47.0
+      },
+      {
+        "player": "Jake Elliott",
+        "pos": "K",
+        "owner": "Joey",
+        "cost": 1,
+        "pts": 133.0,
+        "expected": 86.1,
+        "value": 46.9
       },
       {
         "player": "Wan'Dale Robinson",
@@ -5125,8 +5125,8 @@
         "owner": "Justin",
         "cost": 1,
         "pts": 130.0,
-        "expected": 85.7,
-        "value": 44.3
+        "expected": 86.1,
+        "value": 43.9
       },
       {
         "player": "Broncos",
@@ -5165,15 +5165,6 @@
         "value": 37.3
       },
       {
-        "player": "Aaron Rodgers",
-        "pos": "QB",
-        "owner": "TJ",
-        "cost": 35,
-        "pts": 241.62,
-        "expected": 204.6,
-        "value": 37.1
-      },
-      {
         "player": "David Njoku",
         "pos": "TE",
         "owner": "TK",
@@ -5183,6 +5174,15 @@
         "value": 36.5
       },
       {
+        "player": "Aaron Rodgers",
+        "pos": "QB",
+        "owner": "TJ",
+        "cost": 35,
+        "pts": 241.62,
+        "expected": 205.2,
+        "value": 36.4
+      },
+      {
         "player": "Joe Mixon",
         "pos": "RB",
         "owner": "Deez",
@@ -5190,24 +5190,6 @@
         "pts": 219.2,
         "expected": 183.3,
         "value": 35.9
-      },
-      {
-        "player": "Younghoe Koo",
-        "pos": "K",
-        "owner": "Chris",
-        "cost": 1,
-        "pts": 120.0,
-        "expected": 85.7,
-        "value": 34.3
-      },
-      {
-        "player": "Tyler Bass",
-        "pos": "K",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 120.0,
-        "expected": 85.7,
-        "value": 34.3
       },
       {
         "player": "Alexander Mattison",
@@ -5228,13 +5210,31 @@
         "value": 34.0
       },
       {
+        "player": "Younghoe Koo",
+        "pos": "K",
+        "owner": "Chris",
+        "cost": 1,
+        "pts": 120.0,
+        "expected": 86.1,
+        "value": 33.9
+      },
+      {
+        "player": "Tyler Bass",
+        "pos": "K",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 120.0,
+        "expected": 86.1,
+        "value": 33.9
+      },
+      {
         "player": "Justin Herbert",
         "pos": "QB",
         "owner": "Connor",
         "cost": 50,
         "pts": 260.36,
-        "expected": 226.8,
-        "value": 33.6
+        "expected": 226.7,
+        "value": 33.7
       },
       {
         "player": "Cade Otton",
@@ -5246,24 +5246,6 @@
         "value": 31.1
       },
       {
-        "player": "Drake Maye",
-        "pos": "QB",
-        "owner": "Joey",
-        "cost": 9,
-        "pts": 187.14,
-        "expected": 156.5,
-        "value": 30.6
-      },
-      {
-        "player": "Caleb Williams",
-        "pos": "QB",
-        "owner": "Deez",
-        "cost": 45,
-        "pts": 249.62,
-        "expected": 219.6,
-        "value": 30.0
-      },
-      {
         "player": "Eagles",
         "pos": "DEF",
         "owner": "Joey",
@@ -5271,6 +5253,15 @@
         "pts": 110.0,
         "expected": 80,
         "value": 30.0
+      },
+      {
+        "player": "Caleb Williams",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 45,
+        "pts": 249.62,
+        "expected": 219.8,
+        "value": 29.8
       },
       {
         "player": "DeMario Douglas",
@@ -5298,6 +5289,15 @@
         "pts": 108.6,
         "expected": 80,
         "value": 28.6
+      },
+      {
+        "player": "Drake Maye",
+        "pos": "QB",
+        "owner": "Joey",
+        "cost": 9,
+        "pts": 187.14,
+        "expected": 158.9,
+        "value": 28.3
       },
       {
         "player": "Jayden Reed",
@@ -5350,8 +5350,8 @@
         "owner": "TK",
         "cost": 1,
         "pts": 106.0,
-        "expected": 85.7,
-        "value": 20.3
+        "expected": 86.1,
+        "value": 19.9
       },
       {
         "player": "Demarcus Robinson",
@@ -5525,6 +5525,15 @@
         "value": 11.5
       },
       {
+        "player": "Justin Tucker",
+        "pos": "K",
+        "owner": "Connor",
+        "cost": 4,
+        "pts": 126.0,
+        "expected": 114.8,
+        "value": 11.2
+      },
+      {
         "player": "DJ Moore",
         "pos": "WR",
         "owner": "Ger",
@@ -5552,24 +5561,6 @@
         "value": 9.8
       },
       {
-        "player": "Evan McPherson",
-        "pos": "K",
-        "owner": "Matt",
-        "cost": 1,
-        "pts": 94.0,
-        "expected": 85.7,
-        "value": 8.3
-      },
-      {
-        "player": "Justin Tucker",
-        "pos": "K",
-        "owner": "Connor",
-        "cost": 4,
-        "pts": 126.0,
-        "expected": 117.9,
-        "value": 8.1
-      },
-      {
         "player": "49ers",
         "pos": "DEF",
         "owner": "Mikey",
@@ -5585,6 +5576,15 @@
         "cost": 1,
         "pts": 87.9,
         "expected": 80,
+        "value": 7.9
+      },
+      {
+        "player": "Evan McPherson",
+        "pos": "K",
+        "owner": "Matt",
+        "cost": 1,
+        "pts": 94.0,
+        "expected": 86.1,
         "value": 7.9
       },
       {
@@ -5620,8 +5620,8 @@
         "owner": "Deez",
         "cost": 44,
         "pts": 222.58,
-        "expected": 218.2,
-        "value": 4.4
+        "expected": 218.4,
+        "value": 4.2
       },
       {
         "player": "Dontayvion Wicks",
@@ -5633,22 +5633,22 @@
         "value": 3.6
       },
       {
-        "player": "Matt Gay",
-        "pos": "K",
-        "owner": "Paul",
-        "cost": 1,
-        "pts": 89.0,
-        "expected": 85.7,
-        "value": 3.3
-      },
-      {
         "player": "Harrison Butker",
         "pos": "K",
         "owner": "Ger",
         "cost": 2,
         "pts": 100.0,
-        "expected": 98.0,
-        "value": 2.0
+        "expected": 97.0,
+        "value": 3.0
+      },
+      {
+        "player": "Matt Gay",
+        "pos": "K",
+        "owner": "Paul",
+        "cost": 1,
+        "pts": 89.0,
+        "expected": 86.1,
+        "value": 2.9
       },
       {
         "player": "Aidan O'Connell",
@@ -5696,15 +5696,6 @@
         "value": -1.1
       },
       {
-        "player": "Bryce Young",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 15,
-        "pts": 167.74,
-        "expected": 169.5,
-        "value": -1.8
-      },
-      {
         "player": "Davante Adams",
         "pos": "WR",
         "owner": "Boyle",
@@ -5730,6 +5721,15 @@
         "pts": 194.3,
         "expected": 197.9,
         "value": -3.6
+      },
+      {
+        "player": "Bryce Young",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 15,
+        "pts": 167.74,
+        "expected": 171.4,
+        "value": -3.7
       },
       {
         "player": "Ray Davis",
@@ -5791,8 +5791,8 @@
         "owner": "Boyle",
         "cost": 56,
         "pts": 226.38,
-        "expected": 235.1,
-        "value": -8.7
+        "expected": 234.7,
+        "value": -8.3
       },
       {
         "player": "Travis Kelce",
@@ -5854,8 +5854,8 @@
         "owner": "Matt",
         "cost": 20,
         "pts": 166.26,
-        "expected": 179.2,
-        "value": -12.9
+        "expected": 180.7,
+        "value": -14.5
       },
       {
         "player": "George Pickens",
@@ -5921,15 +5921,6 @@
         "value": -18.4
       },
       {
-        "player": "Jason Myers",
-        "pos": "K",
-        "owner": "Mitch",
-        "cost": 1,
-        "pts": 67.0,
-        "expected": 85.7,
-        "value": -18.7
-      },
-      {
         "player": "Cowboys",
         "pos": "DEF",
         "owner": "Ger",
@@ -5937,6 +5928,15 @@
         "pts": 61.0,
         "expected": 80,
         "value": -19.0
+      },
+      {
+        "player": "Jason Myers",
+        "pos": "K",
+        "owner": "Mitch",
+        "cost": 1,
+        "pts": 67.0,
+        "expected": 86.1,
+        "value": -19.1
       },
       {
         "player": "Puka Nacua",
@@ -6002,15 +6002,6 @@
         "value": -23.2
       },
       {
-        "player": "Derek Carr",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 20,
-        "pts": 155.9,
-        "expected": 179.2,
-        "value": -23.3
-      },
-      {
         "player": "DeAndre Hopkins",
         "pos": "WR",
         "owner": "Boyle",
@@ -6018,6 +6009,15 @@
         "pts": 119.0,
         "expected": 142.7,
         "value": -23.7
+      },
+      {
+        "player": "Derek Carr",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 20,
+        "pts": 155.9,
+        "expected": 180.7,
+        "value": -24.8
       },
       {
         "player": "Jets",
@@ -6043,8 +6043,8 @@
         "owner": "Boyle",
         "cost": 46,
         "pts": 195.32,
-        "expected": 221.1,
-        "value": -25.7
+        "expected": 221.2,
+        "value": -25.9
       },
       {
         "player": "Braelon Allen",
@@ -6074,15 +6074,6 @@
         "value": -28.0
       },
       {
-        "player": "Justin Fields",
-        "pos": "QB",
-        "owner": "Justin",
-        "cost": 6,
-        "pts": 120.14,
-        "expected": 149.0,
-        "value": -28.9
-      },
-      {
         "player": "Noah Fant",
         "pos": "TE",
         "owner": "TK",
@@ -6090,6 +6081,15 @@
         "pts": 50.2,
         "expected": 80,
         "value": -29.8
+      },
+      {
+        "player": "Justin Fields",
+        "pos": "QB",
+        "owner": "Justin",
+        "cost": 6,
+        "pts": 120.14,
+        "expected": 151.6,
+        "value": -31.5
       },
       {
         "player": "Chris Godwin Jr.",
@@ -6128,6 +6128,15 @@
         "value": -35.0
       },
       {
+        "player": "Tua Tagovailoa",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 50,
+        "pts": 188.58,
+        "expected": 226.7,
+        "value": -38.1
+      },
+      {
         "player": "Jalen McMillan",
         "pos": "WR",
         "owner": "Gallo",
@@ -6135,15 +6144,6 @@
         "pts": 41.9,
         "expected": 80,
         "value": -38.1
-      },
-      {
-        "player": "Tua Tagovailoa",
-        "pos": "QB",
-        "owner": "Matt",
-        "cost": 50,
-        "pts": 188.58,
-        "expected": 226.8,
-        "value": -38.2
       },
       {
         "player": "Marvin Harrison Jr.",
@@ -6245,15 +6245,6 @@
         "value": -46.0
       },
       {
-        "player": "Gardner Minshew",
-        "pos": "QB",
-        "owner": "Joey",
-        "cost": 8,
-        "pts": 106.32,
-        "expected": 154.1,
-        "value": -47.8
-      },
-      {
         "player": "Tyjae Spears",
         "pos": "RB",
         "owner": "Deez",
@@ -6263,21 +6254,21 @@
         "value": -48.2
       },
       {
-        "player": "Dustin Hopkins",
-        "pos": "K",
-        "owner": "Gallo",
-        "cost": 1,
-        "pts": 37.0,
-        "expected": 85.7,
-        "value": -48.7
-      },
-      {
         "player": "Anthony Richardson Sr.",
         "pos": "QB",
         "owner": "Sweeney",
         "cost": 48,
         "pts": 174.86,
         "expected": 223.9,
+        "value": -49.1
+      },
+      {
+        "player": "Dustin Hopkins",
+        "pos": "K",
+        "owner": "Gallo",
+        "cost": 1,
+        "pts": 37.0,
+        "expected": 86.1,
         "value": -49.1
       },
       {
@@ -6290,13 +6281,13 @@
         "value": -49.8
       },
       {
-        "player": "Cairo Santos",
-        "pos": "K",
-        "owner": "Boyle",
-        "cost": 1,
-        "pts": 35.0,
-        "expected": 85.7,
-        "value": -50.7
+        "player": "Gardner Minshew",
+        "pos": "QB",
+        "owner": "Joey",
+        "cost": 8,
+        "pts": 106.32,
+        "expected": 156.5,
+        "value": -50.2
       },
       {
         "player": "Mike Williams",
@@ -6323,6 +6314,15 @@
         "cost": 6,
         "pts": 66.0,
         "expected": 117.1,
+        "value": -51.1
+      },
+      {
+        "player": "Cairo Santos",
+        "pos": "K",
+        "owner": "Boyle",
+        "cost": 1,
+        "pts": 35.0,
+        "expected": 86.1,
         "value": -51.1
       },
       {
@@ -6353,13 +6353,13 @@
         "value": -55.0
       },
       {
-        "player": "Daniel Jones",
-        "pos": "QB",
-        "owner": "Connor",
-        "cost": 31,
-        "pts": 142.3,
-        "expected": 198.2,
-        "value": -55.9
+        "player": "Graham Gano",
+        "pos": "K",
+        "owner": "Mikey",
+        "cost": 2,
+        "pts": 41.0,
+        "expected": 97.0,
+        "value": -56.0
       },
       {
         "player": "Christian Watson",
@@ -6371,13 +6371,13 @@
         "value": -56.4
       },
       {
-        "player": "Graham Gano",
-        "pos": "K",
-        "owner": "Mikey",
-        "cost": 2,
-        "pts": 41.0,
-        "expected": 98.0,
-        "value": -57.0
+        "player": "Daniel Jones",
+        "pos": "QB",
+        "owner": "Connor",
+        "cost": 31,
+        "pts": 142.3,
+        "expected": 199.1,
+        "value": -56.8
       },
       {
         "player": "D'Onta Foreman",
@@ -6439,17 +6439,8 @@
         "owner": "Justin",
         "cost": 40,
         "pts": 152.2,
-        "expected": 212.2,
-        "value": -60.0
-      },
-      {
-        "player": "Will Levis",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 21,
-        "pts": 120.14,
-        "expected": 181.0,
-        "value": -60.9
+        "expected": 212.6,
+        "value": -60.4
       },
       {
         "player": "Devin Singletary",
@@ -6459,6 +6450,15 @@
         "pts": 76.9,
         "expected": 137.9,
         "value": -61.0
+      },
+      {
+        "player": "Will Levis",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 21,
+        "pts": 120.14,
+        "expected": 182.5,
+        "value": -62.4
       },
       {
         "player": "Ty Chandler",
@@ -6691,8 +6691,8 @@
         "owner": "TK",
         "cost": 43,
         "pts": 124.52,
-        "expected": 216.7,
-        "value": -92.2
+        "expected": 217.0,
+        "value": -92.4
       },
       {
         "player": "Ezekiel Elliott",
@@ -6763,8 +6763,8 @@
         "owner": "Gallo",
         "cost": 9,
         "pts": 37.94,
-        "expected": 156.5,
-        "value": -118.6
+        "expected": 158.9,
+        "value": -120.9
       },
       {
         "player": "Brandon Aiyuk",
@@ -6790,8 +6790,8 @@
         "owner": "Matt",
         "cost": 39,
         "pts": 79.72,
-        "expected": 210.7,
-        "value": -131.0
+        "expected": 211.2,
+        "value": -131.5
       },
       {
         "player": "Jonathon Brooks",
@@ -6841,8 +6841,8 @@
     ],
     "models": {
       "QB": {
-        "a": 6.5,
-        "b": 126.26
+        "a": 6.28,
+        "b": 129.65
       },
       "RB": {
         "a": 8.09,
@@ -6853,16 +6853,16 @@
         "b": 125.93
       },
       "K": {
-        "a": 19.61,
-        "b": 66.13
+        "a": 17.5,
+        "b": 68.57
       },
       "TE": {
         "a": 5.95,
         "b": 96.29
       },
       "DEF": {
-        "a": 24.94,
-        "b": 55.57
+        "a": 26.5,
+        "b": 54.87
       }
     }
   },
@@ -6874,8 +6874,8 @@
         "owner": "Joey",
         "cost": 24,
         "pts": 329.72,
-        "expected": 186.4,
-        "value": 143.3
+        "expected": 187.7,
+        "value": 142.0
       },
       {
         "player": "Christian McCaffrey",
@@ -6901,8 +6901,8 @@
         "owner": "Sweeney",
         "cost": 33,
         "pts": 326.88,
-        "expected": 201.4,
-        "value": 125.5
+        "expected": 202.2,
+        "value": 124.7
       },
       {
         "player": "Drake Maye",
@@ -6910,8 +6910,8 @@
         "owner": "Mitch",
         "cost": 45,
         "pts": 342.72,
-        "expected": 219.6,
-        "value": 123.1
+        "expected": 219.8,
+        "value": 122.9
       },
       {
         "player": "Josh Allen",
@@ -6919,8 +6919,8 @@
         "owner": "Boyle",
         "cost": 70,
         "pts": 374.62,
-        "expected": 253.4,
-        "value": 121.2
+        "expected": 252.4,
+        "value": 122.2
       },
       {
         "player": "Jaxon Smith-Njigba",
@@ -6946,8 +6946,8 @@
         "owner": "Matt",
         "cost": 29,
         "pts": 298.88,
-        "expected": 194.9,
-        "value": 104.0
+        "expected": 195.9,
+        "value": 103.0
       },
       {
         "player": "Puka Nacua",
@@ -7018,8 +7018,8 @@
         "owner": "Mitch",
         "cost": 56,
         "pts": 323.08,
-        "expected": 235.1,
-        "value": 88.0
+        "expected": 234.7,
+        "value": 88.4
       },
       {
         "player": "Kenneth Gainwell",
@@ -7045,8 +7045,8 @@
         "owner": "Deez",
         "cost": 45,
         "pts": 306.6,
-        "expected": 219.6,
-        "value": 87.0
+        "expected": 219.8,
+        "value": 86.8
       },
       {
         "player": "Bo Nix",
@@ -7054,8 +7054,8 @@
         "owner": "Sweeney",
         "cost": 46,
         "pts": 305.3,
-        "expected": 221.1,
-        "value": 84.2
+        "expected": 221.2,
+        "value": 84.1
       },
       {
         "player": "De'Von Achane",
@@ -7067,22 +7067,22 @@
         "value": 83.6
       },
       {
-        "player": "Ka'imi Fairbairn",
-        "pos": "K",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 168.0,
-        "expected": 85.7,
-        "value": 82.3
-      },
-      {
         "player": "Brandon Aubrey",
         "pos": "K",
         "owner": "Sweeney",
         "cost": 2,
         "pts": 179.6,
-        "expected": 98.0,
-        "value": 81.6
+        "expected": 97.0,
+        "value": 82.6
+      },
+      {
+        "player": "Ka'imi Fairbairn",
+        "pos": "K",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 168.0,
+        "expected": 86.1,
+        "value": 81.9
       },
       {
         "player": "Michael Pittman Jr.",
@@ -7135,8 +7135,8 @@
         "owner": "Gallo",
         "cost": 1,
         "pts": 162.0,
-        "expected": 85.7,
-        "value": 76.3
+        "expected": 86.1,
+        "value": 75.9
       },
       {
         "player": "Dallas Goedert",
@@ -7180,8 +7180,8 @@
         "owner": "Ger",
         "cost": 45,
         "pts": 288.82,
-        "expected": 219.6,
-        "value": 69.2
+        "expected": 219.8,
+        "value": 69.0
       },
       {
         "player": "Patrick Mahomes",
@@ -7189,8 +7189,8 @@
         "owner": "Deez",
         "cost": 51,
         "pts": 295.18,
-        "expected": 228.2,
-        "value": 67.0
+        "expected": 228.0,
+        "value": 67.1
       },
       {
         "player": "D'Andre Swift",
@@ -7202,15 +7202,6 @@
         "value": 65.3
       },
       {
-        "player": "Jaxson Dart",
-        "pos": "QB",
-        "owner": "TJ",
-        "cost": 11,
-        "pts": 226.18,
-        "expected": 161.1,
-        "value": 65.1
-      },
-      {
         "player": "Texans",
         "pos": "DEF",
         "owner": "TK",
@@ -7218,6 +7209,15 @@
         "pts": 145.0,
         "expected": 80,
         "value": 65.0
+      },
+      {
+        "player": "Jaxson Dart",
+        "pos": "QB",
+        "owner": "TJ",
+        "cost": 11,
+        "pts": 226.18,
+        "expected": 163.3,
+        "value": 62.9
       },
       {
         "player": "Jake Ferguson",
@@ -7274,6 +7274,15 @@
         "value": 57.0
       },
       {
+        "player": "Jalen Hurts",
+        "pos": "QB",
+        "owner": "Joey",
+        "cost": 68,
+        "pts": 305.06,
+        "expected": 250.0,
+        "value": 55.1
+      },
+      {
         "player": "Keenan Allen",
         "pos": "WR",
         "owner": "Boyle",
@@ -7281,24 +7290,6 @@
         "pts": 135.1,
         "expected": 80,
         "value": 55.1
-      },
-      {
-        "player": "Jalen Hurts",
-        "pos": "QB",
-        "owner": "Joey",
-        "cost": 68,
-        "pts": 305.06,
-        "expected": 250.9,
-        "value": 54.2
-      },
-      {
-        "player": "Daniel Jones",
-        "pos": "QB",
-        "owner": "Paul",
-        "cost": 21,
-        "pts": 234.44,
-        "expected": 181.0,
-        "value": 53.4
       },
       {
         "player": "Alec Pierce",
@@ -7319,13 +7310,22 @@
         "value": 52.3
       },
       {
+        "player": "Daniel Jones",
+        "pos": "QB",
+        "owner": "Paul",
+        "cost": 21,
+        "pts": 234.44,
+        "expected": 182.5,
+        "value": 51.9
+      },
+      {
         "player": "Chris Boswell",
         "pos": "K",
         "owner": "TK",
         "cost": 1,
         "pts": 138.0,
-        "expected": 85.7,
-        "value": 52.3
+        "expected": 86.1,
+        "value": 51.9
       },
       {
         "player": "Chase McLaughlin",
@@ -7333,8 +7333,8 @@
         "owner": "Paul",
         "cost": 1,
         "pts": 138.0,
-        "expected": 85.7,
-        "value": 52.3
+        "expected": 86.1,
+        "value": 51.9
       },
       {
         "player": "Kareem Hunt",
@@ -7405,8 +7405,8 @@
         "owner": "Gallo",
         "cost": 29,
         "pts": 240.6,
-        "expected": 194.9,
-        "value": 45.7
+        "expected": 195.9,
+        "value": 44.7
       },
       {
         "player": "Jaylen Warren",
@@ -7432,8 +7432,8 @@
         "owner": "TJ",
         "cost": 50,
         "pts": 267.7,
-        "expected": 226.8,
-        "value": 40.9
+        "expected": 226.7,
+        "value": 41.0
       },
       {
         "player": "Rachaad White",
@@ -7463,15 +7463,6 @@
         "value": 36.7
       },
       {
-        "player": "Jake Bates",
-        "pos": "K",
-        "owner": "Matt",
-        "cost": 1,
-        "pts": 122.0,
-        "expected": 85.7,
-        "value": 36.3
-      },
-      {
         "player": "Colston Loveland",
         "pos": "TE",
         "owner": "Joey",
@@ -7488,6 +7479,15 @@
         "pts": 116.0,
         "expected": 80,
         "value": 36.0
+      },
+      {
+        "player": "Jake Bates",
+        "pos": "K",
+        "owner": "Matt",
+        "cost": 1,
+        "pts": 122.0,
+        "expected": 86.1,
+        "value": 35.9
       },
       {
         "player": "Tyler Allgeier",
@@ -7531,17 +7531,8 @@
         "owner": "Chris",
         "cost": 1,
         "pts": 116.0,
-        "expected": 85.7,
-        "value": 30.3
-      },
-      {
-        "player": "Bryce Young",
-        "pos": "QB",
-        "owner": "Justin",
-        "cost": 22,
-        "pts": 211.5,
-        "expected": 182.8,
-        "value": 28.7
+        "expected": 86.1,
+        "value": 29.9
       },
       {
         "player": "Travis Kelce",
@@ -7551,6 +7542,15 @@
         "pts": 152.5,
         "expected": 124.0,
         "value": 28.5
+      },
+      {
+        "player": "Bryce Young",
+        "pos": "QB",
+        "owner": "Justin",
+        "cost": 22,
+        "pts": 211.5,
+        "expected": 184.3,
+        "value": 27.2
       },
       {
         "player": "Jameson Williams",
@@ -7621,8 +7621,8 @@
         "owner": "Papi",
         "cost": 46,
         "pts": 241.14,
-        "expected": 221.1,
-        "value": 20.1
+        "expected": 221.2,
+        "value": 20.0
       },
       {
         "player": "Bills",
@@ -7666,8 +7666,8 @@
         "owner": "Mikey",
         "cost": 30,
         "pts": 215.82,
-        "expected": 196.5,
-        "value": 19.3
+        "expected": 197.5,
+        "value": 18.3
       },
       {
         "player": "Kirk Cousins",
@@ -7729,8 +7729,8 @@
         "owner": "Joey",
         "cost": 1,
         "pts": 97.0,
-        "expected": 85.7,
-        "value": 11.3
+        "expected": 86.1,
+        "value": 10.9
       },
       {
         "player": "Shedeur Sanders",
@@ -7796,15 +7796,6 @@
         "value": 6.7
       },
       {
-        "player": "Joe Flacco",
-        "pos": "QB",
-        "owner": "TJ",
-        "cost": 6,
-        "pts": 154.46,
-        "expected": 149.0,
-        "value": 5.4
-      },
-      {
         "player": "Vikings",
         "pos": "DEF",
         "owner": "Justin",
@@ -7823,15 +7814,6 @@
         "value": 3.7
       },
       {
-        "player": "Evan McPherson",
-        "pos": "K",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 89.0,
-        "expected": 85.7,
-        "value": 3.3
-      },
-      {
         "player": "Tyjae Spears",
         "pos": "RB",
         "owner": "TK",
@@ -7839,6 +7821,24 @@
         "pts": 83.0,
         "expected": 80,
         "value": 3.0
+      },
+      {
+        "player": "Evan McPherson",
+        "pos": "K",
+        "owner": "Connor",
+        "cost": 1,
+        "pts": 89.0,
+        "expected": 86.1,
+        "value": 2.9
+      },
+      {
+        "player": "Joe Flacco",
+        "pos": "QB",
+        "owner": "TJ",
+        "cost": 6,
+        "pts": 154.46,
+        "expected": 151.6,
+        "value": 2.8
       },
       {
         "player": "Luther Burden III",
@@ -7875,15 +7875,6 @@
         "pts": 75.3,
         "expected": 80,
         "value": -4.7
-      },
-      {
-        "player": "Tyler Shough",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 5,
-        "pts": 141.2,
-        "expected": 146.3,
-        "value": -5.1
       },
       {
         "player": "TreVeyon Henderson",
@@ -7947,6 +7938,15 @@
         "pts": 143.58,
         "expected": 151.3,
         "value": -7.7
+      },
+      {
+        "player": "Tyler Shough",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 5,
+        "pts": 141.2,
+        "expected": 149.0,
+        "value": -7.8
       },
       {
         "player": "Dillon Gabriel",
@@ -8053,8 +8053,8 @@
         "owner": "Justin",
         "cost": 40,
         "pts": 199.28,
-        "expected": 212.2,
-        "value": -12.9
+        "expected": 212.6,
+        "value": -13.4
       },
       {
         "player": "Jacory Croskey-Merritt",
@@ -8138,24 +8138,6 @@
         "value": -17.0
       },
       {
-        "player": "Wil Lutz",
-        "pos": "K",
-        "owner": "TJ",
-        "cost": 1,
-        "pts": 68.0,
-        "expected": 85.7,
-        "value": -17.7
-      },
-      {
-        "player": "Geno Smith",
-        "pos": "QB",
-        "owner": "Connor",
-        "cost": 37,
-        "pts": 189.9,
-        "expected": 207.7,
-        "value": -17.8
-      },
-      {
         "player": "Lions",
         "pos": "DEF",
         "owner": "Paul",
@@ -8172,6 +8154,24 @@
         "pts": 61.9,
         "expected": 80,
         "value": -18.1
+      },
+      {
+        "player": "Wil Lutz",
+        "pos": "K",
+        "owner": "TJ",
+        "cost": 1,
+        "pts": 68.0,
+        "expected": 86.1,
+        "value": -18.1
+      },
+      {
+        "player": "Geno Smith",
+        "pos": "QB",
+        "owner": "Connor",
+        "cost": 37,
+        "pts": 189.9,
+        "expected": 208.2,
+        "value": -18.3
       },
       {
         "player": "David Montgomery",
@@ -8210,15 +8210,6 @@
         "value": -19.1
       },
       {
-        "player": "Cam Ward",
-        "pos": "QB",
-        "owner": "Connor",
-        "cost": 34,
-        "pts": 183.48,
-        "expected": 203.0,
-        "value": -19.5
-      },
-      {
         "player": "Chargers",
         "pos": "DEF",
         "owner": "Ger",
@@ -8226,6 +8217,15 @@
         "pts": 60.0,
         "expected": 80,
         "value": -20.0
+      },
+      {
+        "player": "Cam Ward",
+        "pos": "QB",
+        "owner": "Connor",
+        "cost": 34,
+        "pts": 183.48,
+        "expected": 203.7,
+        "value": -20.2
       },
       {
         "player": "Evan Engram",
@@ -8354,15 +8354,6 @@
         "value": -34.1
       },
       {
-        "player": "Tua Tagovailoa",
-        "pos": "QB",
-        "owner": "Matt",
-        "cost": 38,
-        "pts": 174.7,
-        "expected": 209.2,
-        "value": -34.5
-      },
-      {
         "player": "Sam LaPorta",
         "pos": "TE",
         "owner": "Ger",
@@ -8370,6 +8361,15 @@
         "pts": 86.9,
         "expected": 121.8,
         "value": -34.9
+      },
+      {
+        "player": "Tua Tagovailoa",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 38,
+        "pts": 174.7,
+        "expected": 209.7,
+        "value": -35.0
       },
       {
         "player": "Jameis Winston",
@@ -8467,8 +8467,8 @@
         "owner": "Mikey",
         "cost": 47,
         "pts": 180.2,
-        "expected": 222.5,
-        "value": -42.3
+        "expected": 222.6,
+        "value": -42.4
       },
       {
         "player": "CeeDee Lamb",
@@ -8503,8 +8503,8 @@
         "owner": "TK",
         "cost": 66,
         "pts": 199.44,
-        "expected": 248.3,
-        "value": -48.9
+        "expected": 247.5,
+        "value": -48.1
       },
       {
         "player": "DeMario Douglas",
@@ -8539,17 +8539,8 @@
         "owner": "Papi",
         "cost": 29,
         "pts": 143.66,
-        "expected": 194.9,
-        "value": -51.2
-      },
-      {
-        "player": "Spencer Rattler",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 9,
-        "pts": 102.64,
-        "expected": 156.5,
-        "value": -53.9
+        "expected": 195.9,
+        "value": -52.3
       },
       {
         "player": "Tre' Harris",
@@ -8595,6 +8586,15 @@
         "pts": 88.9,
         "expected": 145.0,
         "value": -56.1
+      },
+      {
+        "player": "Spencer Rattler",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 9,
+        "pts": 102.64,
+        "expected": 158.9,
+        "value": -56.2
       },
       {
         "player": "Ray Davis",
@@ -8660,15 +8660,6 @@
         "value": -63.0
       },
       {
-        "player": "J.J. McCarthy",
-        "pos": "QB",
-        "owner": "Matt",
-        "cost": 28,
-        "pts": 128.4,
-        "expected": 193.2,
-        "value": -64.8
-      },
-      {
         "player": "Devaughn Vele",
         "pos": "WR",
         "owner": "Boyle",
@@ -8685,6 +8676,15 @@
         "pts": 14.7,
         "expected": 80,
         "value": -65.3
+      },
+      {
+        "player": "J.J. McCarthy",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 28,
+        "pts": 128.4,
+        "expected": 194.3,
+        "value": -65.9
       },
       {
         "player": "Dont'e Thornton Jr.",
@@ -8723,15 +8723,6 @@
         "value": -69.9
       },
       {
-        "player": "Michael Penix Jr.",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 28,
-        "pts": 122.28,
-        "expected": 193.2,
-        "value": -70.9
-      },
-      {
         "player": "Cooper Kupp",
         "pos": "WR",
         "owner": "TK",
@@ -8739,6 +8730,15 @@
         "pts": 77.6,
         "expected": 149.3,
         "value": -71.7
+      },
+      {
+        "player": "Michael Penix Jr.",
+        "pos": "QB",
+        "owner": "Boyle",
+        "cost": 28,
+        "pts": 122.28,
+        "expected": 194.3,
+        "value": -72.0
       },
       {
         "player": "DJ Giddens",
@@ -8953,8 +8953,8 @@
         "owner": "Mikey",
         "cost": 1,
         "pts": 0.0,
-        "expected": 85.7,
-        "value": -85.7
+        "expected": 86.1,
+        "value": -86.1
       },
       {
         "player": "Isiah Pacheco",
@@ -9034,17 +9034,8 @@
         "owner": "Chris",
         "cost": 32,
         "pts": 80.78,
-        "expected": 199.8,
-        "value": -119.0
-      },
-      {
-        "player": "Russell Wilson",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 15,
-        "pts": 49.84,
-        "expected": 169.5,
-        "value": -119.7
+        "expected": 200.6,
+        "value": -119.9
       },
       {
         "player": "Austin Ekeler",
@@ -9056,13 +9047,22 @@
         "value": -120.7
       },
       {
+        "player": "Russell Wilson",
+        "pos": "QB",
+        "owner": "Ger",
+        "cost": 15,
+        "pts": 49.84,
+        "expected": 171.4,
+        "value": -121.6
+      },
+      {
         "player": "Joe Burrow",
         "pos": "QB",
         "owner": "TK",
         "cost": 59,
         "pts": 115.32,
-        "expected": 239.1,
-        "value": -123.8
+        "expected": 238.6,
+        "value": -123.3
       },
       {
         "player": "Tank Bigsby",
@@ -9088,8 +9088,8 @@
         "owner": "Paul",
         "cost": 66,
         "pts": 117.28,
-        "expected": 248.3,
-        "value": -131.0
+        "expected": 247.5,
+        "value": -130.2
       },
       {
         "player": "Tyreek Hill",
@@ -9124,8 +9124,8 @@
         "owner": "Gallo",
         "cost": 13,
         "pts": 1.66,
-        "expected": 165.4,
-        "value": -163.7
+        "expected": 167.4,
+        "value": -165.8
       }
     ],
     "owners": [
@@ -9148,8 +9148,8 @@
     ],
     "models": {
       "QB": {
-        "a": 6.5,
-        "b": 126.26
+        "a": 6.28,
+        "b": 129.65
       },
       "RB": {
         "a": 8.09,
@@ -9160,16 +9160,16 @@
         "b": 125.93
       },
       "K": {
-        "a": 19.61,
-        "b": 66.13
+        "a": 17.5,
+        "b": 68.57
       },
       "TE": {
         "a": 5.95,
         "b": 96.29
       },
       "DEF": {
-        "a": 24.94,
-        "b": 55.57
+        "a": 26.5,
+        "b": 54.87
       }
     }
   },
@@ -9180,126 +9180,333 @@
         "pos": "WR",
         "owner": "Boyle",
         "cost": 2,
-        "pts": 29.8,
+        "pts": 40.4,
         "expected": 80,
-        "value": -50.2
-      },
-      {
-        "player": "Isaiah Likely",
-        "pos": "TE",
-        "owner": "Ger",
-        "cost": 3,
-        "pts": 23.8,
-        "expected": 80,
-        "value": -56.2
+        "value": -39.6
       },
       {
         "player": "Chuba Hubbard",
         "pos": "RB",
         "owner": "TK",
         "cost": 3,
-        "pts": 22.2,
+        "pts": 35.6,
         "expected": 80,
-        "value": -57.8
-      },
-      {
-        "player": "Dallas Goedert",
-        "pos": "TE",
-        "owner": "Joey",
-        "cost": 2,
-        "pts": 21.7,
-        "expected": 80,
-        "value": -58.3
-      },
-      {
-        "player": "Steelers",
-        "pos": "DEF",
-        "owner": "Matt",
-        "cost": 1,
-        "pts": 18.0,
-        "expected": 80,
-        "value": -62.0
+        "value": -44.4
       },
       {
         "player": "Dalton Kincaid",
         "pos": "TE",
         "owner": "Mitch",
         "cost": 2,
-        "pts": 15.5,
+        "pts": 34.5,
         "expected": 80,
-        "value": -64.5
-      },
-      {
-        "player": "Deebo Samuel Sr.",
-        "pos": "WR",
-        "owner": "Paul",
-        "cost": 1,
-        "pts": 15.0,
-        "expected": 80,
-        "value": -65.0
-      },
-      {
-        "player": "Dontayvion Wicks",
-        "pos": "WR",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 14.3,
-        "expected": 80,
-        "value": -65.7
-      },
-      {
-        "player": "Jaguars",
-        "pos": "DEF",
-        "owner": "Deez",
-        "cost": 1,
-        "pts": 14.0,
-        "expected": 80,
-        "value": -66.0
-      },
-      {
-        "player": "Evan McPherson",
-        "pos": "K",
-        "owner": "Paul",
-        "cost": 1,
-        "pts": 19.0,
-        "expected": 85.7,
-        "value": -66.7
-      },
-      {
-        "player": "Seahawks",
-        "pos": "DEF",
-        "owner": "Chris",
-        "cost": 1,
-        "pts": 13.0,
-        "expected": 80,
-        "value": -67.0
+        "value": -45.5
       },
       {
         "player": "Denzel Boston",
         "pos": "WR",
         "owner": "Deez",
         "cost": 1,
-        "pts": 12.9,
+        "pts": 30.9,
         "expected": 80,
-        "value": -67.1
+        "value": -49.1
+      },
+      {
+        "player": "Isaiah Likely",
+        "pos": "TE",
+        "owner": "Ger",
+        "cost": 3,
+        "pts": 29.6,
+        "expected": 80,
+        "value": -50.4
+      },
+      {
+        "player": "Travis Kelce",
+        "pos": "TE",
+        "owner": "Ger",
+        "cost": 3,
+        "pts": 29.2,
+        "expected": 80,
+        "value": -50.8
+      },
+      {
+        "player": "Vikings",
+        "pos": "DEF",
+        "owner": "Boyle",
+        "cost": 1,
+        "pts": 29.0,
+        "expected": 80,
+        "value": -51.0
+      },
+      {
+        "player": "Steelers",
+        "pos": "DEF",
+        "owner": "Matt",
+        "cost": 1,
+        "pts": 26.0,
+        "expected": 80,
+        "value": -54.0
+      },
+      {
+        "player": "Dalton Schultz",
+        "pos": "TE",
+        "owner": "Connor",
+        "cost": 1,
+        "pts": 25.5,
+        "expected": 80,
+        "value": -54.5
+      },
+      {
+        "player": "Evan McPherson",
+        "pos": "K",
+        "owner": "Paul",
+        "cost": 1,
+        "pts": 31.0,
+        "expected": 86.1,
+        "value": -55.1
+      },
+      {
+        "player": "Dontayvion Wicks",
+        "pos": "WR",
+        "owner": "Joey",
+        "cost": 1,
+        "pts": 24.2,
+        "expected": 80,
+        "value": -55.8
+      },
+      {
+        "player": "Tre Tucker",
+        "pos": "WR",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 24.1,
+        "expected": 80,
+        "value": -55.9
+      },
+      {
+        "player": "Dallas Goedert",
+        "pos": "TE",
+        "owner": "Joey",
+        "cost": 2,
+        "pts": 22.6,
+        "expected": 80,
+        "value": -57.4
+      },
+      {
+        "player": "Patriots",
+        "pos": "DEF",
+        "owner": "TK",
+        "cost": 1,
+        "pts": 22.0,
+        "expected": 80,
+        "value": -58.0
       },
       {
         "player": "Juwan Johnson",
         "pos": "TE",
         "owner": "Deez",
         "cost": 1,
-        "pts": 12.9,
+        "pts": 21.5,
         "expected": 80,
-        "value": -67.1
+        "value": -58.5
+      },
+      {
+        "player": "Seahawks",
+        "pos": "DEF",
+        "owner": "Chris",
+        "cost": 1,
+        "pts": 21.0,
+        "expected": 80,
+        "value": -59.0
+      },
+      {
+        "player": "Aaron Jones Sr.",
+        "pos": "RB",
+        "owner": "TK",
+        "cost": 2,
+        "pts": 20.5,
+        "expected": 80,
+        "value": -59.5
       },
       {
         "player": "Matthew Golden",
         "pos": "WR",
         "owner": "Mitch",
         "cost": 3,
-        "pts": 12.5,
+        "pts": 20.3,
         "expected": 80,
-        "value": -67.5
+        "value": -59.7
+      },
+      {
+        "player": "Deebo Samuel Sr.",
+        "pos": "WR",
+        "owner": "Paul",
+        "cost": 1,
+        "pts": 20.0,
+        "expected": 80,
+        "value": -60.0
+      },
+      {
+        "player": "Jake Ferguson",
+        "pos": "TE",
+        "owner": "Chris",
+        "cost": 2,
+        "pts": 19.9,
+        "expected": 80,
+        "value": -60.1
+      },
+      {
+        "player": "George Kittle",
+        "pos": "TE",
+        "owner": "Joey",
+        "cost": 3,
+        "pts": 18.2,
+        "expected": 80,
+        "value": -61.8
+      },
+      {
+        "player": "Jaguars",
+        "pos": "DEF",
+        "owner": "Deez",
+        "cost": 1,
+        "pts": 17.0,
+        "expected": 80,
+        "value": -63.0
+      },
+      {
+        "player": "Adonai Mitchell",
+        "pos": "WR",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 16.8,
+        "expected": 80,
+        "value": -63.2
+      },
+      {
+        "player": "T.J. Hockenson",
+        "pos": "TE",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 16.0,
+        "expected": 80,
+        "value": -64.0
+      },
+      {
+        "player": "Rachaad White",
+        "pos": "RB",
+        "owner": "Paul",
+        "cost": 2,
+        "pts": 15.0,
+        "expected": 80,
+        "value": -65.0
+      },
+      {
+        "player": "Mark Andrews",
+        "pos": "TE",
+        "owner": "Deez",
+        "cost": 2,
+        "pts": 14.8,
+        "expected": 80,
+        "value": -65.2
+      },
+      {
+        "player": "Caleb Douglas",
+        "pos": "WR",
+        "owner": "Matt",
+        "cost": 1,
+        "pts": 14.8,
+        "expected": 80,
+        "value": -65.2
+      },
+      {
+        "player": "Jakobi Meyers",
+        "pos": "WR",
+        "owner": "TK",
+        "cost": 2,
+        "pts": 14.5,
+        "expected": 80,
+        "value": -65.5
+      },
+      {
+        "player": "Terrance Ferguson",
+        "pos": "TE",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 14.4,
+        "expected": 80,
+        "value": -65.6
+      },
+      {
+        "player": "Cam Little",
+        "pos": "K",
+        "owner": "Boyle",
+        "cost": 1,
+        "pts": 20.0,
+        "expected": 86.1,
+        "value": -66.1
+      },
+      {
+        "player": "Jonah Coleman",
+        "pos": "RB",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 13.3,
+        "expected": 80,
+        "value": -66.7
+      },
+      {
+        "player": "Broncos",
+        "pos": "DEF",
+        "owner": "Ger",
+        "cost": 1,
+        "pts": 13.0,
+        "expected": 80,
+        "value": -67.0
+      },
+      {
+        "player": "Tyler Loop",
+        "pos": "K",
+        "owner": "Gallo",
+        "cost": 1,
+        "pts": 19.0,
+        "expected": 86.1,
+        "value": -67.1
+      },
+      {
+        "player": "Khalil Shakir",
+        "pos": "WR",
+        "owner": "Boyle",
+        "cost": 1,
+        "pts": 12.3,
+        "expected": 80,
+        "value": -67.7
+      },
+      {
+        "player": "Emmett Johnson",
+        "pos": "RB",
+        "owner": "Mikey",
+        "cost": 1,
+        "pts": 12.3,
+        "expected": 80,
+        "value": -67.7
+      },
+      {
+        "player": "Brenton Strange",
+        "pos": "TE",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 12.0,
+        "expected": 80,
+        "value": -68.0
+      },
+      {
+        "player": "Braelon Allen",
+        "pos": "RB",
+        "owner": "Connor",
+        "cost": 1,
+        "pts": 12.0,
+        "expected": 80,
+        "value": -68.0
       },
       {
         "player": "Jordan Mason",
@@ -9311,31 +9518,67 @@
         "value": -68.1
       },
       {
-        "player": "Caleb Douglas",
+        "player": "Malik Washington",
         "pos": "WR",
-        "owner": "Matt",
+        "owner": "Mikey",
         "cost": 1,
-        "pts": 11.9,
+        "pts": 11.5,
         "expected": 80,
-        "value": -68.1
+        "value": -68.5
       },
       {
-        "player": "T.J. Hockenson",
-        "pos": "TE",
-        "owner": "Justin",
+        "player": "Tyjae Spears",
+        "pos": "RB",
+        "owner": "Joey",
         "cost": 1,
-        "pts": 11.6,
+        "pts": 11.4,
         "expected": 80,
-        "value": -68.4
+        "value": -68.6
       },
       {
-        "player": "Jakobi Meyers",
+        "player": "MarShawn Lloyd",
+        "pos": "RB",
+        "owner": "Joey",
+        "cost": 1,
+        "pts": 11.3,
+        "expected": 80,
+        "value": -68.7
+      },
+      {
+        "player": "Jaylin Noel",
         "pos": "WR",
-        "owner": "TK",
-        "cost": 2,
+        "owner": "Connor",
+        "cost": 1,
         "pts": 11.2,
         "expected": 80,
         "value": -68.8
+      },
+      {
+        "player": "Romeo Doubs",
+        "pos": "WR",
+        "owner": "Mitch",
+        "cost": 2,
+        "pts": 11.1,
+        "expected": 80,
+        "value": -68.9
+      },
+      {
+        "player": "Tank Bigsby",
+        "pos": "RB",
+        "owner": "Mitch",
+        "cost": 2,
+        "pts": 11.1,
+        "expected": 80,
+        "value": -68.9
+      },
+      {
+        "player": "KC Concepcion Jr.",
+        "pos": "WR",
+        "owner": "Boyle",
+        "cost": 2,
+        "pts": 11.0,
+        "expected": 80,
+        "value": -69.0
       },
       {
         "player": "Lions",
@@ -9347,269 +9590,287 @@
         "value": -69.0
       },
       {
-        "player": "Aaron Jones Sr.",
-        "pos": "RB",
-        "owner": "TK",
-        "cost": 2,
-        "pts": 10.0,
-        "expected": 80,
-        "value": -70.0
-      },
-      {
-        "player": "Vikings",
-        "pos": "DEF",
-        "owner": "Boyle",
-        "cost": 1,
-        "pts": 10.0,
-        "expected": 80,
-        "value": -70.0
-      },
-      {
-        "player": "Brenton Strange",
-        "pos": "TE",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 9.3,
-        "expected": 80,
-        "value": -70.7
-      },
-      {
-        "player": "Travis Kelce",
-        "pos": "TE",
-        "owner": "Ger",
-        "cost": 3,
-        "pts": 8.6,
-        "expected": 80,
-        "value": -71.4
-      },
-      {
-        "player": "Tyler Loop",
-        "pos": "K",
-        "owner": "Gallo",
-        "cost": 1,
-        "pts": 14.0,
-        "expected": 85.7,
-        "value": -71.7
-      },
-      {
         "player": "Michael Wilson",
         "pos": "WR",
         "owner": "Boyle",
         "cost": 2,
-        "pts": 8.1,
+        "pts": 10.9,
         "expected": 80,
-        "value": -71.9
-      },
-      {
-        "player": "Alec Pierce",
-        "pos": "WR",
-        "owner": "TK",
-        "cost": 3,
-        "pts": 8.1,
-        "expected": 80,
-        "value": -71.9
+        "value": -69.1
       },
       {
         "player": "Tyler Allgeier",
         "pos": "RB",
         "owner": "TJ",
         "cost": 1,
-        "pts": 8.0,
+        "pts": 10.9,
         "expected": 80,
-        "value": -72.0
+        "value": -69.1
       },
       {
-        "player": "Emmett Johnson",
-        "pos": "RB",
-        "owner": "Mikey",
-        "cost": 1,
-        "pts": 7.8,
-        "expected": 80,
-        "value": -72.2
-      },
-      {
-        "player": "Adonai Mitchell",
-        "pos": "WR",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 7.5,
-        "expected": 80,
-        "value": -72.5
-      },
-      {
-        "player": "Kaelon Black",
-        "pos": "RB",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 7.5,
-        "expected": 80,
-        "value": -72.5
-      },
-      {
-        "player": "Khalil Shakir",
-        "pos": "WR",
-        "owner": "Boyle",
-        "cost": 1,
-        "pts": 7.0,
-        "expected": 80,
-        "value": -73.0
-      },
-      {
-        "player": "Ravens",
-        "pos": "DEF",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 7.0,
-        "expected": 80,
-        "value": -73.0
-      },
-      {
-        "player": "Mark Andrews",
-        "pos": "TE",
+        "player": "Will Reichard",
+        "pos": "K",
         "owner": "Deez",
-        "cost": 2,
-        "pts": 6.9,
-        "expected": 80,
-        "value": -73.1
-      },
-      {
-        "player": "Wan'Dale Robinson",
-        "pos": "WR",
-        "owner": "Justin",
-        "cost": 2,
-        "pts": 6.3,
-        "expected": 80,
-        "value": -73.7
-      },
-      {
-        "player": "Cam Little",
-        "pos": "K",
-        "owner": "Boyle",
         "cost": 1,
-        "pts": 12.0,
-        "expected": 85.7,
-        "value": -73.7
+        "pts": 17.0,
+        "expected": 86.1,
+        "value": -69.1
       },
       {
-        "player": "Cairo Santos",
-        "pos": "K",
+        "player": "Brian Robinson",
+        "pos": "RB",
         "owner": "Joey",
         "cost": 1,
-        "pts": 12.0,
-        "expected": 85.7,
-        "value": -73.7
-      },
-      {
-        "player": "Jaylin Noel",
-        "pos": "WR",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 6.3,
+        "pts": 10.8,
         "expected": 80,
-        "value": -73.7
-      },
-      {
-        "player": "Pat Bryant",
-        "pos": "WR",
-        "owner": "Mitch",
-        "cost": 1,
-        "pts": 6.2,
-        "expected": 80,
-        "value": -73.8
-      },
-      {
-        "player": "KC Concepcion Jr.",
-        "pos": "WR",
-        "owner": "Boyle",
-        "cost": 2,
-        "pts": 5.8,
-        "expected": 80,
-        "value": -74.2
-      },
-      {
-        "player": "Dalton Schultz",
-        "pos": "TE",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 5.5,
-        "expected": 80,
-        "value": -74.5
-      },
-      {
-        "player": "Eddy Pineiro",
-        "pos": "K",
-        "owner": "TK",
-        "cost": 1,
-        "pts": 11.0,
-        "expected": 85.7,
-        "value": -74.7
-      },
-      {
-        "player": "Broncos",
-        "pos": "DEF",
-        "owner": "Ger",
-        "cost": 1,
-        "pts": 5.0,
-        "expected": 80,
-        "value": -75.0
-      },
-      {
-        "player": "Malik Washington",
-        "pos": "WR",
-        "owner": "Mikey",
-        "cost": 1,
-        "pts": 4.8,
-        "expected": 80,
-        "value": -75.2
+        "value": -69.2
       },
       {
         "player": "Woody Marks",
         "pos": "RB",
         "owner": "Mikey",
         "cost": 1,
-        "pts": 4.5,
+        "pts": 10.5,
         "expected": 80,
-        "value": -75.5
+        "value": -69.5
       },
       {
-        "player": "Jalen Nailor",
-        "pos": "WR",
-        "owner": "Paul",
+        "player": "Ravens",
+        "pos": "DEF",
+        "owner": "Joey",
         "cost": 1,
-        "pts": 4.2,
+        "pts": 10.0,
         "expected": 80,
-        "value": -75.8
+        "value": -70.0
+      },
+      {
+        "player": "Kaelon Black",
+        "pos": "RB",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 10.0,
+        "expected": 80,
+        "value": -70.0
+      },
+      {
+        "player": "Eddy Pineiro",
+        "pos": "K",
+        "owner": "TK",
+        "cost": 1,
+        "pts": 16.0,
+        "expected": 86.1,
+        "value": -70.1
+      },
+      {
+        "player": "Alec Pierce",
+        "pos": "WR",
+        "owner": "TK",
+        "cost": 3,
+        "pts": 9.7,
+        "expected": 80,
+        "value": -70.3
+      },
+      {
+        "player": "AJ Barner",
+        "pos": "TE",
+        "owner": "Mikey",
+        "cost": 1,
+        "pts": 9.7,
+        "expected": 80,
+        "value": -70.3
       },
       {
         "player": "Hunter Henry",
         "pos": "TE",
         "owner": "Connor",
         "cost": 1,
-        "pts": 4.1,
+        "pts": 9.6,
         "expected": 80,
-        "value": -75.9
+        "value": -70.4
+      },
+      {
+        "player": "Tre' Harris",
+        "pos": "WR",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 9.3,
+        "expected": 80,
+        "value": -70.7
+      },
+      {
+        "player": "Cairo Santos",
+        "pos": "K",
+        "owner": "Joey",
+        "cost": 1,
+        "pts": 15.0,
+        "expected": 86.1,
+        "value": -71.1
+      },
+      {
+        "player": "Marcus Mariota",
+        "pos": "QB",
+        "owner": "Joey",
+        "cost": 2,
+        "pts": 8.74,
+        "expected": 80,
+        "value": -71.3
+      },
+      {
+        "player": "Jason Myers",
+        "pos": "K",
+        "owner": "Ger",
+        "cost": 1,
+        "pts": 14.0,
+        "expected": 86.1,
+        "value": -72.1
+      },
+      {
+        "player": "Jake Bates",
+        "pos": "K",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 14.0,
+        "expected": 86.1,
+        "value": -72.1
+      },
+      {
+        "player": "Pat Bryant",
+        "pos": "WR",
+        "owner": "Mitch",
+        "cost": 1,
+        "pts": 7.8,
+        "expected": 80,
+        "value": -72.2
+      },
+      {
+        "player": "Kayshon Boutte",
+        "pos": "WR",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 7.8,
+        "expected": 80,
+        "value": -72.2
+      },
+      {
+        "player": "Wan'Dale Robinson",
+        "pos": "WR",
+        "owner": "Justin",
+        "cost": 2,
+        "pts": 7.7,
+        "expected": 80,
+        "value": -72.3
+      },
+      {
+        "player": "Cowboys",
+        "pos": "DEF",
+        "owner": "Mikey",
+        "cost": 1,
+        "pts": 7.0,
+        "expected": 80,
+        "value": -73.0
+      },
+      {
+        "player": "Wil Lutz",
+        "pos": "K",
+        "owner": "Connor",
+        "cost": 1,
+        "pts": 13.0,
+        "expected": 86.1,
+        "value": -73.1
+      },
+      {
+        "player": "Rashid Shaheed",
+        "pos": "WR",
+        "owner": "Gallo",
+        "cost": 1,
+        "pts": 6.3,
+        "expected": 80,
+        "value": -73.7
+      },
+      {
+        "player": "Carson Wentz",
+        "pos": "QB",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 6.32,
+        "expected": 80,
+        "value": -73.7
+      },
+      {
+        "player": "Courtland Sutton",
+        "pos": "WR",
+        "owner": "Chris",
+        "cost": 2,
+        "pts": 6.1,
+        "expected": 80,
+        "value": -73.9
+      },
+      {
+        "player": "Eagles",
+        "pos": "DEF",
+        "owner": "Gallo",
+        "cost": 1,
+        "pts": 6.0,
+        "expected": 80,
+        "value": -74.0
+      },
+      {
+        "player": "Chargers",
+        "pos": "DEF",
+        "owner": "Justin",
+        "cost": 1,
+        "pts": 6.0,
+        "expected": 80,
+        "value": -74.0
+      },
+      {
+        "player": "Jalen Nailor",
+        "pos": "WR",
+        "owner": "Paul",
+        "cost": 1,
+        "pts": 5.6,
+        "expected": 80,
+        "value": -74.4
+      },
+      {
+        "player": "Greg Dulcich",
+        "pos": "TE",
+        "owner": "Sweeney",
+        "cost": 1,
+        "pts": 5.5,
+        "expected": 80,
+        "value": -74.5
+      },
+      {
+        "player": "George Holani",
+        "pos": "RB",
+        "owner": "Joey",
+        "cost": 1,
+        "pts": 4.9,
+        "expected": 80,
+        "value": -75.1
       },
       {
         "player": "Mike Washington Jr.",
         "pos": "RB",
         "owner": "Connor",
         "cost": 1,
-        "pts": 4.1,
+        "pts": 4.8,
         "expected": 80,
-        "value": -75.9
+        "value": -75.2
       },
       {
-        "player": "Braelon Allen",
+        "player": "Jayden Reed",
+        "pos": "WR",
+        "owner": "Boyle",
+        "cost": 2,
+        "pts": 4.4,
+        "expected": 80,
+        "value": -75.6
+      },
+      {
+        "player": "Kaytron Allen",
         "pos": "RB",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 4.0,
-        "expected": 80,
-        "value": -76.0
-      },
-      {
-        "player": "Cowboys",
-        "pos": "DEF",
         "owner": "Mikey",
         "cost": 1,
         "pts": 4.0,
@@ -9617,31 +9878,13 @@
         "value": -76.0
       },
       {
-        "player": "Rachaad White",
+        "player": "Chris Rodriguez Jr.",
         "pos": "RB",
-        "owner": "Paul",
-        "cost": 2,
-        "pts": 3.7,
+        "owner": "Boyle",
+        "cost": 3,
+        "pts": 3.6,
         "expected": 80,
-        "value": -76.3
-      },
-      {
-        "player": "MarShawn Lloyd",
-        "pos": "RB",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 3.7,
-        "expected": 80,
-        "value": -76.3
-      },
-      {
-        "player": "Tre Tucker",
-        "pos": "WR",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 3.7,
-        "expected": 80,
-        "value": -76.3
+        "value": -76.4
       },
       {
         "player": "Jerry Jeudy",
@@ -9653,67 +9896,22 @@
         "value": -76.4
       },
       {
-        "player": "Jayden Reed",
-        "pos": "WR",
-        "owner": "Boyle",
-        "cost": 2,
-        "pts": 3.5,
-        "expected": 80,
-        "value": -76.5
-      },
-      {
-        "player": "Tre' Harris",
+        "player": "Isaac TeSlaa",
         "pos": "WR",
         "owner": "Sweeney",
         "cost": 1,
-        "pts": 3.5,
+        "pts": 3.6,
         "expected": 80,
-        "value": -76.5
+        "value": -76.4
       },
       {
-        "player": "Tyjae Spears",
-        "pos": "RB",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 3.4,
-        "expected": 80,
-        "value": -76.6
-      },
-      {
-        "player": "Brian Robinson",
-        "pos": "RB",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 3.1,
-        "expected": 80,
-        "value": -76.9
-      },
-      {
-        "player": "Eagles",
-        "pos": "DEF",
-        "owner": "Gallo",
-        "cost": 1,
-        "pts": 3.0,
-        "expected": 80,
-        "value": -77.0
-      },
-      {
-        "player": "George Holani",
-        "pos": "RB",
-        "owner": "Joey",
-        "cost": 1,
-        "pts": 2.9,
-        "expected": 80,
-        "value": -77.1
-      },
-      {
-        "player": "Greg Dulcich",
+        "player": "Kenyon Sadiq",
         "pos": "TE",
-        "owner": "Sweeney",
+        "owner": "Mikey",
         "cost": 1,
-        "pts": 2.8,
+        "pts": 2.7,
         "expected": 80,
-        "value": -77.2
+        "value": -77.3
       },
       {
         "player": "Chig Okonkwo",
@@ -9725,58 +9923,22 @@
         "value": -77.4
       },
       {
-        "player": "Kayshon Boutte",
+        "player": "Makai Lemon",
         "pos": "WR",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 2.6,
-        "expected": 80,
-        "value": -77.4
-      },
-      {
-        "player": "Chris Rodriguez Jr.",
-        "pos": "RB",
-        "owner": "Boyle",
+        "owner": "Chris",
         "cost": 3,
-        "pts": 2.3,
+        "pts": 2.4,
         "expected": 80,
-        "value": -77.7
+        "value": -77.6
       },
       {
-        "player": "AJ Barner",
-        "pos": "TE",
+        "player": "Zachariah Branch",
+        "pos": "WR",
         "owner": "Mikey",
         "cost": 1,
-        "pts": 2.3,
+        "pts": 2.4,
         "expected": 80,
-        "value": -77.7
-      },
-      {
-        "player": "George Kittle",
-        "pos": "TE",
-        "owner": "Joey",
-        "cost": 3,
-        "pts": 2.2,
-        "expected": 80,
-        "value": -77.8
-      },
-      {
-        "player": "Courtland Sutton",
-        "pos": "WR",
-        "owner": "Chris",
-        "cost": 2,
-        "pts": 2.1,
-        "expected": 80,
-        "value": -77.9
-      },
-      {
-        "player": "Jake Ferguson",
-        "pos": "TE",
-        "owner": "Chris",
-        "cost": 2,
-        "pts": 1.6,
-        "expected": 80,
-        "value": -78.4
+        "value": -77.6
       },
       {
         "player": "Travis Hunter",
@@ -9797,54 +9959,18 @@
         "value": -78.4
       },
       {
-        "player": "Kaytron Allen",
+        "player": "Emari Demercado",
         "pos": "RB",
-        "owner": "Mikey",
+        "owner": "Paul",
         "cost": 1,
-        "pts": 1.6,
+        "pts": 1.5,
         "expected": 80,
-        "value": -78.4
+        "value": -78.5
       },
       {
-        "player": "Jason Myers",
-        "pos": "K",
-        "owner": "Ger",
-        "cost": 1,
-        "pts": 7.0,
-        "expected": 85.7,
-        "value": -78.7
-      },
-      {
-        "player": "Will Reichard",
-        "pos": "K",
-        "owner": "Deez",
-        "cost": 1,
-        "pts": 7.0,
-        "expected": 85.7,
-        "value": -78.7
-      },
-      {
-        "player": "Jake Bates",
-        "pos": "K",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 7.0,
-        "expected": 85.7,
-        "value": -78.7
-      },
-      {
-        "player": "Makai Lemon",
-        "pos": "WR",
-        "owner": "Chris",
-        "cost": 3,
-        "pts": 1.0,
-        "expected": 80,
-        "value": -79.0
-      },
-      {
-        "player": "Chargers",
-        "pos": "DEF",
-        "owner": "Justin",
+        "player": "Jaylen Wright",
+        "pos": "RB",
+        "owner": "Matt",
         "cost": 1,
         "pts": 1.0,
         "expected": 80,
@@ -9860,18 +9986,9 @@
         "value": -79.0
       },
       {
-        "player": "Rashid Shaheed",
-        "pos": "WR",
-        "owner": "Gallo",
-        "cost": 1,
-        "pts": 0.9,
-        "expected": 80,
-        "value": -79.1
-      },
-      {
-        "player": "Emari Demercado",
+        "player": "Ollie Gordon II",
         "pos": "RB",
-        "owner": "Paul",
+        "owner": "Connor",
         "cost": 1,
         "pts": 0.7,
         "expected": 80,
@@ -9887,15 +10004,6 @@
         "value": -79.5
       },
       {
-        "player": "Tank Bigsby",
-        "pos": "RB",
-        "owner": "Mitch",
-        "cost": 2,
-        "pts": 0.3,
-        "expected": 80,
-        "value": -79.7
-      },
-      {
         "player": "Ray Davis",
         "pos": "RB",
         "owner": "Gallo",
@@ -9903,15 +10011,6 @@
         "pts": 0.3,
         "expected": 80,
         "value": -79.7
-      },
-      {
-        "player": "Marcus Mariota",
-        "pos": "QB",
-        "owner": "Joey",
-        "cost": 2,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
       },
       {
         "player": "Andy Dalton",
@@ -9936,15 +10035,6 @@
         "pos": "RB",
         "owner": "Chris",
         "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Romeo Doubs",
-        "pos": "WR",
-        "owner": "Mitch",
-        "cost": 2,
         "pts": 0.0,
         "expected": 80,
         "value": -80.0
@@ -9977,27 +10067,9 @@
         "value": -80.0
       },
       {
-        "player": "Jonah Coleman",
-        "pos": "RB",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
         "player": "Dylan Sampson",
         "pos": "RB",
         "owner": "Justin",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Kenyon Sadiq",
-        "pos": "TE",
-        "owner": "Mikey",
         "cost": 1,
         "pts": 0.0,
         "expected": 80,
@@ -10040,60 +10112,6 @@
         "value": -80.0
       },
       {
-        "player": "Terrance Ferguson",
-        "pos": "TE",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Ollie Gordon II",
-        "pos": "RB",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Isaac TeSlaa",
-        "pos": "WR",
-        "owner": "Sweeney",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Carson Wentz",
-        "pos": "QB",
-        "owner": "Justin",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Zachariah Branch",
-        "pos": "WR",
-        "owner": "Mikey",
-        "cost": 1,
-        "pts": 0.0,
-        "expected": 80,
-        "value": -80.0
-      },
-      {
-        "player": "Jaylen Wright",
-        "pos": "RB",
-        "owner": "Matt",
-        "cost": 1,
-        "pts": -0.1,
-        "expected": 80,
-        "value": -80.1
-      },
-      {
         "player": "Tyrone Tracy Jr.",
         "pos": "RB",
         "owner": "Mitch",
@@ -10103,139 +10121,202 @@
         "value": -80.6
       },
       {
-        "player": "Wil Lutz",
-        "pos": "K",
-        "owner": "Connor",
-        "cost": 1,
-        "pts": 4.0,
-        "expected": 85.7,
-        "value": -81.7
-      },
-      {
-        "player": "Harrison Mevis",
-        "pos": "K",
-        "owner": "Mikey",
-        "cost": 1,
-        "pts": 1.0,
-        "expected": 85.7,
-        "value": -84.7
-      },
-      {
         "player": "Ka'imi Fairbairn",
         "pos": "K",
         "owner": "TJ",
         "cost": 2,
-        "pts": 9.0,
-        "expected": 98.0,
-        "value": -89.0
-      },
-      {
-        "player": "Cameron Dicker",
-        "pos": "K",
-        "owner": "Kevin",
-        "cost": 2,
-        "pts": 2.0,
-        "expected": 98.0,
-        "value": -96.0
+        "pts": 16.0,
+        "expected": 97.0,
+        "value": -81.0
       },
       {
         "player": "Brandon Aubrey",
         "pos": "K",
         "owner": "Sweeney",
         "cost": 2,
-        "pts": -1.0,
-        "expected": 98.0,
-        "value": -99.0
+        "pts": 15.0,
+        "expected": 97.0,
+        "value": -82.0
       },
       {
-        "player": "Tucker Kraft",
-        "pos": "TE",
-        "owner": "TJ",
-        "cost": 4,
-        "pts": 8.0,
-        "expected": 112.0,
-        "value": -104.0
+        "player": "Harrison Mevis",
+        "pos": "K",
+        "owner": "Mikey",
+        "cost": 1,
+        "pts": 4.0,
+        "expected": 86.1,
+        "value": -82.1
+      },
+      {
+        "player": "Cameron Dicker",
+        "pos": "K",
+        "owner": "Kevin",
+        "cost": 2,
+        "pts": 4.0,
+        "expected": 97.0,
+        "value": -93.0
       },
       {
         "player": "Sam LaPorta",
         "pos": "TE",
         "owner": "Gallo",
         "cost": 5,
-        "pts": 7.3,
+        "pts": 21.5,
         "expected": 114.6,
-        "value": -107.3
+        "value": -93.1
       },
       {
         "player": "Harold Fannin Jr.",
         "pos": "TE",
         "owner": "Boyle",
         "cost": 4,
-        "pts": 3.1,
+        "pts": 11.0,
         "expected": 112.0,
-        "value": -108.9
+        "value": -101.0
       },
       {
-        "player": "Kyle Pitts Sr.",
+        "player": "Tucker Kraft",
         "pos": "TE",
-        "owner": "Matt",
+        "owner": "TJ",
         "cost": 4,
-        "pts": 0.0,
+        "pts": 10.5,
         "expected": 112.0,
-        "value": -112.0
-      },
-      {
-        "player": "Kyle Monangai",
-        "pos": "RB",
-        "owner": "TK",
-        "cost": 6,
-        "pts": 19.4,
-        "expected": 134.6,
-        "value": -115.2
+        "value": -101.5
       },
       {
         "player": "Christian Watson",
         "pos": "WR",
         "owner": "TJ",
         "cost": 7,
-        "pts": 29.7,
+        "pts": 41.8,
         "expected": 147.2,
-        "value": -117.5
-      },
-      {
-        "player": "Jacory Croskey-Merritt",
-        "pos": "RB",
-        "owner": "Boyle",
-        "cost": 5,
-        "pts": 12.1,
-        "expected": 131.3,
-        "value": -119.2
+        "value": -105.4
       },
       {
         "player": "Tyler Warren",
         "pos": "TE",
         "owner": "Chris",
         "cost": 11,
-        "pts": 8.8,
+        "pts": 20.2,
         "expected": 128.1,
-        "value": -119.3
+        "value": -107.9
+      },
+      {
+        "player": "Kyle Monangai",
+        "pos": "RB",
+        "owner": "TK",
+        "cost": 6,
+        "pts": 26.2,
+        "expected": 134.6,
+        "value": -108.4
       },
       {
         "player": "Rams",
         "pos": "DEF",
         "owner": "Connor",
         "cost": 4,
+        "pts": 15.0,
+        "expected": 124.8,
+        "value": -109.8
+      },
+      {
+        "player": "Kyle Pitts Sr.",
+        "pos": "TE",
+        "owner": "Matt",
+        "cost": 4,
         "pts": 2.0,
-        "expected": 121.4,
-        "value": -119.4
+        "expected": 112.0,
+        "value": -110.0
       },
       {
         "player": "D'Andre Swift",
         "pos": "RB",
         "owner": "TJ",
         "cost": 12,
-        "pts": 31.9,
+        "pts": 42.3,
         "expected": 152.4,
-        "value": -120.5
+        "value": -110.1
+      },
+      {
+        "player": "Davante Adams",
+        "pos": "WR",
+        "owner": "TK",
+        "cost": 9,
+        "pts": 39.6,
+        "expected": 151.3,
+        "value": -111.7
+      },
+      {
+        "player": "Jacory Croskey-Merritt",
+        "pos": "RB",
+        "owner": "Boyle",
+        "cost": 5,
+        "pts": 17.4,
+        "expected": 131.3,
+        "value": -113.9
+      },
+      {
+        "player": "Trey McBride",
+        "pos": "TE",
+        "owner": "Paul",
+        "cost": 23,
+        "pts": 34.1,
+        "expected": 149.7,
+        "value": -115.6
+      },
+      {
+        "player": "Kirk Cousins",
+        "pos": "QB",
+        "owner": "Gallo",
+        "cost": 7,
+        "pts": 37.02,
+        "expected": 154.1,
+        "value": -117.1
+      },
+      {
+        "player": "Chris Olave",
+        "pos": "WR",
+        "owner": "Kevin",
+        "cost": 14,
+        "pts": 41.8,
+        "expected": 160.4,
+        "value": -118.6
+      },
+      {
+        "player": "Stefon Diggs",
+        "pos": "WR",
+        "owner": "Ger",
+        "cost": 9,
+        "pts": 32.7,
+        "expected": 151.3,
+        "value": -118.6
+      },
+      {
+        "player": "Parker Washington",
+        "pos": "WR",
+        "owner": "TJ",
+        "cost": 8,
+        "pts": 30.1,
+        "expected": 149.3,
+        "value": -119.2
+      },
+      {
+        "player": "Texans",
+        "pos": "DEF",
+        "owner": "Kevin",
+        "cost": 4,
+        "pts": 5.0,
+        "expected": 124.8,
+        "value": -119.8
+      },
+      {
+        "player": "Bryce Young",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 18,
+        "pts": 56.52,
+        "expected": 177.1,
+        "value": -120.6
       },
       {
         "player": "RJ Harvey",
@@ -10247,130 +10328,148 @@
         "value": -121.5
       },
       {
-        "player": "Texans",
-        "pos": "DEF",
-        "owner": "Kevin",
-        "cost": 4,
-        "pts": -1.0,
-        "expected": 121.4,
-        "value": -122.4
-      },
-      {
         "player": "Keaton Mitchell",
         "pos": "RB",
         "owner": "Joey",
         "cost": 4,
-        "pts": 0.9,
+        "pts": 5.3,
         "expected": 127.6,
-        "value": -126.7
+        "value": -122.3
       },
       {
         "player": "Alvin Kamara",
         "pos": "RB",
         "owner": "TJ",
         "cost": 4,
-        "pts": 0.0,
+        "pts": 4.7,
         "expected": 127.6,
-        "value": -127.6
-      },
-      {
-        "player": "Jonathon Brooks",
-        "pos": "RB",
-        "owner": "Chris",
-        "cost": 6,
-        "pts": 6.7,
-        "expected": 134.6,
-        "value": -127.9
-      },
-      {
-        "player": "Rhamondre Stevenson",
-        "pos": "RB",
-        "owner": "Mitch",
-        "cost": 8,
-        "pts": 12.0,
-        "expected": 141.0,
-        "value": -129.0
-      },
-      {
-        "player": "Trey McBride",
-        "pos": "TE",
-        "owner": "Paul",
-        "cost": 23,
-        "pts": 20.0,
-        "expected": 149.7,
-        "value": -129.7
+        "value": -122.9
       },
       {
         "player": "Travis Etienne Jr.",
         "pos": "RB",
         "owner": "Connor",
         "cost": 8,
-        "pts": 11.3,
+        "pts": 17.4,
         "expected": 141.0,
-        "value": -129.7
-      },
-      {
-        "player": "David Montgomery",
-        "pos": "RB",
-        "owner": "Deez",
-        "cost": 14,
-        "pts": 27.4,
-        "expected": 157.6,
-        "value": -130.2
+        "value": -123.6
       },
       {
         "player": "Tony Pollard",
         "pos": "RB",
         "owner": "TJ",
         "cost": 6,
-        "pts": 3.9,
+        "pts": 10.9,
         "expected": 134.6,
-        "value": -130.7
+        "value": -123.7
       },
       {
-        "player": "J.K. Dobbins",
-        "pos": "RB",
+        "player": "Josh Downs",
+        "pos": "WR",
         "owner": "Ger",
-        "cost": 6,
-        "pts": 3.6,
-        "expected": 134.6,
-        "value": -131.0
+        "cost": 4,
+        "pts": 15.4,
+        "expected": 140.3,
+        "value": -124.9
+      },
+      {
+        "player": "Rhamondre Stevenson",
+        "pos": "RB",
+        "owner": "Mitch",
+        "cost": 8,
+        "pts": 15.1,
+        "expected": 141.0,
+        "value": -125.9
+      },
+      {
+        "player": "Blake Corum",
+        "pos": "RB",
+        "owner": "Kevin",
+        "cost": 8,
+        "pts": 15.1,
+        "expected": 141.0,
+        "value": -125.9
+      },
+      {
+        "player": "Xavier Worthy",
+        "pos": "WR",
+        "owner": "Ger",
+        "cost": 4,
+        "pts": 14.3,
+        "expected": 140.3,
+        "value": -126.0
       },
       {
         "player": "Rico Dowdle",
         "pos": "RB",
         "owner": "Gallo",
         "cost": 6,
-        "pts": 3.1,
+        "pts": 8.5,
         "expected": 134.6,
-        "value": -131.5
+        "value": -126.1
+      },
+      {
+        "player": "Jonathon Brooks",
+        "pos": "RB",
+        "owner": "Chris",
+        "cost": 6,
+        "pts": 8.3,
+        "expected": 134.6,
+        "value": -126.3
+      },
+      {
+        "player": "David Montgomery",
+        "pos": "RB",
+        "owner": "Deez",
+        "cost": 14,
+        "pts": 30.8,
+        "expected": 157.6,
+        "value": -126.8
+      },
+      {
+        "player": "J.K. Dobbins",
+        "pos": "RB",
+        "owner": "Ger",
+        "cost": 6,
+        "pts": 7.2,
+        "expected": 134.6,
+        "value": -127.4
       },
       {
         "player": "Kenny Gainwell",
         "pos": "RB",
         "owner": "Gallo",
         "cost": 6,
-        "pts": 2.3,
+        "pts": 5.3,
         "expected": 134.6,
-        "value": -132.3
+        "value": -129.3
       },
       {
-        "player": "Parker Washington",
+        "player": "Brian Thomas Jr.",
         "pos": "WR",
-        "owner": "TJ",
-        "cost": 8,
-        "pts": 16.8,
-        "expected": 149.3,
-        "value": -132.5
+        "owner": "Deez",
+        "cost": 5,
+        "pts": 11.0,
+        "expected": 142.7,
+        "value": -131.7
+      },
+      {
+        "player": "Bucky Irving",
+        "pos": "RB",
+        "owner": "Kevin",
+        "cost": 15,
+        "pts": 27.8,
+        "expected": 160.1,
+        "value": -132.3
       },
       {
         "player": "DJ Moore",
         "pos": "WR",
         "owner": "Ger",
         "cost": 9,
-        "pts": 18.5,
+        "pts": 18.4,
         "expected": 151.3,
-        "value": -132.8
+        "value": -132.9
       },
       {
         "player": "Michael Pittman Jr.",
@@ -10382,103 +10481,112 @@
         "value": -133.0
       },
       {
-        "player": "Josh Downs",
-        "pos": "WR",
-        "owner": "Ger",
-        "cost": 4,
-        "pts": 4.7,
-        "expected": 140.3,
-        "value": -135.6
-      },
-      {
-        "player": "Blake Corum",
+        "player": "Jaylen Warren",
         "pos": "RB",
-        "owner": "Kevin",
-        "cost": 8,
-        "pts": 5.4,
-        "expected": 141.0,
-        "value": -135.6
-      },
-      {
-        "player": "Kirk Cousins",
-        "pos": "QB",
-        "owner": "Gallo",
-        "cost": 7,
-        "pts": 15.8,
-        "expected": 151.6,
-        "value": -135.8
-      },
-      {
-        "player": "Xavier Worthy",
-        "pos": "WR",
-        "owner": "Ger",
-        "cost": 4,
-        "pts": 3.3,
-        "expected": 140.3,
-        "value": -137.0
-      },
-      {
-        "player": "Chris Olave",
-        "pos": "WR",
-        "owner": "Kevin",
-        "cost": 14,
-        "pts": 23.2,
-        "expected": 160.4,
-        "value": -137.2
-      },
-      {
-        "player": "Brian Thomas Jr.",
-        "pos": "WR",
         "owner": "Deez",
-        "cost": 5,
-        "pts": 5.5,
-        "expected": 142.7,
-        "value": -137.2
+        "cost": 11,
+        "pts": 16.5,
+        "expected": 149.6,
+        "value": -133.1
       },
       {
-        "player": "Stefon Diggs",
-        "pos": "WR",
-        "owner": "Ger",
-        "cost": 9,
-        "pts": 13.5,
-        "expected": 151.3,
-        "value": -137.8
+        "player": "TreVeyon Henderson",
+        "pos": "RB",
+        "owner": "Gallo",
+        "cost": 10,
+        "pts": 13.6,
+        "expected": 146.8,
+        "value": -133.2
       },
       {
         "player": "DK Metcalf",
         "pos": "WR",
         "owner": "Deez",
         "cost": 6,
-        "pts": 6.0,
+        "pts": 10.7,
         "expected": 145.0,
-        "value": -139.0
+        "value": -134.3
       },
       {
         "player": "Carnell Tate",
         "pos": "WR",
         "owner": "TJ",
         "cost": 6,
-        "pts": 5.8,
+        "pts": 10.0,
         "expected": 145.0,
-        "value": -139.2
+        "value": -135.0
       },
       {
-        "player": "Colston Loveland",
-        "pos": "TE",
-        "owner": "Kevin",
-        "cost": 17,
-        "pts": 0.0,
-        "expected": 139.5,
-        "value": -139.5
+        "player": "Garrett Wilson",
+        "pos": "WR",
+        "owner": "Matt",
+        "cost": 14,
+        "pts": 25.1,
+        "expected": 160.4,
+        "value": -135.3
+      },
+      {
+        "player": "Chris Godwin Jr.",
+        "pos": "WR",
+        "owner": "Paul",
+        "cost": 8,
+        "pts": 13.6,
+        "expected": 149.3,
+        "value": -135.7
+      },
+      {
+        "player": "Jordan Addison",
+        "pos": "WR",
+        "owner": "Chris",
+        "cost": 4,
+        "pts": 3.1,
+        "expected": 140.3,
+        "value": -137.2
+      },
+      {
+        "player": "Rome Odunze",
+        "pos": "WR",
+        "owner": "Ger",
+        "cost": 8,
+        "pts": 12.0,
+        "expected": 149.3,
+        "value": -137.3
+      },
+      {
+        "player": "Luther Burden III",
+        "pos": "WR",
+        "owner": "Chris",
+        "cost": 8,
+        "pts": 11.7,
+        "expected": 149.3,
+        "value": -137.6
       },
       {
         "player": "Quentin Johnston",
         "pos": "WR",
         "owner": "Matt",
         "cost": 5,
-        "pts": 2.7,
+        "pts": 4.6,
         "expected": 142.7,
-        "value": -140.0
+        "value": -138.1
+      },
+      {
+        "player": "Jaylen Waddle",
+        "pos": "WR",
+        "owner": "TJ",
+        "cost": 12,
+        "pts": 18.5,
+        "expected": 156.9,
+        "value": -138.4
+      },
+      {
+        "player": "Colston Loveland",
+        "pos": "TE",
+        "owner": "Kevin",
+        "cost": 17,
+        "pts": 0.8,
+        "expected": 139.5,
+        "value": -138.7
       },
       {
         "player": "De'Zhaun Stribling",
@@ -10490,13 +10598,13 @@
         "value": -140.3
       },
       {
-        "player": "Jordan Addison",
+        "player": "Jameson Williams",
         "pos": "WR",
-        "owner": "Chris",
-        "cost": 4,
-        "pts": 0.0,
-        "expected": 140.3,
-        "value": -140.3
+        "owner": "Gallo",
+        "cost": 9,
+        "pts": 10.8,
+        "expected": 151.3,
+        "value": -140.5
       },
       {
         "player": "Marvin Harrison Jr.",
@@ -10508,22 +10616,22 @@
         "value": -141.2
       },
       {
-        "player": "Jaylen Warren",
-        "pos": "RB",
-        "owner": "Deez",
-        "cost": 11,
-        "pts": 7.8,
-        "expected": 149.6,
-        "value": -141.8
+        "player": "Mike Evans",
+        "pos": "WR",
+        "owner": "Justin",
+        "cost": 15,
+        "pts": 20.8,
+        "expected": 162.1,
+        "value": -141.3
       },
       {
-        "player": "Luther Burden III",
+        "player": "Tetairoa McMillan",
         "pos": "WR",
-        "owner": "Chris",
-        "cost": 8,
-        "pts": 7.0,
-        "expected": 149.3,
-        "value": -142.3
+        "owner": "Kevin",
+        "cost": 15,
+        "pts": 20.6,
+        "expected": 162.1,
+        "value": -141.5
       },
       {
         "player": "Jordyn Tyson",
@@ -10535,94 +10643,112 @@
         "value": -142.7
       },
       {
-        "player": "Chris Godwin Jr.",
-        "pos": "WR",
-        "owner": "Paul",
-        "cost": 8,
-        "pts": 6.3,
-        "expected": 149.3,
-        "value": -143.0
-      },
-      {
-        "player": "Bryce Young",
+        "player": "Deshaun Watson",
         "pos": "QB",
-        "owner": "Matt",
+        "owner": "Gallo",
+        "cost": 19,
+        "pts": 34.72,
+        "expected": 178.9,
+        "value": -144.2
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "owner": "Connor",
+        "cost": 41,
+        "pts": 54.4,
+        "expected": 199.1,
+        "value": -144.7
+      },
+      {
+        "player": "Bhayshul Tuten",
+        "pos": "RB",
+        "owner": "Boyle",
         "cost": 18,
-        "pts": 32.44,
-        "expected": 175.4,
-        "value": -143.0
+        "pts": 22.5,
+        "expected": 167.5,
+        "value": -145.0
       },
       {
-        "player": "Rome Odunze",
+        "player": "Jaxon Smith-Njigba",
         "pos": "WR",
-        "owner": "Ger",
-        "cost": 8,
-        "pts": 6.2,
-        "expected": 149.3,
-        "value": -143.1
+        "owner": "Mikey",
+        "cost": 46,
+        "pts": 60.2,
+        "expected": 205.3,
+        "value": -145.1
       },
       {
-        "player": "Bucky Irving",
+        "player": "Jadarian Price",
         "pos": "RB",
-        "owner": "Kevin",
-        "cost": 15,
-        "pts": 16.8,
-        "expected": 160.1,
-        "value": -143.3
+        "owner": "Chris",
+        "cost": 14,
+        "pts": 11.3,
+        "expected": 157.6,
+        "value": -146.3
       },
       {
-        "player": "Jameson Williams",
+        "player": "Kenneth Walker III",
+        "pos": "RB",
+        "owner": "Paul",
+        "cost": 33,
+        "pts": 53.4,
+        "expected": 199.8,
+        "value": -146.4
+      },
+      {
+        "player": "Terry McLaurin",
+        "pos": "WR",
+        "owner": "Joey",
+        "cost": 11,
+        "pts": 8.4,
+        "expected": 155.1,
+        "value": -146.7
+      },
+      {
+        "player": "DeVonta Smith",
         "pos": "WR",
         "owner": "Gallo",
-        "cost": 9,
-        "pts": 6.5,
-        "expected": 151.3,
-        "value": -144.8
-      },
-      {
-        "player": "TreVeyon Henderson",
-        "pos": "RB",
-        "owner": "Gallo",
-        "cost": 10,
-        "pts": 0.0,
-        "expected": 146.8,
+        "cost": 24,
+        "pts": 29.5,
+        "expected": 176.3,
         "value": -146.8
-      },
-      {
-        "player": "Davante Adams",
-        "pos": "WR",
-        "owner": "TK",
-        "cost": 9,
-        "pts": 4.1,
-        "expected": 151.3,
-        "value": -147.2
-      },
-      {
-        "player": "Mike Evans",
-        "pos": "WR",
-        "owner": "Justin",
-        "cost": 15,
-        "pts": 13.9,
-        "expected": 162.1,
-        "value": -148.2
       },
       {
         "player": "Jameis Winston",
         "pos": "QB",
         "owner": "Kevin",
         "cost": 6,
-        "pts": 0.0,
-        "expected": 149.0,
-        "value": -149.0
+        "pts": 3.54,
+        "expected": 151.6,
+        "value": -148.1
       },
       {
-        "player": "Garrett Wilson",
+        "player": "Ladd McConkey",
         "pos": "WR",
-        "owner": "Matt",
-        "cost": 14,
-        "pts": 10.9,
-        "expected": 160.4,
-        "value": -149.5
+        "owner": "Kevin",
+        "cost": 20,
+        "pts": 21.7,
+        "expected": 170.2,
+        "value": -148.5
+      },
+      {
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "owner": "Chris",
+        "cost": 22,
+        "pts": 28.2,
+        "expected": 176.7,
+        "value": -148.5
+      },
+      {
+        "player": "Derrick Henry",
+        "pos": "RB",
+        "owner": "TJ",
+        "cost": 33,
+        "pts": 51.0,
+        "expected": 199.8,
+        "value": -148.8
       },
       {
         "player": "Zay Flowers",
@@ -10634,22 +10760,49 @@
         "value": -149.8
       },
       {
-        "player": "Jadarian Price",
+        "player": "Cam Skattebo",
         "pos": "RB",
         "owner": "Chris",
-        "cost": 14,
-        "pts": 6.8,
-        "expected": 157.6,
-        "value": -150.8
+        "cost": 20,
+        "pts": 21.6,
+        "expected": 172.1,
+        "value": -150.5
       },
       {
-        "player": "Terry McLaurin",
+        "player": "Breece Hall",
+        "pos": "RB",
+        "owner": "Ger",
+        "cost": 24,
+        "pts": 30.5,
+        "expected": 181.1,
+        "value": -150.6
+      },
+      {
+        "player": "Rashee Rice",
         "pos": "WR",
-        "owner": "Joey",
-        "cost": 11,
-        "pts": 2.4,
-        "expected": 155.1,
-        "value": -152.7
+        "owner": "Kevin",
+        "cost": 20,
+        "pts": 19.2,
+        "expected": 170.2,
+        "value": -151.0
+      },
+      {
+        "player": "Kyren Williams",
+        "pos": "RB",
+        "owner": "Mikey",
+        "cost": 24,
+        "pts": 28.7,
+        "expected": 181.1,
+        "value": -152.4
+      },
+      {
+        "player": "Tee Higgins",
+        "pos": "WR",
+        "owner": "Gallo",
+        "cost": 21,
+        "pts": 19.4,
+        "expected": 171.8,
+        "value": -152.4
       },
       {
         "player": "Brock Bowers",
@@ -10661,13 +10814,40 @@
         "value": -152.9
       },
       {
-        "player": "Ladd McConkey",
+        "player": "Emeka Egbuka",
         "pos": "WR",
+        "owner": "Sweeney",
+        "cost": 21,
+        "pts": 17.6,
+        "expected": 171.8,
+        "value": -154.2
+      },
+      {
+        "player": "Quinshon Judkins",
+        "pos": "RB",
         "owner": "Kevin",
+        "cost": 18,
+        "pts": 13.3,
+        "expected": 167.5,
+        "value": -154.2
+      },
+      {
+        "player": "Geno Smith",
+        "pos": "QB",
+        "owner": "Ger",
         "cost": 20,
-        "pts": 16.7,
-        "expected": 170.2,
-        "value": -153.5
+        "pts": 24.88,
+        "expected": 180.7,
+        "value": -155.9
+      },
+      {
+        "player": "CeeDee Lamb",
+        "pos": "WR",
+        "owner": "TK",
+        "cost": 42,
+        "pts": 44.2,
+        "expected": 200.4,
+        "value": -156.2
       },
       {
         "player": "Michael Penix Jr.",
@@ -10675,8 +10855,8 @@
         "owner": "Deez",
         "cost": 8,
         "pts": 0.0,
-        "expected": 154.1,
-        "value": -154.1
+        "expected": 156.5,
+        "value": -156.5
       },
       {
         "player": "Carson Beck",
@@ -10684,53 +10864,53 @@
         "owner": "Kevin",
         "cost": 8,
         "pts": 0.0,
-        "expected": 154.1,
-        "value": -154.1
+        "expected": 156.5,
+        "value": -156.5
       },
       {
-        "player": "Tetairoa McMillan",
-        "pos": "WR",
+        "player": "Jacoby Brissett",
+        "pos": "QB",
         "owner": "Kevin",
-        "cost": 15,
-        "pts": 8.0,
-        "expected": 162.1,
-        "value": -154.1
+        "cost": 21,
+        "pts": 23.98,
+        "expected": 182.5,
+        "value": -158.5
       },
       {
-        "player": "Javonte Williams",
-        "pos": "RB",
-        "owner": "Chris",
-        "cost": 22,
-        "pts": 21.7,
-        "expected": 176.7,
-        "value": -155.0
-      },
-      {
-        "player": "Jaylen Waddle",
+        "player": "Malik Nabers",
         "pos": "WR",
-        "owner": "TJ",
-        "cost": 12,
-        "pts": 0.7,
-        "expected": 156.9,
-        "value": -156.2
+        "owner": "Mikey",
+        "cost": 21,
+        "pts": 10.5,
+        "expected": 171.8,
+        "value": -161.3
       },
       {
-        "player": "Cam Skattebo",
-        "pos": "RB",
-        "owner": "Chris",
-        "cost": 20,
-        "pts": 14.1,
-        "expected": 172.1,
-        "value": -158.0
+        "player": "Aaron Rodgers",
+        "pos": "QB",
+        "owner": "Paul",
+        "cost": 19,
+        "pts": 17.52,
+        "expected": 178.9,
+        "value": -161.4
       },
       {
-        "player": "Bhayshul Tuten",
+        "player": "Ashton Jeanty",
         "pos": "RB",
-        "owner": "Boyle",
-        "cost": 18,
-        "pts": 9.3,
-        "expected": 167.5,
-        "value": -158.2
+        "owner": "Justin",
+        "cost": 33,
+        "pts": 38.0,
+        "expected": 199.8,
+        "value": -161.8
+      },
+      {
+        "player": "Justin Jefferson",
+        "pos": "WR",
+        "owner": "TK",
+        "cost": 39,
+        "pts": 34.2,
+        "expected": 196.6,
+        "value": -162.4
       },
       {
         "player": "Shedeur Sanders",
@@ -10738,116 +10918,17 @@
         "owner": "Chris",
         "cost": 11,
         "pts": 0.0,
-        "expected": 161.1,
-        "value": -161.1
+        "expected": 163.3,
+        "value": -163.3
       },
       {
-        "player": "Rashee Rice",
-        "pos": "WR",
-        "owner": "Kevin",
-        "cost": 20,
-        "pts": 8.9,
-        "expected": 170.2,
-        "value": -161.3
-      },
-      {
-        "player": "Quinshon Judkins",
-        "pos": "RB",
-        "owner": "Kevin",
-        "cost": 18,
-        "pts": 6.0,
-        "expected": 167.5,
-        "value": -161.5
-      },
-      {
-        "player": "Malik Nabers",
-        "pos": "WR",
-        "owner": "Mikey",
-        "cost": 21,
-        "pts": 9.9,
-        "expected": 171.8,
-        "value": -161.9
-      },
-      {
-        "player": "Breece Hall",
-        "pos": "RB",
-        "owner": "Ger",
-        "cost": 24,
-        "pts": 18.8,
-        "expected": 181.1,
-        "value": -162.3
-      },
-      {
-        "player": "Deshaun Watson",
+        "player": "C.J. Stroud",
         "pos": "QB",
-        "owner": "Gallo",
-        "cost": 19,
-        "pts": 15.0,
-        "expected": 177.3,
-        "value": -162.3
-      },
-      {
-        "player": "Emeka Egbuka",
-        "pos": "WR",
-        "owner": "Sweeney",
-        "cost": 21,
-        "pts": 8.8,
-        "expected": 171.8,
-        "value": -163.0
-      },
-      {
-        "player": "Tee Higgins",
-        "pos": "WR",
-        "owner": "Gallo",
-        "cost": 21,
-        "pts": 7.4,
-        "expected": 171.8,
-        "value": -164.4
-      },
-      {
-        "player": "Jacoby Brissett",
-        "pos": "QB",
-        "owner": "Kevin",
-        "cost": 21,
-        "pts": 16.48,
-        "expected": 181.0,
-        "value": -164.5
-      },
-      {
-        "player": "Aaron Rodgers",
-        "pos": "QB",
-        "owner": "Paul",
-        "cost": 19,
-        "pts": 12.54,
-        "expected": 177.3,
-        "value": -164.8
-      },
-      {
-        "player": "Derrick Henry",
-        "pos": "RB",
-        "owner": "TJ",
-        "cost": 33,
-        "pts": 34.8,
-        "expected": 199.8,
-        "value": -165.0
-      },
-      {
-        "player": "Kyren Williams",
-        "pos": "RB",
-        "owner": "Mikey",
-        "cost": 24,
-        "pts": 14.0,
-        "expected": 181.1,
-        "value": -167.1
-      },
-      {
-        "player": "Kenneth Walker",
-        "pos": "RB",
-        "owner": "Paul",
-        "cost": 33,
-        "pts": 32.6,
-        "expected": 199.8,
-        "value": -167.2
+        "owner": "Joey",
+        "cost": 30,
+        "pts": 33.48,
+        "expected": 197.5,
+        "value": -164.0
       },
       {
         "player": "Nico Collins",
@@ -10859,40 +10940,76 @@
         "value": -168.4
       },
       {
-        "player": "Justin Jefferson",
-        "pos": "WR",
-        "owner": "TK",
-        "cost": 39,
-        "pts": 27.2,
-        "expected": 196.6,
+        "player": "Jordan Love",
+        "pos": "QB",
+        "owner": "Matt",
+        "cost": 34,
+        "pts": 34.28,
+        "expected": 203.7,
         "value": -169.4
       },
       {
-        "player": "DeVonta Smith",
-        "pos": "WR",
-        "owner": "Gallo",
-        "cost": 24,
-        "pts": 6.8,
-        "expected": 176.3,
-        "value": -169.5
+        "player": "Josh Allen",
+        "pos": "QB",
+        "owner": "TK",
+        "cost": 65,
+        "pts": 76.48,
+        "expected": 246.2,
+        "value": -169.8
       },
       {
-        "player": "Geno Smith",
-        "pos": "QB",
-        "owner": "Ger",
-        "cost": 20,
-        "pts": 9.3,
-        "expected": 179.2,
+        "player": "Jonathan Taylor",
+        "pos": "RB",
+        "owner": "Paul",
+        "cost": 44,
+        "pts": 50.8,
+        "expected": 220.7,
         "value": -169.9
       },
       {
-        "player": "Ashton Jeanty",
+        "player": "George Pickens",
+        "pos": "WR",
+        "owner": "Matt",
+        "cost": 28,
+        "pts": 11.3,
+        "expected": 182.0,
+        "value": -170.7
+      },
+      {
+        "player": "Chase Brown",
         "pos": "RB",
-        "owner": "Justin",
-        "cost": 33,
-        "pts": 29.7,
-        "expected": 199.8,
-        "value": -170.1
+        "owner": "Mitch",
+        "cost": 32,
+        "pts": 26.0,
+        "expected": 197.8,
+        "value": -171.8
+      },
+      {
+        "player": "Drake London",
+        "pos": "WR",
+        "owner": "Kevin",
+        "cost": 30,
+        "pts": 11.4,
+        "expected": 184.8,
+        "value": -173.4
+      },
+      {
+        "player": "Brock Purdy",
+        "pos": "QB",
+        "owner": "Mikey",
+        "cost": 48,
+        "pts": 50.58,
+        "expected": 223.9,
+        "value": -173.4
+      },
+      {
+        "player": "Malik Willis",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 34,
+        "pts": 30.18,
+        "expected": 203.7,
+        "value": -173.5
       },
       {
         "player": "A.J. Brown",
@@ -10901,6 +11018,15 @@
         "cost": 25,
         "pts": 4.1,
         "expected": 177.7,
+        "value": -173.6
+      },
+      {
+        "player": "Tyler Shough",
+        "pos": "QB",
+        "owner": "Boyle",
+        "cost": 46,
+        "pts": 47.58,
+        "expected": 221.2,
         "value": -173.6
       },
       {
@@ -10913,22 +11039,58 @@
         "value": -174.4
       },
       {
-        "player": "Amon-Ra St. Brown",
-        "pos": "WR",
+        "player": "Omarion Hampton",
+        "pos": "RB",
         "owner": "Connor",
-        "cost": 41,
-        "pts": 23.7,
-        "expected": 199.1,
-        "value": -175.4
+        "cost": 33,
+        "pts": 24.8,
+        "expected": 199.8,
+        "value": -175.0
       },
       {
-        "player": "George Pickens",
-        "pos": "WR",
-        "owner": "Matt",
-        "cost": 28,
-        "pts": 4.3,
-        "expected": 182.0,
-        "value": -177.7
+        "player": "Cam Ward",
+        "pos": "QB",
+        "owner": "Connor",
+        "cost": 36,
+        "pts": 31.72,
+        "expected": 206.7,
+        "value": -175.0
+      },
+      {
+        "player": "Daniel Jones",
+        "pos": "QB",
+        "owner": "Chris",
+        "cost": 30,
+        "pts": 22.44,
+        "expected": 197.5,
+        "value": -175.1
+      },
+      {
+        "player": "Jared Goff",
+        "pos": "QB",
+        "owner": "Connor",
+        "cost": 47,
+        "pts": 46.22,
+        "expected": 222.6,
+        "value": -176.3
+      },
+      {
+        "player": "Patrick Mahomes",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 51,
+        "pts": 51.64,
+        "expected": 228.0,
+        "value": -176.4
+      },
+      {
+        "player": "Baker Mayfield",
+        "pos": "QB",
+        "owner": "TJ",
+        "cost": 35,
+        "pts": 24.82,
+        "expected": 205.2,
+        "value": -180.4
       },
       {
         "player": "Tua Tagovailoa",
@@ -10936,8 +11098,8 @@
         "owner": "TK",
         "cost": 20,
         "pts": 0.0,
-        "expected": 179.2,
-        "value": -179.2
+        "expected": 180.7,
+        "value": -180.7
       },
       {
         "player": "Fernando Mendoza",
@@ -10945,80 +11107,62 @@
         "owner": "Sweeney",
         "cost": 20,
         "pts": 0.0,
-        "expected": 179.2,
-        "value": -179.2
+        "expected": 180.7,
+        "value": -180.7
       },
       {
-        "player": "C.J. Stroud",
+        "player": "Dak Prescott",
         "pos": "QB",
-        "owner": "Joey",
-        "cost": 30,
-        "pts": 16.46,
-        "expected": 196.5,
-        "value": -180.1
+        "owner": "Sweeney",
+        "cost": 52,
+        "pts": 45.16,
+        "expected": 229.4,
+        "value": -184.2
       },
       {
-        "player": "Drake London",
+        "player": "Ja'Marr Chase",
         "pos": "WR",
-        "owner": "Kevin",
-        "cost": 30,
-        "pts": 4.5,
-        "expected": 184.8,
-        "value": -180.3
+        "owner": "Sweeney",
+        "cost": 51,
+        "pts": 25.2,
+        "expected": 211.2,
+        "value": -186.0
       },
       {
-        "player": "Chase Brown",
+        "player": "Jahmyr Gibbs",
         "pos": "RB",
-        "owner": "Mitch",
-        "cost": 32,
-        "pts": 16.3,
-        "expected": 197.8,
-        "value": -181.5
+        "owner": "Boyle",
+        "cost": 54,
+        "pts": 51.4,
+        "expected": 238.3,
+        "value": -186.9
       },
       {
-        "player": "Jordan Love",
+        "player": "Christian McCaffrey",
+        "pos": "RB",
+        "owner": "Sweeney",
+        "cost": 44,
+        "pts": 31.9,
+        "expected": 220.7,
+        "value": -188.8
+      },
+      {
+        "player": "James Cook III",
+        "pos": "RB",
+        "owner": "Ger",
+        "cost": 43,
+        "pts": 28.8,
+        "expected": 218.8,
+        "value": -190.0
+      },
+      {
+        "player": "Caleb Williams",
         "pos": "QB",
-        "owner": "Matt",
-        "cost": 34,
-        "pts": 20.48,
-        "expected": 203.0,
-        "value": -182.5
-      },
-      {
-        "player": "Jaxon Smith-Njigba",
-        "pos": "WR",
-        "owner": "Mikey",
-        "cost": 46,
-        "pts": 22.2,
-        "expected": 205.3,
-        "value": -183.1
-      },
-      {
-        "player": "Malik Willis",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 34,
-        "pts": 17.7,
-        "expected": 203.0,
-        "value": -185.3
-      },
-      {
-        "player": "Daniel Jones",
-        "pos": "QB",
-        "owner": "Chris",
-        "cost": 30,
-        "pts": 10.04,
-        "expected": 196.5,
-        "value": -186.5
-      },
-      {
-        "player": "CeeDee Lamb",
-        "pos": "WR",
-        "owner": "TK",
-        "cost": 42,
-        "pts": 12.9,
-        "expected": 200.4,
-        "value": -187.5
+        "owner": "Ger",
+        "cost": 57,
+        "pts": 45.98,
+        "expected": 236.0,
+        "value": -190.0
       },
       {
         "player": "Puka Nacua",
@@ -11030,57 +11174,66 @@
         "value": -190.5
       },
       {
-        "player": "Omarion Hampton",
-        "pos": "RB",
-        "owner": "Connor",
-        "cost": 33,
-        "pts": 8.3,
-        "expected": 199.8,
-        "value": -191.5
+        "player": "Matthew Stafford",
+        "pos": "QB",
+        "owner": "Justin",
+        "cost": 49,
+        "pts": 33.08,
+        "expected": 225.3,
+        "value": -192.2
       },
       {
-        "player": "Baker Mayfield",
+        "player": "De'Von Achane",
+        "pos": "RB",
+        "owner": "Matt",
+        "cost": 40,
+        "pts": 19.4,
+        "expected": 213.3,
+        "value": -193.9
+      },
+      {
+        "player": "Trevor Lawrence",
+        "pos": "QB",
+        "owner": "Deez",
+        "cost": 51,
+        "pts": 33.26,
+        "expected": 228.0,
+        "value": -194.8
+      },
+      {
+        "player": "Jalen Hurts",
         "pos": "QB",
         "owner": "TJ",
-        "cost": 35,
-        "pts": 11.64,
-        "expected": 204.6,
-        "value": -192.9
+        "cost": 60,
+        "pts": 42.88,
+        "expected": 239.9,
+        "value": -197.0
       },
       {
-        "player": "Cam Ward",
-        "pos": "QB",
-        "owner": "Connor",
-        "cost": 36,
-        "pts": 11.7,
-        "expected": 206.1,
-        "value": -194.4
-      },
-      {
-        "player": "Tyler Shough",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 46,
-        "pts": 25.2,
-        "expected": 221.1,
-        "value": -195.9
-      },
-      {
-        "player": "Jonathan Taylor",
+        "player": "Bijan Robinson",
         "pos": "RB",
-        "owner": "Paul",
-        "cost": 44,
-        "pts": 23.6,
-        "expected": 220.7,
-        "value": -197.1
+        "owner": "Justin",
+        "cost": 52,
+        "pts": 36.9,
+        "expected": 234.8,
+        "value": -197.9
       },
       {
-        "player": "Caleb Williams",
+        "player": "Jeremiyah Love",
+        "pos": "RB",
+        "owner": "Joey",
+        "cost": 42,
+        "pts": 18.0,
+        "expected": 217.0,
+        "value": -199.0
+      },
+      {
+        "player": "Lamar Jackson",
         "pos": "QB",
-        "owner": "Ger",
-        "cost": 57,
-        "pts": 37.26,
-        "expected": 236.4,
+        "owner": "Mitch",
+        "cost": 60,
+        "pts": 40.76,
+        "expected": 239.9,
         "value": -199.1
       },
       {
@@ -11088,72 +11241,45 @@
         "pos": "QB",
         "owner": "Mikey",
         "cost": 50,
-        "pts": 26.6,
-        "expected": 226.8,
-        "value": -200.2
-      },
-      {
-        "player": "Brock Purdy",
-        "pos": "QB",
-        "owner": "Mikey",
-        "cost": 48,
-        "pts": 22.1,
-        "expected": 223.9,
-        "value": -201.8
-      },
-      {
-        "player": "Trevor Lawrence",
-        "pos": "QB",
-        "owner": "Deez",
-        "cost": 51,
-        "pts": 26.1,
-        "expected": 228.2,
-        "value": -202.1
-      },
-      {
-        "player": "De'Von Achane",
-        "pos": "RB",
-        "owner": "Matt",
-        "cost": 40,
-        "pts": 8.6,
-        "expected": 213.3,
-        "value": -204.7
+        "pts": 27.4,
+        "expected": 226.7,
+        "value": -199.3
       },
       {
         "player": "Saquon Barkley",
         "pos": "RB",
         "owner": "Gallo",
         "cost": 40,
-        "pts": 8.5,
+        "pts": 11.0,
         "expected": 213.3,
-        "value": -204.8
+        "value": -202.3
       },
       {
-        "player": "Jeremiyah Love",
-        "pos": "RB",
+        "player": "Bo Nix",
+        "pos": "QB",
+        "owner": "Gallo",
+        "cost": 48,
+        "pts": 21.56,
+        "expected": 223.9,
+        "value": -202.4
+      },
+      {
+        "player": "Jayden Daniels",
+        "pos": "QB",
         "owner": "Joey",
-        "cost": 42,
-        "pts": 12.0,
-        "expected": 217.0,
-        "value": -205.0
+        "cost": 57,
+        "pts": 32.4,
+        "expected": 236.0,
+        "value": -203.6
       },
       {
-        "player": "Patrick Mahomes",
+        "player": "Joe Burrow",
         "pos": "QB",
-        "owner": "Deez",
-        "cost": 51,
-        "pts": 22.66,
-        "expected": 228.2,
-        "value": -205.5
-      },
-      {
-        "player": "Jared Goff",
-        "pos": "QB",
-        "owner": "Connor",
-        "cost": 47,
-        "pts": 16.44,
-        "expected": 222.5,
-        "value": -206.1
+        "owner": "Paul",
+        "cost": 58,
+        "pts": 30.34,
+        "expected": 237.3,
+        "value": -207.0
       },
       {
         "player": "Kyler Murray",
@@ -11161,44 +11287,17 @@
         "owner": "Matt",
         "cost": 37,
         "pts": 0.62,
-        "expected": 207.7,
-        "value": -207.0
+        "expected": 208.2,
+        "value": -207.6
       },
       {
-        "player": "Jahmyr Gibbs",
-        "pos": "RB",
+        "player": "Justin Herbert",
+        "pos": "QB",
         "owner": "Boyle",
         "cost": 54,
-        "pts": 31.1,
-        "expected": 238.3,
-        "value": -207.2
-      },
-      {
-        "player": "Bijan Robinson",
-        "pos": "RB",
-        "owner": "Justin",
-        "cost": 52,
-        "pts": 27.3,
-        "expected": 234.8,
-        "value": -207.5
-      },
-      {
-        "player": "Ja'Marr Chase",
-        "pos": "WR",
-        "owner": "Sweeney",
-        "cost": 51,
-        "pts": 2.2,
-        "expected": 211.2,
-        "value": -209.0
-      },
-      {
-        "player": "Christian McCaffrey",
-        "pos": "RB",
-        "owner": "Sweeney",
-        "cost": 44,
-        "pts": 11.3,
-        "expected": 220.7,
-        "value": -209.4
+        "pts": 24.14,
+        "expected": 232.0,
+        "value": -207.9
       },
       {
         "player": "Sam Darnold",
@@ -11206,107 +11305,17 @@
         "owner": "Justin",
         "cost": 39,
         "pts": 0.52,
-        "expected": 210.7,
-        "value": -210.2
-      },
-      {
-        "player": "James Cook III",
-        "pos": "RB",
-        "owner": "Ger",
-        "cost": 43,
-        "pts": 8.4,
-        "expected": 218.8,
-        "value": -210.4
-      },
-      {
-        "player": "Josh Allen",
-        "pos": "QB",
-        "owner": "TK",
-        "cost": 65,
-        "pts": 35.66,
-        "expected": 247.0,
-        "value": -211.4
-      },
-      {
-        "player": "Dak Prescott",
-        "pos": "QB",
-        "owner": "Sweeney",
-        "cost": 52,
-        "pts": 15.4,
-        "expected": 229.6,
-        "value": -214.2
-      },
-      {
-        "player": "Lamar Jackson",
-        "pos": "QB",
-        "owner": "Mitch",
-        "cost": 60,
-        "pts": 24.96,
-        "expected": 240.4,
-        "value": -215.5
-      },
-      {
-        "player": "Jalen Hurts",
-        "pos": "QB",
-        "owner": "TJ",
-        "cost": 60,
-        "pts": 24.72,
-        "expected": 240.4,
-        "value": -215.7
-      },
-      {
-        "player": "Bo Nix",
-        "pos": "QB",
-        "owner": "Gallo",
-        "cost": 48,
-        "pts": 6.44,
-        "expected": 223.9,
-        "value": -217.5
-      },
-      {
-        "player": "Justin Herbert",
-        "pos": "QB",
-        "owner": "Boyle",
-        "cost": 54,
-        "pts": 14.26,
-        "expected": 232.3,
-        "value": -218.1
-      },
-      {
-        "player": "Jayden Daniels",
-        "pos": "QB",
-        "owner": "Joey",
-        "cost": 57,
-        "pts": 17.66,
-        "expected": 236.4,
-        "value": -218.7
-      },
-      {
-        "player": "Matthew Stafford",
-        "pos": "QB",
-        "owner": "Justin",
-        "cost": 49,
-        "pts": 5.1,
-        "expected": 225.3,
-        "value": -220.2
+        "expected": 211.2,
+        "value": -210.7
       },
       {
         "player": "Drake Maye",
         "pos": "QB",
         "owner": "Mitch",
         "cost": 55,
-        "pts": 12.82,
-        "expected": 233.7,
-        "value": -220.9
-      },
-      {
-        "player": "Joe Burrow",
-        "pos": "QB",
-        "owner": "Paul",
-        "cost": 58,
-        "pts": 14.16,
-        "expected": 237.8,
-        "value": -223.6
+        "pts": 21.84,
+        "expected": 233.4,
+        "value": -211.5
       }
     ],
     "owners": [
@@ -11329,8 +11338,8 @@
     ],
     "models": {
       "QB": {
-        "a": 6.5,
-        "b": 126.26
+        "a": 6.28,
+        "b": 129.65
       },
       "RB": {
         "a": 8.09,
@@ -11341,16 +11350,16 @@
         "b": 125.93
       },
       "K": {
-        "a": 19.61,
-        "b": 66.13
+        "a": 17.5,
+        "b": 68.57
       },
       "TE": {
         "a": 5.95,
         "b": 96.29
       },
       "DEF": {
-        "a": 24.94,
-        "b": 55.57
+        "a": 26.5,
+        "b": 54.87
       }
     }
   }
