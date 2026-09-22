@@ -242,6 +242,30 @@ YAHOO_TEAM_OWNERS = {
 }
 
 
+# Team keys never change when a team is renamed, so they are checked before the
+# name maps above. Filled in from the first live 2026 pull; a mid-season rename
+# then needs no mapping edit.
+TEAM_KEY_OWNERS = {
+    "2026": {
+        "470.l.165433.t.1": "TJ",
+        "470.l.165433.t.2": "Boyle",
+        "470.l.165433.t.3": "TK",
+        "470.l.165433.t.4": "Mitch",
+        "470.l.165433.t.5": "Gallo",
+        "470.l.165433.t.6": "Joey",
+        "470.l.165433.t.7": "Matt",
+        "470.l.165433.t.8": "Mikey",
+        "470.l.165433.t.9": "Ger",
+        "470.l.165433.t.10": "Connor",
+        "470.l.165433.t.11": "Chris",
+        "470.l.165433.t.12": "Justin",
+        "470.l.165433.t.13": "Sweeney",
+        "470.l.165433.t.14": "Deez",
+        "470.l.165433.t.15": "Paul",
+        "470.l.165433.t.16": "Kevin",
+    },
+}
+
 def owner_from_yahoo_team(season, team_name):
     """Owner for a Yahoo team name in a season, or None if unmapped."""
     return YAHOO_TEAM_OWNERS.get(str(season), {}).get(team_name)

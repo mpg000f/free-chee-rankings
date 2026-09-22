@@ -27,7 +27,7 @@
         { owner: s.owner, n: 0, value: 0, perWeek: 0, wins: 0 };
       row.n += 1;
       row.value += s.net;
-      row.perWeek += s.net / t.weeks_remaining;
+      row.perWeek += s.net / (t.weeks_graded || t.weeks_remaining);
       if (s.net > 0.01) row.wins += 1;
       rows.set(s.owner, row);
     }));
@@ -90,6 +90,8 @@
           <span class="trade-week">${t.preseason ? 'Preseason' : `Week ${t.week}`}</span>
           <span class="trade-window">${t.weeks_remaining} wk${
             t.weeks_remaining === 1 ? '' : 's'} left</span>
+          ${t.weeks_graded && t.weeks_graded < t.weeks_remaining
+            ? `<span class="trade-tag" title="Grade covers the weeks played so far and will move as the season goes on">Early read &middot; ${t.weeks_graded} wk${t.weeks_graded === 1 ? '' : 's'} played</span>` : ''}
           ${t.teams > 2 ? `<span class="trade-tag">${t.teams}-team</span>` : ''}
           ${TxnControls.isAllTime() ? `<span class="season-badge">${t.season}</span>` : ''}
         </div>

@@ -43,7 +43,7 @@ import os
 from collections import defaultdict
 from datetime import datetime, timezone
 
-from owner_mapping import YAHOO_TEAM_OWNERS
+from owner_mapping import YAHOO_TEAM_OWNERS, TEAM_KEY_OWNERS
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SEASONS = ["2022", "2023", "2024", "2025", "2026"]
@@ -123,13 +123,18 @@ def build_season_index(season):
     """Weekly roster state, per-player weekly points, and draft origin."""
     rosters = load(season, "rosters.json") or []
     managers = load(season, "managers.json") or {}
+
+    # Mid-season the current week's snapshot is a roster with no games yet;
+    # counting it would charge every player a week of replacement for nothing.
+    last_week = last_played_week(season)
+    rosters = [r for r in rosters if r["week"] <= last_week]
     name_to_owner = YAHOO_TEAM_OWNERS.get(season, {})
 
-    owner_of = {}
+    owner_of = dict(TEAM_KEY_OWNERS.get(season, {}))
     for team_key, info in managers.items():
         owner = name_to_owner.get(info.get("team_name", ""))
         if owner:
-            owner_of[team_key] = owner
+            owner_of.setdefault(team_key, owner)
 
     holder = defaultdict(dict)   # week -> player_key -> team_key
     points = {}                  # (week, player_key) -> points
@@ -159,8 +164,34 @@ def build_season_index(season):
         "key_of": key_of,
         "drafted_by": drafted_by,
         "owner_of": owner_of,
-        "baseline": replacement_rates(rosters),
+        "baseline": season_baseline(season, rosters),
+        "last_week": last_week,
     }
+
+
+def last_played_week(season):
+    """Last week with a finished game. Older pulls carry no status; use scores."""
+    last = 0
+    for m in load(season, "matchups.json") or []:
+        done = (m["status"] == "postevent" if m.get("status")
+                else bool(m["team_1_points"] or m["team_2_points"]))
+        if done:
+            last = max(last, m["week"])
+    return min(last, FINAL_WEEK) or FINAL_WEEK
+
+
+def season_baseline(season, rosters):
+    """Replacement rates, borrowing last season's for positions not yet settled.
+
+    Nobody has REPLACEMENT_MIN_WEEKS of games until mid-October, so an early
+    season has no baseline of its own and would grade trades on raw points.
+    """
+    rates = replacement_rates(rosters)
+    prev = str(int(season) - 1)
+    if prev in SEASONS and len(rates) < len(STARTER_SLOTS):
+        for pos, rate in replacement_rates(load(prev, "rosters.json") or []).items():
+            rates.setdefault(pos, rate)
+    return rates
 
 
 def slot_position(idx, pkey):
@@ -302,6 +333,9 @@ def resolve_deal(idx, deal):
     teams = {t for l in legs for t in (l["from"], l["to"])}
 
     weeks_remaining = max(1, FINAL_WEEK - week + 1)
+    # Weeks actually played since the deal -- the same as weeks_remaining once
+    # the season is over, and the only fair window while it is still going.
+    weeks_graded = max(1, idx["last_week"] - week + 1)
     sides = []
     for team in sorted(teams):
         owner = idx["owner_of"].get(team)
@@ -312,7 +346,7 @@ def resolve_deal(idx, deal):
             pts = points_in_window(idx, leg["pkey"], week)
             _, held = points_while_rostered(idx, leg["pkey"], leg["to"], week)
             pos, repl = slot_position(idx, leg["pkey"])
-            par = round(repl * weeks_remaining, 2)
+            par = round(repl * weeks_graded, 2)
             entry = {
                 "player": leg["name"],
                 "pos": pos,
@@ -348,7 +382,7 @@ def resolve_deal(idx, deal):
         })
 
     for side in sides:
-        side["grade"] = grade_for(side["net"] / weeks_remaining)
+        side["grade"] = grade_for(side["net"] / weeks_graded)
     best = max(sides, key=lambda s: s["net"])
 
     return {
@@ -356,6 +390,7 @@ def resolve_deal(idx, deal):
         "week": week,
         "preseason": preseason,
         "weeks_remaining": weeks_remaining,
+        "weeks_graded": weeks_graded,
         "teams": len(sides),
         "sides": sorted(sides, key=lambda s: -s["net"]),
         "net": abs(round(best["net"], 2)),

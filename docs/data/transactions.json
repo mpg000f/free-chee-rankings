@@ -3976,6 +3976,7 @@
      "week": 1,
      "preseason": true,
      "weeks_remaining": 17,
+     "weeks_graded": 17,
      "teams": 2,
      "sides": [
       {
@@ -4066,6 +4067,7 @@
      "week": 1,
      "preseason": true,
      "weeks_remaining": 17,
+     "weeks_graded": 17,
      "teams": 2,
      "sides": [
       {
@@ -4156,6 +4158,7 @@
      "week": 1,
      "preseason": true,
      "weeks_remaining": 17,
+     "weeks_graded": 17,
      "teams": 3,
      "sides": [
       {
@@ -4379,6 +4382,7 @@
      "week": 5,
      "preseason": false,
      "weeks_remaining": 13,
+     "weeks_graded": 13,
      "teams": 2,
      "sides": [
       {
@@ -4520,6 +4524,7 @@
      "week": 5,
      "preseason": false,
      "weeks_remaining": 13,
+     "weeks_graded": 13,
      "teams": 2,
      "sides": [
       {
@@ -4593,6 +4598,7 @@
      "week": 7,
      "preseason": false,
      "weeks_remaining": 11,
+     "weeks_graded": 11,
      "teams": 2,
      "sides": [
       {
@@ -4700,6 +4706,7 @@
      "week": 8,
      "preseason": false,
      "weeks_remaining": 10,
+     "weeks_graded": 10,
      "teams": 2,
      "sides": [
       {
@@ -8255,6 +8262,7 @@
      "week": 1,
      "preseason": true,
      "weeks_remaining": 17,
+     "weeks_graded": 17,
      "teams": 2,
      "sides": [
       {
@@ -8328,6 +8336,7 @@
      "week": 4,
      "preseason": false,
      "weeks_remaining": 14,
+     "weeks_graded": 14,
      "teams": 2,
      "sides": [
       {
@@ -8382,6 +8391,7 @@
      "week": 6,
      "preseason": false,
      "weeks_remaining": 12,
+     "weeks_graded": 12,
      "teams": 2,
      "sides": [
       {
@@ -8436,6 +8446,7 @@
      "week": 7,
      "preseason": false,
      "weeks_remaining": 11,
+     "weeks_graded": 11,
      "teams": 2,
      "sides": [
       {
@@ -8509,6 +8520,7 @@
      "week": 8,
      "preseason": false,
      "weeks_remaining": 10,
+     "weeks_graded": 10,
      "teams": 2,
      "sides": [
       {
@@ -8582,6 +8594,7 @@
      "week": 9,
      "preseason": false,
      "weeks_remaining": 9,
+     "weeks_graded": 9,
      "teams": 2,
      "sides": [
       {
@@ -12524,6 +12537,7 @@
      "week": 1,
      "preseason": true,
      "weeks_remaining": 17,
+     "weeks_graded": 17,
      "teams": 2,
      "sides": [
       {
@@ -12597,6 +12611,7 @@
      "week": 4,
      "preseason": false,
      "weeks_remaining": 14,
+     "weeks_graded": 14,
      "teams": 2,
      "sides": [
       {
@@ -12670,6 +12685,7 @@
      "week": 10,
      "preseason": false,
      "weeks_remaining": 8,
+     "weeks_graded": 8,
      "teams": 2,
      "sides": [
       {
@@ -16588,6 +16604,7 @@
      "week": 6,
      "preseason": false,
      "weeks_remaining": 12,
+     "weeks_graded": 12,
      "teams": 2,
      "sides": [
       {
@@ -16661,6 +16678,7 @@
      "week": 11,
      "preseason": false,
      "weeks_remaining": 7,
+     "weeks_graded": 7,
      "teams": 2,
      "sides": [
       {
@@ -16751,6 +16769,7 @@
      "week": 12,
      "preseason": false,
      "weeks_remaining": 6,
+     "weeks_graded": 6,
      "teams": 2,
      "sides": [
       {
@@ -16849,11 +16868,402 @@
    }
   },
   "2026": {
-   "pickups": [],
-   "trades": [],
-   "owners": [],
-   "skipped_trades": 1,
-   "replacement": {}
+   "pickups": [
+    {
+     "player": "Panthers",
+     "pos": "DEF",
+     "owner": "Paul",
+     "week": 2,
+     "pts": 27.0,
+     "vor": 19.31,
+     "weeks_rostered": 1,
+     "ppg": 27.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Patriots",
+     "pos": "DEF",
+     "owner": "Mitch",
+     "week": 2,
+     "pts": 22.0,
+     "vor": 14.31,
+     "weeks_rostered": 1,
+     "ppg": 22.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Darren Waller",
+     "pos": "TE",
+     "owner": "Matt",
+     "week": 2,
+     "pts": 16.8,
+     "vor": 10.38,
+     "weeks_rostered": 1,
+     "ppg": 16.8,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "49ers",
+     "pos": "DEF",
+     "owner": "Sweeney",
+     "week": 2,
+     "pts": 9.0,
+     "vor": 1.31,
+     "weeks_rostered": 1,
+     "ppg": 9.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Kalif Raymond",
+     "pos": "WR",
+     "owner": "Boyle",
+     "week": 2,
+     "pts": 6.5,
+     "vor": -1.17,
+     "weeks_rostered": 1,
+     "ppg": 6.5,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Carson Wentz",
+     "pos": "QB",
+     "owner": "Sweeney",
+     "week": 2,
+     "pts": 6.32,
+     "vor": -1.99,
+     "weeks_rostered": 1,
+     "ppg": 6.32,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Pat Freiermuth",
+     "pos": "TE",
+     "owner": "TK",
+     "week": 2,
+     "pts": 5.4,
+     "vor": -1.02,
+     "weeks_rostered": 1,
+     "ppg": 5.4,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Giants",
+     "pos": "DEF",
+     "owner": "Ger",
+     "week": 2,
+     "pts": 5.0,
+     "vor": -2.69,
+     "weeks_rostered": 1,
+     "ppg": 5.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Antonio Williams",
+     "pos": "WR",
+     "owner": "Joey",
+     "week": 2,
+     "pts": 3.9,
+     "vor": -3.77,
+     "weeks_rostered": 1,
+     "ppg": 3.9,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Buccaneers",
+     "pos": "DEF",
+     "owner": "TK",
+     "week": 2,
+     "pts": 3.0,
+     "vor": -4.69,
+     "weeks_rostered": 1,
+     "ppg": 3.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Cooper Kupp",
+     "pos": "WR",
+     "owner": "Justin",
+     "week": 2,
+     "pts": 3.0,
+     "vor": -4.67,
+     "weeks_rostered": 1,
+     "ppg": 3.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Mack Hollins",
+     "pos": "WR",
+     "owner": "Connor",
+     "week": 2,
+     "pts": 2.8,
+     "vor": -4.87,
+     "weeks_rostered": 1,
+     "ppg": 2.8,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Kenyon Sadiq",
+     "pos": "TE",
+     "owner": "Paul",
+     "week": 2,
+     "pts": 2.7,
+     "vor": -3.72,
+     "weeks_rostered": 1,
+     "ppg": 2.7,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Kendrick Bourne",
+     "pos": "WR",
+     "owner": "Mitch",
+     "week": 2,
+     "pts": 2.1,
+     "vor": -5.57,
+     "weeks_rostered": 1,
+     "ppg": 2.1,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Chiefs",
+     "pos": "DEF",
+     "owner": "TK",
+     "week": 2,
+     "pts": 2.0,
+     "vor": -5.69,
+     "weeks_rostered": 1,
+     "ppg": 2.0,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "DeMario Douglas",
+     "pos": "WR",
+     "owner": "Deez",
+     "week": 2,
+     "pts": 1.4,
+     "vor": -6.27,
+     "weeks_rostered": 1,
+     "ppg": 1.4,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Makai Lemon",
+     "pos": "WR",
+     "owner": "Justin",
+     "week": 2,
+     "pts": 1.4,
+     "vor": -6.27,
+     "weeks_rostered": 1,
+     "ppg": 1.4,
+     "claimed": true,
+     "held_to_end": false
+    },
+    {
+     "player": "Devin Singletary",
+     "pos": "RB",
+     "owner": "Mitch",
+     "week": 2,
+     "pts": 0.9,
+     "vor": -5.78,
+     "weeks_rostered": 1,
+     "ppg": 0.9,
+     "claimed": false,
+     "held_to_end": false
+    },
+    {
+     "player": "Jack Strand",
+     "pos": "QB",
+     "owner": "TK",
+     "week": 2,
+     "pts": -0.04,
+     "vor": -8.35,
+     "weeks_rostered": 1,
+     "ppg": -0.04,
+     "claimed": false,
+     "held_to_end": false
+    }
+   ],
+   "trades": [
+    {
+     "date": "Sep 17, 2026",
+     "week": 2,
+     "preseason": false,
+     "weeks_remaining": 16,
+     "weeks_graded": 1,
+     "teams": 2,
+     "sides": [
+      {
+       "owner": "Justin",
+       "received": [
+        {
+         "player": "Christian McCaffrey",
+         "pos": "RB",
+         "pts": 20.6,
+         "weeks_rostered": 1,
+         "repl": 6.68,
+         "vor": 13.92
+        },
+        {
+         "player": "Emeka Egbuka",
+         "pos": "WR",
+         "pts": 8.8,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 1.13
+        },
+        {
+         "player": "Isaac TeSlaa",
+         "pos": "WR",
+         "pts": 3.6,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0
+        }
+       ],
+       "sent": [
+        {
+         "player": "Ashton Jeanty",
+         "pos": "RB",
+         "pts": 8.3,
+         "weeks_rostered": 1,
+         "repl": 6.68,
+         "vor": 1.62,
+         "to_owner": "Sweeney"
+        },
+        {
+         "player": "Wan'Dale Robinson",
+         "pos": "WR",
+         "pts": 1.4,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0,
+         "to_owner": "Sweeney"
+        },
+        {
+         "player": "Mike Evans",
+         "pos": "WR",
+         "pts": 6.9,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0,
+         "to_owner": "Sweeney"
+        }
+       ],
+       "pts": 33.0,
+       "gave": 16.6,
+       "net_pts": 16.4,
+       "vor_in": 15.05,
+       "vor_out": 1.62,
+       "net": 13.43,
+       "grade": "A"
+      },
+      {
+       "owner": "Sweeney",
+       "received": [
+        {
+         "player": "Ashton Jeanty",
+         "pos": "RB",
+         "pts": 8.3,
+         "weeks_rostered": 1,
+         "repl": 6.68,
+         "vor": 1.62
+        },
+        {
+         "player": "Wan'Dale Robinson",
+         "pos": "WR",
+         "pts": 1.4,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0
+        },
+        {
+         "player": "Mike Evans",
+         "pos": "WR",
+         "pts": 6.9,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0
+        }
+       ],
+       "sent": [
+        {
+         "player": "Christian McCaffrey",
+         "pos": "RB",
+         "pts": 20.6,
+         "weeks_rostered": 1,
+         "repl": 6.68,
+         "vor": 13.92,
+         "to_owner": "Justin"
+        },
+        {
+         "player": "Emeka Egbuka",
+         "pos": "WR",
+         "pts": 8.8,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 1.13,
+         "to_owner": "Justin"
+        },
+        {
+         "player": "Isaac TeSlaa",
+         "pos": "WR",
+         "pts": 3.6,
+         "weeks_rostered": 1,
+         "repl": 7.67,
+         "vor": 0.0,
+         "to_owner": "Justin"
+        }
+       ],
+       "pts": 16.6,
+       "gave": 33.0,
+       "net_pts": -16.4,
+       "vor_in": 1.62,
+       "vor_out": 15.05,
+       "net": -13.43,
+       "grade": "F"
+      }
+     ],
+     "net": 13.43,
+     "winner": "Justin"
+    }
+   ],
+   "owners": [
+    "Boyle",
+    "Connor",
+    "Deez",
+    "Ger",
+    "Joey",
+    "Justin",
+    "Matt",
+    "Mitch",
+    "Paul",
+    "Sweeney",
+    "TK"
+   ],
+   "skipped_trades": 0,
+   "replacement": {
+    "QB": 8.31,
+    "WR": 7.67,
+    "RB": 6.68,
+    "TE": 6.42,
+    "K": 7.56,
+    "DEF": 7.69
+   }
   }
  }
 }

@@ -6,15 +6,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100019",
         "player_name": "Giants",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.9"
       },
       {
+        "player_key": "470.p.33403",
         "player_name": "Mac Jones",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.9",
         "destination_team_key": ""
       }
     ]
@@ -26,15 +28,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100030",
         "player_name": "Jaguars",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.14"
       },
       {
+        "player_key": "470.p.41881",
         "player_name": "Kaleb Johnson",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.14",
         "destination_team_key": ""
       }
     ]
@@ -46,15 +50,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42642",
         "player_name": "Makai Lemon",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.26699",
         "player_name": "Keenan Allen",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -66,15 +72,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30231",
         "player_name": "Mack Hollins",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.10"
       },
       {
+        "player_key": "470.p.41009",
         "player_name": "Troy Franklin",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.10",
         "destination_team_key": ""
       }
     ]
@@ -86,40 +94,46 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41865",
         "player_name": "Isaac TeSlaa",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.13",
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.30121",
         "player_name": "Christian McCaffrey",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.13",
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.41804",
         "player_name": "Emeka Egbuka",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.13",
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.33998",
         "player_name": "Wan'Dale Robinson",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.12",
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.41791",
         "player_name": "Ashton Jeanty",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.12",
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.27535",
         "player_name": "Mike Evans",
-        "type": "",
-        "source_team_key": "",
-        "destination_team_key": ""
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.12",
+        "destination_team_key": "470.l.165433.t.13"
       }
     ]
   },
@@ -130,15 +144,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30182",
         "player_name": "Cooper Kupp",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.41907",
         "player_name": "Dylan Sampson",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -150,15 +166,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42693",
         "player_name": "Antonio Williams",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.6"
       },
       {
+        "player_key": "470.p.42642",
         "player_name": "Makai Lemon",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.6",
         "destination_team_key": ""
       }
     ]
@@ -170,15 +188,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100017",
         "player_name": "Patriots",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.100002",
         "player_name": "Bills",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -190,15 +210,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42898",
         "player_name": "Jack Strand",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.33399",
         "player_name": "Justin Fields",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -210,15 +232,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30551",
         "player_name": "Kendrick Bourne",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.42702",
         "player_name": "Ja'Kobi Lane",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -230,15 +254,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100029",
         "player_name": "Panthers",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.15"
       },
       {
+        "player_key": "470.p.100008",
         "player_name": "Lions",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
         "destination_team_key": ""
       }
     ]
@@ -250,15 +276,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100012",
         "player_name": "Chiefs",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.40040",
         "player_name": "Anthony Richardson Sr.",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -270,15 +298,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.33443",
         "player_name": "Pat Freiermuth",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.34099",
         "player_name": "Chig Okonkwo",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -290,15 +320,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42638",
         "player_name": "Kenyon Sadiq",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.15"
       },
       {
+        "player_key": "470.p.42012",
         "player_name": "Brashard Smith",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
         "destination_team_key": ""
       }
     ]
@@ -310,15 +342,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100027",
         "player_name": "Buccaneers",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.100010",
         "player_name": "Titans",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -330,15 +364,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100025",
         "player_name": "49ers",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.100009",
         "player_name": "Packers",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
         "destination_team_key": ""
       }
     ]
@@ -350,15 +386,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.29631",
         "player_name": "Kalif Raymond",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.2"
       },
       {
+        "player_key": "470.p.40954",
         "player_name": "Jalen McMillan",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.2",
         "destination_team_key": ""
       }
     ]
@@ -370,15 +408,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.40222",
         "player_name": "DeMario Douglas",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.14"
       },
       {
+        "player_key": "470.p.100030",
         "player_name": "Jaguars",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.14",
         "destination_team_key": ""
       }
     ]
@@ -390,15 +430,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.31906",
         "player_name": "Devin Singletary",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.41048",
         "player_name": "Tyrone Tracy Jr.",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -410,15 +452,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.29236",
         "player_name": "Carson Wentz",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.8795",
         "player_name": "Joe Flacco",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
         "destination_team_key": ""
       }
     ]
@@ -430,15 +474,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.28592",
         "player_name": "Darren Waller",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.32685",
         "player_name": "Jerry Jeudy",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]
@@ -450,15 +496,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.40430",
         "player_name": "Emari Demercado",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.34610",
         "player_name": "Malik Davis",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]
@@ -470,15 +518,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42642",
         "player_name": "Makai Lemon",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.6"
       },
       {
+        "player_key": "470.p.30182",
         "player_name": "Cooper Kupp",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.6",
         "destination_team_key": ""
       }
     ]
@@ -490,15 +540,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30788",
         "player_name": "Cooper Rush",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.16"
       },
       {
+        "player_key": "470.p.40220",
         "player_name": "Tanner McKee",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.16",
         "destination_team_key": ""
       }
     ]
@@ -510,15 +562,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41097",
         "player_name": "Devaughn Vele",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.30218",
         "player_name": "James Conner",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
         "destination_team_key": ""
       }
     ]
@@ -530,15 +584,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30346",
         "player_name": "Harrison Butker",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.34207",
         "player_name": "Isiah Pacheco",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]
@@ -550,15 +606,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42716",
         "player_name": "Chris Bell",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.8"
       },
       {
+        "player_key": "470.p.41043",
         "player_name": "Spencer Rattler",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.8",
         "destination_team_key": ""
       }
     ]
@@ -570,15 +628,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41831",
         "player_name": "Terrance Ferguson",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.8"
       },
       {
+        "player_key": "470.p.42638",
         "player_name": "Kenyon Sadiq",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.8",
         "destination_team_key": ""
       }
     ]
@@ -590,15 +650,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.43171",
         "player_name": "Dominic Zvada",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.11"
       },
       {
+        "player_key": "470.p.42642",
         "player_name": "Makai Lemon",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.11",
         "destination_team_key": ""
       }
     ]
@@ -610,15 +672,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.31874",
         "player_name": "Drew Lock",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.41968",
         "player_name": "Riley Leonard",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -630,15 +694,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.40040",
         "player_name": "Anthony Richardson Sr.",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.100017",
         "player_name": "Patriots",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -650,15 +716,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100002",
         "player_name": "Bills",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.100020",
         "player_name": "Jets",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -670,15 +738,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41344",
         "player_name": "George Holani",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.42820",
         "player_name": "Demond Claiborne",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -690,15 +760,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42919",
         "player_name": "Jalon Daniels",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.1"
       },
       {
+        "player_key": "470.p.32138",
         "player_name": "Jake Browning",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.1",
         "destination_team_key": ""
       }
     ]
@@ -710,15 +782,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42012",
         "player_name": "Brashard Smith",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.15"
       },
       {
+        "player_key": "470.p.40430",
         "player_name": "Emari Demercado",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
         "destination_team_key": ""
       }
     ]
@@ -730,15 +804,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30182",
         "player_name": "Cooper Kupp",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.6"
       },
       {
+        "player_key": "470.p.41344",
         "player_name": "George Holani",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.6",
         "destination_team_key": ""
       }
     ]
@@ -750,15 +826,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.34610",
         "player_name": "Malik Davis",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.30346",
         "player_name": "Harrison Butker",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]
@@ -770,15 +848,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.33415",
         "player_name": "Rashod Bateman",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.41935",
         "player_name": "Jaydon Blue",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -790,15 +870,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41881",
         "player_name": "Kaleb Johnson",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.14"
       },
       {
+        "player_key": "470.p.41087",
         "player_name": "Ryan Flournoy",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.14",
         "destination_team_key": ""
       }
     ]
@@ -810,15 +892,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.40625",
         "player_name": "Chris Brooks",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.15"
       },
       {
+        "player_key": "470.p.41031",
         "player_name": "Isaiah Davis",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
         "destination_team_key": ""
       }
     ]
@@ -830,15 +914,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.42696",
         "player_name": "Malachi Fields",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.5"
       },
       {
+        "player_key": "470.p.40905",
         "player_name": "J.J. McCarthy",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.5",
         "destination_team_key": ""
       }
     ]
@@ -850,15 +936,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.40224",
         "player_name": "Kayshon Boutte",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.15"
       },
       {
+        "player_key": "470.p.41989",
         "player_name": "Will Howard",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
         "destination_team_key": ""
       }
     ]
@@ -870,15 +958,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30563",
         "player_name": "Nick Mullens",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.14"
       },
       {
+        "player_key": "470.p.42763",
         "player_name": "Nicholas Singleton",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.14",
         "destination_team_key": ""
       }
     ]
@@ -890,15 +980,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.41968",
         "player_name": "Riley Leonard",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.29236",
         "player_name": "Carson Wentz",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -910,15 +1002,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.26699",
         "player_name": "Keenan Allen",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.12"
       },
       {
+        "player_key": "470.p.42652",
         "player_name": "Omar Cooper Jr.",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
         "destination_team_key": ""
       }
     ]
@@ -930,15 +1024,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30180",
         "player_name": "Alvin Kamara",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.31857",
         "player_name": "Hollywood Brown",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]
@@ -950,15 +1046,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.28188",
         "player_name": "Chris Boswell",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.40707",
         "player_name": "Emanuel Wilson",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -970,15 +1068,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100020",
         "player_name": "Jets",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.4"
       },
       {
+        "player_key": "470.p.41819",
         "player_name": "Jayden Higgins",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
         "destination_team_key": ""
       }
     ]
@@ -990,15 +1090,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100003",
         "player_name": "Bears",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.1"
       },
       {
+        "player_key": "470.p.30180",
         "player_name": "Alvin Kamara",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.1",
         "destination_team_key": ""
       }
     ]
@@ -1010,15 +1112,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.33412",
         "player_name": "Najee Harris",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.40224",
         "player_name": "Kayshon Boutte",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
         "destination_team_key": ""
       }
     ]
@@ -1030,15 +1134,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.100010",
         "player_name": "Titans",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.3"
       },
       {
+        "player_key": "470.p.41951",
         "player_name": "Oronde Gadsden",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
         "destination_team_key": ""
       }
     ]
@@ -1050,15 +1156,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30227",
         "player_name": "Samaje Perine",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.13"
       },
       {
+        "player_key": "470.p.41831",
         "player_name": "Terrance Ferguson",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
         "destination_team_key": ""
       }
     ]
@@ -1070,15 +1178,17 @@
     "status": "successful",
     "players": [
       {
+        "player_key": "470.p.30346",
         "player_name": "Harrison Butker",
-        "type": "",
+        "type": "add",
         "source_team_key": "",
-        "destination_team_key": ""
+        "destination_team_key": "470.l.165433.t.7"
       },
       {
+        "player_key": "470.p.40097",
         "player_name": "Tank Dell",
-        "type": "",
-        "source_team_key": "",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.7",
         "destination_team_key": ""
       }
     ]

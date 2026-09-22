@@ -168,6 +168,27 @@ def pull_standings(oauth, league):
     return standings
 
 
+def pull_managers(oauth, league):
+    """team_key -> {team_name, manager} for every team in the league."""
+    data = api_get_json(oauth, f"league/{league['league_key']}/teams")
+    out = {}
+    try:
+        teams = data["fantasy_content"]["league"][1]["teams"]
+        for i in range(teams["count"]):
+            info = {}
+            for item in teams[str(i)]["team"][0]:
+                if isinstance(item, dict):
+                    info.update(item)
+            mgrs = info.get("managers") or [{}]
+            out[info["team_key"]] = {
+                "team_name": info.get("name", ""),
+                "manager": mgrs[0].get("manager", {}).get("nickname", ""),
+            }
+    except (KeyError, TypeError) as e:
+        print(f"    Error parsing teams: {e}")
+    return out
+
+
 def pull_draft_results(oauth, league):
     """Pull draft results with player details and costs."""
     print(f"  Pulling draft results...")
@@ -437,9 +458,16 @@ def pull_transactions(oauth, league):
                         pdata.update(item)
                         if "name" in item:
                             pdata["player_name"] = item["name"].get("full", "")
-                        if "transaction_data" in item:
-                            pdata.update(item["transaction_data"])
+                # transaction_data sits beside the player info, not inside it,
+                # and comes as a one-item list for adds/drops/trades alike
+                for part in p[1:]:
+                    tdata = part.get("transaction_data") if isinstance(part, dict) else None
+                    if isinstance(tdata, list):
+                        tdata = tdata[0] if tdata else {}
+                    if isinstance(tdata, dict):
+                        pdata.update(tdata)
                 players.append({
+                    "player_key": pdata.get("player_key", ""),
                     "player_name": pdata.get("player_name", ""),
                     "type": pdata.get("type", ""),
                     "source_team_key": pdata.get("source_team_key", ""),
@@ -531,6 +559,11 @@ def main():
             team_keys = [s["team_key"] for s in standings]
         else:
             team_keys = []
+
+        # team_key -> team name + manager, which the transactions build needs
+        managers = pull_managers(oauth, league)
+        if managers:
+            save_json(managers, f"{season}/managers.json")
 
         # Draft results
         draft = pull_draft_results(oauth, league)

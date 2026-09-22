@@ -19,7 +19,7 @@ SKILL_POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
 DRAFT_VALUE_POSITIONS = {"QB", "RB", "WR", "TE", "DEF", "K"}
 
 # Team name -> owner mapping per season lives in owner_mapping.py
-from owner_mapping import YAHOO_TEAM_OWNERS as TEAM_OWNER_MAP
+from owner_mapping import YAHOO_TEAM_OWNERS as TEAM_OWNER_MAP, TEAM_KEY_OWNERS
 
 # Regular season weeks (before playoffs)
 REGULAR_SEASON_WEEKS = 14
@@ -38,9 +38,10 @@ def build_owner_map(season):
     team_names = build_team_names(season)
     name_to_owner = TEAM_OWNER_MAP.get(season, {})
     owner_map = {}
+    key_owners = TEAM_KEY_OWNERS.get(season, {})
     for tk, tn in team_names.items():
-        # Try exact match, then strip whitespace
-        owner = name_to_owner.get(tn) or name_to_owner.get(tn.strip())
+        # Team key first (survives renames), then exact name, then stripped
+        owner = key_owners.get(tk) or name_to_owner.get(tn) or name_to_owner.get(tn.strip())
         if not owner:
             # Try matching without leading/trailing special chars
             for map_name, map_owner in name_to_owner.items():
