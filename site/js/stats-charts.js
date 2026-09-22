@@ -78,9 +78,19 @@
     '#e91e63', '#00bcd4',
   ];
 
-  // Only show owners with 5+ weeks by default
+  // Season buttons come from the data, so a new season's tab appears with its
+  // first rankings instead of waiting on an HTML edit
+  const chartSeasons = [...new Set(index.weeks.map(w => w.season))].sort();
+  const latestSeason = chartSeasons[chartSeasons.length - 1];
+  document.getElementById('chart-controls').innerHTML =
+    '<button class="season-btn active" data-season="all">All</button>' +
+    chartSeasons.map(s => `<button class="season-btn" data-season="${s}">${s}</button>`).join('');
+
+  // Owners with 5+ weeks, plus anyone ranked this season (a new owner has
+  // only a few weeks early on and would otherwise vanish from the chart)
+  const latestIds = new Set(index.weeks.filter(w => w.season === latestSeason).map(w => w.week_id));
   const mainOwners = Object.entries(owners)
-    .filter(([_, o]) => o.total_weeks >= 5)
+    .filter(([_, o]) => o.total_weeks >= 5 || o.rankings.some(r => latestIds.has(r.week_id)))
     .sort((a, b) => a[1].avg_rank - b[1].avg_rank);
 
   const datasets = mainOwners.map(([name, data], i) => {
