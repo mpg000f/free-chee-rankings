@@ -6285,20 +6285,20 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.33963",
-    "player_name": "Drake London",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 11.4
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.16",
     "player_key": "470.p.33966",
     "player_name": "Chris Olave",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 41.8
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.33963",
+    "player_name": "Drake London",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 11.4
   },
   {
     "week": 3,
@@ -6339,20 +6339,20 @@
   {
     "week": 3,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.30788",
-    "player_name": "Cooper Rush",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 8.16
-  },
-  {
-    "week": 3,
-    "team_key": "470.l.165433.t.16",
     "player_key": "470.p.40908",
     "player_name": "Ladd McConkey",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 21.7
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.30788",
+    "player_name": "Cooper Rush",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 8.16
   },
   {
     "week": 3,
