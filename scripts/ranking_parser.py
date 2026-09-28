@@ -57,6 +57,7 @@ TEAM_OWNER_MAP = {
     "pelosis powder": "Mikey",
     "pelosi's powder": "Mikey",
     "tuanigamanuolepola donny": "Kevin",
+    "best margarita recipe": "Kevin",
     "tuanigamanuolepola": "Kevin",
     "shough and f#ck": "Boyle",
     "shough and fuck": "Boyle",

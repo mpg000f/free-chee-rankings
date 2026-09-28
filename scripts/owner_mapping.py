@@ -238,6 +238,7 @@ YAHOO_TEAM_OWNERS = {
         "Free Paid": "Gallo",
         "Hello Darkness My Old Friend": "Paul",
         "Shough and F#ck": "Boyle",
+        "BEST Margarita Recipe": "Kevin",
     },
 }
 
