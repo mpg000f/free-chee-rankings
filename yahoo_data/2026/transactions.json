@@ -1,5 +1,343 @@
 [
   {
+    "transaction_id": "82",
+    "type": "add/drop",
+    "timestamp": "1790293518",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.100002",
+        "player_name": "Bills",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.12"
+      },
+      {
+        "player_key": "470.p.100024",
+        "player_name": "Chargers",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.12",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "81",
+    "type": "add/drop",
+    "timestamp": "1790292225",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.100008",
+        "player_name": "Lions",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.14"
+      },
+      {
+        "player_key": "470.p.100030",
+        "player_name": "Jaguars",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.14",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "80",
+    "type": "add/drop",
+    "timestamp": "1790256710",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.31046",
+        "player_name": "Mason Rudolph",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.15"
+      },
+      {
+        "player_key": "470.p.32887",
+        "player_name": "Jauan Jennings",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.15",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "79",
+    "type": "add/drop",
+    "timestamp": "1790249694",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.32814",
+        "player_name": "DeeJay Dallas",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.3"
+      },
+      {
+        "player_key": "470.p.42898",
+        "player_name": "Jack Strand",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "78",
+    "type": "add/drop",
+    "timestamp": "1790179944",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.40144",
+        "player_name": "Jake Haener",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.8"
+      },
+      {
+        "player_key": "470.p.42809",
+        "player_name": "Kaytron Allen",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.8",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "77",
+    "type": "add/drop",
+    "timestamp": "1790166177",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.33399",
+        "player_name": "Justin Fields",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.3"
+      },
+      {
+        "player_key": "470.p.100008",
+        "player_name": "Lions",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "76",
+    "type": "add",
+    "timestamp": "1790165809",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.41060",
+        "player_name": "Joe Milton III",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.16"
+      }
+    ]
+  },
+  {
+    "transaction_id": "75",
+    "type": "drop",
+    "timestamp": "1790165790",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.30788",
+        "player_name": "Cooper Rush",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.16",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "74",
+    "type": "add/drop",
+    "timestamp": "1790163035",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.100010",
+        "player_name": "Titans",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.4"
+      },
+      {
+        "player_key": "470.p.30551",
+        "player_name": "Kendrick Bourne",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.4",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "73",
+    "type": "add/drop",
+    "timestamp": "1790162298",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.100004",
+        "player_name": "Bengals",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.9"
+      },
+      {
+        "player_key": "470.p.34320",
+        "player_name": "Jordan Mason",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.9",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "72",
+    "type": "add/drop",
+    "timestamp": "1790161246",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.100008",
+        "player_name": "Lions",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.3"
+      },
+      {
+        "player_key": "470.p.100027",
+        "player_name": "Buccaneers",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.3",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "71",
+    "type": "add/drop",
+    "timestamp": "1790159026",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.40911",
+        "player_name": "Keon Coleman",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.10"
+      },
+      {
+        "player_key": "470.p.30231",
+        "player_name": "Mack Hollins",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.10",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "67",
+    "type": "add/drop",
+    "timestamp": "1790151077",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.26483",
+        "player_name": "Case Keenum",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.13"
+      },
+      {
+        "player_key": "470.p.33412",
+        "player_name": "Najee Harris",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "66",
+    "type": "add/drop",
+    "timestamp": "1790151077",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.41881",
+        "player_name": "Kaleb Johnson",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.9"
+      },
+      {
+        "player_key": "470.p.100007",
+        "player_name": "Broncos",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.9",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "65",
+    "type": "add/drop",
+    "timestamp": "1790151077",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.40504",
+        "player_name": "Tyson Bagent",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.8"
+      },
+      {
+        "player_key": "470.p.42701",
+        "player_name": "Zachariah Branch",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.8",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "64",
+    "type": "add/drop",
+    "timestamp": "1790151077",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.40707",
+        "player_name": "Emanuel Wilson",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.9"
+      },
+      {
+        "player_key": "470.p.100019",
+        "player_name": "Giants",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.9",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
     "transaction_id": "63",
     "type": "add/drop",
     "timestamp": "1790024402",

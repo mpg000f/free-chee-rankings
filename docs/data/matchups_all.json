@@ -6210,17 +6210,18 @@
    "t2": "Pigs on the 7th Rank",
    "p2": 87.94,
    "consolation": false
-  }
- ],
- "upcoming": [
+  },
   {
    "season": "2026",
    "week": 3,
    "playoff": false,
    "o1": "TJ",
    "t1": "Boone",
+   "p1": 116.7,
    "o2": "Gallo",
-   "t2": "Free Paid"
+   "t2": "Free Paid",
+   "p2": 112.56,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6228,8 +6229,11 @@
    "playoff": false,
    "o1": "Boyle",
    "t1": "Shough and F#ck",
+   "p1": 165.04,
    "o2": "Chris",
-   "t2": "Ginny Sack"
+   "t2": "Ginny Sack",
+   "p2": 96.0,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6237,8 +6241,11 @@
    "playoff": false,
    "o1": "TK",
    "t1": "Nick Wright Barely Legal",
+   "p1": 101.96,
    "o2": "Joey",
-   "t2": "Stewed C"
+   "t2": "Stewed C",
+   "p2": 114.9,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6246,8 +6253,11 @@
    "playoff": false,
    "o1": "Mitch",
    "t1": "Charles Dickens",
+   "p1": 83.8,
    "o2": "Kevin",
-   "t2": "Tuanigamanuolepola Donny"
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 123.92,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6255,8 +6265,11 @@
    "playoff": false,
    "o1": "Matt",
    "t1": "The Art of the Deal",
+   "p1": 91.32,
    "o2": "Paul",
-   "t2": "Hello Darkness My Old Friend"
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 142.16,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6264,8 +6277,11 @@
    "playoff": false,
    "o1": "Mikey",
    "t1": "Pelosi's Powder",
+   "p1": 122.14,
    "o2": "Sweeney",
-   "t2": "Work Ass"
+   "t2": "Work Ass",
+   "p2": 113.52,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6273,8 +6289,11 @@
    "playoff": false,
    "o1": "Ger",
    "t1": "Ger",
+   "p1": 99.14,
    "o2": "Justin",
-   "t2": "Phenom"
+   "t2": "Phenom",
+   "p2": 139.26,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6282,9 +6301,14 @@
    "playoff": false,
    "o1": "Connor",
    "t1": "Healthy as a Fucking Rhino",
+   "p1": 66.3,
    "o2": "Deez",
-   "t2": "Pigs on the 7th Rank"
-  },
+   "t2": "Pigs on the 7th Rank",
+   "p2": 129.82,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
   {
    "season": "2026",
    "week": 4,
