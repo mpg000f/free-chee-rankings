@@ -63,6 +63,13 @@ WEEK_EMBEDS = {
     "2026-week-2": "2026-week-2-scatter.html",
 }
 
+# ===== MANUAL RANKINGS =====
+# Some editions are authored directly for the site rather than parsed from a PDF.
+# Keep their JSON + HTML under scripts/manual_rankings/. The build merges them
+# into the generated index on every run, so scheduled Yahoo refreshes cannot
+# accidentally remove a published rankings edition.
+MANUAL_RANKINGS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "manual_rankings")
+
 # ===== POWER TRIOS DATA (transcribed from PDF screenshots) =====
 POWER_TRIOS = {
     "2025-week-8": [
@@ -1406,6 +1413,52 @@ def main():
             print(f"  embed: {fname}")
         else:
             print(f"  warning: missing embed {src}")
+
+    # ===== Merge manually-authored rankings =====
+    # PDF-parsed weeks remain the default source. A manual edition is only added
+    # when the same week_id was not produced from a PDF, so adding a PDF later
+    # automatically takes precedence without creating a duplicate.
+    generated_ids = {w["week_id"] for w in all_weeks}
+    if os.path.isdir(MANUAL_RANKINGS_DIR):
+        for name in sorted(os.listdir(MANUAL_RANKINGS_DIR)):
+            if not name.endswith(".json"):
+                continue
+            src_json = os.path.join(MANUAL_RANKINGS_DIR, name)
+            with open(src_json, encoding="utf-8") as f:
+                manual_week = json.load(f)
+            week_id = manual_week.get("week_id")
+            if not week_id or week_id in generated_ids:
+                continue
+
+            # Publish the canonical manual JSON and matching HTML.
+            with open(os.path.join(DATA_DIR, f"{week_id}.json"), "w", encoding="utf-8") as f:
+                json.dump(manual_week, f, indent=2, ensure_ascii=False)
+            src_html = os.path.join(MANUAL_RANKINGS_DIR, f"{week_id}.html")
+            if not os.path.exists(src_html):
+                raise FileNotFoundError(f"Manual ranking HTML missing: {src_html}")
+            shutil.copy2(src_html, os.path.join(DATA_DIR, f"{week_id}.html"))
+
+            all_weeks.append(manual_week)
+            generated_ids.add(week_id)
+            for team in manual_week.get("teams", []):
+                owner = team.get("owner")
+                if owner:
+                    all_owners_data[owner]["rankings"].append({
+                        "season": manual_week.get("season"),
+                        "week": manual_week.get("week"),
+                        "week_id": week_id,
+                        "rank": team["rank"],
+                    })
+                    all_owners_data[owner]["team_names"].add(team["team_name"])
+                    all_owners_data[owner]["seasons"].add(manual_week.get("season"))
+            print(f"  manual ranking: {week_id}")
+
+    # Keep the browser index chronological after merging manual editions.
+    all_weeks.sort(key=lambda w: (
+        w.get("season", ""),
+        w.get("week") if w.get("week") is not None else 999,
+        w.get("type", "regular"),
+    ))
 
     # ===== Save rankings index =====
     # Seasons are derived from the PDFs present, so a new season needs no code change.
