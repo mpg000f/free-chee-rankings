@@ -3,10 +3,18 @@
  */
 const DataLoader = (() => {
   const cache = {};
+  // Stamped by stamp_cache_bust.py from the contents of data/. Without it the
+  // browser keeps a stale data file for up to GitHub Pages' 10-minute TTL, so a
+  // rebuilt week can keep rendering the previous version.
+  const DATA_V = '190d7098c0';
+
+  function versioned(url) {
+    return url.includes('?') ? `${url}&v=${DATA_V}` : `${url}?v=${DATA_V}`;
+  }
 
   async function load(url) {
     if (cache[url]) return cache[url];
-    const resp = await fetch(url);
+    const resp = await fetch(versioned(url));
     if (!resp.ok) throw new Error(`Failed to load ${url}: ${resp.status}`);
     const contentType = resp.headers.get('content-type') || '';
     let data;

@@ -15,6 +15,30 @@ ASSET_RE = re.compile(
 )
 
 
+DATA_V_RE = re.compile(r"(const DATA_V = ')[^']*(')")
+
+
+def stamp_data_version(root):
+    """Rewrite DATA_V in js/data-loader.js from a hash of everything in data/."""
+    loader = os.path.join(root, "js", "data-loader.js")
+    data_dir = os.path.join(root, "data")
+    if not (os.path.exists(loader) and os.path.isdir(data_dir)):
+        return None
+    digest = hashlib.md5()
+    for name in sorted(os.listdir(data_dir)):
+        path = os.path.join(data_dir, name)
+        if os.path.isfile(path):
+            digest.update(name.encode())
+            with open(path, "rb") as f:
+                digest.update(f.read())
+    stamp = digest.hexdigest()[:10]
+    src = open(loader, encoding="utf-8").read()
+    new = DATA_V_RE.sub(lambda m: f"{m.group(1)}{stamp}{m.group(2)}", src)
+    if new != src:
+        open(loader, "w", encoding="utf-8").write(new)
+    return stamp
+
+
 def stamp_tree(root):
     hashes = {}
 
@@ -41,5 +65,8 @@ def stamp_tree(root):
 
 if __name__ == "__main__":
     for tree in ("docs", "site"):
+        v = stamp_data_version(os.path.join(ROOT, tree))
+        if v:
+            print(f"{tree}: data version {v}")
         n = stamp_tree(os.path.join(ROOT, tree))
         print(f"{tree}: stamped {n} html files")
