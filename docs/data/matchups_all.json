@@ -6306,17 +6306,18 @@
    "t2": "Pigs on the 7th Rank",
    "p2": 129.82,
    "consolation": false
-  }
- ],
- "upcoming": [
+  },
   {
    "season": "2026",
    "week": 4,
    "playoff": false,
    "o1": "TJ",
    "t1": "Boone",
+   "p1": 104.44,
    "o2": "Justin",
-   "t2": "Phenom"
+   "t2": "Phenom",
+   "p2": 130.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6324,8 +6325,11 @@
    "playoff": false,
    "o1": "Boyle",
    "t1": "Shough and F#ck",
+   "p1": 114.2,
    "o2": "Connor",
-   "t2": "Healthy as a Fucking Rhino"
+   "t2": "Healthy as a Fucking Rhino",
+   "p2": 117.96,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6333,8 +6337,11 @@
    "playoff": false,
    "o1": "TK",
    "t1": "Nick Wright Barely Legal",
+   "p1": 154.22,
    "o2": "Gallo",
-   "t2": "Free Paid"
+   "t2": "Free Paid",
+   "p2": 125.46,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6342,8 +6349,11 @@
    "playoff": false,
    "o1": "Mitch",
    "t1": "Charles Dickens",
+   "p1": 131.34,
    "o2": "Matt",
-   "t2": "The Art of the Deal"
+   "t2": "The Art of the Deal",
+   "p2": 88.24,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6351,8 +6361,11 @@
    "playoff": false,
    "o1": "Joey",
    "t1": "Stewed C",
+   "p1": 110.12,
    "o2": "Mikey",
-   "t2": "Pelosi's Powder"
+   "t2": "Pelosi's Powder",
+   "p2": 118.84,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6360,8 +6373,11 @@
    "playoff": false,
    "o1": "Ger",
    "t1": "Ger",
+   "p1": 57.86,
    "o2": "Deez",
-   "t2": "Pigs on the 7th Rank"
+   "t2": "Pigs on the 7th Rank",
+   "p2": 121.88,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6369,8 +6385,11 @@
    "playoff": false,
    "o1": "Chris",
    "t1": "Ginny Sack",
+   "p1": 123.72,
    "o2": "Paul",
-   "t2": "Hello Darkness My Old Friend"
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 140.48,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6378,9 +6397,14 @@
    "playoff": false,
    "o1": "Sweeney",
    "t1": "Work Ass",
+   "p1": 88.2,
    "o2": "Kevin",
-   "t2": "Tuanigamanuolepola Donny"
-  },
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 110.54,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
   {
    "season": "2026",
    "week": 5,

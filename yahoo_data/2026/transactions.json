@@ -1,5 +1,27 @@
 [
   {
+    "transaction_id": "105",
+    "type": "add/drop",
+    "timestamp": "1791245315",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.41043",
+        "player_name": "Spencer Rattler",
+        "type": "add",
+        "source_team_key": "",
+        "destination_team_key": "470.l.165433.t.13"
+      },
+      {
+        "player_key": "470.p.26483",
+        "player_name": "Case Keenum",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.13",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
     "transaction_id": "104",
     "type": "add/drop",
     "timestamp": "1791040221",
