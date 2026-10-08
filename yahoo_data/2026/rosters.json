@@ -8212,11 +8212,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.33996",
-    "player_name": "Kenneth Walker III",
+    "player_key": "470.p.34047",
+    "player_name": "Rachaad White",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 104.1
+    "season_points": 25.6
   },
   {
     "week": 5,
@@ -8266,20 +8266,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.34047",
-    "player_name": "Rachaad White",
+    "player_key": "470.p.33996",
+    "player_name": "Kenneth Walker III",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 25.6
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.40224",
-    "player_name": "Kayshon Boutte",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 16.0
+    "season_points": 104.1
   },
   {
     "week": 5,
@@ -8302,20 +8293,29 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.40625",
-    "player_name": "Chris Brooks",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 10.9
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.15",
     "player_key": "470.p.31046",
     "player_name": "Mason Rudolph",
     "display_position": "QB",
     "points": 0.0,
     "season_points": 0.3
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.40952",
+    "player_name": "Roman Wilson",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 37.8
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.42859",
+    "player_name": "Seth McGowan",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 6.2
   },
   {
     "week": 5,
@@ -8329,11 +8329,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.100012",
-    "player_name": "Chiefs",
+    "player_key": "470.p.100013",
+    "player_name": "Raiders",
     "display_position": "DEF",
     "points": 0.0,
-    "season_points": 31.0
+    "season_points": 42.0
   },
   {
     "week": 5,
@@ -8527,11 +8527,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.33443",
-    "player_name": "Pat Freiermuth",
+    "player_key": "470.p.31012",
+    "player_name": "Mike Gesicki",
     "display_position": "TE",
     "points": 0.0,
-    "season_points": 31.8
+    "season_points": 39.0
   },
   {
     "week": 5,
@@ -8617,11 +8617,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.3",
-    "player_key": "470.p.100009",
-    "player_name": "Packers",
+    "player_key": "470.p.100017",
+    "player_name": "Patriots",
     "display_position": "DEF",
     "points": 0.0,
-    "season_points": 14.0
+    "season_points": 32.0
   },
   {
     "week": 5,
@@ -8986,15 +8986,6 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.31107",
-    "player_name": "Dalton Schultz",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 31.9
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.10",
     "player_key": "470.p.33413",
     "player_name": "Travis Etienne Jr.",
     "display_position": "RB",
@@ -9040,11 +9031,20 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.29754",
-    "player_name": "Wil Lutz",
+    "player_key": "470.p.41499",
+    "player_name": "Spencer Shrader",
     "display_position": "K",
     "points": 0.0,
-    "season_points": 23.0
+    "season_points": 51.0
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.100007",
+    "player_name": "Broncos",
+    "display_position": "DEF",
+    "points": 0.0,
+    "season_points": 30.0
   },
   {
     "week": 5,
@@ -9337,11 +9337,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.12",
-    "player_key": "470.p.100002",
-    "player_name": "Bills",
+    "player_key": "470.p.100030",
+    "player_name": "Jaguars",
     "display_position": "DEF",
     "points": 0.0,
-    "season_points": 22.0
+    "season_points": 43.0
   },
   {
     "week": 5,
@@ -9463,11 +9463,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.33975",
-    "player_name": "Kenny Pickett",
+    "player_key": "470.p.42845",
+    "player_name": "Athan Kaliakmanis",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 2.0
+    "season_points": 12.04
   },
   {
     "week": 5,
@@ -9490,11 +9490,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.31002",
-    "player_name": "Lamar Jackson",
+    "player_key": "470.p.40881",
+    "player_name": "Drake Maye",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 80.08
+    "season_points": 54.76
   },
   {
     "week": 5,
@@ -9544,6 +9544,24 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.42616",
+    "player_name": "Dohnte Meyers",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 19.4
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.4",
+    "player_key": "470.p.41002",
+    "player_name": "Will Shipley",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 9.5
+  },
+  {
+    "week": 5,
+    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.33415",
     "player_name": "Rashod Bateman",
     "display_position": "WR",
@@ -9553,11 +9571,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.40881",
-    "player_name": "Drake Maye",
+    "player_key": "470.p.31002",
+    "player_name": "Lamar Jackson",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 54.76
+    "season_points": 80.08
   },
   {
     "week": 5,
@@ -9589,24 +9607,6 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.42773",
-    "player_name": "Cyrus Allen",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 0.0
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.31906",
-    "player_name": "Devin Singletary",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 12.7
-  },
-  {
-    "week": 5,
-    "team_key": "470.l.165433.t.4",
     "player_key": "470.p.41087",
     "player_name": "Ryan Flournoy",
     "display_position": "WR",
@@ -9616,11 +9616,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.4",
-    "player_key": "470.p.32858",
-    "player_name": "Tyler Bass",
+    "player_key": "470.p.8432",
+    "player_name": "Nick Folk",
     "display_position": "K",
     "points": 0.0,
-    "season_points": 29.0
+    "season_points": 32.0
   },
   {
     "week": 5,
@@ -10039,11 +10039,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.41881",
-    "player_name": "Kaleb Johnson",
+    "player_key": "470.p.34063",
+    "player_name": "Dameon Pierce",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 7.5
+    "season_points": 0.0
   },
   {
     "week": 5,
@@ -10336,11 +10336,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.30346",
-    "player_name": "Harrison Butker",
-    "display_position": "K",
+    "player_key": "470.p.31945",
+    "player_name": "Justice Hill",
+    "display_position": "RB",
     "points": 0.0,
-    "season_points": 36.0
+    "season_points": 12.9
   },
   {
     "week": 5,
@@ -10471,11 +10471,11 @@
   {
     "week": 5,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41043",
-    "player_name": "Spencer Rattler",
-    "display_position": "QB",
+    "player_key": "470.p.41006",
+    "player_name": "Sione Vaki",
+    "display_position": "RB",
     "points": 0.0,
-    "season_points": 0.0
+    "season_points": 11.2
   },
   {
     "week": 5,
