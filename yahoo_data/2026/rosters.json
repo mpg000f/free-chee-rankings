@@ -10296,11 +10296,11 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.41058",
-    "player_name": "Malik Washington",
+    "player_key": "470.p.99001",
+    "player_name": "Travis Hunter",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 38.7
+    "season_points": 3.0
   },
   {
     "week": 6,
@@ -10310,6 +10310,15 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 15.16
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41058",
+    "player_name": "Malik Washington",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 38.7
   },
   {
     "week": 6,
@@ -10328,15 +10337,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 27.4
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.99001",
-    "player_name": "Travis Hunter",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 3.0
   },
   {
     "week": 6,
@@ -10530,15 +10530,6 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.32671",
-    "player_name": "Joe Burrow",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 103.24
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.15",
     "player_key": "470.p.32711",
     "player_name": "Jonathan Taylor",
     "display_position": "RB",
@@ -10548,20 +10539,11 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.34047",
-    "player_name": "Rachaad White",
+    "player_key": "470.p.33996",
+    "player_name": "Kenneth Walker III",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 28.1
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.31868",
-    "player_name": "Deebo Samuel Sr.",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 52.4
+    "season_points": 104.1
   },
   {
     "week": 6,
@@ -10584,15 +10566,6 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.40952",
-    "player_name": "Roman Wilson",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 37.8
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.15",
     "player_key": "470.p.7200",
     "player_name": "Aaron Rodgers",
     "display_position": "QB",
@@ -10602,20 +10575,47 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.31868",
+    "player_name": "Deebo Samuel Sr.",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 52.4
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.32671",
+    "player_name": "Joe Burrow",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 103.24
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.40952",
+    "player_name": "Roman Wilson",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 37.8
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.15",
+    "player_key": "470.p.34047",
+    "player_name": "Rachaad White",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 28.1
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.15",
     "player_key": "470.p.42638",
     "player_name": "Kenyon Sadiq",
     "display_position": "TE",
     "points": 0.0,
     "season_points": 31.9
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.15",
-    "player_key": "470.p.33996",
-    "player_name": "Kenneth Walker III",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 104.1
   },
   {
     "week": 6,
@@ -10818,11 +10818,11 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.29235",
-    "player_name": "Jared Goff",
+    "player_key": "470.p.41786",
+    "player_name": "Cam Ward",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 115.0
+    "season_points": 64.74
   },
   {
     "week": 6,
@@ -10845,74 +10845,11 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.33500",
-    "player_name": "Amon-Ra St. Brown",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 85.7
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
     "player_key": "470.p.40039",
     "player_name": "Zay Flowers",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 68.8
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.29269",
-    "player_name": "Hunter Henry",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 31.2
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.41969",
-    "player_name": "Ollie Gordon II",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 45.5
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.41786",
-    "player_name": "Cam Ward",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 64.74
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.33413",
-    "player_name": "Travis Etienne Jr.",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 25.4
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.42744",
-    "player_name": "Mike Washington Jr.",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 19.9
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.41052",
-    "player_name": "Kimani Vidal",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 25.2
   },
   {
     "week": 6,
@@ -10926,11 +10863,74 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.29269",
+    "player_name": "Hunter Henry",
+    "display_position": "TE",
+    "points": 0.0,
+    "season_points": 31.2
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
     "player_key": "470.p.40108",
     "player_name": "Kendre Miller",
     "display_position": "RB",
     "points": 0.0,
     "season_points": 21.8
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.42744",
+    "player_name": "Mike Washington Jr.",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 19.9
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.29235",
+    "player_name": "Jared Goff",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 115.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.41969",
+    "player_name": "Ollie Gordon II",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 45.5
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.33500",
+    "player_name": "Amon-Ra St. Brown",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 85.7
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.33413",
+    "player_name": "Travis Etienne Jr.",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 25.4
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.41052",
+    "player_name": "Kimani Vidal",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 25.2
   },
   {
     "week": 6,
@@ -10944,20 +10944,20 @@
   {
     "week": 6,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.100007",
-    "player_name": "Broncos",
-    "display_position": "DEF",
-    "points": 0.0,
-    "season_points": 44.0
-  },
-  {
-    "week": 6,
-    "team_key": "470.l.165433.t.10",
     "player_key": "470.p.100014",
     "player_name": "Rams",
     "display_position": "DEF",
     "points": 0.0,
     "season_points": 27.0
+  },
+  {
+    "week": 6,
+    "team_key": "470.l.165433.t.10",
+    "player_key": "470.p.100007",
+    "player_name": "Broncos",
+    "display_position": "DEF",
+    "points": 0.0,
+    "season_points": 44.0
   },
   {
     "week": 6,

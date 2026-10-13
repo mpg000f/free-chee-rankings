@@ -13783,6 +13783,436 @@
   },
   "2026": {
     "teams": {
+      "470.l.165433.t.8": {
+        "owner": "Mikey",
+        "team_name": "Pelosis Powder",
+        "week1": [
+          {
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "pts": 120.96,
+            "pos_rank": "WR1"
+          },
+          {
+            "name": "Brock Purdy",
+            "pos": "QB",
+            "pts": 118.64,
+            "pos_rank": "QB2"
+          },
+          {
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "pts": 95.8,
+            "pos_rank": "RB5"
+          },
+          {
+            "name": "Malik Nabers",
+            "pos": "WR",
+            "pts": 59.4,
+            "pos_rank": "WR17"
+          },
+          {
+            "name": "Malik Washington",
+            "pos": "WR",
+            "pts": 38.7,
+            "pos_rank": "WR36"
+          },
+          {
+            "name": "Woody Marks",
+            "pos": "RB",
+            "pts": 37.8,
+            "pos_rank": "RB31"
+          },
+          {
+            "name": "Harrison Mevis",
+            "pos": "K",
+            "pts": 29.0,
+            "pos_rank": "K14"
+          },
+          {
+            "name": "Jaxson Dart",
+            "pos": "QB",
+            "pts": 27.4,
+            "pos_rank": "QB36"
+          },
+          {
+            "name": "AJ Barner",
+            "pos": "TE",
+            "pts": 24.3,
+            "pos_rank": "TE20"
+          },
+          {
+            "name": "Terrance Ferguson",
+            "pos": "TE",
+            "pts": 15.8,
+            "pos_rank": "TE26"
+          },
+          {
+            "name": "Emmett Johnson",
+            "pos": "RB",
+            "pts": 15.5,
+            "pos_rank": "RB54"
+          },
+          {
+            "name": "Chris Bell",
+            "pos": "WR",
+            "pts": 14.3,
+            "pos_rank": "WR70"
+          },
+          {
+            "name": "Cowboys",
+            "pos": "DEF",
+            "pts": 13.0,
+            "pos_rank": "DEF17"
+          },
+          {
+            "name": "Kaytron Allen",
+            "pos": "RB",
+            "pts": 4.0,
+            "pos_rank": "RB68"
+          },
+          {
+            "name": "Travis Hunter",
+            "pos": "WR",
+            "pts": 3.0,
+            "pos_rank": "WR88"
+          },
+          {
+            "name": "Zachariah Branch",
+            "pos": "WR",
+            "pts": 2.4,
+            "pos_rank": "WR90"
+          }
+        ],
+        "final": [
+          {
+            "name": "Jaxon Smith-Njigba",
+            "pos": "WR",
+            "pts": 120.96,
+            "pos_rank": "WR1"
+          },
+          {
+            "name": "Brock Purdy",
+            "pos": "QB",
+            "pts": 118.64,
+            "pos_rank": "QB2"
+          },
+          {
+            "name": "Kyren Williams",
+            "pos": "RB",
+            "pts": 95.8,
+            "pos_rank": "RB5"
+          },
+          {
+            "name": "Malik Nabers",
+            "pos": "WR",
+            "pts": 59.4,
+            "pos_rank": "WR18"
+          },
+          {
+            "name": "Malik Washington",
+            "pos": "WR",
+            "pts": 38.7,
+            "pos_rank": "WR41"
+          },
+          {
+            "name": "Woody Marks",
+            "pos": "RB",
+            "pts": 37.8,
+            "pos_rank": "RB31"
+          },
+          {
+            "name": "Harrison Mevis",
+            "pos": "K",
+            "pts": 29.0,
+            "pos_rank": "K16"
+          },
+          {
+            "name": "Jaxson Dart",
+            "pos": "QB",
+            "pts": 27.4,
+            "pos_rank": "QB36"
+          },
+          {
+            "name": "AJ Barner",
+            "pos": "TE",
+            "pts": 24.3,
+            "pos_rank": "TE22"
+          },
+          {
+            "name": "Terrance Ferguson",
+            "pos": "TE",
+            "pts": 15.8,
+            "pos_rank": "TE26"
+          },
+          {
+            "name": "Emmett Johnson",
+            "pos": "RB",
+            "pts": 15.5,
+            "pos_rank": "RB54"
+          },
+          {
+            "name": "Tyson Bagent",
+            "pos": "QB",
+            "pts": 15.16,
+            "pos_rank": "QB39"
+          },
+          {
+            "name": "Chris Bell",
+            "pos": "WR",
+            "pts": 14.3,
+            "pos_rank": "WR71"
+          },
+          {
+            "name": "Cowboys",
+            "pos": "DEF",
+            "pts": 13.0,
+            "pos_rank": "DEF17"
+          },
+          {
+            "name": "Travis Hunter",
+            "pos": "WR",
+            "pts": 3.0,
+            "pos_rank": "WR75"
+          },
+          {
+            "name": "Jake Haener",
+            "pos": "QB",
+            "pts": 0.0,
+            "pos_rank": "QB45"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 5,
+          "losses": 0,
+          "ties": 0,
+          "pf": 571.5,
+          "pa": 514.9,
+          "pf_rank": 8,
+          "pa_rank": 13,
+          "standing": 1,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 108.94,
+          "last_game_opp_pts": 103.54,
+          "last_game_opp": "Gallo"
+        }
+      },
+      "470.l.165433.t.3": {
+        "owner": "TK",
+        "team_name": "Nick Wright Barely Legal",
+        "week1": [
+          {
+            "name": "Josh Allen",
+            "pos": "QB",
+            "pts": 146.46,
+            "pos_rank": "QB1"
+          },
+          {
+            "name": "CeeDee Lamb",
+            "pos": "WR",
+            "pts": 95.6,
+            "pos_rank": "WR3"
+          },
+          {
+            "name": "Davante Adams",
+            "pos": "WR",
+            "pts": 81.6,
+            "pos_rank": "WR5"
+          },
+          {
+            "name": "Chuba Hubbard",
+            "pos": "RB",
+            "pts": 74.0,
+            "pos_rank": "RB10"
+          },
+          {
+            "name": "Aaron Jones Sr.",
+            "pos": "RB",
+            "pts": 64.2,
+            "pos_rank": "RB14"
+          },
+          {
+            "name": "Kyle Monangai",
+            "pos": "RB",
+            "pts": 56.8,
+            "pos_rank": "RB16"
+          },
+          {
+            "name": "Justin Jefferson",
+            "pos": "WR",
+            "pts": 54.2,
+            "pos_rank": "WR19"
+          },
+          {
+            "name": "Jakobi Meyers",
+            "pos": "WR",
+            "pts": 39.9,
+            "pos_rank": "WR32"
+          },
+          {
+            "name": "Eddy Pineiro",
+            "pos": "K",
+            "pts": 31.0,
+            "pos_rank": "K12"
+          },
+          {
+            "name": "RJ Harvey",
+            "pos": "RB",
+            "pts": 28.8,
+            "pos_rank": "RB39"
+          },
+          {
+            "name": "Alec Pierce",
+            "pos": "WR",
+            "pts": 9.7,
+            "pos_rank": "WR74"
+          },
+          {
+            "name": "Chig Okonkwo",
+            "pos": "TE",
+            "pts": 2.6,
+            "pos_rank": "TE28"
+          },
+          {
+            "name": "Tua Tagovailoa",
+            "pos": "QB",
+            "pts": 0.36,
+            "pos_rank": "QB43"
+          },
+          {
+            "name": "Justin Fields",
+            "pos": "QB",
+            "pts": 0.0,
+            "pos_rank": "QB46"
+          },
+          {
+            "name": "Anthony Richardson Sr.",
+            "pos": "QB",
+            "pts": 0.0,
+            "pos_rank": "QB47"
+          },
+          {
+            "name": "Titans",
+            "pos": "DEF",
+            "pts": 0.0,
+            "pos_rank": "DEF32"
+          }
+        ],
+        "final": [
+          {
+            "name": "Josh Allen",
+            "pos": "QB",
+            "pts": 146.46,
+            "pos_rank": "QB1"
+          },
+          {
+            "name": "CeeDee Lamb",
+            "pos": "WR",
+            "pts": 95.6,
+            "pos_rank": "WR3"
+          },
+          {
+            "name": "Davante Adams",
+            "pos": "WR",
+            "pts": 81.6,
+            "pos_rank": "WR5"
+          },
+          {
+            "name": "Chuba Hubbard",
+            "pos": "RB",
+            "pts": 74.0,
+            "pos_rank": "RB11"
+          },
+          {
+            "name": "Aaron Jones Sr.",
+            "pos": "RB",
+            "pts": 64.2,
+            "pos_rank": "RB15"
+          },
+          {
+            "name": "Kyle Monangai",
+            "pos": "RB",
+            "pts": 56.8,
+            "pos_rank": "RB17"
+          },
+          {
+            "name": "Justin Jefferson",
+            "pos": "WR",
+            "pts": 54.2,
+            "pos_rank": "WR20"
+          },
+          {
+            "name": "Mike Gesicki",
+            "pos": "TE",
+            "pts": 45.9,
+            "pos_rank": "TE8"
+          },
+          {
+            "name": "Patriots",
+            "pos": "DEF",
+            "pts": 40.0,
+            "pos_rank": "DEF7"
+          },
+          {
+            "name": "Jakobi Meyers",
+            "pos": "WR",
+            "pts": 39.9,
+            "pos_rank": "WR37"
+          },
+          {
+            "name": "Eddy Pineiro",
+            "pos": "K",
+            "pts": 31.0,
+            "pos_rank": "K14"
+          },
+          {
+            "name": "RJ Harvey",
+            "pos": "RB",
+            "pts": 28.8,
+            "pos_rank": "RB38"
+          },
+          {
+            "name": "Alec Pierce",
+            "pos": "WR",
+            "pts": 9.7,
+            "pos_rank": "WR73"
+          },
+          {
+            "name": "Tua Tagovailoa",
+            "pos": "QB",
+            "pts": 0.36,
+            "pos_rank": "QB42"
+          },
+          {
+            "name": "J.J. McCarthy",
+            "pos": "QB",
+            "pts": 0.2,
+            "pos_rank": "QB43"
+          },
+          {
+            "name": "Justin Fields",
+            "pos": "QB",
+            "pts": 0.0,
+            "pos_rank": "QB46"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 4,
+          "losses": 1,
+          "ties": 0,
+          "pf": 666.16,
+          "pa": 580.34,
+          "pf_rank": 1,
+          "pa_rank": 9,
+          "standing": 2,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 113.3,
+          "last_game_opp_pts": 112.42,
+          "last_game_opp": "Justin"
+        }
+      },
       "470.l.165433.t.15": {
         "owner": "Paul",
         "team_name": "Hello Darkness My Old Friend",
@@ -13791,67 +14221,67 @@
             "name": "Kenneth Walker III",
             "pos": "RB",
             "pts": 104.1,
-            "pos_rank": "RB2"
-          },
-          {
-            "name": "Jonathan Taylor",
-            "pos": "RB",
-            "pts": 81.2,
-            "pos_rank": "RB5"
+            "pos_rank": "RB4"
           },
           {
             "name": "Joe Burrow",
             "pos": "QB",
-            "pts": 78.64,
-            "pos_rank": "QB10"
+            "pts": 103.24,
+            "pos_rank": "QB4"
+          },
+          {
+            "name": "Jonathan Taylor",
+            "pos": "RB",
+            "pts": 90.9,
+            "pos_rank": "RB6"
           },
           {
             "name": "Aaron Rodgers",
             "pos": "QB",
-            "pts": 65.16,
-            "pos_rank": "QB17"
+            "pts": 87.16,
+            "pos_rank": "QB15"
           },
           {
             "name": "Trey McBride",
             "pos": "TE",
-            "pts": 52.7,
-            "pos_rank": "TE2"
-          },
-          {
-            "name": "Deebo Samuel Sr.",
-            "pos": "WR",
-            "pts": 50.9,
-            "pos_rank": "WR11"
+            "pts": 69.8,
+            "pos_rank": "TE1"
           },
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "pts": 47.0,
+            "pts": 54.0,
             "pos_rank": "K2"
           },
           {
-            "name": "Rachaad White",
-            "pos": "RB",
-            "pts": 25.6,
-            "pos_rank": "RB37"
+            "name": "Deebo Samuel Sr.",
+            "pos": "WR",
+            "pts": 52.4,
+            "pos_rank": "WR21"
           },
           {
             "name": "Chris Godwin Jr.",
             "pos": "WR",
-            "pts": 23.7,
-            "pos_rank": "WR52"
+            "pts": 29.2,
+            "pos_rank": "WR50"
+          },
+          {
+            "name": "Rachaad White",
+            "pos": "RB",
+            "pts": 28.1,
+            "pos_rank": "RB41"
           },
           {
             "name": "Kayshon Boutte",
             "pos": "WR",
             "pts": 16.0,
-            "pos_rank": "WR62"
+            "pos_rank": "WR65"
           },
           {
             "name": "Lions",
             "pos": "DEF",
             "pts": 11.0,
-            "pos_rank": "DEF15"
+            "pos_rank": "DEF20"
           },
           {
             "name": "Chris Brooks",
@@ -13863,25 +14293,25 @@
             "name": "Jalen Nailor",
             "pos": "WR",
             "pts": 7.7,
-            "pos_rank": "WR76"
+            "pos_rank": "WR77"
           },
           {
             "name": "Jordyn Tyson",
             "pos": "WR",
             "pts": 0.0,
-            "pos_rank": "WR93"
+            "pos_rank": "WR96"
           },
           {
             "name": "Jauan Jennings",
             "pos": "WR",
             "pts": 0.0,
-            "pos_rank": "WR94"
+            "pos_rank": "WR97"
           },
           {
             "name": "Brashard Smith",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB76"
+            "pos_rank": "RB82"
           }
         ],
         "final": [
@@ -13889,543 +14319,113 @@
             "name": "Kenneth Walker III",
             "pos": "RB",
             "pts": 104.1,
-            "pos_rank": "RB2"
-          },
-          {
-            "name": "Jonathan Taylor",
-            "pos": "RB",
-            "pts": 81.2,
-            "pos_rank": "RB5"
+            "pos_rank": "RB4"
           },
           {
             "name": "Joe Burrow",
             "pos": "QB",
-            "pts": 78.64,
-            "pos_rank": "QB10"
+            "pts": 103.24,
+            "pos_rank": "QB4"
+          },
+          {
+            "name": "Jonathan Taylor",
+            "pos": "RB",
+            "pts": 90.9,
+            "pos_rank": "RB6"
           },
           {
             "name": "Aaron Rodgers",
             "pos": "QB",
-            "pts": 65.16,
-            "pos_rank": "QB17"
+            "pts": 87.16,
+            "pos_rank": "QB15"
           },
           {
             "name": "Trey McBride",
             "pos": "TE",
-            "pts": 52.7,
-            "pos_rank": "TE2"
-          },
-          {
-            "name": "Deebo Samuel Sr.",
-            "pos": "WR",
-            "pts": 50.9,
-            "pos_rank": "WR11"
+            "pts": 69.8,
+            "pos_rank": "TE1"
           },
           {
             "name": "Evan McPherson",
             "pos": "K",
-            "pts": 47.0,
+            "pts": 54.0,
             "pos_rank": "K3"
           },
           {
-            "name": "Raiders",
-            "pos": "DEF",
-            "pts": 42.0,
-            "pos_rank": "DEF3"
+            "name": "Deebo Samuel Sr.",
+            "pos": "WR",
+            "pts": 52.4,
+            "pos_rank": "WR22"
           },
           {
             "name": "Roman Wilson",
             "pos": "WR",
             "pts": 37.8,
-            "pos_rank": "WR27"
+            "pos_rank": "WR42"
+          },
+          {
+            "name": "Raiders",
+            "pos": "DEF",
+            "pts": 36.0,
+            "pos_rank": "DEF11"
           },
           {
             "name": "Kenyon Sadiq",
             "pos": "TE",
-            "pts": 32.6,
-            "pos_rank": "TE14"
-          },
-          {
-            "name": "Rachaad White",
-            "pos": "RB",
-            "pts": 25.6,
-            "pos_rank": "RB36"
+            "pts": 31.9,
+            "pos_rank": "TE19"
           },
           {
             "name": "Chris Godwin Jr.",
             "pos": "WR",
-            "pts": 23.7,
-            "pos_rank": "WR56"
+            "pts": 29.2,
+            "pos_rank": "WR53"
           },
           {
-            "name": "Jalen Nailor",
+            "name": "Antonio Williams",
             "pos": "WR",
-            "pts": 7.7,
-            "pos_rank": "WR75"
+            "pts": 29.0,
+            "pos_rank": "WR54"
+          },
+          {
+            "name": "Rachaad White",
+            "pos": "RB",
+            "pts": 28.1,
+            "pos_rank": "RB40"
           },
           {
             "name": "Seth McGowan",
             "pos": "RB",
-            "pts": 6.2,
-            "pos_rank": "RB63"
+            "pts": 8.6,
+            "pos_rank": "RB62"
           },
           {
             "name": "Mason Rudolph",
             "pos": "QB",
-            "pts": 0.3,
-            "pos_rank": "QB41"
+            "pts": 0.1,
+            "pos_rank": "QB44"
           },
           {
             "name": "Jordyn Tyson",
             "pos": "WR",
             "pts": 0.0,
-            "pos_rank": "WR78"
+            "pos_rank": "WR76"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
           "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "pf": 580.3,
-          "pa": 470.66,
-          "pf_rank": 1,
-          "pa_rank": 7,
-          "standing": 1,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 140.48,
-          "last_game_opp_pts": 123.72,
-          "last_game_opp": "Chris"
-        }
-      },
-      "470.l.165433.t.8": {
-        "owner": "Mikey",
-        "team_name": "Pelosis Powder",
-        "week1": [
-          {
-            "name": "Brock Purdy",
-            "pos": "QB",
-            "pts": 101.48,
-            "pos_rank": "QB2"
-          },
-          {
-            "name": "Jaxon Smith-Njigba",
-            "pos": "WR",
-            "pts": 100.66,
-            "pos_rank": "WR1"
-          },
-          {
-            "name": "Kyren Williams",
-            "pos": "RB",
-            "pts": 79.2,
-            "pos_rank": "RB6"
-          },
-          {
-            "name": "Malik Nabers",
-            "pos": "WR",
-            "pts": 35.8,
-            "pos_rank": "WR28"
-          },
-          {
-            "name": "Malik Washington",
-            "pos": "WR",
-            "pts": 29.6,
-            "pos_rank": "WR40"
-          },
-          {
-            "name": "Jaxson Dart",
-            "pos": "QB",
-            "pts": 27.4,
-            "pos_rank": "QB34"
-          },
-          {
-            "name": "Woody Marks",
-            "pos": "RB",
-            "pts": 27.3,
-            "pos_rank": "RB33"
-          },
-          {
-            "name": "Harrison Mevis",
-            "pos": "K",
-            "pts": 26.0,
-            "pos_rank": "K12"
-          },
-          {
-            "name": "AJ Barner",
-            "pos": "TE",
-            "pts": 20.8,
-            "pos_rank": "TE20"
-          },
-          {
-            "name": "Terrance Ferguson",
-            "pos": "TE",
-            "pts": 15.8,
-            "pos_rank": "TE23"
-          },
-          {
-            "name": "Emmett Johnson",
-            "pos": "RB",
-            "pts": 15.5,
-            "pos_rank": "RB51"
-          },
-          {
-            "name": "Chris Bell",
-            "pos": "WR",
-            "pts": 11.7,
-            "pos_rank": "WR70"
-          },
-          {
-            "name": "Cowboys",
-            "pos": "DEF",
-            "pts": 11.0,
-            "pos_rank": "DEF16"
-          },
-          {
-            "name": "Kaytron Allen",
-            "pos": "RB",
-            "pts": 4.0,
-            "pos_rank": "RB64"
-          },
-          {
-            "name": "Zachariah Branch",
-            "pos": "WR",
-            "pts": 2.4,
-            "pos_rank": "WR87"
-          },
-          {
-            "name": "Travis Hunter",
-            "pos": "WR",
-            "pts": 1.6,
-            "pos_rank": "WR89"
-          }
-        ],
-        "final": [
-          {
-            "name": "Brock Purdy",
-            "pos": "QB",
-            "pts": 101.48,
-            "pos_rank": "QB2"
-          },
-          {
-            "name": "Jaxon Smith-Njigba",
-            "pos": "WR",
-            "pts": 100.66,
-            "pos_rank": "WR1"
-          },
-          {
-            "name": "Kyren Williams",
-            "pos": "RB",
-            "pts": 79.2,
-            "pos_rank": "RB6"
-          },
-          {
-            "name": "Malik Nabers",
-            "pos": "WR",
-            "pts": 35.8,
-            "pos_rank": "WR31"
-          },
-          {
-            "name": "Malik Washington",
-            "pos": "WR",
-            "pts": 29.6,
-            "pos_rank": "WR45"
-          },
-          {
-            "name": "Jaxson Dart",
-            "pos": "QB",
-            "pts": 27.4,
-            "pos_rank": "QB34"
-          },
-          {
-            "name": "Woody Marks",
-            "pos": "RB",
-            "pts": 27.3,
-            "pos_rank": "RB33"
-          },
-          {
-            "name": "Harrison Mevis",
-            "pos": "K",
-            "pts": 26.0,
-            "pos_rank": "K12"
-          },
-          {
-            "name": "AJ Barner",
-            "pos": "TE",
-            "pts": 20.8,
-            "pos_rank": "TE20"
-          },
-          {
-            "name": "Terrance Ferguson",
-            "pos": "TE",
-            "pts": 15.8,
-            "pos_rank": "TE22"
-          },
-          {
-            "name": "Emmett Johnson",
-            "pos": "RB",
-            "pts": 15.5,
-            "pos_rank": "RB49"
-          },
-          {
-            "name": "Tyson Bagent",
-            "pos": "QB",
-            "pts": 11.98,
-            "pos_rank": "QB39"
-          },
-          {
-            "name": "Chris Bell",
-            "pos": "WR",
-            "pts": 11.7,
-            "pos_rank": "WR72"
-          },
-          {
-            "name": "Cowboys",
-            "pos": "DEF",
-            "pts": 11.0,
-            "pos_rank": "DEF17"
-          },
-          {
-            "name": "Travis Hunter",
-            "pos": "WR",
-            "pts": 1.6,
-            "pos_rank": "WR77"
-          },
-          {
-            "name": "Jake Haener",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB42"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 4,
-          "losses": 0,
-          "ties": 0,
-          "pf": 462.56,
-          "pa": 411.36,
-          "pf_rank": 7,
-          "pa_rank": 13,
-          "standing": 2,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 118.84,
-          "last_game_opp_pts": 110.12,
-          "last_game_opp": "Joey"
-        }
-      },
-      "470.l.165433.t.3": {
-        "owner": "TK",
-        "team_name": "Nick Wright Barely Legal",
-        "week1": [
-          {
-            "name": "Josh Allen",
-            "pos": "QB",
-            "pts": 114.96,
-            "pos_rank": "QB1"
-          },
-          {
-            "name": "CeeDee Lamb",
-            "pos": "WR",
-            "pts": 93.7,
-            "pos_rank": "WR2"
-          },
-          {
-            "name": "Chuba Hubbard",
-            "pos": "RB",
-            "pts": 74.0,
-            "pos_rank": "RB8"
-          },
-          {
-            "name": "Davante Adams",
-            "pos": "WR",
-            "pts": 62.0,
-            "pos_rank": "WR6"
-          },
-          {
-            "name": "Kyle Monangai",
-            "pos": "RB",
-            "pts": 56.8,
-            "pos_rank": "RB11"
-          },
-          {
-            "name": "Aaron Jones Sr.",
-            "pos": "RB",
-            "pts": 47.0,
-            "pos_rank": "RB16"
-          },
-          {
-            "name": "Justin Jefferson",
-            "pos": "WR",
-            "pts": 38.4,
-            "pos_rank": "WR23"
-          },
-          {
-            "name": "Jakobi Meyers",
-            "pos": "WR",
-            "pts": 35.2,
-            "pos_rank": "WR31"
-          },
-          {
-            "name": "RJ Harvey",
-            "pos": "RB",
-            "pts": 28.1,
-            "pos_rank": "RB32"
-          },
-          {
-            "name": "Eddy Pineiro",
-            "pos": "K",
-            "pts": 24.0,
-            "pos_rank": "K15"
-          },
-          {
-            "name": "Alec Pierce",
-            "pos": "WR",
-            "pts": 9.7,
-            "pos_rank": "WR73"
-          },
-          {
-            "name": "Chig Okonkwo",
-            "pos": "TE",
-            "pts": 2.6,
-            "pos_rank": "TE27"
-          },
-          {
-            "name": "Tua Tagovailoa",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB44"
-          },
-          {
-            "name": "Justin Fields",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB45"
-          },
-          {
-            "name": "Anthony Richardson Sr.",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB46"
-          },
-          {
-            "name": "Titans",
-            "pos": "DEF",
-            "pts": 0.0,
-            "pos_rank": "DEF30"
-          }
-        ],
-        "final": [
-          {
-            "name": "Josh Allen",
-            "pos": "QB",
-            "pts": 114.96,
-            "pos_rank": "QB1"
-          },
-          {
-            "name": "CeeDee Lamb",
-            "pos": "WR",
-            "pts": 93.7,
-            "pos_rank": "WR2"
-          },
-          {
-            "name": "Chuba Hubbard",
-            "pos": "RB",
-            "pts": 74.0,
-            "pos_rank": "RB8"
-          },
-          {
-            "name": "Davante Adams",
-            "pos": "WR",
-            "pts": 62.0,
-            "pos_rank": "WR6"
-          },
-          {
-            "name": "Kyle Monangai",
-            "pos": "RB",
-            "pts": 56.8,
-            "pos_rank": "RB13"
-          },
-          {
-            "name": "Aaron Jones Sr.",
-            "pos": "RB",
-            "pts": 47.0,
-            "pos_rank": "RB17"
-          },
-          {
-            "name": "Mike Gesicki",
-            "pos": "TE",
-            "pts": 39.0,
-            "pos_rank": "TE9"
-          },
-          {
-            "name": "Justin Jefferson",
-            "pos": "WR",
-            "pts": 38.4,
-            "pos_rank": "WR25"
-          },
-          {
-            "name": "Jakobi Meyers",
-            "pos": "WR",
-            "pts": 35.2,
-            "pos_rank": "WR34"
-          },
-          {
-            "name": "Patriots",
-            "pos": "DEF",
-            "pts": 32.0,
-            "pos_rank": "DEF8"
-          },
-          {
-            "name": "RJ Harvey",
-            "pos": "RB",
-            "pts": 28.1,
-            "pos_rank": "RB32"
-          },
-          {
-            "name": "Eddy Pineiro",
-            "pos": "K",
-            "pts": 24.0,
-            "pos_rank": "K15"
-          },
-          {
-            "name": "Alec Pierce",
-            "pos": "WR",
-            "pts": 9.7,
-            "pos_rank": "WR74"
-          },
-          {
-            "name": "Tua Tagovailoa",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB43"
-          },
-          {
-            "name": "Justin Fields",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB44"
-          },
-          {
-            "name": "J.J. McCarthy",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB45"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 3,
           "losses": 1,
           "ties": 0,
-          "pf": 552.86,
-          "pa": 467.92,
+          "pf": 664.2,
+          "pa": 610.3,
           "pf_rank": 2,
-          "pa_rank": 8,
+          "pa_rank": 2,
           "standing": 3,
           "playoff_finish": "In Progress",
-          "last_game_pts": 154.22,
-          "last_game_opp_pts": 125.46,
-          "last_game_opp": "Gallo"
+          "last_game_pts": 83.9,
+          "last_game_opp_pts": 139.64,
+          "last_game_opp": "Connor"
         }
       },
       "470.l.165433.t.1": {
@@ -14435,92 +14435,92 @@
           {
             "name": "Derrick Henry",
             "pos": "RB",
-            "pts": 87.3,
-            "pos_rank": "RB4"
-          },
-          {
-            "name": "Jalen Hurts",
-            "pos": "QB",
-            "pts": 70.02,
-            "pos_rank": "QB11"
+            "pts": 107.8,
+            "pos_rank": "RB3"
           },
           {
             "name": "Christian Watson",
             "pos": "WR",
-            "pts": 67.1,
-            "pos_rank": "WR5"
+            "pts": 96.4,
+            "pos_rank": "WR2"
+          },
+          {
+            "name": "Jalen Hurts",
+            "pos": "QB",
+            "pts": 83.02,
+            "pos_rank": "QB17"
           },
           {
             "name": "D'Andre Swift",
             "pos": "RB",
-            "pts": 58.5,
-            "pos_rank": "RB10"
+            "pts": 73.8,
+            "pos_rank": "RB11"
           },
           {
             "name": "Parker Washington",
             "pos": "WR",
-            "pts": 43.1,
-            "pos_rank": "WR21"
+            "pts": 70.5,
+            "pos_rank": "WR8"
+          },
+          {
+            "name": "Ka'imi Fairbairn",
+            "pos": "K",
+            "pts": 54.0,
+            "pos_rank": "K3"
+          },
+          {
+            "name": "Jaylen Waddle",
+            "pos": "WR",
+            "pts": 39.7,
+            "pos_rank": "WR33"
+          },
+          {
+            "name": "Tony Pollard",
+            "pos": "RB",
+            "pts": 39.7,
+            "pos_rank": "RB29"
+          },
+          {
+            "name": "Tucker Kraft",
+            "pos": "TE",
+            "pts": 37.7,
+            "pos_rank": "TE12"
           },
           {
             "name": "Baker Mayfield",
             "pos": "QB",
             "pts": 37.1,
-            "pos_rank": "QB28"
-          },
-          {
-            "name": "Ka'imi Fairbairn",
-            "pos": "K",
-            "pts": 37.0,
-            "pos_rank": "K8"
-          },
-          {
-            "name": "Jaylen Waddle",
-            "pos": "WR",
-            "pts": 35.9,
-            "pos_rank": "WR27"
-          },
-          {
-            "name": "Carnell Tate",
-            "pos": "WR",
-            "pts": 35.8,
-            "pos_rank": "WR29"
+            "pos_rank": "QB32"
           },
           {
             "name": "Bears",
             "pos": "DEF",
-            "pts": 35.0,
-            "pos_rank": "DEF3"
+            "pts": 37.0,
+            "pos_rank": "DEF5"
           },
           {
-            "name": "Tony Pollard",
-            "pos": "RB",
-            "pts": 34.5,
-            "pos_rank": "RB27"
-          },
-          {
-            "name": "Tucker Kraft",
-            "pos": "TE",
-            "pts": 28.6,
-            "pos_rank": "TE17"
+            "name": "Carnell Tate",
+            "pos": "WR",
+            "pts": 36.9,
+            "pos_rank": "WR37"
           },
           {
             "name": "Tyler Allgeier",
             "pos": "RB",
-            "pts": 25.7,
-            "pos_rank": "RB36"
+            "pts": 28.3,
+            "pos_rank": "RB40"
+          },
+          {
+            "name": "Jalon Daniels",
+            "pos": "QB",
+            "pts": 27.18,
+            "pos_rank": "QB37"
           },
           {
             "name": "Marvin Harrison Jr.",
             "pos": "WR",
             "pts": 17.0,
-            "pos_rank": "WR59"
-          },
-          {
-            "name": "Jalon Daniels",
-            "pos": "QB",
-            "pts": 13.32,
-            "pos_rank": "QB37"
+            "pos_rank": "WR61"
           },
           {
             "name": "Andy Dalton",
@@ -14533,92 +14533,92 @@
           {
             "name": "Derrick Henry",
             "pos": "RB",
-            "pts": 87.3,
-            "pos_rank": "RB4"
-          },
-          {
-            "name": "Jalen Hurts",
-            "pos": "QB",
-            "pts": 70.02,
-            "pos_rank": "QB11"
+            "pts": 107.8,
+            "pos_rank": "RB3"
           },
           {
             "name": "Christian Watson",
             "pos": "WR",
-            "pts": 67.1,
-            "pos_rank": "WR5"
+            "pts": 96.4,
+            "pos_rank": "WR2"
+          },
+          {
+            "name": "Jalen Hurts",
+            "pos": "QB",
+            "pts": 83.02,
+            "pos_rank": "QB17"
           },
           {
             "name": "D'Andre Swift",
             "pos": "RB",
-            "pts": 58.5,
+            "pts": 73.8,
             "pos_rank": "RB12"
           },
           {
             "name": "Parker Washington",
             "pos": "WR",
-            "pts": 43.1,
-            "pos_rank": "WR21"
+            "pts": 70.5,
+            "pos_rank": "WR8"
+          },
+          {
+            "name": "Ka'imi Fairbairn",
+            "pos": "K",
+            "pts": 54.0,
+            "pos_rank": "K4"
+          },
+          {
+            "name": "Jaylen Waddle",
+            "pos": "WR",
+            "pts": 39.7,
+            "pos_rank": "WR38"
+          },
+          {
+            "name": "Tony Pollard",
+            "pos": "RB",
+            "pts": 39.7,
+            "pos_rank": "RB30"
+          },
+          {
+            "name": "Tucker Kraft",
+            "pos": "TE",
+            "pts": 37.7,
+            "pos_rank": "TE13"
           },
           {
             "name": "Baker Mayfield",
             "pos": "QB",
             "pts": 37.1,
-            "pos_rank": "QB28"
-          },
-          {
-            "name": "Ka'imi Fairbairn",
-            "pos": "K",
-            "pts": 37.0,
-            "pos_rank": "K9"
-          },
-          {
-            "name": "Jaylen Waddle",
-            "pos": "WR",
-            "pts": 35.9,
-            "pos_rank": "WR30"
-          },
-          {
-            "name": "Carnell Tate",
-            "pos": "WR",
-            "pts": 35.8,
-            "pos_rank": "WR32"
+            "pos_rank": "QB32"
           },
           {
             "name": "Bears",
             "pos": "DEF",
-            "pts": 35.0,
-            "pos_rank": "DEF6"
+            "pts": 37.0,
+            "pos_rank": "DEF10"
           },
           {
-            "name": "Tony Pollard",
-            "pos": "RB",
-            "pts": 34.5,
-            "pos_rank": "RB28"
-          },
-          {
-            "name": "Tucker Kraft",
-            "pos": "TE",
-            "pts": 28.6,
-            "pos_rank": "TE18"
+            "name": "Carnell Tate",
+            "pos": "WR",
+            "pts": 36.9,
+            "pos_rank": "WR43"
           },
           {
             "name": "Tyler Allgeier",
             "pos": "RB",
-            "pts": 25.7,
-            "pos_rank": "RB35"
+            "pts": 28.3,
+            "pos_rank": "RB39"
+          },
+          {
+            "name": "Jalon Daniels",
+            "pos": "QB",
+            "pts": 27.18,
+            "pos_rank": "QB37"
           },
           {
             "name": "Marvin Harrison Jr.",
             "pos": "WR",
             "pts": 17.0,
-            "pos_rank": "WR65"
-          },
-          {
-            "name": "Jalon Daniels",
-            "pos": "QB",
-            "pts": 13.32,
-            "pos_rank": "QB37"
+            "pos_rank": "WR67"
           },
           {
             "name": "Andy Dalton",
@@ -14627,20 +14627,235 @@
             "pos_rank": "QB50"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
-          "wins": 3,
+          "wins": 4,
           "losses": 1,
           "ties": 0,
-          "pf": 500.14,
-          "pa": 371.92,
-          "pf_rank": 5,
-          "pa_rank": 15,
+          "pf": 651.4,
+          "pa": 506.46,
+          "pf_rank": 3,
+          "pa_rank": 16,
           "standing": 4,
           "playoff_finish": "In Progress",
-          "last_game_pts": 104.44,
-          "last_game_opp_pts": 130.8,
-          "last_game_opp": "Justin"
+          "last_game_pts": 151.26,
+          "last_game_opp_pts": 134.54,
+          "last_game_opp": "Deez"
+        }
+      },
+      "470.l.165433.t.10": {
+        "owner": "Connor",
+        "team_name": "Healthy as a Fucking Rhino",
+        "week1": [
+          {
+            "name": "Jared Goff",
+            "pos": "QB",
+            "pts": 115.0,
+            "pos_rank": "QB3"
+          },
+          {
+            "name": "Amon-Ra St. Brown",
+            "pos": "WR",
+            "pts": 85.7,
+            "pos_rank": "WR4"
+          },
+          {
+            "name": "Zay Flowers",
+            "pos": "WR",
+            "pts": 68.8,
+            "pos_rank": "WR9"
+          },
+          {
+            "name": "Cam Ward",
+            "pos": "QB",
+            "pts": 64.74,
+            "pos_rank": "QB22"
+          },
+          {
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "pts": 47.1,
+            "pos_rank": "RB21"
+          },
+          {
+            "name": "Ollie Gordon II",
+            "pos": "RB",
+            "pts": 45.5,
+            "pos_rank": "RB24"
+          },
+          {
+            "name": "Braelon Allen",
+            "pos": "RB",
+            "pts": 41.0,
+            "pos_rank": "RB28"
+          },
+          {
+            "name": "Dalton Schultz",
+            "pos": "TE",
+            "pts": 31.9,
+            "pos_rank": "TE16"
+          },
+          {
+            "name": "Hunter Henry",
+            "pos": "TE",
+            "pts": 31.2,
+            "pos_rank": "TE17"
+          },
+          {
+            "name": "Rams",
+            "pos": "DEF",
+            "pts": 27.0,
+            "pos_rank": "DEF9"
+          },
+          {
+            "name": "Travis Etienne Jr.",
+            "pos": "RB",
+            "pts": 25.4,
+            "pos_rank": "RB44"
+          },
+          {
+            "name": "Kimani Vidal",
+            "pos": "RB",
+            "pts": 25.2,
+            "pos_rank": "RB45"
+          },
+          {
+            "name": "Wil Lutz",
+            "pos": "K",
+            "pts": 23.0,
+            "pos_rank": "K16"
+          },
+          {
+            "name": "Mike Washington Jr.",
+            "pos": "RB",
+            "pts": 19.9,
+            "pos_rank": "RB50"
+          },
+          {
+            "name": "Jaylin Noel",
+            "pos": "WR",
+            "pts": 14.7,
+            "pos_rank": "WR68"
+          },
+          {
+            "name": "Troy Franklin",
+            "pos": "WR",
+            "pts": 0.5,
+            "pos_rank": "WR95"
+          }
+        ],
+        "final": [
+          {
+            "name": "Jared Goff",
+            "pos": "QB",
+            "pts": 115.0,
+            "pos_rank": "QB3"
+          },
+          {
+            "name": "Amon-Ra St. Brown",
+            "pos": "WR",
+            "pts": 85.7,
+            "pos_rank": "WR4"
+          },
+          {
+            "name": "Spencer Shrader",
+            "pos": "K",
+            "pts": 72.0,
+            "pos_rank": "K1"
+          },
+          {
+            "name": "Zay Flowers",
+            "pos": "WR",
+            "pts": 68.8,
+            "pos_rank": "WR9"
+          },
+          {
+            "name": "Cam Ward",
+            "pos": "QB",
+            "pts": 64.74,
+            "pos_rank": "QB22"
+          },
+          {
+            "name": "Omarion Hampton",
+            "pos": "RB",
+            "pts": 47.1,
+            "pos_rank": "RB23"
+          },
+          {
+            "name": "Ollie Gordon II",
+            "pos": "RB",
+            "pts": 45.5,
+            "pos_rank": "RB26"
+          },
+          {
+            "name": "Broncos",
+            "pos": "DEF",
+            "pts": 44.0,
+            "pos_rank": "DEF4"
+          },
+          {
+            "name": "Keon Coleman",
+            "pos": "WR",
+            "pts": 41.9,
+            "pos_rank": "WR31"
+          },
+          {
+            "name": "Braelon Allen",
+            "pos": "RB",
+            "pts": 41.0,
+            "pos_rank": "RB29"
+          },
+          {
+            "name": "Hunter Henry",
+            "pos": "TE",
+            "pts": 31.2,
+            "pos_rank": "TE20"
+          },
+          {
+            "name": "Rams",
+            "pos": "DEF",
+            "pts": 27.0,
+            "pos_rank": "DEF14"
+          },
+          {
+            "name": "Travis Etienne Jr.",
+            "pos": "RB",
+            "pts": 25.4,
+            "pos_rank": "RB43"
+          },
+          {
+            "name": "Kimani Vidal",
+            "pos": "RB",
+            "pts": 25.2,
+            "pos_rank": "RB44"
+          },
+          {
+            "name": "Kendre Miller",
+            "pos": "RB",
+            "pts": 21.8,
+            "pos_rank": "RB46"
+          },
+          {
+            "name": "Mike Washington Jr.",
+            "pos": "RB",
+            "pts": 19.9,
+            "pos_rank": "RB49"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 4,
+          "losses": 1,
+          "ties": 0,
+          "pf": 586.44,
+          "pa": 534.64,
+          "pf_rank": 7,
+          "pa_rank": 12,
+          "standing": 5,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 139.64,
+          "last_game_opp_pts": 83.9,
+          "last_game_opp": "Paul"
         }
       },
       "470.l.165433.t.14": {
@@ -14648,94 +14863,94 @@
         "team_name": "Pigs on the 7th Rank",
         "week1": [
           {
+            "name": "Trevor Lawrence",
+            "pos": "QB",
+            "pts": 89.86,
+            "pos_rank": "QB12"
+          },
+          {
             "name": "Patrick Mahomes",
             "pos": "QB",
             "pts": 85.58,
-            "pos_rank": "QB6"
-          },
-          {
-            "name": "Trevor Lawrence",
-            "pos": "QB",
-            "pts": 67.12,
-            "pos_rank": "QB15"
-          },
-          {
-            "name": "Will Reichard",
-            "pos": "K",
-            "pts": 52.0,
-            "pos_rank": "K1"
+            "pos_rank": "QB16"
           },
           {
             "name": "Jaylen Warren",
             "pos": "RB",
-            "pts": 49.7,
-            "pos_rank": "RB13"
+            "pts": 83.5,
+            "pos_rank": "RB9"
           },
           {
-            "name": "Juwan Johnson",
-            "pos": "TE",
-            "pts": 49.7,
-            "pos_rank": "TE3"
+            "name": "Will Reichard",
+            "pos": "K",
+            "pts": 68.0,
+            "pos_rank": "K1"
           },
           {
             "name": "Denzel Boston",
             "pos": "WR",
-            "pts": 48.9,
-            "pos_rank": "WR14"
-          },
-          {
-            "name": "David Montgomery",
-            "pos": "RB",
-            "pts": 40.9,
-            "pos_rank": "RB20"
+            "pts": 61.0,
+            "pos_rank": "WR16"
           },
           {
             "name": "Brock Bowers",
             "pos": "TE",
-            "pts": 40.2,
-            "pos_rank": "TE8"
+            "pts": 59.2,
+            "pos_rank": "TE5"
           },
           {
-            "name": "DK Metcalf",
-            "pos": "WR",
-            "pts": 35.3,
-            "pos_rank": "WR30"
-          },
-          {
-            "name": "Mark Andrews",
+            "name": "Juwan Johnson",
             "pos": "TE",
-            "pts": 29.9,
-            "pos_rank": "TE14"
+            "pts": 53.3,
+            "pos_rank": "TE7"
           },
           {
             "name": "Michael Penix Jr.",
             "pos": "QB",
-            "pts": 27.76,
-            "pos_rank": "QB33"
+            "pts": 42.16,
+            "pos_rank": "QB30"
+          },
+          {
+            "name": "David Montgomery",
+            "pos": "RB",
+            "pts": 42.0,
+            "pos_rank": "RB27"
+          },
+          {
+            "name": "DK Metcalf",
+            "pos": "WR",
+            "pts": 39.1,
+            "pos_rank": "WR34"
+          },
+          {
+            "name": "Mark Andrews",
+            "pos": "TE",
+            "pts": 32.7,
+            "pos_rank": "TE15"
           },
           {
             "name": "Brian Thomas Jr.",
             "pos": "WR",
             "pts": 21.0,
-            "pos_rank": "WR56"
+            "pos_rank": "WR59"
           },
           {
             "name": "Jaguars",
             "pos": "DEF",
             "pts": 17.0,
-            "pos_rank": "DEF10"
+            "pos_rank": "DEF14"
           },
           {
             "name": "Josh Jacobs",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB78"
+            "pos_rank": "RB83"
           },
           {
             "name": "Kaleb Johnson",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB79"
+            "pos_rank": "RB84"
           },
           {
             "name": "Nick Mullens",
@@ -14746,94 +14961,94 @@
         ],
         "final": [
           {
+            "name": "Trevor Lawrence",
+            "pos": "QB",
+            "pts": 89.86,
+            "pos_rank": "QB12"
+          },
+          {
             "name": "Patrick Mahomes",
             "pos": "QB",
             "pts": 85.58,
-            "pos_rank": "QB6"
-          },
-          {
-            "name": "Trevor Lawrence",
-            "pos": "QB",
-            "pts": 67.12,
-            "pos_rank": "QB15"
-          },
-          {
-            "name": "Will Reichard",
-            "pos": "K",
-            "pts": 52.0,
-            "pos_rank": "K1"
+            "pos_rank": "QB16"
           },
           {
             "name": "Jaylen Warren",
             "pos": "RB",
-            "pts": 49.7,
-            "pos_rank": "RB14"
+            "pts": 83.5,
+            "pos_rank": "RB9"
           },
           {
-            "name": "Juwan Johnson",
-            "pos": "TE",
-            "pts": 49.7,
-            "pos_rank": "TE3"
+            "name": "Will Reichard",
+            "pos": "K",
+            "pts": 68.0,
+            "pos_rank": "K2"
           },
           {
             "name": "Denzel Boston",
             "pos": "WR",
-            "pts": 48.9,
-            "pos_rank": "WR14"
-          },
-          {
-            "name": "David Montgomery",
-            "pos": "RB",
-            "pts": 40.9,
-            "pos_rank": "RB21"
+            "pts": 61.0,
+            "pos_rank": "WR17"
           },
           {
             "name": "Brock Bowers",
             "pos": "TE",
-            "pts": 40.2,
-            "pos_rank": "TE8"
+            "pts": 59.2,
+            "pos_rank": "TE5"
           },
           {
-            "name": "DK Metcalf",
-            "pos": "WR",
-            "pts": 35.3,
-            "pos_rank": "WR33"
-          },
-          {
-            "name": "Mark Andrews",
+            "name": "Juwan Johnson",
             "pos": "TE",
-            "pts": 29.9,
-            "pos_rank": "TE16"
+            "pts": 53.3,
+            "pos_rank": "TE7"
           },
           {
             "name": "Michael Penix Jr.",
             "pos": "QB",
-            "pts": 27.76,
-            "pos_rank": "QB33"
+            "pts": 42.16,
+            "pos_rank": "QB30"
+          },
+          {
+            "name": "David Montgomery",
+            "pos": "RB",
+            "pts": 42.0,
+            "pos_rank": "RB28"
+          },
+          {
+            "name": "DK Metcalf",
+            "pos": "WR",
+            "pts": 39.1,
+            "pos_rank": "WR39"
+          },
+          {
+            "name": "Mark Andrews",
+            "pos": "TE",
+            "pts": 32.7,
+            "pos_rank": "TE18"
           },
           {
             "name": "Keenan Allen",
             "pos": "WR",
-            "pts": 22.5,
-            "pos_rank": "WR60"
+            "pts": 29.5,
+            "pos_rank": "WR52"
+          },
+          {
+            "name": "Lions",
+            "pos": "DEF",
+            "pts": 27.0,
+            "pos_rank": "DEF15"
           },
           {
             "name": "Brian Thomas Jr.",
             "pos": "WR",
             "pts": 21.0,
-            "pos_rank": "WR63"
-          },
-          {
-            "name": "Lions",
-            "pos": "DEF",
-            "pts": 19.0,
-            "pos_rank": "DEF15"
+            "pos_rank": "WR65"
           },
           {
             "name": "Josh Jacobs",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB67"
+            "pos_rank": "RB68"
           },
           {
             "name": "Nick Mullens",
@@ -14842,664 +15057,19 @@
             "pos_rank": "QB49"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
           "wins": 3,
-          "losses": 1,
+          "losses": 2,
           "ties": 0,
-          "pf": 475.9,
-          "pa": 361.54,
+          "pf": 610.44,
+          "pa": 512.8,
           "pf_rank": 6,
-          "pa_rank": 16,
-          "standing": 5,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 121.88,
-          "last_game_opp_pts": 57.86,
-          "last_game_opp": "Ger"
-        }
-      },
-      "470.l.165433.t.10": {
-        "owner": "Connor",
-        "team_name": "Healthy as a Fucking Rhino",
-        "week1": [
-          {
-            "name": "Jared Goff",
-            "pos": "QB",
-            "pts": 86.06,
-            "pos_rank": "QB5"
-          },
-          {
-            "name": "Amon-Ra St. Brown",
-            "pos": "WR",
-            "pts": 75.8,
-            "pos_rank": "WR3"
-          },
-          {
-            "name": "Cam Ward",
-            "pos": "QB",
-            "pts": 58.74,
-            "pos_rank": "QB21"
-          },
-          {
-            "name": "Zay Flowers",
-            "pos": "WR",
-            "pts": 58.2,
-            "pos_rank": "WR9"
-          },
-          {
-            "name": "Omarion Hampton",
-            "pos": "RB",
-            "pts": 42.7,
-            "pos_rank": "RB19"
-          },
-          {
-            "name": "Dalton Schultz",
-            "pos": "TE",
-            "pts": 31.9,
-            "pos_rank": "TE12"
-          },
-          {
-            "name": "Ollie Gordon II",
-            "pos": "RB",
-            "pts": 30.7,
-            "pos_rank": "RB28"
-          },
-          {
-            "name": "Rams",
-            "pos": "DEF",
-            "pts": 26.0,
-            "pos_rank": "DEF6"
-          },
-          {
-            "name": "Travis Etienne Jr.",
-            "pos": "RB",
-            "pts": 25.4,
-            "pos_rank": "RB38"
-          },
-          {
-            "name": "Wil Lutz",
-            "pos": "K",
-            "pts": 23.0,
-            "pos_rank": "K16"
-          },
-          {
-            "name": "Braelon Allen",
-            "pos": "RB",
-            "pts": 22.9,
-            "pos_rank": "RB39"
-          },
-          {
-            "name": "Hunter Henry",
-            "pos": "TE",
-            "pts": 19.3,
-            "pos_rank": "TE21"
-          },
-          {
-            "name": "Mike Washington Jr.",
-            "pos": "RB",
-            "pts": 18.4,
-            "pos_rank": "RB47"
-          },
-          {
-            "name": "Jaylin Noel",
-            "pos": "WR",
-            "pts": 14.7,
-            "pos_rank": "WR64"
-          },
-          {
-            "name": "Kimani Vidal",
-            "pos": "RB",
-            "pts": 13.1,
-            "pos_rank": "RB53"
-          },
-          {
-            "name": "Troy Franklin",
-            "pos": "WR",
-            "pts": 0.5,
-            "pos_rank": "WR92"
-          }
-        ],
-        "final": [
-          {
-            "name": "Jared Goff",
-            "pos": "QB",
-            "pts": 86.06,
-            "pos_rank": "QB5"
-          },
-          {
-            "name": "Amon-Ra St. Brown",
-            "pos": "WR",
-            "pts": 75.8,
-            "pos_rank": "WR3"
-          },
-          {
-            "name": "Cam Ward",
-            "pos": "QB",
-            "pts": 58.74,
-            "pos_rank": "QB21"
-          },
-          {
-            "name": "Zay Flowers",
-            "pos": "WR",
-            "pts": 58.2,
-            "pos_rank": "WR9"
-          },
-          {
-            "name": "Spencer Shrader",
-            "pos": "K",
-            "pts": 51.0,
-            "pos_rank": "K2"
-          },
-          {
-            "name": "Omarion Hampton",
-            "pos": "RB",
-            "pts": 42.7,
-            "pos_rank": "RB20"
-          },
-          {
-            "name": "Keon Coleman",
-            "pos": "WR",
-            "pts": 34.7,
-            "pos_rank": "WR35"
-          },
-          {
-            "name": "Ollie Gordon II",
-            "pos": "RB",
-            "pts": 30.7,
-            "pos_rank": "RB29"
-          },
-          {
-            "name": "Broncos",
-            "pos": "DEF",
-            "pts": 30.0,
-            "pos_rank": "DEF9"
-          },
-          {
-            "name": "Rams",
-            "pos": "DEF",
-            "pts": 26.0,
-            "pos_rank": "DEF10"
-          },
-          {
-            "name": "Travis Etienne Jr.",
-            "pos": "RB",
-            "pts": 25.4,
-            "pos_rank": "RB37"
-          },
-          {
-            "name": "Braelon Allen",
-            "pos": "RB",
-            "pts": 22.9,
-            "pos_rank": "RB38"
-          },
-          {
-            "name": "Hunter Henry",
-            "pos": "TE",
-            "pts": 19.3,
-            "pos_rank": "TE21"
-          },
-          {
-            "name": "Mike Washington Jr.",
-            "pos": "RB",
-            "pts": 18.4,
-            "pos_rank": "RB45"
-          },
-          {
-            "name": "Kimani Vidal",
-            "pos": "RB",
-            "pts": 13.1,
-            "pos_rank": "RB51"
-          },
-          {
-            "name": "Kendre Miller",
-            "pos": "RB",
-            "pts": 12.8,
-            "pos_rank": "RB55"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 3,
-          "losses": 1,
-          "ties": 0,
-          "pf": 446.8,
-          "pa": 450.74,
-          "pf_rank": 8,
-          "pa_rank": 11,
+          "pa_rank": 15,
           "standing": 6,
           "playoff_finish": "In Progress",
-          "last_game_pts": 117.96,
-          "last_game_opp_pts": 114.2,
-          "last_game_opp": "Boyle"
-        }
-      },
-      "470.l.165433.t.2": {
-        "owner": "Boyle",
-        "team_name": "Shough and F#ck",
-        "week1": [
-          {
-            "name": "Jahmyr Gibbs",
-            "pos": "RB",
-            "pts": 105.0,
-            "pos_rank": "RB1"
-          },
-          {
-            "name": "Tyler Shough",
-            "pos": "QB",
-            "pts": 88.32,
-            "pos_rank": "QB4"
-          },
-          {
-            "name": "Vikings",
-            "pos": "DEF",
-            "pts": 56.0,
-            "pos_rank": "DEF1"
-          },
-          {
-            "name": "Justin Herbert",
-            "pos": "QB",
-            "pts": 49.44,
-            "pos_rank": "QB23"
-          },
-          {
-            "name": "Bhayshul Tuten",
-            "pos": "RB",
-            "pts": 48.6,
-            "pos_rank": "RB14"
-          },
-          {
-            "name": "Michael Wilson",
-            "pos": "WR",
-            "pts": 44.3,
-            "pos_rank": "WR18"
-          },
-          {
-            "name": "Jalen Coker",
-            "pos": "WR",
-            "pts": 43.2,
-            "pos_rank": "WR20"
-          },
-          {
-            "name": "Harold Fannin Jr.",
-            "pos": "TE",
-            "pts": 41.8,
-            "pos_rank": "TE7"
-          },
-          {
-            "name": "Cam Little",
-            "pos": "K",
-            "pts": 39.0,
-            "pos_rank": "K3"
-          },
-          {
-            "name": "Jacory Croskey-Merritt",
-            "pos": "RB",
-            "pts": 28.2,
-            "pos_rank": "RB31"
-          },
-          {
-            "name": "Khalil Shakir",
-            "pos": "WR",
-            "pts": 23.1,
-            "pos_rank": "WR54"
-          },
-          {
-            "name": "Chris Rodriguez Jr.",
-            "pos": "RB",
-            "pts": 22.8,
-            "pos_rank": "RB40"
-          },
-          {
-            "name": "KC Concepcion Jr.",
-            "pos": "WR",
-            "pts": 21.8,
-            "pos_rank": "WR55"
-          },
-          {
-            "name": "Jayden Reed",
-            "pos": "WR",
-            "pts": 4.4,
-            "pos_rank": "WR83"
-          },
-          {
-            "name": "De'Zhaun Stribling",
-            "pos": "WR",
-            "pts": 0.0,
-            "pos_rank": "WR97"
-          },
-          {
-            "name": "Jalen McMillan",
-            "pos": "WR",
-            "pts": 0.0,
-            "pos_rank": "WR98"
-          }
-        ],
-        "final": [
-          {
-            "name": "Jahmyr Gibbs",
-            "pos": "RB",
-            "pts": 105.0,
-            "pos_rank": "RB1"
-          },
-          {
-            "name": "Tyler Shough",
-            "pos": "QB",
-            "pts": 88.32,
-            "pos_rank": "QB4"
-          },
-          {
-            "name": "Vikings",
-            "pos": "DEF",
-            "pts": 56.0,
-            "pos_rank": "DEF1"
-          },
-          {
-            "name": "Justin Herbert",
-            "pos": "QB",
-            "pts": 49.44,
-            "pos_rank": "QB23"
-          },
-          {
-            "name": "Bhayshul Tuten",
-            "pos": "RB",
-            "pts": 48.6,
-            "pos_rank": "RB15"
-          },
-          {
-            "name": "Michael Wilson",
-            "pos": "WR",
-            "pts": 44.3,
-            "pos_rank": "WR18"
-          },
-          {
-            "name": "Jalen Coker",
-            "pos": "WR",
-            "pts": 43.2,
-            "pos_rank": "WR20"
-          },
-          {
-            "name": "Harold Fannin Jr.",
-            "pos": "TE",
-            "pts": 41.8,
-            "pos_rank": "TE7"
-          },
-          {
-            "name": "Cam Little",
-            "pos": "K",
-            "pts": 39.0,
-            "pos_rank": "K4"
-          },
-          {
-            "name": "Kalif Raymond",
-            "pos": "WR",
-            "pts": 38.5,
-            "pos_rank": "WR24"
-          },
-          {
-            "name": "Jacory Croskey-Merritt",
-            "pos": "RB",
-            "pts": 28.2,
-            "pos_rank": "RB31"
-          },
-          {
-            "name": "Khalil Shakir",
-            "pos": "WR",
-            "pts": 23.1,
-            "pos_rank": "WR58"
-          },
-          {
-            "name": "Chris Rodriguez Jr.",
-            "pos": "RB",
-            "pts": 22.8,
-            "pos_rank": "RB39"
-          },
-          {
-            "name": "Malachi Fields",
-            "pos": "WR",
-            "pts": 22.6,
-            "pos_rank": "WR59"
-          },
-          {
-            "name": "KC Concepcion Jr.",
-            "pos": "WR",
-            "pts": 21.8,
-            "pos_rank": "WR62"
-          },
-          {
-            "name": "Isaiah Davis",
-            "pos": "RB",
-            "pts": 0.0,
-            "pos_rank": "RB68"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "pf": 527.26,
-          "pa": 427.02,
-          "pf_rank": 3,
-          "pa_rank": 12,
-          "standing": 7,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 114.2,
-          "last_game_opp_pts": 117.96,
-          "last_game_opp": "Connor"
-        }
-      },
-      "470.l.165433.t.12": {
-        "owner": "Justin",
-        "team_name": "Phenom",
-        "week1": [
-          {
-            "name": "Bijan Robinson",
-            "pos": "RB",
-            "pts": 98.4,
-            "pos_rank": "RB3"
-          },
-          {
-            "name": "Matthew Stafford",
-            "pos": "QB",
-            "pts": 66.66,
-            "pos_rank": "QB16"
-          },
-          {
-            "name": "Sam Darnold",
-            "pos": "QB",
-            "pts": 43.5,
-            "pos_rank": "QB26"
-          },
-          {
-            "name": "Jake Bates",
-            "pos": "K",
-            "pts": 39.0,
-            "pos_rank": "K4"
-          },
-          {
-            "name": "Tre Tucker",
-            "pos": "WR",
-            "pts": 36.8,
-            "pos_rank": "WR26"
-          },
-          {
-            "name": "T.J. Hockenson",
-            "pos": "TE",
-            "pts": 36.5,
-            "pos_rank": "TE11"
-          },
-          {
-            "name": "Drew Lock",
-            "pos": "QB",
-            "pts": 34.18,
-            "pos_rank": "QB30"
-          },
-          {
-            "name": "Ashton Jeanty",
-            "pos": "RB",
-            "pts": 29.7,
-            "pos_rank": "RB29"
-          },
-          {
-            "name": "Brenton Strange",
-            "pos": "TE",
-            "pts": 29.7,
-            "pos_rank": "TE15"
-          },
-          {
-            "name": "George Holani",
-            "pos": "RB",
-            "pts": 15.7,
-            "pos_rank": "RB49"
-          },
-          {
-            "name": "Mike Evans",
-            "pos": "WR",
-            "pts": 13.9,
-            "pos_rank": "WR66"
-          },
-          {
-            "name": "Jonah Coleman",
-            "pos": "RB",
-            "pts": 13.3,
-            "pos_rank": "RB52"
-          },
-          {
-            "name": "Wan'Dale Robinson",
-            "pos": "WR",
-            "pts": 6.3,
-            "pos_rank": "WR79"
-          },
-          {
-            "name": "Keenan Allen",
-            "pos": "WR",
-            "pts": 6.2,
-            "pos_rank": "WR80"
-          },
-          {
-            "name": "Chargers",
-            "pos": "DEF",
-            "pts": 6.0,
-            "pos_rank": "DEF24"
-          },
-          {
-            "name": "Dylan Sampson",
-            "pos": "RB",
-            "pts": 0.0,
-            "pos_rank": "RB81"
-          }
-        ],
-        "final": [
-          {
-            "name": "Bijan Robinson",
-            "pos": "RB",
-            "pts": 98.4,
-            "pos_rank": "RB3"
-          },
-          {
-            "name": "Matthew Stafford",
-            "pos": "QB",
-            "pts": 66.66,
-            "pos_rank": "QB16"
-          },
-          {
-            "name": "Christian McCaffrey",
-            "pos": "RB",
-            "pts": 66.0,
-            "pos_rank": "RB9"
-          },
-          {
-            "name": "Sam Darnold",
-            "pos": "QB",
-            "pts": 43.5,
-            "pos_rank": "QB26"
-          },
-          {
-            "name": "Jaguars",
-            "pos": "DEF",
-            "pts": 43.0,
-            "pos_rank": "DEF2"
-          },
-          {
-            "name": "Jake Bates",
-            "pos": "K",
-            "pts": 39.0,
-            "pos_rank": "K5"
-          },
-          {
-            "name": "Tre Tucker",
-            "pos": "WR",
-            "pts": 36.8,
-            "pos_rank": "WR29"
-          },
-          {
-            "name": "T.J. Hockenson",
-            "pos": "TE",
-            "pts": 36.5,
-            "pos_rank": "TE12"
-          },
-          {
-            "name": "Drew Lock",
-            "pos": "QB",
-            "pts": 34.18,
-            "pos_rank": "QB30"
-          },
-          {
-            "name": "Brenton Strange",
-            "pos": "TE",
-            "pts": 29.7,
-            "pos_rank": "TE17"
-          },
-          {
-            "name": "Emeka Egbuka",
-            "pos": "WR",
-            "pts": 28.6,
-            "pos_rank": "WR47"
-          },
-          {
-            "name": "Isaac TeSlaa",
-            "pos": "WR",
-            "pts": 23.2,
-            "pos_rank": "WR57"
-          },
-          {
-            "name": "Cooper Kupp",
-            "pos": "WR",
-            "pts": 21.9,
-            "pos_rank": "WR61"
-          },
-          {
-            "name": "George Holani",
-            "pos": "RB",
-            "pts": 15.7,
-            "pos_rank": "RB47"
-          },
-          {
-            "name": "Jonah Coleman",
-            "pos": "RB",
-            "pts": 13.3,
-            "pos_rank": "RB50"
-          },
-          {
-            "name": "Makai Lemon",
-            "pos": "WR",
-            "pts": 11.0,
-            "pos_rank": "WR73"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 2,
-          "losses": 2,
-          "ties": 0,
-          "pf": 501.76,
-          "pa": 477.82,
-          "pf_rank": 4,
-          "pa_rank": 4,
-          "standing": 8,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 130.8,
-          "last_game_opp_pts": 104.44,
+          "last_game_pts": 134.54,
+          "last_game_opp_pts": 151.26,
           "last_game_opp": "TJ"
         }
       },
@@ -15508,94 +15078,94 @@
         "team_name": "BEST Margarita Recipe",
         "week1": [
           {
-            "name": "Chris Olave",
-            "pos": "WR",
-            "pts": 72.6,
-            "pos_rank": "WR4"
-          },
-          {
             "name": "Jacoby Brissett",
             "pos": "QB",
-            "pts": 62.02,
-            "pos_rank": "QB18"
+            "pts": 87.8,
+            "pos_rank": "QB14"
+          },
+          {
+            "name": "Chris Olave",
+            "pos": "WR",
+            "pts": 79.2,
+            "pos_rank": "WR6"
+          },
+          {
+            "name": "Bucky Irving",
+            "pos": "RB",
+            "pts": 71.2,
+            "pos_rank": "RB12"
+          },
+          {
+            "name": "Drake London",
+            "pos": "WR",
+            "pts": 62.7,
+            "pos_rank": "WR12"
           },
           {
             "name": "Tetairoa McMillan",
             "pos": "WR",
             "pts": 61.5,
-            "pos_rank": "WR7"
+            "pos_rank": "WR15"
           },
           {
-            "name": "Drake London",
-            "pos": "WR",
-            "pts": 47.4,
-            "pos_rank": "WR15"
+            "name": "Jameis Winston",
+            "pos": "QB",
+            "pts": 55.4,
+            "pos_rank": "QB26"
           },
           {
             "name": "Quinshon Judkins",
             "pos": "RB",
-            "pts": 40.8,
-            "pos_rank": "RB21"
+            "pts": 47.3,
+            "pos_rank": "RB20"
           },
           {
-            "name": "Bucky Irving",
+            "name": "Texans",
+            "pos": "DEF",
+            "pts": 39.0,
+            "pos_rank": "DEF4"
+          },
+          {
+            "name": "Blake Corum",
             "pos": "RB",
-            "pts": 40.7,
-            "pos_rank": "RB22"
+            "pts": 34.9,
+            "pos_rank": "RB34"
           },
           {
             "name": "Rashee Rice",
             "pos": "WR",
             "pts": 31.5,
-            "pos_rank": "WR34"
+            "pos_rank": "WR45"
+          },
+          {
+            "name": "Cameron Dicker",
+            "pos": "K",
+            "pts": 31.0,
+            "pos_rank": "K13"
           },
           {
             "name": "Ladd McConkey",
             "pos": "WR",
             "pts": 30.3,
-            "pos_rank": "WR39"
+            "pos_rank": "WR48"
           },
           {
-            "name": "Jameis Winston",
+            "name": "Tyler Huntley",
             "pos": "QB",
-            "pts": 29.66,
-            "pos_rank": "QB32"
-          },
-          {
-            "name": "Cameron Dicker",
-            "pos": "K",
-            "pts": 25.0,
-            "pos_rank": "K14"
-          },
-          {
-            "name": "Texans",
-            "pos": "DEF",
-            "pts": 21.0,
-            "pos_rank": "DEF8"
-          },
-          {
-            "name": "Blake Corum",
-            "pos": "RB",
-            "pts": 20.2,
-            "pos_rank": "RB45"
+            "pts": 28.16,
+            "pos_rank": "QB35"
           },
           {
             "name": "Colston Loveland",
             "pos": "TE",
-            "pts": 14.6,
-            "pos_rank": "TE24"
+            "pts": 17.5,
+            "pos_rank": "TE25"
           },
           {
             "name": "Cooper Rush",
             "pos": "QB",
             "pts": 8.16,
-            "pos_rank": "QB39"
-          },
-          {
-            "name": "Tyler Huntley",
-            "pos": "QB",
-            "pts": 4.12,
-            "pos_rank": "QB41"
+            "pos_rank": "QB40"
           },
           {
             "name": "Carson Beck",
@@ -15606,116 +15176,546 @@
         ],
         "final": [
           {
-            "name": "Chris Olave",
-            "pos": "WR",
-            "pts": 72.6,
-            "pos_rank": "WR4"
-          },
-          {
             "name": "Jacoby Brissett",
             "pos": "QB",
-            "pts": 62.02,
-            "pos_rank": "QB18"
+            "pts": 87.8,
+            "pos_rank": "QB14"
+          },
+          {
+            "name": "Chris Olave",
+            "pos": "WR",
+            "pts": 79.2,
+            "pos_rank": "WR6"
+          },
+          {
+            "name": "Bucky Irving",
+            "pos": "RB",
+            "pts": 71.2,
+            "pos_rank": "RB14"
+          },
+          {
+            "name": "Drake London",
+            "pos": "WR",
+            "pts": 62.7,
+            "pos_rank": "WR13"
           },
           {
             "name": "Tetairoa McMillan",
             "pos": "WR",
             "pts": 61.5,
-            "pos_rank": "WR7"
+            "pos_rank": "WR16"
           },
           {
-            "name": "Drake London",
-            "pos": "WR",
-            "pts": 47.4,
-            "pos_rank": "WR15"
+            "name": "Jameis Winston",
+            "pos": "QB",
+            "pts": 55.4,
+            "pos_rank": "QB26"
           },
           {
             "name": "Quinshon Judkins",
             "pos": "RB",
-            "pts": 40.8,
+            "pts": 47.3,
             "pos_rank": "RB22"
           },
           {
-            "name": "Bucky Irving",
+            "name": "Texans",
+            "pos": "DEF",
+            "pts": 39.0,
+            "pos_rank": "DEF9"
+          },
+          {
+            "name": "Blake Corum",
             "pos": "RB",
-            "pts": 40.7,
-            "pos_rank": "RB23"
+            "pts": 34.9,
+            "pos_rank": "RB34"
           },
           {
             "name": "Rashee Rice",
             "pos": "WR",
             "pts": 31.5,
-            "pos_rank": "WR39"
+            "pos_rank": "WR48"
+          },
+          {
+            "name": "Cameron Dicker",
+            "pos": "K",
+            "pts": 31.0,
+            "pos_rank": "K15"
           },
           {
             "name": "Ladd McConkey",
             "pos": "WR",
             "pts": 30.3,
-            "pos_rank": "WR42"
+            "pos_rank": "WR49"
           },
           {
-            "name": "Jameis Winston",
+            "name": "Tyler Huntley",
             "pos": "QB",
-            "pts": 29.66,
-            "pos_rank": "QB32"
-          },
-          {
-            "name": "Cameron Dicker",
-            "pos": "K",
-            "pts": 25.0,
-            "pos_rank": "K14"
-          },
-          {
-            "name": "Texans",
-            "pos": "DEF",
-            "pts": 21.0,
-            "pos_rank": "DEF14"
-          },
-          {
-            "name": "Blake Corum",
-            "pos": "RB",
-            "pts": 20.2,
-            "pos_rank": "RB43"
+            "pts": 28.16,
+            "pos_rank": "QB35"
           },
           {
             "name": "Colston Loveland",
             "pos": "TE",
-            "pts": 14.6,
-            "pos_rank": "TE23"
+            "pts": 17.5,
+            "pos_rank": "TE25"
           },
           {
             "name": "Athan Kaliakmanis",
             "pos": "QB",
             "pts": 12.04,
-            "pos_rank": "QB38"
-          },
-          {
-            "name": "Tyler Huntley",
-            "pos": "QB",
-            "pts": 4.12,
             "pos_rank": "QB40"
           },
           {
             "name": "Carson Beck",
             "pos": "QB",
             "pts": 0.0,
-            "pos_rank": "QB46"
+            "pos_rank": "QB47"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
-          "wins": 2,
+          "wins": 3,
           "losses": 2,
           "ties": 0,
-          "pf": 389.9,
-          "pa": 381.38,
+          "pf": 525.52,
+          "pa": 513.08,
           "pf_rank": 13,
           "pa_rank": 14,
+          "standing": 7,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 135.62,
+          "last_game_opp_pts": 131.7,
+          "last_game_opp": "Joey"
+        }
+      },
+      "470.l.165433.t.2": {
+        "owner": "Boyle",
+        "team_name": "Shough and F#ck",
+        "week1": [
+          {
+            "name": "Jahmyr Gibbs",
+            "pos": "RB",
+            "pts": 140.2,
+            "pos_rank": "RB1"
+          },
+          {
+            "name": "Tyler Shough",
+            "pos": "QB",
+            "pts": 90.16,
+            "pos_rank": "QB11"
+          },
+          {
+            "name": "Vikings",
+            "pos": "DEF",
+            "pts": 68.0,
+            "pos_rank": "DEF1"
+          },
+          {
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "pts": 60.68,
+            "pos_rank": "QB25"
+          },
+          {
+            "name": "Bhayshul Tuten",
+            "pos": "RB",
+            "pts": 59.2,
+            "pos_rank": "RB15"
+          },
+          {
+            "name": "Michael Wilson",
+            "pos": "WR",
+            "pts": 49.58,
+            "pos_rank": "WR24"
+          },
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "pts": 45.0,
+            "pos_rank": "K8"
+          },
+          {
+            "name": "Jalen Coker",
+            "pos": "WR",
+            "pts": 43.2,
+            "pos_rank": "WR28"
+          },
+          {
+            "name": "Harold Fannin Jr.",
+            "pos": "TE",
+            "pts": 42.7,
+            "pos_rank": "TE9"
+          },
+          {
+            "name": "Jacory Croskey-Merritt",
+            "pos": "RB",
+            "pts": 42.4,
+            "pos_rank": "RB26"
+          },
+          {
+            "name": "Khalil Shakir",
+            "pos": "WR",
+            "pts": 32.6,
+            "pos_rank": "WR43"
+          },
+          {
+            "name": "Chris Rodriguez Jr.",
+            "pos": "RB",
+            "pts": 24.4,
+            "pos_rank": "RB46"
+          },
+          {
+            "name": "KC Concepcion Jr.",
+            "pos": "WR",
+            "pts": 22.8,
+            "pos_rank": "WR57"
+          },
+          {
+            "name": "Jayden Reed",
+            "pos": "WR",
+            "pts": 4.4,
+            "pos_rank": "WR85"
+          },
+          {
+            "name": "De'Zhaun Stribling",
+            "pos": "WR",
+            "pts": 0.0,
+            "pos_rank": "WR99"
+          },
+          {
+            "name": "Jalen McMillan",
+            "pos": "WR",
+            "pts": 0.0,
+            "pos_rank": "WR100"
+          }
+        ],
+        "final": [
+          {
+            "name": "Jahmyr Gibbs",
+            "pos": "RB",
+            "pts": 140.2,
+            "pos_rank": "RB1"
+          },
+          {
+            "name": "Tyler Shough",
+            "pos": "QB",
+            "pts": 90.16,
+            "pos_rank": "QB11"
+          },
+          {
+            "name": "Vikings",
+            "pos": "DEF",
+            "pts": 68.0,
+            "pos_rank": "DEF1"
+          },
+          {
+            "name": "Justin Herbert",
+            "pos": "QB",
+            "pts": 60.68,
+            "pos_rank": "QB25"
+          },
+          {
+            "name": "Bhayshul Tuten",
+            "pos": "RB",
+            "pts": 59.2,
+            "pos_rank": "RB16"
+          },
+          {
+            "name": "Michael Wilson",
+            "pos": "WR",
+            "pts": 49.58,
+            "pos_rank": "WR24"
+          },
+          {
+            "name": "Cam Little",
+            "pos": "K",
+            "pts": 45.0,
+            "pos_rank": "K10"
+          },
+          {
+            "name": "Jalen Coker",
+            "pos": "WR",
+            "pts": 43.2,
+            "pos_rank": "WR28"
+          },
+          {
+            "name": "Harold Fannin Jr.",
+            "pos": "TE",
+            "pts": 42.7,
+            "pos_rank": "TE10"
+          },
+          {
+            "name": "Jacory Croskey-Merritt",
+            "pos": "RB",
+            "pts": 42.4,
+            "pos_rank": "RB27"
+          },
+          {
+            "name": "Kalif Raymond",
+            "pos": "WR",
+            "pts": 40.4,
+            "pos_rank": "WR35"
+          },
+          {
+            "name": "Khalil Shakir",
+            "pos": "WR",
+            "pts": 32.6,
+            "pos_rank": "WR47"
+          },
+          {
+            "name": "Malachi Fields",
+            "pos": "WR",
+            "pts": 25.6,
+            "pos_rank": "WR59"
+          },
+          {
+            "name": "Chris Rodriguez Jr.",
+            "pos": "RB",
+            "pts": 24.4,
+            "pos_rank": "RB45"
+          },
+          {
+            "name": "KC Concepcion Jr.",
+            "pos": "WR",
+            "pts": 22.8,
+            "pos_rank": "WR62"
+          },
+          {
+            "name": "Kaleb Johnson",
+            "pos": "RB",
+            "pts": 10.1,
+            "pos_rank": "RB60"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "pf": 634.02,
+          "pa": 554.5,
+          "pf_rank": 4,
+          "pa_rank": 11,
+          "standing": 8,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 106.76,
+          "last_game_opp_pts": 127.48,
+          "last_game_opp": "Ger"
+        }
+      },
+      "470.l.165433.t.12": {
+        "owner": "Justin",
+        "team_name": "Phenom",
+        "week1": [
+          {
+            "name": "Bijan Robinson",
+            "pos": "RB",
+            "pts": 112.2,
+            "pos_rank": "RB2"
+          },
+          {
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "pts": 93.98,
+            "pos_rank": "QB8"
+          },
+          {
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "pts": 53.8,
+            "pos_rank": "QB27"
+          },
+          {
+            "name": "Jake Bates",
+            "pos": "K",
+            "pts": 49.0,
+            "pos_rank": "K6"
+          },
+          {
+            "name": "Tre Tucker",
+            "pos": "WR",
+            "pts": 42.3,
+            "pos_rank": "WR29"
+          },
+          {
+            "name": "Brenton Strange",
+            "pos": "TE",
+            "pts": 40.0,
+            "pos_rank": "TE11"
+          },
+          {
+            "name": "T.J. Hockenson",
+            "pos": "TE",
+            "pts": 37.7,
+            "pos_rank": "TE13"
+          },
+          {
+            "name": "Drew Lock",
+            "pos": "QB",
+            "pts": 34.18,
+            "pos_rank": "QB34"
+          },
+          {
+            "name": "Ashton Jeanty",
+            "pos": "RB",
+            "pts": 29.7,
+            "pos_rank": "RB38"
+          },
+          {
+            "name": "George Holani",
+            "pos": "RB",
+            "pts": 18.8,
+            "pos_rank": "RB51"
+          },
+          {
+            "name": "Mike Evans",
+            "pos": "WR",
+            "pts": 13.9,
+            "pos_rank": "WR71"
+          },
+          {
+            "name": "Jonah Coleman",
+            "pos": "RB",
+            "pts": 13.3,
+            "pos_rank": "RB56"
+          },
+          {
+            "name": "Wan'Dale Robinson",
+            "pos": "WR",
+            "pts": 6.3,
+            "pos_rank": "WR81"
+          },
+          {
+            "name": "Keenan Allen",
+            "pos": "WR",
+            "pts": 6.2,
+            "pos_rank": "WR82"
+          },
+          {
+            "name": "Chargers",
+            "pos": "DEF",
+            "pts": 6.0,
+            "pos_rank": "DEF26"
+          },
+          {
+            "name": "Dylan Sampson",
+            "pos": "RB",
+            "pts": 0.0,
+            "pos_rank": "RB86"
+          }
+        ],
+        "final": [
+          {
+            "name": "Bijan Robinson",
+            "pos": "RB",
+            "pts": 112.2,
+            "pos_rank": "RB2"
+          },
+          {
+            "name": "Matthew Stafford",
+            "pos": "QB",
+            "pts": 93.98,
+            "pos_rank": "QB8"
+          },
+          {
+            "name": "Christian McCaffrey",
+            "pos": "RB",
+            "pts": 81.8,
+            "pos_rank": "RB10"
+          },
+          {
+            "name": "Sam Darnold",
+            "pos": "QB",
+            "pts": 53.8,
+            "pos_rank": "QB27"
+          },
+          {
+            "name": "Jake Bates",
+            "pos": "K",
+            "pts": 49.0,
+            "pos_rank": "K8"
+          },
+          {
+            "name": "Jaguars",
+            "pos": "DEF",
+            "pts": 47.0,
+            "pos_rank": "DEF3"
+          },
+          {
+            "name": "Emeka Egbuka",
+            "pos": "WR",
+            "pts": 42.8,
+            "pos_rank": "WR29"
+          },
+          {
+            "name": "Tre Tucker",
+            "pos": "WR",
+            "pts": 42.3,
+            "pos_rank": "WR30"
+          },
+          {
+            "name": "Brenton Strange",
+            "pos": "TE",
+            "pts": 40.0,
+            "pos_rank": "TE12"
+          },
+          {
+            "name": "T.J. Hockenson",
+            "pos": "TE",
+            "pts": 37.7,
+            "pos_rank": "TE14"
+          },
+          {
+            "name": "Drew Lock",
+            "pos": "QB",
+            "pts": 34.18,
+            "pos_rank": "QB34"
+          },
+          {
+            "name": "Cooper Kupp",
+            "pos": "WR",
+            "pts": 24.4,
+            "pos_rank": "WR60"
+          },
+          {
+            "name": "Isaac TeSlaa",
+            "pos": "WR",
+            "pts": 23.2,
+            "pos_rank": "WR61"
+          },
+          {
+            "name": "George Holani",
+            "pos": "RB",
+            "pts": 18.8,
+            "pos_rank": "RB50"
+          },
+          {
+            "name": "Makai Lemon",
+            "pos": "WR",
+            "pts": 17.8,
+            "pos_rank": "WR66"
+          },
+          {
+            "name": "Jonah Coleman",
+            "pos": "RB",
+            "pts": 13.3,
+            "pos_rank": "RB56"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "pf": 614.18,
+          "pa": 591.12,
+          "pf_rank": 5,
+          "pa_rank": 5,
           "standing": 9,
           "playoff_finish": "In Progress",
-          "last_game_pts": 110.54,
-          "last_game_opp_pts": 88.2,
-          "last_game_opp": "Sweeney"
+          "last_game_pts": 112.42,
+          "last_game_opp_pts": 113.3,
+          "last_game_opp": "TK"
         }
       },
       "470.l.165433.t.4": {
@@ -15723,429 +15723,214 @@
         "team_name": "Charles Dickens",
         "week1": [
           {
+            "name": "Drake Maye",
+            "pos": "QB",
+            "pts": 94.22,
+            "pos_rank": "QB7"
+          },
+          {
             "name": "Lamar Jackson",
             "pos": "QB",
             "pts": 80.08,
-            "pos_rank": "QB9"
-          },
-          {
-            "name": "Drake Maye",
-            "pos": "QB",
-            "pts": 54.76,
-            "pos_rank": "QB22"
+            "pos_rank": "QB19"
           },
           {
             "name": "Matthew Golden",
             "pos": "WR",
-            "pts": 49.0,
-            "pos_rank": "WR13"
-          },
-          {
-            "name": "Chase Brown",
-            "pos": "RB",
-            "pts": 47.5,
-            "pos_rank": "RB15"
-          },
-          {
-            "name": "Dalton Kincaid",
-            "pos": "TE",
-            "pts": 38.5,
-            "pos_rank": "TE9"
-          },
-          {
-            "name": "Romeo Doubs",
-            "pos": "WR",
-            "pts": 38.3,
-            "pos_rank": "WR24"
+            "pts": 66.3,
+            "pos_rank": "WR11"
           },
           {
             "name": "Rhamondre Stevenson",
             "pos": "RB",
-            "pts": 37.3,
-            "pos_rank": "RB25"
-          },
-          {
-            "name": "Rashod Bateman",
-            "pos": "WR",
-            "pts": 28.6,
-            "pos_rank": "WR42"
-          },
-          {
-            "name": "Pat Bryant",
-            "pos": "WR",
-            "pts": 27.4,
-            "pos_rank": "WR45"
-          },
-          {
-            "name": "Chris Boswell",
-            "pos": "K",
-            "pts": 27.0,
-            "pos_rank": "K11"
-          },
-          {
-            "name": "Tank Bigsby",
-            "pos": "RB",
-            "pts": 15.6,
-            "pos_rank": "RB50"
-          },
-          {
-            "name": "Bills",
-            "pos": "DEF",
-            "pts": 7.0,
-            "pos_rank": "DEF22"
-          },
-          {
-            "name": "A.J. Brown",
-            "pos": "WR",
-            "pts": 4.1,
-            "pos_rank": "WR84"
-          },
-          {
-            "name": "Ja'Kobi Lane",
-            "pos": "WR",
-            "pts": 1.6,
-            "pos_rank": "WR90"
-          },
-          {
-            "name": "Cyrus Allen",
-            "pos": "WR",
-            "pts": 0.0,
-            "pos_rank": "WR99"
-          },
-          {
-            "name": "Tyrone Tracy Jr.",
-            "pos": "RB",
-            "pts": -0.6,
-            "pos_rank": "RB87"
-          }
-        ],
-        "final": [
-          {
-            "name": "Lamar Jackson",
-            "pos": "QB",
-            "pts": 80.08,
-            "pos_rank": "QB9"
-          },
-          {
-            "name": "Drake Maye",
-            "pos": "QB",
-            "pts": 54.76,
-            "pos_rank": "QB22"
-          },
-          {
-            "name": "Matthew Golden",
-            "pos": "WR",
-            "pts": 49.0,
-            "pos_rank": "WR13"
+            "pts": 53.3,
+            "pos_rank": "RB17"
           },
           {
             "name": "Chase Brown",
             "pos": "RB",
-            "pts": 47.5,
-            "pos_rank": "RB16"
+            "pts": 53.0,
+            "pos_rank": "RB18"
           },
           {
             "name": "Dalton Kincaid",
             "pos": "TE",
-            "pts": 38.5,
+            "pts": 41.7,
             "pos_rank": "TE10"
           },
           {
             "name": "Romeo Doubs",
             "pos": "WR",
-            "pts": 38.3,
-            "pos_rank": "WR26"
-          },
-          {
-            "name": "Rhamondre Stevenson",
-            "pos": "RB",
-            "pts": 37.3,
-            "pos_rank": "RB26"
-          },
-          {
-            "name": "Nick Folk",
-            "pos": "K",
-            "pts": 32.0,
-            "pos_rank": "K11"
+            "pts": 40.4,
+            "pos_rank": "WR31"
           },
           {
             "name": "Rashod Bateman",
             "pos": "WR",
             "pts": 28.6,
-            "pos_rank": "WR48"
+            "pos_rank": "WR51"
           },
           {
             "name": "Pat Bryant",
             "pos": "WR",
             "pts": 27.4,
-            "pos_rank": "WR51"
+            "pos_rank": "WR54"
           },
           {
-            "name": "Browns",
-            "pos": "DEF",
-            "pts": 26.0,
-            "pos_rank": "DEF11"
-          },
-          {
-            "name": "Dohnte Meyers",
-            "pos": "WR",
-            "pts": 19.4,
-            "pos_rank": "WR64"
-          },
-          {
-            "name": "Ryan Flournoy",
-            "pos": "WR",
-            "pts": 16.9,
-            "pos_rank": "WR66"
+            "name": "Chris Boswell",
+            "pos": "K",
+            "pts": 27.0,
+            "pos_rank": "K15"
           },
           {
             "name": "Tank Bigsby",
             "pos": "RB",
             "pts": 15.6,
-            "pos_rank": "RB48"
+            "pos_rank": "RB53"
           },
           {
-            "name": "Will Shipley",
-            "pos": "RB",
-            "pts": 9.5,
-            "pos_rank": "RB59"
+            "name": "Bills",
+            "pos": "DEF",
+            "pts": 7.0,
+            "pos_rank": "DEF24"
           },
           {
             "name": "A.J. Brown",
             "pos": "WR",
             "pts": 4.1,
-            "pos_rank": "WR76"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "pf": 433.44,
-          "pa": 471.0,
-          "pf_rank": 9,
-          "pa_rank": 6,
-          "standing": 10,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 131.34,
-          "last_game_opp_pts": 88.24,
-          "last_game_opp": "Matt"
-        }
-      },
-      "470.l.165433.t.5": {
-        "owner": "Gallo",
-        "team_name": "Free Paid",
-        "week1": [
-          {
-            "name": "Kirk Cousins",
-            "pos": "QB",
-            "pts": 82.84,
-            "pos_rank": "QB7"
+            "pos_rank": "WR86"
           },
           {
-            "name": "Deshaun Watson",
-            "pos": "QB",
-            "pts": 68.9,
-            "pos_rank": "QB12"
-          },
-          {
-            "name": "Bo Nix",
-            "pos": "QB",
-            "pts": 60.26,
-            "pos_rank": "QB19"
-          },
-          {
-            "name": "Tee Higgins",
+            "name": "Ja'Kobi Lane",
             "pos": "WR",
-            "pts": 58.6,
-            "pos_rank": "WR8"
+            "pts": 1.6,
+            "pos_rank": "WR93"
           },
           {
-            "name": "Sam LaPorta",
-            "pos": "TE",
-            "pts": 45.8,
-            "pos_rank": "TE4"
-          },
-          {
-            "name": "DeVonta Smith",
+            "name": "Cyrus Allen",
             "pos": "WR",
-            "pts": 39.0,
-            "pos_rank": "WR22"
+            "pts": 0.0,
+            "pos_rank": "WR101"
           },
           {
-            "name": "Tyler Loop",
-            "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K5"
-          },
-          {
-            "name": "Jameson Williams",
-            "pos": "WR",
-            "pts": 30.9,
-            "pos_rank": "WR36"
-          },
-          {
-            "name": "TreVeyon Henderson",
+            "name": "Tyrone Tracy Jr.",
             "pos": "RB",
-            "pts": 21.2,
-            "pos_rank": "RB42"
-          },
-          {
-            "name": "Saquon Barkley",
-            "pos": "RB",
-            "pts": 21.0,
-            "pos_rank": "RB44"
-          },
-          {
-            "name": "Kenny Gainwell",
-            "pos": "RB",
-            "pts": 17.0,
-            "pos_rank": "RB48"
-          },
-          {
-            "name": "Eagles",
-            "pos": "DEF",
-            "pts": 13.0,
-            "pos_rank": "DEF13"
-          },
-          {
-            "name": "Malachi Fields",
-            "pos": "WR",
-            "pts": 10.4,
-            "pos_rank": "WR71"
-          },
-          {
-            "name": "Rashid Shaheed",
-            "pos": "WR",
-            "pts": 8.7,
-            "pos_rank": "WR75"
-          },
-          {
-            "name": "Rico Dowdle",
-            "pos": "RB",
-            "pts": 8.5,
-            "pos_rank": "RB61"
-          },
-          {
-            "name": "Ray Davis",
-            "pos": "RB",
-            "pts": 0.3,
-            "pos_rank": "RB74"
+            "pts": -0.6,
+            "pos_rank": "RB88"
           }
         ],
         "final": [
           {
-            "name": "Kirk Cousins",
+            "name": "Drake Maye",
             "pos": "QB",
-            "pts": 82.84,
+            "pts": 94.22,
             "pos_rank": "QB7"
           },
           {
-            "name": "Deshaun Watson",
+            "name": "Lamar Jackson",
             "pos": "QB",
-            "pts": 68.9,
-            "pos_rank": "QB12"
-          },
-          {
-            "name": "Bo Nix",
-            "pos": "QB",
-            "pts": 60.26,
+            "pts": 80.08,
             "pos_rank": "QB19"
           },
           {
-            "name": "Tee Higgins",
+            "name": "Matthew Golden",
             "pos": "WR",
-            "pts": 58.6,
-            "pos_rank": "WR8"
+            "pts": 66.3,
+            "pos_rank": "WR11"
           },
           {
-            "name": "Sam LaPorta",
-            "pos": "TE",
-            "pts": 45.8,
-            "pos_rank": "TE4"
+            "name": "Rhamondre Stevenson",
+            "pos": "RB",
+            "pts": 53.3,
+            "pos_rank": "RB18"
           },
           {
-            "name": "DeVonta Smith",
-            "pos": "WR",
-            "pts": 39.0,
-            "pos_rank": "WR23"
+            "name": "Chase Brown",
+            "pos": "RB",
+            "pts": 53.0,
+            "pos_rank": "RB19"
           },
           {
-            "name": "Tyler Loop",
+            "name": "Nick Folk",
             "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K6"
+            "pts": 44.0,
+            "pos_rank": "K11"
           },
           {
-            "name": "Jameson Williams",
+            "name": "Dalton Kincaid",
+            "pos": "TE",
+            "pts": 41.7,
+            "pos_rank": "TE11"
+          },
+          {
+            "name": "Romeo Doubs",
             "pos": "WR",
-            "pts": 30.9,
-            "pos_rank": "WR41"
+            "pts": 40.4,
+            "pos_rank": "WR36"
           },
           {
-            "name": "Darius Cooper",
-            "pos": "WR",
-            "pts": 26.4,
-            "pos_rank": "WR53"
-          },
-          {
-            "name": "TreVeyon Henderson",
-            "pos": "RB",
-            "pts": 21.2,
-            "pos_rank": "RB41"
-          },
-          {
-            "name": "Saquon Barkley",
-            "pos": "RB",
-            "pts": 21.0,
-            "pos_rank": "RB42"
-          },
-          {
-            "name": "Kenny Gainwell",
-            "pos": "RB",
-            "pts": 17.0,
-            "pos_rank": "RB46"
-          },
-          {
-            "name": "Eagles",
+            "name": "Browns",
             "pos": "DEF",
-            "pts": 13.0,
-            "pos_rank": "DEF16"
+            "pts": 35.0,
+            "pos_rank": "DEF12"
           },
           {
-            "name": "Najee Harris",
-            "pos": "RB",
-            "pts": 8.8,
-            "pos_rank": "RB60"
+            "name": "Pat Bryant",
+            "pos": "WR",
+            "pts": 27.4,
+            "pos_rank": "WR56"
           },
           {
-            "name": "Rico Dowdle",
+            "name": "Ryan Flournoy",
+            "pos": "WR",
+            "pts": 27.4,
+            "pos_rank": "WR57"
+          },
+          {
+            "name": "Dohnte Meyers",
+            "pos": "WR",
+            "pts": 21.6,
+            "pos_rank": "WR64"
+          },
+          {
+            "name": "Will Shipley",
             "pos": "RB",
-            "pts": 8.5,
+            "pts": 17.3,
+            "pos_rank": "RB52"
+          },
+          {
+            "name": "Tank Bigsby",
+            "pos": "RB",
+            "pts": 15.6,
+            "pos_rank": "RB53"
+          },
+          {
+            "name": "Roschon Johnson",
+            "pos": "RB",
+            "pts": 9.3,
             "pos_rank": "RB61"
           },
           {
-            "name": "Tyreek Hill",
+            "name": "A.J. Brown",
             "pos": "WR",
-            "pts": 0.0,
-            "pos_rank": "WR79"
+            "pts": 4.1,
+            "pos_rank": "WR74"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
-          "wins": 1,
+          "wins": 2,
           "losses": 3,
           "ties": 0,
-          "pf": 430.5,
-          "pa": 466.56,
-          "pf_rank": 10,
-          "pa_rank": 9,
-          "standing": 11,
+          "pf": 552.3,
+          "pa": 589.04,
+          "pf_rank": 9,
+          "pa_rank": 6,
+          "standing": 10,
           "playoff_finish": "In Progress",
-          "last_game_pts": 125.46,
-          "last_game_opp_pts": 154.22,
-          "last_game_opp": "TK"
+          "last_game_pts": 118.86,
+          "last_game_opp_pts": 118.04,
+          "last_game_opp": "Sweeney"
         }
       },
       "470.l.165433.t.11": {
@@ -16155,86 +15940,86 @@
           {
             "name": "Javonte Williams",
             "pos": "RB",
-            "pts": 74.3,
+            "pts": 87.5,
             "pos_rank": "RB7"
-          },
-          {
-            "name": "Nico Collins",
-            "pos": "WR",
-            "pts": 45.0,
-            "pos_rank": "WR17"
           },
           {
             "name": "Malik Willis",
             "pos": "QB",
-            "pts": 43.68,
-            "pos_rank": "QB25"
-          },
-          {
-            "name": "Daniel Jones",
-            "pos": "QB",
-            "pts": 40.26,
-            "pos_rank": "QB27"
-          },
-          {
-            "name": "Cam Skattebo",
-            "pos": "RB",
-            "pts": 40.2,
-            "pos_rank": "RB23"
-          },
-          {
-            "name": "Dominic Zvada",
-            "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K6"
-          },
-          {
-            "name": "Luther Burden III",
-            "pos": "WR",
-            "pts": 37.4,
-            "pos_rank": "WR25"
+            "pts": 64.56,
+            "pos_rank": "QB24"
           },
           {
             "name": "Tyler Warren",
             "pos": "TE",
-            "pts": 37.0,
-            "pos_rank": "TE10"
+            "pts": 54.9,
+            "pos_rank": "TE6"
+          },
+          {
+            "name": "Nico Collins",
+            "pos": "WR",
+            "pts": 53.1,
+            "pos_rank": "WR20"
+          },
+          {
+            "name": "Daniel Jones",
+            "pos": "QB",
+            "pts": 51.34,
+            "pos_rank": "QB28"
+          },
+          {
+            "name": "Dominic Zvada",
+            "pos": "K",
+            "pts": 50.0,
+            "pos_rank": "K5"
+          },
+          {
+            "name": "Cam Skattebo",
+            "pos": "RB",
+            "pts": 46.3,
+            "pos_rank": "RB22"
+          },
+          {
+            "name": "Luther Burden III",
+            "pos": "WR",
+            "pts": 44.3,
+            "pos_rank": "WR26"
           },
           {
             "name": "Seahawks",
             "pos": "DEF",
-            "pts": 35.0,
-            "pos_rank": "DEF4"
+            "pts": 44.0,
+            "pos_rank": "DEF2"
           },
           {
             "name": "Jake Ferguson",
             "pos": "TE",
-            "pts": 30.3,
-            "pos_rank": "TE13"
+            "pts": 33.7,
+            "pos_rank": "TE14"
           },
           {
             "name": "Jordan Addison",
             "pos": "WR",
             "pts": 27.7,
-            "pos_rank": "WR44"
+            "pos_rank": "WR53"
           },
           {
             "name": "Courtland Sutton",
             "pos": "WR",
-            "pts": 13.1,
-            "pos_rank": "WR67"
+            "pts": 21.9,
+            "pos_rank": "WR58"
           },
           {
             "name": "Jadarian Price",
             "pos": "RB",
             "pts": 12.0,
-            "pos_rank": "RB56"
+            "pos_rank": "RB57"
           },
           {
             "name": "Jonathon Brooks",
             "pos": "RB",
             "pts": 8.3,
-            "pos_rank": "RB62"
+            "pos_rank": "RB63"
           },
           {
             "name": "Shedeur Sanders",
@@ -16246,99 +16031,99 @@
             "name": "Zach Charbonnet",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB83"
+            "pos_rank": "RB87"
           }
         ],
         "final": [
           {
             "name": "Javonte Williams",
             "pos": "RB",
-            "pts": 74.3,
+            "pts": 87.5,
             "pos_rank": "RB7"
-          },
-          {
-            "name": "Nico Collins",
-            "pos": "WR",
-            "pts": 45.0,
-            "pos_rank": "WR17"
           },
           {
             "name": "Malik Willis",
             "pos": "QB",
-            "pts": 43.68,
-            "pos_rank": "QB25"
-          },
-          {
-            "name": "Daniel Jones",
-            "pos": "QB",
-            "pts": 40.26,
-            "pos_rank": "QB27"
-          },
-          {
-            "name": "Cam Skattebo",
-            "pos": "RB",
-            "pts": 40.2,
-            "pos_rank": "RB24"
-          },
-          {
-            "name": "Dominic Zvada",
-            "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K7"
-          },
-          {
-            "name": "Luther Burden III",
-            "pos": "WR",
-            "pts": 37.4,
-            "pos_rank": "WR28"
+            "pts": 64.56,
+            "pos_rank": "QB24"
           },
           {
             "name": "Tyler Warren",
             "pos": "TE",
-            "pts": 37.0,
-            "pos_rank": "TE11"
+            "pts": 54.9,
+            "pos_rank": "TE6"
+          },
+          {
+            "name": "Nico Collins",
+            "pos": "WR",
+            "pts": 53.1,
+            "pos_rank": "WR21"
+          },
+          {
+            "name": "Daniel Jones",
+            "pos": "QB",
+            "pts": 51.34,
+            "pos_rank": "QB28"
+          },
+          {
+            "name": "Dominic Zvada",
+            "pos": "K",
+            "pts": 50.0,
+            "pos_rank": "K7"
+          },
+          {
+            "name": "Cam Skattebo",
+            "pos": "RB",
+            "pts": 46.3,
+            "pos_rank": "RB24"
+          },
+          {
+            "name": "Luther Burden III",
+            "pos": "WR",
+            "pts": 44.3,
+            "pos_rank": "WR26"
           },
           {
             "name": "Seahawks",
             "pos": "DEF",
-            "pts": 35.0,
-            "pos_rank": "DEF7"
+            "pts": 44.0,
+            "pos_rank": "DEF5"
           },
           {
             "name": "Jake Ferguson",
             "pos": "TE",
-            "pts": 30.3,
+            "pts": 33.7,
             "pos_rank": "TE15"
           },
           {
             "name": "Jordan Addison",
             "pos": "WR",
             "pts": 27.7,
-            "pos_rank": "WR50"
+            "pos_rank": "WR55"
           },
           {
             "name": "Courtland Sutton",
             "pos": "WR",
-            "pts": 13.1,
-            "pos_rank": "WR70"
+            "pts": 21.9,
+            "pos_rank": "WR63"
           },
           {
             "name": "Jadarian Price",
             "pos": "RB",
             "pts": 12.0,
-            "pos_rank": "RB56"
+            "pos_rank": "RB58"
           },
           {
             "name": "Jonathon Brooks",
             "pos": "RB",
             "pts": 8.3,
-            "pos_rank": "RB62"
+            "pos_rank": "RB64"
           },
           {
             "name": "Shedeur Sanders",
             "pos": "QB",
             "pts": 0.0,
-            "pos_rank": "QB47"
+            "pos_rank": "QB48"
           },
           {
             "name": "Zach Charbonnet",
@@ -16347,235 +16132,20 @@
             "pos_rank": "RB69"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
-          "wins": 1,
+          "wins": 2,
           "losses": 3,
           "ties": 0,
-          "pf": 420.04,
-          "pa": 497.28,
+          "pf": 534.0,
+          "pa": 609.12,
           "pf_rank": 11,
-          "pa_rank": 2,
-          "standing": 12,
+          "pa_rank": 3,
+          "standing": 11,
           "playoff_finish": "In Progress",
-          "last_game_pts": 123.72,
-          "last_game_opp_pts": 140.48,
-          "last_game_opp": "Paul"
-        }
-      },
-      "470.l.165433.t.6": {
-        "owner": "Joey",
-        "team_name": "Stewed C",
-        "week1": [
-          {
-            "name": "C.J. Stroud",
-            "pos": "QB",
-            "pts": 68.24,
-            "pos_rank": "QB13"
-          },
-          {
-            "name": "George Kittle",
-            "pos": "TE",
-            "pts": 56.4,
-            "pos_rank": "TE1"
-          },
-          {
-            "name": "Brian Robinson",
-            "pos": "RB",
-            "pts": 47.0,
-            "pos_rank": "RB17"
-          },
-          {
-            "name": "Jeremiyah Love",
-            "pos": "RB",
-            "pts": 43.4,
-            "pos_rank": "RB18"
-          },
-          {
-            "name": "Cairo Santos",
-            "pos": "K",
-            "pts": 36.0,
-            "pos_rank": "K9"
-          },
-          {
-            "name": "Marcus Mariota",
-            "pos": "QB",
-            "pts": 34.5,
-            "pos_rank": "QB29"
-          },
-          {
-            "name": "Puka Nacua",
-            "pos": "WR",
-            "pts": 33.1,
-            "pos_rank": "WR32"
-          },
-          {
-            "name": "Jayden Daniels",
-            "pos": "QB",
-            "pts": 32.4,
-            "pos_rank": "QB31"
-          },
-          {
-            "name": "Dontayvion Wicks",
-            "pos": "WR",
-            "pts": 31.7,
-            "pos_rank": "WR33"
-          },
-          {
-            "name": "Keaton Mitchell",
-            "pos": "RB",
-            "pts": 26.3,
-            "pos_rank": "RB35"
-          },
-          {
-            "name": "Terry McLaurin",
-            "pos": "WR",
-            "pts": 25.1,
-            "pos_rank": "WR50"
-          },
-          {
-            "name": "Ravens",
-            "pos": "DEF",
-            "pts": 23.0,
-            "pos_rank": "DEF7"
-          },
-          {
-            "name": "Dallas Goedert",
-            "pos": "TE",
-            "pts": 22.6,
-            "pos_rank": "TE19"
-          },
-          {
-            "name": "MarShawn Lloyd",
-            "pos": "RB",
-            "pts": 21.5,
-            "pos_rank": "RB41"
-          },
-          {
-            "name": "Tyjae Spears",
-            "pos": "RB",
-            "pts": 13.0,
-            "pos_rank": "RB54"
-          },
-          {
-            "name": "Makai Lemon",
-            "pos": "WR",
-            "pts": 1.0,
-            "pos_rank": "WR91"
-          }
-        ],
-        "final": [
-          {
-            "name": "C.J. Stroud",
-            "pos": "QB",
-            "pts": 68.24,
-            "pos_rank": "QB13"
-          },
-          {
-            "name": "George Kittle",
-            "pos": "TE",
-            "pts": 56.4,
-            "pos_rank": "TE1"
-          },
-          {
-            "name": "Brian Robinson",
-            "pos": "RB",
-            "pts": 47.0,
-            "pos_rank": "RB18"
-          },
-          {
-            "name": "Jeremiyah Love",
-            "pos": "RB",
-            "pts": 43.4,
-            "pos_rank": "RB19"
-          },
-          {
-            "name": "Cairo Santos",
-            "pos": "K",
-            "pts": 36.0,
-            "pos_rank": "K10"
-          },
-          {
-            "name": "Marcus Mariota",
-            "pos": "QB",
-            "pts": 34.5,
-            "pos_rank": "QB29"
-          },
-          {
-            "name": "Puka Nacua",
-            "pos": "WR",
-            "pts": 33.1,
-            "pos_rank": "WR36"
-          },
-          {
-            "name": "Jayden Daniels",
-            "pos": "QB",
-            "pts": 32.4,
-            "pos_rank": "QB31"
-          },
-          {
-            "name": "Dontayvion Wicks",
-            "pos": "WR",
-            "pts": 31.7,
-            "pos_rank": "WR38"
-          },
-          {
-            "name": "Keaton Mitchell",
-            "pos": "RB",
-            "pts": 26.3,
-            "pos_rank": "RB34"
-          },
-          {
-            "name": "Terry McLaurin",
-            "pos": "WR",
-            "pts": 25.1,
-            "pos_rank": "WR55"
-          },
-          {
-            "name": "Ravens",
-            "pos": "DEF",
-            "pts": 23.0,
-            "pos_rank": "DEF13"
-          },
-          {
-            "name": "Dallas Goedert",
-            "pos": "TE",
-            "pts": 22.6,
-            "pos_rank": "TE19"
-          },
-          {
-            "name": "MarShawn Lloyd",
-            "pos": "RB",
-            "pts": 21.5,
-            "pos_rank": "RB40"
-          },
-          {
-            "name": "Tyjae Spears",
-            "pos": "RB",
-            "pts": 13.0,
-            "pos_rank": "RB52"
-          },
-          {
-            "name": "Dameon Pierce",
-            "pos": "RB",
-            "pts": 0.0,
-            "pos_rank": "RB70"
-          }
-        ],
-        "final_week": 5,
-        "summary": {
-          "wins": 1,
-          "losses": 3,
-          "ties": 0,
-          "pf": 398.2,
-          "pa": 461.1,
-          "pf_rank": 12,
-          "pa_rank": 10,
-          "standing": 13,
-          "playoff_finish": "In Progress",
-          "last_game_pts": 110.12,
-          "last_game_opp_pts": 118.84,
-          "last_game_opp": "Mikey"
+          "last_game_pts": 113.96,
+          "last_game_opp_pts": 111.84,
+          "last_game_opp": "Matt"
         }
       },
       "470.l.165433.t.9": {
@@ -16585,92 +16155,92 @@
           {
             "name": "James Cook III",
             "pos": "RB",
-            "pts": 63.5,
-            "pos_rank": "RB9"
+            "pts": 85.8,
+            "pos_rank": "RB8"
           },
           {
             "name": "Geno Smith",
             "pos": "QB",
-            "pts": 59.68,
+            "pts": 69.66,
             "pos_rank": "QB20"
+          },
+          {
+            "name": "Isaiah Likely",
+            "pos": "TE",
+            "pts": 68.9,
+            "pos_rank": "TE2"
+          },
+          {
+            "name": "Jason Myers",
+            "pos": "K",
+            "pts": 49.0,
+            "pos_rank": "K7"
           },
           {
             "name": "Caleb Williams",
             "pos": "QB",
             "pts": 45.98,
-            "pos_rank": "QB24"
+            "pos_rank": "QB29"
           },
           {
             "name": "Travis Kelce",
             "pos": "TE",
             "pts": 44.6,
-            "pos_rank": "TE5"
+            "pos_rank": "TE8"
           },
           {
             "name": "Stefon Diggs",
             "pos": "WR",
             "pts": 44.0,
-            "pos_rank": "WR19"
-          },
-          {
-            "name": "Isaiah Likely",
-            "pos": "TE",
-            "pts": 42.0,
-            "pos_rank": "TE6"
+            "pos_rank": "WR27"
           },
           {
             "name": "Breece Hall",
             "pos": "RB",
             "pts": 37.5,
-            "pos_rank": "RB24"
+            "pos_rank": "RB33"
+          },
+          {
+            "name": "Josh Downs",
+            "pos": "WR",
+            "pts": 34.9,
+            "pos_rank": "WR39"
+          },
+          {
+            "name": "Rome Odunze",
+            "pos": "WR",
+            "pts": 33.8,
+            "pos_rank": "WR42"
+          },
+          {
+            "name": "J.K. Dobbins",
+            "pos": "RB",
+            "pts": 33.6,
+            "pos_rank": "RB35"
           },
           {
             "name": "DJ Moore",
             "pos": "WR",
             "pts": 30.3,
-            "pos_rank": "WR37"
-          },
-          {
-            "name": "Rome Odunze",
-            "pos": "WR",
-            "pts": 30.3,
-            "pos_rank": "WR38"
-          },
-          {
-            "name": "Josh Downs",
-            "pos": "WR",
-            "pts": 28.7,
-            "pos_rank": "WR41"
+            "pos_rank": "WR47"
           },
           {
             "name": "Xavier Worthy",
             "pos": "WR",
             "pts": 26.3,
-            "pos_rank": "WR47"
-          },
-          {
-            "name": "Jason Myers",
-            "pos": "K",
-            "pts": 26.0,
-            "pos_rank": "K13"
-          },
-          {
-            "name": "J.K. Dobbins",
-            "pos": "RB",
-            "pts": 19.2,
-            "pos_rank": "RB46"
+            "pos_rank": "WR55"
           },
           {
             "name": "Broncos",
             "pos": "DEF",
             "pts": 13.0,
-            "pos_rank": "DEF14"
+            "pos_rank": "DEF19"
           },
           {
             "name": "Jordan Mason",
             "pos": "RB",
             "pts": 11.9,
-            "pos_rank": "RB57"
+            "pos_rank": "RB58"
           },
           {
             "name": "Mac Jones",
@@ -16683,114 +16253,544 @@
           {
             "name": "James Cook III",
             "pos": "RB",
-            "pts": 63.5,
-            "pos_rank": "RB11"
+            "pts": 85.8,
+            "pos_rank": "RB8"
           },
           {
             "name": "Geno Smith",
             "pos": "QB",
-            "pts": 59.68,
+            "pts": 69.66,
             "pos_rank": "QB20"
+          },
+          {
+            "name": "Isaiah Likely",
+            "pos": "TE",
+            "pts": 68.9,
+            "pos_rank": "TE2"
+          },
+          {
+            "name": "Bengals",
+            "pos": "DEF",
+            "pts": 51.0,
+            "pos_rank": "DEF2"
+          },
+          {
+            "name": "Jason Myers",
+            "pos": "K",
+            "pts": 49.0,
+            "pos_rank": "K9"
+          },
+          {
+            "name": "Emanuel Wilson",
+            "pos": "RB",
+            "pts": 48.6,
+            "pos_rank": "RB20"
           },
           {
             "name": "Caleb Williams",
             "pos": "QB",
             "pts": 45.98,
-            "pos_rank": "QB24"
+            "pos_rank": "QB29"
           },
           {
             "name": "Travis Kelce",
             "pos": "TE",
             "pts": 44.6,
-            "pos_rank": "TE5"
+            "pos_rank": "TE9"
           },
           {
             "name": "Stefon Diggs",
             "pos": "WR",
             "pts": 44.0,
-            "pos_rank": "WR19"
-          },
-          {
-            "name": "Isaiah Likely",
-            "pos": "TE",
-            "pts": 42.0,
-            "pos_rank": "TE6"
-          },
-          {
-            "name": "Bengals",
-            "pos": "DEF",
-            "pts": 42.0,
-            "pos_rank": "DEF4"
+            "pos_rank": "WR27"
           },
           {
             "name": "Breece Hall",
             "pos": "RB",
             "pts": 37.5,
-            "pos_rank": "RB25"
+            "pos_rank": "RB33"
           },
           {
-            "name": "Emanuel Wilson",
+            "name": "Josh Downs",
+            "pos": "WR",
+            "pts": 34.9,
+            "pos_rank": "WR45"
+          },
+          {
+            "name": "Rome Odunze",
+            "pos": "WR",
+            "pts": 33.8,
+            "pos_rank": "WR46"
+          },
+          {
+            "name": "J.K. Dobbins",
             "pos": "RB",
-            "pts": 36.4,
-            "pos_rank": "RB27"
+            "pts": 33.6,
+            "pos_rank": "RB35"
           },
           {
             "name": "DJ Moore",
             "pos": "WR",
             "pts": 30.3,
-            "pos_rank": "WR43"
-          },
-          {
-            "name": "Rome Odunze",
-            "pos": "WR",
-            "pts": 30.3,
-            "pos_rank": "WR44"
-          },
-          {
-            "name": "Josh Downs",
-            "pos": "WR",
-            "pts": 28.7,
-            "pos_rank": "WR46"
-          },
-          {
-            "name": "Mack Hollins",
-            "pos": "WR",
-            "pts": 28.4,
-            "pos_rank": "WR49"
+            "pos_rank": "WR50"
           },
           {
             "name": "Xavier Worthy",
             "pos": "WR",
             "pts": 26.3,
-            "pos_rank": "WR54"
+            "pos_rank": "WR58"
           },
           {
-            "name": "Jason Myers",
+            "name": "Skyler Bell",
+            "pos": "WR",
+            "pts": 0.0,
+            "pos_rank": "WR77"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 2,
+          "losses": 3,
+          "ties": 0,
+          "pf": 493.64,
+          "pa": 586.56,
+          "pf_rank": 14,
+          "pa_rank": 8,
+          "standing": 12,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 127.48,
+          "last_game_opp_pts": 106.76,
+          "last_game_opp": "Boyle"
+        }
+      },
+      "470.l.165433.t.5": {
+        "owner": "Gallo",
+        "team_name": "Free Paid",
+        "week1": [
+          {
+            "name": "Kirk Cousins",
+            "pos": "QB",
+            "pts": 96.56,
+            "pos_rank": "QB6"
+          },
+          {
+            "name": "Deshaun Watson",
+            "pos": "QB",
+            "pts": 81.1,
+            "pos_rank": "QB18"
+          },
+          {
+            "name": "Bo Nix",
+            "pos": "QB",
+            "pts": 68.18,
+            "pos_rank": "QB21"
+          },
+          {
+            "name": "Sam LaPorta",
+            "pos": "TE",
+            "pts": 63.1,
+            "pos_rank": "TE3"
+          },
+          {
+            "name": "Tee Higgins",
+            "pos": "WR",
+            "pts": 61.8,
+            "pos_rank": "WR14"
+          },
+          {
+            "name": "Tyler Loop",
             "pos": "K",
-            "pts": 26.0,
+            "pts": 52.0,
+            "pos_rank": "K4"
+          },
+          {
+            "name": "Jameson Williams",
+            "pos": "WR",
+            "pts": 48.6,
+            "pos_rank": "WR25"
+          },
+          {
+            "name": "DeVonta Smith",
+            "pos": "WR",
+            "pts": 39.0,
+            "pos_rank": "WR35"
+          },
+          {
+            "name": "TreVeyon Henderson",
+            "pos": "RB",
+            "pts": 25.5,
+            "pos_rank": "RB43"
+          },
+          {
+            "name": "Kenny Gainwell",
+            "pos": "RB",
+            "pts": 21.3,
+            "pos_rank": "RB47"
+          },
+          {
+            "name": "Saquon Barkley",
+            "pos": "RB",
+            "pts": 21.0,
+            "pos_rank": "RB49"
+          },
+          {
+            "name": "Eagles",
+            "pos": "DEF",
+            "pts": 20.0,
+            "pos_rank": "DEF11"
+          },
+          {
+            "name": "Malachi Fields",
+            "pos": "WR",
+            "pts": 10.4,
+            "pos_rank": "WR73"
+          },
+          {
+            "name": "Rashid Shaheed",
+            "pos": "WR",
+            "pts": 8.7,
+            "pos_rank": "WR76"
+          },
+          {
+            "name": "Rico Dowdle",
+            "pos": "RB",
+            "pts": 8.5,
+            "pos_rank": "RB62"
+          },
+          {
+            "name": "Ray Davis",
+            "pos": "RB",
+            "pts": 0.3,
+            "pos_rank": "RB80"
+          }
+        ],
+        "final": [
+          {
+            "name": "Kirk Cousins",
+            "pos": "QB",
+            "pts": 96.56,
+            "pos_rank": "QB6"
+          },
+          {
+            "name": "Deshaun Watson",
+            "pos": "QB",
+            "pts": 81.1,
+            "pos_rank": "QB18"
+          },
+          {
+            "name": "Bo Nix",
+            "pos": "QB",
+            "pts": 68.18,
+            "pos_rank": "QB21"
+          },
+          {
+            "name": "Sam LaPorta",
+            "pos": "TE",
+            "pts": 63.1,
+            "pos_rank": "TE3"
+          },
+          {
+            "name": "Tee Higgins",
+            "pos": "WR",
+            "pts": 61.8,
+            "pos_rank": "WR15"
+          },
+          {
+            "name": "Tyler Loop",
+            "pos": "K",
+            "pts": 52.0,
+            "pos_rank": "K5"
+          },
+          {
+            "name": "Jameson Williams",
+            "pos": "WR",
+            "pts": 48.6,
+            "pos_rank": "WR25"
+          },
+          {
+            "name": "Darius Cooper",
+            "pos": "WR",
+            "pts": 40.5,
+            "pos_rank": "WR33"
+          },
+          {
+            "name": "DeVonta Smith",
+            "pos": "WR",
+            "pts": 39.0,
+            "pos_rank": "WR40"
+          },
+          {
+            "name": "TreVeyon Henderson",
+            "pos": "RB",
+            "pts": 25.5,
+            "pos_rank": "RB42"
+          },
+          {
+            "name": "Kenny Gainwell",
+            "pos": "RB",
+            "pts": 21.3,
+            "pos_rank": "RB47"
+          },
+          {
+            "name": "Saquon Barkley",
+            "pos": "RB",
+            "pts": 21.0,
+            "pos_rank": "RB48"
+          },
+          {
+            "name": "Eagles",
+            "pos": "DEF",
+            "pts": 20.0,
+            "pos_rank": "DEF16"
+          },
+          {
+            "name": "Najee Harris",
+            "pos": "RB",
+            "pts": 10.7,
+            "pos_rank": "RB59"
+          },
+          {
+            "name": "Rico Dowdle",
+            "pos": "RB",
+            "pts": 8.5,
+            "pos_rank": "RB63"
+          },
+          {
+            "name": "Tyreek Hill",
+            "pos": "WR",
+            "pts": 0.0,
+            "pos_rank": "WR78"
+          }
+        ],
+        "final_week": 6,
+        "summary": {
+          "wins": 1,
+          "losses": 4,
+          "ties": 0,
+          "pf": 534.04,
+          "pa": 575.5,
+          "pf_rank": 10,
+          "pa_rank": 10,
+          "standing": 13,
+          "playoff_finish": "In Progress",
+          "last_game_pts": 103.54,
+          "last_game_opp_pts": 108.94,
+          "last_game_opp": "Mikey"
+        }
+      },
+      "470.l.165433.t.6": {
+        "owner": "Joey",
+        "team_name": "Stewed C",
+        "week1": [
+          {
+            "name": "C.J. Stroud",
+            "pos": "QB",
+            "pts": 89.18,
+            "pos_rank": "QB13"
+          },
+          {
+            "name": "Jayden Daniels",
+            "pos": "QB",
+            "pts": 64.66,
+            "pos_rank": "QB23"
+          },
+          {
+            "name": "Puka Nacua",
+            "pos": "WR",
+            "pts": 62.3,
+            "pos_rank": "WR13"
+          },
+          {
+            "name": "George Kittle",
+            "pos": "TE",
+            "pts": 61.3,
+            "pos_rank": "TE4"
+          },
+          {
+            "name": "Brian Robinson",
+            "pos": "RB",
+            "pts": 48.6,
+            "pos_rank": "RB19"
+          },
+          {
+            "name": "Jeremiyah Love",
+            "pos": "RB",
+            "pts": 45.6,
+            "pos_rank": "RB23"
+          },
+          {
+            "name": "Dontayvion Wicks",
+            "pos": "WR",
+            "pts": 40.5,
+            "pos_rank": "WR30"
+          },
+          {
+            "name": "MarShawn Lloyd",
+            "pos": "RB",
+            "pts": 37.7,
+            "pos_rank": "RB32"
+          },
+          {
+            "name": "Cairo Santos",
+            "pos": "K",
+            "pts": 36.0,
+            "pos_rank": "K10"
+          },
+          {
+            "name": "Terry McLaurin",
+            "pos": "WR",
+            "pts": 35.3,
+            "pos_rank": "WR38"
+          },
+          {
+            "name": "Marcus Mariota",
+            "pos": "QB",
+            "pts": 34.5,
+            "pos_rank": "QB33"
+          },
+          {
+            "name": "Keaton Mitchell",
+            "pos": "RB",
+            "pts": 30.7,
+            "pos_rank": "RB37"
+          },
+          {
+            "name": "Ravens",
+            "pos": "DEF",
+            "pts": 30.0,
+            "pos_rank": "DEF8"
+          },
+          {
+            "name": "Dallas Goedert",
+            "pos": "TE",
+            "pts": 29.4,
+            "pos_rank": "TE19"
+          },
+          {
+            "name": "Tyjae Spears",
+            "pos": "RB",
+            "pts": 18.3,
+            "pos_rank": "RB52"
+          },
+          {
+            "name": "Makai Lemon",
+            "pos": "WR",
+            "pts": 1.0,
+            "pos_rank": "WR94"
+          }
+        ],
+        "final": [
+          {
+            "name": "C.J. Stroud",
+            "pos": "QB",
+            "pts": 89.18,
+            "pos_rank": "QB13"
+          },
+          {
+            "name": "Jayden Daniels",
+            "pos": "QB",
+            "pts": 64.66,
+            "pos_rank": "QB23"
+          },
+          {
+            "name": "Puka Nacua",
+            "pos": "WR",
+            "pts": 62.3,
+            "pos_rank": "WR14"
+          },
+          {
+            "name": "George Kittle",
+            "pos": "TE",
+            "pts": 61.3,
+            "pos_rank": "TE4"
+          },
+          {
+            "name": "Brian Robinson",
+            "pos": "RB",
+            "pts": 48.6,
+            "pos_rank": "RB21"
+          },
+          {
+            "name": "Jeremiyah Love",
+            "pos": "RB",
+            "pts": 45.6,
+            "pos_rank": "RB25"
+          },
+          {
+            "name": "Dontayvion Wicks",
+            "pos": "WR",
+            "pts": 40.5,
+            "pos_rank": "WR34"
+          },
+          {
+            "name": "MarShawn Lloyd",
+            "pos": "RB",
+            "pts": 37.7,
+            "pos_rank": "RB32"
+          },
+          {
+            "name": "Cairo Santos",
+            "pos": "K",
+            "pts": 36.0,
             "pos_rank": "K13"
           },
           {
-            "name": "J.K. Dobbins",
+            "name": "Terry McLaurin",
+            "pos": "WR",
+            "pts": 35.3,
+            "pos_rank": "WR44"
+          },
+          {
+            "name": "Marcus Mariota",
+            "pos": "QB",
+            "pts": 34.5,
+            "pos_rank": "QB33"
+          },
+          {
+            "name": "Keaton Mitchell",
             "pos": "RB",
-            "pts": 19.2,
-            "pos_rank": "RB44"
+            "pts": 30.7,
+            "pos_rank": "RB37"
+          },
+          {
+            "name": "Ravens",
+            "pos": "DEF",
+            "pts": 30.0,
+            "pos_rank": "DEF13"
+          },
+          {
+            "name": "Dallas Goedert",
+            "pos": "TE",
+            "pts": 29.4,
+            "pos_rank": "TE21"
+          },
+          {
+            "name": "Tyjae Spears",
+            "pos": "RB",
+            "pts": 18.3,
+            "pos_rank": "RB51"
+          },
+          {
+            "name": "Dameon Pierce",
+            "pos": "RB",
+            "pts": 2.2,
+            "pos_rank": "RB67"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
           "wins": 1,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "pf": 366.16,
-          "pa": 479.8,
-          "pf_rank": 15,
-          "pa_rank": 3,
+          "pf": 529.9,
+          "pa": 596.72,
+          "pf_rank": 12,
+          "pa_rank": 4,
           "standing": 14,
           "playoff_finish": "In Progress",
-          "last_game_pts": 57.86,
-          "last_game_opp_pts": 121.88,
-          "last_game_opp": "Deez"
+          "last_game_pts": 131.7,
+          "last_game_opp_pts": 135.62,
+          "last_game_opp": "Kevin"
         }
       },
       "470.l.165433.t.7": {
@@ -16798,156 +16798,70 @@
         "team_name": "The Art of the Deal",
         "week1": [
           {
+            "name": "Jordan Love",
+            "pos": "QB",
+            "pts": 93.12,
+            "pos_rank": "QB9"
+          },
+          {
             "name": "Bryce Young",
             "pos": "QB",
             "pts": 92.62,
-            "pos_rank": "QB3"
-          },
-          {
-            "name": "Jordan Love",
-            "pos": "QB",
-            "pts": 67.84,
-            "pos_rank": "QB14"
+            "pos_rank": "QB10"
           },
           {
             "name": "Garrett Wilson",
             "pos": "WR",
-            "pts": 51.0,
-            "pos_rank": "WR10"
+            "pts": 70.9,
+            "pos_rank": "WR7"
+          },
+          {
+            "name": "George Pickens",
+            "pos": "WR",
+            "pts": 55.0,
+            "pos_rank": "WR18"
+          },
+          {
+            "name": "Kyler Murray",
+            "pos": "QB",
+            "pts": 41.78,
+            "pos_rank": "QB31"
           },
           {
             "name": "Steelers",
             "pos": "DEF",
-            "pts": 37.0,
-            "pos_rank": "DEF2"
+            "pts": 40.0,
+            "pos_rank": "DEF3"
           },
           {
             "name": "Harrison Butker",
             "pos": "K",
             "pts": 36.0,
-            "pos_rank": "K10"
-          },
-          {
-            "name": "George Pickens",
-            "pos": "WR",
-            "pts": 31.5,
-            "pos_rank": "WR35"
+            "pos_rank": "K11"
           },
           {
             "name": "Alvin Kamara",
             "pos": "RB",
-            "pts": 29.6,
-            "pos_rank": "RB30"
+            "pts": 31.2,
+            "pos_rank": "RB36"
           },
           {
-            "name": "Kyler Murray",
-            "pos": "QB",
-            "pts": 23.52,
-            "pos_rank": "QB36"
+            "name": "Kyle Pitts Sr.",
+            "pos": "TE",
+            "pts": 21.9,
+            "pos_rank": "TE22"
           },
           {
             "name": "De'Von Achane",
             "pos": "RB",
             "pts": 21.1,
-            "pos_rank": "RB43"
+            "pos_rank": "RB48"
           },
           {
             "name": "Caleb Douglas",
             "pos": "WR",
             "pts": 14.8,
-            "pos_rank": "WR63"
-          },
-          {
-            "name": "Quentin Johnston",
-            "pos": "WR",
-            "pts": 14.6,
-            "pos_rank": "WR65"
-          },
-          {
-            "name": "Michael Pittman Jr.",
-            "pos": "WR",
-            "pts": 12.4,
-            "pos_rank": "WR68"
-          },
-          {
-            "name": "Kyle Pitts Sr.",
-            "pos": "TE",
-            "pts": 9.2,
-            "pos_rank": "TE26"
-          },
-          {
-            "name": "Jerry Jeudy",
-            "pos": "WR",
-            "pts": 3.6,
-            "pos_rank": "WR85"
-          },
-          {
-            "name": "Jaylen Wright",
-            "pos": "RB",
-            "pts": 1.7,
-            "pos_rank": "RB68"
-          },
-          {
-            "name": "Emari Demercado",
-            "pos": "RB",
-            "pts": 1.5,
-            "pos_rank": "RB69"
-          }
-        ],
-        "final": [
-          {
-            "name": "Bryce Young",
-            "pos": "QB",
-            "pts": 92.62,
-            "pos_rank": "QB3"
-          },
-          {
-            "name": "Jordan Love",
-            "pos": "QB",
-            "pts": 67.84,
-            "pos_rank": "QB14"
-          },
-          {
-            "name": "Garrett Wilson",
-            "pos": "WR",
-            "pts": 51.0,
-            "pos_rank": "WR10"
-          },
-          {
-            "name": "Steelers",
-            "pos": "DEF",
-            "pts": 37.0,
-            "pos_rank": "DEF5"
-          },
-          {
-            "name": "Darren Waller",
-            "pos": "TE",
-            "pts": 33.3,
-            "pos_rank": "TE13"
-          },
-          {
-            "name": "George Pickens",
-            "pos": "WR",
-            "pts": 31.5,
-            "pos_rank": "WR40"
-          },
-          {
-            "name": "Alvin Kamara",
-            "pos": "RB",
-            "pts": 29.6,
-            "pos_rank": "RB30"
-          },
-          {
-            "name": "Kyler Murray",
-            "pos": "QB",
-            "pts": 23.52,
-            "pos_rank": "QB36"
-          },
-          {
-            "name": "Caleb Douglas",
-            "pos": "WR",
-            "pts": 14.8,
-            "pos_rank": "WR68"
+            "pos_rank": "WR67"
           },
           {
             "name": "Quentin Johnston",
@@ -16956,56 +16870,142 @@
             "pos_rank": "WR69"
           },
           {
-            "name": "Justice Hill",
+            "name": "Michael Pittman Jr.",
+            "pos": "WR",
+            "pts": 12.4,
+            "pos_rank": "WR72"
+          },
+          {
+            "name": "Jerry Jeudy",
+            "pos": "WR",
+            "pts": 3.6,
+            "pos_rank": "WR87"
+          },
+          {
+            "name": "Jaylen Wright",
             "pos": "RB",
-            "pts": 12.9,
-            "pos_rank": "RB54"
+            "pts": 2.8,
+            "pos_rank": "RB69"
+          },
+          {
+            "name": "Emari Demercado",
+            "pos": "RB",
+            "pts": 1.5,
+            "pos_rank": "RB75"
+          }
+        ],
+        "final": [
+          {
+            "name": "Jordan Love",
+            "pos": "QB",
+            "pts": 93.12,
+            "pos_rank": "QB9"
+          },
+          {
+            "name": "Bryce Young",
+            "pos": "QB",
+            "pts": 92.62,
+            "pos_rank": "QB10"
+          },
+          {
+            "name": "Garrett Wilson",
+            "pos": "WR",
+            "pts": 70.9,
+            "pos_rank": "WR7"
+          },
+          {
+            "name": "George Pickens",
+            "pos": "WR",
+            "pts": 55.0,
+            "pos_rank": "WR19"
+          },
+          {
+            "name": "Matt Gay",
+            "pos": "K",
+            "pts": 51.0,
+            "pos_rank": "K6"
+          },
+          {
+            "name": "Kyler Murray",
+            "pos": "QB",
+            "pts": 41.78,
+            "pos_rank": "QB31"
+          },
+          {
+            "name": "Steelers",
+            "pos": "DEF",
+            "pts": 40.0,
+            "pos_rank": "DEF8"
+          },
+          {
+            "name": "Michael Mayer",
+            "pos": "TE",
+            "pts": 33.6,
+            "pos_rank": "TE16"
+          },
+          {
+            "name": "Darren Waller",
+            "pos": "TE",
+            "pts": 33.3,
+            "pos_rank": "TE17"
+          },
+          {
+            "name": "Alvin Kamara",
+            "pos": "RB",
+            "pts": 31.2,
+            "pos_rank": "RB36"
+          },
+          {
+            "name": "Kyle Pitts Sr.",
+            "pos": "TE",
+            "pts": 21.9,
+            "pos_rank": "TE23"
+          },
+          {
+            "name": "Caleb Douglas",
+            "pos": "WR",
+            "pts": 14.8,
+            "pos_rank": "WR69"
+          },
+          {
+            "name": "Quentin Johnston",
+            "pos": "WR",
+            "pts": 14.6,
+            "pos_rank": "WR70"
           },
           {
             "name": "Michael Pittman Jr.",
             "pos": "WR",
             "pts": 12.4,
-            "pos_rank": "WR71"
-          },
-          {
-            "name": "Kyle Pitts Sr.",
-            "pos": "TE",
-            "pts": 9.2,
-            "pos_rank": "TE25"
+            "pos_rank": "WR72"
           },
           {
             "name": "Austin Ekeler",
             "pos": "RB",
-            "pts": 4.5,
-            "pos_rank": "RB64"
-          },
-          {
-            "name": "Tyler Goodson",
-            "pos": "RB",
-            "pts": 3.4,
+            "pts": 6.4,
             "pos_rank": "RB65"
           },
           {
             "name": "Jaylen Wright",
             "pos": "RB",
-            "pts": 1.7,
+            "pts": 2.8,
             "pos_rank": "RB66"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
           "wins": 1,
-          "losses": 3,
+          "losses": 4,
           "ties": 0,
-          "pf": 356.34,
-          "pa": 474.0,
+          "pf": 468.18,
+          "pa": 587.96,
           "pf_rank": 16,
-          "pa_rank": 5,
+          "pa_rank": 7,
           "standing": 15,
           "playoff_finish": "In Progress",
-          "last_game_pts": 88.24,
-          "last_game_opp_pts": 131.34,
-          "last_game_opp": "Mitch"
+          "last_game_pts": 111.84,
+          "last_game_opp_pts": 113.96,
+          "last_game_opp": "Chris"
         }
       },
       "470.l.165433.t.13": {
@@ -17015,56 +17015,56 @@
           {
             "name": "Dak Prescott",
             "pos": "QB",
-            "pts": 82.2,
-            "pos_rank": "QB8"
+            "pts": 96.84,
+            "pos_rank": "QB5"
           },
           {
             "name": "Ja'Marr Chase",
             "pos": "WR",
-            "pts": 49.7,
-            "pos_rank": "WR12"
+            "pts": 66.4,
+            "pos_rank": "WR10"
           },
           {
             "name": "Devaughn Vele",
             "pos": "WR",
-            "pts": 45.1,
-            "pos_rank": "WR16"
+            "pts": 49.7,
+            "pos_rank": "WR23"
           },
           {
             "name": "Brandon Aubrey",
             "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K7"
+            "pts": 43.0,
+            "pos_rank": "K9"
           },
           {
             "name": "Tre' Harris",
             "pos": "WR",
-            "pts": 27.4,
-            "pos_rank": "WR46"
+            "pts": 30.0,
+            "pos_rank": "WR49"
+          },
+          {
+            "name": "Samaje Perine",
+            "pos": "RB",
+            "pts": 26.6,
+            "pos_rank": "RB42"
+          },
+          {
+            "name": "Greg Dulcich",
+            "pos": "TE",
+            "pts": 21.2,
+            "pos_rank": "TE23"
           },
           {
             "name": "Adonai Mitchell",
             "pos": "WR",
             "pts": 16.8,
-            "pos_rank": "WR61"
-          },
-          {
-            "name": "Greg Dulcich",
-            "pos": "TE",
-            "pts": 13.5,
-            "pos_rank": "TE25"
+            "pos_rank": "WR63"
           },
           {
             "name": "Kaelon Black",
             "pos": "RB",
-            "pts": 13.0,
+            "pts": 14.6,
             "pos_rank": "RB55"
-          },
-          {
-            "name": "Samaje Perine",
-            "pos": "RB",
-            "pts": 11.8,
-            "pos_rank": "RB58"
           },
           {
             "name": "Christian McCaffrey",
@@ -17076,156 +17076,156 @@
             "name": "Emeka Egbuka",
             "pos": "WR",
             "pts": 8.8,
-            "pos_rank": "WR74"
+            "pos_rank": "WR75"
+          },
+          {
+            "name": "Fernando Mendoza",
+            "pos": "QB",
+            "pts": 2.22,
+            "pos_rank": "QB42"
           },
           {
             "name": "Packers",
             "pos": "DEF",
             "pts": 1.0,
-            "pos_rank": "DEF28"
+            "pos_rank": "DEF31"
           },
           {
             "name": "Najee Harris",
             "pos": "RB",
             "pts": 0.6,
-            "pos_rank": "RB73"
-          },
-          {
-            "name": "Fernando Mendoza",
-            "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB54"
+            "pos_rank": "RB79"
           },
           {
             "name": "Joe Flacco",
             "pos": "QB",
             "pts": 0.0,
-            "pos_rank": "QB55"
+            "pos_rank": "QB54"
           },
           {
             "name": "Isaac TeSlaa",
             "pos": "WR",
             "pts": 0.0,
-            "pos_rank": "WR102"
+            "pos_rank": "WR104"
           }
         ],
         "final": [
           {
             "name": "Dak Prescott",
             "pos": "QB",
-            "pts": 82.2,
-            "pos_rank": "QB8"
+            "pts": 96.84,
+            "pos_rank": "QB5"
           },
           {
             "name": "Ashton Jeanty",
             "pos": "RB",
-            "pts": 64.4,
-            "pos_rank": "RB10"
+            "pts": 73.6,
+            "pos_rank": "RB13"
           },
           {
             "name": "Ja'Marr Chase",
             "pos": "WR",
-            "pts": 49.7,
+            "pts": 66.4,
+            "pos_rank": "WR10"
+          },
+          {
+            "name": "Mike Evans",
+            "pos": "WR",
+            "pts": 64.6,
             "pos_rank": "WR12"
           },
           {
             "name": "Devaughn Vele",
             "pos": "WR",
-            "pts": 45.1,
-            "pos_rank": "WR16"
+            "pts": 49.7,
+            "pos_rank": "WR23"
           },
           {
-            "name": "Mike Evans",
-            "pos": "WR",
-            "pts": 41.8,
-            "pos_rank": "WR22"
+            "name": "49ers",
+            "pos": "DEF",
+            "pts": 44.0,
+            "pos_rank": "DEF6"
           },
           {
             "name": "Brandon Aubrey",
             "pos": "K",
-            "pts": 38.0,
-            "pos_rank": "K8"
+            "pts": 43.0,
+            "pos_rank": "K12"
           },
           {
             "name": "Wan'Dale Robinson",
             "pos": "WR",
-            "pts": 32.4,
-            "pos_rank": "WR37"
+            "pts": 40.7,
+            "pos_rank": "WR32"
           },
           {
             "name": "Tre' Harris",
             "pos": "WR",
-            "pts": 27.4,
-            "pos_rank": "WR52"
+            "pts": 30.0,
+            "pos_rank": "WR51"
+          },
+          {
+            "name": "Samaje Perine",
+            "pos": "RB",
+            "pts": 26.6,
+            "pos_rank": "RB41"
           },
           {
             "name": "Carson Wentz",
             "pos": "QB",
             "pts": 25.54,
-            "pos_rank": "QB35"
+            "pos_rank": "QB38"
           },
           {
-            "name": "49ers",
-            "pos": "DEF",
-            "pts": 24.0,
-            "pos_rank": "DEF12"
+            "name": "Greg Dulcich",
+            "pos": "TE",
+            "pts": 21.2,
+            "pos_rank": "TE24"
           },
           {
             "name": "Adonai Mitchell",
             "pos": "WR",
             "pts": 16.8,
-            "pos_rank": "WR67"
-          },
-          {
-            "name": "Greg Dulcich",
-            "pos": "TE",
-            "pts": 13.5,
-            "pos_rank": "TE24"
+            "pos_rank": "WR68"
           },
           {
             "name": "Kaelon Black",
             "pos": "RB",
-            "pts": 13.0,
-            "pos_rank": "RB53"
-          },
-          {
-            "name": "Samaje Perine",
-            "pos": "RB",
-            "pts": 11.8,
-            "pos_rank": "RB57"
+            "pts": 14.6,
+            "pos_rank": "RB55"
           },
           {
             "name": "Sione Vaki",
             "pos": "RB",
-            "pts": 11.2,
-            "pos_rank": "RB58"
+            "pts": 12.3,
+            "pos_rank": "RB57"
           },
           {
             "name": "Fernando Mendoza",
             "pos": "QB",
-            "pts": 0.0,
-            "pos_rank": "QB48"
+            "pts": 2.22,
+            "pos_rank": "QB41"
           }
         ],
-        "final_week": 5,
+        "final_week": 6,
         "summary": {
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "ties": 0,
-          "pf": 375.5,
-          "pa": 547.56,
-          "pf_rank": 14,
+          "pf": 493.54,
+          "pa": 666.42,
+          "pf_rank": 15,
           "pa_rank": 1,
           "standing": 16,
           "playoff_finish": "In Progress",
-          "last_game_pts": 88.2,
-          "last_game_opp_pts": 110.54,
-          "last_game_opp": "Kevin"
+          "last_game_pts": 118.04,
+          "last_game_opp_pts": 118.86,
+          "last_game_opp": "Mitch"
         }
       }
     },
-    "max_week": 5,
+    "max_week": 6,
     "in_progress": true,
-    "last_played_week": 4
+    "last_played_week": 5
   }
 }
