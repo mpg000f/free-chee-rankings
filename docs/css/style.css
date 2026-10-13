@@ -427,6 +427,8 @@ h3 { font-size: 1.2rem; }
   margin-top: .75rem;
   font-size: .9rem;
 }
+.callout .callout-body { margin: .55rem 0 0; }
+.callout .callout-body:last-child { margin-bottom: 0; }
 .callout-label {
   font-weight: 700;
   color: var(--accent);
