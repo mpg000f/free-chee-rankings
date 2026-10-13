@@ -23,18 +23,18 @@
    "owner": "Boyle",
    "seasons_played": 5,
    "wins": 26,
-   "losses": 36,
+   "losses": 37,
    "ties": 1,
-   "win_pct": 0.413,
-   "pf": 6762.2,
-   "pa": 6902.6,
+   "win_pct": 0.406,
+   "pf": 6868.9,
+   "pa": 7030.1,
    "ppg": 107.3,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 0,
    "best_finish": 4,
-   "avg_power_rank": 8.72,
+   "avg_power_rank": 8.7,
    "best_rank": 1,
    "rival": {
     "owner": "Chris",
@@ -109,12 +109,6 @@
      "t": 0
     },
     {
-     "opp": "Ger",
-     "w": 1,
-     "l": 3,
-     "t": 0
-    },
-    {
      "opp": "Mitch",
      "w": 1,
      "l": 3,
@@ -124,6 +118,12 @@
      "opp": "TK",
      "w": 1,
      "l": 3,
+     "t": 0
+    },
+    {
+     "opp": "Ger",
+     "w": 1,
+     "l": 4,
      "t": 0
     },
     {
@@ -151,19 +151,19 @@
   "Chris": {
    "owner": "Chris",
    "seasons_played": 5,
-   "wins": 31,
+   "wins": 32,
    "losses": 35,
    "ties": 0,
-   "win_pct": 0.47,
-   "pf": 7404.7,
-   "pa": 7428.3,
+   "win_pct": 0.478,
+   "pf": 7518.6,
+   "pa": 7540.1,
    "ppg": 112.2,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 0,
    "best_finish": 2,
-   "avg_power_rank": 5.69,
+   "avg_power_rank": 5.93,
    "best_rank": 2,
    "rival": {
     "owner": "Boyle",
@@ -190,6 +190,12 @@
      "t": 0
     },
     {
+     "opp": "Matt",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "TK",
      "w": 3,
      "l": 2,
@@ -203,12 +209,6 @@
     },
     {
      "opp": "Connor",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "Matt",
      "w": 2,
      "l": 2,
      "t": 0
@@ -280,20 +280,20 @@
   "Connor": {
    "owner": "Connor",
    "seasons_played": 5,
-   "wins": 25,
+   "wins": 26,
    "losses": 35,
    "ties": 0,
-   "win_pct": 0.417,
-   "pf": 6358.1,
-   "pa": 6591.9,
-   "ppg": 106.0,
+   "win_pct": 0.426,
+   "pf": 6497.7,
+   "pa": 6675.8,
+   "ppg": 106.5,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
    "best_finish": 6,
-   "avg_power_rank": 9.93,
-   "best_rank": 5,
+   "avg_power_rank": 9.7,
+   "best_rank": 3,
    "rival": {
     "owner": "Gallo",
     "wins": 2,
@@ -319,6 +319,12 @@
      "t": 0
     },
     {
+     "opp": "Paul",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Papi",
      "w": 2,
      "l": 1,
@@ -338,12 +344,6 @@
     },
     {
      "opp": "Matt",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "Paul",
      "w": 2,
      "l": 2,
      "t": 0
@@ -410,23 +410,23 @@
    "owner": "Deez",
    "seasons_played": 5,
    "wins": 43,
-   "losses": 26,
+   "losses": 27,
    "ties": 0,
-   "win_pct": 0.623,
-   "pf": 7766.2,
-   "pa": 7495.8,
-   "ppg": 112.6,
+   "win_pct": 0.614,
+   "pf": 7900.7,
+   "pa": 7647.1,
+   "ppg": 112.9,
    "championships": 1,
    "finals": 1,
    "semis": 1,
    "last_places": 0,
    "best_finish": 1,
-   "avg_power_rank": 6.28,
+   "avg_power_rank": 6.13,
    "best_rank": 2,
    "rival": {
-    "owner": "Ger",
-    "wins": 3,
-    "losses": 3
+    "owner": "TJ",
+    "wins": 2,
+    "losses": 4
    },
    "h2h": [
     {
@@ -510,7 +510,7 @@
     {
      "opp": "TJ",
      "w": 2,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -539,18 +539,18 @@
    "owner": "Gallo",
    "seasons_played": 5,
    "wins": 37,
-   "losses": 29,
+   "losses": 30,
    "ties": 0,
-   "win_pct": 0.561,
-   "pf": 7274.7,
-   "pa": 7060.2,
-   "ppg": 110.2,
+   "win_pct": 0.552,
+   "pf": 7378.3,
+   "pa": 7169.1,
+   "ppg": 110.1,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 1,
    "best_finish": 1,
-   "avg_power_rank": 8.62,
+   "avg_power_rank": 8.8,
    "best_rank": 1,
    "rival": {
     "owner": "TK",
@@ -633,7 +633,7 @@
     {
      "opp": "Mikey",
      "w": 1,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -667,19 +667,19 @@
   "Ger": {
    "owner": "Ger",
    "seasons_played": 5,
-   "wins": 34,
+   "wins": 35,
    "losses": 35,
    "ties": 0,
-   "win_pct": 0.493,
-   "pf": 7269.0,
-   "pa": 7397.4,
-   "ppg": 105.3,
+   "win_pct": 0.5,
+   "pf": 7396.5,
+   "pa": 7504.2,
+   "ppg": 105.7,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
    "best_finish": 6,
-   "avg_power_rank": 11.72,
+   "avg_power_rank": 11.67,
    "best_rank": 3,
    "rival": {
     "owner": "Justin",
@@ -694,15 +694,15 @@
      "t": 0
     },
     {
-     "opp": "Justin",
+     "opp": "Boyle",
      "w": 4,
-     "l": 2,
+     "l": 1,
      "t": 0
     },
     {
-     "opp": "Boyle",
-     "w": 3,
-     "l": 1,
+     "opp": "Justin",
+     "w": 4,
+     "l": 2,
      "t": 0
     },
     {
@@ -797,18 +797,18 @@
    "owner": "Joey",
    "seasons_played": 5,
    "wins": 31,
-   "losses": 35,
+   "losses": 36,
    "ties": 0,
-   "win_pct": 0.47,
-   "pf": 7731.9,
-   "pa": 7449.7,
-   "ppg": 117.1,
+   "win_pct": 0.463,
+   "pf": 7863.6,
+   "pa": 7585.3,
+   "ppg": 117.4,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 0,
    "best_finish": 3,
-   "avg_power_rank": 6.66,
+   "avg_power_rank": 6.83,
    "best_rank": 1,
    "rival": {
     "owner": "Ger",
@@ -877,6 +877,12 @@
      "t": 0
     },
     {
+     "opp": "Kevin",
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    {
      "opp": "Chris",
      "w": 1,
      "l": 3,
@@ -926,18 +932,18 @@
    "owner": "Justin",
    "seasons_played": 5,
    "wins": 28,
-   "losses": 35,
+   "losses": 36,
    "ties": 0,
-   "win_pct": 0.444,
-   "pf": 6756.1,
-   "pa": 7089.2,
-   "ppg": 107.2,
+   "win_pct": 0.438,
+   "pf": 6868.5,
+   "pa": 7202.5,
+   "ppg": 107.3,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
    "best_finish": 2,
-   "avg_power_rank": 8.14,
+   "avg_power_rank": 8.1,
    "best_rank": 1,
    "rival": {
     "owner": "Ger",
@@ -982,12 +988,6 @@
      "t": 0
     },
     {
-     "opp": "TK",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
      "opp": "Joey",
      "w": 2,
      "l": 3,
@@ -995,6 +995,12 @@
     },
     {
      "opp": "TJ",
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    {
+     "opp": "TK",
      "w": 2,
      "l": 3,
      "t": 0
@@ -1054,19 +1060,19 @@
   "Kevin": {
    "owner": "Kevin",
    "seasons_played": 1,
-   "wins": 2,
+   "wins": 3,
    "losses": 2,
    "ties": 0,
-   "win_pct": 0.5,
-   "pf": 389.9,
-   "pa": 381.4,
-   "ppg": 97.5,
+   "win_pct": 0.6,
+   "pf": 525.5,
+   "pa": 513.1,
+   "ppg": 105.1,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
    "best_finish": 9,
-   "avg_power_rank": 13.0,
+   "avg_power_rank": 12.33,
    "best_rank": 9,
    "rival": {
     "owner": "Mikey",
@@ -1074,6 +1080,12 @@
     "losses": 1
    },
    "h2h": [
+    {
+     "opp": "Joey",
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
     {
      "opp": "Mitch",
      "w": 1,
@@ -1118,18 +1130,18 @@
    "owner": "Matt",
    "seasons_played": 5,
    "wins": 41,
-   "losses": 31,
+   "losses": 32,
    "ties": 0,
-   "win_pct": 0.569,
-   "pf": 8078.1,
-   "pa": 7975.8,
+   "win_pct": 0.562,
+   "pf": 8190.0,
+   "pa": 8089.8,
    "ppg": 112.2,
    "championships": 0,
    "finals": 3,
    "semis": 0,
    "last_places": 0,
    "best_finish": 4,
-   "avg_power_rank": 7.79,
+   "avg_power_rank": 8.03,
    "best_rank": 1,
    "rival": {
     "owner": "Sweeney",
@@ -1198,12 +1210,6 @@
      "t": 0
     },
     {
-     "opp": "Chris",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
      "opp": "Connor",
      "w": 2,
      "l": 2,
@@ -1213,6 +1219,12 @@
      "opp": "Ger",
      "w": 2,
      "l": 2,
+     "t": 0
+    },
+    {
+     "opp": "Chris",
+     "w": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -1252,19 +1264,19 @@
   "Mikey": {
    "owner": "Mikey",
    "seasons_played": 5,
-   "wins": 24,
+   "wins": 25,
    "losses": 39,
    "ties": 0,
-   "win_pct": 0.381,
-   "pf": 6615.9,
-   "pa": 7051.0,
-   "ppg": 105.0,
+   "win_pct": 0.391,
+   "pf": 6724.9,
+   "pa": 7154.6,
+   "ppg": 105.1,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 1,
    "best_finish": 2,
-   "avg_power_rank": 13.97,
+   "avg_power_rank": 13.7,
    "best_rank": 6,
    "rival": {
     "owner": "Sweeney",
@@ -1273,14 +1285,14 @@
    },
    "h2h": [
     {
-     "opp": "Joey",
+     "opp": "Gallo",
      "w": 4,
      "l": 1,
      "t": 0
     },
     {
-     "opp": "Gallo",
-     "w": 3,
+     "opp": "Joey",
+     "w": 4,
      "l": 1,
      "t": 0
     },
@@ -1387,19 +1399,19 @@
   "Mitch": {
    "owner": "Mitch",
    "seasons_played": 5,
-   "wins": 40,
+   "wins": 41,
    "losses": 29,
    "ties": 0,
-   "win_pct": 0.58,
-   "pf": 7847.9,
-   "pa": 7478.6,
-   "ppg": 113.7,
+   "win_pct": 0.586,
+   "pf": 7966.8,
+   "pa": 7596.6,
+   "ppg": 113.8,
    "championships": 1,
    "finals": 1,
    "semis": 0,
    "last_places": 0,
    "best_finish": 3,
-   "avg_power_rank": 7.69,
+   "avg_power_rank": 7.8,
    "best_rank": 2,
    "rival": {
     "owner": "TJ",
@@ -1474,6 +1486,12 @@
      "t": 0
     },
     {
+     "opp": "Sweeney",
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    {
      "opp": "TK",
      "w": 2,
      "l": 3,
@@ -1487,12 +1505,6 @@
     },
     {
      "opp": "Gallo",
-     "w": 1,
-     "l": 3,
-     "t": 0
-    },
-    {
-     "opp": "Sweeney",
      "w": 1,
      "l": 3,
      "t": 0
@@ -1652,18 +1664,18 @@
    "owner": "Paul",
    "seasons_played": 5,
    "wins": 22,
-   "losses": 37,
+   "losses": 38,
    "ties": 1,
-   "win_pct": 0.367,
-   "pf": 6333.0,
-   "pa": 6806.9,
-   "ppg": 105.6,
+   "win_pct": 0.361,
+   "pf": 6416.9,
+   "pa": 6946.5,
+   "ppg": 105.2,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 1,
    "best_finish": 1,
-   "avg_power_rank": 9.38,
+   "avg_power_rank": 9.2,
    "best_rank": 1,
    "rival": {
     "owner": "Chris",
@@ -1690,15 +1702,15 @@
      "t": 0
     },
     {
-     "opp": "Connor",
+     "opp": "Mitch",
      "w": 2,
      "l": 2,
      "t": 0
     },
     {
-     "opp": "Mitch",
+     "opp": "Connor",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -1781,18 +1793,18 @@
    "owner": "Sweeney",
    "seasons_played": 5,
    "wins": 39,
-   "losses": 30,
+   "losses": 31,
    "ties": 0,
-   "win_pct": 0.565,
-   "pf": 7910.4,
-   "pa": 7632.7,
-   "ppg": 114.6,
+   "win_pct": 0.557,
+   "pf": 8028.4,
+   "pa": 7751.6,
+   "ppg": 114.7,
    "championships": 2,
    "finals": 3,
    "semis": 0,
    "last_places": 0,
    "best_finish": 2,
-   "avg_power_rank": 8.93,
+   "avg_power_rank": 9.17,
    "best_rank": 1,
    "rival": {
     "owner": "Matt",
@@ -1809,12 +1821,6 @@
     {
      "opp": "Joey",
      "w": 4,
-     "l": 1,
-     "t": 0
-    },
-    {
-     "opp": "Mitch",
-     "w": 3,
      "l": 1,
      "t": 0
     },
@@ -1838,6 +1844,12 @@
     },
     {
      "opp": "Mikey",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
+     "opp": "Mitch",
      "w": 3,
      "l": 2,
      "t": 0
@@ -1915,19 +1927,19 @@
   "TJ": {
    "owner": "TJ",
    "seasons_played": 5,
-   "wins": 37,
+   "wins": 38,
    "losses": 32,
    "ties": 0,
-   "win_pct": 0.536,
-   "pf": 7811.9,
-   "pa": 7418.1,
-   "ppg": 113.2,
+   "win_pct": 0.543,
+   "pf": 7963.2,
+   "pa": 7552.6,
+   "ppg": 113.8,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 0,
    "best_finish": 4,
-   "avg_power_rank": 5.17,
+   "avg_power_rank": 5.03,
    "best_rank": 1,
    "rival": {
     "owner": "Papi",
@@ -1948,6 +1960,12 @@
      "t": 0
     },
     {
+     "opp": "Deez",
+     "w": 4,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Paul",
      "w": 3,
      "l": 1,
@@ -1957,12 +1975,6 @@
      "opp": "TK",
      "w": 3,
      "l": 1,
-     "t": 0
-    },
-    {
-     "opp": "Deez",
-     "w": 3,
-     "l": 2,
      "t": 0
     },
     {
@@ -2044,19 +2056,19 @@
   "TK": {
    "owner": "TK",
    "seasons_played": 5,
-   "wins": 35,
+   "wins": 36,
    "losses": 31,
    "ties": 0,
-   "win_pct": 0.53,
-   "pf": 6987.1,
-   "pa": 7240.3,
-   "ppg": 105.9,
+   "win_pct": 0.537,
+   "pf": 7100.4,
+   "pa": 7352.7,
+   "ppg": 106.0,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
    "best_finish": 3,
-   "avg_power_rank": 7.31,
+   "avg_power_rank": 7.23,
    "best_rank": 1,
    "rival": {
     "owner": "Gallo",
@@ -2095,6 +2107,12 @@
      "t": 0
     },
     {
+     "opp": "Justin",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Mitch",
      "w": 3,
      "l": 2,
@@ -2108,12 +2126,6 @@
     },
     {
      "opp": "Joey",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "Justin",
      "w": 2,
      "l": 2,
      "t": 0
