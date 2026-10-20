@@ -12488,11 +12488,11 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.99001",
-    "player_name": "Travis Hunter",
+    "player_key": "470.p.41058",
+    "player_name": "Malik Washington",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 16.9
+    "season_points": 38.7
   },
   {
     "week": 7,
@@ -12506,20 +12506,20 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.99001",
+    "player_name": "Travis Hunter",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 16.9
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.8",
     "player_key": "470.p.40504",
     "player_name": "Tyson Bagent",
     "display_position": "QB",
     "points": 0.0,
     "season_points": 15.16
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.41058",
-    "player_name": "Malik Washington",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 38.7
   },
   {
     "week": 7,
@@ -13343,11 +13343,11 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.12",
-    "player_key": "470.p.41344",
-    "player_name": "George Holani",
-    "display_position": "RB",
+    "player_key": "470.p.30182",
+    "player_name": "Cooper Kupp",
+    "display_position": "WR",
     "points": 0.0,
-    "season_points": 26.8
+    "season_points": 31.9
   },
   {
     "week": 7,
@@ -13357,6 +13357,15 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 66.82
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.12",
+    "player_key": "470.p.41344",
+    "player_name": "George Holani",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 26.8
   },
   {
     "week": 7,
@@ -13393,15 +13402,6 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 13.3
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.12",
-    "player_key": "470.p.30182",
-    "player_name": "Cooper Kupp",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 31.9
   },
   {
     "week": 7,
@@ -13451,15 +13451,6 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.40231",
-    "player_name": "Chris Rodriguez Jr.",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 29.9
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.2",
     "player_key": "470.p.40121",
     "player_name": "Michael Wilson",
     "display_position": "WR",
@@ -13496,20 +13487,20 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.2",
+    "player_key": "470.p.40231",
+    "player_name": "Chris Rodriguez Jr.",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 29.9
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.2",
     "player_key": "470.p.32676",
     "player_name": "Justin Herbert",
     "display_position": "QB",
     "points": 0.0,
     "season_points": 70.44
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.41881",
-    "player_name": "Kaleb Johnson",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 9.9
   },
   {
     "week": 7,
@@ -13712,11 +13703,11 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40896",
-    "player_name": "Jayden Daniels",
+    "player_key": "470.p.40030",
+    "player_name": "C.J. Stroud",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 85.66
+    "season_points": 113.16
   },
   {
     "week": 7,
@@ -13748,11 +13739,11 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.31908",
-    "player_name": "Terry McLaurin",
+    "player_key": "470.p.40201",
+    "player_name": "Dontayvion Wicks",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 38.5
+    "season_points": 43.9
   },
   {
     "week": 7,
@@ -13775,11 +13766,29 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40030",
-    "player_name": "C.J. Stroud",
+    "player_key": "470.p.40119",
+    "player_name": "Tyjae Spears",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 19.6
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.6",
+    "player_key": "470.p.31908",
+    "player_name": "Terry McLaurin",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 38.5
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.6",
+    "player_key": "470.p.40896",
+    "player_name": "Jayden Daniels",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 113.16
+    "season_points": 85.66
   },
   {
     "week": 7,
@@ -13789,15 +13798,6 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 45.6
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40201",
-    "player_name": "Dontayvion Wicks",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 43.9
   },
   {
     "week": 7,
@@ -13816,15 +13816,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 34.5
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40119",
-    "player_name": "Tyjae Spears",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 19.6
   },
   {
     "week": 7,
@@ -14036,6 +14027,42 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.40042",
+    "player_name": "Jordan Addison",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 27.7
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.41799",
+    "player_name": "Tyler Warren",
+    "display_position": "TE",
+    "points": 0.0,
+    "season_points": 54.9
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.33477",
+    "player_name": "Nico Collins",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 62.5
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.34042",
+    "player_name": "Malik Willis",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 64.56
+  },
+  {
+    "week": 7,
+    "team_key": "470.l.165433.t.11",
     "player_key": "470.p.31010",
     "player_name": "Courtland Sutton",
     "display_position": "WR",
@@ -14054,47 +14081,11 @@
   {
     "week": 7,
     "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.33477",
-    "player_name": "Nico Collins",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 62.5
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.11",
     "player_key": "470.p.40065",
     "player_name": "Michael Mayer",
     "display_position": "TE",
     "points": 0.0,
     "season_points": 46.6
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.41799",
-    "player_name": "Tyler Warren",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 54.9
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.34042",
-    "player_name": "Malik Willis",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 64.56
-  },
-  {
-    "week": 7,
-    "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.40042",
-    "player_name": "Jordan Addison",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 27.7
   },
   {
     "week": 7,

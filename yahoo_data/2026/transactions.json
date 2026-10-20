@@ -1,5 +1,20 @@
 [
   {
+    "transaction_id": "171",
+    "type": "drop",
+    "timestamp": "1792520307",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.41881",
+        "player_name": "Kaleb Johnson",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.2",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
     "transaction_id": "170",
     "type": "drop",
     "timestamp": "1792496594",

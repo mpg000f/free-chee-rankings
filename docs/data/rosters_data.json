@@ -15042,7 +15042,7 @@
             "name": "Josh Jacobs",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB68"
+            "pos_rank": "RB67"
           },
           {
             "name": "Justin Fields",
@@ -15682,12 +15682,6 @@
             "pos": "WR",
             "pts": 28.5,
             "pos_rank": "WR60"
-          },
-          {
-            "name": "Kaleb Johnson",
-            "pos": "RB",
-            "pts": 9.9,
-            "pos_rank": "RB65"
           }
         ],
         "final_week": 7,
@@ -16547,7 +16541,7 @@
             "name": "Zach Charbonnet",
             "pos": "RB",
             "pts": 0.0,
-            "pos_rank": "RB69"
+            "pos_rank": "RB68"
           }
         ],
         "final_week": 7,
@@ -16756,13 +16750,13 @@
             "name": "Austin Ekeler",
             "pos": "RB",
             "pts": 8.1,
-            "pos_rank": "RB66"
+            "pos_rank": "RB65"
           },
           {
             "name": "Jaylen Wright",
             "pos": "RB",
             "pts": 2.8,
-            "pos_rank": "RB67"
+            "pos_rank": "RB66"
           }
         ],
         "final_week": 7,
