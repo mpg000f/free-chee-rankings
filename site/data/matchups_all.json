@@ -6498,17 +6498,18 @@
    "t2": "Hello Darkness My Old Friend",
    "p2": 83.9,
    "consolation": false
-  }
- ],
- "upcoming": [
+  },
   {
    "season": "2026",
    "week": 6,
    "playoff": false,
    "o1": "TJ",
    "t1": "Boone",
+   "p1": 90.66,
    "o2": "Boyle",
-   "t2": "Shough and F#ck"
+   "t2": "Shough and F#ck",
+   "p2": 106.92,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6516,8 +6517,11 @@
    "playoff": false,
    "o1": "TK",
    "t1": "Nick Wright Barely Legal",
+   "p1": 95.8,
    "o2": "Deez",
-   "t2": "Pigs on the 7th Rank"
+   "t2": "Pigs on the 7th Rank",
+   "p2": 114.52,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6525,8 +6529,11 @@
    "playoff": false,
    "o1": "Mitch",
    "t1": "Charles Dickens",
+   "p1": 110.0,
    "o2": "Joey",
-   "t2": "Stewed C"
+   "t2": "Stewed C",
+   "p2": 115.68,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6534,8 +6541,11 @@
    "playoff": false,
    "o1": "Gallo",
    "t1": "Free Paid",
+   "p1": 55.2,
    "o2": "Kevin",
-   "t2": "Tuanigamanuolepola Donny"
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 93.9,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6543,8 +6553,11 @@
    "playoff": false,
    "o1": "Matt",
    "t1": "The Art of the Deal",
+   "p1": 118.88,
    "o2": "Sweeney",
-   "t2": "Work Ass"
+   "t2": "Work Ass",
+   "p2": 61.42,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6552,8 +6565,11 @@
    "playoff": false,
    "o1": "Mikey",
    "t1": "Pelosi's Powder",
+   "p1": 115.96,
    "o2": "Justin",
-   "t2": "Phenom"
+   "t2": "Phenom",
+   "p2": 137.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6561,8 +6577,11 @@
    "playoff": false,
    "o1": "Ger",
    "t1": "Ger",
+   "p1": 134.88,
    "o2": "Paul",
-   "t2": "Hello Darkness My Old Friend"
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 138.62,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6570,9 +6589,14 @@
    "playoff": false,
    "o1": "Connor",
    "t1": "Healthy as a Fucking Rhino",
+   "p1": 86.98,
    "o2": "Chris",
-   "t2": "Ginny Sack"
-  },
+   "t2": "Ginny Sack",
+   "p2": 79.86,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
   {
    "season": "2026",
    "week": 7,

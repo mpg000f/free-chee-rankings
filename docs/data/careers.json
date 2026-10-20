@@ -22,12 +22,12 @@
   "Boyle": {
    "owner": "Boyle",
    "seasons_played": 5,
-   "wins": 26,
+   "wins": 27,
    "losses": 37,
    "ties": 1,
-   "win_pct": 0.406,
-   "pf": 6868.9,
-   "pa": 7030.1,
+   "win_pct": 0.415,
+   "pf": 6975.9,
+   "pa": 7120.8,
    "ppg": 107.3,
    "championships": 0,
    "finals": 0,
@@ -45,6 +45,12 @@
     {
      "opp": "Chris",
      "w": 4,
+     "l": 2,
+     "t": 0
+    },
+    {
+     "opp": "TJ",
+     "w": 3,
      "l": 2,
      "t": 0
     },
@@ -80,12 +86,6 @@
     },
     {
      "opp": "Sweeney",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "TJ",
      "w": 2,
      "l": 2,
      "t": 0
@@ -137,13 +137,13 @@
     "player": "Josh Allen",
     "cost": 70,
     "pts": 374.62,
-    "value": 119.8
+    "value": 124.0
    },
    "worst_pick": {
     "player": "Justin Herbert",
     "cost": 54,
-    "pts": 60.68,
-    "value": -174.7
+    "pts": 70.44,
+    "value": -162.7
    },
    "power_score": 0.198,
    "comparison": "Herbert Hoover. The numbers are just ugly. Hoover’s presidency was marred\nby disastrous economic performance with brutal headlines (unemployment, bank failures,\nGDP collapse) which all happened on his watch. Similarly, Boyle’s headlines are scrambled\nass. He has a bad record, bad points scored, bad point differential and one playoff\nappearance. We can try to talk nuance for Hoover and Boyle but the numbers are just\nrough."
@@ -152,12 +152,12 @@
    "owner": "Chris",
    "seasons_played": 5,
    "wins": 32,
-   "losses": 35,
+   "losses": 36,
    "ties": 0,
-   "win_pct": 0.478,
-   "pf": 7518.6,
-   "pa": 7540.1,
-   "ppg": 112.2,
+   "win_pct": 0.471,
+   "pf": 7598.5,
+   "pa": 7627.1,
+   "ppg": 111.7,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -208,15 +208,15 @@
      "t": 0
     },
     {
-     "opp": "Connor",
+     "opp": "TJ",
      "w": 2,
      "l": 2,
      "t": 0
     },
     {
-     "opp": "TJ",
+     "opp": "Connor",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -266,13 +266,13 @@
     "player": "Christian McCaffrey",
     "cost": 44,
     "pts": 356.9,
-    "value": 152.0
+    "value": 150.7
    },
    "worst_pick": {
     "player": "Shedeur Sanders",
     "cost": 11,
     "pts": 0.0,
-    "value": -169.8
+    "value": -174.0
    },
    "power_score": 0.509,
    "comparison": "James Madison. Madison was smart, capable and the architect of some\nmajor US systems. Even people who don’t rank him among the best presidents must\nacknowledge he was solidly above average. That’s Chris to a tee. Solid metrics, competitive\nall the time, and a consummate professional."
@@ -280,18 +280,18 @@
   "Connor": {
    "owner": "Connor",
    "seasons_played": 5,
-   "wins": 26,
+   "wins": 27,
    "losses": 35,
    "ties": 0,
-   "win_pct": 0.426,
-   "pf": 6497.7,
-   "pa": 6675.8,
-   "ppg": 106.5,
+   "win_pct": 0.435,
+   "pf": 6584.7,
+   "pa": 6755.6,
+   "ppg": 106.2,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
-   "best_finish": 5,
+   "best_finish": 3,
    "avg_power_rank": 9.7,
    "best_rank": 3,
    "rival": {
@@ -319,6 +319,12 @@
      "t": 0
     },
     {
+     "opp": "Chris",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Paul",
      "w": 3,
      "l": 2,
@@ -334,12 +340,6 @@
      "opp": "TJ",
      "w": 2,
      "l": 1,
-     "t": 0
-    },
-    {
-     "opp": "Chris",
-     "w": 2,
-     "l": 2,
      "t": 0
     },
     {
@@ -392,16 +392,16 @@
     }
    ],
    "best_pick": {
-    "player": "Jared Goff",
-    "cost": 4,
-    "pts": 281.36,
-    "value": 127.9
+    "player": "Marcus Mariota",
+    "cost": 1,
+    "pts": 205.56,
+    "value": 125.6
    },
    "worst_pick": {
     "player": "Sam Darnold",
     "cost": 6,
     "pts": 6.92,
-    "value": -151.8
+    "value": -157.1
    },
    "power_score": 0.179,
    "comparison": "Millard Fillmore. Like Fillmore, Connor isn’t the absolute worst. His teams\nare just deeply forgettable. Fillmore never humiliated himself, but he also never had any\nsignature moments we can point to. That’s sort of like Connor’s resume. He’s not\nhistorically awful, but he’s never made the playoffs and has no real highlights to\ncounterbalance the resume. The one major difference is that historians mostly consider\nFillmore’s sleep habits to be highly regular, while Connor is known to get 11-12 hours of\nsleep a day."
@@ -409,12 +409,12 @@
   "Deez": {
    "owner": "Deez",
    "seasons_played": 5,
-   "wins": 43,
+   "wins": 44,
    "losses": 27,
    "ties": 0,
-   "win_pct": 0.614,
-   "pf": 7900.7,
-   "pa": 7647.1,
+   "win_pct": 0.62,
+   "pf": 8015.3,
+   "pa": 7742.9,
    "ppg": 112.9,
    "championships": 1,
    "finals": 1,
@@ -460,6 +460,12 @@
      "t": 0
     },
     {
+     "opp": "TK",
+     "w": 4,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Chris",
      "w": 3,
      "l": 2,
@@ -473,12 +479,6 @@
     },
     {
      "opp": "Paul",
-     "w": 3,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "TK",
      "w": 3,
      "l": 2,
      "t": 0
@@ -524,13 +524,13 @@
     "player": "Daniel Jones",
     "cost": 6,
     "pts": 294.0,
-    "value": 135.3
+    "value": 130.0
    },
    "worst_pick": {
     "player": "Josh Jacobs",
     "cost": 21,
     "pts": 0.0,
-    "value": -169.3
+    "value": -170.2
    },
    "power_score": 0.817,
    "comparison": "Dwight “Deez” Eisenhower. Eisenhower and Deez both displayed calm,\nsustained dominance without chaos. Eisenhower presided over a clean stretch of\neconomic growth in the 1950s which maps favorably onto Deez’s strong regular season\nperformance year over year. Neither’s resume is built on flashy moments, just doing the\nsmall things day in and day out."
@@ -539,12 +539,12 @@
    "owner": "Gallo",
    "seasons_played": 5,
    "wins": 37,
-   "losses": 30,
+   "losses": 31,
    "ties": 0,
-   "win_pct": 0.552,
-   "pf": 7378.3,
-   "pa": 7169.1,
-   "ppg": 110.1,
+   "win_pct": 0.544,
+   "pf": 7433.5,
+   "pa": 7263.0,
+   "ppg": 109.3,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -631,6 +631,12 @@
      "t": 0
     },
     {
+     "opp": "Kevin",
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    {
      "opp": "Mikey",
      "w": 1,
      "l": 4,
@@ -653,13 +659,13 @@
     "player": "Jalen Hurts",
     "cost": 36,
     "pts": 374.58,
-    "value": 163.3
+    "value": 163.2
    },
    "worst_pick": {
     "player": "Saquon Barkley",
     "cost": 40,
     "pts": 21.0,
-    "value": -178.2
+    "value": -179.5
    },
    "power_score": 0.0452,
    "comparison": "William Henry Harrison. Harrison’s profile is technically successful. He has a\nsolid resume and he won the presidency in a clean election, but he died a month into\noffice. Think of that death as equivalent to Gallo’s last place finish. If either Harrison or\nGallo didn’t have that one black mark against them, they might be considered among the\ngreats."
@@ -668,12 +674,12 @@
    "owner": "Ger",
    "seasons_played": 5,
    "wins": 35,
-   "losses": 35,
+   "losses": 36,
    "ties": 0,
-   "win_pct": 0.5,
-   "pf": 7396.5,
-   "pa": 7504.2,
-   "ppg": 105.7,
+   "win_pct": 0.493,
+   "pf": 7531.3,
+   "pa": 7642.8,
+   "ppg": 106.1,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -762,7 +768,7 @@
     {
      "opp": "Paul",
      "w": 1,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -787,8 +793,8 @@
    "worst_pick": {
     "player": "Caleb Williams",
     "cost": 57,
-    "pts": 45.98,
-    "value": -193.2
+    "pts": 62.48,
+    "value": -174.0
    },
    "power_score": 0.417,
    "comparison": "Lyndon Baines Johnson. LBJ was hyperactive, very deal driven and often\npulling strings behind the scenes. Similarly, Ger is extremely active on the wire with the 2nd\nmost moves in the league. His desire to constantly churn the roster and keep his team in\nflux is akin to LBJ’s style of governance."
@@ -796,13 +802,13 @@
   "Joey": {
    "owner": "Joey",
    "seasons_played": 5,
-   "wins": 31,
+   "wins": 32,
    "losses": 36,
    "ties": 0,
-   "win_pct": 0.463,
-   "pf": 7863.6,
-   "pa": 7585.3,
-   "ppg": 117.4,
+   "win_pct": 0.471,
+   "pf": 7979.3,
+   "pa": 7695.3,
+   "ppg": 117.3,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -811,9 +817,9 @@
    "avg_power_rank": 6.83,
    "best_rank": 1,
    "rival": {
-    "owner": "Ger",
+    "owner": "Mitch",
     "wins": 3,
-    "losses": 2
+    "losses": 3
    },
    "h2h": [
     {
@@ -847,6 +853,12 @@
      "t": 0
     },
     {
+     "opp": "Mitch",
+     "w": 3,
+     "l": 3,
+     "t": 0
+    },
+    {
      "opp": "Deez",
      "w": 2,
      "l": 2,
@@ -860,12 +872,6 @@
     },
     {
      "opp": "Gallo",
-     "w": 2,
-     "l": 3,
-     "t": 0
-    },
-    {
-     "opp": "Mitch",
      "w": 2,
      "l": 3,
      "t": 0
@@ -914,16 +920,16 @@
     }
    ],
    "best_pick": {
-    "player": "Justin Fields",
-    "cost": 9,
-    "pts": 306.98,
-    "value": 141.4
+    "player": "Jayden Daniels",
+    "cost": 45,
+    "pts": 360.6,
+    "value": 138.0
    },
    "worst_pick": {
-    "player": "Jayden Daniels",
-    "cost": 57,
-    "pts": 64.66,
-    "value": -174.5
+    "player": "Jeremiyah Love",
+    "cost": 42,
+    "pts": 45.6,
+    "value": -157.8
    },
    "power_score": 0.58,
    "comparison": "Woodrow Wilson. Wilson talked big and swung for the fences on big projects\nlike the League of Nations, but the results didn’t fully pan out. Similarly, Joey’s rosters and\nambitions have often warranted some big talk but the final results haven’t necessarily lived\nup to their initial billing."
@@ -931,13 +937,13 @@
   "Justin": {
    "owner": "Justin",
    "seasons_played": 5,
-   "wins": 28,
+   "wins": 29,
    "losses": 36,
    "ties": 0,
-   "win_pct": 0.438,
-   "pf": 6868.5,
-   "pa": 7202.5,
-   "ppg": 107.3,
+   "win_pct": 0.446,
+   "pf": 7006.3,
+   "pa": 7318.5,
+   "ppg": 107.8,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -952,14 +958,14 @@
    },
    "h2h": [
     {
-     "opp": "Paul",
+     "opp": "Mikey",
      "w": 4,
      "l": 0,
      "t": 0
     },
     {
-     "opp": "Mikey",
-     "w": 3,
+     "opp": "Paul",
+     "w": 4,
      "l": 0,
      "t": 0
     },
@@ -1046,13 +1052,13 @@
     "player": "Bo Nix",
     "cost": 8,
     "pts": 295.16,
-    "value": 131.8
+    "value": 126.9
    },
    "worst_pick": {
     "player": "Aaron Rodgers",
     "cost": 46,
     "pts": 0.0,
-    "value": -225.0
+    "value": -223.8
    },
    "power_score": 0.283,
    "comparison": "James Garfield. Garfield didn’t have a long presidency but while active he\nwas generally agreed to be legitimately competent. Justin hasn’t stacked up victories year\nafter year but he has shown one stretch of extremely strong play in 2024. Garfield and\nJustin’s resumes aren’t empty, they just fall short of the elite tier."
@@ -1060,13 +1066,13 @@
   "Kevin": {
    "owner": "Kevin",
    "seasons_played": 1,
-   "wins": 3,
+   "wins": 4,
    "losses": 2,
    "ties": 0,
-   "win_pct": 0.6,
-   "pf": 525.5,
-   "pa": 513.1,
-   "ppg": 105.1,
+   "win_pct": 0.667,
+   "pf": 619.4,
+   "pa": 568.3,
+   "ppg": 103.2,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -1080,6 +1086,12 @@
     "losses": 1
    },
    "h2h": [
+    {
+     "opp": "Gallo",
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
     {
      "opp": "Joey",
      "w": 1,
@@ -1114,14 +1126,14 @@
    "best_pick": {
     "player": "Tyler Huntley",
     "cost": 1,
-    "pts": 28.16,
-    "value": -51.8
+    "pts": 41.56,
+    "value": -38.4
    },
    "worst_pick": {
     "player": "Carson Beck",
     "cost": 8,
     "pts": 0.0,
-    "value": -163.4
+    "value": -168.2
    },
    "power_score": null,
    "comparison": ""
@@ -1129,13 +1141,13 @@
   "Matt": {
    "owner": "Matt",
    "seasons_played": 5,
-   "wins": 41,
+   "wins": 42,
    "losses": 32,
    "ties": 0,
-   "win_pct": 0.562,
-   "pf": 8190.0,
-   "pa": 8089.8,
-   "ppg": 112.2,
+   "win_pct": 0.568,
+   "pf": 8308.8,
+   "pa": 8151.2,
+   "ppg": 112.3,
    "championships": 0,
    "finals": 3,
    "semis": 0,
@@ -1145,7 +1157,7 @@
    "best_rank": 1,
    "rival": {
     "owner": "Sweeney",
-    "wins": 3,
+    "wins": 4,
     "losses": 3
    },
    "h2h": [
@@ -1180,6 +1192,12 @@
      "t": 0
     },
     {
+     "opp": "Sweeney",
+     "w": 4,
+     "l": 3,
+     "t": 0
+    },
+    {
      "opp": "Deez",
      "w": 3,
      "l": 2,
@@ -1199,12 +1217,6 @@
     },
     {
      "opp": "Boyle",
-     "w": 3,
-     "l": 3,
-     "t": 0
-    },
-    {
-     "opp": "Sweeney",
      "w": 3,
      "l": 3,
      "t": 0
@@ -1250,13 +1262,13 @@
     "player": "Joe Burrow",
     "cost": 27,
     "pts": 351.1,
-    "value": 153.3
+    "value": 151.8
    },
    "worst_pick": {
     "player": "De'Von Achane",
     "cost": 40,
     "pts": 21.1,
-    "value": -178.1
+    "value": -179.4
    },
    "power_score": 0.803,
    "comparison": "Gerald Ford. Ford and Ron both have kept things stable but didn’t quite get\nthe crowning validation of a title. Ford ascended to the Presidency but was never elected\nhimself while Ron has reached the championship three times without claiming the crown.\nRon mimics Gerald’s steady, competent leadership."
@@ -1265,17 +1277,17 @@
    "owner": "Mikey",
    "seasons_played": 5,
    "wins": 25,
-   "losses": 39,
+   "losses": 40,
    "ties": 0,
-   "win_pct": 0.391,
-   "pf": 6724.9,
-   "pa": 7154.6,
-   "ppg": 105.1,
+   "win_pct": 0.385,
+   "pf": 6840.8,
+   "pa": 7292.4,
+   "ppg": 105.2,
    "championships": 0,
    "finals": 0,
    "semis": 1,
    "last_places": 1,
-   "best_finish": 1,
+   "best_finish": 2,
    "avg_power_rank": 13.7,
    "best_rank": 6,
    "rival": {
@@ -1365,7 +1377,7 @@
     {
      "opp": "Justin",
      "w": 0,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -1391,7 +1403,7 @@
     "player": "Christian McCaffrey",
     "cost": 77,
     "pts": 40.3,
-    "value": -206.9
+    "value": -208.7
    },
    "power_score": 0.127,
    "comparison": "James Buchanan. Buchanan is consistently ranked among the worst\npresidents. Similar to Mikey’s apathy in setting his lineup, Buchanan’s inability to take\nmeaningful action to stop the Civil War is the biggest criticism against him. So the parallel\nis that both Buchanan and Mikey lost and did so while seeming sort of checked out. At least\nin Mikey’s case he was able to salvage his season and avoid relegation while Buchanan’s\nterm did not end on such a positive note."
@@ -1400,11 +1412,11 @@
    "owner": "Mitch",
    "seasons_played": 5,
    "wins": 41,
-   "losses": 29,
+   "losses": 30,
    "ties": 0,
-   "win_pct": 0.586,
-   "pf": 7966.8,
-   "pa": 7596.6,
+   "win_pct": 0.577,
+   "pf": 8076.8,
+   "pa": 7712.3,
    "ppg": 113.8,
    "championships": 1,
    "finals": 1,
@@ -1414,9 +1426,9 @@
    "avg_power_rank": 7.8,
    "best_rank": 2,
    "rival": {
-    "owner": "TJ",
-    "wins": 5,
-    "losses": 1
+    "owner": "Joey",
+    "wins": 3,
+    "losses": 3
    },
    "h2h": [
     {
@@ -1462,15 +1474,15 @@
      "t": 0
     },
     {
-     "opp": "Joey",
+     "opp": "Mikey",
      "w": 3,
      "l": 2,
      "t": 0
     },
     {
-     "opp": "Mikey",
+     "opp": "Joey",
      "w": 3,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -1525,8 +1537,8 @@
    "worst_pick": {
     "player": "A.J. Brown",
     "cost": 25,
-    "pts": 4.1,
-    "value": -172.0
+    "pts": 8.3,
+    "value": -168.3
    },
    "power_score": 0.724,
    "comparison": "George H. W. Bush. Mitch’s legacy is built around one big defining win similar\nto Bush. Bush’s legacy hinges on the undeniable success of Operation Desert Storm. He\ndidn’t dominate in all aspects but this one accomplishment is something history can’t take\naway and that’s how many view Mitch’s championship in 2024. Hasn’t always been\ndominant but he’s overall pretty solid with one crowning achievement."
@@ -1649,13 +1661,13 @@
     "player": "Joe Burrow",
     "cost": 57,
     "pts": 367.84,
-    "value": 128.7
+    "value": 131.3
    },
    "worst_pick": {
-    "player": "Michael Thomas",
-    "cost": 8,
-    "pts": 43.1,
-    "value": -106.6
+    "player": "Jonathan Taylor",
+    "cost": 70,
+    "pts": 132.4,
+    "value": -108.1
    },
    "power_score": 0.213,
    "comparison": "Andrew Johnson. The record on paper isn’t awful but the legacy is defined by\nthe lows. Andrew Johnson technically didn’t do nothing. He had some competent\nstretches, but he’ll always be defined by his mismanagement of Reconstruction and his\nimpeachment. Those massive negatives are Papi’s two last place finishes. Despite mostly\nadequate management, those last place finishes are like an anchor on Papi’s legacy to this\npoint."
@@ -1663,18 +1675,18 @@
   "Paul": {
    "owner": "Paul",
    "seasons_played": 5,
-   "wins": 22,
+   "wins": 23,
    "losses": 38,
    "ties": 1,
-   "win_pct": 0.361,
-   "pf": 6416.9,
-   "pa": 6946.5,
-   "ppg": 105.2,
+   "win_pct": 0.371,
+   "pf": 6555.5,
+   "pa": 7081.4,
+   "ppg": 105.7,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 1,
-   "best_finish": 3,
+   "best_finish": 1,
    "avg_power_rank": 9.2,
    "best_rank": 1,
    "rival": {
@@ -1690,15 +1702,15 @@
      "t": 1
     },
     {
-     "opp": "Chris",
+     "opp": "Ger",
      "w": 3,
-     "l": 2,
+     "l": 1,
      "t": 0
     },
     {
-     "opp": "Ger",
-     "w": 2,
-     "l": 1,
+     "opp": "Chris",
+     "w": 3,
+     "l": 2,
      "t": 0
     },
     {
@@ -1778,13 +1790,13 @@
     "player": "Lamar Jackson",
     "cost": 61,
     "pts": 411.4,
-    "value": 167.3
+    "value": 170.5
    },
    "worst_pick": {
     "player": "Nick Chubb",
     "cost": 40,
     "pts": 21.1,
-    "value": -178.1
+    "value": -179.4
    },
    "power_score": 0.017,
    "comparison": "Franklin Pierce. Pierce is consistently ranked among the worst US Presidents\ndue to poor outcomes. Zauaks, like Connor, has never made the playoffs so there’s no real\nwins to point to. We’d like to compare his consistently poor record (18-37) to Franklin\nPierce’s disastrous decision to sign the Kansas-Nebraska Act. This act repealed the\nMissouri Compromise and allowed new territories to adopt slavery. This weak leadership\n\ncost him support in the North. Sadly, many of Zaukas’ fans are abandoning ship after this\nyear’s showing. Preliminary data shows some are adopting new allegiances."
@@ -1793,12 +1805,12 @@
    "owner": "Sweeney",
    "seasons_played": 5,
    "wins": 39,
-   "losses": 31,
+   "losses": 32,
    "ties": 0,
-   "win_pct": 0.557,
-   "pf": 8028.4,
-   "pa": 7751.6,
-   "ppg": 114.7,
+   "win_pct": 0.549,
+   "pf": 8089.8,
+   "pa": 7870.5,
+   "ppg": 113.9,
    "championships": 2,
    "finals": 3,
    "semis": 0,
@@ -1809,7 +1821,7 @@
    "rival": {
     "owner": "Matt",
     "wins": 3,
-    "losses": 3
+    "losses": 4
    },
    "h2h": [
     {
@@ -1861,12 +1873,6 @@
      "t": 0
     },
     {
-     "opp": "Matt",
-     "w": 3,
-     "l": 3,
-     "t": 0
-    },
-    {
      "opp": "Boyle",
      "w": 2,
      "l": 2,
@@ -1888,6 +1894,12 @@
      "opp": "Justin",
      "w": 2,
      "l": 2,
+     "t": 0
+    },
+    {
+     "opp": "Matt",
+     "w": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -1913,13 +1925,13 @@
     "player": "Patrick Mahomes",
     "cost": 43,
     "pts": 413.92,
-    "value": 192.9
+    "value": 193.8
    },
    "worst_pick": {
     "player": "Fernando Mendoza",
     "cost": 20,
     "pts": 2.22,
-    "value": -184.2
+    "value": -186.8
    },
    "power_score": 0.847,
    "comparison": "FDR. Like Franklin Delano, Sweeney has been clutch when it matters most.\nWhile FDR weathered the Depression and World War Two, Sweeney has delivered clutch\nvictories when facing elimination like his 5 straight wins to end the season this year. Neither\nof them compiled stats in peacetime, they both dominated in high stakes situations."
@@ -1928,12 +1940,12 @@
    "owner": "TJ",
    "seasons_played": 5,
    "wins": 38,
-   "losses": 32,
+   "losses": 33,
    "ties": 0,
-   "win_pct": 0.543,
-   "pf": 7963.2,
-   "pa": 7552.6,
-   "ppg": 113.8,
+   "win_pct": 0.535,
+   "pf": 8053.8,
+   "pa": 7659.5,
+   "ppg": 113.4,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -2002,15 +2014,15 @@
      "t": 0
     },
     {
-     "opp": "Boyle",
+     "opp": "Chris",
      "w": 2,
      "l": 2,
      "t": 0
     },
     {
-     "opp": "Chris",
+     "opp": "Boyle",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -2042,13 +2054,13 @@
     "player": "Baker Mayfield",
     "cost": 30,
     "pts": 359.16,
-    "value": 156.7
+    "value": 155.7
    },
    "worst_pick": {
     "player": "Trey Lance",
     "cost": 26,
     "pts": 13.46,
-    "value": -182.8
+    "value": -184.4
    },
    "power_score": 0.614,
    "comparison": "James K. Polk. Polk profiles as a president who was very productive but\nsomehow still feels a little underappreciated. Polk dramatically expanded US territory with\nthe resounding victory in the Mexican-American War. He also negotiated with Britain\nresulting in the Oregon Treaty of 1846. This maps well to TJ’s dominance in points for (2nd\nmost in the league) and his top-5 win percentage with three playoff appearances. Neither is\namong the most celebrated of their cohort, as each are less decorated than their stats\nwould suggest."
@@ -2057,17 +2069,17 @@
    "owner": "TK",
    "seasons_played": 5,
    "wins": 36,
-   "losses": 31,
+   "losses": 32,
    "ties": 0,
-   "win_pct": 0.537,
-   "pf": 7100.4,
-   "pa": 7352.7,
-   "ppg": 106.0,
+   "win_pct": 0.529,
+   "pf": 7196.2,
+   "pa": 7467.2,
+   "ppg": 105.8,
    "championships": 0,
    "finals": 0,
    "semis": 0,
    "last_places": 0,
-   "best_finish": 2,
+   "best_finish": 4,
    "avg_power_rank": 7.23,
    "best_rank": 1,
    "rival": {
@@ -2137,15 +2149,15 @@
      "t": 0
     },
     {
-     "opp": "Deez",
+     "opp": "Sweeney",
      "w": 2,
      "l": 3,
      "t": 0
     },
     {
-     "opp": "Sweeney",
+     "opp": "Deez",
      "w": 2,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -2177,7 +2189,7 @@
     "player": "Tua Tagovailoa",
     "cost": 20,
     "pts": 0.36,
-    "value": -186.1
+    "value": -188.7
    },
    "power_score": 0.371,
    "comparison": "Rutherford B. Hayes. Hayes lost the popular vote and became president in a\nrazor thin result which is why he’s famous for winning small. Hayes’ presidency was\nessentially decided by recounts and disputed electors while most of TK’s wins end up\nhappening in a similar vein. He eeks out 85-82 victories in the spirit of Rutherford B. but\nwhen he loses he ends up getting clobbered. Additionally, they’re both remembered for one\nbig event. For Hayes, it’s the Compromise of 1877 which ended Reconstruction in the\nSouth in return for the Democrats accepting him as president. For TK, it’s his fleecing of\nBoyle in one of the great trades in league history."

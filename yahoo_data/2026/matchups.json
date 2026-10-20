@@ -483,97 +483,97 @@
     "week": 6,
     "team_1": "Boone",
     "team_1_key": "470.l.165433.t.1",
-    "team_1_points": 0.0,
+    "team_1_points": 90.66,
     "team_2": "Shough and F#ck",
     "team_2_key": "470.l.165433.t.2",
-    "team_2_points": 0.0,
+    "team_2_points": 106.92,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "Nick Wright Barely Legal",
     "team_1_key": "470.l.165433.t.3",
-    "team_1_points": 0.0,
+    "team_1_points": 95.8,
     "team_2": "Pigs on the 7th Rank",
     "team_2_key": "470.l.165433.t.14",
-    "team_2_points": 0.0,
+    "team_2_points": 114.52,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "Charles Dickens",
     "team_1_key": "470.l.165433.t.4",
-    "team_1_points": 0.0,
+    "team_1_points": 110.0,
     "team_2": "Stewed C",
     "team_2_key": "470.l.165433.t.6",
-    "team_2_points": 0.0,
+    "team_2_points": 115.68,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "Free Paid",
     "team_1_key": "470.l.165433.t.5",
-    "team_1_points": 0.0,
+    "team_1_points": 55.2,
     "team_2": "BEST Margarita Recipe",
     "team_2_key": "470.l.165433.t.16",
-    "team_2_points": 0.0,
+    "team_2_points": 93.9,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "The Art of the Deal",
     "team_1_key": "470.l.165433.t.7",
-    "team_1_points": 0.0,
+    "team_1_points": 118.88,
     "team_2": "Work Ass",
     "team_2_key": "470.l.165433.t.13",
-    "team_2_points": 0.0,
+    "team_2_points": 61.42,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "Pelosis Powder",
     "team_1_key": "470.l.165433.t.8",
-    "team_1_points": 0.0,
+    "team_1_points": 115.96,
     "team_2": "Phenom",
     "team_2_key": "470.l.165433.t.12",
-    "team_2_points": 0.0,
+    "team_2_points": 137.8,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "\ud83c\udf7e\ud83d\udcbc\ud83e\udd70",
     "team_1_key": "470.l.165433.t.9",
-    "team_1_points": 0.0,
+    "team_1_points": 134.88,
     "team_2": "Hello Darkness My Old Friend",
     "team_2_key": "470.l.165433.t.15",
-    "team_2_points": 0.0,
+    "team_2_points": 138.62,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 6,
     "team_1": "Healthy as a Fucking Rhino",
     "team_1_key": "470.l.165433.t.10",
-    "team_1_points": 0.0,
+    "team_1_points": 86.98,
     "team_2": "Ginny Sack",
     "team_2_key": "470.l.165433.t.11",
-    "team_2_points": 0.0,
+    "team_2_points": 79.86,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "midevent"
+    "status": "postevent"
   },
   {
     "week": 7,
@@ -585,7 +585,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -597,7 +597,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -609,7 +609,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -621,7 +621,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -633,7 +633,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -645,7 +645,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -657,7 +657,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 7,
@@ -669,7 +669,7 @@
     "team_2_points": 0.0,
     "is_playoffs": 0,
     "is_consolation": 0,
-    "status": "preevent"
+    "status": "midevent"
   },
   {
     "week": 8,
