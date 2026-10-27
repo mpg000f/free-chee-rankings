@@ -1,5 +1,20 @@
 [
   {
+    "transaction_id": "211",
+    "type": "drop",
+    "timestamp": "1793106484",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.33537",
+        "player_name": "Evan McPherson",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.2",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
     "transaction_id": "210",
     "type": "add/drop",
     "timestamp": "1792945057",

@@ -4353,6 +4353,134 @@
   },
   {
     "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.34218",
+    "player_name": "Brock Purdy",
+    "display_position": "QB",
+    "points": 31.28
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.34120",
+    "player_name": "Kyren Williams",
+    "display_position": "RB",
+    "points": 18.8
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41902",
+    "player_name": "Woody Marks",
+    "display_position": "RB",
+    "points": 8.6
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40041",
+    "player_name": "Jaxon Smith-Njigba",
+    "display_position": "WR",
+    "points": 30.36
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40899",
+    "player_name": "Malik Nabers",
+    "display_position": "WR",
+    "points": 5.1
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41831",
+    "player_name": "Terrance Ferguson",
+    "display_position": "TE",
+    "points": 1.4
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41058",
+    "player_name": "Malik Washington",
+    "display_position": "WR",
+    "points": 8.6
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40504",
+    "player_name": "Tyson Bagent",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41810",
+    "player_name": "Jaxson Dart",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.99001",
+    "player_name": "Travis Hunter",
+    "display_position": "WR",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.42796",
+    "player_name": "Emmett Johnson",
+    "display_position": "RB",
+    "points": 1.7
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41001",
+    "player_name": "AJ Barner",
+    "display_position": "TE",
+    "points": 9.4
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.42716",
+    "player_name": "Chris Bell",
+    "display_position": "WR",
+    "points": 8.7
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40144",
+    "player_name": "Jake Haener",
+    "display_position": "QB",
+    "points": 0.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41312",
+    "player_name": "Harrison Mevis",
+    "display_position": "K",
+    "points": 16.0
+  },
+  {
+    "week": 3,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.100006",
+    "player_name": "Cowboys",
+    "display_position": "DEF",
+    "points": 2.0
+  },
+  {
+    "week": 3,
     "team_key": "470.l.165433.t.3",
     "player_key": "470.p.30977",
     "player_name": "Josh Allen",
@@ -14813,29 +14941,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.33966",
-    "player_name": "Chris Olave",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 100.1
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.16",
     "player_key": "470.p.33963",
     "player_name": "Drake London",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 89.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.41795",
-    "player_name": "Colston Loveland",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 49.4
   },
   {
     "week": 8,
@@ -14849,20 +14959,20 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.32993",
-    "player_name": "Tyler Huntley",
-    "display_position": "QB",
+    "player_key": "470.p.41795",
+    "player_name": "Colston Loveland",
+    "display_position": "TE",
     "points": 0.0,
-    "season_points": 57.68
+    "season_points": 49.4
   },
   {
     "week": 8,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.40962",
-    "player_name": "Blake Corum",
+    "player_key": "470.p.34320",
+    "player_name": "Jordan Mason",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 64.5
+    "season_points": 18.7
   },
   {
     "week": 8,
@@ -14872,6 +14982,33 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 31.5
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.32993",
+    "player_name": "Tyler Huntley",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 57.68
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.33966",
+    "player_name": "Chris Olave",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 100.1
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.16",
+    "player_key": "470.p.40962",
+    "player_name": "Blake Corum",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 64.5
   },
   {
     "week": 8,
@@ -14890,15 +15027,6 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 32.5
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.34320",
-    "player_name": "Jordan Mason",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 18.7
   },
   {
     "week": 8,
@@ -15254,11 +15382,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.12",
-    "player_key": "470.p.42642",
-    "player_name": "Makai Lemon",
+    "player_key": "470.p.41804",
+    "player_name": "Emeka Egbuka",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 37.4
+    "season_points": 57.1
   },
   {
     "week": 8,
@@ -15290,6 +15418,15 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.12",
+    "player_key": "470.p.42642",
+    "player_name": "Makai Lemon",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 37.4
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.12",
     "player_key": "470.p.30121",
     "player_name": "Christian McCaffrey",
     "display_position": "RB",
@@ -15304,15 +15441,6 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 34.9
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.12",
-    "player_key": "470.p.41804",
-    "player_name": "Emeka Egbuka",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 57.1
   },
   {
     "week": 8,
@@ -15488,15 +15616,6 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.2",
-    "player_key": "470.p.33537",
-    "player_name": "Evan McPherson",
-    "display_position": "K",
-    "points": 0.0,
-    "season_points": 59.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.2",
     "player_key": "470.p.100016",
     "player_name": "Vikings",
     "display_position": "DEF",
@@ -15524,11 +15643,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.9",
-    "player_key": "470.p.40707",
-    "player_name": "Emanuel Wilson",
+    "player_key": "470.p.33991",
+    "player_name": "Breece Hall",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 71.8
+    "season_points": 37.5
   },
   {
     "week": 8,
@@ -15560,11 +15679,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.9",
-    "player_key": "470.p.33991",
-    "player_name": "Breece Hall",
+    "player_key": "470.p.40707",
+    "player_name": "Emanuel Wilson",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 37.5
+    "season_points": 71.8
   },
   {
     "week": 8,
@@ -16388,20 +16507,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42712",
-    "player_name": "Kaelon Black",
+    "player_key": "470.p.41006",
+    "player_name": "Sione Vaki",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 29.2
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41097",
-    "player_name": "Devaughn Vele",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 69.3
+    "season_points": 12.8
   },
   {
     "week": 8,
@@ -16411,6 +16521,15 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 47.1
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.40883",
+    "player_name": "Brian Thomas Jr.",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 21.0
   },
   {
     "week": 8,
@@ -16442,20 +16561,29 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.42712",
+    "player_name": "Kaelon Black",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 29.2
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.41097",
+    "player_name": "Devaughn Vele",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 69.3
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.27535",
     "player_name": "Mike Evans",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 75.5
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.40883",
-    "player_name": "Brian Thomas Jr.",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 21.0
   },
   {
     "week": 8,
@@ -16483,15 +16611,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 2.22
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.41006",
-    "player_name": "Sione Vaki",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 12.8
   },
   {
     "week": 8,
