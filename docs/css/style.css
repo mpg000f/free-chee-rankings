@@ -343,6 +343,17 @@ h3 { font-size: 1.2rem; }
   font-style: italic;
 }
 
+/* Prose spacing for narrative sections (committee review, analysis appendix) */
+.rankings-article > p { margin-bottom: .95rem; }
+.rankings-article > p:last-child { margin-bottom: 0; }
+.rankings-article > h3 { margin: 1.7rem 0 .45rem; }
+.rankings-article > h3:first-child { margin-top: 0; }
+.rankings-article > .intro { margin-top: 2.4rem; }
+.rankings-article > .intro:first-child { margin-top: 0; }
+.rankings-article > .intro + h3 { margin-top: .2rem; }
+.rankings-article > .table-wrapper,
+.rankings-article > .article-image { margin: 1.2rem 0 1.4rem; }
+
 /* Tier Headers */
 .tier-header {
   margin: 2rem 0 1rem;
