@@ -16066,20 +16066,20 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.41922",
-    "player_name": "Cam Skattebo",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 64.9
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.11",
     "player_key": "470.p.33423",
     "player_name": "Javonte Williams",
     "display_position": "RB",
     "points": 0.0,
     "season_points": 121.0
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.40075",
+    "player_name": "Zach Charbonnet",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 0.0
   },
   {
     "week": 8,
@@ -16102,11 +16102,11 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.34062",
-    "player_name": "Cade Otton",
+    "player_key": "470.p.41799",
+    "player_name": "Tyler Warren",
     "display_position": "TE",
     "points": 0.0,
-    "season_points": 28.1
+    "season_points": 54.9
   },
   {
     "week": 8,
@@ -16129,20 +16129,29 @@
   {
     "week": 8,
     "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.34062",
+    "player_name": "Cade Otton",
+    "display_position": "TE",
+    "points": 0.0,
+    "season_points": 28.1
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.11",
+    "player_key": "470.p.41922",
+    "player_name": "Cam Skattebo",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 64.9
+  },
+  {
+    "week": 8,
+    "team_key": "470.l.165433.t.11",
     "player_key": "470.p.33477",
     "player_name": "Nico Collins",
     "display_position": "WR",
     "points": 0.0,
     "season_points": 64.1
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.41799",
-    "player_name": "Tyler Warren",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 54.9
   },
   {
     "week": 8,
@@ -16159,15 +16168,6 @@
     "player_key": "470.p.41930",
     "player_name": "Shedeur Sanders",
     "display_position": "QB",
-    "points": 0.0,
-    "season_points": 0.0
-  },
-  {
-    "week": 8,
-    "team_key": "470.l.165433.t.11",
-    "player_key": "470.p.40075",
-    "player_name": "Zach Charbonnet",
-    "display_position": "RB",
     "points": 0.0,
     "season_points": 0.0
   },
