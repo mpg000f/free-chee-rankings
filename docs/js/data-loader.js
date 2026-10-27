@@ -6,7 +6,7 @@ const DataLoader = (() => {
   // Stamped by stamp_cache_bust.py from the contents of data/. Without it the
   // browser keeps a stale data file for up to GitHub Pages' 10-minute TTL, so a
   // rebuilt week can keep rendering the previous version.
-  const DATA_V = '9b73a1b080';
+  const DATA_V = '4fe831f4c9';
 
   function versioned(url) {
     return url.includes('?') ? `${url}&v=${DATA_V}` : `${url}?v=${DATA_V}`;
