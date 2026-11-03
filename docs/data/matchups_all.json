@@ -6616,7 +6616,7 @@
    "p1": 91.72,
    "o2": "TK",
    "t2": "Nick Wright Barely Legal",
-   "p2": 106.26,
+   "p2": 106.16,
    "consolation": false
   },
   {
@@ -6690,17 +6690,18 @@
    "t2": "Tuanigamanuolepola Donny",
    "p2": 138.1,
    "consolation": false
-  }
- ],
- "upcoming": [
+  },
   {
    "season": "2026",
    "week": 8,
    "playoff": false,
    "o1": "TJ",
    "t1": "Boone",
+   "p1": 120.18,
    "o2": "Chris",
-   "t2": "Ginny Sack"
+   "t2": "Ginny Sack",
+   "p2": 87.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6708,8 +6709,11 @@
    "playoff": false,
    "o1": "Boyle",
    "t1": "Shough and F#ck",
+   "p1": 139.38,
    "o2": "Mikey",
-   "t2": "Pelosi's Powder"
+   "t2": "Pelosi's Powder",
+   "p2": 93.4,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6717,8 +6721,11 @@
    "playoff": false,
    "o1": "TK",
    "t1": "Nick Wright Barely Legal",
+   "p1": 127.94,
    "o2": "Paul",
-   "t2": "Hello Darkness My Old Friend"
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 128.66,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6726,8 +6733,11 @@
    "playoff": false,
    "o1": "Mitch",
    "t1": "Charles Dickens",
+   "p1": 102.96,
    "o2": "Justin",
-   "t2": "Phenom"
+   "t2": "Phenom",
+   "p2": 107.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6735,8 +6745,11 @@
    "playoff": false,
    "o1": "Gallo",
    "t1": "Free Paid",
+   "p1": 125.24,
    "o2": "Sweeney",
-   "t2": "Work Ass"
+   "t2": "Work Ass",
+   "p2": 116.2,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6744,8 +6757,11 @@
    "playoff": false,
    "o1": "Joey",
    "t1": "Stewed C",
+   "p1": 65.78,
    "o2": "Matt",
-   "t2": "The Art of the Deal"
+   "t2": "The Art of the Deal",
+   "p2": 111.12,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6753,8 +6769,11 @@
    "playoff": false,
    "o1": "Ger",
    "t1": "Ger",
+   "p1": 101.18,
    "o2": "Connor",
-   "t2": "Healthy as a Fucking Rhino"
+   "t2": "Healthy as a Fucking Rhino",
+   "p2": 86.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6762,9 +6781,14 @@
    "playoff": false,
    "o1": "Deez",
    "t1": "Pigs on the 7th Rank",
+   "p1": 136.34,
    "o2": "Kevin",
-   "t2": "Tuanigamanuolepola Donny"
-  },
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 90.26,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
   {
    "season": "2026",
    "week": 9,
