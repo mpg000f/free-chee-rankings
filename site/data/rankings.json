@@ -75,7 +75,7 @@
         },
         {
           "rank": 7,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": null,
           "tier": "WDTDI",
@@ -260,7 +260,7 @@
         },
         {
           "rank": 8,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": -1,
           "tier": null,
@@ -411,7 +411,7 @@
         },
         {
           "rank": 6,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 2,
           "tier": null,
@@ -584,7 +584,7 @@
         },
         {
           "rank": 6,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 0,
           "tier": null,
@@ -743,7 +743,7 @@
         },
         {
           "rank": 5,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 1,
           "tier": "Contenders",
@@ -978,7 +978,7 @@
         },
         {
           "rank": 10,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": -5,
           "tier": "Probably Dogwater",
@@ -1144,7 +1144,7 @@
         },
         {
           "rank": 10,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 0,
           "tier": "Playoff Longshots",
@@ -1327,7 +1327,7 @@
         },
         {
           "rank": 12,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": -2,
           "tier": null,
@@ -1510,7 +1510,7 @@
         },
         {
           "rank": 16,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": -4,
           "tier": "The Pig Farm",
@@ -1656,7 +1656,7 @@
         },
         {
           "rank": 16,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 0,
           "tier": "The Pig Farm",
@@ -1794,7 +1794,7 @@
         },
         {
           "rank": 15,
-          "team_name": "Marvin\u2019s Receiver Room",
+          "team_name": "Marvin’s Receiver Room",
           "owner": "Paul",
           "movement": 1,
           "tier": "Pig Farm",
@@ -5483,6 +5483,176 @@
             "biggest_question_mark",
             "best_draft_pick",
             "worst_draft_pick"
+          ]
+        }
+      ]
+    },
+    {
+      "week_id": "2026-week-9",
+      "season": "2026",
+      "week": 9,
+      "type": "regular",
+      "title": "Free Chee Week 9 Power Rankings",
+      "label": "Week 9",
+      "teams": [
+        {
+          "rank": 1,
+          "team_name": "Hello Darkness My Old Friend",
+          "owner": "Paul",
+          "movement": 0,
+          "tier": "The Appeals Court",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 2,
+          "team_name": "Nick Wright Barely Legal",
+          "owner": "TK",
+          "movement": 1,
+          "tier": "The Appeals Court",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 3,
+          "team_name": "Pigs on the 7th Rank",
+          "owner": "Deez",
+          "movement": -1,
+          "tier": "The Appeals Court",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 4,
+          "team_name": "Phenom",
+          "owner": "Justin",
+          "movement": 3,
+          "tier": "The Appeals Court",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 5,
+          "team_name": "Healthy as a Fucking Rhino",
+          "owner": "Connor",
+          "movement": -1,
+          "tier": "Somebody Check on the Six-Win Teams",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 6,
+          "team_name": "Pelosis Powder",
+          "owner": "Mikey",
+          "movement": -1,
+          "tier": "Somebody Check on the Six-Win Teams",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 7,
+          "team_name": "Boone",
+          "owner": "TJ",
+          "movement": 2,
+          "tier": "The Committee Is Taking Calls",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 8,
+          "team_name": "Shough and F#ck",
+          "owner": "Boyle",
+          "movement": 2,
+          "tier": "The Committee Is Taking Calls",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 9,
+          "team_name": "🍾💼🥰",
+          "owner": "Ger",
+          "movement": -1,
+          "tier": "The Committee Is Taking Calls",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 10,
+          "team_name": "BEST Margarita Recipe",
+          "owner": "Kevin",
+          "movement": -4,
+          "tier": "The Committee Is Taking Calls",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 11,
+          "team_name": "Free Paid",
+          "owner": "Gallo",
+          "movement": 0,
+          "tier": "The Committee Is Taking Calls",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 12,
+          "team_name": "The Art of the Deal",
+          "owner": "Matt",
+          "movement": 0,
+          "tier": "Relegation Business",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 13,
+          "team_name": "Work Ass",
+          "owner": "Sweeney",
+          "movement": 1,
+          "tier": "Relegation Business",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 14,
+          "team_name": "Ginny Sack",
+          "owner": "Chris",
+          "movement": -1,
+          "tier": "Relegation Business",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 15,
+          "team_name": "Charles Dickens",
+          "owner": "Mitch",
+          "movement": 1,
+          "tier": "Relegation Business",
+          "subsections": [
+            "from_the_press"
+          ]
+        },
+        {
+          "rank": 16,
+          "team_name": "Stewed C",
+          "owner": "Joey",
+          "movement": -1,
+          "tier": "Relegation Business",
+          "subsections": [
+            "from_the_press"
           ]
         }
       ]
