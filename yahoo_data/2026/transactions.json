@@ -1,5 +1,63 @@
 [
   {
+    "transaction_id": "242",
+    "type": "drop",
+    "timestamp": "1793735908",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.42706",
+        "player_name": "Ted Hurst III",
+        "type": "drop",
+        "source_team_key": "470.l.165433.t.6",
+        "destination_team_key": ""
+      }
+    ]
+  },
+  {
+    "transaction_id": "241",
+    "type": "trade",
+    "timestamp": "1793735908",
+    "status": "successful",
+    "players": [
+      {
+        "player_key": "470.p.40896",
+        "player_name": "Jayden Daniels",
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.6",
+        "destination_team_key": "470.l.165433.t.1"
+      },
+      {
+        "player_key": "470.p.40168",
+        "player_name": "Puka Nacua",
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.6",
+        "destination_team_key": "470.l.165433.t.1"
+      },
+      {
+        "player_key": "470.p.33394",
+        "player_name": "Jaylen Waddle",
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.1",
+        "destination_team_key": "470.l.165433.t.6"
+      },
+      {
+        "player_key": "470.p.32705",
+        "player_name": "D'Andre Swift",
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.1",
+        "destination_team_key": "470.l.165433.t.6"
+      },
+      {
+        "player_key": "470.p.40220",
+        "player_name": "Tanner McKee",
+        "type": "trade",
+        "source_team_key": "470.l.165433.t.1",
+        "destination_team_key": "470.l.165433.t.6"
+      }
+    ]
+  },
+  {
     "transaction_id": "240",
     "type": "drop",
     "timestamp": "1793710259",

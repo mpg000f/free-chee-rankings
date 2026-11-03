@@ -19006,6 +19006,131 @@
      ],
      "net": 34.16,
      "winner": "TK"
+    },
+    {
+     "date": "Nov 3, 2026",
+     "week": 8,
+     "preseason": false,
+     "weeks_remaining": 10,
+     "weeks_graded": 1,
+     "teams": 2,
+     "sides": [
+      {
+       "owner": "Joey",
+       "received": [
+        {
+         "player": "D'Andre Swift",
+         "pos": "RB",
+         "pts": 26.9,
+         "weeks_rostered": 0,
+         "repl": 5.28,
+         "vor": 21.62
+        },
+        {
+         "player": "Jaylen Waddle",
+         "pos": "WR",
+         "pts": 13.4,
+         "weeks_rostered": 0,
+         "repl": 6.64,
+         "vor": 6.76
+        },
+        {
+         "player": "Tanner McKee",
+         "pos": "QB",
+         "pts": 7.98,
+         "weeks_rostered": 0,
+         "repl": 5.65,
+         "vor": 2.33
+        }
+       ],
+       "sent": [
+        {
+         "player": "Puka Nacua",
+         "pos": "WR",
+         "pts": 19.5,
+         "weeks_rostered": 0,
+         "repl": 6.64,
+         "vor": 12.86,
+         "to_owner": "TJ"
+        },
+        {
+         "player": "Jayden Daniels",
+         "pos": "QB",
+         "pts": 14.98,
+         "weeks_rostered": 0,
+         "repl": 5.65,
+         "vor": 9.33,
+         "to_owner": "TJ"
+        }
+       ],
+       "pts": 48.28,
+       "gave": 34.48,
+       "net_pts": 13.8,
+       "vor_in": 30.71,
+       "vor_out": 22.19,
+       "net": 8.52,
+       "grade": "A"
+      },
+      {
+       "owner": "TJ",
+       "received": [
+        {
+         "player": "Puka Nacua",
+         "pos": "WR",
+         "pts": 19.5,
+         "weeks_rostered": 0,
+         "repl": 6.64,
+         "vor": 12.86
+        },
+        {
+         "player": "Jayden Daniels",
+         "pos": "QB",
+         "pts": 14.98,
+         "weeks_rostered": 0,
+         "repl": 5.65,
+         "vor": 9.33
+        }
+       ],
+       "sent": [
+        {
+         "player": "D'Andre Swift",
+         "pos": "RB",
+         "pts": 26.9,
+         "weeks_rostered": 0,
+         "repl": 5.28,
+         "vor": 21.62,
+         "to_owner": "Joey"
+        },
+        {
+         "player": "Jaylen Waddle",
+         "pos": "WR",
+         "pts": 13.4,
+         "weeks_rostered": 0,
+         "repl": 6.64,
+         "vor": 6.76,
+         "to_owner": "Joey"
+        },
+        {
+         "player": "Tanner McKee",
+         "pos": "QB",
+         "pts": 7.98,
+         "weeks_rostered": 0,
+         "repl": 5.65,
+         "vor": 2.33,
+         "to_owner": "Joey"
+        }
+       ],
+       "pts": 34.48,
+       "gave": 48.28,
+       "net_pts": -13.8,
+       "vor_in": 22.19,
+       "vor_out": 30.71,
+       "net": -8.52,
+       "grade": "F"
+      }
+     ],
+     "net": 8.52,
+     "winner": "Joey"
     }
    ],
    "owners": [

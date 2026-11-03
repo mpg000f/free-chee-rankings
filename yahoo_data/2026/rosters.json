@@ -16530,11 +16530,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.40889",
-    "player_name": "Michael Penix Jr.",
+    "player_key": "470.p.34218",
+    "player_name": "Brock Purdy",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 87.78
+    "season_points": 150.02
   },
   {
     "week": 9,
@@ -16566,20 +16566,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.41058",
-    "player_name": "Malik Washington",
+    "player_key": "470.p.40899",
+    "player_name": "Malik Nabers",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 56.2
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.41001",
-    "player_name": "AJ Barner",
-    "display_position": "TE",
-    "points": 0.0,
-    "season_points": 37.3
+    "season_points": 96.5
   },
   {
     "week": 9,
@@ -16589,6 +16580,33 @@
     "display_position": "TE",
     "points": 0.0,
     "season_points": 36.0
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41058",
+    "player_name": "Malik Washington",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 56.2
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40889",
+    "player_name": "Michael Penix Jr.",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 87.78
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.41001",
+    "player_name": "AJ Barner",
+    "display_position": "TE",
+    "points": 0.0,
+    "season_points": 37.3
   },
   {
     "week": 9,
@@ -16607,24 +16625,6 @@
     "display_position": "TE",
     "points": 0.0,
     "season_points": 15.8
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.34218",
-    "player_name": "Brock Purdy",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 150.02
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.40899",
-    "player_name": "Malik Nabers",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 96.5
   },
   {
     "week": 9,
@@ -16962,11 +16962,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.30971",
-    "player_name": "Baker Mayfield",
+    "player_key": "470.p.40896",
+    "player_name": "Jayden Daniels",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 45.16
+    "season_points": 100.64
   },
   {
     "week": 9,
@@ -16980,11 +16980,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.32705",
-    "player_name": "D'Andre Swift",
+    "player_key": "470.p.34107",
+    "player_name": "Tyler Allgeier",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 138.7
+    "season_points": 73.6
   },
   {
     "week": 9,
@@ -16998,11 +16998,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.40234",
-    "player_name": "Parker Washington",
+    "player_key": "470.p.40168",
+    "player_name": "Puka Nacua",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 82.0
+    "season_points": 110.6
   },
   {
     "week": 9,
@@ -17016,20 +17016,20 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.34107",
-    "player_name": "Tyler Allgeier",
-    "display_position": "RB",
+    "player_key": "470.p.40234",
+    "player_name": "Parker Washington",
+    "display_position": "WR",
     "points": 0.0,
-    "season_points": 73.6
+    "season_points": 82.0
   },
   {
     "week": 9,
     "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.40220",
-    "player_name": "Tanner McKee",
+    "player_key": "470.p.30971",
+    "player_name": "Baker Mayfield",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 32.12
+    "season_points": 45.16
   },
   {
     "week": 9,
@@ -17066,15 +17066,6 @@
     "display_position": "QB",
     "points": 0.0,
     "season_points": 39.54
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.1",
-    "player_key": "470.p.33394",
-    "player_name": "Jaylen Waddle",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 64.3
   },
   {
     "week": 9,
@@ -18024,6 +18015,15 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.7",
+    "player_key": "470.p.40029",
+    "player_name": "Bryce Young",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 131.24
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.7",
     "player_key": "470.p.31833",
     "player_name": "Kyler Murray",
     "display_position": "QB",
@@ -18038,15 +18038,6 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 19.5
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.40029",
-    "player_name": "Bryce Young",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 131.24
   },
   {
     "week": 9,
@@ -18393,11 +18384,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40896",
-    "player_name": "Jayden Daniels",
+    "player_key": "470.p.40220",
+    "player_name": "Tanner McKee",
     "display_position": "QB",
     "points": 0.0,
-    "season_points": 100.64
+    "season_points": 32.12
   },
   {
     "week": 9,
@@ -18411,20 +18402,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.42625",
-    "player_name": "Jeremiyah Love",
+    "player_key": "470.p.32705",
+    "player_name": "D'Andre Swift",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 47.9
-  },
-  {
-    "week": 9,
-    "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.40168",
-    "player_name": "Puka Nacua",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 110.6
+    "season_points": 138.7
   },
   {
     "week": 9,
@@ -18434,6 +18416,15 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 34.2
+  },
+  {
+    "week": 9,
+    "team_key": "470.l.165433.t.6",
+    "player_key": "470.p.33394",
+    "player_name": "Jaylen Waddle",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 64.3
   },
   {
     "week": 9,
@@ -18465,11 +18456,11 @@
   {
     "week": 9,
     "team_key": "470.l.165433.t.6",
-    "player_key": "470.p.42706",
-    "player_name": "Ted Hurst III",
-    "display_position": "WR",
+    "player_key": "470.p.42625",
+    "player_name": "Jeremiyah Love",
+    "display_position": "RB",
     "points": 0.0,
-    "season_points": 28.3
+    "season_points": 47.9
   },
   {
     "week": 9,
