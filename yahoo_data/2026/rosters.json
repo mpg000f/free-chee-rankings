@@ -20648,6 +20648,15 @@
   {
     "week": 10,
     "team_key": "470.l.165433.t.13",
+    "player_key": "470.p.42623",
+    "player_name": "Fernando Mendoza",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 2.22
+  },
+  {
+    "week": 10,
+    "team_key": "470.l.165433.t.13",
     "player_key": "470.p.29236",
     "player_name": "Carson Wentz",
     "display_position": "QB",
@@ -20689,15 +20698,6 @@
     "display_position": "WR",
     "points": 0.0,
     "season_points": 59.8
-  },
-  {
-    "week": 10,
-    "team_key": "470.l.165433.t.13",
-    "player_key": "470.p.42623",
-    "player_name": "Fernando Mendoza",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 2.22
   },
   {
     "week": 10,
