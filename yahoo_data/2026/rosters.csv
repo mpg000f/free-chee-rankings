@@ -15,6 +15,22 @@ week,team_key,player_key,player_name,display_position,points
 1,470.l.165433.t.15,470.p.42012,Brashard Smith,RB,0.0
 1,470.l.165433.t.15,470.p.33537,Evan McPherson,K,19.0
 1,470.l.165433.t.15,470.p.100008,Lions,DEF,11.0
+1,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,24.72
+1,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,34.8
+1,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,31.9
+1,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,0.7
+1,470.l.165433.t.1,470.p.33989,Christian Watson,WR,29.7
+1,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,8.0
+1,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,3.9
+1,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,11.64
+1,470.l.165433.t.1,470.p.40234,Parker Washington,WR,16.8
+1,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,3.8
+1,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,5.8
+1,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
+1,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,8.0
+1,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
+1,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,9.0
+1,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
 1,470.l.165433.t.8,470.p.41810,Jaxson Dart,QB,26.6
 1,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,14.0
 1,470.l.165433.t.8,470.p.41902,Woody Marks,RB,4.5
@@ -31,6 +47,22 @@ week,team_key,player_key,player_name,display_position,points
 1,470.l.165433.t.8,470.p.42716,Chris Bell,WR,3.0
 1,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,1.0
 1,470.l.165433.t.8,470.p.100006,Cowboys,DEF,4.0
+1,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,16.48
+1,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,16.8
+1,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,6.0
+1,470.l.165433.t.16,470.p.33963,Drake London,WR,4.5
+1,470.l.165433.t.16,470.p.33966,Chris Olave,WR,23.2
+1,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,0.0
+1,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,8.9
+1,470.l.165433.t.16,470.p.30788,Cooper Rush,QB,6.72
+1,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,8.0
+1,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,16.7
+1,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
+1,470.l.165433.t.16,470.p.40962,Blake Corum,RB,5.4
+1,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
+1,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,0.0
+1,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,2.0
+1,470.l.165433.t.16,470.p.100034,Texans,DEF,-1.0
 1,470.l.165433.t.10,470.p.29235,Jared Goff,QB,16.44
 1,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,8.3
 1,470.l.165433.t.10,470.p.33413,Travis Etienne Jr.,RB,11.3
@@ -63,54 +95,6 @@ week,team_key,player_key,player_name,display_position,points
 1,470.l.165433.t.3,470.p.40040,Anthony Richardson Sr.,QB,0.0
 1,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,11.0
 1,470.l.165433.t.3,470.p.100010,Titans,DEF,0.0
-1,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,24.72
-1,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,34.8
-1,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,31.9
-1,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,0.7
-1,470.l.165433.t.1,470.p.33989,Christian Watson,WR,29.7
-1,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,8.0
-1,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,3.9
-1,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,11.64
-1,470.l.165433.t.1,470.p.40234,Parker Washington,WR,16.8
-1,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,3.8
-1,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,5.8
-1,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
-1,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,8.0
-1,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
-1,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,9.0
-1,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
-1,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,22.66
-1,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,7.8
-1,470.l.165433.t.14,470.p.31905,David Montgomery,RB,27.4
-1,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,6.0
-1,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,5.5
-1,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,6.9
-1,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,12.9
-1,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,26.1
-1,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
-1,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-1,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,0.0
-1,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,12.9
-1,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,-0.3
-1,470.l.165433.t.14,470.p.41881,Kaleb Johnson,RB,0.0
-1,470.l.165433.t.14,470.p.41093,Will Reichard,K,7.0
-1,470.l.165433.t.14,470.p.100030,Jaguars,DEF,14.0
-1,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,16.48
-1,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,16.8
-1,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,6.0
-1,470.l.165433.t.16,470.p.33963,Drake London,WR,4.5
-1,470.l.165433.t.16,470.p.33966,Chris Olave,WR,23.2
-1,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,0.0
-1,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,8.9
-1,470.l.165433.t.16,470.p.30788,Cooper Rush,QB,6.72
-1,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,8.0
-1,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,16.7
-1,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
-1,470.l.165433.t.16,470.p.40962,Blake Corum,RB,5.4
-1,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
-1,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,0.0
-1,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,2.0
-1,470.l.165433.t.16,470.p.100034,Texans,DEF,-1.0
 1,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,5.1
 1,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,27.3
 1,470.l.165433.t.12,470.p.41791,Ashton Jeanty,RB,29.7
@@ -127,6 +111,22 @@ week,team_key,player_key,player_name,display_position,points
 1,470.l.165433.t.12,470.p.31874,Drew Lock,QB,12.78
 1,470.l.165433.t.12,470.p.40835,Jake Bates,K,7.0
 1,470.l.165433.t.12,470.p.100024,Chargers,DEF,1.0
+1,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,22.66
+1,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,7.8
+1,470.l.165433.t.14,470.p.31905,David Montgomery,RB,27.4
+1,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,6.0
+1,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,5.5
+1,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,6.9
+1,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,12.9
+1,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,26.1
+1,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
+1,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+1,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,0.0
+1,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,12.9
+1,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,-0.3
+1,470.l.165433.t.14,470.p.41881,Kaleb Johnson,RB,0.0
+1,470.l.165433.t.14,470.p.41093,Will Reichard,K,7.0
+1,470.l.165433.t.14,470.p.100030,Jaguars,DEF,14.0
 1,470.l.165433.t.2,470.p.32676,Justin Herbert,QB,14.26
 1,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,31.1
 1,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,9.3
@@ -271,6 +271,22 @@ week,team_key,player_key,player_name,display_position,points
 2,470.l.165433.t.15,470.p.42638,Kenyon Sadiq,TE,2.7
 2,470.l.165433.t.15,470.p.33537,Evan McPherson,K,12.0
 2,470.l.165433.t.15,470.p.100029,Panthers,DEF,27.0
+2,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,18.16
+2,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,16.2
+2,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,10.4
+2,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,17.8
+2,470.l.165433.t.1,470.p.33989,Christian Watson,WR,12.1
+2,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,2.5
+2,470.l.165433.t.1,470.p.40234,Parker Washington,WR,13.3
+2,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,13.18
+2,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,7.0
+2,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
+2,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,4.2
+2,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
+2,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.9
+2,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
+2,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,7.0
+2,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
 2,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,28.48
 2,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,14.7
 2,470.l.165433.t.8,470.p.41902,Woody Marks,RB,6.0
@@ -287,6 +303,22 @@ week,team_key,player_key,player_name,display_position,points
 2,470.l.165433.t.8,470.p.42716,Chris Bell,WR,0.0
 2,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,3.0
 2,470.l.165433.t.8,470.p.100006,Cowboys,DEF,3.0
+2,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,7.5
+2,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,11.0
+2,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,7.3
+2,470.l.165433.t.16,470.p.33963,Drake London,WR,6.9
+2,470.l.165433.t.16,470.p.33966,Chris Olave,WR,18.6
+2,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,0.8
+2,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,10.3
+2,470.l.165433.t.16,470.p.30788,Cooper Rush,QB,1.44
+2,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,12.6
+2,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,5.0
+2,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
+2,470.l.165433.t.16,470.p.40962,Blake Corum,RB,9.7
+2,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
+2,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,3.54
+2,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,2.0
+2,470.l.165433.t.16,470.p.100034,Texans,DEF,6.0
 2,470.l.165433.t.10,470.p.29235,Jared Goff,QB,29.78
 2,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,16.5
 2,470.l.165433.t.10,470.p.33413,Travis Etienne Jr.,RB,6.1
@@ -319,54 +351,6 @@ week,team_key,player_key,player_name,display_position,points
 2,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,5.0
 2,470.l.165433.t.3,470.p.100027,Buccaneers,DEF,3.0
 2,470.l.165433.t.3,470.p.100012,Chiefs,DEF,2.0
-2,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,18.16
-2,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,16.2
-2,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,10.4
-2,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,17.8
-2,470.l.165433.t.1,470.p.33989,Christian Watson,WR,12.1
-2,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,2.5
-2,470.l.165433.t.1,470.p.40234,Parker Washington,WR,13.3
-2,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,13.18
-2,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,7.0
-2,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
-2,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,4.2
-2,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
-2,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.9
-2,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
-2,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,7.0
-2,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
-2,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,28.98
-2,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,8.7
-2,470.l.165433.t.14,470.p.31905,David Montgomery,RB,3.4
-2,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,4.7
-2,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,5.5
-2,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,8.6
-2,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,7.9
-2,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,7.16
-2,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
-2,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-2,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,0.0
-2,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,18.0
-2,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
-2,470.l.165433.t.14,470.p.40222,DeMario Douglas,WR,1.4
-2,470.l.165433.t.14,470.p.41093,Will Reichard,K,10.0
-2,470.l.165433.t.14,470.p.100030,Jaguars,DEF,3.0
-2,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,7.5
-2,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,11.0
-2,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,7.3
-2,470.l.165433.t.16,470.p.33963,Drake London,WR,6.9
-2,470.l.165433.t.16,470.p.33966,Chris Olave,WR,18.6
-2,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,0.8
-2,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,10.3
-2,470.l.165433.t.16,470.p.30788,Cooper Rush,QB,1.44
-2,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,12.6
-2,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,5.0
-2,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
-2,470.l.165433.t.16,470.p.40962,Blake Corum,RB,9.7
-2,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
-2,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,3.54
-2,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,2.0
-2,470.l.165433.t.16,470.p.100034,Texans,DEF,6.0
 2,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,27.98
 2,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,9.6
 2,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,20.6
@@ -383,6 +367,22 @@ week,team_key,player_key,player_name,display_position,points
 2,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,1.4
 2,470.l.165433.t.12,470.p.40835,Jake Bates,K,7.0
 2,470.l.165433.t.12,470.p.100024,Chargers,DEF,5.0
+2,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,28.98
+2,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,8.7
+2,470.l.165433.t.14,470.p.31905,David Montgomery,RB,3.4
+2,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,4.7
+2,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,5.5
+2,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,8.6
+2,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,7.9
+2,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,7.16
+2,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
+2,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+2,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,0.0
+2,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,18.0
+2,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
+2,470.l.165433.t.14,470.p.40222,DeMario Douglas,WR,1.4
+2,470.l.165433.t.14,470.p.41093,Will Reichard,K,10.0
+2,470.l.165433.t.14,470.p.100030,Jaguars,DEF,3.0
 2,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,22.38
 2,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,20.3
 2,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,13.2
@@ -527,6 +527,22 @@ week,team_key,player_key,player_name,display_position,points
 3,470.l.165433.t.15,470.p.31046,Mason Rudolph,QB,0.0
 3,470.l.165433.t.15,470.p.33537,Evan McPherson,K,11.0
 3,470.l.165433.t.15,470.p.100029,Panthers,DEF,5.0
+3,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.62
+3,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,21.4
+3,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,9.8
+3,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,5.4
+3,470.l.165433.t.1,470.p.33989,Christian Watson,WR,19.1
+3,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,4.6
+3,470.l.165433.t.1,470.p.40234,Parker Washington,WR,11.5
+3,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,12.28
+3,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,11.6
+3,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,5.5
+3,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,8.8
+3,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,-1.0
+3,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.9
+3,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,-0.1
+3,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,5.0
+3,470.l.165433.t.1,470.p.100003,Bears,DEF,14.0
 3,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,31.28
 3,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,18.8
 3,470.l.165433.t.8,470.p.41902,Woody Marks,RB,8.6
@@ -543,6 +559,22 @@ week,team_key,player_key,player_name,display_position,points
 3,470.l.165433.t.8,470.p.40144,Jake Haener,QB,0.0
 3,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,16.0
 3,470.l.165433.t.8,470.p.100006,Cowboys,DEF,2.0
+3,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,25.6
+3,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,6.8
+3,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,8.9
+3,470.l.165433.t.16,470.p.33966,Chris Olave,WR,15.2
+3,470.l.165433.t.16,470.p.33963,Drake London,WR,23.9
+3,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,5.1
+3,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,12.3
+3,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,6.12
+3,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,2.7
+3,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,8.6
+3,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
+3,470.l.165433.t.16,470.p.40962,Blake Corum,RB,2.5
+3,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
+3,470.l.165433.t.16,470.p.41060,Joe Milton,QB,0.0
+3,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,9.0
+3,470.l.165433.t.16,470.p.100034,Texans,DEF,11.0
 3,470.l.165433.t.10,470.p.29235,Jared Goff,QB,19.36
 3,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,5.6
 3,470.l.165433.t.10,470.p.33413,Travis Etienne Jr.,RB,8.0
@@ -575,54 +607,6 @@ week,team_key,player_key,player_name,display_position,points
 3,470.l.165433.t.3,470.p.32814,DeeJay Dallas,RB,0.2
 3,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,2.0
 3,470.l.165433.t.3,470.p.100012,Chiefs,DEF,11.0
-3,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.62
-3,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,21.4
-3,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,9.8
-3,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,5.4
-3,470.l.165433.t.1,470.p.33989,Christian Watson,WR,19.1
-3,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,4.6
-3,470.l.165433.t.1,470.p.40234,Parker Washington,WR,11.5
-3,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,12.28
-3,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,11.6
-3,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,5.5
-3,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,8.8
-3,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,-1.0
-3,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.9
-3,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,-0.1
-3,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,5.0
-3,470.l.165433.t.1,470.p.100003,Bears,DEF,14.0
-3,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,16.94
-3,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,19.1
-3,470.l.165433.t.14,470.p.31905,David Montgomery,RB,5.8
-3,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,10.6
-3,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,7.1
-3,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,22.6
-3,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,3.9
-3,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,20.78
-3,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,19.3
-3,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,1.3
-3,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-3,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,15.04
-3,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
-3,470.l.165433.t.14,470.p.40222,DeMario Douglas,WR,4.3
-3,470.l.165433.t.14,470.p.41093,Will Reichard,K,16.0
-3,470.l.165433.t.14,470.p.100008,Lions,DEF,7.0
-3,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,25.6
-3,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,6.8
-3,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,8.9
-3,470.l.165433.t.16,470.p.33966,Chris Olave,WR,15.2
-3,470.l.165433.t.16,470.p.33963,Drake London,WR,23.9
-3,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,5.1
-3,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,12.3
-3,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,6.12
-3,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,2.7
-3,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,8.6
-3,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
-3,470.l.165433.t.16,470.p.40962,Blake Corum,RB,2.5
-3,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
-3,470.l.165433.t.16,470.p.41060,Joe Milton,QB,0.0
-3,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,9.0
-3,470.l.165433.t.16,470.p.100034,Texans,DEF,11.0
 3,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,21.9
 3,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,34.3
 3,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,19.6
@@ -639,6 +623,22 @@ week,team_key,player_key,player_name,display_position,points
 3,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,4.4
 3,470.l.165433.t.12,470.p.40835,Jake Bates,K,7.0
 3,470.l.165433.t.12,470.p.100002,Bills,DEF,6.0
+3,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,16.94
+3,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,19.1
+3,470.l.165433.t.14,470.p.31905,David Montgomery,RB,5.8
+3,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,10.6
+3,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,7.1
+3,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,22.6
+3,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,3.9
+3,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,20.78
+3,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,19.3
+3,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,1.3
+3,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+3,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,15.04
+3,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
+3,470.l.165433.t.14,470.p.40222,DeMario Douglas,WR,4.3
+3,470.l.165433.t.14,470.p.41093,Will Reichard,K,16.0
+3,470.l.165433.t.14,470.p.100008,Lions,DEF,7.0
 3,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,24.8
 3,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,37.9
 3,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,16.0
@@ -783,6 +783,22 @@ week,team_key,player_key,player_name,display_position,points
 4,470.l.165433.t.15,470.p.31046,Mason Rudolph,QB,0.0
 4,470.l.165433.t.15,470.p.33537,Evan McPherson,K,5.0
 4,470.l.165433.t.15,470.p.100012,Chiefs,DEF,5.0
+4,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.52
+4,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,14.9
+4,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,6.4
+4,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,12.0
+4,470.l.165433.t.1,470.p.33989,Christian Watson,WR,6.2
+4,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,13.5
+4,470.l.165433.t.1,470.p.40234,Parker Washington,WR,1.5
+4,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,13.42
+4,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
+4,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,12.0
+4,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,7.7
+4,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,17.0
+4,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
+4,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,11.9
+4,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,16.0
+4,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
 4,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,19.62
 4,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,31.7
 4,470.l.165433.t.8,470.p.41902,Woody Marks,RB,8.2
@@ -799,6 +815,22 @@ week,team_key,player_key,player_name,display_position,points
 4,470.l.165433.t.8,470.p.40144,Jake Haener,QB,0.0
 4,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,6.0
 4,470.l.165433.t.8,470.p.100006,Cowboys,DEF,2.0
+4,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,12.44
+4,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,6.1
+4,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,18.6
+4,470.l.165433.t.16,470.p.33966,Chris Olave,WR,15.6
+4,470.l.165433.t.16,470.p.33963,Drake London,WR,12.1
+4,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,8.7
+4,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
+4,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,20.0
+4,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,38.2
+4,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
+4,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
+4,470.l.165433.t.16,470.p.40962,Blake Corum,RB,2.6
+4,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,4.12
+4,470.l.165433.t.16,470.p.33975,Kenny Pickett,QB,0.0
+4,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,12.0
+4,470.l.165433.t.16,470.p.100034,Texans,DEF,5.0
 4,470.l.165433.t.10,470.p.29235,Jared Goff,QB,20.48
 4,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,12.3
 4,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,7.7
@@ -831,54 +863,6 @@ week,team_key,player_key,player_name,display_position,points
 4,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,0.0
 4,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,6.0
 4,470.l.165433.t.3,470.p.100009,Packers,DEF,9.0
-4,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.52
-4,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,14.9
-4,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,6.4
-4,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,12.0
-4,470.l.165433.t.1,470.p.33989,Christian Watson,WR,6.2
-4,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,13.5
-4,470.l.165433.t.1,470.p.40234,Parker Washington,WR,1.5
-4,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,13.42
-4,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
-4,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,12.0
-4,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,7.7
-4,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,17.0
-4,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
-4,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,11.9
-4,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,16.0
-4,470.l.165433.t.1,470.p.100003,Bears,DEF,7.0
-4,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,17.0
-4,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,14.1
-4,470.l.165433.t.14,470.p.31905,David Montgomery,RB,4.3
-4,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,14.0
-4,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,10.9
-4,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,17.6
-4,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,8.9
-4,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,13.08
-4,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,11.2
-4,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,8.7
-4,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-4,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,12.72
-4,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
-4,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,0.0
-4,470.l.165433.t.14,470.p.41093,Will Reichard,K,19.0
-4,470.l.165433.t.14,470.p.100008,Lions,DEF,3.0
-4,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,12.44
-4,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,6.1
-4,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,18.6
-4,470.l.165433.t.16,470.p.33966,Chris Olave,WR,15.6
-4,470.l.165433.t.16,470.p.33963,Drake London,WR,12.1
-4,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,8.7
-4,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
-4,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,20.0
-4,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,38.2
-4,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
-4,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
-4,470.l.165433.t.16,470.p.40962,Blake Corum,RB,2.6
-4,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,4.12
-4,470.l.165433.t.16,470.p.33975,Kenny Pickett,QB,0.0
-4,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,12.0
-4,470.l.165433.t.16,470.p.100034,Texans,DEF,5.0
 4,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,11.68
 4,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,27.2
 4,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,14.5
@@ -895,6 +879,22 @@ week,team_key,player_key,player_name,display_position,points
 4,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,4.2
 4,470.l.165433.t.12,470.p.40835,Jake Bates,K,18.0
 4,470.l.165433.t.12,470.p.100002,Bills,DEF,5.0
+4,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,17.0
+4,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,14.1
+4,470.l.165433.t.14,470.p.31905,David Montgomery,RB,4.3
+4,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,14.0
+4,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,10.9
+4,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,17.6
+4,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,8.9
+4,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,13.08
+4,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,11.2
+4,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,8.7
+4,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+4,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,12.72
+4,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
+4,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,0.0
+4,470.l.165433.t.14,470.p.41093,Will Reichard,K,19.0
+4,470.l.165433.t.14,470.p.100008,Lions,DEF,3.0
 4,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,15.94
 4,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,15.7
 4,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,10.1
@@ -1039,6 +1039,22 @@ week,team_key,player_key,player_name,display_position,points
 5,470.l.165433.t.15,470.p.42693,Antonio Williams,WR,4.6
 5,470.l.165433.t.15,470.p.33537,Evan McPherson,K,7.0
 5,470.l.165433.t.15,470.p.100013,Raiders,DEF,-6.0
+5,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.0
+5,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,20.5
+5,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,15.3
+5,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,3.8
+5,470.l.165433.t.1,470.p.33989,Christian Watson,WR,29.3
+5,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,9.1
+5,470.l.165433.t.1,470.p.40234,Parker Washington,WR,27.4
+5,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,13.86
+5,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
+5,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,5.2
+5,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
+5,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,1.1
+5,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
+5,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.6
+5,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,17.0
+5,470.l.165433.t.1,470.p.100003,Bears,DEF,2.0
 5,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,17.16
 5,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,16.6
 5,470.l.165433.t.8,470.p.41902,Woody Marks,RB,10.5
@@ -1055,6 +1071,22 @@ week,team_key,player_key,player_name,display_position,points
 5,470.l.165433.t.8,470.p.40144,Jake Haener,QB,0.0
 5,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,3.0
 5,470.l.165433.t.8,470.p.100006,Cowboys,DEF,2.0
+5,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,25.78
+5,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,30.5
+5,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,6.5
+5,470.l.165433.t.16,470.p.33966,Chris Olave,WR,6.6
+5,470.l.165433.t.16,470.p.33963,Drake London,WR,15.3
+5,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,2.9
+5,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
+5,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,24.04
+5,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,25.74
+5,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,0.0
+5,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
+5,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
+5,470.l.165433.t.16,470.p.40962,Blake Corum,RB,14.7
+5,470.l.165433.t.16,470.p.42845,Athan Kaliakmanis,QB,0.0
+5,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,6.0
+5,470.l.165433.t.16,470.p.100034,Texans,DEF,18.0
 5,470.l.165433.t.10,470.p.29235,Jared Goff,QB,28.94
 5,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,4.4
 5,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,18.1
@@ -1087,54 +1119,6 @@ week,team_key,player_key,player_name,display_position,points
 5,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,0.2
 5,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,7.0
 5,470.l.165433.t.3,470.p.100017,Patriots,DEF,8.0
-5,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,13.0
-5,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,20.5
-5,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,15.3
-5,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,3.8
-5,470.l.165433.t.1,470.p.33989,Christian Watson,WR,29.3
-5,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,9.1
-5,470.l.165433.t.1,470.p.40234,Parker Washington,WR,27.4
-5,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,13.86
-5,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
-5,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,5.2
-5,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
-5,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,1.1
-5,470.l.165433.t.1,470.p.24822,Andy Dalton,QB,0.0
-5,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,2.6
-5,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,17.0
-5,470.l.165433.t.1,470.p.100003,Bears,DEF,2.0
-5,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,14.4
-5,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,33.8
-5,470.l.165433.t.14,470.p.31905,David Montgomery,RB,1.1
-5,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,3.8
-5,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,12.1
-5,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,19.0
-5,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,3.6
-5,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,22.74
-5,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,0.0
-5,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,2.8
-5,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,0.0
-5,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-5,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
-5,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,7.0
-5,470.l.165433.t.14,470.p.41093,Will Reichard,K,16.0
-5,470.l.165433.t.14,470.p.100008,Lions,DEF,8.0
-5,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,25.78
-5,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,30.5
-5,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,6.5
-5,470.l.165433.t.16,470.p.33966,Chris Olave,WR,6.6
-5,470.l.165433.t.16,470.p.33963,Drake London,WR,15.3
-5,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,2.9
-5,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
-5,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,24.04
-5,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,25.74
-5,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,0.0
-5,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
-5,470.l.165433.t.16,470.p.42687,Carson Beck,QB,0.0
-5,470.l.165433.t.16,470.p.40962,Blake Corum,RB,14.7
-5,470.l.165433.t.16,470.p.42845,Athan Kaliakmanis,QB,0.0
-5,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,6.0
-5,470.l.165433.t.16,470.p.100034,Texans,DEF,18.0
 5,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,27.32
 5,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,13.8
 5,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,15.8
@@ -1151,6 +1135,22 @@ week,team_key,player_key,player_name,display_position,points
 5,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,6.8
 5,470.l.165433.t.12,470.p.40835,Jake Bates,K,10.0
 5,470.l.165433.t.12,470.p.100030,Jaguars,DEF,4.0
+5,470.l.165433.t.14,470.p.40889,Michael Penix Jr.,QB,14.4
+5,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,33.8
+5,470.l.165433.t.14,470.p.31905,David Montgomery,RB,1.1
+5,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,3.8
+5,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,12.1
+5,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,19.0
+5,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,3.6
+5,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,22.74
+5,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,0.0
+5,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,2.8
+5,470.l.165433.t.14,470.p.40883,Brian Thomas Jr.,WR,0.0
+5,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+5,470.l.165433.t.14,470.p.30563,Nick Mullens,QB,0.0
+5,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,7.0
+5,470.l.165433.t.14,470.p.41093,Will Reichard,K,16.0
+5,470.l.165433.t.14,470.p.100008,Lions,DEF,8.0
 5,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,1.84
 5,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,35.2
 5,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,10.6
@@ -1295,6 +1295,22 @@ week,team_key,player_key,player_name,display_position,points
 6,470.l.165433.t.15,470.p.42859,Seth McGowan,RB,2.7
 6,470.l.165433.t.15,470.p.28188,Chris Boswell,K,17.0
 6,470.l.165433.t.15,470.p.100019,Giants,DEF,2.0
+6,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,12.6
+6,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,4.5
+6,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,21.0
+6,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,4.4
+6,470.l.165433.t.1,470.p.33989,Christian Watson,WR,7.9
+6,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,6.2
+6,470.l.165433.t.1,470.p.40234,Parker Washington,WR,8.4
+6,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,12.66
+6,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,0.0
+6,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
+6,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,7.6
+6,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,4.9
+6,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,16.0
+6,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,5.3
+6,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,11.0
+6,470.l.165433.t.1,470.p.100002,Bills,DEF,2.0
 6,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,17.36
 6,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,8.2
 6,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,3.4
@@ -1311,6 +1327,22 @@ week,team_key,player_key,player_name,display_position,points
 6,470.l.165433.t.8,470.p.40144,Jake Haener,QB,0.0
 6,470.l.165433.t.8,470.p.41312,Harrison Mevis,K,0.0
 6,470.l.165433.t.8,470.p.100006,Cowboys,DEF,5.0
+6,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,7.92
+6,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,5.9
+6,470.l.165433.t.16,470.p.40962,Blake Corum,RB,13.0
+6,470.l.165433.t.16,470.p.33966,Chris Olave,WR,12.3
+6,470.l.165433.t.16,470.p.33963,Drake London,WR,10.2
+6,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,15.5
+6,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,11.6
+6,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,8.48
+6,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,0.0
+6,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,2.2
+6,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,13.4
+6,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
+6,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,0.0
+6,470.l.165433.t.16,470.p.8795,Joe Flacco,QB,0.0
+6,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,6.0
+6,470.l.165433.t.16,470.p.100034,Texans,DEF,3.0
 6,470.l.165433.t.10,470.p.41786,Cam Ward,QB,7.78
 6,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,5.9
 6,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,11.4
@@ -1343,54 +1375,6 @@ week,team_key,player_key,player_name,display_position,points
 6,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,17.32
 6,470.l.165433.t.3,470.p.31482,Eddy Pineiro,K,2.0
 6,470.l.165433.t.3,470.p.100017,Patriots,DEF,8.0
-6,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,12.6
-6,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,4.5
-6,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,21.0
-6,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,4.4
-6,470.l.165433.t.1,470.p.33989,Christian Watson,WR,7.9
-6,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,6.2
-6,470.l.165433.t.1,470.p.40234,Parker Washington,WR,8.4
-6,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,12.66
-6,470.l.165433.t.1,470.p.32723,Jalen Hurts,QB,0.0
-6,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
-6,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,7.6
-6,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,4.9
-6,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,16.0
-6,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,5.3
-6,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,11.0
-6,470.l.165433.t.1,470.p.100002,Bills,DEF,2.0
-6,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,11.48
-6,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,8.8
-6,470.l.165433.t.14,470.p.41902,Woody Marks,RB,9.1
-6,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,14.8
-6,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,2.0
-6,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,9.0
-6,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
-6,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,28.34
-6,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
-6,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,0.9
-6,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-6,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,12.2
-6,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
-6,470.l.165433.t.14,470.p.32858,Tyler Bass,K,17.0
-6,470.l.165433.t.14,470.p.41093,Will Reichard,K,0.0
-6,470.l.165433.t.14,470.p.100018,Saints,DEF,14.0
-6,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,7.92
-6,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,5.9
-6,470.l.165433.t.16,470.p.40962,Blake Corum,RB,13.0
-6,470.l.165433.t.16,470.p.33966,Chris Olave,WR,12.3
-6,470.l.165433.t.16,470.p.33963,Drake London,WR,10.2
-6,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,15.5
-6,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,11.6
-6,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,8.48
-6,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,0.0
-6,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,2.2
-6,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,13.4
-6,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
-6,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,0.0
-6,470.l.165433.t.16,470.p.8795,Joe Flacco,QB,0.0
-6,470.l.165433.t.16,470.p.34344,Cameron Dicker,K,6.0
-6,470.l.165433.t.16,470.p.100034,Texans,DEF,3.0
 6,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,16.88
 6,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,6.3
 6,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,26.2
@@ -1407,6 +1391,22 @@ week,team_key,player_key,player_name,display_position,points
 6,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,0.0
 6,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,17.0
 6,470.l.165433.t.12,470.p.100029,Panthers,DEF,5.0
+6,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,11.48
+6,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,8.8
+6,470.l.165433.t.14,470.p.41902,Woody Marks,RB,9.1
+6,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,14.8
+6,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,2.0
+6,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,9.0
+6,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
+6,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,28.34
+6,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
+6,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,0.9
+6,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+6,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,12.2
+6,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
+6,470.l.165433.t.14,470.p.32858,Tyler Bass,K,17.0
+6,470.l.165433.t.14,470.p.41093,Will Reichard,K,0.0
+6,470.l.165433.t.14,470.p.100018,Saints,DEF,14.0
 6,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,26.96
 6,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,22.7
 6,470.l.165433.t.2,470.p.41881,Kaleb Johnson,RB,-0.2
@@ -1551,6 +1551,22 @@ week,team_key,player_key,player_name,display_position,points
 7,470.l.165433.t.15,470.p.42859,Seth McGowan,RB,5.3
 7,470.l.165433.t.15,470.p.28188,Chris Boswell,K,11.0
 7,470.l.165433.t.15,470.p.100020,Jets,DEF,2.0
+7,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,11.54
+7,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,5.4
+7,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,17.0
+7,470.l.165433.t.1,470.p.33989,Christian Watson,WR,8.2
+7,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,7.4
+7,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,12.8
+7,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,6.4
+7,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,6.66
+7,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,-0.3
+7,470.l.165433.t.1,470.p.40234,Parker Washington,WR,0.0
+7,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,6.8
+7,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,35.0
+7,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,7.1
+7,470.l.165433.t.1,470.p.41060,Joe Milton,QB,0.0
+7,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,11.0
+7,470.l.165433.t.1,470.p.100010,Titans,DEF,5.0
 7,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,14.02
 7,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,17.1
 7,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,2.7
@@ -1567,6 +1583,22 @@ week,team_key,player_key,player_name,display_position,points
 7,470.l.165433.t.8,470.p.42940,CJ Donaldson,RB,0.0
 7,470.l.165433.t.8,470.p.42262,Ryan Fitzgerald,K,-2.0
 7,470.l.165433.t.8,470.p.100006,Cowboys,DEF,5.0
+7,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,16.48
+7,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,23.5
+7,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,22.9
+7,470.l.165433.t.16,470.p.33966,Chris Olave,WR,8.6
+7,470.l.165433.t.16,470.p.33963,Drake London,WR,16.1
+7,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,16.4
+7,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,6.0
+7,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,16.12
+7,470.l.165433.t.16,470.p.40962,Blake Corum,RB,16.6
+7,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
+7,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,6.4
+7,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
+7,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,6.8
+7,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.0
+7,470.l.165433.t.16,470.p.31977,Matt Gay,K,9.0
+7,470.l.165433.t.16,470.p.100034,Texans,DEF,3.0
 7,470.l.165433.t.10,470.p.29235,Jared Goff,QB,18.02
 7,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,16.4
 7,470.l.165433.t.10,470.p.41969,Ollie Gordon II,RB,16.8
@@ -1599,54 +1631,6 @@ week,team_key,player_key,player_name,display_position,points
 7,470.l.165433.t.3,470.p.42035,Konata Mumpfield,WR,2.0
 7,470.l.165433.t.3,470.p.40835,Jake Bates,K,9.0
 7,470.l.165433.t.3,470.p.100005,Browns,DEF,6.0
-7,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,11.54
-7,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,5.4
-7,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,17.0
-7,470.l.165433.t.1,470.p.33989,Christian Watson,WR,8.2
-7,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,7.4
-7,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,12.8
-7,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,6.4
-7,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,6.66
-7,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,-0.3
-7,470.l.165433.t.1,470.p.40234,Parker Washington,WR,0.0
-7,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,6.8
-7,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,35.0
-7,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,7.1
-7,470.l.165433.t.1,470.p.41060,Joe Milton,QB,0.0
-7,470.l.165433.t.1,470.p.29792,Ka'imi Fairbairn,K,11.0
-7,470.l.165433.t.1,470.p.100010,Titans,DEF,5.0
-7,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,7.0
-7,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,15.2
-7,470.l.165433.t.14,470.p.41902,Woody Marks,RB,8.6
-7,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,6.6
-7,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,4.2
-7,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,10.3
-7,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,1.2
-7,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,17.6
-7,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,0.0
-7,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
-7,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,3.8
-7,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,4.6
-7,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
-7,470.l.165433.t.14,470.p.41093,Will Reichard,K,13.0
-7,470.l.165433.t.14,470.p.32858,Tyler Bass,K,0.0
-7,470.l.165433.t.14,470.p.100018,Saints,DEF,4.0
-7,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,16.48
-7,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,23.5
-7,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,22.9
-7,470.l.165433.t.16,470.p.33966,Chris Olave,WR,8.6
-7,470.l.165433.t.16,470.p.33963,Drake London,WR,16.1
-7,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,16.4
-7,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,6.0
-7,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,16.12
-7,470.l.165433.t.16,470.p.40962,Blake Corum,RB,16.6
-7,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
-7,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,6.4
-7,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
-7,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,6.8
-7,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.0
-7,470.l.165433.t.16,470.p.31977,Matt Gay,K,9.0
-7,470.l.165433.t.16,470.p.100034,Texans,DEF,3.0
 7,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,18.5
 7,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,14.7
 7,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,19.0
@@ -1663,6 +1647,22 @@ week,team_key,player_key,player_name,display_position,points
 7,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,4.3
 7,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,12.0
 7,470.l.165433.t.12,470.p.100029,Panthers,DEF,-3.0
+7,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,7.0
+7,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,15.2
+7,470.l.165433.t.14,470.p.41902,Woody Marks,RB,8.6
+7,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,6.6
+7,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,4.2
+7,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,10.3
+7,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,1.2
+7,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,17.6
+7,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,0.0
+7,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
+7,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,3.8
+7,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,4.6
+7,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
+7,470.l.165433.t.14,470.p.41093,Will Reichard,K,13.0
+7,470.l.165433.t.14,470.p.32858,Tyler Bass,K,0.0
+7,470.l.165433.t.14,470.p.100018,Saints,DEF,4.0
 7,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,14.82
 7,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,14.8
 7,470.l.165433.t.2,470.p.34357,Bam Knight,RB,7.8
@@ -1807,6 +1807,22 @@ week,team_key,player_key,player_name,display_position,points
 8,470.l.165433.t.15,470.p.28188,Chris Boswell,K,9.0
 8,470.l.165433.t.15,470.p.100027,Buccaneers,DEF,21.0
 8,470.l.165433.t.15,470.p.100034,Texans,DEF,0.0
+8,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,1.4
+8,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,13.0
+8,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,26.9
+8,470.l.165433.t.1,470.p.33989,Christian Watson,WR,13.3
+8,470.l.165433.t.1,470.p.40234,Parker Washington,WR,3.1
+8,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,14.3
+8,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,27.2
+8,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,7.98
+8,470.l.165433.t.1,470.p.41060,Joe Milton,QB,0.0
+8,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,33.6
+8,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,0.0
+8,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
+8,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,13.4
+8,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
+8,470.l.165433.t.1,470.p.33537,Evan McPherson,K,5.0
+8,470.l.165433.t.1,470.p.100017,Patriots,DEF,8.0
 8,470.l.165433.t.8,470.p.40889,Michael Penix Jr.,QB,2.1
 8,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,12.4
 8,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,22.8
@@ -1823,6 +1839,22 @@ week,team_key,player_key,player_name,display_position,points
 8,470.l.165433.t.8,470.p.42940,CJ Donaldson,RB,0.0
 8,470.l.165433.t.8,470.p.42262,Ryan Fitzgerald,K,9.0
 8,470.l.165433.t.8,470.p.100006,Cowboys,DEF,10.0
+8,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,4.46
+8,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,21.0
+8,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,5.9
+8,470.l.165433.t.16,470.p.33963,Drake London,WR,1.3
+8,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,8.8
+8,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,8.0
+8,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,2.0
+8,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,14.8
+8,470.l.165433.t.16,470.p.33966,Chris Olave,WR,0.0
+8,470.l.165433.t.16,470.p.40962,Blake Corum,RB,13.3
+8,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,10.6
+8,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,-2.0
+8,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,0.0
+8,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.72
+8,470.l.165433.t.16,470.p.31977,Matt Gay,K,10.0
+8,470.l.165433.t.16,470.p.100028,Commanders,DEF,14.0
 8,470.l.165433.t.10,470.p.29235,Jared Goff,QB,10.04
 8,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,22.3
 8,470.l.165433.t.10,470.p.41969,Ollie Gordon II,RB,6.9
@@ -1855,54 +1887,6 @@ week,team_key,player_key,player_name,display_position,points
 8,470.l.165433.t.3,470.p.42035,Konata Mumpfield,WR,0.0
 8,470.l.165433.t.3,470.p.40835,Jake Bates,K,6.0
 8,470.l.165433.t.3,470.p.100030,Jaguars,DEF,22.0
-8,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,1.4
-8,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,13.0
-8,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,26.9
-8,470.l.165433.t.1,470.p.33989,Christian Watson,WR,13.3
-8,470.l.165433.t.1,470.p.40234,Parker Washington,WR,3.1
-8,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,14.3
-8,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,27.2
-8,470.l.165433.t.1,470.p.40220,Tanner McKee,QB,7.98
-8,470.l.165433.t.1,470.p.41060,Joe Milton,QB,0.0
-8,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,33.6
-8,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,0.0
-8,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
-8,470.l.165433.t.1,470.p.33394,Jaylen Waddle,WR,13.4
-8,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
-8,470.l.165433.t.1,470.p.33537,Evan McPherson,K,5.0
-8,470.l.165433.t.1,470.p.100017,Patriots,DEF,8.0
-8,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,25.44
-8,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,20.8
-8,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,20.2
-8,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,0.9
-8,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,6.7
-8,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,24.7
-8,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,10.2
-8,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,19.4
-8,470.l.165433.t.14,470.p.41902,Woody Marks,RB,0.0
-8,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
-8,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
-8,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,2.9
-8,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
-8,470.l.165433.t.14,470.p.42687,Carson Beck,QB,0.0
-8,470.l.165433.t.14,470.p.41093,Will Reichard,K,1.0
-8,470.l.165433.t.14,470.p.100008,Lions,DEF,7.0
-8,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,4.46
-8,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,21.0
-8,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,5.9
-8,470.l.165433.t.16,470.p.33963,Drake London,WR,1.3
-8,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,8.8
-8,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,8.0
-8,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,2.0
-8,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,14.8
-8,470.l.165433.t.16,470.p.33966,Chris Olave,WR,0.0
-8,470.l.165433.t.16,470.p.40962,Blake Corum,RB,13.3
-8,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,10.6
-8,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,-2.0
-8,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,0.0
-8,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.72
-8,470.l.165433.t.16,470.p.31977,Matt Gay,K,10.0
-8,470.l.165433.t.16,470.p.100028,Commanders,DEF,14.0
 8,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,9.28
 8,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,7.6
 8,470.l.165433.t.12,470.p.42730,Jonah Coleman,RB,18.4
@@ -1919,6 +1903,22 @@ week,team_key,player_key,player_name,display_position,points
 8,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,2.7
 8,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,12.0
 8,470.l.165433.t.12,470.p.100009,Packers,DEF,13.0
+8,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,25.44
+8,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,20.8
+8,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,20.2
+8,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,0.9
+8,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,6.7
+8,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,24.7
+8,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,10.2
+8,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,19.4
+8,470.l.165433.t.14,470.p.41902,Woody Marks,RB,0.0
+8,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
+8,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
+8,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,2.9
+8,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
+8,470.l.165433.t.14,470.p.42687,Carson Beck,QB,0.0
+8,470.l.165433.t.14,470.p.41093,Will Reichard,K,1.0
+8,470.l.165433.t.14,470.p.100008,Lions,DEF,7.0
 8,470.l.165433.t.2,470.p.32676,Justin Herbert,QB,9.78
 8,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,23.8
 8,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,28.9
@@ -2047,257 +2047,514 @@ week,team_key,player_key,player_name,display_position,points
 8,470.l.165433.t.13,470.p.41968,Riley Leonard,QB,0.0
 8,470.l.165433.t.13,470.p.40819,Brandon Aubrey,K,13.0
 8,470.l.165433.t.13,470.p.100014,Rams,DEF,11.0
-9,470.l.165433.t.15,470.p.32671,Joe Burrow,QB,0.0
-9,470.l.165433.t.15,470.p.32711,Jonathan Taylor,RB,0.0
-9,470.l.165433.t.15,470.p.33996,Kenneth Walker III,RB,0.0
-9,470.l.165433.t.15,470.p.42652,Omar Cooper Jr.,WR,0.0
+9,470.l.165433.t.15,470.p.32671,Joe Burrow,QB,29.54
+9,470.l.165433.t.15,470.p.32711,Jonathan Taylor,RB,6.9
+9,470.l.165433.t.15,470.p.33996,Kenneth Walker III,RB,34.3
+9,470.l.165433.t.15,470.p.40915,Adonai Mitchell,WR,0.0
+9,470.l.165433.t.15,470.p.42652,Omar Cooper Jr.,WR,9.8
+9,470.l.165433.t.15,470.p.34010,Trey McBride,TE,8.9
+9,470.l.165433.t.15,470.p.34047,Rachaad White,RB,5.9
+9,470.l.165433.t.15,470.p.30231,Mack Hollins,WR,11.1
 9,470.l.165433.t.15,470.p.31868,Deebo Samuel Sr.,WR,0.0
-9,470.l.165433.t.15,470.p.34010,Trey McBride,TE,0.0
-9,470.l.165433.t.15,470.p.34047,Rachaad White,RB,0.0
-9,470.l.165433.t.15,470.p.30197,Chris Godwin Jr.,WR,0.0
 9,470.l.165433.t.15,470.p.42669,Germie Bernard,WR,0.0
 9,470.l.165433.t.15,470.p.7200,Aaron Rodgers,QB,0.0
-9,470.l.165433.t.15,470.p.42630,Jordyn Tyson,WR,0.0
+9,470.l.165433.t.15,470.p.42630,Jordyn Tyson,WR,3.0
 9,470.l.165433.t.15,470.p.31046,Mason Rudolph,QB,0.0
-9,470.l.165433.t.15,470.p.42859,Seth McGowan,RB,0.0
-9,470.l.165433.t.15,470.p.28188,Chris Boswell,K,0.0
-9,470.l.165433.t.15,470.p.100034,Texans,DEF,0.0
-9,470.l.165433.t.15,470.p.100027,Buccaneers,DEF,0.0
-9,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,0.0
-9,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,0.0
-9,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,0.0
-9,470.l.165433.t.8,470.p.40041,Jaxon Smith-Njigba,WR,0.0
-9,470.l.165433.t.8,470.p.40899,Malik Nabers,WR,0.0
-9,470.l.165433.t.8,470.p.34085,Jake Ferguson,TE,0.0
-9,470.l.165433.t.8,470.p.41058,Malik Washington,WR,0.0
-9,470.l.165433.t.8,470.p.40889,Michael Penix Jr.,QB,0.0
-9,470.l.165433.t.8,470.p.41001,AJ Barner,TE,0.0
-9,470.l.165433.t.8,470.p.99001,Travis Hunter,WR,0.0
+9,470.l.165433.t.15,470.p.42859,Seth McGowan,RB,10.7
+9,470.l.165433.t.15,470.p.32858,Tyler Bass,K,13.0
+9,470.l.165433.t.15,470.p.100034,Texans,DEF,14.0
+9,470.l.165433.t.1,470.p.40896,Jayden Daniels,QB,14.56
+9,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,5.58
+9,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,3.1
+9,470.l.165433.t.1,470.p.33989,Christian Watson,WR,26.6
+9,470.l.165433.t.1,470.p.40168,Puka Nacua,WR,28.0
+9,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,1.4
+9,470.l.165433.t.1,470.p.40234,Parker Washington,WR,13.1
+9,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,8.72
+9,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,0.0
+9,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,0.0
+9,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
+9,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,3.0
+9,470.l.165433.t.1,470.p.28390,Marcus Mariota,QB,0.0
+9,470.l.165433.t.1,470.p.28389,Jameis Winston,QB,7.94
+9,470.l.165433.t.1,470.p.33537,Evan McPherson,K,13.0
+9,470.l.165433.t.1,470.p.100017,Patriots,DEF,0.0
+9,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,26.28
+9,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,7.6
+9,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,9.4
+9,470.l.165433.t.8,470.p.40041,Jaxon Smith-Njigba,WR,8.6
+9,470.l.165433.t.8,470.p.40899,Malik Nabers,WR,6.8
+9,470.l.165433.t.8,470.p.34085,Jake Ferguson,TE,9.1
+9,470.l.165433.t.8,470.p.41058,Malik Washington,WR,3.1
+9,470.l.165433.t.8,470.p.40889,Michael Penix Jr.,QB,14.48
+9,470.l.165433.t.8,470.p.41001,AJ Barner,TE,14.0
+9,470.l.165433.t.8,470.p.99001,Travis Hunter,WR,-1.6
 9,470.l.165433.t.8,470.p.41831,Terrance Ferguson,TE,0.0
 9,470.l.165433.t.8,470.p.40504,Tyson Bagent,QB,0.0
 9,470.l.165433.t.8,470.p.41810,Jaxson Dart,QB,0.0
-9,470.l.165433.t.8,470.p.42940,CJ Donaldson,RB,0.0
-9,470.l.165433.t.8,470.p.42262,Ryan Fitzgerald,K,0.0
-9,470.l.165433.t.8,470.p.100006,Cowboys,DEF,0.0
-9,470.l.165433.t.10,470.p.29235,Jared Goff,QB,0.0
-9,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,0.0
-9,470.l.165433.t.10,470.p.41969,Ollie Gordon II,RB,0.0
-9,470.l.165433.t.10,470.p.40039,Zay Flowers,WR,0.0
-9,470.l.165433.t.10,470.p.33500,Amon-Ra St. Brown,WR,0.0
-9,470.l.165433.t.10,470.p.29269,Hunter Henry,TE,0.0
-9,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,0.0
-9,470.l.165433.t.10,470.p.42744,Mike Washington Jr.,RB,0.0
+9,470.l.165433.t.8,470.p.32695,Brandon Aiyuk,WR,0.0
+9,470.l.165433.t.8,470.p.42262,Ryan Fitzgerald,K,2.0
+9,470.l.165433.t.8,470.p.100006,Cowboys,DEF,6.0
+9,470.l.165433.t.16,470.p.40875,Bo Nix,QB,16.68
+9,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,26.5
+9,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,5.0
+9,470.l.165433.t.16,470.p.33963,Drake London,WR,9.3
+9,470.l.165433.t.16,470.p.33966,Chris Olave,WR,13.3
+9,470.l.165433.t.16,470.p.34099,Chig Okonkwo,TE,8.7
+9,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,7.4
+9,470.l.165433.t.16,470.p.43003,Joe Fagnano,QB,1.7
+9,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
+9,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,5.2
+9,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.0
+9,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,0.0
+9,470.l.165433.t.16,470.p.40962,Blake Corum,RB,11.8
+9,470.l.165433.t.16,470.p.33443,Pat Freiermuth,TE,0.0
+9,470.l.165433.t.16,470.p.31977,Matt Gay,K,7.0
+9,470.l.165433.t.16,470.p.100003,Bears,DEF,15.0
+9,470.l.165433.t.10,470.p.29235,Jared Goff,QB,6.3
+9,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,4.4
+9,470.l.165433.t.10,470.p.41969,Ollie Gordon II,RB,6.9
+9,470.l.165433.t.10,470.p.40039,Zay Flowers,WR,3.8
+9,470.l.165433.t.10,470.p.33500,Amon-Ra St. Brown,WR,12.6
+9,470.l.165433.t.10,470.p.29269,Hunter Henry,TE,5.0
+9,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,6.0
+9,470.l.165433.t.10,470.p.42744,Mike Washington Jr.,RB,-0.3
 9,470.l.165433.t.10,470.p.41786,Cam Ward,QB,0.0
-9,470.l.165433.t.10,470.p.40911,Keon Coleman,WR,0.0
-9,470.l.165433.t.10,470.p.40108,Kendre Miller,RB,0.0
-9,470.l.165433.t.10,470.p.41052,Kimani Vidal,RB,0.0
+9,470.l.165433.t.10,470.p.40911,Keon Coleman,WR,3.2
+9,470.l.165433.t.10,470.p.41052,Kimani Vidal,RB,4.1
 9,470.l.165433.t.10,470.p.33413,Travis Etienne Jr.,RB,0.0
 9,470.l.165433.t.10,470.p.42801,Cole Payton,QB,0.0
-9,470.l.165433.t.10,470.p.41499,Spencer Shrader,K,0.0
-9,470.l.165433.t.10,470.p.100007,Broncos,DEF,0.0
-9,470.l.165433.t.3,470.p.40875,Bo Nix,QB,0.0
-9,470.l.165433.t.3,470.p.33514,Chuba Hubbard,RB,0.0
-9,470.l.165433.t.3,470.p.30295,Aaron Jones Sr.,RB,0.0
-9,470.l.165433.t.3,470.p.32687,CeeDee Lamb,WR,0.0
-9,470.l.165433.t.3,470.p.32692,Justin Jefferson,WR,0.0
-9,470.l.165433.t.3,470.p.34099,Chig Okonkwo,TE,0.0
-9,470.l.165433.t.3,470.p.32231,Jakobi Meyers,WR,0.0
-9,470.l.165433.t.3,470.p.30977,Josh Allen,QB,0.0
-9,470.l.165433.t.3,470.p.41845,RJ Harvey,RB,0.0
-9,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,0.0
+9,470.l.165433.t.10,470.p.41019,Audric Estime,RB,14.2
+9,470.l.165433.t.10,470.p.41499,Spencer Shrader,K,16.0
+9,470.l.165433.t.10,470.p.100007,Broncos,DEF,7.0
+9,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,7.28
+9,470.l.165433.t.3,470.p.33514,Chuba Hubbard,RB,11.6
+9,470.l.165433.t.3,470.p.30295,Aaron Jones Sr.,RB,2.6
+9,470.l.165433.t.3,470.p.32687,CeeDee Lamb,WR,28.5
+9,470.l.165433.t.3,470.p.32692,Justin Jefferson,WR,7.3
+9,470.l.165433.t.3,470.p.41795,Colston Loveland,TE,7.4
+9,470.l.165433.t.3,470.p.41793,Tetairoa McMillan,WR,13.6
+9,470.l.165433.t.3,470.p.30977,Josh Allen,QB,13.86
+9,470.l.165433.t.3,470.p.32231,Jakobi Meyers,WR,8.5
 9,470.l.165433.t.3,470.p.42025,Kyle Monangai,RB,0.0
 9,470.l.165433.t.3,470.p.34008,Alec Pierce,WR,0.0
-9,470.l.165433.t.3,470.p.31945,Justice Hill,RB,0.0
-9,470.l.165433.t.3,470.p.42035,Konata Mumpfield,WR,0.0
-9,470.l.165433.t.3,470.p.40835,Jake Bates,K,0.0
-9,470.l.165433.t.3,470.p.100030,Jaguars,DEF,0.0
-9,470.l.165433.t.1,470.p.40896,Jayden Daniels,QB,0.0
-9,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,0.0
-9,470.l.165433.t.1,470.p.34107,Tyler Allgeier,RB,0.0
-9,470.l.165433.t.1,470.p.33989,Christian Watson,WR,0.0
-9,470.l.165433.t.1,470.p.40168,Puka Nacua,WR,0.0
-9,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,0.0
-9,470.l.165433.t.1,470.p.40234,Parker Washington,WR,0.0
-9,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
-9,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,0.0
-9,470.l.165433.t.1,470.p.41060,Joe Milton,QB,0.0
-9,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,0.0
-9,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
-9,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
-9,470.l.165433.t.1,470.p.33537,Evan McPherson,K,0.0
-9,470.l.165433.t.1,470.p.100017,Patriots,DEF,0.0
-9,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,0.0
-9,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
-9,470.l.165433.t.14,470.p.41902,Woody Marks,RB,0.0
-9,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,0.0
-9,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,0.0
-9,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
+9,470.l.165433.t.3,470.p.41937,DJ Giddens,RB,0.0
+9,470.l.165433.t.3,470.p.41006,Sione Vaki,RB,3.1
+9,470.l.165433.t.3,470.p.30197,Chris Godwin Jr.,WR,3.8
+9,470.l.165433.t.3,470.p.40835,Jake Bates,K,15.0
+9,470.l.165433.t.3,470.p.100030,Jaguars,DEF,12.0
+9,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,12.22
+9,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,23.7
+9,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,21.7
+9,470.l.165433.t.12,470.p.40114,Tre Tucker,WR,7.5
+9,470.l.165433.t.12,470.p.41804,Emeka Egbuka,WR,5.4
+9,470.l.165433.t.12,470.p.31840,T.J. Hockenson,TE,5.3
+9,470.l.165433.t.12,470.p.42730,Jonah Coleman,RB,16.8
+9,470.l.165433.t.12,470.p.31874,Drew Lock,QB,12.6
+9,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,9.1
+9,470.l.165433.t.12,470.p.30973,Sam Darnold,QB,0.0
+9,470.l.165433.t.12,470.p.40078,Brenton Strange,TE,3.2
+9,470.l.165433.t.12,470.p.41344,George Holani,RB,0.0
+9,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,1.1
+9,470.l.165433.t.12,470.p.41882,Jalen Milroe,QB,0.0
+9,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,10.0
+9,470.l.165433.t.12,470.p.100018,Saints,DEF,7.0
+9,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,16.48
+9,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.5
+9,470.l.165433.t.14,470.p.41902,Woody Marks,RB,7.9
+9,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,12.8
+9,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,4.6
+9,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,18.8
+9,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,10.4
+9,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,13.58
 9,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
-9,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,0.0
 9,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,0.0
 9,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,0.0
-9,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
-9,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,0.0
-9,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
+9,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,2.9
+9,470.l.165433.t.14,470.p.33399,Justin Fields,QB,-2.1
 9,470.l.165433.t.14,470.p.42687,Carson Beck,QB,0.0
-9,470.l.165433.t.14,470.p.41093,Will Reichard,K,0.0
-9,470.l.165433.t.14,470.p.100008,Lions,DEF,0.0
-9,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,0.0
-9,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,0.0
-9,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,0.0
-9,470.l.165433.t.16,470.p.33963,Drake London,WR,0.0
-9,470.l.165433.t.16,470.p.41793,Tetairoa McMillan,WR,0.0
-9,470.l.165433.t.16,470.p.41795,Colston Loveland,TE,0.0
-9,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,0.0
-9,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
-9,470.l.165433.t.16,470.p.33966,Chris Olave,WR,0.0
-9,470.l.165433.t.16,470.p.40962,Blake Corum,RB,0.0
-9,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
-9,470.l.165433.t.16,470.p.32993,Tyler Huntley,QB,0.0
-9,470.l.165433.t.16,470.p.28389,Jameis Winston,QB,0.0
-9,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.0
-9,470.l.165433.t.16,470.p.31977,Matt Gay,K,0.0
-9,470.l.165433.t.16,470.p.100028,Commanders,DEF,0.0
-9,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,0.0
-9,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,0.0
-9,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,0.0
-9,470.l.165433.t.12,470.p.40114,Tre Tucker,WR,0.0
-9,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,0.0
-9,470.l.165433.t.12,470.p.31840,T.J. Hockenson,TE,0.0
-9,470.l.165433.t.12,470.p.42730,Jonah Coleman,RB,0.0
-9,470.l.165433.t.12,470.p.30973,Sam Darnold,QB,0.0
-9,470.l.165433.t.12,470.p.40078,Brenton Strange,TE,0.0
-9,470.l.165433.t.12,470.p.41804,Emeka Egbuka,WR,0.0
-9,470.l.165433.t.12,470.p.30182,Cooper Kupp,WR,0.0
-9,470.l.165433.t.12,470.p.41344,George Holani,RB,0.0
-9,470.l.165433.t.12,470.p.31874,Drew Lock,QB,0.0
-9,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,0.0
-9,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,0.0
-9,470.l.165433.t.12,470.p.100009,Packers,DEF,0.0
-9,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,0.0
-9,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,0.0
-9,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,0.0
-9,470.l.165433.t.2,470.p.40121,Michael Wilson,WR,0.0
-9,470.l.165433.t.2,470.p.42646,KC Concepcion Jr.,WR,0.0
-9,470.l.165433.t.2,470.p.41877,Harold Fannin Jr.,TE,0.0
-9,470.l.165433.t.2,470.p.41293,Jalen Coker,WR,0.0
-9,470.l.165433.t.2,470.p.32676,Justin Herbert,QB,0.0
-9,470.l.165433.t.2,470.p.34104,Khalil Shakir,WR,0.0
+9,470.l.165433.t.14,470.p.41093,Will Reichard,K,9.0
+9,470.l.165433.t.14,470.p.100008,Lions,DEF,10.0
+9,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,19.7
+9,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,13.4
+9,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,8.9
+9,470.l.165433.t.2,470.p.40121,Michael Wilson,WR,9.0
+9,470.l.165433.t.2,470.p.41293,Jalen Coker,WR,4.6
+9,470.l.165433.t.2,470.p.41877,Harold Fannin Jr.,TE,11.2
+9,470.l.165433.t.2,470.p.31906,Devin Singletary,RB,4.9
+9,470.l.165433.t.2,470.p.32676,Justin Herbert,QB,11.42
+9,470.l.165433.t.2,470.p.42646,KC Concepcion Jr.,WR,16.8
+9,470.l.165433.t.2,470.p.34104,Khalil Shakir,WR,7.8
 9,470.l.165433.t.2,470.p.34357,Bam Knight,RB,0.0
-9,470.l.165433.t.2,470.p.40231,Chris Rodriguez Jr.,RB,0.0
-9,470.l.165433.t.2,470.p.31906,Devin Singletary,RB,0.0
-9,470.l.165433.t.2,470.p.42693,Antonio Williams,WR,0.0
-9,470.l.165433.t.2,470.p.41062,Cam Little,K,0.0
-9,470.l.165433.t.2,470.p.100016,Vikings,DEF,0.0
-9,470.l.165433.t.9,470.p.26662,Geno Smith,QB,0.0
-9,470.l.165433.t.9,470.p.34019,James Cook III,RB,0.0
-9,470.l.165433.t.9,470.p.33991,Breece Hall,RB,0.0
-9,470.l.165433.t.9,470.p.40901,Rome Odunze,WR,0.0
-9,470.l.165433.t.9,470.p.30994,DJ Moore,WR,0.0
-9,470.l.165433.t.9,470.p.26686,Travis Kelce,TE,0.0
-9,470.l.165433.t.9,470.p.28534,Stefon Diggs,WR,0.0
-9,470.l.165433.t.9,470.p.40900,Caleb Williams,QB,0.0
-9,470.l.165433.t.9,470.p.32725,J.K. Dobbins,RB,0.0
-9,470.l.165433.t.9,470.p.40707,Emanuel Wilson,RB,0.0
-9,470.l.165433.t.9,470.p.40877,Xavier Worthy,WR,0.0
-9,470.l.165433.t.9,470.p.34095,Isaiah Likely,TE,0.0
-9,470.l.165433.t.9,470.p.42696,Malachi Fields,WR,0.0
-9,470.l.165433.t.9,470.p.28378,Jason Myers,K,0.0
-9,470.l.165433.t.9,470.p.100004,Bengals,DEF,0.0
-9,470.l.165433.t.9,470.p.100012,Chiefs,DEF,0.0
-9,470.l.165433.t.5,470.p.30125,Deshaun Watson,QB,0.0
-9,470.l.165433.t.5,470.p.30972,Saquon Barkley,RB,0.0
-9,470.l.165433.t.5,470.p.33538,Kenny Gainwell,RB,0.0
-9,470.l.165433.t.5,470.p.33967,Jameson Williams,WR,0.0
-9,470.l.165433.t.5,470.p.32703,Tee Higgins,WR,0.0
-9,470.l.165433.t.5,470.p.40064,Sam LaPorta,TE,0.0
-9,470.l.165433.t.5,470.p.42464,Darius Cooper,WR,0.0
-9,470.l.165433.t.5,470.p.25812,Kirk Cousins,QB,0.0
-9,470.l.165433.t.5,470.p.33100,Rico Dowdle,RB,0.0
+9,470.l.165433.t.2,470.p.40231,Chris Rodriguez Jr.,RB,10.2
+9,470.l.165433.t.2,470.p.42693,Antonio Williams,WR,4.0
+9,470.l.165433.t.2,470.p.32010,Gardner Minshew II,QB,7.04
+9,470.l.165433.t.2,470.p.41062,Cam Little,K,17.0
+9,470.l.165433.t.2,470.p.100016,Vikings,DEF,6.0
+9,470.l.165433.t.9,470.p.26662,Geno Smith,QB,7.4
+9,470.l.165433.t.9,470.p.34019,James Cook III,RB,16.7
+9,470.l.165433.t.9,470.p.33991,Breece Hall,RB,10.2
+9,470.l.165433.t.9,470.p.40901,Rome Odunze,WR,14.0
+9,470.l.165433.t.9,470.p.30994,DJ Moore,WR,5.1
+9,470.l.165433.t.9,470.p.26686,Travis Kelce,TE,15.3
+9,470.l.165433.t.9,470.p.34095,Isaiah Likely,TE,13.8
+9,470.l.165433.t.9,470.p.40900,Caleb Williams,QB,16.76
+9,470.l.165433.t.9,470.p.28534,Stefon Diggs,WR,6.6
+9,470.l.165433.t.9,470.p.32725,J.K. Dobbins,RB,2.7
+9,470.l.165433.t.9,470.p.40877,Xavier Worthy,WR,7.8
+9,470.l.165433.t.9,470.p.42696,Malachi Fields,WR,5.5
+9,470.l.165433.t.9,470.p.29360,Demarcus Robinson,WR,3.7
+9,470.l.165433.t.9,470.p.28378,Jason Myers,K,6.0
+9,470.l.165433.t.9,470.p.100012,Chiefs,DEF,13.0
+9,470.l.165433.t.9,470.p.100004,Bengals,DEF,3.0
+9,470.l.165433.t.5,470.p.25812,Kirk Cousins,QB,14.64
+9,470.l.165433.t.5,470.p.30972,Saquon Barkley,RB,8.2
+9,470.l.165433.t.5,470.p.33538,Kenny Gainwell,RB,9.1
+9,470.l.165433.t.5,470.p.33967,Jameson Williams,WR,4.5
+9,470.l.165433.t.5,470.p.32703,Tee Higgins,WR,17.7
+9,470.l.165433.t.5,470.p.40064,Sam LaPorta,TE,5.2
+9,470.l.165433.t.5,470.p.42464,Darius Cooper,WR,3.5
+9,470.l.165433.t.5,470.p.40097,Tank Dell,WR,18.5
 9,470.l.165433.t.5,470.p.41823,TreVeyon Henderson,RB,0.0
+9,470.l.165433.t.5,470.p.30125,Deshaun Watson,QB,0.0
+9,470.l.165433.t.5,470.p.33100,Rico Dowdle,RB,0.0
 9,470.l.165433.t.5,470.p.33398,DeVonta Smith,WR,0.0
 9,470.l.165433.t.5,470.p.27581,Davante Adams,WR,0.0
 9,470.l.165433.t.5,470.p.32675,Tua Tagovailoa,QB,0.0
-9,470.l.165433.t.5,470.p.40097,Tank Dell,WR,0.0
-9,470.l.165433.t.5,470.p.41988,Tyler Loop,K,0.0
-9,470.l.165433.t.5,470.p.100021,Eagles,DEF,0.0
-9,470.l.165433.t.7,470.p.32696,Jordan Love,QB,0.0
-9,470.l.165433.t.7,470.p.41907,Dylan Sampson,RB,0.0
-9,470.l.165433.t.7,470.p.30180,Alvin Kamara,RB,0.0
+9,470.l.165433.t.5,470.p.31199,Jason Sanders,K,16.0
+9,470.l.165433.t.5,470.p.100019,Giants,DEF,15.0
+9,470.l.165433.t.7,470.p.32696,Jordan Love,QB,36.18
+9,470.l.165433.t.7,470.p.41907,Dylan Sampson,RB,6.3
+9,470.l.165433.t.7,470.p.30180,Alvin Kamara,RB,6.4
+9,470.l.165433.t.7,470.p.40051,Quentin Johnston,WR,12.8
+9,470.l.165433.t.7,470.p.42697,Caleb Douglas,WR,10.0
+9,470.l.165433.t.7,470.p.33392,Kyle Pitts Sr.,TE,3.8
+9,470.l.165433.t.7,470.p.28592,Darren Waller,TE,19.0
+9,470.l.165433.t.7,470.p.40029,Bryce Young,QB,21.34
 9,470.l.165433.t.7,470.p.34007,George Pickens,WR,0.0
 9,470.l.165433.t.7,470.p.33965,Garrett Wilson,WR,0.0
-9,470.l.165433.t.7,470.p.33392,Kyle Pitts Sr.,TE,0.0
-9,470.l.165433.t.7,470.p.42697,Caleb Douglas,WR,0.0
-9,470.l.165433.t.7,470.p.40029,Bryce Young,QB,0.0
 9,470.l.165433.t.7,470.p.31833,Kyler Murray,QB,0.0
-9,470.l.165433.t.7,470.p.42386,Corey Kiner,RB,0.0
-9,470.l.165433.t.7,470.p.28592,Darren Waller,TE,0.0
-9,470.l.165433.t.7,470.p.40051,Quentin Johnston,WR,0.0
 9,470.l.165433.t.7,470.p.32704,Michael Pittman Jr.,WR,0.0
 9,470.l.165433.t.7,470.p.42010,Jacory Croskey-Merritt,RB,0.0
-9,470.l.165433.t.7,470.p.40159,Chad Ryland,K,0.0
-9,470.l.165433.t.7,470.p.100023,Steelers,DEF,0.0
-9,470.l.165433.t.4,470.p.40881,Drake Maye,QB,0.0
-9,470.l.165433.t.4,470.p.33508,Rhamondre Stevenson,RB,0.0
-9,470.l.165433.t.4,470.p.40196,Chase Brown,RB,0.0
-9,470.l.165433.t.4,470.p.41808,Matthew Golden,WR,0.0
-9,470.l.165433.t.4,470.p.40126,Josh Downs,WR,0.0
-9,470.l.165433.t.4,470.p.40048,Dalton Kincaid,TE,0.0
-9,470.l.165433.t.4,470.p.41087,Ryan Flournoy,WR,0.0
-9,470.l.165433.t.4,470.p.31002,Lamar Jackson,QB,0.0
-9,470.l.165433.t.4,470.p.31883,A.J. Brown,WR,0.0
+9,470.l.165433.t.7,470.p.30423,Austin Ekeler,RB,4.4
+9,470.l.165433.t.7,470.p.40159,Chad Ryland,K,3.0
+9,470.l.165433.t.7,470.p.100009,Packers,DEF,12.0
+9,470.l.165433.t.4,470.p.40881,Drake Maye,QB,21.26
+9,470.l.165433.t.4,470.p.33508,Rhamondre Stevenson,RB,13.3
+9,470.l.165433.t.4,470.p.40196,Chase Brown,RB,9.0
+9,470.l.165433.t.4,470.p.41808,Matthew Golden,WR,27.4
+9,470.l.165433.t.4,470.p.40126,Josh Downs,WR,3.9
+9,470.l.165433.t.4,470.p.40048,Dalton Kincaid,TE,4.3
+9,470.l.165433.t.4,470.p.41087,Ryan Flournoy,WR,6.3
+9,470.l.165433.t.4,470.p.40065,Michael Mayer,TE,3.2
 9,470.l.165433.t.4,470.p.40162,Roschon Johnson,RB,0.0
-9,470.l.165433.t.4,470.p.40065,Michael Mayer,TE,0.0
+9,470.l.165433.t.4,470.p.31883,A.J. Brown,WR,0.0
+9,470.l.165433.t.4,470.p.31002,Lamar Jackson,QB,0.0
 9,470.l.165433.t.4,470.p.34088,Romeo Doubs,WR,0.0
 9,470.l.165433.t.4,470.p.40095,Tank Bigsby,RB,0.0
-9,470.l.165433.t.4,470.p.42702,Ja'Kobi Lane,WR,0.0
-9,470.l.165433.t.4,470.p.42838,Trey Smack,K,0.0
-9,470.l.165433.t.4,470.p.100001,Falcons,DEF,0.0
-9,470.l.165433.t.11,470.p.31838,Daniel Jones,QB,0.0
-9,470.l.165433.t.11,470.p.33423,Javonte Williams,RB,0.0
-9,470.l.165433.t.11,470.p.40075,Zach Charbonnet,RB,0.0
-9,470.l.165433.t.11,470.p.41824,Luther Burden III,WR,0.0
-9,470.l.165433.t.11,470.p.40222,DeMario Douglas,WR,0.0
-9,470.l.165433.t.11,470.p.41799,Tyler Warren,TE,0.0
-9,470.l.165433.t.11,470.p.40042,Jordan Addison,WR,0.0
-9,470.l.165433.t.11,470.p.34042,Malik Willis,QB,0.0
+9,470.l.165433.t.4,470.p.41043,Spencer Rattler,QB,0.0
+9,470.l.165433.t.4,470.p.42838,Trey Smack,K,16.0
+9,470.l.165433.t.4,470.p.100005,Browns,DEF,9.0
+9,470.l.165433.t.11,470.p.31838,Daniel Jones,QB,11.3
+9,470.l.165433.t.11,470.p.33423,Javonte Williams,RB,20.4
+9,470.l.165433.t.11,470.p.42654,Jadarian Price,RB,9.8
+9,470.l.165433.t.11,470.p.41824,Luther Burden III,WR,17.2
+9,470.l.165433.t.11,470.p.33477,Nico Collins,WR,13.5
+9,470.l.165433.t.11,470.p.41799,Tyler Warren,TE,6.4
+9,470.l.165433.t.11,470.p.40222,DeMario Douglas,WR,12.7
+9,470.l.165433.t.11,470.p.34042,Malik Willis,QB,4.82
 9,470.l.165433.t.11,470.p.41922,Cam Skattebo,RB,0.0
-9,470.l.165433.t.11,470.p.33477,Nico Collins,WR,0.0
-9,470.l.165433.t.11,470.p.42654,Jadarian Price,RB,0.0
-9,470.l.165433.t.11,470.p.41930,Shedeur Sanders,QB,0.0
-9,470.l.165433.t.11,470.p.41935,Jaydon Blue,RB,0.0
-9,470.l.165433.t.11,470.p.29344,Tyler Higbee,TE,0.0
-9,470.l.165433.t.11,470.p.30346,Harrison Butker,K,0.0
-9,470.l.165433.t.11,470.p.100026,Seahawks,DEF,0.0
-9,470.l.165433.t.6,470.p.40220,Tanner McKee,QB,0.0
-9,470.l.165433.t.6,470.p.40971,MarShawn Lloyd,RB,0.0
-9,470.l.165433.t.6,470.p.32705,D'Andre Swift,RB,0.0
+9,470.l.165433.t.11,470.p.40042,Jordan Addison,WR,3.8
+9,470.l.165433.t.11,470.p.40075,Zach Charbonnet,RB,9.1
+9,470.l.165433.t.11,470.p.41930,Shedeur Sanders,QB,22.68
+9,470.l.165433.t.11,470.p.31012,Mike Gesicki,TE,2.1
+9,470.l.165433.t.11,470.p.31010,Courtland Sutton,WR,13.0
+9,470.l.165433.t.11,470.p.29792,Ka'imi Fairbairn,K,17.0
+9,470.l.165433.t.11,470.p.100026,Seahawks,DEF,12.0
+9,470.l.165433.t.6,470.p.40030,C.J. Stroud,QB,36.36
+9,470.l.165433.t.6,470.p.34107,Tyler Allgeier,RB,5.6
+9,470.l.165433.t.6,470.p.33582,Elijah Mitchell,RB,4.1
+9,470.l.165433.t.6,470.p.33394,Jaylen Waddle,WR,2.7
+9,470.l.165433.t.6,470.p.33971,Jahan Dotson,WR,2.6
+9,470.l.165433.t.6,470.p.31019,Dallas Goedert,TE,7.5
+9,470.l.165433.t.6,470.p.30259,George Kittle,TE,7.8
+9,470.l.165433.t.6,470.p.41060,Joe Milton,QB,13.16
 9,470.l.165433.t.6,470.p.34659,Rashid Shaheed,WR,0.0
-9,470.l.165433.t.6,470.p.33394,Jaylen Waddle,WR,0.0
-9,470.l.165433.t.6,470.p.31019,Dallas Goedert,TE,0.0
-9,470.l.165433.t.6,470.p.30259,George Kittle,TE,0.0
-9,470.l.165433.t.6,470.p.40030,C.J. Stroud,QB,0.0
+9,470.l.165433.t.6,470.p.40971,MarShawn Lloyd,RB,0.0
+9,470.l.165433.t.6,470.p.40220,Tanner McKee,QB,0.0
 9,470.l.165433.t.6,470.p.42625,Jeremiyah Love,RB,0.0
-9,470.l.165433.t.6,470.p.40641,Keaton Mitchell,RB,0.0
-9,470.l.165433.t.6,470.p.41904,Elic Ayomanor,WR,0.0
 9,470.l.165433.t.6,470.p.40201,Dontayvion Wicks,WR,0.0
-9,470.l.165433.t.6,470.p.28390,Marcus Mariota,QB,0.0
-9,470.l.165433.t.6,470.p.34054,Brian Robinson Jr.,RB,0.0
-9,470.l.165433.t.6,470.p.28227,Cairo Santos,K,0.0
-9,470.l.165433.t.6,470.p.100033,Ravens,DEF,0.0
-9,470.l.165433.t.13,470.p.29369,Dak Prescott,QB,0.0
-9,470.l.165433.t.13,470.p.41791,Ashton Jeanty,RB,0.0
-9,470.l.165433.t.13,470.p.30227,Samaje Perine,RB,0.0
-9,470.l.165433.t.13,470.p.33998,Wan'Dale Robinson,WR,0.0
+9,470.l.165433.t.6,470.p.33605,Khalil Herbert,RB,1.9
+9,470.l.165433.t.6,470.p.28227,Cairo Santos,K,9.0
+9,470.l.165433.t.6,470.p.100033,Ravens,DEF,2.0
+9,470.l.165433.t.13,470.p.29369,Dak Prescott,QB,19.5
+9,470.l.165433.t.13,470.p.41791,Ashton Jeanty,RB,4.5
+9,470.l.165433.t.13,470.p.30227,Samaje Perine,RB,4.3
 9,470.l.165433.t.13,470.p.40883,Brian Thomas Jr.,WR,0.0
-9,470.l.165433.t.13,470.p.33443,Pat Freiermuth,TE,0.0
-9,470.l.165433.t.13,470.p.41840,Tre' Harris,WR,0.0
-9,470.l.165433.t.13,470.p.33393,Ja'Marr Chase,WR,0.0
-9,470.l.165433.t.13,470.p.42712,Kaelon Black,RB,0.0
-9,470.l.165433.t.13,470.p.41097,Devaughn Vele,WR,0.0
+9,470.l.165433.t.13,470.p.41840,Tre' Harris,WR,2.1
+9,470.l.165433.t.13,470.p.31107,Dalton Schultz,TE,5.2
+9,470.l.165433.t.13,470.p.41097,Devaughn Vele,WR,2.7
+9,470.l.165433.t.13,470.p.33393,Ja'Marr Chase,WR,26.5
 9,470.l.165433.t.13,470.p.27535,Mike Evans,WR,0.0
-9,470.l.165433.t.13,470.p.29236,Carson Wentz,QB,0.0
+9,470.l.165433.t.13,470.p.33998,Wan'Dale Robinson,WR,0.0
+9,470.l.165433.t.13,470.p.42712,Kaelon Black,RB,7.0
+9,470.l.165433.t.13,470.p.29236,Carson Wentz,QB,-0.76
 9,470.l.165433.t.13,470.p.42623,Fernando Mendoza,QB,0.0
 9,470.l.165433.t.13,470.p.41968,Riley Leonard,QB,0.0
-9,470.l.165433.t.13,470.p.40819,Brandon Aubrey,K,0.0
-9,470.l.165433.t.13,470.p.100014,Rams,DEF,0.0
+9,470.l.165433.t.13,470.p.40819,Brandon Aubrey,K,10.0
+9,470.l.165433.t.13,470.p.100014,Rams,DEF,13.0
+10,470.l.165433.t.15,470.p.32671,Joe Burrow,QB,0.0
+10,470.l.165433.t.15,470.p.32711,Jonathan Taylor,RB,0.0
+10,470.l.165433.t.15,470.p.33996,Kenneth Walker III,RB,0.0
+10,470.l.165433.t.15,470.p.42652,Omar Cooper Jr.,WR,0.0
+10,470.l.165433.t.15,470.p.42669,Germie Bernard,WR,0.0
+10,470.l.165433.t.15,470.p.34010,Trey McBride,TE,0.0
+10,470.l.165433.t.15,470.p.34047,Rachaad White,RB,0.0
+10,470.l.165433.t.15,470.p.7200,Aaron Rodgers,QB,0.0
+10,470.l.165433.t.15,470.p.40915,Adonai Mitchell,WR,0.0
+10,470.l.165433.t.15,470.p.30231,Mack Hollins,WR,0.0
+10,470.l.165433.t.15,470.p.31868,Deebo Samuel Sr.,WR,0.0
+10,470.l.165433.t.15,470.p.42630,Jordyn Tyson,WR,0.0
+10,470.l.165433.t.15,470.p.31046,Mason Rudolph,QB,0.0
+10,470.l.165433.t.15,470.p.42859,Seth McGowan,RB,0.0
+10,470.l.165433.t.15,470.p.32858,Tyler Bass,K,0.0
+10,470.l.165433.t.15,470.p.100034,Texans,DEF,0.0
+10,470.l.165433.t.1,470.p.40896,Jayden Daniels,QB,0.0
+10,470.l.165433.t.1,470.p.29279,Derrick Henry,RB,0.0
+10,470.l.165433.t.1,470.p.31960,Tony Pollard,RB,0.0
+10,470.l.165433.t.1,470.p.33989,Christian Watson,WR,0.0
+10,470.l.165433.t.1,470.p.40893,Marvin Harrison Jr.,WR,0.0
+10,470.l.165433.t.1,470.p.40102,Tucker Kraft,TE,0.0
+10,470.l.165433.t.1,470.p.40234,Parker Washington,WR,0.0
+10,470.l.165433.t.1,470.p.42626,Carnell Tate,WR,0.0
+10,470.l.165433.t.1,470.p.40168,Puka Nacua,WR,0.0
+10,470.l.165433.t.1,470.p.30971,Baker Mayfield,QB,0.0
+10,470.l.165433.t.1,470.p.32705,D'Andre Swift,RB,0.0
+10,470.l.165433.t.1,470.p.42919,Jalon Daniels,QB,0.0
+10,470.l.165433.t.1,470.p.28390,Marcus Mariota,QB,0.0
+10,470.l.165433.t.1,470.p.28389,Jameis Winston,QB,0.0
+10,470.l.165433.t.1,470.p.33537,Evan McPherson,K,0.0
+10,470.l.165433.t.1,470.p.100017,Patriots,DEF,0.0
+10,470.l.165433.t.8,470.p.34218,Brock Purdy,QB,0.0
+10,470.l.165433.t.8,470.p.34120,Kyren Williams,RB,0.0
+10,470.l.165433.t.8,470.p.42796,Emmett Johnson,RB,0.0
+10,470.l.165433.t.8,470.p.40041,Jaxon Smith-Njigba,WR,0.0
+10,470.l.165433.t.8,470.p.40899,Malik Nabers,WR,0.0
+10,470.l.165433.t.8,470.p.34085,Jake Ferguson,TE,0.0
+10,470.l.165433.t.8,470.p.41058,Malik Washington,WR,0.0
+10,470.l.165433.t.8,470.p.40889,Michael Penix Jr.,QB,0.0
+10,470.l.165433.t.8,470.p.41001,AJ Barner,TE,0.0
+10,470.l.165433.t.8,470.p.99001,Travis Hunter,WR,0.0
+10,470.l.165433.t.8,470.p.41831,Terrance Ferguson,TE,0.0
+10,470.l.165433.t.8,470.p.40504,Tyson Bagent,QB,0.0
+10,470.l.165433.t.8,470.p.41810,Jaxson Dart,QB,0.0
+10,470.l.165433.t.8,470.p.32695,Brandon Aiyuk,WR,0.0
+10,470.l.165433.t.8,470.p.42262,Ryan Fitzgerald,K,0.0
+10,470.l.165433.t.8,470.p.100006,Cowboys,DEF,0.0
+10,470.l.165433.t.16,470.p.29325,Jacoby Brissett,QB,0.0
+10,470.l.165433.t.16,470.p.41821,Quinshon Judkins,RB,0.0
+10,470.l.165433.t.16,470.p.40962,Blake Corum,RB,0.0
+10,470.l.165433.t.16,470.p.33963,Drake London,WR,0.0
+10,470.l.165433.t.16,470.p.33966,Chris Olave,WR,0.0
+10,470.l.165433.t.16,470.p.33443,Pat Freiermuth,TE,0.0
+10,470.l.165433.t.16,470.p.40084,Rashee Rice,WR,0.0
+10,470.l.165433.t.16,470.p.43003,Joe Fagnano,QB,0.0
+10,470.l.165433.t.16,470.p.34099,Chig Okonkwo,TE,0.0
+10,470.l.165433.t.16,470.p.40993,Bucky Irving,RB,0.0
+10,470.l.165433.t.16,470.p.40875,Bo Nix,QB,0.0
+10,470.l.165433.t.16,470.p.40908,Ladd McConkey,WR,0.0
+10,470.l.165433.t.16,470.p.34320,Jordan Mason,RB,0.0
+10,470.l.165433.t.16,470.p.40040,Anthony Richardson Sr.,QB,0.0
+10,470.l.165433.t.16,470.p.31977,Matt Gay,K,0.0
+10,470.l.165433.t.16,470.p.100003,Bears,DEF,0.0
+10,470.l.165433.t.10,470.p.29235,Jared Goff,QB,0.0
+10,470.l.165433.t.10,470.p.40981,Braelon Allen,RB,0.0
+10,470.l.165433.t.10,470.p.41969,Ollie Gordon II,RB,0.0
+10,470.l.165433.t.10,470.p.40039,Zay Flowers,WR,0.0
+10,470.l.165433.t.10,470.p.33500,Amon-Ra St. Brown,WR,0.0
+10,470.l.165433.t.10,470.p.29269,Hunter Henry,TE,0.0
+10,470.l.165433.t.10,470.p.41807,Omarion Hampton,RB,0.0
+10,470.l.165433.t.10,470.p.41786,Cam Ward,QB,0.0
+10,470.l.165433.t.10,470.p.42744,Mike Washington Jr.,RB,0.0
+10,470.l.165433.t.10,470.p.40911,Keon Coleman,WR,0.0
+10,470.l.165433.t.10,470.p.41052,Kimani Vidal,RB,0.0
+10,470.l.165433.t.10,470.p.33413,Travis Etienne Jr.,RB,0.0
+10,470.l.165433.t.10,470.p.42801,Cole Payton,QB,0.0
+10,470.l.165433.t.10,470.p.41019,Audric Estime,RB,0.0
+10,470.l.165433.t.10,470.p.41499,Spencer Shrader,K,0.0
+10,470.l.165433.t.10,470.p.100007,Broncos,DEF,0.0
+10,470.l.165433.t.3,470.p.40905,J.J. McCarthy,QB,0.0
+10,470.l.165433.t.3,470.p.33514,Chuba Hubbard,RB,0.0
+10,470.l.165433.t.3,470.p.30295,Aaron Jones Sr.,RB,0.0
+10,470.l.165433.t.3,470.p.32687,CeeDee Lamb,WR,0.0
+10,470.l.165433.t.3,470.p.32692,Justin Jefferson,WR,0.0
+10,470.l.165433.t.3,470.p.41795,Colston Loveland,TE,0.0
+10,470.l.165433.t.3,470.p.41793,Tetairoa McMillan,WR,0.0
+10,470.l.165433.t.3,470.p.30977,Josh Allen,QB,0.0
+10,470.l.165433.t.3,470.p.32231,Jakobi Meyers,WR,0.0
+10,470.l.165433.t.3,470.p.42025,Kyle Monangai,RB,0.0
+10,470.l.165433.t.3,470.p.34008,Alec Pierce,WR,0.0
+10,470.l.165433.t.3,470.p.41937,DJ Giddens,RB,0.0
+10,470.l.165433.t.3,470.p.41006,Sione Vaki,RB,0.0
+10,470.l.165433.t.3,470.p.30197,Chris Godwin Jr.,WR,0.0
+10,470.l.165433.t.3,470.p.40835,Jake Bates,K,0.0
+10,470.l.165433.t.3,470.p.100030,Jaguars,DEF,0.0
+10,470.l.165433.t.12,470.p.9265,Matthew Stafford,QB,0.0
+10,470.l.165433.t.12,470.p.40055,Bijan Robinson,RB,0.0
+10,470.l.165433.t.12,470.p.30121,Christian McCaffrey,RB,0.0
+10,470.l.165433.t.12,470.p.40114,Tre Tucker,WR,0.0
+10,470.l.165433.t.12,470.p.33415,Rashod Bateman,WR,0.0
+10,470.l.165433.t.12,470.p.31840,T.J. Hockenson,TE,0.0
+10,470.l.165433.t.12,470.p.40078,Brenton Strange,TE,0.0
+10,470.l.165433.t.12,470.p.31874,Drew Lock,QB,0.0
+10,470.l.165433.t.12,470.p.42642,Makai Lemon,WR,0.0
+10,470.l.165433.t.12,470.p.42730,Jonah Coleman,RB,0.0
+10,470.l.165433.t.12,470.p.41804,Emeka Egbuka,WR,0.0
+10,470.l.165433.t.12,470.p.30973,Sam Darnold,QB,0.0
+10,470.l.165433.t.12,470.p.41344,George Holani,RB,0.0
+10,470.l.165433.t.12,470.p.41882,Jalen Milroe,QB,0.0
+10,470.l.165433.t.12,470.p.32417,Chase McLaughlin,K,0.0
+10,470.l.165433.t.12,470.p.100018,Saints,DEF,0.0
+10,470.l.165433.t.14,470.p.30123,Patrick Mahomes,QB,0.0
+10,470.l.165433.t.14,470.p.41902,Woody Marks,RB,0.0
+10,470.l.165433.t.14,470.p.34447,Jaylen Warren,RB,0.0
+10,470.l.165433.t.14,470.p.42661,Denzel Boston,WR,0.0
+10,470.l.165433.t.14,470.p.26699,Keenan Allen,WR,0.0
+10,470.l.165433.t.14,470.p.40878,Brock Bowers,TE,0.0
+10,470.l.165433.t.14,470.p.31896,DK Metcalf,WR,0.0
+10,470.l.165433.t.14,470.p.33389,Trevor Lawrence,QB,0.0
+10,470.l.165433.t.14,470.p.33113,Juwan Johnson,TE,0.0
+10,470.l.165433.t.14,470.p.31856,Josh Jacobs,RB,0.0
+10,470.l.165433.t.14,470.p.31905,David Montgomery,RB,0.0
+10,470.l.165433.t.14,470.p.31056,Mark Andrews,TE,0.0
+10,470.l.165433.t.14,470.p.33399,Justin Fields,QB,0.0
+10,470.l.165433.t.14,470.p.42687,Carson Beck,QB,0.0
+10,470.l.165433.t.14,470.p.41093,Will Reichard,K,0.0
+10,470.l.165433.t.14,470.p.100008,Lions,DEF,0.0
+10,470.l.165433.t.2,470.p.41825,Tyler Shough,QB,0.0
+10,470.l.165433.t.2,470.p.40059,Jahmyr Gibbs,RB,0.0
+10,470.l.165433.t.2,470.p.41900,Bhayshul Tuten,RB,0.0
+10,470.l.165433.t.2,470.p.41293,Jalen Coker,WR,0.0
+10,470.l.165433.t.2,470.p.34104,Khalil Shakir,WR,0.0
+10,470.l.165433.t.2,470.p.41877,Harold Fannin Jr.,TE,0.0
+10,470.l.165433.t.2,470.p.42646,KC Concepcion Jr.,WR,0.0
+10,470.l.165433.t.2,470.p.32676,Justin Herbert,QB,0.0
+10,470.l.165433.t.2,470.p.31906,Devin Singletary,RB,0.0
+10,470.l.165433.t.2,470.p.34357,Bam Knight,RB,0.0
+10,470.l.165433.t.2,470.p.40231,Chris Rodriguez Jr.,RB,0.0
+10,470.l.165433.t.2,470.p.42693,Antonio Williams,WR,0.0
+10,470.l.165433.t.2,470.p.32010,Gardner Minshew II,QB,0.0
+10,470.l.165433.t.2,470.p.41062,Cam Little,K,0.0
+10,470.l.165433.t.2,470.p.100016,Vikings,DEF,0.0
+10,470.l.165433.t.9,470.p.26662,Geno Smith,QB,0.0
+10,470.l.165433.t.9,470.p.34019,James Cook III,RB,0.0
+10,470.l.165433.t.9,470.p.33991,Breece Hall,RB,0.0
+10,470.l.165433.t.9,470.p.30994,DJ Moore,WR,0.0
+10,470.l.165433.t.9,470.p.28534,Stefon Diggs,WR,0.0
+10,470.l.165433.t.9,470.p.26686,Travis Kelce,TE,0.0
+10,470.l.165433.t.9,470.p.34095,Isaiah Likely,TE,0.0
+10,470.l.165433.t.9,470.p.29360,Demarcus Robinson,WR,0.0
+10,470.l.165433.t.9,470.p.40900,Caleb Williams,QB,0.0
+10,470.l.165433.t.9,470.p.40901,Rome Odunze,WR,0.0
+10,470.l.165433.t.9,470.p.32725,J.K. Dobbins,RB,0.0
+10,470.l.165433.t.9,470.p.40877,Xavier Worthy,WR,0.0
+10,470.l.165433.t.9,470.p.42696,Malachi Fields,WR,0.0
+10,470.l.165433.t.9,470.p.28378,Jason Myers,K,0.0
+10,470.l.165433.t.9,470.p.100012,Chiefs,DEF,0.0
+10,470.l.165433.t.9,470.p.100004,Bengals,DEF,0.0
+10,470.l.165433.t.5,470.p.25812,Kirk Cousins,QB,0.0
+10,470.l.165433.t.5,470.p.33100,Rico Dowdle,RB,0.0
+10,470.l.165433.t.5,470.p.41823,TreVeyon Henderson,RB,0.0
+10,470.l.165433.t.5,470.p.33967,Jameson Williams,WR,0.0
+10,470.l.165433.t.5,470.p.32703,Tee Higgins,WR,0.0
+10,470.l.165433.t.5,470.p.40064,Sam LaPorta,TE,0.0
+10,470.l.165433.t.5,470.p.40097,Tank Dell,WR,0.0
+10,470.l.165433.t.5,470.p.30125,Deshaun Watson,QB,0.0
+10,470.l.165433.t.5,470.p.33538,Kenny Gainwell,RB,0.0
+10,470.l.165433.t.5,470.p.42464,Darius Cooper,WR,0.0
+10,470.l.165433.t.5,470.p.30972,Saquon Barkley,RB,0.0
+10,470.l.165433.t.5,470.p.33398,DeVonta Smith,WR,0.0
+10,470.l.165433.t.5,470.p.27581,Davante Adams,WR,0.0
+10,470.l.165433.t.5,470.p.32675,Tua Tagovailoa,QB,0.0
+10,470.l.165433.t.5,470.p.31199,Jason Sanders,K,0.0
+10,470.l.165433.t.5,470.p.100019,Giants,DEF,0.0
+10,470.l.165433.t.7,470.p.32696,Jordan Love,QB,0.0
+10,470.l.165433.t.7,470.p.41907,Dylan Sampson,RB,0.0
+10,470.l.165433.t.7,470.p.30180,Alvin Kamara,RB,0.0
+10,470.l.165433.t.7,470.p.34007,George Pickens,WR,0.0
+10,470.l.165433.t.7,470.p.33965,Garrett Wilson,WR,0.0
+10,470.l.165433.t.7,470.p.28592,Darren Waller,TE,0.0
+10,470.l.165433.t.7,470.p.42697,Caleb Douglas,WR,0.0
+10,470.l.165433.t.7,470.p.40029,Bryce Young,QB,0.0
+10,470.l.165433.t.7,470.p.33392,Kyle Pitts Sr.,TE,0.0
+10,470.l.165433.t.7,470.p.40051,Quentin Johnston,WR,0.0
+10,470.l.165433.t.7,470.p.31833,Kyler Murray,QB,0.0
+10,470.l.165433.t.7,470.p.32704,Michael Pittman Jr.,WR,0.0
+10,470.l.165433.t.7,470.p.42010,Jacory Croskey-Merritt,RB,0.0
+10,470.l.165433.t.7,470.p.30423,Austin Ekeler,RB,0.0
+10,470.l.165433.t.7,470.p.40159,Chad Ryland,K,0.0
+10,470.l.165433.t.7,470.p.100009,Packers,DEF,0.0
+10,470.l.165433.t.4,470.p.40881,Drake Maye,QB,0.0
+10,470.l.165433.t.4,470.p.33508,Rhamondre Stevenson,RB,0.0
+10,470.l.165433.t.4,470.p.40196,Chase Brown,RB,0.0
+10,470.l.165433.t.4,470.p.41808,Matthew Golden,WR,0.0
+10,470.l.165433.t.4,470.p.40126,Josh Downs,WR,0.0
+10,470.l.165433.t.4,470.p.40048,Dalton Kincaid,TE,0.0
+10,470.l.165433.t.4,470.p.41087,Ryan Flournoy,WR,0.0
+10,470.l.165433.t.4,470.p.40065,Michael Mayer,TE,0.0
+10,470.l.165433.t.4,470.p.40162,Roschon Johnson,RB,0.0
+10,470.l.165433.t.4,470.p.31883,A.J. Brown,WR,0.0
+10,470.l.165433.t.4,470.p.31002,Lamar Jackson,QB,0.0
+10,470.l.165433.t.4,470.p.34088,Romeo Doubs,WR,0.0
+10,470.l.165433.t.4,470.p.40095,Tank Bigsby,RB,0.0
+10,470.l.165433.t.4,470.p.41043,Spencer Rattler,QB,0.0
+10,470.l.165433.t.4,470.p.42838,Trey Smack,K,0.0
+10,470.l.165433.t.4,470.p.100005,Browns,DEF,0.0
+10,470.l.165433.t.11,470.p.31838,Daniel Jones,QB,0.0
+10,470.l.165433.t.11,470.p.33423,Javonte Williams,RB,0.0
+10,470.l.165433.t.11,470.p.41922,Cam Skattebo,RB,0.0
+10,470.l.165433.t.11,470.p.33477,Nico Collins,WR,0.0
+10,470.l.165433.t.11,470.p.40222,DeMario Douglas,WR,0.0
+10,470.l.165433.t.11,470.p.41799,Tyler Warren,TE,0.0
+10,470.l.165433.t.11,470.p.40075,Zach Charbonnet,RB,0.0
+10,470.l.165433.t.11,470.p.34042,Malik Willis,QB,0.0
+10,470.l.165433.t.11,470.p.42654,Jadarian Price,RB,0.0
+10,470.l.165433.t.11,470.p.41824,Luther Burden III,WR,0.0
+10,470.l.165433.t.11,470.p.40042,Jordan Addison,WR,0.0
+10,470.l.165433.t.11,470.p.41930,Shedeur Sanders,QB,0.0
+10,470.l.165433.t.11,470.p.31012,Mike Gesicki,TE,0.0
+10,470.l.165433.t.11,470.p.31010,Courtland Sutton,WR,0.0
+10,470.l.165433.t.11,470.p.29792,Ka'imi Fairbairn,K,0.0
+10,470.l.165433.t.11,470.p.100026,Seahawks,DEF,0.0
+10,470.l.165433.t.6,470.p.40030,C.J. Stroud,QB,0.0
+10,470.l.165433.t.6,470.p.34107,Tyler Allgeier,RB,0.0
+10,470.l.165433.t.6,470.p.33582,Elijah Mitchell,RB,0.0
+10,470.l.165433.t.6,470.p.33394,Jaylen Waddle,WR,0.0
+10,470.l.165433.t.6,470.p.33971,Jahan Dotson,WR,0.0
+10,470.l.165433.t.6,470.p.31019,Dallas Goedert,TE,0.0
+10,470.l.165433.t.6,470.p.30259,George Kittle,TE,0.0
+10,470.l.165433.t.6,470.p.41060,Joe Milton,QB,0.0
+10,470.l.165433.t.6,470.p.34659,Rashid Shaheed,WR,0.0
+10,470.l.165433.t.6,470.p.40971,MarShawn Lloyd,RB,0.0
+10,470.l.165433.t.6,470.p.40220,Tanner McKee,QB,0.0
+10,470.l.165433.t.6,470.p.42625,Jeremiyah Love,RB,0.0
+10,470.l.165433.t.6,470.p.40201,Dontayvion Wicks,WR,0.0
+10,470.l.165433.t.6,470.p.33605,Khalil Herbert,RB,0.0
+10,470.l.165433.t.6,470.p.28227,Cairo Santos,K,0.0
+10,470.l.165433.t.6,470.p.100033,Ravens,DEF,0.0
+10,470.l.165433.t.13,470.p.29369,Dak Prescott,QB,0.0
+10,470.l.165433.t.13,470.p.41791,Ashton Jeanty,RB,0.0
+10,470.l.165433.t.13,470.p.42712,Kaelon Black,RB,0.0
+10,470.l.165433.t.13,470.p.41840,Tre' Harris,WR,0.0
+10,470.l.165433.t.13,470.p.33393,Ja'Marr Chase,WR,0.0
+10,470.l.165433.t.13,470.p.31107,Dalton Schultz,TE,0.0
+10,470.l.165433.t.13,470.p.41097,Devaughn Vele,WR,0.0
+10,470.l.165433.t.13,470.p.29236,Carson Wentz,QB,0.0
+10,470.l.165433.t.13,470.p.30227,Samaje Perine,RB,0.0
+10,470.l.165433.t.13,470.p.40883,Brian Thomas Jr.,WR,0.0
+10,470.l.165433.t.13,470.p.27535,Mike Evans,WR,0.0
+10,470.l.165433.t.13,470.p.33998,Wan'Dale Robinson,WR,0.0
+10,470.l.165433.t.13,470.p.42623,Fernando Mendoza,QB,0.0
+10,470.l.165433.t.13,470.p.41968,Riley Leonard,QB,0.0
+10,470.l.165433.t.13,470.p.40819,Brandon Aubrey,K,0.0
+10,470.l.165433.t.13,470.p.100014,Rams,DEF,0.0
