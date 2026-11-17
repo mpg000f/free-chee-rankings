@@ -10,8 +10,9 @@ import re, os, glob, hashlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # href/src -> optional path prefix -> css/ or js/ file -> optional old ?v=
+# (any existing stamp value, not just hex: a hand-written one must still be replaced)
 ASSET_RE = re.compile(
-    r'(href|src)="((?:[^"]*/)?)((?:css|js)/[A-Za-z0-9_.-]+\.(?:css|js))(?:\?v=[a-f0-9]+)?"'
+    r'(href|src)="((?:[^"]*/)?)((?:css|js)/[A-Za-z0-9_.-]+\.(?:css|js))(?:\?v=[^"]*)?"'
 )
 
 
