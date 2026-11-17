@@ -21634,20 +21634,20 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.41902",
-    "player_name": "Woody Marks",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 70.4
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.14",
     "player_key": "470.p.34447",
     "player_name": "Jaylen Warren",
     "display_position": "RB",
     "points": 0.0,
     "season_points": 134.9
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.14",
+    "player_key": "470.p.31905",
+    "player_name": "David Montgomery",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 42.0
   },
   {
     "week": 11,
@@ -21688,6 +21688,15 @@
   {
     "week": 11,
     "team_key": "470.l.165433.t.14",
+    "player_key": "470.p.41902",
+    "player_name": "Woody Marks",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 70.4
+  },
+  {
+    "week": 11,
+    "team_key": "470.l.165433.t.14",
     "player_key": "470.p.33113",
     "player_name": "Juwan Johnson",
     "display_position": "TE",
@@ -21702,15 +21711,6 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 38.3
-  },
-  {
-    "week": 11,
-    "team_key": "470.l.165433.t.14",
-    "player_key": "470.p.31905",
-    "player_name": "David Montgomery",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 42.0
   },
   {
     "week": 11,
