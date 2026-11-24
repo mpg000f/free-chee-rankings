@@ -23,12 +23,12 @@
    "owner": "Boyle",
    "seasons_played": 5,
    "wins": 29,
-   "losses": 39,
+   "losses": 40,
    "ties": 1,
-   "win_pct": 0.42,
-   "pf": 7468.4,
-   "pa": 7517.6,
-   "ppg": 108.2,
+   "win_pct": 0.414,
+   "pf": 7590.2,
+   "pa": 7668.7,
+   "ppg": 108.4,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -85,12 +85,6 @@
      "t": 0
     },
     {
-     "opp": "Sweeney",
-     "w": 2,
-     "l": 2,
-     "t": 0
-    },
-    {
      "opp": "Papi",
      "w": 1,
      "l": 1,
@@ -104,6 +98,12 @@
     },
     {
      "opp": "Mitch",
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    {
+     "opp": "Sweeney",
      "w": 2,
      "l": 3,
      "t": 0
@@ -158,12 +158,12 @@
    "owner": "Chris",
    "seasons_played": 5,
    "wins": 33,
-   "losses": 39,
+   "losses": 40,
    "ties": 0,
-   "win_pct": 0.458,
-   "pf": 8021.9,
-   "pa": 8111.6,
-   "ppg": 111.4,
+   "win_pct": 0.452,
+   "pf": 8083.3,
+   "pa": 8229.1,
+   "ppg": 110.7,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -244,6 +244,12 @@
      "t": 0
     },
     {
+     "opp": "Kevin",
+     "w": 0,
+     "l": 1,
+     "t": 0
+    },
+    {
      "opp": "Boyle",
      "w": 2,
      "l": 4,
@@ -287,11 +293,11 @@
    "owner": "Connor",
    "seasons_played": 5,
    "wins": 28,
-   "losses": 38,
+   "losses": 39,
    "ties": 0,
-   "win_pct": 0.424,
-   "pf": 6999.8,
-   "pa": 7211.2,
+   "win_pct": 0.418,
+   "pf": 7106.0,
+   "pa": 7322.5,
    "ppg": 106.1,
    "championships": 0,
    "finals": 0,
@@ -313,12 +319,6 @@
      "t": 0
     },
     {
-     "opp": "Mikey",
-     "w": 3,
-     "l": 1,
-     "t": 0
-    },
-    {
      "opp": "Boyle",
      "w": 3,
      "l": 2,
@@ -332,6 +332,12 @@
     },
     {
      "opp": "Matt",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
+     "opp": "Mikey",
      "w": 3,
      "l": 2,
      "t": 0
@@ -416,12 +422,12 @@
    "owner": "Deez",
    "seasons_played": 5,
    "wins": 45,
-   "losses": 30,
+   "losses": 31,
    "ties": 0,
-   "win_pct": 0.6,
-   "pf": 8471.1,
-   "pa": 8196.5,
-   "ppg": 112.9,
+   "win_pct": 0.592,
+   "pf": 8549.6,
+   "pa": 8278.5,
+   "ppg": 112.5,
    "championships": 1,
    "finals": 1,
    "semis": 1,
@@ -510,7 +516,7 @@
     {
      "opp": "Joey",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -550,13 +556,13 @@
   "Gallo": {
    "owner": "Gallo",
    "seasons_played": 5,
-   "wins": 40,
+   "wins": 41,
    "losses": 32,
    "ties": 0,
-   "win_pct": 0.556,
-   "pf": 7871.4,
-   "pa": 7680.1,
-   "ppg": 109.3,
+   "win_pct": 0.562,
+   "pf": 7961.2,
+   "pa": 7762.9,
+   "ppg": 109.1,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -572,6 +578,12 @@
    "h2h": [
     {
      "opp": "Chris",
+     "w": 4,
+     "l": 1,
+     "t": 0
+    },
+    {
+     "opp": "Justin",
      "w": 4,
      "l": 1,
      "t": 0
@@ -596,12 +608,6 @@
     },
     {
      "opp": "Boyle",
-     "w": 3,
-     "l": 1,
-     "t": 0
-    },
-    {
-     "opp": "Justin",
      "w": 3,
      "l": 1,
      "t": 0
@@ -686,12 +692,12 @@
    "owner": "Ger",
    "seasons_played": 5,
    "wins": 38,
-   "losses": 37,
+   "losses": 38,
    "ties": 0,
-   "win_pct": 0.507,
-   "pf": 7982.1,
-   "pa": 8080.0,
-   "ppg": 106.4,
+   "win_pct": 0.5,
+   "pf": 8108.7,
+   "pa": 8221.6,
+   "ppg": 106.7,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -786,7 +792,7 @@
     {
      "opp": "TK",
      "w": 1,
-     "l": 4,
+     "l": 5,
      "t": 0
     },
     {
@@ -814,13 +820,13 @@
   "Joey": {
    "owner": "Joey",
    "seasons_played": 5,
-   "wins": 32,
+   "wins": 33,
    "losses": 40,
    "ties": 0,
-   "win_pct": 0.444,
-   "pf": 8290.7,
-   "pa": 8165.0,
-   "ppg": 115.1,
+   "win_pct": 0.452,
+   "pf": 8372.7,
+   "pa": 8243.5,
+   "ppg": 114.7,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -853,6 +859,12 @@
      "t": 0
     },
     {
+     "opp": "Deez",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Ger",
      "w": 3,
      "l": 2,
@@ -868,12 +880,6 @@
      "opp": "Mitch",
      "w": 3,
      "l": 3,
-     "t": 0
-    },
-    {
-     "opp": "Deez",
-     "w": 2,
-     "l": 2,
      "t": 0
     },
     {
@@ -950,12 +956,12 @@
    "owner": "Justin",
    "seasons_played": 5,
    "wins": 32,
-   "losses": 37,
+   "losses": 38,
    "ties": 0,
-   "win_pct": 0.464,
-   "pf": 7501.1,
-   "pa": 7721.3,
-   "ppg": 108.7,
+   "win_pct": 0.457,
+   "pf": 7583.9,
+   "pa": 7811.1,
+   "ppg": 108.3,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -1050,7 +1056,7 @@
     {
      "opp": "Gallo",
      "w": 1,
-     "l": 3,
+     "l": 4,
      "t": 0
     },
     {
@@ -1084,13 +1090,13 @@
   "Kevin": {
    "owner": "Kevin",
    "seasons_played": 1,
-   "wins": 7,
+   "wins": 8,
    "losses": 3,
    "ties": 0,
-   "win_pct": 0.7,
-   "pf": 1074.4,
-   "pa": 1049.6,
-   "ppg": 107.4,
+   "win_pct": 0.727,
+   "pf": 1191.9,
+   "pa": 1111.1,
+   "ppg": 108.4,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -1106,6 +1112,12 @@
    "h2h": [
     {
      "opp": "Boyle",
+     "w": 1,
+     "l": 0,
+     "t": 0
+    },
+    {
+     "opp": "Chris",
      "w": 1,
      "l": 0,
      "t": 0
@@ -1184,12 +1196,12 @@
    "owner": "Matt",
    "seasons_played": 5,
    "wins": 45,
-   "losses": 33,
+   "losses": 34,
    "ties": 0,
-   "win_pct": 0.577,
-   "pf": 8769.8,
-   "pa": 8550.0,
-   "ppg": 112.4,
+   "win_pct": 0.57,
+   "pf": 8849.2,
+   "pa": 8681.5,
+   "ppg": 112.0,
    "championships": 0,
    "finals": 3,
    "semis": 0,
@@ -1222,13 +1234,13 @@
      "t": 0
     },
     {
-     "opp": "TJ",
+     "opp": "Gallo",
      "w": 4,
-     "l": 1,
+     "l": 2,
      "t": 0
     },
     {
-     "opp": "Gallo",
+     "opp": "TJ",
      "w": 4,
      "l": 2,
      "t": 0
@@ -1318,12 +1330,12 @@
   "Mikey": {
    "owner": "Mikey",
    "seasons_played": 5,
-   "wins": 27,
+   "wins": 28,
    "losses": 42,
    "ties": 0,
-   "win_pct": 0.391,
-   "pf": 7270.0,
-   "pa": 7751.5,
+   "win_pct": 0.4,
+   "pf": 7381.3,
+   "pa": 7857.7,
    "ppg": 105.4,
    "championships": 0,
    "finals": 0,
@@ -1381,6 +1393,12 @@
      "t": 0
     },
     {
+     "opp": "Connor",
+     "w": 2,
+     "l": 3,
+     "t": 0
+    },
+    {
      "opp": "Mitch",
      "w": 2,
      "l": 3,
@@ -1395,12 +1413,6 @@
     {
      "opp": "Sweeney",
      "w": 2,
-     "l": 3,
-     "t": 0
-    },
-    {
-     "opp": "Connor",
-     "w": 1,
      "l": 3,
      "t": 0
     },
@@ -1454,12 +1466,12 @@
    "owner": "Mitch",
    "seasons_played": 5,
    "wins": 42,
-   "losses": 33,
+   "losses": 34,
    "ties": 0,
-   "win_pct": 0.56,
-   "pf": 8474.5,
-   "pa": 8191.4,
-   "ppg": 113.0,
+   "win_pct": 0.553,
+   "pf": 8513.8,
+   "pa": 8290.3,
+   "ppg": 112.0,
    "championships": 1,
    "finals": 1,
    "semis": 0,
@@ -1536,7 +1548,7 @@
     {
      "opp": "Paul",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "t": 0
     },
     {
@@ -1717,13 +1729,13 @@
   "Paul": {
    "owner": "Paul",
    "seasons_played": 5,
-   "wins": 26,
+   "wins": 27,
    "losses": 39,
    "ties": 1,
-   "win_pct": 0.394,
-   "pf": 7062.5,
-   "pa": 7510.1,
-   "ppg": 107.0,
+   "win_pct": 0.403,
+   "pf": 7161.4,
+   "pa": 7549.4,
+   "ppg": 106.9,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -1756,13 +1768,13 @@
      "t": 0
     },
     {
-     "opp": "Mikey",
-     "w": 2,
+     "opp": "Mitch",
+     "w": 3,
      "l": 2,
      "t": 0
     },
     {
-     "opp": "Mitch",
+     "opp": "Mikey",
      "w": 2,
      "l": 2,
      "t": 0
@@ -1852,13 +1864,13 @@
   "Sweeney": {
    "owner": "Sweeney",
    "seasons_played": 5,
-   "wins": 41,
+   "wins": 42,
    "losses": 34,
    "ties": 0,
-   "win_pct": 0.547,
-   "pf": 8540.4,
-   "pa": 8326.5,
-   "ppg": 113.9,
+   "win_pct": 0.553,
+   "pf": 8691.5,
+   "pa": 8448.4,
+   "ppg": 114.4,
    "championships": 2,
    "finals": 3,
    "semis": 0,
@@ -1897,6 +1909,12 @@
      "t": 0
     },
     {
+     "opp": "Boyle",
+     "w": 3,
+     "l": 2,
+     "t": 0
+    },
+    {
      "opp": "Chris",
      "w": 3,
      "l": 2,
@@ -1917,12 +1935,6 @@
     {
      "opp": "TK",
      "w": 3,
-     "l": 2,
-     "t": 0
-    },
-    {
-     "opp": "Boyle",
-     "w": 2,
      "l": 2,
      "t": 0
     },
@@ -1987,13 +1999,13 @@
   "TJ": {
    "owner": "TJ",
    "seasons_played": 5,
-   "wins": 40,
+   "wins": 41,
    "losses": 35,
    "ties": 0,
-   "win_pct": 0.533,
-   "pf": 8487.2,
-   "pa": 8065.0,
-   "ppg": 113.2,
+   "win_pct": 0.539,
+   "pf": 8618.8,
+   "pa": 8144.5,
+   "ppg": 113.4,
    "championships": 0,
    "finals": 0,
    "semis": 1,
@@ -2080,13 +2092,13 @@
      "t": 0
     },
     {
-     "opp": "Joey",
-     "w": 1,
+     "opp": "Matt",
+     "w": 2,
      "l": 4,
      "t": 0
     },
     {
-     "opp": "Matt",
+     "opp": "Joey",
      "w": 1,
      "l": 4,
      "t": 0
@@ -2116,13 +2128,13 @@
   "TK": {
    "owner": "TK",
    "seasons_played": 5,
-   "wins": 38,
+   "wins": 39,
    "losses": 34,
    "ties": 0,
-   "win_pct": 0.528,
-   "pf": 7686.4,
-   "pa": 7947.1,
-   "ppg": 106.8,
+   "win_pct": 0.534,
+   "pf": 7828.0,
+   "pa": 8073.7,
+   "ppg": 107.2,
    "championships": 0,
    "finals": 0,
    "semis": 0,
@@ -2131,11 +2143,17 @@
    "avg_power_rank": 6.42,
    "best_rank": 1,
    "rival": {
-    "owner": "Gallo",
-    "wins": 2,
-    "losses": 4
+    "owner": "Ger",
+    "wins": 5,
+    "losses": 1
    },
    "h2h": [
+    {
+     "opp": "Ger",
+     "w": 5,
+     "l": 1,
+     "t": 0
+    },
     {
      "opp": "Mikey",
      "w": 4,
@@ -2144,12 +2162,6 @@
     },
     {
      "opp": "Boyle",
-     "w": 4,
-     "l": 1,
-     "t": 0
-    },
-    {
-     "opp": "Ger",
      "w": 4,
      "l": 1,
      "t": 0

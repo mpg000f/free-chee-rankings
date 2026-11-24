@@ -6978,17 +6978,18 @@
    "t2": "Tuanigamanuolepola Donny",
    "p2": 116.0,
    "consolation": false
-  }
- ],
- "upcoming": [
+  },
   {
    "season": "2026",
    "week": 11,
    "playoff": false,
    "o1": "TJ",
    "t1": "Boone",
+   "p1": 131.54,
    "o2": "Matt",
-   "t2": "The Art of the Deal"
+   "t2": "The Art of the Deal",
+   "p2": 79.46,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -6996,8 +6997,11 @@
    "playoff": false,
    "o1": "Boyle",
    "t1": "Shough and F#ck",
+   "p1": 121.82,
    "o2": "Sweeney",
-   "t2": "Work Ass"
+   "t2": "Work Ass",
+   "p2": 151.08,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7005,8 +7009,11 @@
    "playoff": false,
    "o1": "TK",
    "t1": "Nick Wright Barely Legal",
+   "p1": 141.58,
    "o2": "Ger",
-   "t2": "Ger"
+   "t2": "Ger",
+   "p2": 126.58,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7014,8 +7021,11 @@
    "playoff": false,
    "o1": "Mitch",
    "t1": "Charles Dickens",
+   "p1": 39.3,
    "o2": "Paul",
-   "t2": "Hello Darkness My Old Friend"
+   "t2": "Hello Darkness My Old Friend",
+   "p2": 98.88,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7023,8 +7033,11 @@
    "playoff": false,
    "o1": "Gallo",
    "t1": "Free Paid",
+   "p1": 89.78,
    "o2": "Justin",
-   "t2": "Phenom"
+   "t2": "Phenom",
+   "p2": 82.8,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7032,8 +7045,11 @@
    "playoff": false,
    "o1": "Joey",
    "t1": "Stewed C",
+   "p1": 82.0,
    "o2": "Deez",
-   "t2": "Pigs on the 7th Rank"
+   "t2": "Pigs on the 7th Rank",
+   "p2": 78.5,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7041,8 +7057,11 @@
    "playoff": false,
    "o1": "Mikey",
    "t1": "Pelosi's Powder",
+   "p1": 111.3,
    "o2": "Connor",
-   "t2": "Healthy as a Fucking Rhino"
+   "t2": "Healthy as a Fucking Rhino",
+   "p2": 106.18,
+   "consolation": false
   },
   {
    "season": "2026",
@@ -7050,9 +7069,14 @@
    "playoff": false,
    "o1": "Chris",
    "t1": "Ginny Sack",
+   "p1": 61.46,
    "o2": "Kevin",
-   "t2": "Tuanigamanuolepola Donny"
-  },
+   "t2": "Tuanigamanuolepola Donny",
+   "p2": 117.54,
+   "consolation": false
+  }
+ ],
+ "upcoming": [
   {
    "season": "2026",
    "week": 12,
