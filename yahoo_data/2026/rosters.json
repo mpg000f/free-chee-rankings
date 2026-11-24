@@ -24033,6 +24033,15 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.7",
+    "player_key": "470.p.32696",
+    "player_name": "Jordan Love",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 202.82
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.7",
     "player_key": "470.p.41860",
     "player_name": "Pat Bryant",
     "display_position": "WR",
@@ -24056,15 +24065,6 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 31.1
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32696",
-    "player_name": "Jordan Love",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 202.82
   },
   {
     "week": 12,
