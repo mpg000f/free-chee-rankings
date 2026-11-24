@@ -143,13 +143,13 @@
     "player": "Josh Allen",
     "cost": 70,
     "pts": 374.62,
-    "value": 114.2
+    "value": 110.4
    },
    "worst_pick": {
     "player": "J.K. Dobbins",
     "cost": 17,
     "pts": 10.7,
-    "value": -157.1
+    "value": -159.0
    },
    "power_score": 0.198,
    "comparison": "Herbert Hoover. The numbers are just ugly. Hoover’s presidency was marred\nby disastrous economic performance with brutal headlines (unemployment, bank failures,\nGDP collapse) which all happened on his watch. Similarly, Boyle’s headlines are scrambled\nass. He has a bad record, bad points scored, bad point differential and one playoff\nappearance. We can try to talk nuance for Hoover and Boyle but the numbers are just\nrough."
@@ -278,13 +278,13 @@
     "player": "Christian McCaffrey",
     "cost": 44,
     "pts": 356.9,
-    "value": 144.8
+    "value": 141.6
    },
    "worst_pick": {
     "player": "Daniel Jones",
     "cost": 47,
     "pts": 62.96,
-    "value": -171.4
+    "value": -174.3
    },
    "power_score": 0.509,
    "comparison": "James Madison. Madison was smart, capable and the architect of some\nmajor US systems. Even people who don’t rank him among the best presidents must\nacknowledge he was solidly above average. That’s Chris to a tee. Solid metrics, competitive\nall the time, and a consummate professional."
@@ -413,7 +413,7 @@
     "player": "Sam Darnold",
     "cost": 6,
     "pts": 6.92,
-    "value": -165.4
+    "value": -166.2
    },
    "power_score": 0.179,
    "comparison": "Millard Fillmore. Like Fillmore, Connor isn’t the absolute worst. His teams\nare just deeply forgettable. Fillmore never humiliated himself, but he also never had any\nsignature moments we can point to. That’s sort of like Connor’s resume. He’s not\nhistorically awful, but he’s never made the playoffs and has no real highlights to\ncounterbalance the resume. The one major difference is that historians mostly consider\nFillmore’s sleep habits to be highly regular, while Connor is known to get 11-12 hours of\nsleep a day."
@@ -542,13 +542,13 @@
     "player": "Daniel Jones",
     "cost": 6,
     "pts": 294.0,
-    "value": 121.6
+    "value": 120.8
    },
    "worst_pick": {
     "player": "Elijah Mitchell",
     "cost": 21,
     "pts": 24.6,
-    "value": -150.7
+    "value": -152.8
    },
    "power_score": 0.817,
    "comparison": "Dwight “Deez” Eisenhower. Eisenhower and Deez both displayed calm,\nsustained dominance without chaos. Eisenhower presided over a clean stretch of\neconomic growth in the 1950s which maps favorably onto Deez’s strong regular season\nperformance year over year. Neither’s resume is built on flashy moments, just doing the\nsmall things day in and day out."
@@ -677,13 +677,13 @@
     "player": "Jalen Hurts",
     "cost": 36,
     "pts": 374.58,
-    "value": 154.1
+    "value": 151.6
    },
    "worst_pick": {
     "player": "Anthony Richardson Sr.",
     "cost": 13,
     "pts": 1.66,
-    "value": -184.5
+    "value": -185.8
    },
    "power_score": 0.0452,
    "comparison": "William Henry Harrison. Harrison’s profile is technically successful. He has a\nsolid resume and he won the presidency in a clean election, but he died a month into\noffice. Think of that death as equivalent to Gallo’s last place finish. If either Harrison or\nGallo didn’t have that one black mark against them, they might be considered among the\ngreats."
@@ -812,7 +812,7 @@
     "player": "Malik Nabers",
     "cost": 45,
     "pts": 48.1,
-    "value": -149.1
+    "value": -148.7
    },
    "power_score": 0.417,
    "comparison": "Lyndon Baines Johnson. LBJ was hyperactive, very deal driven and often\npulling strings behind the scenes. Similarly, Ger is extremely active on the wire with the 2nd\nmost moves in the league. His desire to constantly churn the roster and keep his team in\nflux is akin to LBJ’s style of governance."
@@ -938,16 +938,16 @@
     }
    ],
    "best_pick": {
-    "player": "Jayden Daniels",
-    "cost": 45,
-    "pts": 360.6,
-    "value": 128.7
+    "player": "Justin Fields",
+    "cost": 9,
+    "pts": 306.98,
+    "value": 127.3
    },
    "worst_pick": {
     "player": "Jeremiyah Love",
     "cost": 42,
     "pts": 47.9,
-    "value": -161.2
+    "value": -164.4
    },
    "power_score": 0.58,
    "comparison": "Woodrow Wilson. Wilson talked big and swung for the fences on big projects\nlike the League of Nations, but the results didn’t fully pan out. Similarly, Joey’s rosters and\nambitions have often warranted some big talk but the final results haven’t necessarily lived\nup to their initial billing."
@@ -1073,16 +1073,16 @@
     }
    ],
    "best_pick": {
-    "player": "Bo Nix",
-    "cost": 8,
-    "pts": 295.16,
-    "value": 118.5
+    "player": "Ja'Marr Chase",
+    "cost": 53,
+    "pts": 321.9,
+    "value": 117.6
    },
    "worst_pick": {
     "player": "Aaron Rodgers",
     "cost": 46,
     "pts": 0.0,
-    "value": -233.1
+    "value": -236.0
    },
    "power_score": 0.283,
    "comparison": "James Garfield. Garfield didn’t have a long presidency but while active he\nwas generally agreed to be legitimately competent. Justin hasn’t stacked up victories year\nafter year but he has shown one stretch of extremely strong play in 2024. Garfield and\nJustin’s resumes aren’t empty, they just fall short of the elite tier."
@@ -1180,14 +1180,14 @@
    "best_pick": {
     "player": "Bucky Irving",
     "cost": 15,
-    "pts": 148.1,
-    "value": -15.8
+    "pts": 165.6,
+    "value": -0.1
    },
    "worst_pick": {
     "player": "Carson Beck",
     "cost": 8,
     "pts": 2.42,
-    "value": -174.2
+    "value": -175.2
    },
    "power_score": null,
    "comparison": ""
@@ -1316,13 +1316,13 @@
     "player": "Joe Burrow",
     "cost": 27,
     "pts": 351.1,
-    "value": 142.9
+    "value": 140.9
    },
    "worst_pick": {
     "player": "De'Von Achane",
     "cost": 40,
     "pts": 21.1,
-    "value": -185.1
+    "value": -188.1
    },
    "power_score": 0.803,
    "comparison": "Gerald Ford. Ford and Ron both have kept things stable but didn’t quite get\nthe crowning validation of a title. Ford ascended to the Presidency but was never elected\nhimself while Ron has reached the championship three times without claiming the crown.\nRon mimics Gerald’s steady, competent leadership."
@@ -1457,7 +1457,7 @@
     "player": "Christian McCaffrey",
     "cost": 77,
     "pts": 40.3,
-    "value": -215.4
+    "value": -219.9
    },
    "power_score": 0.127,
    "comparison": "James Buchanan. Buchanan is consistently ranked among the worst\npresidents. Similar to Mikey’s apathy in setting his lineup, Buchanan’s inability to take\nmeaningful action to stop the Civil War is the biggest criticism against him. So the parallel\nis that both Buchanan and Mikey lost and did so while seeming sort of checked out. At least\nin Mikey’s case he was able to salvage his season and avoid relegation while Buchanan’s\nterm did not end on such a positive note."
@@ -1592,7 +1592,7 @@
     "player": "Lamar Jackson",
     "cost": 60,
     "pts": 80.08,
-    "value": -169.4
+    "value": -172.8
    },
    "power_score": 0.724,
    "comparison": "George H. W. Bush. Mitch’s legacy is built around one big defining win similar\nto Bush. Bush’s legacy hinges on the undeniable success of Operation Desert Storm. He\ndidn’t dominate in all aspects but this one accomplishment is something history can’t take\naway and that’s how many view Mitch’s championship in 2024. Hasn’t always been\ndominant but he’s overall pretty solid with one crowning achievement."
@@ -1721,7 +1721,7 @@
     "player": "Jonathan Taylor",
     "cost": 70,
     "pts": 132.4,
-    "value": -114.6
+    "value": -118.9
    },
    "power_score": 0.213,
    "comparison": "Andrew Johnson. The record on paper isn’t awful but the legacy is defined by\nthe lows. Andrew Johnson technically didn’t do nothing. He had some competent\nstretches, but he’ll always be defined by his mismanagement of Reconstruction and his\nimpeachment. Those massive negatives are Papi’s two last place finishes. Despite mostly\nadequate management, those last place finishes are like an anchor on Papi’s legacy to this\npoint."
@@ -1850,13 +1850,13 @@
     "player": "Lamar Jackson",
     "cost": 61,
     "pts": 411.4,
-    "value": 160.8
+    "value": 157.4
    },
    "worst_pick": {
     "player": "Nick Chubb",
     "cost": 40,
     "pts": 21.1,
-    "value": -185.1
+    "value": -188.1
    },
    "power_score": 0.017,
    "comparison": "Franklin Pierce. Pierce is consistently ranked among the worst US Presidents\ndue to poor outcomes. Zauaks, like Connor, has never made the playoffs so there’s no real\nwins to point to. We’d like to compare his consistently poor record (18-37) to Franklin\nPierce’s disastrous decision to sign the Kansas-Nebraska Act. This act repealed the\nMissouri Compromise and allowed new territories to adopt slavery. This weak leadership\n\ncost him support in the North. Sadly, many of Zaukas’ fans are abandoning ship after this\nyear’s showing. Preliminary data shows some are adopting new allegiances."
@@ -1985,13 +1985,13 @@
     "player": "Patrick Mahomes",
     "cost": 43,
     "pts": 413.92,
-    "value": 184.5
+    "value": 181.8
    },
    "worst_pick": {
     "player": "Fernando Mendoza",
     "cost": 20,
-    "pts": 16.14,
-    "value": -181.6
+    "pts": 39.02,
+    "value": -160.4
    },
    "power_score": 0.847,
    "comparison": "FDR. Like Franklin Delano, Sweeney has been clutch when it matters most.\nWhile FDR weathered the Depression and World War Two, Sweeney has delivered clutch\nvictories when facing elimination like his 5 straight wins to end the season this year. Neither\nof them compiled stats in peacetime, they both dominated in high stakes situations."
@@ -2114,13 +2114,13 @@
     "player": "Baker Mayfield",
     "cost": 30,
     "pts": 359.16,
-    "value": 146.7
+    "value": 144.6
    },
    "worst_pick": {
     "player": "Trey Lance",
     "cost": 26,
     "pts": 13.46,
-    "value": -193.3
+    "value": -195.3
    },
    "power_score": 0.614,
    "comparison": "James K. Polk. Polk profiles as a president who was very productive but\nsomehow still feels a little underappreciated. Polk dramatically expanded US territory with\nthe resounding victory in the Mexican-American War. He also negotiated with Britain\nresulting in the Oregon Treaty of 1846. This maps well to TJ’s dominance in points for (2nd\nmost in the league) and his top-5 win percentage with three playoff appearances. Neither is\namong the most celebrated of their cohort, as each are less decorated than their stats\nwould suggest."
@@ -2249,7 +2249,7 @@
     "player": "Tua Tagovailoa",
     "cost": 20,
     "pts": 0.36,
-    "value": -197.4
+    "value": -199.1
    },
    "power_score": 0.371,
    "comparison": "Rutherford B. Hayes. Hayes lost the popular vote and became president in a\nrazor thin result which is why he’s famous for winning small. Hayes’ presidency was\nessentially decided by recounts and disputed electors while most of TK’s wins end up\nhappening in a similar vein. He eeks out 85-82 victories in the spirit of Rutherford B. but\nwhen he loses he ends up getting clobbered. Additionally, they’re both remembered for one\nbig event. For Hayes, it’s the Compromise of 1877 which ended Reconstruction in the\nSouth in return for the Democrats accepting him as president. For TK, it’s his fleecing of\nBoyle in one of the great trades in league history."
