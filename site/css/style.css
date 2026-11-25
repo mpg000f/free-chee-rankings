@@ -158,9 +158,7 @@ h3 { font-size: 1.2rem; }
   display: block;
 }
 
-/* ===== CTA CARDS =====
-   Four cards, one per page you'd open during a season. Sized to land 2x2 so
-   there's no orphan on the last row; everything else lives in the hub below. */
+/* ===== CTA CARDS ===== */
 .cta-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -169,6 +167,7 @@ h3 { font-size: 1.2rem; }
   width: 100%;
   padding: 0 1rem;
 }
+.cta-playoffs { grid-column: 1 / -1; }
 .cta-card {
   background: var(--surface);
   border: 1px solid var(--surface-light);
