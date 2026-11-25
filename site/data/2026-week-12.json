@@ -24,25 +24,25 @@
     },
     {
       "rank": 3,
-      "team_name": "Phenom",
-      "owner": "Justin",
-      "movement": 0,
-      "tier": "Tier One: Zaukas and the Four Horsemen",
-      "subsections": []
-    },
-    {
-      "rank": 4,
-      "team_name": "Boone",
-      "owner": "TJ",
+      "team_name": "BEST Margarita Recipe",
+      "owner": "Kevin",
       "movement": 2,
       "tier": "Tier One: Zaukas and the Four Horsemen",
       "subsections": []
     },
     {
+      "rank": 4,
+      "team_name": "Phenom",
+      "owner": "Justin",
+      "movement": -1,
+      "tier": "Tier One: Zaukas and the Four Horsemen",
+      "subsections": []
+    },
+    {
       "rank": 5,
-      "team_name": "BEST Margarita Recipe",
-      "owner": "Kevin",
-      "movement": 0,
+      "team_name": "Boone",
+      "owner": "TJ",
+      "movement": 1,
       "tier": "Tier One: Zaukas and the Four Horsemen",
       "subsections": []
     },
