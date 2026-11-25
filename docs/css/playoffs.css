@@ -50,3 +50,14 @@
 }
 .playoff-layout.playoff-final { grid-template-columns: minmax(0, 1fr); }
 .playoff-table th[scope="row"] { text-align: left; }
+.playoff-match-leverage {
+  width: 100%; margin-top: .45rem; border-collapse: collapse; font-size: .78rem;
+  text-align: right; font-variant-numeric: tabular-nums;
+}
+.playoff-match-leverage th, .playoff-match-leverage td { padding: .15rem .2rem; }
+.playoff-match-leverage th:first-child { text-align: left; }
+.playoff-match-leverage thead { color: var(--text-dim); }
+.playoff-match-leverage td:last-child { color: var(--accent); }
+.playoff-live-score { font-size: .82rem; color: var(--text); margin-top: .45rem; }
+.playoff-live-score strong { color: var(--accent); margin-right: .25rem; }
+.playoff-live-score span { display: block; color: var(--text-dim); }

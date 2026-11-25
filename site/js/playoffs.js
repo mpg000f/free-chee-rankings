@@ -3,6 +3,8 @@ const LEAGUE_TEAMS = 16;
 const REGULAR_SEASON_WEEKS = 14;
 const TRIALS = 10_000;
 const LEAGUE_AVERAGE_WEIGHT = 4;
+const SNAPSHOT_URL = 'https://raw.githubusercontent.com/mpg000f/free-chee-rankings/main/yahoo_data/playoff_snapshot.json';
+const SNAPSHOT_MAX_AGE = 36 * 60 * 60 * 1000;
 const toCents = score => Math.round(Number(score) * 100);
 const record = ({ wins, losses, ties }) => ties ? `${wins}-${losses}-${ties}` : `${wins}-${losses}`;
 
@@ -38,7 +40,9 @@ export function seasonFromSchedule(data) {
       if (!team || team.weeks.has(game.week)) throw new Error('Invalid remaining schedule');
       team.weeks.add(game.week);
     }
-    return { a, b, id, week: game.week };
+    const live = game.live;
+    if (live && ![live.p1, live.p2].every(Number.isFinite)) throw new Error('Invalid live score');
+    return { a, b, id, week: game.week, live };
   });
   if (teams.length !== LEAGUE_TEAMS || teams.some(team => team.weeks.size !== REGULAR_SEASON_WEEKS)) {
     throw new Error('Incomplete regular-season schedule');
@@ -65,18 +69,31 @@ function makeSamples(teams, games) {
   }, 0);
   const deviation = Math.max(1000, Math.sqrt(residuals / Math.max(1, gameCount - teams.length)));
   const random = randomSource(20261125);
-  const sampleGame = (a, b) => {
-    const radius = deviation * Math.sqrt(-2 * Math.log(random()));
-    const angle = 2 * Math.PI * random();
-    return [Math.round(means[a] + radius * Math.cos(angle)), Math.round(means[b] + radius * Math.sin(angle))];
-  };
-
-  return games.map(({ a, b }) => {
+  return games.map(({ a, b, live }) => {
+    const floor = live ? [toCents(live.p1), toCents(live.p2)] : null;
+    const centers = [a, b].map((id, side) => {
+      const projection = live?.[`projected${side + 1}`];
+      const average = Number.isFinite(projection) ? toCents(projection) : means[id];
+      return floor ? Math.max(floor[side], average) : average;
+    });
+    const spreads = centers.map((center, side) => {
+      if (!floor) return deviation;
+      const remaining = Math.max(0, center - floor[side]);
+      const share = Math.min(1, remaining / Math.max(1, center));
+      return deviation * Math.sqrt(share);
+    });
+    const sampleGame = () => {
+      const radius = Math.sqrt(-2 * Math.log(random()));
+      const angle = 2 * Math.PI * random();
+      const scores = centers.map((center, side) =>
+        Math.round(center + spreads[side] * radius * (side === 0 ? Math.cos(angle) : Math.sin(angle))));
+      return floor ? scores.map((score, side) => Math.max(floor[side], score)) : scores;
+    };
     const open = [], first = [], second = [];
     const sums = [[0, 0], [0, 0]];
     const wins = [0, 0];
     for (let i = 0; i < TRIALS; i++) {
-      const draw = sampleGame(a, b);
+      const draw = sampleGame();
       open.push(draw);
       const result = Math.sign(draw[0] - draw[1]);
       wins[0] += Number(result > 0);
@@ -86,7 +103,13 @@ function makeSamples(teams, games) {
       for (const [side, pool] of [first, second].entries()) {
         const direction = side === 0 ? 1 : -1;
         let pair = draw;
-        while (direction * (pair[0] - pair[1]) <= 0) pair = sampleGame(a, b);
+        let attempts = 0;
+        while (direction * (pair[0] - pair[1]) <= 0 && attempts++ < 48) pair = sampleGame();
+        if (direction * (pair[0] - pair[1]) <= 0) {
+          // Preserve points already scored when stress-testing an extreme upset.
+          pair = [...pair];
+          pair[side] = pair[1 - side] + 1;
+        }
         pool.push(pair);
         sums[side][0] += pair[0];
         sums[side][1] += pair[1];
@@ -113,7 +136,7 @@ export function createModel({ teams, games }) {
   const random = randomSource(114);
   const tiePriorities = Array.from({ length: TRIALS }, () => teams.map(random));
 
-  function run(picks, focusGame, focusTeam) {
+  function run(picks) {
     const qualifying = teams.map(() => 0);
     const scenarioWins = [...initialWins];
     const scenarioPoints = [...initialPoints];
@@ -140,11 +163,7 @@ export function createModel({ teams, games }) {
       const losses = REGULAR_SEASON_WEEKS - wins - ties;
       return { id, record: record({ wins, losses, ties }), pf: scenarioPoints[id] / 100 };
     });
-    const focus = games[focusGame];
-    const focusSamples = samples[focusGame];
-    const ifWin = focus?.a === focusTeam ? focusSamples?.first : focusSamples?.second;
-    const ifLoss = focus?.a === focusTeam ? focusSamples?.second : focusSamples?.first;
-    let afterWin = 0, afterLoss = 0;
+    const leverage = games.map(() => ({ win: [0, 0], loss: [0, 0] }));
 
     for (let trial = 0; trial < TRIALS; trial++) {
       const wins = [...initialWins];
@@ -156,16 +175,35 @@ export function createModel({ teams, games }) {
       const order = [...teamIds].sort(compare);
       for (const id of order.slice(0, PLAYOFF_TEAMS)) qualifying[id]++;
 
-      if (focus) {
-        applyGame(wins, points, focus, chosenScore(pools[focusGame]), -1);
-        applyGame(wins, points, focus, ifWin[trial]);
-        afterWin += Number(teamIds.filter(id => compare(id, focusTeam) < 0).length < PLAYOFF_TEAMS);
-        applyGame(wins, points, focus, ifWin[trial], -1);
-        applyGame(wins, points, focus, ifLoss[trial]);
-        afterLoss += Number(teamIds.filter(id => compare(id, focusTeam) < 0).length < PLAYOFF_TEAMS);
+      for (const game of games) {
+        const { a, b, id } = game;
+        const selected = chosenScore(pools[id]);
+        const { first, second } = samples[id];
+        const { win, loss } = leverage[id];
+        applyGame(wins, points, game, selected, -1);
+        applyGame(wins, points, game, first[trial]);
+        let aheadA = 0, aheadB = 0;
+        for (const other of teamIds) {
+          aheadA += Number(compare(other, a) < 0);
+          aheadB += Number(compare(other, b) < 0);
+        }
+        win[0] += Number(aheadA < PLAYOFF_TEAMS);
+        loss[1] += Number(aheadB < PLAYOFF_TEAMS);
+        applyGame(wins, points, game, first[trial], -1);
+        applyGame(wins, points, game, second[trial]);
+        aheadA = 0;
+        aheadB = 0;
+        for (const other of teamIds) {
+          aheadA += Number(compare(other, a) < 0);
+          aheadB += Number(compare(other, b) < 0);
+        }
+        loss[0] += Number(aheadA < PLAYOFF_TEAMS);
+        win[1] += Number(aheadB < PLAYOFF_TEAMS);
+        applyGame(wins, points, game, second[trial], -1);
+        applyGame(wins, points, game, selected);
       }
     }
-    return { standings, qualifying, afterWin, afterLoss };
+    return { standings, qualifying, leverage };
   }
   return { run };
 }
@@ -178,23 +216,68 @@ const percent = count => {
   return `${(100 * count / TRIALS).toFixed(1)}%`;
 };
 
+const swing = (win, loss) => `${win > loss ? '+' : ''}${(100 * (win - loss) / TRIALS).toFixed(1)} pp`;
+const score = value => Number.isFinite(value) ? value.toFixed(2) : '—';
+
+async function loadSchedule() {
+  const [base, snapshot] = await Promise.allSettled([
+    DataLoader.loadJSON('data/matchups_all.json'),
+    fetch(SNAPSHOT_URL, { cache: 'no-store', signal: AbortSignal.timeout(4500) }).then(response => {
+      if (!response.ok) throw new Error('Scoreboard unavailable');
+      return response.json();
+    }),
+  ]);
+  let published;
+  if (base.status === 'fulfilled') {
+    try {
+      published = seasonFromSchedule(base.value);
+    } catch {
+      // A valid scoreboard snapshot can supply the schedule on its own.
+    }
+  }
+  if (snapshot.status === 'fulfilled') {
+    try {
+      const current = seasonFromSchedule(snapshot.value);
+      const asOf = new Date(snapshot.value.asOf);
+      if (Number.isFinite(asOf.getTime()) && (!published ||
+        (current.season === published.season && current.games.length <= published.games.length))) {
+        return { ...current, asOf };
+      }
+    } catch {
+      // A missing or incomplete snapshot must not block the published schedule.
+    }
+  }
+  if (!published) throw new Error('No complete schedule');
+  return published;
+}
+
 async function init() {
   const get = id => document.getElementById(id);
   const status = get('playoff-season');
   const content = get('playoff-content');
   try {
-    const { season, teams, games, lastCompleted } = seasonFromSchedule(await DataLoader.loadJSON('data/matchups_all.json'));
+    const { season, teams, games, lastCompleted, asOf } = await loadSchedule();
     const model = createModel({ teams, games });
     const matchups = get('playoff-matchups');
     const teamSelect = get('playoff-team');
     const gameSelect = get('playoff-game');
     let picks = Array(games.length).fill('');
+    let lastPicks, result;
     const selectable = teams.map((_, id) => id).filter(id => games.some(game => game.a === id || game.b === id));
     const option = (value, label) => `<option value="${value}">${escapeHtml(label)}</option>`;
 
     status.textContent = games.length
       ? `${season} season · Week ${lastCompleted} results loaded · ${games.length} games remaining`
       : `${season} regular season complete`;
+    const feedStatus = get('playoff-feed');
+    if (asOf) {
+      const timestamp = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+      }).format(asOf);
+      feedStatus.textContent = `Yahoo scoreboard as of ${timestamp}${Date.now() - asOf > SNAPSHOT_MAX_AGE && games.length ? ' · refresh overdue' : ''}`;
+    } else if (games.length) {
+      feedStatus.textContent = 'Using the published schedule. No in-progress Yahoo snapshot is available.';
+    }
     if (!games.length) {
       get('leverage-heading').closest('section').hidden = true;
       matchups.closest('section').hidden = true;
@@ -210,10 +293,14 @@ async function init() {
       details.className = 'playoff-week';
       details.open = week === weeks[0];
       details.innerHTML = `<summary>Week ${week} <span class="playoff-note" data-week-count>${slate.length} open</span></summary>`;
-      for (const { a, b, id } of slate) {
+      for (const { a, b, id, live } of slate) {
         const row = document.createElement('div');
         row.className = 'playoff-match';
         const [first, second] = [teams[a].owner, teams[b].owner].map(escapeHtml);
+        const liveScore = live ? `<p class="playoff-live-score">
+          <strong>In progress</strong> ${score(live.p1)}–${score(live.p2)}
+          <span>Yahoo projected final ${score(live.projected1)}–${score(live.projected2)}</span>
+        </p>` : '';
         row.innerHTML = `<label>${first} vs. ${second}
           <select aria-label="Week ${week}, ${first} vs. ${second}" data-game="${id}">
             <option value="">Simulate</option>
@@ -224,7 +311,15 @@ async function init() {
           <div class="playoff-score-inputs" hidden>
             <label>${first} score<input aria-label="Week ${week} ${first} score" type="number" step=".01" inputmode="decimal"></label>
             <label>${second} score<input aria-label="Week ${week} ${second} score" type="number" step=".01" inputmode="decimal"></label>
-          </div>`;
+          </div>
+          ${liveScore}
+          <table class="playoff-match-leverage" aria-label="Playoff leverage for ${first} and ${second}">
+            <thead><tr><th scope="col">Team</th><th scope="col">If win</th><th scope="col">If lose</th><th scope="col">Swing</th></tr></thead>
+            <tbody>${[first, second].map((name, side) => `<tr>
+              <th scope="row">${name}</th><td data-win="${side}"></td><td data-loss="${side}"></td>
+              <td data-swing="${side}"></td>
+            </tr>`).join('')}</tbody>
+          </table>`;
         details.append(row);
       }
       matchups.append(details);
@@ -239,14 +334,33 @@ async function init() {
 
     function render() {
       const team = selectable.length ? Number(teamSelect.value) : -1;
-      const { standings, qualifying, afterWin, afterLoss } = model.run(picks, games.length ? Number(gameSelect.value) : -1, team);
-      for (const detail of matchups.children) {
-        const open = [...detail.querySelectorAll('select')].filter(select => !picks[Number(select.dataset.game)]).length;
-        detail.querySelector('[data-week-count]').textContent = `${open} open`;
+      const pickKey = JSON.stringify(picks);
+      if (lastPicks !== pickKey) {
+        result = model.run(picks);
+        lastPicks = pickKey;
+        for (const detail of matchups.children) {
+          const open = [...detail.querySelectorAll('select')].filter(select => !picks[Number(select.dataset.game)]).length;
+          detail.querySelector('[data-week-count]').textContent = `${open} open`;
+        }
+        for (const select of matchups.querySelectorAll('select')) {
+          const { win, loss } = result.leverage[Number(select.dataset.game)];
+          const row = select.closest('.playoff-match');
+          for (const side of [0, 1]) {
+            row.querySelector(`[data-win="${side}"]`).textContent = percent(win[side]);
+            row.querySelector(`[data-loss="${side}"]`).textContent = percent(loss[side]);
+            row.querySelector(`[data-swing="${side}"]`).textContent = swing(win[side], loss[side]);
+          }
+        }
       }
-      get('odds-win').textContent = percent(afterWin);
-      get('odds-loss').textContent = percent(afterLoss);
-      get('odds-swing').textContent = `${afterWin > afterLoss ? '+' : ''}${(100 * (afterWin - afterLoss) / TRIALS).toFixed(1)} pp`;
+      const { standings, qualifying, leverage } = result;
+      if (games.length) {
+        const focus = Number(gameSelect.value);
+        const side = games[focus].a === team ? 0 : 1;
+        const { win, loss } = leverage[focus];
+        get('odds-win').textContent = percent(win[side]);
+        get('odds-loss').textContent = percent(loss[side]);
+        get('odds-swing').textContent = swing(win[side], loss[side]);
+      }
       get('playoff-standings').innerHTML = standings.map(({ id, record: projected, pf }, index) => {
         const classes = [index < PLAYOFF_TEAMS ? 'playoff-qualified' : '',
           index === PLAYOFF_TEAMS - 1 ? 'playoff-cutoff' : '', id === team ? 'playoff-selected' : ''].join(' ');

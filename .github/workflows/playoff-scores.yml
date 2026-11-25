@@ -1,0 +1,47 @@
+name: Refresh playoff scores
+
+on:
+  schedule:
+    # 8:17 AM EST / 9:17 AM EDT. Friday captures Thursday Night Football.
+    - cron: "17 13 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/playoff-scores.yml"
+      - "scripts/update_playoff_scores.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  scoreboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests-oauthlib
+      - name: Refresh the Yahoo scoreboard
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python scripts/update_playoff_scores.py
+      - name: Publish scores
+        run: |
+          if [ -f yahoo_data/playoff_snapshot.json ]; then
+            git add yahoo_data/playoff_snapshot.json
+          fi
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh playoff scoreboard'
+            git push
+          fi

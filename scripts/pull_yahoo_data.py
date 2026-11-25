@@ -261,65 +261,60 @@ def resolve_player_names(oauth, player_keys, batch_size=25):
     return names
 
 
+def pull_week_scores(oauth, league, week, *, include_projections=False):
+    """Read one Yahoo scoreboard, including projections when requested."""
+    data = api_get_json(oauth, f"league/{league['league_key']}/scoreboard;week={week}")
+    if not data:
+        return []
+
+    matchups = data["fantasy_content"]["league"][1]["scoreboard"]["0"]["matchups"]
+    results = []
+    for i in range(matchups["count"]):
+        matchup = matchups[str(i)]["matchup"]
+        teams = matchup.get("0", {}).get("teams", {})
+        if teams.get("count") != 2:
+            continue
+
+        row = {"week": week}
+        for j in range(2):
+            team = teams[str(j)]["team"]
+            info = {key: value for part in team[0] if isinstance(part, dict)
+                    for key, value in part.items()}
+            stats = {key: value for part in team[1:] if isinstance(part, dict)
+                     for key, value in part.items()}
+            prefix = f"team_{j + 1}"
+            row[prefix] = info.get("name", "")
+            row[f"{prefix}_key"] = info.get("team_key", "")
+            total = stats.get("team_points", {}).get("total")
+            missing_total = None if include_projections else 0.0
+            row[f"{prefix}_points"] = float(total) if total not in (None, "") else missing_total
+            if include_projections:
+                projection = stats.get("team_projected_points", {}).get("total")
+                row[f"{prefix}_projection"] = float(projection) if projection not in (None, "") else None
+        row.update({
+            "is_playoffs": int(matchup.get("is_playoffs", 0) or 0),
+            "is_consolation": int(matchup.get("is_consolation", 0) or 0),
+            "status": matchup.get("status", ""),
+        })
+        results.append(row)
+    return results
+
+
 def pull_weekly_scores(oauth, league, num_weeks=17):
     """Pull weekly matchup scores."""
     print(f"  Pulling weekly scores (up to {num_weeks} weeks)...")
     all_matchups = []
 
     for week in range(1, num_weeks + 1):
-        data = api_get_json(oauth, f"league/{league['league_key']}/scoreboard;week={week}")
-        if not data:
-            break
-
         try:
-            matchups = data["fantasy_content"]["league"][1]["scoreboard"]["0"]["matchups"]
-            match_count = matchups["count"]
-            if match_count == 0:
-                break
-
-            for i in range(match_count):
-                matchup = matchups[str(i)]["matchup"]
-                teams = matchup.get("0", {}).get("teams", {})
-                team_count = teams.get("count", 0)
-
-                matchup_teams = []
-                for j in range(team_count):
-                    team = teams[str(j)]["team"]
-                    info = team[0]
-                    team_data = {}
-                    for item in info:
-                        if isinstance(item, dict):
-                            team_data.update(item)
-
-                    points = team[1].get("team_points", {})
-                    matchup_teams.append({
-                        "team_key": team_data.get("team_key", ""),
-                        "team_name": team_data.get("name", ""),
-                        "points": float(points.get("total", 0)),
-                    })
-
-                if len(matchup_teams) == 2:
-                    all_matchups.append({
-                        "week": week,
-                        "team_1": matchup_teams[0]["team_name"],
-                        "team_1_key": matchup_teams[0]["team_key"],
-                        "team_1_points": matchup_teams[0]["points"],
-                        "team_2": matchup_teams[1]["team_name"],
-                        "team_2_key": matchup_teams[1]["team_key"],
-                        "team_2_points": matchup_teams[1]["points"],
-                        # playoff/consolation flags live on the matchup itself
-                        "is_playoffs": int(matchup.get("is_playoffs", 0) or 0),
-                        "is_consolation": int(matchup.get("is_consolation", 0) or 0),
-                        # preevent / midevent / postevent -- tells an unplayed
-                        # fixture from a finished game without guessing from 0-0
-                        "status": matchup.get("status", ""),
-                    })
-
-            print(f"    Week {week}: {match_count} matchups")
+            results = pull_week_scores(oauth, league, week)
         except (KeyError, TypeError, ValueError) as e:
             print(f"    Week {week}: error - {e}")
             break
-
+        if not results:
+            break
+        print(f"    Week {week}: {len(results)} matchups")
+        all_matchups.extend(results)
         time.sleep(0.3)
 
     return all_matchups
