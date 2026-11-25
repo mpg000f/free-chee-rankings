@@ -303,7 +303,7 @@ async function init() {
         </p>` : '';
         row.innerHTML = `<label>${first} vs. ${second}
           <select aria-label="Week ${week}, ${first} vs. ${second}" data-game="${id}">
-            <option value="">Simulate</option>
+            <option value="">Leave outcome open</option>
             ${option('first', `${teams[a].owner} wins`)}
             ${option('second', `${teams[b].owner} wins`)}
             <option value="scores">Enter both scores</option>
@@ -314,9 +314,9 @@ async function init() {
           </div>
           ${liveScore}
           <table class="playoff-match-leverage" aria-label="Playoff leverage for ${first} and ${second}">
-            <thead><tr><th scope="col">Team</th><th scope="col">If win</th><th scope="col">If lose</th><th scope="col">Swing</th></tr></thead>
+            <thead><tr><th scope="col">Team</th><th scope="col" class="playoff-scenario">Scenario odds</th><th scope="col">If win</th><th scope="col">If lose</th><th scope="col">Swing</th></tr></thead>
             <tbody>${[first, second].map((name, side) => `<tr>
-              <th scope="row">${name}</th><td data-win="${side}"></td><td data-loss="${side}"></td>
+              <th scope="row">${name}</th><td class="playoff-scenario" data-scenario="${side}"></td><td data-win="${side}"></td><td data-loss="${side}"></td>
               <td data-swing="${side}"></td>
             </tr>`).join('')}</tbody>
           </table>`;
@@ -343,9 +343,12 @@ async function init() {
           detail.querySelector('[data-week-count]').textContent = `${open} open`;
         }
         for (const select of matchups.querySelectorAll('select')) {
-          const { win, loss } = result.leverage[Number(select.dataset.game)];
+          const id = Number(select.dataset.game);
+          const { win, loss } = result.leverage[id];
+          const { a, b } = games[id];
           const row = select.closest('.playoff-match');
-          for (const side of [0, 1]) {
+          for (const [side, teamId] of [a, b].entries()) {
+            row.querySelector(`[data-scenario="${side}"]`).textContent = percent(result.qualifying[teamId]);
             row.querySelector(`[data-win="${side}"]`).textContent = percent(win[side]);
             row.querySelector(`[data-loss="${side}"]`).textContent = percent(loss[side]);
             row.querySelector(`[data-swing="${side}"]`).textContent = swing(win[side], loss[side]);

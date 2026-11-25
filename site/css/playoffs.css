@@ -57,6 +57,7 @@
 .playoff-match-leverage th, .playoff-match-leverage td { padding: .15rem .2rem; }
 .playoff-match-leverage th:first-child { text-align: left; }
 .playoff-match-leverage thead { color: var(--text-dim); }
+.playoff-match-leverage .playoff-scenario { color: var(--text); font-weight: 700; }
 .playoff-match-leverage td:last-child { color: var(--accent); }
 .playoff-live-score { font-size: .82rem; color: var(--text); margin-top: .45rem; }
 .playoff-live-score strong { color: var(--accent); margin-right: .25rem; }
