@@ -62,9 +62,13 @@
     const status = articlePanel.querySelector('[data-championship-status]');
     try {
       championshipBoard ??= import(document.getElementById('championship-model-module').href).then(async model => {
-        const schedule = await model.loadSchedule();
+        const response = await fetch('https://raw.githubusercontent.com/mpg000f/free-chee-rankings/main/yahoo_data/championship_snapshot.json', {
+          cache: 'no-store', signal: AbortSignal.timeout(6000),
+        });
+        if (!response.ok) throw new Error('Weekly championship snapshot unavailable');
+        const schedule = model.seasonFromSchedule(await response.json());
         if (schedule.season !== 2026) throw new Error('Week 12 championship forecasts are unavailable');
-        const { titles } = model.createModel(schedule).run([], { includeLeverage: false });
+        const { titles } = model.createModel(schedule, { weeklyBoard: true }).run([], { includeLeverage: false });
         return new Map(schedule.teams.map(({ owner }, id) => [owner, model.americanOdds(titles[id])]));
       }).catch(error => {
         championshipBoard = undefined;
@@ -75,7 +79,7 @@
         const chance = odds.get(row.cells[0].textContent.trim());
         if (chance) row.cells[1].textContent = chance;
       }
-      status.firstChild.textContent = 'American title odds update with the ';
+      status.firstChild.textContent = 'American title odds are posted weekly using the ';
       status.append(' Title lines are rounded to the nearest five, with no vig. A dash means the simulation produced no finite line.');
     } catch (error) {
       status.firstChild.textContent = 'Title odds are temporarily unavailable. Open the ';

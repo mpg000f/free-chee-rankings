@@ -4,7 +4,9 @@ const REGULAR_SEASON_WEEKS = 14;
 const CHAMPIONSHIP_WEEK = 17;
 const QUARTERFINALS = [[0, 7], [3, 4], [1, 6], [2, 5]];
 const TRIALS = 10_000;
-const LEAGUE_AVERAGE_WEIGHT = 4;
+const LEAGUE_AVERAGE_WEIGHT = 11;
+const TEAM_STRENGTH_SD = 660;
+const MIN_LIVE_SD = 300;
 const SNAPSHOT_URL = 'https://raw.githubusercontent.com/mpg000f/free-chee-rankings/main/yahoo_data/playoff_snapshot.json';
 const SNAPSHOT_MAX_AGE = 36 * 60 * 60 * 1000;
 const toCents = score => Math.round(Number(score) * 100);
@@ -44,7 +46,7 @@ export function seasonFromSchedule(data) {
     }
     const live = game.live;
     if (live && ![live.p1, live.p2].every(Number.isFinite)) throw new Error('Invalid live score');
-    return { a, b, id, week: game.week, live, optimized: game.optimized };
+    return { a, b, id, week: game.week, live, optimized: game.optimized, yahoo: game.yahoo };
   });
   if (teams.length !== LEAGUE_TEAMS || teams.some(team => team.weeks.size !== REGULAR_SEASON_WEEKS)) {
     throw new Error('Incomplete regular-season schedule');
@@ -63,23 +65,25 @@ function randomSource(seed) {
   };
 }
 
-function scoringModel(teams) {
+function scoringModel(teams, leagueAverageWeight) {
   const gameCount = teams.reduce((n, team) => n + team.scores.length, 0);
   const leagueAverage = teams.reduce((pf, team) => pf + team.points, 0) / gameCount;
-  const means = teams.map(team => (team.points + leagueAverage * LEAGUE_AVERAGE_WEIGHT) /
-    (team.scores.length + LEAGUE_AVERAGE_WEIGHT));
+  const means = teams.map(team => (team.points + leagueAverage * leagueAverageWeight) /
+    (team.scores.length + leagueAverageWeight));
   const residuals = teams.reduce((sum, team) => {
     const average = team.points / team.scores.length;
     return sum + team.scores.reduce((total, score) => total + (score - average) ** 2, 0);
   }, 0);
   const deviation = Math.max(1000, Math.sqrt(residuals / Math.max(1, gameCount - teams.length)));
-  function scoreParameters(id, projection, actual) {
+  function scoreParameters(id, projection, actual, remaining) {
     const mean = Number.isFinite(projection) ? toCents(projection) : means[id];
     const floor = Number.isFinite(actual) ? toCents(actual) : null;
     if (floor === null) return { center: mean, spread: deviation, floor };
-    const center = Math.max(floor, mean);
+    if (remaining === false) return { center: floor, spread: 0, floor };
+    const center = Math.max(floor + (remaining === true ? 200 : 0), mean);
     const share = Math.min(1, (center - floor) / Math.max(1, center));
-    return { center, spread: deviation * Math.sqrt(share), floor };
+    const spread = Math.max(remaining === true ? MIN_LIVE_SD : 0, deviation * Math.sqrt(share));
+    return { center, spread, floor };
   }
   return scoreParameters;
 }
@@ -90,22 +94,41 @@ function normalDraw(random) {
   return [radius * Math.cos(angle), radius * Math.sin(angle)];
 }
 
-function drawScore({ center, spread, floor }, normal) {
-  const score = Math.round(center + spread * normal);
+function drawScore({ center, spread, floor }, normal, shift = 0) {
+  const score = Math.round(center + shift + spread * normal);
   return floor === null ? score : Math.max(floor, score);
 }
 
-function makeSamples(games, scoreParameters) {
+export function matchupProjections({ live, optimized, yahoo }) {
+  const optimizedScores = [optimized?.p1, optimized?.p2];
+  if (optimizedScores.every(Number.isFinite)) return { values: optimizedScores, source: 'Optimized lineup' };
+  const yahooScores = [live?.projected1 ?? yahoo?.p1, live?.projected2 ?? yahoo?.p2];
+  if (yahooScores.every(Number.isFinite)) return { values: yahooScores, source: 'Yahoo lineup' };
+  return { values: [null, null], source: 'Historical scoring' };
+}
+
+function makeSamples(games, scoreParameters, offsets) {
   const random = randomSource(20261125);
-  return games.map(({ a, b, live, optimized }) => {
-    const parameters = [a, b].map((id, side) => scoreParameters(id,
-      optimized?.[`p${side + 1}`] ?? live?.[`projected${side + 1}`], live?.[`p${side + 1}`]));
-    const sampleGame = () => normalDraw(random).map((normal, side) => drawScore(parameters[side], normal));
+  return games.map(game => {
+    const { a, b, live, optimized } = game;
+    const { values } = matchupProjections(game);
+    const parameters = [a, b].map((id, side) => {
+      const projection = offsets ? values[side] : optimized?.[`p${side + 1}`] ?? live?.[`projected${side + 1}`];
+      const params = scoreParameters(id, projection, live?.[`p${side + 1}`],
+        offsets ? live?.[`remaining${side + 1}`] ?? (live ? true : undefined) : undefined);
+      const shared = offsets ? Math.min(TEAM_STRENGTH_SD, params.spread * .6) : 0;
+      return { ...params, shared, spread: Math.sqrt(params.spread ** 2 - shared ** 2) };
+    });
+    const sampleGame = trial => normalDraw(random).map((normal, side) => {
+      const params = parameters[side];
+      const shift = offsets ? params.shared * offsets[trial][side === 0 ? a : b] : 0;
+      return drawScore(params, normal, shift);
+    });
     const open = [], first = [], second = [];
     const sums = [[0, 0], [0, 0]];
     const wins = [0, 0];
     for (let i = 0; i < TRIALS; i++) {
-      const draw = sampleGame();
+      const draw = sampleGame(i);
       open.push(draw);
       const result = Math.sign(draw[0] - draw[1]);
       wins[0] += Number(result > 0);
@@ -116,7 +139,7 @@ function makeSamples(games, scoreParameters) {
         const direction = side === 0 ? 1 : -1;
         let pair = draw;
         let attempts = 0;
-        while (direction * (pair[0] - pair[1]) <= 0 && attempts++ < 48) pair = sampleGame();
+        while (direction * (pair[0] - pair[1]) <= 0 && attempts++ < 48) pair = sampleGame(i);
         if (direction * (pair[0] - pair[1]) <= 0) {
           // Preserve points already scored when stress-testing an extreme upset.
           pair = [...pair];
@@ -189,9 +212,12 @@ function championshipSimulator(teams, postseason, playoffProjections, scoreParam
   };
 }
 
-export function createModel({ teams, games, postseason = [], playoffProjections = {} }) {
-  const scoreParameters = scoringModel(teams);
-  const samples = makeSamples(games, scoreParameters);
+export function createModel({ teams, games, postseason = [], playoffProjections = {} }, { weeklyBoard = false } = {}) {
+  const scoreParameters = scoringModel(teams, weeklyBoard ? 4 : LEAGUE_AVERAGE_WEIGHT);
+  const strengthRandom = randomSource(20261126);
+  const offsets = weeklyBoard ? null : Array.from({ length: TRIALS }, () =>
+    Array.from({ length: teams.length / 2 }, () => normalDraw(strengthRandom)).flat());
+  const samples = makeSamples(games, scoreParameters, offsets);
   const champion = championshipSimulator(teams, postseason, playoffProjections, scoreParameters);
   const teamIds = teams.map((_, i) => i);
   const initialWins = teams.map(team => 2 * team.wins + team.ties);
@@ -271,7 +297,24 @@ export function createModel({ teams, games, postseason = [], playoffProjections 
       }
     }
     const qualifying = finishes.map(counts => counts.slice(0, PLAYOFF_TEAMS).reduce((sum, count) => sum + count, 0));
-    return { standings, qualifying, leverage, finishes, titles };
+    const minWins = [...initialWins];
+    const maxWins = [...initialWins];
+    const ignoredPoints = teams.map(() => 0);
+    for (const game of games) {
+      const pick = picks[game.id];
+      if (!pick) {
+        maxWins[game.a] += 2;
+        maxWins[game.b] += 2;
+        continue;
+      }
+      const scores = Array.isArray(pick) ? pick : pick === 'first' ? [1, 0] : [0, 1];
+      applyGame(minWins, ignoredPoints, game, scores);
+      applyGame(maxWins, ignoredPoints, game, scores);
+    }
+    const guaranteed = teamIds.map(id =>
+      teamIds.filter(other => other !== id && maxWins[other] >= minWins[id]).length < PLAYOFF_TEAMS ||
+      teamIds.filter(other => minWins[other] > maxWins[id]).length >= PLAYOFF_TEAMS);
+    return { standings, qualifying, leverage, finishes, titles, guaranteed };
   }
   return { run };
 }
@@ -283,6 +326,12 @@ const percent = count => {
   if (count < TRIALS && count / TRIALS > .999) return '>99.9%';
   return `${(100 * count / TRIALS).toFixed(1)}%`;
 };
+
+function playoffPercent(count, guaranteed) {
+  if (!guaranteed && count === 0) return '<0.1%';
+  if (!guaranteed && count === TRIALS) return '>99.9%';
+  return percent(count);
+}
 
 export function americanOdds(count) {
   if (count <= 0 || count >= TRIALS) return '—';
@@ -386,15 +435,16 @@ async function init() {
       details.className = 'playoff-week';
       details.open = week === weeks[0];
       details.innerHTML = `<summary>Week ${week} <span class="playoff-note" data-week-count>${slate.length} open</span></summary>`;
-      for (const { a, b, id, live, optimized } of slate) {
+      for (const game of slate) {
+        const { a, b, id, live } = game;
         const row = document.createElement('div');
         row.className = 'playoff-match';
         const [first, second] = [teams[a].owner, teams[b].owner].map(escapeHtml);
-        const liveScore = live || optimized ? `<p class="playoff-live-score">
-          ${optimized ? `<strong>Optimized projection</strong> ${score(optimized.p1)}–${score(optimized.p2)}` : ''}
-          ${live ? `<span>Score so far ${score(live.p1)}–${score(live.p2)}</span>
-            <span>Yahoo set-lineup projection ${score(live.projected1)}–${score(live.projected2)}</span>` : ''}
-        </p>` : '';
+        const { values, source } = matchupProjections(game);
+        const liveScore = `<p class="playoff-live-score">
+          <strong>${source}</strong> ${values.every(Number.isFinite) ? `${score(values[0])}–${score(values[1])}` : ''}
+          ${live ? `<span>Score so far ${score(live.p1)}–${score(live.p2)}</span>` : ''}
+        </p>`;
         row.innerHTML = `<label>${first} vs. ${second}
           <select aria-label="Week ${week}, ${first} vs. ${second}" data-game="${id}">
             <option value="">Leave outcome open</option>
@@ -461,14 +511,14 @@ async function init() {
           const { a, b } = games[id];
           const row = select.closest('.playoff-match');
           for (const [side, teamId] of [a, b].entries()) {
-            row.querySelector(`[data-scenario="${side}"]`).textContent = percent(result.qualifying[teamId]);
-            row.querySelector(`[data-win="${side}"]`).textContent = percent(win[side]);
-            row.querySelector(`[data-loss="${side}"]`).textContent = percent(loss[side]);
+            row.querySelector(`[data-scenario="${side}"]`).textContent = playoffPercent(result.qualifying[teamId], result.guaranteed[teamId]);
+            row.querySelector(`[data-win="${side}"]`).textContent = playoffPercent(win[side], false);
+            row.querySelector(`[data-loss="${side}"]`).textContent = playoffPercent(loss[side], false);
             row.querySelector(`[data-swing="${side}"]`).textContent = swing(win[side], loss[side]);
           }
         }
       }
-      const { standings, qualifying, leverage, finishes, titles } = result;
+      const { standings, qualifying, leverage, finishes, titles, guaranteed } = result;
       if (team >= 0) {
         for (const select of personalGames.querySelectorAll('select')) {
           const pick = picks[Number(select.dataset.personalGame)];
@@ -478,7 +528,7 @@ async function init() {
         }
         const mostLikely = Math.max(...finishes[team]);
         const places = finishes[team].flatMap((count, index) => count === mostLikely ? [`#${index + 1}`] : []);
-        get('personal-playoff-odds').textContent = percent(qualifying[team]);
+        get('personal-playoff-odds').textContent = playoffPercent(qualifying[team], guaranteed[team]);
         get('personal-title-odds').textContent = americanOdds(titles[team]);
         get('personal-finish').textContent = places.join(' or ');
         get('personal-finish-odds').textContent = `${percent(mostLikely)} of simulations${places.length > 1 ? ' each' : ''}`;
@@ -487,8 +537,8 @@ async function init() {
         const focus = Number(gameSelect.value);
         const side = games[focus].a === team ? 0 : 1;
         const { win, loss } = leverage[focus];
-        get('odds-win').textContent = percent(win[side]);
-        get('odds-loss').textContent = percent(loss[side]);
+        get('odds-win').textContent = playoffPercent(win[side], false);
+        get('odds-loss').textContent = playoffPercent(loss[side], false);
         get('odds-swing').textContent = swing(win[side], loss[side]);
       }
       get('playoff-standings').innerHTML = standings.map(({ id, record: projected, pf }, index) => {
@@ -497,7 +547,7 @@ async function init() {
         const { owner, name } = teams[id];
         return `<tr class="${classes}"><td>${index + 1}</td><th scope="row">${escapeHtml(owner)}<small>${escapeHtml(name)}</small></th>
           <td>${record(teams[id])}</td><td>${projected}</td><td>${pf.toFixed(2)}</td>
-          <td>${escapeHtml(percent(qualifying[id]))}</td><td>${americanOdds(titles[id])}</td></tr>`;
+          <td>${escapeHtml(playoffPercent(qualifying[id], guaranteed[id]))}</td><td>${americanOdds(titles[id])}</td></tr>`;
       }).join('');
       get('playoff-bracket').innerHTML = [0, 3, 1, 2].map(seed => {
         const opponent = PLAYOFF_TEAMS - 1 - seed;

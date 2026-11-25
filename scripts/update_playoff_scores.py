@@ -1,18 +1,21 @@
 """Publish Yahoo scoreboard totals and projections without rebuilding the site."""
 
+import argparse
 import json
 import math
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 from build_engagement_data import REG_SEASON_LAST_WEEK
-from optimize_playoff_lineups import attach_optimized_projections
+from optimize_playoff_lineups import attach_optimized_projections, nfl_kickoffs
 from requests import RequestException
 from pull_yahoo_data import current_week, get_oauth, pull_week_scores
 from weekly_update import current_season, write_credentials
 
 ROOT = Path(__file__).resolve().parent.parent
 SNAPSHOT = ROOT / "yahoo_data/playoff_snapshot.json"
+TITLE_SNAPSHOT = SNAPSHOT.with_name("championship_snapshot.json")
 LIVE_STATUSES = {"midevent", "inevent"}
 
 
@@ -45,21 +48,23 @@ def refresh_schedule(schedule, team_keys, get_scores):
             status = result["status"]
             if status not in {"preevent", "postevent"} | LIVE_STATUSES:
                 raise ValueError(f"Unknown Yahoo matchup status {status!r}")
+            projections = {}
+            for side, owner in enumerate(owners, 1):
+                projection = result[f"team_{side}_projection"]
+                if projection is not None and math.isfinite(projection) and projection > 0:
+                    projections[owner] = round(projection, 2)
+            projected = {f"p{side}": projections.get(fixture[f"o{side}"]) for side in (1, 2)}
             if status == "preevent":
                 if fixture.get("live"):
                     raise ValueError(f"Yahoo reverted a live matchup in Week {week}")
+                fixture["yahoo"] = projected
                 continue
             scores = {}
-            projections = {}
             for side, owner in enumerate(owners, 1):
                 points = result[f"team_{side}_points"]
                 if points is None or not math.isfinite(points):
                     raise ValueError(f"Missing Yahoo score in Week {week}")
                 scores[owner] = round(points, 2)
-                projection = result[f"team_{side}_projection"]
-                if projection is not None and math.isfinite(projection) and projection > 0:
-                    projections[owner] = round(projection, 2)
-
             score = {f"p{side}": scores[fixture[f"o{side}"]] for side in (1, 2)}
             if status == "postevent":
                 finished = {field: value for field, value in fixture.items() if field != "live"}
@@ -67,14 +72,27 @@ def refresh_schedule(schedule, team_keys, get_scores):
                 del slots[key]
             else:
                 fixture["live"] = {**score, **{
-                    f"projected{side}": projections.get(fixture[f"o{side}"]) for side in (1, 2)
+                    f"projected{side}": projected[f"p{side}"] for side in (1, 2)
                 }}
     schedule["upcoming"] = list(slots.values())
     return schedule
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--game-window", action="store_true")
+    parser.add_argument("--weekly-board", action="store_true")
+    args = parser.parse_args()
     season = current_season()
+    now = datetime.now(timezone.utc)
+    if args.game_window and not any(
+        kickoff - timedelta(hours=1) <= now <= kickoff + timedelta(hours=5)
+        for week, teams in nfl_kickoffs(season).items() if week <= REG_SEASON_LAST_WEEK
+        for kickoff, _ in teams.values()
+    ):
+        print("No regular-season NFL game window.")
+        return
+    refresh_titles = args.weekly_board and now.astimezone(ZoneInfo("America/New_York")).weekday() == 1
     feed = read_json(ROOT / "docs/data/matchups_all.json")
     schedule = {
         group: [game for game in feed[group] if str(game["season"]) == season
@@ -87,7 +105,9 @@ def main():
 
     # Preserve a verified result if the weekly rebuild has yet to incorporate it.
     previous = read_json(SNAPSHOT) if SNAPSHOT.exists() else {}
-    if previous.get("season") == season:
+    if previous.get("season") != season:
+        previous = {}
+    if previous:
         finals = {fixture_key(game): game for game in previous["games"]}
         live = {fixture_key(game): game["live"] for game in previous["upcoming"] if game.get("live")}
         remaining = []
@@ -100,12 +120,12 @@ def main():
                     game["live"] = live[key]
                 remaining.append(game)
         schedule["upcoming"] = remaining
-    now = datetime.now(timezone.utc)
     optimized_as_of = None
     postseason, playoff_projections = [], {}
     published_postseason = [game for game in feed["games"]
                             if game["season"] == season and game["playoff"]]
-    if schedule["upcoming"] or not any(game.get("round") == "Championship" for game in published_postseason):
+    postseason_finished = any(game.get("round") == "Championship" for game in published_postseason)
+    if schedule["upcoming"] or (refresh_titles and not postseason_finished):
         teams = read_json(ROOT / "docs/data/rosters_data.json")[season]["teams"]
         team_keys = {key: value["owner"] for key, value in teams.items()}
         league_keys = {key.rsplit(".t.", 1)[0] for key in team_keys}
@@ -120,7 +140,7 @@ def main():
         active_week = current_week(oauth, league)
         if active_week is None:
             active_week = min((game["week"] for game in schedule["upcoming"]), default=17)
-        for week in range(REG_SEASON_LAST_WEEK + 1, min(active_week, 17) + 1):
+        for week in range(REG_SEASON_LAST_WEEK + 1, min(active_week if refresh_titles else 14, 17) + 1):
             for row in pull_week_scores(oauth, league, week, include_projections=True):
                 if not row["is_playoffs"]:
                     continue
@@ -137,21 +157,28 @@ def main():
                 postseason.append(game)
         try:
             attach_optimized_projections(schedule["upcoming"], oauth, league["league_key"], team_keys,
-                                         season, now, active_week, postseason, playoff_projections)
+                                         season, now, active_week, postseason, playoff_projections, refresh_titles)
             if playoff_projections or any(game.get("optimized") for game in schedule["upcoming"]):
                 optimized_as_of = now.isoformat(timespec="seconds")
         except (KeyError, TypeError, ValueError, AttributeError, RequestException) as error:
             print(f"Optimized lineup refresh unavailable: {type(error).__name__}: {error}")
+    if postseason_finished:
+        postseason = published_postseason
+    if not refresh_titles:
+        postseason = postseason or previous.get("postseason", [])
+        playoff_projections = previous.get("playoffProjections", {})
     snapshot = {"season": season, **schedule, "postseason": postseason,
                 "playoffProjections": playoff_projections}
     if optimized_as_of:
         snapshot["lineupsAsOf"] = optimized_as_of
     previous.pop("asOf", None)
-    if snapshot == previous and not schedule["upcoming"]:
+    if snapshot == previous and not schedule["upcoming"] and not refresh_titles:
         print("No new scores or projections.")
         return
     snapshot["asOf"] = now.isoformat(timespec="seconds")
     SNAPSHOT.write_text(json.dumps(snapshot, separators=(",", ":"), allow_nan=False) + "\n", encoding="utf-8")
+    if refresh_titles:
+        TITLE_SNAPSHOT.write_text(SNAPSHOT.read_text(encoding="utf-8"), encoding="utf-8")
     print(f"Published {len(schedule['games'])} final and {len(schedule['upcoming'])} remaining matchups.")
 
 

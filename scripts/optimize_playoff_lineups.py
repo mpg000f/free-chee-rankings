@@ -15,6 +15,9 @@ from pull_yahoo_data import api_get_json
 POSITIONS = {"QB", "RB", "WR", "TE", "K", "DEF"}
 INACTIVE_SLOTS = {"BN", "IR", "IL", "NA"}
 TEAM_ALIASES = {"LA": "LAR", "JAC": "JAX", "WSH": "WAS"}
+LONG_TERM = {"IR", "IR-R", "SUSP", "PUP", "NFI", "NFI-R", "RESERVE"}
+UNAVAILABLE = LONG_TERM | {"O", "OUT", "INACTIVE", "NA"}
+DOUBTFUL = {"D", "DOUBTFUL"}
 NFL_SCHEDULE = "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
 
 
@@ -56,9 +59,11 @@ def projection_index(rows, season, week, scoring):
         if points is None:
             continue
         first, last = (row["player"].get(key) or "" for key in ("first_name", "last_name"))
-        index[name_key(f"{first} {last}")].append((position, team_code(row.get("team")), points))
+        status = str(row["player"].get("injury_status") or "").strip().upper()
+        entry = (position, team_code(row.get("team")), points, status)
+        index[name_key(f"{first} {last}")].append(entry)
         if position == "DEF":
-            index[name_key(last)].append((position, team_code(row.get("team")), points))
+            index[name_key(last)].append(entry)
     if len(index) < 200:
         raise ValueError(f"Insufficient player projections for Week {week}")
     return index
@@ -145,8 +150,8 @@ def find_projection(player, index):
     matches = [entry for entry in index.get(name_key(player["name"]), []) if entry[0] in player["eligible"]]
     same_team = [entry for entry in matches if entry[1] == player["team"]]
     if len(same_team) == 1:
-        return same_team[0][2]
-    return matches[0][2] if len(matches) == 1 else None
+        return same_team[0]
+    return matches[0] if len(matches) == 1 else None
 
 
 def maximize_points(slots, players):
@@ -163,39 +168,91 @@ def maximize_points(slots, players):
     return max(states.items(), key=lambda item: (item[0].bit_count(), item[1]))[1]
 
 
-def optimized_total(roster, slots, projections, kickoffs, now, actual, current_week):
+def yahoo_free_agents(oauth, league_key):
+    agents = []
+    for position in ("K", "DEF"):
+        data = api_get_json(oauth, f"league/{league_key}/players;status=FA;position={position};count=25")
+        if not data:
+            continue
+        players = data["fantasy_content"]["league"][1]["players"]
+        for i in range(players["count"]):
+            info = {key: value for part in players[str(i)]["player"][0] if isinstance(part, dict)
+                    for key, value in part.items()}
+            agents.append({"name": info["name"]["full"], "team": team_code(info.get("editorial_team_abbr")),
+                           "eligible": {position}, "status": info.get("status") or ""})
+    return agents
+
+
+def unavailable(player, feed_status, current_week):
+    statuses = {player["status"].strip().upper(), feed_status.strip().upper()}
+    # Current-week reports should not rule a player out of a later game.
+    return bool(statuses & (UNAVAILABLE | DOUBTFUL if current_week else LONG_TERM))
+
+
+def optimized_total(roster, slots, projections, kickoffs, now, actual, current_week, free_agents=()):
     available_slots = list(slots)
     available_players = []
+    rostered_specialists = set()
     accrued = 0.0
     remaining_locked = 0.0
+    active = 0
     matched = 0
     for player in roster:
         game = kickoffs.get(player["team"])
-        points = find_projection(player, projections)
+        entry = find_projection(player, projections)
+        points, feed_status = (entry[2], entry[3]) if entry else (None, "")
         matched += int(points is not None and game is not None)
         if current_week and game and game[0] <= now:
             if player["slot"] not in INACTIVE_SLOTS:
                 available_slots.remove(player["slot"])
                 accrued += player["actual"]
-                if not game[1] and now < game[0] + timedelta(hours=4):
-                    remaining_locked += max(0, (points or 0) - player["actual"])
+                if not game[1] and now < game[0] + timedelta(hours=4) and not unavailable(player, feed_status, True):
+                    active += 1
+                    elapsed = (now - game[0]) / timedelta(hours=4)
+                    remaining_locked += max((points or 0) - player["actual"], max(0, points or 0) * .25 * (1 - elapsed))
             continue
-        if game and points is not None and player["slot"] not in {"IR", "IL", "NA"}:
-            if not current_week or player["status"].upper() not in {"O", "OUT", "IR", "NA", "SUSP", "PUP"}:
+        if game and points is not None and (not current_week or player["slot"] not in {"IR", "IL", "NA"}):
+            if not unavailable(player, feed_status, current_week):
                 available_players.append((player["eligible"], points))
+                rostered_specialists.update(player["eligible"] & {"K", "DEF"})
     if matched < 5:
         raise ValueError("Insufficient matches between Yahoo roster and player projections")
     if current_week and abs(accrued - actual) > .1:
         raise ValueError("Locked Yahoo starters do not match the scoreboard total")
-    return round(actual + remaining_locked + maximize_points(available_slots, available_players), 2)
+
+    for slot in sorted(({"K", "DEF"} & set(available_slots)) - rostered_specialists):
+        available = []
+        for player in free_agents:
+            if slot not in player["eligible"]:
+                continue
+            entry = find_projection(player, projections)
+            game = kickoffs.get(player["team"])
+            if entry and entry[2] > 0 and game and game[0] > now and not unavailable(player, entry[3], current_week):
+                available.append(entry[2])
+        if available:
+            # Use a typical pickup among the three best immediate free agents.
+            available.sort(reverse=True)
+            available_players.append(({slot}, available[min(1, len(available) - 1)]))
+
+    projected_remaining = remaining_locked + maximize_points(available_slots, available_players)
+    has_remaining = bool(active or any(eligible & slot_positions(slot)
+                                       for eligible, _ in available_players for slot in available_slots))
+    return round(actual + projected_remaining, 2), has_remaining
 
 
 def attach_optimized_projections(fixtures, oauth, league_key, owners, season, now,
-                                 current_week, postseason, playoff_projections):
+                                 current_week, postseason, playoff_projections, refresh_titles):
     slots, scoring = yahoo_rules(oauth, league_key)
     print(f"Yahoo starting slots: {', '.join(slots)}; PPR: {scoring.get('11', .5):g}")
-    weeks = sorted({game["week"] for game in fixtures} | set(range(max(15, current_week), 18)))
+    weeks = sorted({game["week"] for game in fixtures} | (set(range(max(15, current_week), 18)) if refresh_titles else set()))
+    if not weeks:
+        return
     rosters = {owner: yahoo_roster(oauth, key, current_week) for key, owner in owners.items()}
+    try:
+        free_agents = yahoo_free_agents(oauth, league_key) if fixtures else []
+    except (KeyError, TypeError, requests.RequestException) as error:
+        print(f"Yahoo free agents unavailable: {type(error).__name__}")
+        free_agents = []
     timings = nfl_kickoffs(season)
     published = 0
     for week in weeks:
@@ -216,16 +273,20 @@ def attach_optimized_projections(fixtures, oauth, league_key, owners, season, no
                 continue
             try:
                 estimates[owner] = optimized_total(roster, slots, projections, timings[week],
-                                                   now, actual.get(owner, 0), week == current_week)
+                                                   now, actual.get(owner, 0), week == current_week,
+                                                   free_agents if week < 15 else ())
             except ValueError as error:
                 print(f"Week {week} {owner}: {error}")
         if week >= 15:
-            playoff_projections[str(week)] = estimates
+            playoff_projections[str(week)] = {owner: estimate[0] for owner, estimate in estimates.items()}
         else:
             for game in scheduled:
-                optimized = {f"p{side}": estimates[game[f"o{side}"]] for side in (1, 2)
-                             if game[f"o{side}"] in estimates}
-                if optimized:
-                    game["optimized"] = optimized
+                for side in (1, 2):
+                    estimate = estimates.get(game[f"o{side}"])
+                    if estimate is None:
+                        continue
+                    game.setdefault("optimized", {})[f"p{side}"] = estimate[0]
+                    if week == current_week and game.get("live"):
+                        game["live"][f"remaining{side}"] = estimate[1]
         published += len(estimates)
     print(f"Published {published} optimized team projections across {len(weeks)} weeks.")

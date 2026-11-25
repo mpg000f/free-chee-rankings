@@ -4,6 +4,8 @@ on:
   schedule:
     # 8:17 AM EST / 9:17 AM EDT. Friday captures Thursday Night Football.
     - cron: "17 13 * * *"
+    # Half-hour slots around NFL kickoff hours. The updater checks actual game windows.
+    - cron: "7,37 0-6,13-23 * * *"
   push:
     branches: [main]
     paths:
@@ -34,11 +36,16 @@ jobs:
           YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
           YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
           YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
-        run: python scripts/update_playoff_scores.py
+        run: |
+          case "${{ github.event.schedule }}" in
+            "7,37 0-6,13-23 * * *") python scripts/update_playoff_scores.py --game-window ;;
+            "17 13 * * *") python scripts/update_playoff_scores.py --weekly-board ;;
+            *) python scripts/update_playoff_scores.py ;;
+          esac
       - name: Publish scores
         run: |
           if [ -f yahoo_data/playoff_snapshot.json ]; then
-            git add yahoo_data/playoff_snapshot.json
+            git add yahoo_data/playoff_snapshot.json yahoo_data/championship_snapshot.json
           fi
           if ! git diff --cached --quiet; then
             git config user.name 'github-actions[bot]'
