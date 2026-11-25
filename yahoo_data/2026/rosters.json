@@ -22692,11 +22692,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.34120",
-    "player_name": "Kyren Williams",
+    "player_key": "470.p.40641",
+    "player_name": "Keaton Mitchell",
     "display_position": "RB",
     "points": 0.0,
-    "season_points": 145.3
+    "season_points": 42.6
   },
   {
     "week": 12,
@@ -22710,11 +22710,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.40041",
-    "player_name": "Jaxon Smith-Njigba",
+    "player_key": "470.p.41058",
+    "player_name": "Malik Washington",
     "display_position": "WR",
     "points": 0.0,
-    "season_points": 223.66
+    "season_points": 76.76
   },
   {
     "week": 12,
@@ -22737,33 +22737,6 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.40889",
-    "player_name": "Michael Penix Jr.",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 115.6
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.41058",
-    "player_name": "Malik Washington",
-    "display_position": "WR",
-    "points": 0.0,
-    "season_points": 76.76
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.8",
-    "player_key": "470.p.40641",
-    "player_name": "Keaton Mitchell",
-    "display_position": "RB",
-    "points": 0.0,
-    "season_points": 42.6
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.8",
     "player_key": "470.p.41903",
     "player_name": "Chimere Dike",
     "display_position": "WR",
@@ -22778,6 +22751,33 @@
     "display_position": "TE",
     "points": 0.0,
     "season_points": 15.8
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40041",
+    "player_name": "Jaxon Smith-Njigba",
+    "display_position": "WR",
+    "points": 0.0,
+    "season_points": 223.66
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.40889",
+    "player_name": "Michael Penix Jr.",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 115.6
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.8",
+    "player_key": "470.p.34120",
+    "player_name": "Kyren Williams",
+    "display_position": "RB",
+    "points": 0.0,
+    "season_points": 145.3
   },
   {
     "week": 12,
@@ -22890,11 +22890,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.34320",
-    "player_name": "Jordan Mason",
-    "display_position": "RB",
+    "player_key": "470.p.40908",
+    "player_name": "Ladd McConkey",
+    "display_position": "WR",
     "points": 0.0,
-    "season_points": 36.0
+    "season_points": 61.3
   },
   {
     "week": 12,
@@ -22908,11 +22908,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.16",
-    "player_key": "470.p.40908",
-    "player_name": "Ladd McConkey",
-    "display_position": "WR",
+    "player_key": "470.p.34320",
+    "player_name": "Jordan Mason",
+    "display_position": "RB",
     "points": 0.0,
-    "season_points": 61.3
+    "season_points": 36.0
   },
   {
     "week": 12,
@@ -23439,11 +23439,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.29269",
-    "player_name": "Hunter Henry",
+    "player_key": "470.p.40065",
+    "player_name": "Michael Mayer",
     "display_position": "TE",
     "points": 0.0,
-    "season_points": 67.3
+    "season_points": 66.0
   },
   {
     "week": 12,
@@ -23466,11 +23466,11 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.10",
-    "player_key": "470.p.40065",
-    "player_name": "Michael Mayer",
+    "player_key": "470.p.29269",
+    "player_name": "Hunter Henry",
     "display_position": "TE",
     "points": 0.0,
-    "season_points": 66.0
+    "season_points": 67.3
   },
   {
     "week": 12,
@@ -24033,15 +24033,6 @@
   {
     "week": 12,
     "team_key": "470.l.165433.t.7",
-    "player_key": "470.p.32696",
-    "player_name": "Jordan Love",
-    "display_position": "QB",
-    "points": 0.0,
-    "season_points": 202.82
-  },
-  {
-    "week": 12,
-    "team_key": "470.l.165433.t.7",
     "player_key": "470.p.41860",
     "player_name": "Pat Bryant",
     "display_position": "WR",
@@ -24065,6 +24056,15 @@
     "display_position": "RB",
     "points": 0.0,
     "season_points": 31.1
+  },
+  {
+    "week": 12,
+    "team_key": "470.l.165433.t.7",
+    "player_key": "470.p.32696",
+    "player_name": "Jordan Love",
+    "display_position": "QB",
+    "points": 0.0,
+    "season_points": 202.82
   },
   {
     "week": 12,
