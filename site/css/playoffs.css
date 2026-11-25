@@ -21,11 +21,11 @@
 .playoff-match:last-child { border-bottom: 0; }
 .playoff-match label:first-child { display: block; }
 .playoff-match select { margin-top: .25rem; }
-.playoff-score-inputs, .playoff-filters, .playoff-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
+.playoff-score-inputs, .playoff-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; }
 .playoff-score-inputs { margin-top: .5rem; }
-.playoff-score-inputs label, .playoff-filters label { font-size: .82rem; min-width: 0; }
-.playoff-score-inputs input, .playoff-filters select { margin-top: .2rem; }
-.playoff-filters { margin: .75rem 0; }
+.playoff-score-inputs label, .playoff-personal label, .playoff-leverage-matchup { font-size: .82rem; min-width: 0; }
+.playoff-score-inputs input, .playoff-personal select, .playoff-leverage-matchup select { margin-top: .2rem; }
+.playoff-leverage-matchup { display: block; margin: .75rem 0; }
 .playoff-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .playoff-metrics > div { background: var(--bg); border-radius: var(--radius); padding: .6rem; }
 .playoff-metrics span { display: block; font-size: .76rem; color: var(--text-dim); }
@@ -62,3 +62,14 @@
 .playoff-live-score { font-size: .82rem; color: var(--text); margin-top: .45rem; }
 .playoff-live-score strong { color: var(--accent); margin-right: .25rem; }
 .playoff-live-score span { display: block; color: var(--text-dim); }
+
+.playoff-personal { grid-column: 1 / -1; border-top: 2px solid var(--accent); }
+.playoff-personal .playoff-panel-header > label { width: min(100%, 20rem); }
+.playoff-personal-body { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 1rem; margin-top: .7rem; }
+.playoff-personal-games { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: .55rem; }
+.playoff-personal-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.playoff-personal-metrics > div { min-width: 0; overflow-wrap: anywhere; }
+#personal-playoff-odds { color: var(--accent); }
+@media (max-width: 780px) {
+  .playoff-personal-body { grid-template-columns: minmax(0, 1fr); }
+}

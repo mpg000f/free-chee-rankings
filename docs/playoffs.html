@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=5bce7805e6">
-  <link rel="stylesheet" href="css/playoffs.css?v=efb6d94f5a">
+  <link rel="stylesheet" href="css/playoffs.css?v=6e3623a6b4">
 </head>
 <body>
   <nav class="navbar">
@@ -86,6 +86,24 @@
     </header>
 
     <div id="playoff-content" class="playoff-layout" hidden>
+      <section id="playoff-personal" class="playoff-panel playoff-personal" aria-labelledby="personal-heading">
+        <div class="playoff-panel-header">
+          <h2 id="personal-heading">My playoff scenario</h2>
+          <label>Team<select id="playoff-team"></select></label>
+        </div>
+        <p class="playoff-note">Pick your team’s remaining results. Any game left open is simulated.</p>
+        <div id="playoff-personal-body" class="playoff-personal-body" hidden>
+          <div id="playoff-personal-games" class="playoff-personal-games"></div>
+          <div class="playoff-metrics playoff-personal-metrics" aria-live="polite" aria-atomic="true">
+            <div><span>Make playoffs</span><strong id="personal-playoff-odds">—</strong></div>
+            <div>
+              <span>Most likely finish</span><strong id="personal-finish">—</strong>
+              <span id="personal-finish-odds"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="playoff-panel playoff-matches" aria-labelledby="matchup-heading">
         <div class="playoff-panel-header">
           <h2 id="matchup-heading">Remaining matchups</h2>
@@ -97,12 +115,9 @@
       </section>
 
       <div class="playoff-results">
-        <section id="playoff-leverage" class="playoff-panel" aria-labelledby="leverage-heading">
+        <section id="playoff-leverage" class="playoff-panel" aria-labelledby="leverage-heading" hidden>
           <h2 id="leverage-heading">Playoff leverage</h2>
-          <div class="playoff-filters">
-            <label>Team<select id="playoff-team"></select></label>
-            <label>Matchup<select id="playoff-game"></select></label>
-          </div>
+          <label class="playoff-leverage-matchup">Matchup<select id="playoff-game"></select></label>
           <div class="playoff-metrics" aria-live="polite">
             <div><span>If they win</span><strong id="odds-win">—</strong></div>
             <div><span>If they lose</span><strong id="odds-loss">—</strong></div>
@@ -139,7 +154,7 @@
   </footer>
 
   <script src="js/data-loader.js?v=a6f65639ec"></script>
-  <script src="js/playoffs.js?v=ef38e79796" type="module"></script>
+  <script src="js/playoffs.js?v=68a7a65f75" type="module"></script>
   <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>

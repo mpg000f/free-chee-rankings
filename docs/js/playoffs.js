@@ -137,7 +137,7 @@ export function createModel({ teams, games }) {
   const tiePriorities = Array.from({ length: TRIALS }, () => teams.map(random));
 
   function run(picks) {
-    const qualifying = teams.map(() => 0);
+    const finishes = teams.map(() => Array(teams.length).fill(0));
     const scenarioWins = [...initialWins];
     const scenarioPoints = [...initialPoints];
     const scenarioTies = teams.map(team => team.ties);
@@ -173,7 +173,7 @@ export function createModel({ teams, games }) {
       const chosenScore = pool => pool.fixed ?? pool.draws[trial];
       for (const game of games) applyGame(wins, points, game, chosenScore(pools[game.id]));
       const order = [...teamIds].sort(compare);
-      for (const id of order.slice(0, PLAYOFF_TEAMS)) qualifying[id]++;
+      for (let place = 0; place < order.length; place++) finishes[order[place]][place]++;
 
       for (const game of games) {
         const { a, b, id } = game;
@@ -203,7 +203,8 @@ export function createModel({ teams, games }) {
         applyGame(wins, points, game, selected);
       }
     }
-    return { standings, qualifying, leverage };
+    const qualifying = finishes.map(counts => counts.slice(0, PLAYOFF_TEAMS).reduce((sum, count) => sum + count, 0));
+    return { standings, qualifying, leverage, finishes };
   }
   return { run };
 }
@@ -261,9 +262,10 @@ async function init() {
     const matchups = get('playoff-matchups');
     const teamSelect = get('playoff-team');
     const gameSelect = get('playoff-game');
+    const personalGames = get('playoff-personal-games');
+    const gameControls = [];
     let picks = Array(games.length).fill('');
     let lastPicks, result;
-    const selectable = teams.map((_, id) => id).filter(id => games.some(game => game.a === id || game.b === id));
     const option = (value, label) => `<option value="${value}">${escapeHtml(label)}</option>`;
 
     status.textContent = games.length
@@ -285,7 +287,7 @@ async function init() {
       get('playoff-lineups').textContent = `Optimized lineups use Yahoo rosters pulled ${timestamp}.`;
     }
     if (!games.length) {
-      get('leverage-heading').closest('section').hidden = true;
+      get('playoff-personal').hidden = true;
       matchups.closest('section').hidden = true;
       content.classList.add('playoff-final');
       get('standings-heading').textContent = 'Final regular-season standings';
@@ -327,20 +329,39 @@ async function init() {
               <td data-swing="${side}"></td>
             </tr>`).join('')}</tbody>
           </table>`;
+        gameControls[id] = row.querySelector('select');
         details.append(row);
       }
       matchups.append(details);
     }
 
-    teamSelect.innerHTML = selectable.map(id => option(id, `${teams[id].owner} — ${teams[id].name}`)).join('');
-    function updateGameList() {
+    teamSelect.innerHTML = option('', 'Choose your team') +
+      teams.map(({ owner, name }, id) => option(id, `${owner} — ${name}`)).join('');
+
+    function updateTeamView() {
+      const selected = teamSelect.value !== '';
       const team = Number(teamSelect.value);
-      gameSelect.innerHTML = games.filter(({ a, b }) => a === team || b === team).map(({ a, b, id, week }) =>
-        option(id, `Week ${week} vs. ${teams[a === team ? b : a].owner}`)).join('');
+      const slate = selected ? games.filter(({ a, b }) => a === team || b === team) : [];
+      const matchupLabel = ({ a, b, week }) => `Week ${week} vs. ${teams[a === team ? b : a].owner}`;
+      get('playoff-personal-body').hidden = !selected;
+      get('playoff-leverage').hidden = !slate.length;
+      gameSelect.innerHTML = slate.map(game => option(game.id, matchupLabel(game))).join('');
+      personalGames.innerHTML = slate.map(game => {
+        const opponent = teams[game.a === team ? game.b : game.a].owner;
+        const win = game.a === team ? 'first' : 'second';
+        const loss = game.a === team ? 'second' : 'first';
+        return `<label>${escapeHtml(matchupLabel(game))}
+          <select data-personal-game="${game.id}">
+            ${option('', 'Leave outcome open')}
+            ${option(win, `${teams[team].owner} wins`)}
+            ${option(loss, `${opponent} wins`)}
+            <option value="scores" hidden disabled>Exact scores entered</option>
+          </select></label>`;
+      }).join('') || '<p class="playoff-note">No remaining games for this team.</p>';
     }
 
     function render() {
-      const team = selectable.length ? Number(teamSelect.value) : -1;
+      const team = teamSelect.value === '' ? -1 : Number(teamSelect.value);
       const pickKey = JSON.stringify(picks);
       if (lastPicks !== pickKey) {
         result = model.run(picks);
@@ -349,7 +370,7 @@ async function init() {
           const open = [...detail.querySelectorAll('select')].filter(select => !picks[Number(select.dataset.game)]).length;
           detail.querySelector('[data-week-count]').textContent = `${open} open`;
         }
-        for (const select of matchups.querySelectorAll('select')) {
+        for (const select of gameControls) {
           const id = Number(select.dataset.game);
           const { win, loss } = result.leverage[id];
           const { a, b } = games[id];
@@ -362,8 +383,21 @@ async function init() {
           }
         }
       }
-      const { standings, qualifying, leverage } = result;
-      if (games.length) {
+      const { standings, qualifying, leverage, finishes } = result;
+      if (team >= 0) {
+        for (const select of personalGames.querySelectorAll('select')) {
+          const pick = picks[Number(select.dataset.personalGame)];
+          const exact = Array.isArray(pick);
+          select.querySelector('option[value="scores"]').hidden = !exact;
+          select.value = exact ? 'scores' : pick;
+        }
+        const mostLikely = Math.max(...finishes[team]);
+        const places = finishes[team].flatMap((count, index) => count === mostLikely ? [`#${index + 1}`] : []);
+        get('personal-playoff-odds').textContent = percent(qualifying[team]);
+        get('personal-finish').textContent = places.join(' or ');
+        get('personal-finish-odds').textContent = `${percent(mostLikely)} of simulations${places.length > 1 ? ' each' : ''}`;
+      }
+      if (gameSelect.value !== '') {
         const focus = Number(gameSelect.value);
         const side = games[focus].a === team ? 0 : 1;
         const { win, loss } = leverage[focus];
@@ -412,17 +446,25 @@ async function init() {
       clearTimeout(scoreTimer);
       scoreTimer = setTimeout(render, 180);
     });
+    personalGames.addEventListener('change', event => {
+      const control = gameControls[Number(event.target.dataset.personalGame)];
+      if (!control) return;
+      clearTimeout(scoreTimer);
+      control.value = event.target.value;
+      updatePick(control);
+      render();
+    });
     get('playoff-reset').addEventListener('click', () => {
       clearTimeout(scoreTimer);
       picks = Array(games.length).fill('');
-      for (const select of matchups.querySelectorAll('select')) select.value = '';
+      for (const select of gameControls) select.value = '';
       for (const input of matchups.querySelectorAll('input')) input.value = '';
       for (const inputs of matchups.querySelectorAll('.playoff-score-inputs')) inputs.hidden = true;
       render();
     });
-    teamSelect.addEventListener('change', () => { updateGameList(); render(); });
+    teamSelect.addEventListener('change', () => { updateTeamView(); render(); });
     gameSelect.addEventListener('change', render);
-    updateGameList();
+    updateTeamView();
     render();
     content.hidden = false;
   } catch (error) {
