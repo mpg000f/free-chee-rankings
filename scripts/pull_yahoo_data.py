@@ -296,6 +296,9 @@ def pull_week_scores(oauth, league, week, *, include_projections=False):
             "is_consolation": int(matchup.get("is_consolation", 0) or 0),
             "status": matchup.get("status", ""),
         })
+        if include_projections:
+            row["winner"] = next((side for side in (1, 2)
+                                  if row[f"team_{side}_key"] == matchup.get("winner_team_key")), None)
         results.append(row)
     return results
 

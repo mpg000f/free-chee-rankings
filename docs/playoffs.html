@@ -29,7 +29,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=5bce7805e6">
-  <link rel="stylesheet" href="css/playoffs.css?v=6e3623a6b4">
+  <link rel="stylesheet" href="css/playoffs.css?v=74c875211e">
 </head>
 <body>
   <nav class="navbar">
@@ -96,6 +96,7 @@
           <div id="playoff-personal-games" class="playoff-personal-games"></div>
           <div class="playoff-metrics playoff-personal-metrics" aria-live="polite" aria-atomic="true">
             <div><span>Make playoffs</span><strong id="personal-playoff-odds">—</strong></div>
+            <div><span>Win championship</span><strong id="personal-title-odds">—</strong></div>
             <div>
               <span>Most likely finish</span><strong id="personal-finish">—</strong>
               <span id="personal-finish-odds"></span>
@@ -131,10 +132,11 @@
           <p id="playoff-table-note" class="playoff-note">The projected seed and record show one finish using your picks and the model’s favorites for open games. Playoff odds use all simulations.</p>
           <div class="playoff-table-wrap" role="region" aria-label="Projected standings table" tabindex="0">
             <table class="playoff-table" aria-describedby="playoff-table-note">
-              <thead><tr><th scope="col">Seed</th><th scope="col">Team</th><th scope="col">Current</th><th scope="col">Projected</th><th scope="col">Proj. PF</th><th scope="col">Playoff odds</th></tr></thead>
+              <thead><tr><th scope="col">Seed</th><th scope="col">Team</th><th scope="col">Current</th><th scope="col">Projected</th><th scope="col">Proj. PF</th><th scope="col">Playoff odds</th><th scope="col">Title odds</th></tr></thead>
               <tbody id="playoff-standings"></tbody>
             </table>
           </div>
+          <p id="playoff-title-note" class="playoff-note"></p>
           <h3 class="playoff-bracket-title">Projected quarterfinals</h3>
           <ul id="playoff-bracket" class="playoff-bracket"></ul>
         </section>
@@ -144,6 +146,7 @@
           <p><strong>The top eight get in.</strong> Record comes first, then points for. A tie counts as half a win. If two teams somehow finish with the same record and the exact same points for, the table goes alphabetical and the simulation flips a coin. The Committee has its limits.</p>
           <p><strong>Pick whatever results you want.</strong> Give yourself three wins, hand your rival three losses, or enter the exact score you’re already dreading. The model plays out the rest of the season 10,000 times with those picks locked in. Your playoff odds are how often you finish in the top eight. Your most likely finish is the spot you land in most often. The projected standings show one version of the finish using the favorites in the games you left open.</p>
           <p><strong>We assume everyone sets their best lineup.</strong> The model takes the latest Yahoo rosters and uses weekly RotoWire projections to fill every legal starting slot, including flex and superflex. Once a player kicks off, their starter or bench spot is locked and any points already scored carry forward. If we can’t build an optimized projection, we use Yahoo’s set-lineup projection or the team’s season scoring average, nudged toward the league average. The more points already on the board, the less room there is for the score to move.</p>
+          <p><strong>Title odds play out the whole bracket.</strong> The top eight go into the Week 15 quarterfinals. The highest remaining seed gets the lowest in Week 16, and the winners play for the title in Week 17. We use each week’s optimized projections. The higher seed advances on an exact score tie in the simulation.</p>
         </details>
       </div>
     </div>
@@ -153,8 +156,8 @@
     <p>Free Chee Headquarters &copy; 2024-2026 &bull; The Committee</p>
   </footer>
 
-  <script src="js/data-loader.js?v=a6f65639ec"></script>
-  <script src="js/playoffs.js?v=68a7a65f75" type="module"></script>
+  <script src="js/data-loader.js?v=df2ed1c70b"></script>
+  <script src="js/playoffs.js?v=a5b1181e23" type="module"></script>
   <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>

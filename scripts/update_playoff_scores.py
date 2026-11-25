@@ -8,7 +8,7 @@ from pathlib import Path
 from build_engagement_data import REG_SEASON_LAST_WEEK
 from optimize_playoff_lineups import attach_optimized_projections
 from requests import RequestException
-from pull_yahoo_data import get_oauth, pull_week_scores
+from pull_yahoo_data import current_week, get_oauth, pull_week_scores
 from weekly_update import current_season, write_credentials
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -102,7 +102,10 @@ def main():
         schedule["upcoming"] = remaining
     now = datetime.now(timezone.utc)
     optimized_as_of = None
-    if schedule["upcoming"]:
+    postseason, playoff_projections = [], {}
+    published_postseason = [game for game in feed["games"]
+                            if game["season"] == season and game["playoff"]]
+    if schedule["upcoming"] or not any(game.get("round") == "Championship" for game in published_postseason):
         teams = read_json(ROOT / "docs/data/rosters_data.json")[season]["teams"]
         team_keys = {key: value["owner"] for key, value in teams.items()}
         league_keys = {key.rsplit(".t.", 1)[0] for key in team_keys}
@@ -114,13 +117,33 @@ def main():
         oauth = get_oauth()
         refresh_schedule(schedule, team_keys,
                          lambda week: pull_week_scores(oauth, league, week, include_projections=True))
+        active_week = current_week(oauth, league)
+        if active_week is None:
+            active_week = min((game["week"] for game in schedule["upcoming"]), default=17)
+        for week in range(REG_SEASON_LAST_WEEK + 1, min(active_week, 17) + 1):
+            for row in pull_week_scores(oauth, league, week, include_projections=True):
+                if not row["is_playoffs"]:
+                    continue
+                game = {"season": season, "week": week, "playoff": True,
+                        "o1": team_keys[row["team_1_key"]], "o2": team_keys[row["team_2_key"]]}
+                scores = {f"p{side}": row[f"team_{side}_points"] for side in (1, 2)}
+                if row["status"] == "postevent":
+                    game.update(scores)
+                    game["winner"] = row.get("winner")
+                elif row["status"] in LIVE_STATUSES and all(value is not None for value in scores.values()):
+                    game["live"] = {**scores, **{
+                        f"projected{side}": row[f"team_{side}_projection"] for side in (1, 2)
+                    }}
+                postseason.append(game)
         try:
-            attach_optimized_projections(schedule["upcoming"], oauth, league["league_key"], team_keys, season, now)
-            if any(game.get("optimized") for game in schedule["upcoming"]):
+            attach_optimized_projections(schedule["upcoming"], oauth, league["league_key"], team_keys,
+                                         season, now, active_week, postseason, playoff_projections)
+            if playoff_projections or any(game.get("optimized") for game in schedule["upcoming"]):
                 optimized_as_of = now.isoformat(timespec="seconds")
         except (KeyError, TypeError, ValueError, AttributeError, RequestException) as error:
             print(f"Optimized lineup refresh unavailable: {type(error).__name__}: {error}")
-    snapshot = {"season": season, **schedule}
+    snapshot = {"season": season, **schedule, "postseason": postseason,
+                "playoffProjections": playoff_projections}
     if optimized_as_of:
         snapshot["lineupsAsOf"] = optimized_as_of
     previous.pop("asOf", None)

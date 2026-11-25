@@ -190,11 +190,11 @@ def optimized_total(roster, slots, projections, kickoffs, now, actual, current_w
     return round(actual + remaining_locked + maximize_points(available_slots, available_players), 2)
 
 
-def attach_optimized_projections(fixtures, oauth, league_key, owners, season, now):
+def attach_optimized_projections(fixtures, oauth, league_key, owners, season, now,
+                                 current_week, postseason, playoff_projections):
     slots, scoring = yahoo_rules(oauth, league_key)
     print(f"Yahoo starting slots: {', '.join(slots)}; PPR: {scoring.get('11', .5):g}")
-    weeks = sorted({game["week"] for game in fixtures})
-    current_week = weeks[0]
+    weeks = sorted({game["week"] for game in fixtures} | set(range(max(15, current_week), 18)))
     rosters = {owner: yahoo_roster(oauth, key, current_week) for key, owner in owners.items()}
     timings = nfl_kickoffs(season)
     published = 0
@@ -207,19 +207,25 @@ def attach_optimized_projections(fixtures, oauth, league_key, owners, season, no
         except (ValueError, KeyError, TypeError, requests.RequestException) as error:
             print(f"Week {week} optimized projections unavailable: {type(error).__name__}: {error}")
             continue
-        for game in fixtures:
-            if game["week"] != week:
+        scheduled = [game for game in (fixtures if week < 15 else postseason) if game["week"] == week]
+        actual = {game[f"o{side}"]: game.get("live", {}).get(f"p{side}", 0)
+                  for game in scheduled for side in (1, 2)}
+        estimates = {}
+        for owner, roster in rosters.items():
+            if week == current_week and owner not in actual:
                 continue
-            optimized = {}
-            for side in (1, 2):
-                owner = game[f"o{side}"]
-                actual = game.get("live", {}).get(f"p{side}", 0)
-                try:
-                    optimized[f"p{side}"] = optimized_total(rosters[owner], slots, projections,
-                                                            timings[week], now, actual, week == current_week)
-                except ValueError as error:
-                    print(f"Week {week} {owner}: {error}")
-            if optimized:
-                game["optimized"] = optimized
-                published += len(optimized)
+            try:
+                estimates[owner] = optimized_total(roster, slots, projections, timings[week],
+                                                   now, actual.get(owner, 0), week == current_week)
+            except ValueError as error:
+                print(f"Week {week} {owner}: {error}")
+        if week >= 15:
+            playoff_projections[str(week)] = estimates
+        else:
+            for game in scheduled:
+                optimized = {f"p{side}": estimates[game[f"o{side}"]] for side in (1, 2)
+                             if game[f"o{side}"] in estimates}
+                if optimized:
+                    game["optimized"] = optimized
+        published += len(estimates)
     print(f"Published {published} optimized team projections across {len(weeks)} weeks.")

@@ -12,6 +12,7 @@
   // Default to the newest season present in the index, not a hardcoded year.
   let currentSeason = index.seasons[index.seasons.length - 1] || '2025';
   let currentWeekId = null;
+  let championshipBoard;
 
   // Build season buttons
   function renderSeasons() {
@@ -57,6 +58,30 @@
     }).join('');
   }
 
+  async function renderChampionshipBoard(table) {
+    const status = articlePanel.querySelector('[data-championship-status]');
+    try {
+      championshipBoard ??= import(document.getElementById('championship-model-module').href).then(async model => {
+        const schedule = await model.loadSchedule();
+        if (schedule.season !== 2026) throw new Error('Week 12 championship forecasts are unavailable');
+        const { titles } = model.createModel(schedule).run([], { includeLeverage: false });
+        return new Map(schedule.teams.map(({ owner }, id) => [owner, model.percent(titles[id])]));
+      }).catch(error => {
+        championshipBoard = undefined;
+        throw error;
+      });
+      const odds = await championshipBoard;
+      for (const row of table.tBodies[0].rows) {
+        const chance = odds.get(row.cells[0].textContent.trim());
+        if (chance) row.cells[1].textContent = chance;
+      }
+      status.firstChild.textContent = 'Title odds update with the ';
+    } catch (error) {
+      status.firstChild.textContent = 'Title odds are temporarily unavailable. Open the ';
+      console.error(error);
+    }
+  }
+
   // Load and render a week
   async function loadWeek(weekId) {
     currentWeekId = weekId;
@@ -81,6 +106,8 @@
       const downloadBtn = `<a href="pdfs/${weekData.week_id}.pdf" class="download-btn" style="display:none">&#128196; Download PDF</a>`;
 
       articlePanel.innerHTML = weekHTML + downloadBtn;
+      const championshipTable = articlePanel.querySelector('[data-championship-board]');
+      if (championshipTable) void renderChampionshipBoard(championshipTable);
 
       // If this week embeds a chart, make sure Chart.js is loaded first
       if (window.loadChart && articlePanel.querySelector('canvas')) {

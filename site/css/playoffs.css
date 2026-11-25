@@ -67,7 +67,7 @@
 .playoff-personal .playoff-panel-header > label { width: min(100%, 20rem); }
 .playoff-personal-body { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(0, 1fr); gap: 1rem; margin-top: .7rem; }
 .playoff-personal-games { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr)); gap: .55rem; }
-.playoff-personal-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.playoff-personal-metrics { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .playoff-personal-metrics > div { min-width: 0; overflow-wrap: anywhere; }
 #personal-playoff-odds { color: var(--accent); }
 @media (max-width: 780px) {
