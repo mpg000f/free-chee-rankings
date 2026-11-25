@@ -79,8 +79,8 @@ def main():
                 and game["week"] <= REG_SEASON_LAST_WEEK and not game.get("playoff")]
         for group in ("games", "upcoming")
     }
-    if not schedule["upcoming"]:
-        print("No remaining regular-season games in the site's schedule.")
+    if not schedule["games"] and not schedule["upcoming"]:
+        print("No games in the current season's schedule.")
         return
 
     # Preserve a verified result if the weekly rebuild has yet to incorporate it.
@@ -98,24 +98,21 @@ def main():
                     game["live"] = live[key]
                 remaining.append(game)
         schedule["upcoming"] = remaining
-    if not schedule["upcoming"]:
-        print("All regular-season matchups already have final results.")
-        return
+    if schedule["upcoming"]:
+        teams = read_json(ROOT / "docs/data/rosters_data.json")[season]["teams"]
+        team_keys = {key: value["owner"] for key, value in teams.items()}
+        league_keys = {key.rsplit(".t.", 1)[0] for key in team_keys}
+        if len(league_keys) != 1 or len(team_keys) != 16:
+            raise ValueError("Expected a single 16-team Yahoo league")
+        league = {"league_key": league_keys.pop()}
 
-    teams = read_json(ROOT / "docs/data/rosters_data.json")[season]["teams"]
-    team_keys = {key: value["owner"] for key, value in teams.items()}
-    league_keys = {key.rsplit(".t.", 1)[0] for key in team_keys}
-    if len(league_keys) != 1 or len(team_keys) != 16:
-        raise ValueError("Expected a single 16-team Yahoo league")
-    league = {"league_key": league_keys.pop()}
-
-    write_credentials()
-    oauth = get_oauth()
-    refresh_schedule(schedule, team_keys,
-                     lambda week: pull_week_scores(oauth, league, week, include_projections=True))
+        write_credentials()
+        oauth = get_oauth()
+        refresh_schedule(schedule, team_keys,
+                         lambda week: pull_week_scores(oauth, league, week, include_projections=True))
     snapshot = {"season": season, **schedule}
     previous.pop("asOf", None)
-    if snapshot == previous and not any(game.get("live") for game in schedule["upcoming"]):
+    if snapshot == previous and not schedule["upcoming"]:
         print("No new scores or projections.")
         return
     snapshot["asOf"] = datetime.now(timezone.utc).isoformat(timespec="seconds")

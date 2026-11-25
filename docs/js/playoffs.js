@@ -298,7 +298,7 @@ async function init() {
         row.className = 'playoff-match';
         const [first, second] = [teams[a].owner, teams[b].owner].map(escapeHtml);
         const liveScore = live ? `<p class="playoff-live-score">
-          <strong>In progress</strong> ${score(live.p1)}–${score(live.p2)}
+          <strong>Score so far</strong> ${score(live.p1)}–${score(live.p2)}
           <span>Yahoo projected final ${score(live.projected1)}–${score(live.projected2)}</span>
         </p>` : '';
         row.innerHTML = `<label>${first} vs. ${second}
