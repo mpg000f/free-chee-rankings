@@ -123,14 +123,17 @@ def yahoo_roster(oauth, team_key, week):
         eligible = {entry["position"] for entry in info.get("eligible_positions", [])
                     if isinstance(entry, dict) and "position" in entry} & POSITIONS
         eligible = eligible or (set(info.get("display_position", "").split("/")) & POSITIONS)
+        selection = stats.get("selected_position", info.get("selected_position", {}))
+        if isinstance(selection, list):
+            selection = {key: value for part in selection if isinstance(part, dict)
+                         for key, value in part.items()}
         roster.append({
             "id": info["player_key"],
             "name": info["name"]["full"],
             "team": team_code(info.get("editorial_team_abbr")),
             "eligible": eligible,
-            "slot": stats.get("selected_position", [{}])[0].get("position") if
-            isinstance(stats.get("selected_position"), list) else stats.get("selected_position", {}).get("position"),
-            "status": info.get("status", ""),
+            "slot": selection.get("position"),
+            "status": info.get("status") or "",
             "actual": float(stats.get("player_points", {}).get("total") or 0),
         })
     if not roster or any(not player["slot"] for player in roster):
