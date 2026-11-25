@@ -65,7 +65,7 @@
         const schedule = await model.loadSchedule();
         if (schedule.season !== 2026) throw new Error('Week 12 championship forecasts are unavailable');
         const { titles } = model.createModel(schedule).run([], { includeLeverage: false });
-        return new Map(schedule.teams.map(({ owner }, id) => [owner, model.percent(titles[id])]));
+        return new Map(schedule.teams.map(({ owner }, id) => [owner, model.americanOdds(titles[id])]));
       }).catch(error => {
         championshipBoard = undefined;
         throw error;
@@ -75,7 +75,8 @@
         const chance = odds.get(row.cells[0].textContent.trim());
         if (chance) row.cells[1].textContent = chance;
       }
-      status.firstChild.textContent = 'Title odds update with the ';
+      status.firstChild.textContent = 'American title odds update with the ';
+      status.append(' Title lines are rounded to the nearest five, with no vig. A dash means the simulation produced no finite line.');
     } catch (error) {
       status.firstChild.textContent = 'Title odds are temporarily unavailable. Open the ';
       console.error(error);

@@ -278,11 +278,19 @@ export function createModel({ teams, games, postseason = [], playoffProjections 
 
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
-export const percent = count => {
+const percent = count => {
   if (count > 0 && count / TRIALS < .001) return '<0.1%';
   if (count < TRIALS && count / TRIALS > .999) return '>99.9%';
   return `${(100 * count / TRIALS).toFixed(1)}%`;
 };
+
+export function americanOdds(count) {
+  if (count <= 0 || count >= TRIALS) return '—';
+  if (count === TRIALS / 2) return '+100';
+  const other = TRIALS - count;
+  const magnitude = 100 * Math.max(count, other) / Math.min(count, other);
+  return `${count < other ? '+' : '−'}${Math.round(magnitude / 5) * 5}`;
+}
 
 const swing = (win, loss) => `${win > loss ? '+' : ''}${(100 * (win - loss) / TRIALS).toFixed(1)} pp`;
 const score = value => Number.isFinite(value) ? value.toFixed(2) : '—';
@@ -471,7 +479,7 @@ async function init() {
         const mostLikely = Math.max(...finishes[team]);
         const places = finishes[team].flatMap((count, index) => count === mostLikely ? [`#${index + 1}`] : []);
         get('personal-playoff-odds').textContent = percent(qualifying[team]);
-        get('personal-title-odds').textContent = percent(titles[team]);
+        get('personal-title-odds').textContent = americanOdds(titles[team]);
         get('personal-finish').textContent = places.join(' or ');
         get('personal-finish-odds').textContent = `${percent(mostLikely)} of simulations${places.length > 1 ? ' each' : ''}`;
       }
@@ -489,7 +497,7 @@ async function init() {
         const { owner, name } = teams[id];
         return `<tr class="${classes}"><td>${index + 1}</td><th scope="row">${escapeHtml(owner)}<small>${escapeHtml(name)}</small></th>
           <td>${record(teams[id])}</td><td>${projected}</td><td>${pf.toFixed(2)}</td>
-          <td>${escapeHtml(percent(qualifying[id]))}</td><td>${escapeHtml(percent(titles[id]))}</td></tr>`;
+          <td>${escapeHtml(percent(qualifying[id]))}</td><td>${americanOdds(titles[id])}</td></tr>`;
       }).join('');
       get('playoff-bracket').innerHTML = [0, 3, 1, 2].map(seed => {
         const opponent = PLAYOFF_TEAMS - 1 - seed;
