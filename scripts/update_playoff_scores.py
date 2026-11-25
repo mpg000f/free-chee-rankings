@@ -6,6 +6,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from build_engagement_data import REG_SEASON_LAST_WEEK
+from optimize_playoff_lineups import attach_optimized_projections
+from requests import RequestException
 from pull_yahoo_data import get_oauth, pull_week_scores
 from weekly_update import current_season, write_credentials
 
@@ -98,6 +100,8 @@ def main():
                     game["live"] = live[key]
                 remaining.append(game)
         schedule["upcoming"] = remaining
+    now = datetime.now(timezone.utc)
+    optimized_as_of = None
     if schedule["upcoming"]:
         teams = read_json(ROOT / "docs/data/rosters_data.json")[season]["teams"]
         team_keys = {key: value["owner"] for key, value in teams.items()}
@@ -110,12 +114,20 @@ def main():
         oauth = get_oauth()
         refresh_schedule(schedule, team_keys,
                          lambda week: pull_week_scores(oauth, league, week, include_projections=True))
+        try:
+            attach_optimized_projections(schedule["upcoming"], oauth, league["league_key"], team_keys, season, now)
+            if any(game.get("optimized") for game in schedule["upcoming"]):
+                optimized_as_of = now.isoformat(timespec="seconds")
+        except (KeyError, TypeError, ValueError, AttributeError, RequestException) as error:
+            print(f"Optimized lineup refresh unavailable: {type(error).__name__}: {error}")
     snapshot = {"season": season, **schedule}
+    if optimized_as_of:
+        snapshot["lineupsAsOf"] = optimized_as_of
     previous.pop("asOf", None)
     if snapshot == previous and not schedule["upcoming"]:
         print("No new scores or projections.")
         return
-    snapshot["asOf"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    snapshot["asOf"] = now.isoformat(timespec="seconds")
     SNAPSHOT.write_text(json.dumps(snapshot, separators=(",", ":"), allow_nan=False) + "\n", encoding="utf-8")
     print(f"Published {len(schedule['games'])} final and {len(schedule['upcoming'])} remaining matchups.")
 

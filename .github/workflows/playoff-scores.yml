@@ -9,6 +9,7 @@ on:
     paths:
       - ".github/workflows/playoff-scores.yml"
       - "scripts/update_playoff_scores.py"
+      - "scripts/optimize_playoff_lineups.py"
   workflow_dispatch:
 
 permissions:

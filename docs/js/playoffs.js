@@ -42,7 +42,7 @@ export function seasonFromSchedule(data) {
     }
     const live = game.live;
     if (live && ![live.p1, live.p2].every(Number.isFinite)) throw new Error('Invalid live score');
-    return { a, b, id, week: game.week, live };
+    return { a, b, id, week: game.week, live, optimized: game.optimized };
   });
   if (teams.length !== LEAGUE_TEAMS || teams.some(team => team.weeks.size !== REGULAR_SEASON_WEEKS)) {
     throw new Error('Incomplete regular-season schedule');
@@ -69,10 +69,10 @@ function makeSamples(teams, games) {
   }, 0);
   const deviation = Math.max(1000, Math.sqrt(residuals / Math.max(1, gameCount - teams.length)));
   const random = randomSource(20261125);
-  return games.map(({ a, b, live }) => {
+  return games.map(({ a, b, live, optimized }) => {
     const floor = live ? [toCents(live.p1), toCents(live.p2)] : null;
     const centers = [a, b].map((id, side) => {
-      const projection = live?.[`projected${side + 1}`];
+      const projection = optimized?.[`p${side + 1}`] ?? live?.[`projected${side + 1}`];
       const average = Number.isFinite(projection) ? toCents(projection) : means[id];
       return floor ? Math.max(floor[side], average) : average;
     });
@@ -241,7 +241,7 @@ async function loadSchedule() {
       const asOf = new Date(snapshot.value.asOf);
       if (Number.isFinite(asOf.getTime()) && (!published ||
         (current.season === published.season && current.games.length <= published.games.length))) {
-        return { ...current, asOf };
+        return { ...current, asOf, lineupsAsOf: snapshot.value.lineupsAsOf };
       }
     } catch {
       // A missing or incomplete snapshot must not block the published schedule.
@@ -256,7 +256,7 @@ async function init() {
   const status = get('playoff-season');
   const content = get('playoff-content');
   try {
-    const { season, teams, games, lastCompleted, asOf } = await loadSchedule();
+    const { season, teams, games, lastCompleted, asOf, lineupsAsOf } = await loadSchedule();
     const model = createModel({ teams, games });
     const matchups = get('playoff-matchups');
     const teamSelect = get('playoff-team');
@@ -278,6 +278,12 @@ async function init() {
     } else if (games.length) {
       feedStatus.textContent = 'Using the published schedule. No in-progress Yahoo snapshot is available.';
     }
+    if (lineupsAsOf && games.some(game => game.optimized)) {
+      const timestamp = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short',
+      }).format(new Date(lineupsAsOf));
+      get('playoff-lineups').textContent = `Optimized lineups use Yahoo rosters pulled ${timestamp}.`;
+    }
     if (!games.length) {
       get('leverage-heading').closest('section').hidden = true;
       matchups.closest('section').hidden = true;
@@ -293,13 +299,14 @@ async function init() {
       details.className = 'playoff-week';
       details.open = week === weeks[0];
       details.innerHTML = `<summary>Week ${week} <span class="playoff-note" data-week-count>${slate.length} open</span></summary>`;
-      for (const { a, b, id, live } of slate) {
+      for (const { a, b, id, live, optimized } of slate) {
         const row = document.createElement('div');
         row.className = 'playoff-match';
         const [first, second] = [teams[a].owner, teams[b].owner].map(escapeHtml);
-        const liveScore = live ? `<p class="playoff-live-score">
-          <strong>Score so far</strong> ${score(live.p1)}–${score(live.p2)}
-          <span>Yahoo projected final ${score(live.projected1)}–${score(live.projected2)}</span>
+        const liveScore = live || optimized ? `<p class="playoff-live-score">
+          ${optimized ? `<strong>Optimized projection</strong> ${score(optimized.p1)}–${score(optimized.p2)}` : ''}
+          ${live ? `<span>Score so far ${score(live.p1)}–${score(live.p2)}</span>
+            <span>Yahoo set-lineup projection ${score(live.projected1)}–${score(live.projected2)}</span>` : ''}
         </p>` : '';
         row.innerHTML = `<label>${first} vs. ${second}
           <select aria-label="Week ${week}, ${first} vs. ${second}" data-game="${id}">

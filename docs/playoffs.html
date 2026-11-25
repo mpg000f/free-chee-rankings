@@ -82,6 +82,7 @@
       <p>Pick the remaining games and see who gets in.</p>
       <p id="playoff-season" class="playoff-note" role="status">Loading league results…</p>
       <p id="playoff-feed" class="playoff-note"></p>
+      <p id="playoff-lineups" class="playoff-note"></p>
     </header>
 
     <div id="playoff-content" class="playoff-layout" hidden>
@@ -127,7 +128,7 @@
           <summary>How the model works</summary>
           <p>The top eight qualify. Seeds are sorted by winning percentage, then cumulative points for. A tied game counts as half a win. If both record and points for are identical, the display orders those teams alphabetically by owner and the simulation randomly breaks the tie.</p>
           <p>The odds are estimates from 10,000 simulated seasons. It draws independent weekly scores using each team’s full-season average, pulled toward the league average by four games’ worth of weight, and a shared measure of weekly scoring volatility. When you pick a winner, the model only uses score draws where that team wins. Entered scores stay fixed. Standings use the average score from draws consistent with each projected result.</p>
-          <p>The Yahoo scoreboard refresh is scheduled daily. In-progress games use Yahoo’s projected final scores when available, with uncertainty scaled down as points come in. The simulation treats points already scored as a floor. For extreme upsets, a forced winner may be assigned the minimum score needed to win.</p>
+          <p>The daily refresh uses the latest Yahoo rosters and weekly RotoWire player projections via Sleeper to estimate each team’s highest-projected legal lineup. NFL kickoff times from nflverse determine which starters and bench players are locked. After kickoff, points already scored stay with the assigned starters. When an optimized estimate is unavailable, the model uses Yahoo’s set-lineup projection or historical scoring. Uncertainty shrinks as points come in. The simulation treats points already scored as a floor. For extreme upsets, a forced winner may be assigned the minimum score needed to win.</p>
         </details>
       </div>
     </div>
@@ -138,7 +139,7 @@
   </footer>
 
   <script src="js/data-loader.js?v=a6f65639ec"></script>
-  <script src="js/playoffs.js?v=c340cce947" type="module"></script>
+  <script src="js/playoffs.js?v=ef38e79796" type="module"></script>
   <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>
