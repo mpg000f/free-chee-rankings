@@ -463,6 +463,8 @@ h3 { font-size: 1.2rem; }
 .article-image img {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  display: block;
+  margin: 0 auto;
 }
 .article-images {
   display: flex;
@@ -1212,7 +1214,9 @@ h3 { font-size: 1.2rem; }
     transition: max-height .3s ease, padding .3s ease;
   }
   .team-card.expanded .team-writeup {
-    max-height: 2000px;
+    /* JS sets the real height; this is the no-JS ceiling, high enough that a
+       card with a full-width image or a table never gets its bottom cut off */
+    max-height: 12000px;
     padding: 0 1.25rem 1.25rem;
   }
   .team-header::after {
@@ -2056,7 +2060,7 @@ h3 { font-size: 1.2rem; }
 }
 .chart-embed iframe { display: block; width: 100%; border: 0; }
 
-.article-image a { display: inline-block; cursor: zoom-in; }
+.article-image a { display: inline-block; line-height: 0; cursor: zoom-in; }
 
 .tweet-embed { margin: 1.25rem 0; display: flex; justify-content: center; }
 .tweet-embed .twitter-tweet { margin: 0 auto !important; }

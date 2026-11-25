@@ -116,13 +116,39 @@
     }
   }
 
+  // Open/close a card on mobile. The height is measured from the card's own
+  // content instead of a fixed max-height, so tall sections (big images,
+  // tables, video) are never clipped, and it is released to `none` once the
+  // slide finishes so late-loading images can still grow the card.
+  function setExpanded(card, open) {
+    const body = card.querySelector('.team-writeup');
+    if (!body) return;
+    if (open) {
+      body.style.maxHeight = (body.scrollHeight + 24) + 'px';
+      card.classList.add('expanded');
+      const release = () => {
+        body.style.maxHeight = 'none';
+        body.removeEventListener('transitionend', onEnd);
+      };
+      const onEnd = e => { if (e.propertyName === 'max-height') release(); };
+      body.addEventListener('transitionend', onEnd);
+      setTimeout(release, 450);
+      // a tweet inside a collapsed card can't size itself; render it once opened
+      loadTweets(card);
+    } else {
+      body.style.maxHeight = body.scrollHeight + 'px';
+      void body.offsetHeight; // flush, so the collapse actually animates
+      body.style.maxHeight = '';
+      card.classList.remove('expanded');
+    }
+  }
+
   function setupAccordion() {
     if (window.innerWidth > 768) return;
     document.querySelectorAll('.team-card .team-header').forEach(header => {
       header.addEventListener('click', () => {
-        header.parentElement.classList.toggle('expanded');
-        // a tweet inside a collapsed card can't size itself; render it once opened
-        if (header.parentElement.classList.contains('expanded')) loadTweets(header.parentElement);
+        const card = header.parentElement;
+        setExpanded(card, !card.classList.contains('expanded'));
       });
     });
   }
@@ -164,7 +190,7 @@
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       // On mobile, expand it
       if (window.innerWidth <= 768) {
-        el.classList.add('expanded');
+        setExpanded(el, true);
       }
       // Highlight briefly
       el.style.borderColor = 'var(--accent)';
