@@ -8,6 +8,7 @@ const LEAGUE_AVERAGE_WEIGHT = 11;
 const TEAM_STRENGTH_SD = 660;
 const MIN_LIVE_SD = 300;
 const SNAPSHOT_URL = 'https://raw.githubusercontent.com/mpg000f/free-chee-rankings/main/yahoo_data/playoff_snapshot.json';
+const CHAMPIONSHIP_SNAPSHOT_URL = new URL('championship_snapshot.json', SNAPSHOT_URL);
 const SNAPSHOT_MAX_AGE = 36 * 60 * 60 * 1000;
 const toCents = score => Math.round(Number(score) * 100);
 const record = ({ wins, losses, ties }) => ties ? `${wins}-${losses}-${ties}` : `${wins}-${losses}`;
@@ -218,14 +219,15 @@ export function createModel({ teams, games, postseason = [], playoffProjections 
   const offsets = weeklyBoard ? null : Array.from({ length: TRIALS }, () =>
     Array.from({ length: teams.length / 2 }, () => normalDraw(strengthRandom)).flat());
   const samples = makeSamples(games, scoreParameters, offsets);
-  const champion = championshipSimulator(teams, postseason, playoffProjections, scoreParameters);
+  let champion;
   const teamIds = teams.map((_, i) => i);
   const initialWins = teams.map(team => 2 * team.wins + team.ties);
   const initialPoints = teams.map(team => team.points);
   const random = randomSource(114);
   const tiePriorities = Array.from({ length: TRIALS }, () => teams.map(random));
 
-  function run(picks, { includeLeverage = true } = {}) {
+  function run(picks, { includeLeverage = true, includeTitles = true } = {}) {
+    if (includeTitles) champion ??= championshipSimulator(teams, postseason, playoffProjections, scoreParameters);
     const titles = teams.map(() => 0);
     const finishes = teams.map(() => Array(teams.length).fill(0));
     const scenarioWins = [...initialWins];
@@ -265,7 +267,7 @@ export function createModel({ teams, games, postseason = [], playoffProjections 
       const order = [...teamIds].sort(compare);
       for (let place = 0; place < order.length; place++) finishes[order[place]][place]++;
 
-      titles[champion(order, trial)]++;
+      if (includeTitles) titles[champion(order, trial)]++;
       if (!includeLeverage) continue;
 
       for (const game of games) {
@@ -338,7 +340,22 @@ export function americanOdds(count) {
   if (count === TRIALS / 2) return '+100';
   const other = TRIALS - count;
   const magnitude = 100 * Math.max(count, other) / Math.min(count, other);
-  return `${count < other ? '+' : '−'}${Math.round(magnitude / 5) * 5}`;
+  return roundAmericanLine(count < other ? magnitude : -magnitude);
+}
+
+export function roundAmericanLine(line) {
+  return `${line < 0 ? '−' : '+'}${Math.round(Math.abs(line) / 10) * 10}`;
+}
+
+export async function loadWeeklyTitleOdds() {
+  const response = await fetch(CHAMPIONSHIP_SNAPSHOT_URL, { cache: 'no-store', signal: AbortSignal.timeout(6000) });
+  if (!response.ok) throw new Error('Weekly championship snapshot unavailable');
+  const schedule = seasonFromSchedule(await response.json());
+  const { titles } = createModel(schedule, { weeklyBoard: true }).run([], { includeLeverage: false });
+  return {
+    season: schedule.season,
+    lines: new Map(schedule.teams.map(({ owner }, id) => [owner, americanOdds(titles[id])])),
+  };
 }
 
 const swing = (win, loss) => `${win > loss ? '+' : ''}${(100 * (win - loss) / TRIALS).toFixed(1)} pp`;
@@ -386,15 +403,12 @@ async function init() {
   const status = get('playoff-season');
   const content = get('playoff-content');
   try {
-    const schedule = await loadSchedule();
+    const [schedule, weeklyBoard] = await Promise.all([loadSchedule(), loadWeeklyTitleOdds().catch(() => null)]);
     const { season, teams, games, lastCompleted, asOf, lineupsAsOf } = schedule;
     const model = createModel(schedule);
     const matchups = get('playoff-matchups');
-    const projections = schedule.playoffProjections;
-    const projectedWeeks = [15, 16, 17].filter(week => Object.keys(projections[week] ?? {}).length);
-    if (projectedWeeks.length < 3 && !schedule.postseason.some(game => game.round === 'Championship' || game.week === 17 && Number.isFinite(game.p1))) {
-      get('playoff-title-note').textContent = 'Historical scoring fills any gaps in postseason projections.';
-    }
+    const titleLines = weeklyBoard?.season === season ? weeklyBoard.lines : new Map();
+    if (!titleLines.size) get('playoff-title-note').textContent = 'Weekly title lines are temporarily unavailable.';
     const teamSelect = get('playoff-team');
     const gameSelect = get('playoff-game');
     const personalGames = get('playoff-personal-games');
@@ -499,7 +513,7 @@ async function init() {
       const team = teamSelect.value === '' ? -1 : Number(teamSelect.value);
       const pickKey = JSON.stringify(picks);
       if (lastPicks !== pickKey) {
-        result = model.run(picks);
+        result = model.run(picks, { includeTitles: false });
         lastPicks = pickKey;
         for (const detail of matchups.children) {
           const open = [...detail.querySelectorAll('select')].filter(select => !picks[Number(select.dataset.game)]).length;
@@ -518,7 +532,7 @@ async function init() {
           }
         }
       }
-      const { standings, qualifying, leverage, finishes, titles, guaranteed } = result;
+      const { standings, qualifying, leverage, finishes, guaranteed } = result;
       if (team >= 0) {
         for (const select of personalGames.querySelectorAll('select')) {
           const pick = picks[Number(select.dataset.personalGame)];
@@ -529,7 +543,7 @@ async function init() {
         const mostLikely = Math.max(...finishes[team]);
         const places = finishes[team].flatMap((count, index) => count === mostLikely ? [`#${index + 1}`] : []);
         get('personal-playoff-odds').textContent = playoffPercent(qualifying[team], guaranteed[team]);
-        get('personal-title-odds').textContent = americanOdds(titles[team]);
+        get('personal-title-odds').textContent = titleLines.get(teams[team].owner) ?? '—';
         get('personal-finish').textContent = places.join(' or ');
         get('personal-finish-odds').textContent = `${percent(mostLikely)} of simulations${places.length > 1 ? ' each' : ''}`;
       }
@@ -547,7 +561,7 @@ async function init() {
         const { owner, name } = teams[id];
         return `<tr class="${classes}"><td>${index + 1}</td><th scope="row">${escapeHtml(owner)}<small>${escapeHtml(name)}</small></th>
           <td>${record(teams[id])}</td><td>${projected}</td><td>${pf.toFixed(2)}</td>
-          <td>${escapeHtml(playoffPercent(qualifying[id], guaranteed[id]))}</td><td>${americanOdds(titles[id])}</td></tr>`;
+          <td>${escapeHtml(playoffPercent(qualifying[id], guaranteed[id]))}</td><td>${titleLines.get(owner) ?? '—'}</td></tr>`;
       }).join('');
       get('playoff-bracket').innerHTML = [0, 3, 1, 2].map(seed => {
         const opponent = PLAYOFF_TEAMS - 1 - seed;

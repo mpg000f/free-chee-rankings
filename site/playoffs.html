@@ -96,7 +96,7 @@
           <div id="playoff-personal-games" class="playoff-personal-games"></div>
           <div class="playoff-metrics playoff-personal-metrics" aria-live="polite" aria-atomic="true">
             <div><span>Make playoffs</span><strong id="personal-playoff-odds">—</strong></div>
-            <div><span>Win championship</span><strong id="personal-title-odds">—</strong></div>
+            <div><span>Weekly title line</span><strong id="personal-title-odds">—</strong></div>
             <div>
               <span>Most likely finish</span><strong id="personal-finish">—</strong>
               <span id="personal-finish-odds"></span>
@@ -132,11 +132,11 @@
           <p id="playoff-table-note" class="playoff-note">The projected seed and record show one finish using your picks and the model’s favorites for open games. Playoff odds use all simulations.</p>
           <div class="playoff-table-wrap" role="region" aria-label="Projected standings table" tabindex="0">
             <table class="playoff-table" aria-describedby="playoff-table-note">
-              <thead><tr><th scope="col">Seed</th><th scope="col">Team</th><th scope="col">Current</th><th scope="col">Projected</th><th scope="col">Proj. PF</th><th scope="col">Playoff odds</th><th scope="col">Title odds</th></tr></thead>
+              <thead><tr><th scope="col">Seed</th><th scope="col">Team</th><th scope="col">Current</th><th scope="col">Projected</th><th scope="col">Proj. PF</th><th scope="col">Playoff odds</th><th scope="col">Weekly title line</th></tr></thead>
               <tbody id="playoff-standings"></tbody>
             </table>
           </div>
-          <p class="playoff-note">Title odds use American lines rounded to the nearest five, with no vig. A dash means the simulation produced no finite line.</p>
+          <p class="playoff-note">Weekly title lines match the Committee Sportsbook. American odds are rounded to the nearest 10, with no vig. A dash means no line is available.</p>
           <p id="playoff-title-note" class="playoff-note"></p>
           <h3 class="playoff-bracket-title">Projected quarterfinals</h3>
           <ul id="playoff-bracket" class="playoff-bracket"></ul>
@@ -159,7 +159,7 @@
   </footer>
 
   <script src="js/data-loader.js?v=df2ed1c70b"></script>
-  <script src="js/playoffs.js?v=6659fa0568" type="module"></script>
+  <script src="js/playoffs.js?v=2528d84902" type="module"></script>
   <script src="js/nav-menu.js?v=1c4ce25fc9"></script>
 </body>
 </html>
